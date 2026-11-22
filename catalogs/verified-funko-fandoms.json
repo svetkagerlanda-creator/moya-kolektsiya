@@ -307,10 +307,11 @@
           "catalogPosition": "1",
           "rarity": "",
           "manufacturer": "Funko",
-          "seriesNumber": "",
-          "sourceUrl": "https://funko.com/ca/harry-potter-plush-keychain-mystery-minis/86762.html",
-          "photo": "",
-          "description": "Plush keychain Mystery Minis; manufacturer odds 1/6"
+          "seriesNumber": "86762b",
+          "sourceUrl": "https://funko.com/dobby-plush-keychain/86762b.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw6cf9314f/images/funko/upload/86762b.png?sh=800&sw=800",
+          "description": "Plush keychain Mystery Minis; manufacturer odds 1/6",
+          "photoCredit": "Funko official individual product photo"
         },
         {
           "name": "Fawkes",
@@ -318,10 +319,11 @@
           "catalogPosition": "2",
           "rarity": "",
           "manufacturer": "Funko",
-          "seriesNumber": "",
-          "sourceUrl": "https://funko.com/ca/harry-potter-plush-keychain-mystery-minis/86762.html",
-          "photo": "",
-          "description": "Plush keychain Mystery Minis; manufacturer odds 1/6"
+          "seriesNumber": "86762e",
+          "sourceUrl": "https://funko.com/fawkes-plush-keychain/86762e.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwb3d545f5/images/funko/upload/86762e.png?sh=800&sw=800",
+          "description": "Plush keychain Mystery Minis; manufacturer odds 1/6",
+          "photoCredit": "Funko official individual product photo"
         },
         {
           "name": "Hedwig",
@@ -329,10 +331,11 @@
           "catalogPosition": "3",
           "rarity": "",
           "manufacturer": "Funko",
-          "seriesNumber": "",
-          "sourceUrl": "https://funko.com/ca/harry-potter-plush-keychain-mystery-minis/86762.html",
-          "photo": "",
-          "description": "Plush keychain Mystery Minis; manufacturer odds 1/6"
+          "seriesNumber": "86762a",
+          "sourceUrl": "https://funko.com/hedwig-plush-keychain/86762a.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw95f9f320/images/funko/upload/86762a.png?sh=800&sw=800",
+          "description": "Plush keychain Mystery Minis; manufacturer odds 1/6",
+          "photoCredit": "Funko official individual product photo"
         },
         {
           "name": "Cornish Pixie",
@@ -340,10 +343,11 @@
           "catalogPosition": "4",
           "rarity": "",
           "manufacturer": "Funko",
-          "seriesNumber": "",
-          "sourceUrl": "https://funko.com/ca/harry-potter-plush-keychain-mystery-minis/86762.html",
-          "photo": "",
-          "description": "Plush keychain Mystery Minis; manufacturer odds 1/6"
+          "seriesNumber": "86762f",
+          "sourceUrl": "https://funko.com/cornish-pixie-plush-keychain/86762f.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwaf2ca9da/images/funko/upload/86762f.png?sh=800&sw=800",
+          "description": "Plush keychain Mystery Minis; manufacturer odds 1/6",
+          "photoCredit": "Funko official individual product photo"
         },
         {
           "name": "Crookshanks",
@@ -351,10 +355,11 @@
           "catalogPosition": "5",
           "rarity": "",
           "manufacturer": "Funko",
-          "seriesNumber": "",
-          "sourceUrl": "https://funko.com/ca/harry-potter-plush-keychain-mystery-minis/86762.html",
-          "photo": "",
-          "description": "Plush keychain Mystery Minis; manufacturer odds 1/6"
+          "seriesNumber": "86762c",
+          "sourceUrl": "https://funko.com/crookshanks-plush-keychain/86762c.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1f7e391a/images/funko/upload/86762c.png?sh=800&sw=800",
+          "description": "Plush keychain Mystery Minis; manufacturer odds 1/6",
+          "photoCredit": "Funko official individual product photo"
         },
         {
           "name": "Sorting Hat",
@@ -362,10 +367,11 @@
           "catalogPosition": "6",
           "rarity": "",
           "manufacturer": "Funko",
-          "seriesNumber": "",
-          "sourceUrl": "https://funko.com/ca/harry-potter-plush-keychain-mystery-minis/86762.html",
-          "photo": "",
-          "description": "Plush keychain Mystery Minis; manufacturer odds 1/6"
+          "seriesNumber": "86762d",
+          "sourceUrl": "https://funko.com/sorting-hat-plush-keychain/86762d.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwcb394aa9/images/funko/upload/86762d.png?sh=800&sw=800",
+          "description": "Plush keychain Mystery Minis; manufacturer odds 1/6",
+          "photoCredit": "Funko official individual product photo"
         }
       ],
       "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwcb19d1b7/images/funko/upload/86762_HP_MysteryMiniPlush_PDQ_GLAM_1-WEB.png?sh=800&sw=800"
