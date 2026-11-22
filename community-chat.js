@@ -3,7 +3,7 @@
 'use strict';
 const URLROOT='https://nihheolmwvkgtvtmfzsv.supabase.co';
 const KEY='sb_publishable_M_mIhlp0ZqintLb0ONy8BQ_SzEBCAT0';
-const st={id:'',people:[],mode:'general',target:'',thread:'',threads:[],general:[],direct:[],blocked:[],busy:false,loaded:false,error:'',info:'',refresh:null,fetching:false};
+const st={id:'',people:[],mode:'general',target:'',thread:'',threads:[],general:[],direct:[],blocked:[],announcement:null,busy:false,loaded:false,error:'',info:'',refresh:null,fetching:false};
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const tr=s=>window.CollectorI18n?.translate(s,document.documentElement.lang||'uk')||s;
 const pname=id=>{const person=st.people.find(p=>p.id===id);return person?.display_name||person?.handle||tr('Колекціонер')};
@@ -40,20 +40,21 @@ function start(userId){
  if(existing)refreshMessages();
 }
 function setup(id,people){
- if(st.id!==id)Object.assign(st,{id,people:people||[],mode:'general',target:'',thread:'',threads:[],general:[],direct:[],blocked:[],loaded:false,error:'',info:'',busy:false,fetching:false});
+ if(st.id!==id)Object.assign(st,{id,people:people||[],mode:'general',target:'',thread:'',threads:[],general:[],direct:[],blocked:[],announcement:null,loaded:false,error:'',info:'',busy:false,fetching:false});
  else st.people=people||[];
 }
-function clean(){st.id='';st.loaded=false;st.threads=[];st.general=[];st.direct=[];st.blocked=[];st.target='';st.thread='';clearInterval(timer);timer=null}
+function clean(){st.id='';st.loaded=false;st.threads=[];st.general=[];st.direct=[];st.blocked=[];st.announcement=null;st.target='';st.thread='';clearInterval(timer);timer=null}
 async function refreshAll(){
  if(st.fetching||!st.id)return;
  st.fetching=true;
  try{
-  const [threads,global,blocks]=await Promise.all([
+  const [threads,global,blocks,announcements]=await Promise.all([
    api('collector_dm_threads','select=id,user_low,user_high,created_at&order=created_at.desc&limit=100'),
    api('collector_global_chat','select=id,sender_id,body,created_at&order=created_at.desc&limit=100'),
-   api('collector_blocks','select=blocked_id&limit=200')
+   api('collector_blocks','select=blocked_id&limit=200'),
+   api('collector_chat_announcements','select=id,title,body,author_name,updated_at&id=eq.welcome_beta_1&is_active=eq.true&limit=1')
   ]);
-  st.threads=threads||[];st.general=(global||[]).reverse();st.blocked=blocks||[];
+  st.threads=threads||[];st.general=(global||[]).reverse();st.blocked=blocks||[];st.announcement=announcements?.[0]||null;
   st.loaded=true;st.error='';
   if(st.target){
    const match=st.threads.find(t=>[t.user_low,t.user_high].includes(st.target));
@@ -74,8 +75,13 @@ async function refreshMessages(silent=false){
 let timer=null;
 function activate(){if(timer)return;timer=setInterval(()=>{if(document.visibilityState==='visible'&&navigator.onLine&&st.id&&!st.busy)refreshAll()},12000)}
 function deactivate(){if(timer){clearInterval(timer);timer=null}}
+function pinnedWelcome(){
+ const a=st.announcement;if(!a)return '';
+ return '<section class="cc-pinned" role="note" aria-label="'+tr('Закріплене повідомлення')+'"><div class="cc-pinned-heading"><span>📌 '+tr('Закріплене повідомлення')+'</span><small>'+esc(a.author_name)+'</small></div><h3>'+esc(a.title)+'</h3><div class="cc-pinned-body">'+esc(a.body)+'</div></section>';
+}
 function general(){
  return '<section class="cc-panel"><div class="cc-title"><h3>🌍 '+tr('Загальний чат')+'</h3><span class="muted">'+tr('Повідомлення бачать зареєстровані користувачі')+'</span></div>'
+ +pinnedWelcome()
  +'<div class="cc-history" id="ccHistory">'+(st.general.length?st.general.map(m=>messageView(m,'global')).join(''):'<div class="empty">'+tr('Напиши перше повідомлення спільноті!')+'</div>')+'</div>'
  +compose('global')+'</section>';
 }
@@ -173,7 +179,7 @@ function attach(refresh){
  const history=document.getElementById('ccHistory');if(history&&!history.dataset.initialScroll){history.scrollTop=history.scrollHeight;history.dataset.initialScroll='yes'}
  activate();
 }
-const css='.cc-wrap{display:grid;gap:14px}.cc-modes{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:5px;background:var(--panel);border:1px solid var(--edge);border-radius:16px}.cc-modes button{border:0;border-radius:12px;background:transparent;color:var(--fg);padding:13px 7px;cursor:pointer;font-weight:650}.cc-modes button.active{background:var(--pale);color:var(--accent)}.cc-title{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}.cc-title h3{margin:0}.cc-panel{background:var(--panel);border:1px solid var(--edge);border-radius:16px;padding:15px;display:grid;gap:12px;min-width:0}.cc-history{height:360px;overflow-y:auto;display:flex;flex-direction:column;gap:10px;padding:8px;background:var(--bg);border-radius:14px;border:1px solid var(--edge)}.cc-message{max-width:min(85%,610px);padding:10px 13px;background:var(--panel);border-radius:12px;overflow-wrap:anywhere}.cc-message.cc-own{margin-left:auto;background:var(--pale)}.cc-message p{margin:7px 0;white-space:pre-wrap}.cc-message-head{display:flex;gap:10px;align-items:center}.cc-message-head small{color:var(--sub)}.cc-message-tools{display:flex;gap:6px;flex-wrap:wrap}.cc-message-tools button{padding:6px 9px;font-size:11px}.cc-compose{display:flex;gap:9px;align-items:end}.cc-compose textarea{flex:1;min-width:0;resize:vertical}.cc-compose button{align-self:stretch}.cc-layout{display:grid;grid-template-columns:minmax(200px,260px) minmax(0,1fr);gap:12px}.cc-inbox{background:var(--panel);border:1px solid var(--edge);border-radius:16px;padding:12px;min-width:0}.cc-inbox h3{margin:0 0 12px}.cc-inbox label{display:grid;gap:7px}.cc-peer-list{display:grid;gap:6px;margin-top:12px}.cc-peer{border:1px solid var(--edge);padding:11px;border-radius:11px;background:var(--panel);color:var(--fg);text-align:left;cursor:pointer}.cc-peer.active{background:var(--pale);border-color:var(--accent)}.cc-peer small{display:block;color:var(--sub);margin-top:4px}@media(max-width:680px){.cc-layout{grid-template-columns:1fr}.cc-history{height:320px}.cc-compose{flex-direction:column;align-items:stretch}.cc-compose button{align-self:flex-end}}';
+const css='.cc-pinned{padding:15px 17px;border:1px solid var(--accent);border-radius:16px;background:var(--pale);color:var(--fg);box-shadow:0 2px 10px #0000000b}.cc-pinned-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:7px;color:var(--accent);font-size:13px;font-weight:800}.cc-pinned-heading small{color:var(--sub);font-weight:600}.cc-pinned h3{margin:12px 0 10px;font-size:17px}.cc-pinned-body{white-space:pre-wrap;line-height:1.6;font-size:14px;overflow-wrap:anywhere}.cc-wrap{display:grid;gap:14px}.cc-modes{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:5px;background:var(--panel);border:1px solid var(--edge);border-radius:16px}.cc-modes button{border:0;border-radius:12px;background:transparent;color:var(--fg);padding:13px 7px;cursor:pointer;font-weight:650}.cc-modes button.active{background:var(--pale);color:var(--accent)}.cc-title{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}.cc-title h3{margin:0}.cc-panel{background:var(--panel);border:1px solid var(--edge);border-radius:16px;padding:15px;display:grid;gap:12px;min-width:0}.cc-history{height:360px;overflow-y:auto;display:flex;flex-direction:column;gap:10px;padding:8px;background:var(--bg);border-radius:14px;border:1px solid var(--edge)}.cc-message{max-width:min(85%,610px);padding:10px 13px;background:var(--panel);border-radius:12px;overflow-wrap:anywhere}.cc-message.cc-own{margin-left:auto;background:var(--pale)}.cc-message p{margin:7px 0;white-space:pre-wrap}.cc-message-head{display:flex;gap:10px;align-items:center}.cc-message-head small{color:var(--sub)}.cc-message-tools{display:flex;gap:6px;flex-wrap:wrap}.cc-message-tools button{padding:6px 9px;font-size:11px}.cc-compose{display:flex;gap:9px;align-items:end}.cc-compose textarea{flex:1;min-width:0;resize:vertical}.cc-compose button{align-self:stretch}.cc-layout{display:grid;grid-template-columns:minmax(200px,260px) minmax(0,1fr);gap:12px}.cc-inbox{background:var(--panel);border:1px solid var(--edge);border-radius:16px;padding:12px;min-width:0}.cc-inbox h3{margin:0 0 12px}.cc-inbox label{display:grid;gap:7px}.cc-peer-list{display:grid;gap:6px;margin-top:12px}.cc-peer{border:1px solid var(--edge);padding:11px;border-radius:11px;background:var(--panel);color:var(--fg);text-align:left;cursor:pointer}.cc-peer.active{background:var(--pale);border-color:var(--accent)}.cc-peer small{display:block;color:var(--sub);margin-top:4px}@media(max-width:680px){.cc-layout{grid-template-columns:1fr}.cc-history{height:320px}.cc-compose{flex-direction:column;align-items:stretch}.cc-compose button{align-self:flex-end}}';
 const style=document.createElement('style');style.textContent=css;document.head.appendChild(style);
 window.CollectorChats={setup,render,attach,start,clean,deactivate};
 })();
