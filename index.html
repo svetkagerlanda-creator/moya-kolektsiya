@@ -77,11 +77,11 @@ const FANDOMS=[
  {key:'mlp',name:'My Little Pony',icon:'🦄',pattern:/my little pony|mlp|kayou|hasbro|equestria|ponyville|cutie mark|fluttershy|twilight sparkle/i},
  {key:'naruto',name:'Naruto',icon:'🍥',pattern:/naruto|shippuden|boruto|uzumaki|akatsuki/i},
  {key:'demonslayer',name:'Demon Slayer',icon:'⚔️',pattern:/demon slayer|kimetsu|tanjiro|nezuko/i},
- {key:'kpop',name:'KPop Demon Hunters',icon:'🎤',pattern:/kpop demon hunters|huntr.x|saja boys|rumi|mira|zoey/i},
+ {key:'kpop',name:'KPop Demon Hunters',icon:'🎤',pattern:/kpop demon hunters|huntr.x|saja boys/i},
  {key:'doctorwho',name:'Doctor Who',icon:'🔷',pattern:/doctor who|tardis|dalek/i},
  {key:'other',name:'Інші всесвіти',icon:'🌟',pattern:/$^/}
 ];
-function fandomMatch(value){let text=String(value||'');return FANDOMS.find(f=>f.key!=='other'&&f.pattern.test(text))?.key||'other'}
+function fandomMatch(value){let text=String(value||'');return FANDOMS.find(f=>f.key!=='other'&&f.key!=='mlp'&&f.pattern.test(text))?.key||(FANDOMS[0].pattern.test(text)?'mlp':'other')}
 function fandomAncestor(folderId){let seen=new Set;while(folderId&&!seen.has(folderId)){seen.add(folderId);let f=getfolder(folderId);if(!f)break;if(f.kind==='fandom'&&f.fandomKey)return f.fandomKey;folderId=f.parent}return null}
 function fandomOfFolder(f){return fandomAncestor(f?.id)||fandomMatch(f?.name)}
 function fandomOfSeries(s){return fandomMatch([s.name,s.group,s.note].join(' '))}
