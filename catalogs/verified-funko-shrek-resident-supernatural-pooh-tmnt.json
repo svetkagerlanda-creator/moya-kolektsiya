@@ -194,29 +194,29 @@
       "verified": true,
       "completeness": "verified-selected-releases",
       "count": 2,
-      "coverPhoto": "",
+      "coverPhoto": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw04033d80/images/funko/upload/1/88648_POP_TMNT_Leonardo%28GR%29%28TRL%29_GLAM-WEB.png",
       "items": [
         {
           "name": "Leonardo (Translucent Green)",
-          "figureNumber": "",
+          "figureNumber": "#1704",
           "catalogPosition": "1",
           "rarity": "",
           "manufacturer": "Funko",
           "seriesNumber": "88648",
           "sourceUrl": "https://funko.com/pop-leonardo-translucent-green/88648.html",
-          "photo": "",
-          "description": "Funko POP! item 88648"
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw04033d80/images/funko/upload/1/88648_POP_TMNT_Leonardo%28GR%29%28TRL%29_GLAM-WEB.png",
+          "description": "Funko POP! item 88648; box #1704"
         },
         {
           "name": "Michelangelo (Translucent Green)",
-          "figureNumber": "",
+          "figureNumber": "#1701",
           "catalogPosition": "2",
           "rarity": "",
           "manufacturer": "Funko",
           "seriesNumber": "88645",
           "sourceUrl": "https://funko.com/im/pop-michelangelo-translucent-green/88645.html",
-          "photo": "",
-          "description": "Funko POP! item 88645"
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw5f1671f4/images/funko/upload/88645_POP-COMICS_TMNT_Michelangelo-%28GR%29%28TRL%29_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 88645; box #1701"
         }
       ]
     }
