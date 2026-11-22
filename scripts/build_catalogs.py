@@ -17,6 +17,17 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "catalogs" / "verified-kayou.json"
 SOURCES = [
     ("Kayou · Moon Edition · Series 1", "kayou-mlp-moon-001-na", 186),
+    ("Kayou TCG · Friendships Begin — Twilight Sparkle", "kayou-mlp-friendships-begin-twilight-sparkle-na", 21),
+    ("Kayou TCG · Friendships Begin — Fluttershy", "kayou-mlp-friendships-begin-fluttershy-na", 21),
+    ("Kayou TCG · Friendships Begin — Pinkie Pie", "kayou-mlp-friendships-begin-pinkie-pie-na", 21),
+    ("Kayou TCG · Friendships Begin — Applejack", "kayou-mlp-friendships-begin-applejack-na", 21),
+    ("Kayou TCG · Friendships Begin — Rainbow Dash", "kayou-mlp-friendships-begin-rainbow-dash-na", 21),
+    ("Kayou TCG · Friendships Begin — Rarity", "kayou-mlp-friendships-begin-rarity-na", 21),
+    ("Kayou TCG · Friendships Begin — Bonus Pack", "kayou-mlp-friendships-begin-bonus-pack-na", 68),
+    ("Kayou TCG · Booster Pack — Fantasy Wonderland", "kayou-mlp-booster-fantasy-wonderland-na", 191),
+    ("Kayou TCG · Booster Pack — Discord!!!", "kayou-series-ry03llcx", 191),
+    ("Kayou TCG · Booster Pack — Nightmare Night", "kayou-series-27z4pa09", 190),
+    ("Kayou TCG · Booster Pack — Hearth's Warming Eve", "kayou-series-i9q374dz", 197),
     ("Kayou · Fun Moments Edition · Series 1", "kayou-mlp-fun-moments-001-na", 127),
     ("Kayou · Star Edition · Series 1", "kayou-mlp-star-001-na", 105),
     ("Kayou · Moon Edition · Series 2", "kayou-mlp-moon-002-na", 189),
@@ -28,7 +39,7 @@ SOURCES = [
     ("Kayou · Rainbow Edition · Series 1", "kayou-mlp-rainbow-001-na", 146),
     ("Kayou · Rainbow Edition · Series 2", "kayou-mlp-rainbow-002-na", 170),
 ]
-CARD_RE = re.compile(r"(MLP-[A-Z]+\d{2}-[A-Z0-9]+-\d{3})", re.I)
+CARD_RE = re.compile(r"(MLP-(?:[A-Z0-9]+-){1,4}\d{3})", re.I)
 session = requests.Session()
 session.headers.update({"User-Agent": "MoyaKolektsiyaCatalogBuilder/1.0 (+public catalog indexing)"})
 
