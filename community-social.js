@@ -110,7 +110,7 @@ async function action(kind,id){
 }
 function attach(session,refresh){
  state.refresh=refresh;
- window.CollectorChats?.connect?.(refresh);if(!state.loaded&&!state.loading){reload();return}
+ window.CollectorChats?.connect?.(refresh);if(!state.loaded){if(!state.loading&&!state.error)reload();else if(state.error)document.querySelector('[data-sc="refresh"]')?.addEventListener('click',()=>{state.error='';reload()});return}
  document.querySelectorAll('[data-sc-tab]').forEach(el=>el.onclick=()=>{state.tab=el.dataset.scTab;state.person=null;state.editing=false;state.posting=false;if(state.tab!=='chats')window.CollectorChats?.deactivate();refresh()});
  if(state.tab==='chats')window.CollectorChats?.attach(refresh);else window.CollectorChats?.deactivate();
  document.querySelectorAll('[data-sc-feed]').forEach(el=>el.onclick=()=>{state.feedMode=el.dataset.scFeed==='following'?'following':'all';refresh()});
