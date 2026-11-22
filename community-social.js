@@ -8,6 +8,9 @@ const link=x=>{try{let u=new URL(x);return u.protocol==='https:'?u.href:null}cat
 const person=id=>state.people.find(p=>p.id===id)||null;
 const pic=(p,large=false)=>{let a=media(p?.avatar_path);return '<span class="sc-avatar '+(large?'large':'')+'">'+(a?'<img src="'+escape(a)+'" alt="" loading="lazy">':escape((p?.display_name||p?.handle||'?')[0].toUpperCase()))+'</span>'};
 const label=p=>p?.display_name||p?.handle||'Колекціонер';
+const cropNumber=value=>Number.isFinite(Number(value))?Math.max(0,Math.min(100,Math.round(Number(value)))):50;
+const cropStyle=p=>'background-position:'+cropNumber(p?.cover_position_x)+'% '+cropNumber(p?.cover_position_y)+'%';
+
 function fail(x){state.error=String(x?.message||x);state.refresh?.()}
 async function api(table,params='',method='GET',body){
  const token=await window.CollectorCommunity?.getAccessToken?.();if(!token)throw Error('Сеанс завершився. Увійди повторно.');
@@ -23,7 +26,7 @@ async function reload(){
  if(state.loading)return;state.loading=true;
  try{
   const [people,posts,likes,comments,follows,fandoms,fandomFollows]=await Promise.all([
-   api('collector_profiles','select=id,handle,display_name,bio,avatar_path,cover_path,social_links,is_discoverable&limit=200'),
+   api('collector_profiles','select=id,handle,display_name,bio,avatar_path,cover_path,cover_position_x,cover_position_y,social_links,is_discoverable&limit=200'),
    api('collector_posts','select=id,user_id,title,body,photo_path,fandom_id,created_at&order=created_at.desc&limit=100'),
    api('collector_post_likes','select=post_id,user_id&limit=2500'),
    api('collector_post_comments','select=id,post_id,user_id,body,created_at&order=created_at.asc&limit=2500'),
@@ -38,11 +41,11 @@ function stats(id){return '<div class="sc-stats"><span><b>'+state.posts.filter(p
 function profileCard(p){
  let own=p.id===state.id,following=state.follows.some(f=>f.follower_id===state.id&&f.followed_id===p.id);
  const socials=Object.entries({instagram:'Instagram',tiktok:'TikTok',telegram:'Telegram',youtube:'YouTube',booknet:'Букнет',website:'Сайт'}).filter(([k])=>link(p.social_links?.[k])).map(([k,v])=>'<a href="'+escape(link(p.social_links[k]))+'" rel="noopener noreferrer" target="_blank">'+v+' ↗</a>').join('');
- return '<div class="card sc-profile"><div class="sc-cover"'+(media(p.cover_path)?' style="background-image:url(&quot;'+escape(media(p.cover_path))+'&quot;)"':'')+'></div><div class="sc-person">'+pic(p,true)+'<div><h2>'+escape(label(p))+'</h2><span class="muted">@'+escape(p.handle)+'</span></div></div><p class="sc-bio">'+(p.bio?escape(p.bio):'<span class="muted">Тут поки немає опису профілю</span>')+'</p><div class="sc-links">'+socials+'</div>'+stats(p.id)+'<div class="sc-actions">'+(own?'<button class="btn" data-sc="edit">✎ Редагувати</button><button class="alt" data-sc="newpost">＋ Нове придбання</button>':'<button class="btn" data-sc="follow" data-id="'+p.id+'">'+(following?'✓ Відписатися':'＋ Стежити')+'</button><button class="alt" data-sc-tab="people">← Колекціонери</button>')+'</div>'+(own?'<p class="muted">'+(p.is_discoverable?'🌐 Публічний профіль':'🔒 Приватний профіль — жодні колекції не публікуються автоматично')+'</p>':'')+'</div>';
+ return '<div class="card sc-profile"><div class="sc-cover"'+(media(p.cover_path)?' style="background-image:url(&quot;'+escape(media(p.cover_path))+'&quot;);'+cropStyle(p)+'"':'')+'></div><div class="sc-person">'+pic(p,true)+'<div><h2>'+escape(label(p))+'</h2><span class="muted">@'+escape(p.handle)+'</span></div></div><p class="sc-bio">'+(p.bio?escape(p.bio):'<span class="muted">Тут поки немає опису профілю</span>')+'</p><div class="sc-links">'+socials+'</div>'+stats(p.id)+'<div class="sc-actions">'+(own?'<button class="btn" data-sc="edit">✎ Редагувати</button><button class="alt" data-sc="newpost">＋ Нове придбання</button>':'<button class="btn" data-sc="follow" data-id="'+p.id+'">'+(following?'✓ Відписатися':'＋ Стежити')+'</button><button class="alt" data-sc-tab="people">← Колекціонери</button>')+'</div>'+(own?'<p class="muted">'+(p.is_discoverable?'🌐 Публічний профіль':'🔒 Приватний профіль — жодні колекції не публікуються автоматично')+'</p>':'')+'</div>';
 }
 function editForm(p){
  const fields=Object.entries({instagram:'Instagram',tiktok:'TikTok',telegram:'Telegram',youtube:'YouTube',booknet:'Букнет',website:'Сайт'}).map(([k,n])=>'<label>'+n+'<input class="field" type="url" name="'+k+'" placeholder="https://..." value="'+escape(p.social_links?.[k]||'')+'"></label>').join('');
- return '<form class="card form" id="scEdit"><h3>Налаштування профілю</h3><label>Аватар (до 3 МБ)<input class="field" name="avatar" type="file" accept="image/jpeg,image/png,image/webp"></label><label>Обкладинка профілю (до 3 МБ)<input class="field" name="cover" type="file" accept="image/jpeg,image/png,image/webp"></label><label class="sc-check"><input type="checkbox" name="remove_cover"> Повернути стандартний градієнт</label><label>Ім’я<input class="field" name="display_name" maxlength="80" value="'+escape(p.display_name)+'"></label><label>Про себе<textarea class="field" name="bio" maxlength="1200" rows="4">'+escape(p.bio)+'</textarea></label><div class="sc-fields">'+fields+'</div><label class="sc-check"><input type="checkbox" name="is_discoverable" '+(p.is_discoverable?'checked':'')+'> Мій профіль публічний</label><div class="muted">Відкритий профіль дозволяє підписуватися на тебе і бачити добровільно опубліковані придбання.</div><div class="sc-actions"><button class="btn" type="submit">Зберегти</button><button class="alt" data-sc="cancel-edit" type="button">Скасувати</button></div></form>';
+ return '<form class="card form" id="scEdit"><h3>Налаштування профілю</h3><label>Аватар (до 3 МБ)<input class="field" name="avatar" type="file" accept="image/jpeg,image/png,image/webp"></label><label>Обкладинка профілю (до 3 МБ)<input class="field" name="cover" type="file" accept="image/jpeg,image/png,image/webp"></label><div class="sc-cover-editor"><div class="sc-cover-help">Перетягни зображення, щоб вибрати видиму частину банера, або скористайся повзунками.</div><div class="sc-cover-preview" id="scCoverPreview" tabindex="0" role="img" aria-label="Попередній перегляд кадрування обкладинки" style="'+(media(p.cover_path)?'background-image:url(&quot;'+escape(media(p.cover_path))+'&quot;);':'')+cropStyle(p)+'"></div><label>Горизонтально <output id="scCropXLabel">'+cropNumber(p.cover_position_x)+'%</output><input class="field" type="range" name="cover_position_x" min="0" max="100" step="1" value="'+cropNumber(p.cover_position_x)+'"></label><label>Вертикально <output id="scCropYLabel">'+cropNumber(p.cover_position_y)+'%</output><input class="field" type="range" name="cover_position_y" min="0" max="100" step="1" value="'+cropNumber(p.cover_position_y)+'"></label><button class="alt" type="button" id="scCropCenter">Центрувати зображення</button></div><label class="sc-check"><input type="checkbox" name="remove_cover"> Повернути стандартний градієнт</label><label>Ім’я<input class="field" name="display_name" maxlength="80" value="'+escape(p.display_name)+'"></label><label>Про себе<textarea class="field" name="bio" maxlength="1200" rows="4">'+escape(p.bio)+'</textarea></label><div class="sc-fields">'+fields+'</div><label class="sc-check"><input type="checkbox" name="is_discoverable" '+(p.is_discoverable?'checked':'')+'> Мій профіль публічний</label><div class="muted">Відкритий профіль дозволяє підписуватися на тебе і бачити добровільно опубліковані придбання.</div><div class="sc-actions"><button class="btn" type="submit">Зберегти</button><button class="alt" data-sc="cancel-edit" type="button">Скасувати</button></div></form>';
 }
 function createForm(){
  return '<form class="card form" id="scPost"><h3>Нове придбання 📦</h3><p class="muted">Опублікуй лише те, чим хочеш поділитися. Автоматичних дописів немає.</p><label>Назва<input class="field" name="title" minlength="2" maxlength="160" required placeholder="Моя нова фігурка"></label><label>Опис<textarea class="field" name="body" maxlength="2000" rows="3"></textarea></label><label>Фандом<select name="fandom_id" class="field"><option value="">Без фандому</option>'+state.fandoms.map(f=>'<option value="'+f.id+'">'+escape(f.title)+'</option>').join('')+'</select></label><label>Фото<input class="field" name="photo" type="file" accept="image/jpeg,image/png,image/webp"></label><div class="sc-actions"><button class="btn" type="submit">Опублікувати</button><button class="alt" type="button" data-sc="cancel-post">Скасувати</button></div></form>';
@@ -107,10 +110,69 @@ function attach(session,refresh){
  document.querySelectorAll('[data-sc]').forEach(el=>el.onclick=()=>action(el.dataset.sc,el.dataset.id));
  document.getElementById('scSearch')?.addEventListener('input',ev=>{let q=ev.target.value.toLocaleLowerCase();document.querySelectorAll('.sc-tile').forEach(el=>el.hidden=!el.textContent.toLocaleLowerCase().includes(q))});
  const edit=document.getElementById('scEdit');
+ if(edit){
+  const f=edit.elements,preview=document.getElementById('scCoverPreview');
+  let objectUrl=null;
+  const updateCrop=()=>{
+   const x=cropNumber(f.cover_position_x.value),y=cropNumber(f.cover_position_y.value);
+   preview.style.backgroundPosition=x+'% '+y+'%';
+   document.getElementById('scCropXLabel').value=x+'%';
+   document.getElementById('scCropYLabel').value=y+'%';
+  };
+  const inputFile=()=>{
+   if(objectUrl){URL.revokeObjectURL(objectUrl);objectUrl=null}
+   const file=f.cover.files[0];
+   if(file){
+    if(!['image/jpeg','image/png','image/webp'].includes(file.type)||file.size>3145728){
+     f.cover.value='';fail('Обкладинка має бути JPG, PNG або WEBP до 3 МБ.');return;
+    }
+    objectUrl=URL.createObjectURL(file);
+    preview.style.backgroundImage='url("'+objectUrl+'")';
+   }else preview.style.backgroundImage=`url("${media(state.profile?.cover_path)||''}")`;
+   updateCrop();
+  };
+  f.cover.addEventListener('change',inputFile);
+  f.cover_position_x.addEventListener('input',updateCrop);
+  f.cover_position_y.addEventListener('input',updateCrop);
+  document.getElementById('scCropCenter').addEventListener('click',()=>{
+   f.cover_position_x.value=50;f.cover_position_y.value=50;updateCrop();
+  });
+  let pointer=null;
+  preview.addEventListener('pointerdown',event=>{
+   if(event.button!==0)return;
+   pointer={id:event.pointerId,x:event.clientX,y:event.clientY,initialX:Number(f.cover_position_x.value),initialY:Number(f.cover_position_y.value)};
+   preview.setPointerCapture(event.pointerId);
+  });
+  preview.addEventListener('pointermove',event=>{
+   if(!pointer||pointer.id!==event.pointerId)return;
+   const box=preview.getBoundingClientRect();
+   f.cover_position_x.value=cropNumber(pointer.initialX-(event.clientX-pointer.x)*100/Math.max(box.width,1));
+   f.cover_position_y.value=cropNumber(pointer.initialY-(event.clientY-pointer.y)*100/Math.max(box.height,1));
+   updateCrop();
+  });
+  const finish=()=>{pointer=null};
+  preview.addEventListener('pointerup',finish);
+  preview.addEventListener('pointercancel',finish);
+  preview.addEventListener('lostpointercapture',finish);
+  preview.addEventListener('keydown',event=>{
+   const delta=event.shiftKey?10:2;
+   if(event.key==='ArrowUp')f.cover_position_y.value=cropNumber(Number(f.cover_position_y.value)-delta);
+   else if(event.key==='ArrowDown')f.cover_position_y.value=cropNumber(Number(f.cover_position_y.value)+delta);
+   else if(event.key==='ArrowLeft')f.cover_position_x.value=cropNumber(Number(f.cover_position_x.value)-delta);
+   else if(event.key==='ArrowRight')f.cover_position_x.value=cropNumber(Number(f.cover_position_x.value)+delta);
+   else return;
+   event.preventDefault();updateCrop();
+  });
+  const revoke=()=>{if(objectUrl){URL.revokeObjectURL(objectUrl);objectUrl=null}};
+  edit.addEventListener('submit',()=>setTimeout(revoke,8000),{once:true});
+  document.querySelector('[data-sc="cancel-edit"]')?.addEventListener('click',revoke,{once:true});
+ }
  if(edit)edit.onsubmit=async ev=>{ev.preventDefault();let btn=edit.querySelector('button[type=submit]');btn.disabled=true;try{
   const f=edit.elements,social={};for(let k of ['instagram','tiktok','telegram','youtube','booknet','website']){let v=f[k].value.trim();if(v){if(!link(v))throw Error('Посилання на '+k+' має починатися з https://');social[k]=v}}
   let values={display_name:f.display_name.value.trim(),bio:f.bio.value.trim(),social_links:social,is_discoverable:f.is_discoverable.checked};
   if(f.avatar.files[0])values.avatar_path=await upload(f.avatar.files[0],'avatars');
+  values.cover_position_x=cropNumber(f.cover_position_x.value);
+  values.cover_position_y=cropNumber(f.cover_position_y.value);
   if(f.cover.files[0])values.cover_path=await upload(f.cover.files[0],'covers');
   else if(f.remove_cover.checked)values.cover_path=null;
   await api('collector_profiles','id=eq.'+state.id,'PATCH',values);state.editing=false;await reload();
@@ -126,5 +188,5 @@ function attach(session,refresh){
 }
 window.CollectorSocial={render,attach,reset:()=>{state.id='';state.loaded=false}};
 const css='.sc-wrap{display:grid;gap:16px}.sc-tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;padding:5px;border:1px solid var(--edge);border-radius:16px;background:var(--panel)}.sc-tabs button{border:0;border-radius:10px;background:transparent;color:var(--fg);padding:12px 3px;font-size:13px;cursor:pointer}.sc-tabs button.active{color:var(--accent);background:var(--pale);font-weight:750}.sc-profile{padding:12px}.sc-cover{height:120px;border-radius:12px;background:linear-gradient(120deg,#8d58c4,#d1a2ef,#eab9d0)}.sc-person{display:flex;align-items:end;gap:10px;margin:-28px 10px 0;position:relative}.sc-person h2{margin:0}.sc-avatar{width:40px;height:40px;border-radius:50%;background:var(--pale);color:var(--accent);display:inline-flex;align-items:center;justify-content:center;font-size:20px;font-weight:700;flex-shrink:0;overflow:hidden;border:2px solid var(--panel)}.sc-avatar img{width:100%;height:100%;object-fit:cover}.sc-avatar.large{width:78px;height:78px;font-size:35px;border:4px solid var(--panel)}.sc-bio{white-space:pre-wrap;overflow-wrap:anywhere}.sc-profile>.sc-bio,.sc-profile>.muted{margin:15px 10px}.sc-links{display:flex;flex-wrap:wrap;gap:8px;margin:10px}.sc-links a{font-size:13px;text-decoration:none;background:var(--pale);padding:6px 10px;border-radius:25px;color:var(--accent)}.sc-stats{display:flex;gap:15px;flex-wrap:wrap;margin:12px 10px;font-size:13px;color:var(--sub)}.sc-stats b{color:var(--fg)}.sc-actions{display:flex;gap:8px;flex-wrap:wrap;margin:13px 0}.sc-profile>.sc-actions{margin:12px 10px}.sc-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.sc-check{display:flex;gap:8px;align-items:center}.sc-timeline,.sc-people,.sc-fandoms{display:grid;gap:12px}.sc-people,.sc-fandoms{grid-template-columns:repeat(auto-fill,minmax(235px,1fr))}.sc-tile{display:flex;align-items:center;gap:10px;text-align:left;color:var(--fg)}.sc-tile span:nth-child(2){flex:1}.sc-tile small,.sc-by small{display:block;color:var(--sub);margin-top:4px}.sc-fandom{display:flex;justify-content:space-between;align-items:center;gap:8px}.sc-by{display:flex;align-items:center;gap:9px}.sc-by>button{margin-left:auto}.sc-post h3{margin:14px 0 6px}.sc-photo{width:100%;max-height:460px;object-fit:contain;background:var(--pale);border-radius:12px;margin-top:12px}.sc-reactions{display:flex;align-items:center;gap:10px;border-top:1px solid var(--edge);margin-top:12px;padding-top:12px}.sc-comments{display:grid;gap:7px;margin-top:10px}.sc-comment{display:flex;align-items:start;gap:7px}.sc-comment p{flex:1;margin:0;padding:8px;border-radius:10px;background:var(--pale);font-size:13px}.sc-comment .sc-avatar{width:29px;height:29px;font-size:13px}.sc-comment-form{display:flex;gap:7px;margin-top:10px}.sc-comment-form input{min-width:0;flex:1}.sc-tile[hidden]{display:none}@media(max-width:600px){.sc-fields{grid-template-columns:1fr}.sc-people,.sc-fandoms{grid-template-columns:1fr}.sc-tabs button{font-size:12px}.sc-cover{height:95px}.sc-stats{gap:9px}}';
-const style=document.createElement('style');style.textContent=css+'.sc-cover{background-position:center;background-size:cover;background-repeat:no-repeat}.sc-post-toolbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}.sc-post-toolbar h3{margin:0}.sc-empty-posts{display:grid;justify-items:center;gap:10px}.sc-empty-posts p{margin:0}'+'.sc-feed-head{display:flex;align-items:center;justify-content:space-between;gap:10px}.sc-feed-head h2{margin:0}.sc-feed-tabs{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:5px;background:var(--panel);border:1px solid var(--edge);border-radius:14px}.sc-feed-tabs button{border:0;background:transparent;padding:12px;color:var(--fg);border-radius:10px;font-weight:700;cursor:pointer}.sc-feed-tabs button.active{background:var(--pale);color:var(--accent)}';document.head.appendChild(style);
+const style=document.createElement('style');style.textContent=css+'.sc-cover{background-position:center;background-size:cover;background-repeat:no-repeat}.sc-cover-editor{display:grid;gap:12px;padding:12px;border:1px solid var(--edge);border-radius:13px}.sc-cover-help{font-size:13px;color:var(--sub)}.sc-cover-editor label{display:grid;gap:5px}.sc-cover-editor output{font-size:12px;color:var(--sub)}.sc-cover-preview{height:165px;border-radius:12px;background:linear-gradient(120deg,#8d58c4,#d1a2ef,#eab9d0);background-size:cover;background-repeat:no-repeat;cursor:grab;touch-action:none;user-select:none;border:2px solid var(--edge)}.sc-cover-preview:active{cursor:grabbing}.sc-cover-preview:focus-visible{outline:3px solid var(--accent)}.sc-cover-editor input[type=range]{accent-color:var(--accent)}'+'.sc-post-toolbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}.sc-post-toolbar h3{margin:0}.sc-empty-posts{display:grid;justify-items:center;gap:10px}.sc-empty-posts p{margin:0}'+'.sc-feed-head{display:flex;align-items:center;justify-content:space-between;gap:10px}.sc-feed-head h2{margin:0}.sc-feed-tabs{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:5px;background:var(--panel);border:1px solid var(--edge);border-radius:14px}.sc-feed-tabs button{border:0;background:transparent;padding:12px;color:var(--fg);border-radius:10px;font-weight:700;cursor:pointer}.sc-feed-tabs button.active{background:var(--pale);color:var(--accent)}';document.head.appendChild(style);
 })();
