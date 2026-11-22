@@ -37,9 +37,9 @@ body[data-theme="dark"] .item-owned .muted{color:#abd0b3}
 .fandom-grid{grid-template-columns:repeat(auto-fill,minmax(185px,1fr))}.fandom-card{min-height:160px;display:flex;flex-direction:column;justify-content:center;gap:8px}.fandom-card h3{margin:0;font-size:18px}.fandom-icon{font-size:39px}@media(max-width:800px){.fandom-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.fandom-card{min-height:145px}}\n.source-photo-link{display:block;font-size:12px;text-align:center;text-decoration:none;color:var(--accent);margin-top:6px;padding:6px 4px;border:1px solid var(--edge);border-radius:9px}.source-photo-link:focus-visible{outline:2px solid var(--accent)}
 </style></head><body data-theme="purple"><div class="app"><aside class="nav"><div class="logo">💜 Моя колекція</div><div id="side"></div><div class="foot">Версія <b id="sideVersion"></b><br>Особисте локальне сховище</div></aside><main class="main"><header class="head"><div><h1 id="heading">Моя колекція</h1><span class="muted">Твій персональний цифровий музей</span></div><div class="row"><button class="alt" id="share">↗ Поділитися</button><button class="btn" id="add">+ Додати предмет</button></div></header><div id="content"></div></main></div><nav id="bottom" class="bottom"></nav><div id="modal" class="hidden"></div><div id="toast" role="status"></div><input type="file" id="backupfile" accept=".json,application/json" hidden>
 <script>
-const VERSION='0.9.7', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
+const VERSION='0.9.8', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
 const $=x=>document.getElementById(x), esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),id=()=>crypto.randomUUID(),now=()=>new Date().toISOString(),fmt=x=>x===''||x==null?'—':Number(x).toLocaleString('uk-UA',{maximumFractionDigits:2})+' '+data.settings.currency;
-let db,data={folders:[],items:[],settings:{theme:'purple',currency:'UAH'}},page='home',folder=null,searchTerm='',view='cards',discoveryMode='character';
+let db,data={folders:[],items:[],settings:{theme:'purple',currency:'UAH'}},page='home',folder=null,searchTerm='',view='cards',discoveryMode='character',selectedFandomKey='';
 const validPages=new Set(menu.map(x=>x[0]));
 function routeUrl(p,f){return '#'+encodeURIComponent(p)+(p==='collections'&&f?'/' + encodeURIComponent(f):'')}
 function routeFromUrl(){let parts=location.hash.slice(1).split('/'),p=decodeURIComponent(parts[0]||'home');return {page:validPages.has(p)?p:'home',folder:p==='collections'&&parts[1]?decodeURIComponent(parts[1]):null}}
@@ -109,31 +109,38 @@ function fandomOptions(){
  return options;
 }
 function fandomCards(){
- const options=fandomOptions(),created=options.filter(x=>x.existing).length;
- const loose=data.folders.filter(f=>!f.parent&&f.kind!=='fandom');
- return '<section class="collections-page"><h2>Мої фандоми</h2><p class="muted">Обери всесвіт зі списку. Якщо папка ще не створена, запропонуємо додати її.</p>'
- +'<label><span class="fieldlabel">Фандом</span><select id="fandomSelect" class="field"><option value="">— Вибрати фандом —</option>'
- +options.map(f=>'<option value="'+esc(f.key)+'">'+f.icon+' '+esc(f.name)+(f.existing?' ✓':' ＋')+'</option>').join('')
+ const options=fandomOptions(),created=options.filter(x=>x.existing),loose=data.folders.filter(f=>!f.parent&&f.kind!=='fandom');
+ return '<section class="collections-page"><h2>Мої фандоми</h2><p class="muted">Обирай фандом зі списку. Новий фандом можна винести в окрему папку; створені папки показані нижче.</p>'
+ +'<label><span class="fieldlabel">Вибрати фандом</span><select id="fandomSelect" class="field"><option value="">— Вибрати фандом —</option>'
+ +options.map(f=>'<option value="'+esc(f.key)+'" '+(selectedFandomKey===f.key?'selected':'')+'>'+f.icon+' '+esc(f.name)+(f.existing?' ✓':' ＋')+'</option>').join('')
  +'</select></label><div class="tools"><button type="button" class="alt" data-action="new-fandom">＋ Додати власний фандом</button></div>'
- +'<p class="muted">✓ Папка існує · ＋ Можна створити. Усього створено: '+created+'.</p>'
- +(loose.length?'<h2>Папки без фандому</h2><p class="muted">Їх можна перенести до фандому через редагування папки.</p><div class="grid foldergrid">'+loose.map(foldercard).join('')+'</div>':'')
+ +'<h3>Папки фандомів ('+created.length+')</h3>'
+ +(created.length?'<div class="grid foldergrid">'+created.map(f=>foldercard(f.existing)).join('')+'</div>':'<div class="empty neat-empty">Папок фандомів поки немає. Вибери фандом і створи його папку.</div>')
+ +(loose.length?'<h3>Папки без фандому</h3><p class="muted">Їх можна перенести до фандому через редагування папки.</p><div class="grid foldergrid">'+loose.map(foldercard).join('')+'</div>':'')
  +'</section>';
 }
 function openFandom(key){
+ selectedFandomKey=key;
  const entry=fandomOptions().find(f=>f.key===key);
- if(!entry)return;
- if(entry.existing){navigate('collections',entry.existing.id);return}
- modal('Створити папку фандому','<div class="form"><div class="banner">Папки «'+esc(entry.name)+'» ще немає. Створити її? Усередині зможеш додавати категорії та серії.</div><div class="row"><button class="btn" type="button" id="confirmNewFandom">＋ Створити «'+esc(entry.name)+'»</button><button class="alt" type="button" id="cancelNewFandom">Скасувати</button></div></div>');
- $('cancelNewFandom').onclick=close;
+ if(!entry){render();return}
+ if(entry.existing){
+  render();
+  const card=document.querySelector('[data-folder="'+entry.existing.id+'"]');
+  if(card){card.scrollIntoView({behavior:'smooth',block:'nearest'});card.focus?.()}
+  showToast('Папка фандому вже є — відкрий її нижче');
+  return;
+ }
+ modal('Винести фандом в окрему папку','<div class="form"><div class="banner">Створити окрему папку «'+esc(entry.name)+'» під списком фандомів? Усередині залишиться звична структура: категорії → серії → предмети.</div><div class="row"><button class="btn" type="button" id="confirmNewFandom">＋ Створити папку</button><button class="alt" type="button" id="cancelNewFandom">Скасувати</button></div></div>');
+ $('cancelNewFandom').onclick=()=>{close();render()};
  $('confirmNewFandom').onclick=()=>createFandomFolder(entry.key,entry.name,entry.icon);
 }
 async function createFandomFolder(key,name,icon){
  let existing=fandomRoot(key)||data.folders.find(f=>f.kind==='fandom'&&f.name.toLocaleLowerCase('uk-UA')===name.toLocaleLowerCase('uk-UA'));
- if(existing){close();navigate('collections',existing.id);return}
+ if(existing){close();selectedFandomKey=existing.fandomKey;navigate('collections',null);return}
  let created={id:id(),name,parent:null,kind:'fandom',fandomKey:key,icon:icon||'🌐',photo:'',created:now()};
  data.folders.push(created);
  try{await save()}catch(e){data.folders=data.folders.filter(f=>f.id!==created.id);showToast('Не вдалося створити фандом');return}
- close();navigate('collections',created.id);showToast('Папку фандому створено');
+ selectedFandomKey=key;close();navigate('collections',null);showToast('Папка фандому з’явилася під списком');
 }
 function addCustomFandom(){
  modal('Додати власний фандом','<form id="customFandomForm" class="form"><label><span class="fieldlabel">Назва фандому</span><input class="field" name="name" maxlength="90" required placeholder="Наприклад: Harry Potter"></label><button class="btn">Створити папку фандому</button></form>');
