@@ -65,11 +65,12 @@
     })();
     return refreshing;
   }
-  function signOut(){
-    const token=session?.access_token;
+  async function signOut(){
+    let token=session?.access_token||null;
+    if(session?.refresh_token)try{token=await getAccessToken()||token}catch{}
     session=null;if(refreshTimer)clearTimeout(refreshTimer);
     persist();window.CollectorSocial?.reset();window.CollectorCloud?.signedOut();
-    if(token)fetch(root+'/auth/v1/logout?scope=local',{method:'POST',headers:{apikey:publishable,Authorization:'Bearer '+token}}).catch(()=>{});
+    if(token)try{await fetch(root+'/auth/v1/logout?scope=local',{method:'POST',headers:{apikey:publishable,Authorization:'Bearer '+token}})}catch{}
   }
   window.addEventListener('storage',event=>{
     if(event.key!==sessionKey)return;
@@ -99,11 +100,11 @@
   function attach(refresh) {
     if(recoveryCodes?.length) {
       get('copyRecovery')?.addEventListener('click',()=>{navigator.clipboard.writeText(recoveryCodes.join('\n')).then(()=>{get('copyRecovery').textContent='Скопійовано'}).catch(()=>{get('copyRecovery').textContent='Виділи та скопіюй коди вручну'})});
-      get('finishRecovery')?.addEventListener('click',()=>{recoveryCodes=null;if(passwordChanged){passwordChanged=false;signOut()}refresh()});
+      get('finishRecovery')?.addEventListener('click',async()=>{recoveryCodes=null;if(passwordChanged){passwordChanged=false;await signOut()}refresh()});
       return;
     }
     if(session) {
-      get('communityLogout')?.addEventListener('click',()=>{signOut();refresh()});
+      get('communityLogout')?.addEventListener('click',async()=>{await signOut();refresh()});
       window.CollectorSocial?.attach(session,refresh);window.CollectorCloud?.attach(refresh);
       get('showNewCollectorPassword')?.addEventListener('change',event=>{
         const el=get('newCollectorPassword');if(el)el.type=event.target.checked?'text':'password';
