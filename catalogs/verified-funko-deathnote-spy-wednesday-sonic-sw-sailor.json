@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "name": "Funko · Death Note · POP! 2026 selected releases",
+      "fandomKey": "catalog-1-08",
+      "group": "Death Note · Funko POP!",
+      "source": "https://funko.com/pop-ryuk/93294.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 4,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw4f3c6475/images/funko/upload/1/93294_DeathNote_S1_Ryuk_POP_GLAM-WEB.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Ryuk",
+          "figureNumber": "#2382",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "93294",
+          "sourceUrl": "https://funko.com/pop-ryuk/93294.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw4f3c6475/images/funko/upload/1/93294_DeathNote_S1_Ryuk_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 93294; box #2382"
+        },
+        {
+          "name": "L",
+          "figureNumber": "#2381",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "93291",
+          "sourceUrl": "https://funko.com/pop-l/93291.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw72ebe3cb/images/funko/upload/1/93291_DeathNote_S1_L_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 93291; box #2381"
+        },
+        {
+          "name": "Light Yagami",
+          "figureNumber": "#2379",
+          "catalogPosition": "3",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "93292",
+          "sourceUrl": "https://funko.com/pop-light-yagami/93292.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwe9fe28ea/images/funko/upload/1/93292_DeathNote_S1_Light_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 93292; box #2379"
+        },
+        {
+          "name": "Misa Amane",
+          "figureNumber": "#2380",
+          "catalogPosition": "4",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "93293",
+          "sourceUrl": "https://funko.com/pop-misa-amane/93293.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwb9507488/images/funko/upload/1/93293_DeathNote_S1_Misa_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 93293; box #2380"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Spy × Family · Verified POP! figures",
+      "fandomKey": "catalog-1-11",
+      "group": "Spy × Family · Funko POP!",
+      "source": "https://funko.com/im/pop-anya-forger/86528.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 4,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwdc70343b/images/funko/upload/86528_SPYxFAMILY_S1_AnyaForger_POP_GLAM-WEB.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Anya Forger",
+          "figureNumber": "#1949",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "86528",
+          "sourceUrl": "https://funko.com/im/pop-anya-forger/86528.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwdc70343b/images/funko/upload/86528_SPYxFAMILY_S1_AnyaForger_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 86528; box #1949"
+        },
+        {
+          "name": "Loid Forger",
+          "figureNumber": "#1948",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "86529",
+          "sourceUrl": "https://funko.com/pop-loid-forger/86529.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw78b7fb7f/images/funko/upload/86529_SPYxFAMILY_S1_LoidForger_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 86529; box #1948"
+        },
+        {
+          "name": "Yor Forger",
+          "figureNumber": "#1950",
+          "catalogPosition": "3",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "86530",
+          "sourceUrl": "https://funko.com/pop-yor-forger/86530.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwb93139fa/images/funko/upload/86530_SPYxFAMILY_S1_YorForger_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 86530; box #1950"
+        },
+        {
+          "name": "Anya Forger with Penguin",
+          "figureNumber": "#1951",
+          "catalogPosition": "4",
+          "rarity": "Retail Exclusive · Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "87182",
+          "sourceUrl": "https://funko.com/pop-anya-forger-with-penguin/87182.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw9e9d15ee/images/funko/upload/87182_SPYxFAMILY_S1_AnyaForgerPPOutfit_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 87182; box #1951"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Wednesday · Verified POP! figures",
+      "fandomKey": "catalog-4-02",
+      "group": "Wednesday · Funko POP!",
+      "source": "https://funko.com/cy/pop-wednesday-addams-fencing/88196.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw12ee0ce9/images/funko/upload/1/88196_Wednesday_Wednesday%28Fencing%29_POP_GLAM-WEB.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Wednesday Addams (Fencing)",
+          "figureNumber": "#1820",
+          "catalogPosition": "1",
+          "rarity": "Web Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "88196",
+          "sourceUrl": "https://funko.com/cy/pop-wednesday-addams-fencing/88196.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw12ee0ce9/images/funko/upload/1/88196_Wednesday_Wednesday%28Fencing%29_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 88196; box #1820"
+        },
+        {
+          "name": "Wednesday Addams with Piranhas",
+          "figureNumber": "#1814",
+          "catalogPosition": "2",
+          "rarity": "Limited Edition · Retail Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "88623",
+          "sourceUrl": "https://funko.com/pop-wednesday-addams-with-piranhas/88623.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwa14c69a3/images/funko/upload/1/88623_Wednesday_S3_WednesdayWithPiranha_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 88623; box #1814"
+        },
+        {
+          "name": "Wednesday Addams (Black Coat)",
+          "figureNumber": "#1815",
+          "catalogPosition": "3",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "86679",
+          "sourceUrl": "https://funko.com/pop-wednesday-addams-black-coat/86679.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw0bd86a0d/images/funko/upload/1/86679_Wednesday_Wednesday%28Coat%29_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 86679; box #1815"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Sonic the Hedgehog · Verified POP! figures",
+      "fandomKey": "catalog-2-06",
+      "group": "Sonic the Hedgehog · Funko POP!",
+      "source": "https://funko.com/pop-classic-sonic/51964.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwffb8912f/images/funko/51964-1.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Classic Sonic",
+          "figureNumber": "#632",
+          "catalogPosition": "1",
+          "rarity": "30th Anniversary",
+          "manufacturer": "Funko",
+          "seriesNumber": "51964",
+          "sourceUrl": "https://funko.com/pop-classic-sonic/51964.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwffb8912f/images/funko/51964-1.png?sh=800&sw=800",
+          "description": "Funko item 51964; box #632"
+        },
+        {
+          "name": "Sonic with Caliburn",
+          "figureNumber": "#1106",
+          "catalogPosition": "2",
+          "rarity": "Exclusive · Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "88130",
+          "sourceUrl": "https://funko.com/pop-sonic-with-caliburn/88130.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwcc342aef/images/funko/upload/1/88130_SonicTheHedgehog_Sonic_POP_EDIT_T7_GLAM_Frontview-WEB.png?sh=800&sw=800",
+          "description": "Funko item 88130; box #1106"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Star Wars · Verified POP! figures",
+      "fandomKey": "catalog-3-02",
+      "group": "Star Wars · Funko POP!",
+      "source": "https://funko.com/pop-darth-vader/64557.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw25b89d6e/images/funko/64557-1.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Darth Vader (Obi-Wan Kenobi)",
+          "figureNumber": "#539",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "64557",
+          "sourceUrl": "https://funko.com/pop-darth-vader/64557.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw25b89d6e/images/funko/64557-1.png?sh=800&sw=800",
+          "description": "Funko item 64557; box #539"
+        },
+        {
+          "name": "Anakin Skywalker with Lightsaber (Ahsoka)",
+          "figureNumber": "#751",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "83763",
+          "sourceUrl": "https://funko.com/pop-anakin-skywalker-with-lightsaber/83763.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwb5d4b7e9/images/funko/upload/83763_POP_Ahsoka_Anakin-Skywalker_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 83763; box #751"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Sailor Moon · Vault Classics",
+      "fandomKey": "catalog-1-10",
+      "group": "Sailor Moon · Funko POP! Vault",
+      "source": "https://funko.com/sailor-moon---sailor-moon-w%2F-luna/6350.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw55e3a260/images/funko/6350-1_C.jpeg?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Sailor Moon with Luna",
+          "figureNumber": "#89",
+          "catalogPosition": "1",
+          "rarity": "Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "6350",
+          "sourceUrl": "https://funko.com/sailor-moon---sailor-moon-w%2F-luna/6350.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw55e3a260/images/funko/6350-1_C.jpeg?sh=800&sw=800",
+          "description": "Funko item 6350; box #89"
+        },
+        {
+          "name": "Sailor Mercury",
+          "figureNumber": "#91",
+          "catalogPosition": "2",
+          "rarity": "Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "7301",
+          "sourceUrl": "https://funko.com/sailor-moon---sailor-mercury/7301.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1802f97d/images/funko/7301-1_C.jpeg?sh=800&sw=800",
+          "description": "Funko item 7301; box #91"
+        },
+        {
+          "name": "Sailor Mars",
+          "figureNumber": "#92",
+          "catalogPosition": "3",
+          "rarity": "Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "7302",
+          "sourceUrl": "https://funko.com/sailor-moon---sailor-mars/7302.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwfeb2b8e4/images/funko/7302-1_C.jpeg?sh=800&sw=800",
+          "description": "Funko item 7302; box #92"
+        }
+      ]
+    }
+  ]
+}
