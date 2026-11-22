@@ -69,13 +69,22 @@ function save(){return new Promise((r,j)=>{let t=db.transaction('store','readwri
 // Only explicit cloud controls can upload the complete local catalogue.
 window.CollectorLocal={
  read:()=>structuredClone(data),
- merge:async snapshot=>{
+ merge:async (snapshot,{applyUpdates=false}={})=>{
   if(!snapshot||!Array.isArray(snapshot.folders)||!Array.isArray(snapshot.items))throw Error('Неправильний формат копії');
   const oldFolders=data.folders,oldItems=data.items;
-  const ids=new Set(oldFolders.map(x=>String(x.id))),itemIds=new Set(oldItems.map(x=>String(x.id)));
-  data.folders=[...oldFolders,...snapshot.folders.filter(x=>x&&x.id&&!ids.has(String(x.id)))];
-  data.items=[...oldItems,...snapshot.items.filter(x=>x&&x.id&&!itemIds.has(String(x.id)))];
-  try{await save();render()}
+  const ids=new Set(oldFolders.map(x=>String(x.id))),itemMap=new Map(oldItems.map(x=>[String(x.id),x]));
+  const addedFolders=snapshot.folders.filter(x=>x&&x.id&&!ids.has(String(x.id)));
+  const addedItems=snapshot.items.filter(x=>x&&x.id&&!itemMap.has(String(x.id)));
+  const newerItems=new Map();
+  if(applyUpdates)for(const remote of snapshot.items){
+    if(!remote?.id)continue;const local=itemMap.get(String(remote.id));
+    if(!local)continue;
+    const theirs=Date.parse(remote.updated||''),ours=Date.parse(local.updated||'');
+    if(Number.isFinite(theirs)&&theirs>(Number.isFinite(ours)?ours:0)+1000)newerItems.set(String(remote.id),remote);
+  }
+  data.folders=[...oldFolders,...addedFolders];
+  data.items=[...oldItems.map(x=>newerItems.get(String(x.id))||x),...addedItems];
+  try{await save();render();return {addedFolders:addedFolders.length,addedItems:addedItems.length,updatedItems:newerItems.size}}
   catch(error){data.folders=oldFolders;data.items=oldItems;throw error}
  }
 };
