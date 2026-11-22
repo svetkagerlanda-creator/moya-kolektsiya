@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "name": "Funko · Frieren: Beyond Journey's End · Verified POP! selection",
+      "fandomKey": "catalog-1-14",
+      "group": "Frieren · Funko POP!",
+      "source": "https://funko.com/pop-frieren/86492.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw489728e3/images/funko/upload/1/86492_Frieren_S1_Frieren_POP_GLAM-WEB.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Frieren",
+          "figureNumber": "#1986",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "86492",
+          "sourceUrl": "https://funko.com/pop-frieren/86492.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw489728e3/images/funko/upload/1/86492_Frieren_S1_Frieren_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 86492; box #1986"
+        },
+        {
+          "name": "Frieren in a Mimic",
+          "figureNumber": "#1990",
+          "catalogPosition": "2",
+          "rarity": "Web Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "87125",
+          "sourceUrl": "https://funko.com/pop-frieren-in-a-mimic/87125.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw408d440a/images/funko/upload/1/87125_Frieren_S1_FrierenInMimic_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 87125; box #1990"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Tokyo Ghoul · Verified POP! selection",
+      "fandomKey": "catalog-1-13",
+      "group": "Tokyo Ghoul · Funko POP!",
+      "source": "https://funko.com/pop-ken-kaneki-final-battle/75520.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwe84b3e9c/images/funko/upload/75520_TokyoGhoulRE_KenKanekiFinalBattle_POP_GLAM-WEB.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Ken Kaneki (Final Battle)",
+          "figureNumber": "#1542",
+          "catalogPosition": "1",
+          "rarity": "Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "75520",
+          "sourceUrl": "https://funko.com/pop-ken-kaneki-final-battle/75520.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwe84b3e9c/images/funko/upload/75520_TokyoGhoulRE_KenKanekiFinalBattle_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 75520; box #1542"
+        },
+        {
+          "name": "Half-Kakuja Kaneki",
+          "figureNumber": "#465",
+          "catalogPosition": "2",
+          "rarity": "Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "33968",
+          "sourceUrl": "https://funko.com/pop-half-kakuja-kaneki/33968.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw6cc77215/images/funko/upload/33968_TokyoGhoul_KenKanekiKakuja_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 33968; box #465"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Five Nights at Freddy's · Verified POP! selection",
+      "fandomKey": "catalog-2-04",
+      "group": "Five Nights at Freddy's · Funko POP!",
+      "source": "https://funko.com/pop-costumed-mimic/90845.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw577d5d0e/images/funko/upload/1/90845_FNAF_S10_CostumedMimic_POP_EDIT_T7_GLAM_Frontview-WEB.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Costumed Mimic",
+          "figureNumber": "#1215",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "90845",
+          "sourceUrl": "https://funko.com/pop-costumed-mimic/90845.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw577d5d0e/images/funko/upload/1/90845_FNAF_S10_CostumedMimic_POP_EDIT_T7_GLAM_Frontview-WEB.png?sh=800&sw=800",
+          "description": "Funko item 90845; box #1215"
+        },
+        {
+          "name": "Fredbear",
+          "figureNumber": "#1150",
+          "catalogPosition": "2",
+          "rarity": "Retail Exclusive · Limited Edition 9500",
+          "manufacturer": "Funko",
+          "seriesNumber": "91871",
+          "sourceUrl": "https://funko.com/pop-fredbear/91871.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw3d2911b9/images/funko/upload/1/91871_POPGames_FNAF_Fredbear_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 91871; box #1150"
+        },
+        {
+          "name": "Toy Freddy",
+          "figureNumber": "#1318",
+          "catalogPosition": "3",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "93532",
+          "sourceUrl": "https://funko.com/im/pop-toy-freddy/93532.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw9249e1b4/images/funko/upload/1/93532_POPGames_FNAF_ToyFreddy_render-glam-WEB.png?sh=800&sw=800",
+          "description": "Funko item 93532; box #1318"
+        }
+      ]
+    },
+    {
+      "name": "Funko · House of the Dragon · Verified POP! selection",
+      "fandomKey": "catalog-4-04",
+      "group": "House of the Dragon · Funko POP!",
+      "source": "https://funko.com/pop-rhaenyra-targaryen/83465.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwba38281f/images/funko/upload/83465_HotD_RhaenyraTargaryen_POP_GLAM-WEB.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Rhaenyra Targaryen",
+          "figureNumber": "#22",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "83465",
+          "sourceUrl": "https://funko.com/pop-rhaenyra-targaryen/83465.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwba38281f/images/funko/upload/83465_HotD_RhaenyraTargaryen_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 83465; box #22"
+        },
+        {
+          "name": "Rides Deluxe Aemond Targaryen with Vhagar",
+          "figureNumber": "#136",
+          "catalogPosition": "2",
+          "rarity": "Web Exclusive · Rides Deluxe",
+          "manufacturer": "Funko",
+          "seriesNumber": "84436",
+          "sourceUrl": "https://funko.com/pop-rides-deluxe-aemond-targaryen-with-vhagar/84436.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwe340b66f/images/funko/upload/84436_HotD_AemondWithVhagar_POP_RIDE_SUPERDELUXE_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 84436; box #136"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Lilo & Stitch · Verified POP! selection",
+      "fandomKey": "catalog-5-02",
+      "group": "Lilo & Stitch · Funko POP!",
+      "source": "https://funko.com/pop-lilo/4672.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwd7053f8e/images/funko/4672-1.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Lilo",
+          "figureNumber": "#124",
+          "catalogPosition": "1",
+          "rarity": "Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "4672",
+          "sourceUrl": "https://funko.com/pop-lilo/4672.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwd7053f8e/images/funko/4672-1.png?sh=800&sw=800",
+          "description": "Funko item 4672; box #124"
+        },
+        {
+          "name": "Stitch (Hot Topic Exclusive)",
+          "figureNumber": "#1182",
+          "catalogPosition": "2",
+          "rarity": "Retail Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "61017",
+          "sourceUrl": "https://funko.com/at/pop-stitch/61017.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwd119fb36/images/funko/61017-1.png?sh=800&sw=800",
+          "description": "Funko item 61017; box #1182"
+        },
+        {
+          "name": "Stitch Unwrapping Gift",
+          "figureNumber": "#1522",
+          "catalogPosition": "3",
+          "rarity": "Retail Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "82860",
+          "sourceUrl": "https://funko.com/pop-stitch-unwrapping-gift/82860.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw92f2235c/images/funko/upload/82860_POPDisney_L%26S-StitchUnwrappingGift_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 82860; box #1522"
+        }
+      ]
+    },
+    {
+      "name": "Funko · The Witcher · Verified POP! selection",
+      "fandomKey": "catalog-2-10",
+      "group": "The Witcher · Funko POP!",
+      "source": "https://funko.com/pop-geralt-holding-sword/58624.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw4db364f9/images/funko/58624-1.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Geralt holding Sword",
+          "figureNumber": "#1168",
+          "catalogPosition": "1",
+          "rarity": "Vaulted · Web Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "58624",
+          "sourceUrl": "https://funko.com/pop-geralt-holding-sword/58624.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw4db364f9/images/funko/58624-1.png?sh=800&sw=800",
+          "description": "Funko item 58624; box #1168"
+        },
+        {
+          "name": "Geralt (IGNI)",
+          "figureNumber": "#554",
+          "catalogPosition": "2",
+          "rarity": "Vaulted · Retail Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "45039",
+          "sourceUrl": "https://funko.com/ca/pop-geralt-igni/45039.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwb110bbc7/images/funko/45039-1.png?sh=800&sw=800",
+          "description": "Funko item 45039; box #554"
+        }
+      ]
+    }
+  ]
+}
