@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "name": "Funko · Naruto Shippuden · Verified POP! figures",
+      "fandomKey": "naruto",
+      "group": "Naruto · Funko POP!",
+      "source": "https://funko.com/pop-naruto-uzumaki/46626.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwa78dcd99/images/funko/46626-1.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Naruto Uzumaki (Running)",
+          "figureNumber": "#727",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "46626",
+          "sourceUrl": "https://funko.com/pop-naruto-uzumaki/46626.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwa78dcd99/images/funko/46626-1.png?sh=800&sw=800",
+          "description": "Funko POP! item 46626; box #727"
+        },
+        {
+          "name": "Naruto Uzumaki with Kunai & Shuriken",
+          "figureNumber": "#1843",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "83804",
+          "sourceUrl": "https://funko.com/nl/pop-naruto-uzumaki-with-kunai-shuriken/83804.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw736879cd/images/funko/upload/83804a_Naruto_S14_NarutoUzumaki_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 83804; box #1843"
+        }
+      ]
+    },
+    {
+      "name": "Funko · My Hero Academia · Verified POP! figures",
+      "fandomKey": "catalog-1-06",
+      "group": "My Hero Academia · Funko POP!",
+      "source": "https://funko.com/pop-izuku-midoriya-hooded/84443.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw61019b2c/images/funko/upload/84443_MHA_S13_DekuHooded_POP_GLAM-WEB.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Izuku Midoriya (Hooded)",
+          "figureNumber": "#1815",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "84443",
+          "sourceUrl": "https://funko.com/pop-izuku-midoriya-hooded/84443.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw61019b2c/images/funko/upload/84443_MHA_S13_DekuHooded_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 84443; box #1815"
+        },
+        {
+          "name": "Katsuki Bakugo",
+          "figureNumber": "#1528",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "77960",
+          "sourceUrl": "https://funko.com/pop-katsuki-bakugo/77960.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwa2046a36/images/funko/upload/77960_MHA_BakugoWithCHGW_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 77960; box #1528"
+        }
+      ]
+    },
+    {
+      "name": "Funko · KPop Demon Hunters · HUNTR/X POP!",
+      "fandomKey": "kpop",
+      "group": "KPop Demon Hunters · Funko POP!",
+      "source": "https://funko.com/im/pop-zoey-huntr%2Fx/95813.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwfbbf8310/images/funko/upload/1/95813_KPOPDH_ZoeyHTRX_POP_render-Glam-WEB.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Zoey (HUNTR/X)",
+          "figureNumber": "#2587",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "95813",
+          "sourceUrl": "https://funko.com/im/pop-zoey-huntr%2Fx/95813.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwfbbf8310/images/funko/upload/1/95813_KPOPDH_ZoeyHTRX_POP_render-Glam-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 95813; box #2587"
+        },
+        {
+          "name": "Mira (HUNTR/X)",
+          "figureNumber": "#2585",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "95811",
+          "sourceUrl": "https://funko.com/im/pop-mira-huntr%2Fx/95811.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw8f141a08/images/funko/upload/1/95811_KPOPDH_MiraHTRX_POP_render-Glam-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 95811; box #2585"
+        },
+        {
+          "name": "Rumi (HUNTR/X)",
+          "figureNumber": "#2586",
+          "catalogPosition": "3",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "95812",
+          "sourceUrl": "https://funko.com/im/pop-rumi-huntr%2Fx/95812.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwcd4fc904/images/funko/upload/1/95812_KPOPDH_RumiHTRX_POP_render-Glam-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 95812; box #2586"
+        }
+      ]
+    }
+  ]
+}
