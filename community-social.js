@@ -103,10 +103,30 @@ async function fileFromCardPhoto(src){
  try{response=await fetch(src,{mode:'cors',credentials:'omit',cache:'no-store'});}
  catch{throw Error('Фото з картки недоступне для перенесення в допис. Обери фотографію з галереї у формі публікації.')}
  if(!response.ok)throw Error('Не вдалося завантажити фото з картки. Обери файл вручну.');
- const blob=await response.blob();
+ let blob=await response.blob();
  if(!['image/jpeg','image/png','image/webp'].includes(blob.type))throw Error('Фото з картки має бути JPG, PNG або WEBP. Обери іншу фотографію.');
- if(blob.size>3145728)throw Error('Фото з картки завелике для допису (максимум 3 МБ). Обери інший файл.');
  if(!blob.size)throw Error('Фото з картки порожнє. Обери інший файл.');
+ if(blob.size>3145728){
+  // A card may allow a larger original photo than the public-post upload limit.
+  // Compress in memory only; the user's original card photo remains untouched.
+  const sourceUrl=URL.createObjectURL(blob);
+  try{
+   const img=new Image();
+   await new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=()=>reject(Error('Не вдалося обробити фото'));img.src=sourceUrl});
+   const scale=Math.min(1,1600/Math.max(img.naturalWidth,img.naturalHeight));
+   const canvas=document.createElement('canvas');
+   canvas.width=Math.max(1,Math.round(img.naturalWidth*scale));
+   canvas.height=Math.max(1,Math.round(img.naturalHeight*scale));
+   const ctx=canvas.getContext('2d');
+   ctx.fillStyle='#ffffff';ctx.fillRect(0,0,canvas.width,canvas.height);
+   ctx.drawImage(img,0,0,canvas.width,canvas.height);
+   for(const quality of [.82,.68,.5]){
+    const result=await new Promise(resolve=>canvas.toBlob(resolve,'image/jpeg',quality));
+    if(result?.size&&result.size<=3145728){blob=result;break}
+   }
+  }finally{URL.revokeObjectURL(sourceUrl)}
+ }
+ if(blob.size>3145728)throw Error('Фото з картки завелике для публікації. Обери інше фото.');
  return new File([blob],'acquisition.'+(blob.type==='image/png'?'png':blob.type==='image/webp'?'webp':'jpg'),{type:blob.type});
 }
 async function upload(file,type){
