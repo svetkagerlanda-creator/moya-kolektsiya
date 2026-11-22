@@ -12,6 +12,9 @@ on:
     - cron: '17 4 * * 1'
 permissions:
   contents: write
+concurrency:
+  group: moya-kolektsiya-catalog-writes
+  cancel-in-progress: false
 jobs:
   build-catalogs:
     runs-on: ubuntu-latest
@@ -37,5 +40,17 @@ jobs:
           git add catalogs/verified-kayou.json catalogs/verified-mlpmerch.json catalogs/source-probe.json catalogs/merch-errors.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh verified Kayou catalogs"
-            git push
+            # The repository may receive a newer commit while catalogs are built.
+            # Rebase our generated files instead of trying to overwrite newer work.
+            for attempt in 1 2 3 4 5; do
+              git fetch origin main
+              git rebase origin/main
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              echo "Repository updated concurrently; retrying ($attempt/5)"
+              sleep 2
+            done
+            echo "::error::Could not publish after five safe retries"
+            exit 1
           fi
