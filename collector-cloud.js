@@ -50,7 +50,7 @@ async function upload(){
   state.lastUpload=new Date().toISOString();localStorage.setItem(lastKey(state.userId),state.lastUpload);
   status('✓ Хмарну копію збережено. Особисті колекції не стали публічними.');
   state.loaded=false;
- }catch(err){fail(err);throw err}finally{state.busy=false;state.refresh?.()}
+ }catch(err){fail(err);throw err}finally{state.busy=false;state.refresh?.();if(state.uploadPending){state.uploadPending=false;notifyLocalChange()}}
 }
 async function list(){
  if(!available()||!syncUser())return;
@@ -103,7 +103,8 @@ async function mergeFrom(name){
 }
 function notifyLocalChange(){
  const id=syncUser();
- if(!id||!state.auto||state.busy)return;
+ if(!id||!state.auto)return;
+ if(state.busy){state.uploadPending=true;return}
  if(timer)clearTimeout(timer);
  timer=setTimeout(()=>{timer=null;uploadChain=uploadChain.then(()=>upload()).catch(()=>{})},6500);
 }
@@ -122,14 +123,16 @@ function render(){
 function attach(refresh){
  state.refresh=refresh;syncUser();
  const toggle=document.getElementById('cloudAuto');
- if(toggle)toggle.onchange=e=>{state.auto=!!e.target.checked;localStorage.setItem(prefKey(state.userId),state.auto?'yes':'no');if(state.auto)notifyLocalChange();refresh()};
+ if(toggle)toggle.onchange=e=>{state.auto=!!e.target.checked;localStorage.setItem(prefKey(state.userId),state.auto?'yes':'no');if(!state.auto&&timer){clearTimeout(timer);timer=null}if(state.auto)notifyLocalChange();refresh()};
  const uploadButton=document.getElementById('cloudUpload');
  if(uploadButton)uploadButton.onclick=()=>upload().catch(()=>{});
  const listButton=document.getElementById('cloudList');
  if(listButton)listButton.onclick=()=>list();
  document.querySelectorAll('[data-cloud-merge]').forEach(el=>el.onclick=()=>mergeFrom(el.dataset.cloudMerge));
 }
-function signedOut(){state.userId='';state.loaded=false;state.snapshots=[];if(timer){clearTimeout(timer);timer=null}}
+function signedOut(){state.userId='';state.loaded=false;state.snapshots=[];state.uploadPending=false;if(timer){clearTimeout(timer);timer=null}}
+window.addEventListener('online',()=>{if(state.auto)notifyLocalChange()});
+document.addEventListener('visibilitychange',()=>{if(!document.hidden&&state.auto&&state.error)notifyLocalChange()});
 window.CollectorCloud={render,attach,notifyLocalChange,signedOut};
 const style=document.createElement('style');style.textContent='.collector-cloud{margin-top:20px;display:grid;gap:12px}.collector-cloud h2{margin:0}.cloud-switch{display:flex;align-items:center;gap:12px;font-weight:650}.cloud-switch input{width:20px;height:20px}.cloud-copies{display:grid;gap:10px}.cloud-copies h3{margin:0}.cloud-copy{display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid var(--edge);border-radius:12px;padding:10px}.cloud-copy small{display:block;color:var(--sub);margin-top:5px}.cloud-error{border:1px solid #d88696}';document.head.appendChild(style);
 })();
