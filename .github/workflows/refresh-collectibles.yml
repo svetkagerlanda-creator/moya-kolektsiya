@@ -1,5 +1,10 @@
 name: Refresh verified collection catalogs
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_catalogs.py'
+      - '.github/workflows/refresh-collectibles.yml'
   workflow_dispatch:
   schedule:
     - cron: '17 4 * * 1'
