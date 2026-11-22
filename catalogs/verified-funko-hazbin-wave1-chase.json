@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "name": "Funko · Hazbin Hotel · POP! Animation · Wave 1 Chase (4 варіанти)",
+      "count": 4,
+      "source": "https://funko.com/fandoms/movies-tv/animated-tv/hazbin-hotel/",
+      "verified": true,
+      "manufacturer": "Funko",
+      "fandomKey": "catalog-5-hazbin",
+      "group": "🏰 Мультфільми та персонажі · Hazbin Hotel",
+      "completeness": "verified",
+      "coverPhoto": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwbcdbf324/images/funko/upload/1/90415b_HazbinHotel_S1_CharlieChase_POP_GLAM-CH-WEB.png",
+      "items": [
+        {
+          "name": "Charlie Morningstar — Demon Form (Chase)",
+          "figureNumber": "#2239",
+          "productSku": "90415b",
+          "sourceUrl": "https://funko.com/pop-charlie-morningstar-chase/90415b.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwbcdbf324/images/funko/upload/1/90415b_HazbinHotel_S1_CharlieChase_POP_GLAM-CH-WEB.png",
+          "photoCredit": "Funko · офіційне фото Chase Demon Form",
+          "catalogPosition": "1",
+          "rarity": "Chase",
+          "manufacturer": "Funko",
+          "seriesNumber": "90415b",
+          "description": "Hazbin Hotel POP! Animation — Chase, окремий варіант; збережено оригінальний номер коробки #2239"
+        },
+        {
+          "name": "Vaggie — Angel Form (Chase)",
+          "figureNumber": "#2240",
+          "productSku": "90416b",
+          "sourceUrl": "https://funko.com/pop-vaggie-chase/90416b.html",
+          "photo": "https://hobbygamesbg.com/userfiles/productlargeimages/product_69559.jpg",
+          "photoCredit": "Hobby Games BG · фото Vaggie Angel Form Chase #2240",
+          "catalogPosition": "2",
+          "rarity": "Chase",
+          "manufacturer": "Funko",
+          "seriesNumber": "90416b",
+          "description": "Hazbin Hotel POP! Animation — Chase, окремий варіант; збережено оригінальний номер коробки #2240"
+        },
+        {
+          "name": "Alastor — Demon Form (Chase)",
+          "figureNumber": "#2242",
+          "productSku": "90413b",
+          "sourceUrl": "https://funko.com/pop-alastor-chase/90413b.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw78bdb051/images/funko/upload/1/90413b_HazbinHotel_S1_AlastorChase_POP_GLAM-CH-WEB.png?sh=800&sw=800",
+          "photoCredit": "Funko · офіційне фото Chase Demon Form",
+          "catalogPosition": "3",
+          "rarity": "Chase",
+          "manufacturer": "Funko",
+          "seriesNumber": "90413b",
+          "description": "Hazbin Hotel POP! Animation — Chase, окремий варіант; збережено оригінальний номер коробки #2242"
+        },
+        {
+          "name": "Sir Pentious — Angelic Form (Chase)",
+          "figureNumber": "#2243",
+          "productSku": "91824b",
+          "sourceUrl": "https://funko.com/pop-sir-pentious-chase/91824b.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwb9fd86f7/images/funko/upload/1/91824b_HazbinHotel_S1_SirPentiousChase_POP_GLAM-CH-WEB.png?sh=800&sw=800",
+          "photoCredit": "Funko · офіційне фото Chase Angelic Form",
+          "catalogPosition": "4",
+          "rarity": "Chase",
+          "manufacturer": "Funko",
+          "seriesNumber": "91824b",
+          "description": "Hazbin Hotel POP! Animation — Chase, окремий варіант; збережено оригінальний номер коробки #2243"
+        }
+      ]
+    }
+  ]
+}
