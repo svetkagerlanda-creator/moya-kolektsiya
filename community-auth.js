@@ -161,4 +161,7 @@
     });
   }
   window.CollectorCommunity={render,attach,getSession:()=>session,getAccessToken,signOut};
+  // The main app may render the account route before this deferred module finishes loading.
+  // Re-render the current account view immediately when auth is ready, without requiring a second tap.
+  queueMicrotask(()=>window.CollectorRefreshView?.());
 })();
