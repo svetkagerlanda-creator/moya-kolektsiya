@@ -295,8 +295,9 @@
           "rarity": "",
           "manufacturer": "POP MART",
           "sourceUrl": "https://www.popmart.com/us/products/13/HIRONO-Little-Mischief-Series",
-          "photo": "",
-          "description": "figure blind box"
+          "photo": "https://images.stockx.com/images/Pop-Mart-HIRONO-Little-Mischief-Series-PROTECTOR-Figure.jpg?auto=compress&bg=FFFFFF&dpr=2&fit=fill&fm=webp&h=500&q=90&trim=color&updated_at=1764096432&w=700",
+          "description": "figure blind box",
+          "photoCredit": "StockX"
         },
         {
           "name": "Persona",
@@ -305,8 +306,9 @@
           "rarity": "",
           "manufacturer": "POP MART",
           "sourceUrl": "https://www.popmart.com/us/products/13/HIRONO-Little-Mischief-Series",
-          "photo": "",
-          "description": "figure blind box"
+          "photo": "https://images.stockx.com/images/Pop-Mart-HIRONO-Little-Mischief-Series-PERSONA-Figure.jpg?bg=FFFFFF&dpr=3&fit=fill&h=384&q=41&trim=color&updated_at=1764096501&w=576",
+          "description": "figure blind box",
+          "photoCredit": "StockX"
         },
         {
           "name": "Robot",
@@ -315,8 +317,9 @@
           "rarity": "",
           "manufacturer": "POP MART",
           "sourceUrl": "https://www.popmart.com/us/products/13/HIRONO-Little-Mischief-Series",
-          "photo": "",
-          "description": "figure blind box"
+          "photo": "https://images.stockx.com/images/Pop-Mart-HIRONO-Little-Mischief-Series-ROBOT-Figure.jpg?auto=compress&bg=FFFFFF&dpr=2&fit=fill&fm=webp&h=500&q=90&trim=color&updated_at=1764096429&w=700",
+          "description": "figure blind box",
+          "photoCredit": "StockX"
         },
         {
           "name": "Birdman",
