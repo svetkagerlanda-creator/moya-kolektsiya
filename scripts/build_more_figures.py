@@ -105,6 +105,8 @@ def parse(entry):
         images=wrapper.select(".data-top img.data-img") if wrapper else []
         for img in images:
             raw=img.get("data-src") or img.get("src") or ""
+            if "/v/pixel.gif" in raw.lower():
+                raw=(img.parent.get("href") if img.parent else "") or ""
             candidate=urljoin(url,raw) if raw else ""
             if (urlsplit(candidate).scheme=="https"
                     and "/v/pixel.gif" not in candidate.lower()
