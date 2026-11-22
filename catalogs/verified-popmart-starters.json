@@ -328,8 +328,9 @@
           "rarity": "",
           "manufacturer": "POP MART",
           "sourceUrl": "https://www.popmart.com/us/products/13/HIRONO-Little-Mischief-Series",
-          "photo": "",
-          "description": "figure blind box"
+          "photo": "https://arttoyfamilia.com/cdn/shop/files/POP_MART_Hirono_Little_Mischief_Series_Birdman_front_view.jpg?v=1784306453",
+          "description": "figure blind box",
+          "photoCredit": "Art Toy Familia — individual product image"
         },
         {
           "name": "Ragpicker",
@@ -338,8 +339,9 @@
           "rarity": "",
           "manufacturer": "POP MART",
           "sourceUrl": "https://www.popmart.com/us/products/13/HIRONO-Little-Mischief-Series",
-          "photo": "",
-          "description": "figure blind box"
+          "photo": "https://arttoyfamilia.com/cdn/shop/files/POP_MART_Hirono_Little_Mischief_Series_Ragpicker_front_view.jpg?v=1784306414",
+          "description": "figure blind box",
+          "photoCredit": "Art Toy Familia — individual product image"
         },
         {
           "name": "Destroyer",
@@ -348,8 +350,9 @@
           "rarity": "",
           "manufacturer": "POP MART",
           "sourceUrl": "https://www.popmart.com/us/products/13/HIRONO-Little-Mischief-Series",
-          "photo": "",
-          "description": "figure blind box"
+          "photo": "https://arttoyfamilia.com/cdn/shop/files/POP_MART_Hirono_Little_Mischief_Series_Destroyer_front_view.jpg?v=1784306487",
+          "description": "figure blind box",
+          "photoCredit": "Art Toy Familia — individual product image"
         },
         {
           "name": "Pretender",
@@ -358,8 +361,9 @@
           "rarity": "",
           "manufacturer": "POP MART",
           "sourceUrl": "https://www.popmart.com/us/products/13/HIRONO-Little-Mischief-Series",
-          "photo": "",
-          "description": "figure blind box"
+          "photo": "https://arttoyfamilia.com/cdn/shop/files/POP_MART_Hirono_Little_Mischief_Series_Pretender_front_view.jpg?v=1784306512",
+          "description": "figure blind box",
+          "photoCredit": "Art Toy Familia — individual product image"
         },
         {
           "name": "Boiling Frog",
@@ -368,8 +372,9 @@
           "rarity": "",
           "manufacturer": "POP MART",
           "sourceUrl": "https://www.popmart.com/us/products/13/HIRONO-Little-Mischief-Series",
-          "photo": "",
-          "description": "figure blind box"
+          "photo": "https://arttoyfamilia.com/cdn/shop/files/POP_MART_Hirono_Little_Mischief_Series_Boiling_Frog_front_view.jpg?v=1784306672",
+          "description": "figure blind box",
+          "photoCredit": "Art Toy Familia — individual product image"
         },
         {
           "name": "Float",
@@ -378,8 +383,9 @@
           "rarity": "",
           "manufacturer": "POP MART",
           "sourceUrl": "https://www.popmart.com/us/products/13/HIRONO-Little-Mischief-Series",
-          "photo": "",
-          "description": "figure blind box"
+          "photo": "https://arttoyfamilia.com/cdn/shop/files/POP_MART_Hirono_Little_Mischief_Series_Float_front_view.jpg?v=1784306623",
+          "description": "figure blind box",
+          "photoCredit": "Art Toy Familia — individual product image"
         },
         {
           "name": "Unknown Journey (Secret)",
@@ -388,8 +394,9 @@
           "rarity": "Secret",
           "manufacturer": "POP MART",
           "sourceUrl": "https://www.popmart.com/us/products/13/HIRONO-Little-Mischief-Series",
-          "photo": "",
-          "description": "figure blind box"
+          "photo": "https://arttoyfamilia.com/cdn/shop/files/POP_MART_Hirono_Little_Mischief_Series_Unknown_Journey_Secret_front_view.jpg?v=1784306699",
+          "description": "figure blind box",
+          "photoCredit": "Art Toy Familia — individual product image"
         }
       ]
     },
