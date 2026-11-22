@@ -1,4 +1,4 @@
-/* Collector Cloud v0.16: private, opt-in per-device backups.
+/* Collector Cloud v0.17: private, opt-in cross-device merge and backups.
    A cloud snapshot NEVER overwrites local records without a deliberate merge.
    All data stays local unless the user explicitly enables/starts an upload. */
 (()=>{
@@ -8,8 +8,8 @@ const DEVICE_KEY='collector-backup-device-v1';
 let device=localStorage.getItem(DEVICE_KEY);
 if(!/^[a-f0-9-]{36}$/.test(device||'')){device=crypto.randomUUID();localStorage.setItem(DEVICE_KEY,device)}
 const enc=new TextEncoder(),esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const state={busy:false,auto:false,snapshots:[],notice:'',lastUpload:null,error:'',userId:'',loaded:false,refresh:null,uploadPending:false};
-let timer=null,uploadChain=Promise.resolve();
+const state={busy:false,auto:false,snapshots:[],notice:'',lastUpload:null,error:'',userId:'',loaded:false,refresh:null,uploadPending:false,syncPending:false,lastSynced:0};
+let timer=null,uploadChain=Promise.resolve(),syncChain=Promise.resolve();
 const prefKey=id=>'collector-auto-cloud-'+id;
 const lastKey=id=>'collector-last-cloud-'+id;
 const userid=token=>{try{return JSON.parse(atob(token.split('.')[1].replace(/-/g,'+').replace(/_/g,'/'))).sub}catch{return null}};
@@ -62,6 +62,63 @@ async function list(){
   state.loaded=true;
  }catch(err){fail(err)}finally{state.busy=false;state.refresh?.()}
 }
+
+async function fetchDeviceSnapshots(){
+ const response=await request('object/list/'+BUCKET,{method:'POST',body:JSON.stringify({prefix:state.userId+'/snapshots',limit:100,offset:0,sortBy:{column:'updated_at',order:'desc'}})});
+ const list=await response.json();
+ return (Array.isArray(list)?list:[]).filter(x=>/^[0-9a-f-]{36}\.json$/.test(x.name));
+}
+async function reconcileDevices(){
+ if(!available()||!syncUser())throw Error('Для синхронізації увійди до акаунта.');
+ if(state.busy){state.syncPending=true;return}
+ state.busy=true;state.error='';status('Синхронізація колекцій з іншими пристроями…');
+ let totalFolders=0,totalItems=0,totalUpdated=0,needsBackup=false;
+ try{
+  const files=await fetchDeviceSnapshots();
+  const remote=[];
+  for(const entry of files){
+   const response=await request('object/authenticated/'+BUCKET+'/'+objectName(state.userId,entry.name));
+   const content=await response.text();
+   if(content.length>65*1024*1024)throw Error('Копія з іншого пристрою завелика.');
+   const snapshot=JSON.parse(content);
+   summary(snapshot);
+   if(!snapshot.device||snapshot.device!==entry.name.replace(/\.json$/,''))throw Error('Некоректна прив’язка копії до пристрою.');
+   remote.push({snapshot,entry});
+  }
+  // Before touching local data, create a recoverable backup in this account.
+  const local=window.CollectorLocal.read();
+  let ids=new Set(local.items.map(x=>String(x.id))),folders=new Set(local.folders.map(x=>String(x.id)));
+  let dates=new Map(local.items.map(x=>[String(x.id),Date.parse(x.updated||'')||0]));
+  for(const {snapshot} of remote){
+   for(const f of snapshot.data.folders)if(!folders.has(String(f.id))){needsBackup=true;folders.add(String(f.id))}
+   for(const item of snapshot.data.items){
+    const key=String(item.id),stamp=Date.parse(item.updated||'')||0;
+    if(!ids.has(key)){needsBackup=true;ids.add(key);dates.set(key,stamp)}
+    else if(stamp>(dates.get(key)||0)+1000){needsBackup=true;dates.set(key,stamp)}
+   }
+  }
+  if(needsBackup)await saveSafetyCopy();
+  // Merge in ascending snapshot time, using per-item timestamps to choose updates.
+  remote.sort((a,b)=>String(a.entry.updated_at||'').localeCompare(String(b.entry.updated_at||'')));
+  for(const {snapshot} of remote){
+   const outcome=await window.CollectorLocal.merge(snapshot.data,{applyUpdates:true});
+   totalFolders+=outcome.addedFolders;totalItems+=outcome.addedItems;totalUpdated+=outcome.updatedItems;
+  }
+  // Upload a consolidated copy for this device only. Never overwrite the other device's backup.
+  const snapshot={app:'moya-kolektsiya',version:1,device,created:new Date().toISOString(),data:window.CollectorLocal.read()};
+  const bytes=enc.encode(JSON.stringify(snapshot));
+  if(bytes.length>45*1024*1024)throw Error('Об’єднана колекція завелика для хмари (понад 45 МБ). Зроби JSON-копію локально.');
+  await request('object/'+BUCKET+'/'+objectName(state.userId,device+'.json'),{method:'POST',body:bytes,upsert:true});
+  state.lastUpload=new Date().toISOString();localStorage.setItem(lastKey(state.userId),state.lastUpload);
+  state.lastSynced=Date.now();state.loaded=false;
+  status('✓ Синхронізовано. Додано '+totalFolders+' папок, '+totalItems+' предметів; оновлено '+totalUpdated+' карток. Для другого пристрою теж запусти синхронізацію.');
+ }catch(e){fail(e);throw e}
+ finally{
+  state.busy=false;state.refresh?.();
+  if(state.syncPending||state.uploadPending){state.syncPending=false;state.uploadPending=false;if(state.auto)notifyLocalChange()}
+ }
+}
+function syncNow(){syncChain=syncChain.catch(()=>{}).then(()=>reconcileDevices());return syncChain}
 async function saveSafetyCopy(){
  const backup={app:'moya-kolektsiya',version:1,device,created:new Date().toISOString(),data:window.CollectorLocal.read()};
  const bytes=enc.encode(JSON.stringify(backup));
@@ -106,15 +163,15 @@ function notifyLocalChange(){
  if(!id||!state.auto)return;
  if(state.busy){state.uploadPending=true;return}
  if(timer)clearTimeout(timer);
- timer=setTimeout(()=>{timer=null;uploadChain=uploadChain.then(()=>upload()).catch(()=>{})},6500);
+ timer=setTimeout(()=>{timer=null;syncNow().catch(()=>{})},6500);
 }
 function render(){
  if(!syncUser())return '';
  return '<section class="card collector-cloud"><h2>☁️ Моя хмара</h2>'
  +'<p class="muted">Приватні резервні копії для кожного пристрою. Вони містять папки, предмети та особисті фото, але ніколи не публікуються у стрічці.</p>'
- +'<label class="cloud-switch"><input type="checkbox" id="cloudAuto" '+(state.auto?'checked':'')+'> Автоматично зберігати копію цього пристрою після змін</label>'
- +'<p class="muted">На іншому пристрої увійди до цього акаунта й обери «Об’єднати». Новіші зміни можна застосувати окремо, зі страховочною копією; чужі дані не замінюються автоматично.</p>'
- +'<div class="row"><button class="btn" id="cloudUpload" type="button" '+(state.busy?'disabled':'')+'>↑ Зберегти в хмарі</button><button class="alt" id="cloudList" type="button" '+(state.busy?'disabled':'')+'>↓ Мої хмарні копії</button></div>'
+ +'<label class="cloud-switch"><input type="checkbox" id="cloudAuto" '+(state.auto?'checked':'')+'> Автоматично об’єднувати дані з інших пристроїв і зберігати в хмарі</label>'
+ +'<p class="muted">Увійди в один акаунт на телефоні та комп’ютері. Натисни «Синхронізувати зараз» на кожному пристрої. Для автоматичного обміну увімкни перемикач на обох. Перед об’єднанням створюється страховочна копія, а картки з новішими датами оновлення мають пріоритет. Видалення на одному пристрої автоматично не видаляє записи на іншому.</p>'
+ +'<div class="row"><button class="btn" id="cloudSync" type="button" '+(state.busy?'disabled':'')+'>↻ Синхронізувати зараз</button><button class="alt" id="cloudUpload" type="button" '+(state.busy?'disabled':'')+'>↑ Зберегти в хмарі</button><button class="alt" id="cloudList" type="button" '+(state.busy?'disabled':'')+'>↓ Мої хмарні копії</button></div>'
  +(state.lastUpload?'<p class="muted">Остання копія цього пристрою: '+esc(new Date(state.lastUpload).toLocaleString('uk-UA'))+'</p>':'')
  +(state.notice?'<div class="banner">'+esc(state.notice)+'</div>':'')
  +(state.error?'<div class="banner cloud-error">'+esc(state.error)+'</div>':'')
@@ -124,15 +181,17 @@ function attach(refresh){
  state.refresh=refresh;syncUser();
  const toggle=document.getElementById('cloudAuto');
  if(toggle)toggle.onchange=e=>{state.auto=!!e.target.checked;localStorage.setItem(prefKey(state.userId),state.auto?'yes':'no');if(!state.auto&&timer){clearTimeout(timer);timer=null}if(state.auto)notifyLocalChange();refresh()};
+ const syncButton=document.getElementById('cloudSync');
+ if(syncButton)syncButton.onclick=()=>syncNow().catch(()=>{});
  const uploadButton=document.getElementById('cloudUpload');
  if(uploadButton)uploadButton.onclick=()=>upload().catch(()=>{});
  const listButton=document.getElementById('cloudList');
  if(listButton)listButton.onclick=()=>list();
  document.querySelectorAll('[data-cloud-merge]').forEach(el=>el.onclick=()=>mergeFrom(el.dataset.cloudMerge));
 }
-function signedOut(){state.userId='';state.loaded=false;state.snapshots=[];state.uploadPending=false;if(timer){clearTimeout(timer);timer=null}}
+function signedOut(){state.userId='';state.loaded=false;state.snapshots=[];state.uploadPending=false;state.syncPending=false;if(timer){clearTimeout(timer);timer=null}}
 window.addEventListener('online',()=>{if(state.auto)notifyLocalChange()});
-document.addEventListener('visibilitychange',()=>{if(!document.hidden&&state.auto&&state.error)notifyLocalChange()});
-window.CollectorCloud={render,attach,notifyLocalChange,signedOut};
+document.addEventListener('visibilitychange',()=>{if(!document.hidden&&state.auto&&Date.now()-state.lastSynced>45000)notifyLocalChange()});
+window.CollectorCloud={render,attach,notifyLocalChange,syncNow,signedOut};
 const style=document.createElement('style');style.textContent='.collector-cloud{margin-top:20px;display:grid;gap:12px}.collector-cloud h2{margin:0}.cloud-switch{display:flex;align-items:center;gap:12px;font-weight:650}.cloud-switch input{width:20px;height:20px}.cloud-copies{display:grid;gap:10px}.cloud-copies h3{margin:0}.cloud-copy{display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid var(--edge);border-radius:12px;padding:10px}.cloud-copy small{display:block;color:var(--sub);margin-top:5px}.cloud-error{border:1px solid #d88696}';document.head.appendChild(style);
 })();
