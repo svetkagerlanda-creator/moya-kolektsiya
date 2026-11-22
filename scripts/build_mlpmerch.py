@@ -42,8 +42,12 @@ def extract(name,path,expected):
             image=parent.find("img",alt=lambda x: bool(x and "Kayou Card" in x))
             if image:
                 src=image.get("data-src") or image.get("src") or ""
+                if "/v/pixel.gif" in src.lower():
+                    src=(image.parent.get("href") if image.parent else "") or ""
                 candidate=urljoin(url,src) if src else ""
-                if urlsplit(candidate).scheme=="https":
+                if (urlsplit(candidate).scheme=="https"
+                        and "/v/pixel.gif" not in candidate.lower()
+                        and urlsplit(candidate).hostname!="mlpmerch.mlpmerch.com"):
                     photo=candidate
                     break
         items[code]={"name":title,"figureNumber":code,"rarity":rarity,"manufacturer":"Kayou","photo":photo,"sourceUrl":urljoin(url,a["href"])}
