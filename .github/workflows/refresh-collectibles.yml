@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalogs/verified-kayou.json catalogs/verified-mlpmerch.json catalogs/source-probe.json
+          git add catalogs/verified-kayou.json catalogs/verified-mlpmerch.json catalogs/source-probe.json catalogs/merch-errors.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh verified Kayou catalogs"
             git push
