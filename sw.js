@@ -1,4 +1,28 @@
-const CACHE='moya-kolektsiya-v0.15.2', ASSETS=['./','./index.html','./i18n.js','./personal-photos.js','./community-social.js','./community-auth.js','./donation.json','./manifest.webmanifest','./icon.svg','./catalogs/verified-kayou.json','./catalogs/verified-mlpmerch.json','./catalogs/verified-brushables.json','./catalogs/verified-blind-bags.json','./catalogs/verified-mlp-figures.json','./catalogs/verified-popmart-starters.json','./catalogs/verified-funko-fandoms.json','./catalogs/verified-funko-more-fandoms.json','./catalogs/verified-funko-next-batch.json','./catalogs/verified-funko-dragon-aot-chainsaw-disney.json','./catalogs/verified-funko-deathnote-spy-wednesday-sonic-sw-sailor.json','./catalogs/verified-funko-bleach-hxh-minecraft-dc-lotr-squid.json','./catalogs/verified-funko-frieren-tokyoghoul-fnaf-hotd-stitch-witcher.json','./catalogs/verified-funko-got-lastofus-transformers-toystory-frozen-jurassic.json'];
-self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('moya-kolektsiya-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
-self.addEventListener('fetch',event=>{const request=event.request;if(request.method!=='GET'||new URL(request.url).origin!==self.location.origin)return;if(new URL(request.url).pathname.includes('/catalogs/')){event.respondWith(fetch(request).then(response=>{if(response.ok){let copy=response.clone();caches.open(CACHE).then(cache=>cache.put(request,copy)).catch(()=>{})}return response}).catch(async()=>await caches.match(request)));return}if(request.mode==='navigate'){event.respondWith(fetch(request).then(response=>{if(response.ok){let copy=response.clone();caches.open(CACHE).then(cache=>cache.put(request,copy)).catch(()=>{})}return response}).catch(async()=>await caches.match(request)||await caches.match('./index.html')));return}event.respondWith(caches.match(request).then(cached=>cached||fetch(request).then(response=>{if(response.ok){let copy=response.clone();caches.open(CACHE).then(cache=>cache.put(request,copy)).catch(()=>{})}return response})))})
+// Network-first for application scripts; cached copies keep the PWA usable offline.
+const CACHE='moya-kolektsiya-v0.15.3';
+const CORE=['./','./index.html','./i18n.js','./personal-photos.js?v=0.15.3','./community-social.js?v=0.15.3','./community-auth.js?v=0.15.3','./donation.json','./manifest.webmanifest','./icon.svg'];
+self.addEventListener('install',event=>{
+  event.waitUntil(caches.open(CACHE).then(cache=>Promise.allSettled(CORE.map(path=>cache.add(path)))).then(()=>self.skipWaiting()));
+});
+self.addEventListener('activate',event=>{
+  event.waitUntil(caches.keys().then(names=>Promise.all(names.filter(name=>name.startsWith('moya-kolektsiya-')&&name!==CACHE).map(name=>caches.delete(name)))).then(()=>self.clients.claim()));
+});
+self.addEventListener('fetch',event=>{
+  const request=event.request;
+  if(request.method!=='GET'||new URL(request.url).origin!==self.location.origin)return;
+  const url=new URL(request.url);
+  const isNavigation=request.mode==='navigate';
+  const isAppScript=/\.(?:js|mjs)$/.test(url.pathname);
+  const isCatalog=url.pathname.includes('/catalogs/');
+  if(isNavigation||isAppScript||isCatalog){
+    event.respondWith(fetch(request).then(response=>{
+      if(response.ok){const copy=response.clone();event.waitUntil(caches.open(CACHE).then(cache=>cache.put(request,copy)).catch(()=>{}))}
+      return response;
+    }).catch(async()=>await caches.match(request)||(isNavigation?await caches.match('./index.html'):Response.error())));
+    return;
+  }
+  event.respondWith(caches.match(request).then(cached=>cached||fetch(request).then(response=>{
+    if(response.ok){const copy=response.clone();event.waitUntil(caches.open(CACHE).then(cache=>cache.put(request,copy)).catch(()=>{}))}
+    return response;
+  })));
+});
