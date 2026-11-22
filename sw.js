@@ -1,6 +1,6 @@
 // Network-first for application scripts; cached copies keep the PWA usable offline.
-const CACHE='moya-kolektsiya-v0.15.3';
-const CORE=['./','./index.html','./i18n.js','./personal-photos.js?v=0.15.3','./community-social.js?v=0.15.3','./community-auth.js?v=0.15.3','./donation.json','./manifest.webmanifest','./icon.svg'];
+const CACHE='moya-kolektsiya-v0.16.0';
+const CORE=['./','./index.html','./i18n.js','./collector-cloud.js?v=0.16.0','./personal-photos.js?v=0.16.0','./community-social.js?v=0.16.0','./community-auth.js?v=0.16.0','./donation.json','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>{
   event.waitUntil(caches.open(CACHE).then(cache=>Promise.allSettled(CORE.map(path=>cache.add(path)))).then(()=>self.skipWaiting()));
 });
