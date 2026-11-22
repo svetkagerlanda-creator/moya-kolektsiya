@@ -137,7 +137,7 @@ function collectionRootTabs(){return '<div class="tools" role="group" aria-label
 function manufacturerCards(){
  const options=manufacturerOptions(),created=data.folders.filter(f=>!f.parent&&f.kind==='manufacturer');
  return '<section class="collections-page">'+collectionRootTabs()+'<h2>Мої виробники</h2><p class="muted">Створи папку виробника, наприклад Funko, POP MART або Hasbro. Усередині додавай серії з каталогу — предмети не копіюються автоматично.</p>'
- +combinedCollectionPicker()+'<div class="tools"><button type="button" class="alt" data-action="new-manufacturer">＋ Додати власного виробника</button><button type="button" class="alt" data-action="new-fandom">＋ Додати власний фандом</button></div>'
+ +separateCollectionPickers()+'<div class="tools"><button type="button" class="alt" data-action="new-manufacturer">＋ Додати власного виробника</button><button type="button" class="alt" data-action="new-fandom">＋ Додати власний фандом</button></div>'
  +'<h3>Папки виробників ('+created.length+')</h3>'
  +(created.length?'<div class="grid foldergrid">'+created.map(f=>'<div class="fandom-folder-entry">'+foldercard(f)+'<button type="button" class="alt fandom-remove" data-delete-fandom="'+esc(f.id)+'" aria-label="Видалити виробника '+esc(f.name)+'">🗑 Видалити виробника</button></div>').join('')+'</div>':'<div class="empty neat-empty">Папок виробників поки немає. Вибери виробника й підтвердь створення.</div>')+'</section>';
 }
