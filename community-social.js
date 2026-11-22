@@ -85,7 +85,7 @@ function feed(){
 }
 function render(session){
  const id=getId(session);if(!id)return '<div class="banner">Сеанс завершився. Увійди повторно.</div>';
- if(state.id!==id)Object.assign(state,{id,profile:null,people:[],posts:[],likes:[],comments:[],follows:[],fandoms:[],fandomFollows:[],tab:'profile',feedMode:'all',person:null,loaded:false,loading:false,editing:false,posting:!!state.acquisitionDraft});
+ if(state.id!==id)Object.assign(state,{id,profile:null,people:[],posts:[],likes:[],comments:[],follows:[],fandoms:[],fandomFollows:[],tab:'profile',feedMode:'all',person:null,loaded:false,loading:false,editing:false,editingPostId:null,posting:!!state.acquisitionDraft});
  const p=state.person?person(state.person):state.profile;
  window.CollectorChats?.setup(id,state.people);
  const unreadDm=window.CollectorChats?.unreadCount?.()||0;
