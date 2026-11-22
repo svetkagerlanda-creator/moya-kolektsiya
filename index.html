@@ -54,7 +54,7 @@ body[data-theme="dark"] .item-owned .muted{color:#abd0b3}
 .fandom-folder-entry{display:flex;flex-direction:column;gap:7px;min-width:0}.fandom-folder-entry .fandom-remove{align-self:flex-end;font-size:12px;padding:8px 11px}.fandom-folder-entry>.card{flex:1}.fandom-grid{grid-template-columns:repeat(auto-fill,minmax(185px,1fr))}.fandom-card{min-height:160px;display:flex;flex-direction:column;justify-content:center;gap:8px}.fandom-card h3{margin:0;font-size:18px}.fandom-icon{font-size:39px}@media(max-width:800px){.fandom-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.fandom-card{min-height:145px}}\n.source-photo-link{display:block;font-size:12px;text-align:center;text-decoration:none;color:var(--accent);margin-top:6px;padding:6px 4px;border:1px solid var(--edge);border-radius:9px}.source-photo-link:focus-visible{outline:2px solid var(--accent)}
 </style></head><body data-theme="purple"><div class="app"><aside class="nav"><div class="logo">💜 Моя колекція</div><div id="side"></div><div class="foot">Версія <b id="sideVersion"></b><br>Особисте локальне сховище</div></aside><main class="main"><header class="head"><div><h1 id="heading">Моя колекція</h1><span class="muted">Твій персональний цифровий музей</span></div><div class="row"><button class="alt" id="donate">💜 Підтримати</button><button class="alt" id="share">↗ Поділитися</button><button class="btn" id="add">+ Додати предмет</button></div></header><div id="content"></div></main></div><nav id="bottom" class="bottom"></nav><div id="modal" class="hidden"></div><div id="toast" role="status"></div><input type="file" id="backupfile" accept=".json,application/json" hidden>
 <script src="./i18n.js"></script><script>
-const VERSION='0.15.0', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['account','♙','Акаунт'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
+const VERSION='0.15.1', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['account','♙','Акаунт'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
 const $=x=>document.getElementById(x), esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),id=()=>crypto.randomUUID(),now=()=>new Date().toISOString(),fmt=x=>x===''||x==null?'—':Number(x).toLocaleString('uk-UA',{maximumFractionDigits:2})+' '+data.settings.currency;
 let db,data={folders:[],items:[],settings:{theme:'purple',currency:'UAH',language:'uk'}},page='home',folder=null,searchTerm='',characterTerm='',view='cards',discoveryMode='character',selectedFandomKey='',collectionRootMode='fandoms';
 const validPages=new Set(menu.map(x=>x[0]));
@@ -122,15 +122,31 @@ function wishlistButtons(i){
 }
 async function toggleOwnedItem(itemId){
  const item=data.items.find(i=>i.id===itemId);if(!item)return showToast('Предмет не знайдено');
- const old={status:item.status,quantity:item.quantity,previousStatus:item.previousStatus,updated:item.updated,wishlistExplicit:item.wishlistExplicit,photoPromptSeen:item.photoPromptSeen};
- const wasOwned=owned(item);
- if(owned(item)){item.status=item.previousStatus&&item.previousStatus!=='owned'?item.previousStatus:'unset';item.wishlistExplicit=item.status==='wish'||item.status==='ordered';item.quantity=0;delete item.previousStatus}
- else{item.previousStatus=item.status==='owned'?'unset':wishlistStatusForDisplay(item);item.status='owned';item.wishlistExplicit=false;item.quantity=Math.max(1,Number(item.quantity)||0)}
+ const before=structuredClone(item),wasOwned=owned(item);
+ if(wasOwned){
+  // Return this card to its catalog defaults; never change the global catalog image.
+  const hasPersonalPhotos=Array.isArray(item.personalPhotos)&&item.personalPhotos.length>0;
+  if(hasPersonalPhotos&&!confirm('Повернути картку до початкового вигляду? Позначка «Маю», власні фото та дані про покупку будуть видалені з цієї картки. Каталожне фото залишиться.'))return;
+  item.status='unset';item.quantity=0;item.wishlistExplicit=false;
+  item.preferredPhotoSource='catalog';
+  item.personalPhotos=[];delete item.personalCoverId;delete item.photoPromptSeen;delete item.previousStatus;
+  item.purchasePrice='';item.condition='unknown';
+  delete item.ownedAt;delete item.purchaseNote;
+ }else{
+  item.previousStatus=item.status==='owned'?'unset':wishlistStatusForDisplay(item);
+  item.status='owned';item.wishlistExplicit=false;
+  item.quantity=Math.max(1,Number(item.quantity)||0);
+ }
  item.updated=now();
- const askForPhoto=!wasOwned&&owned(item)&&!item.photoPromptSeen;
+ const askForPhoto=!wasOwned&&!item.photoPromptSeen;
  if(askForPhoto)item.photoPromptSeen=true;
- try{await save()}catch(error){item.status=old.status;item.quantity=old.quantity;item.updated=old.updated;if(old.photoPromptSeen===undefined)delete item.photoPromptSeen;else item.photoPromptSeen=old.photoPromptSeen;if(old.previousStatus===undefined)delete item.previousStatus;else item.previousStatus=old.previousStatus;if(old.wishlistExplicit===undefined)delete item.wishlistExplicit;else item.wishlistExplicit=old.wishlistExplicit;return showToast('Не вдалося зберегти позначку')}
- render();showToast(owned(item)?'✓ Позначено як придбане':'Позначку «Маю» знято');
+ try{await save()}catch(error){
+  for(const key of Object.keys(item))delete item[key];
+  Object.assign(item,before);
+  return showToast('Не вдалося зберегти зміну');
+ }
+ render();
+ showToast(wasOwned?'Картку повернено до каталожного вигляду':'✓ Позначено як придбане');
  if(askForPhoto)window.CollectorPhotos?.prompt(item,{modal,close,save,render,toast:showToast});
 }
 function enableImageFallbacks(){
