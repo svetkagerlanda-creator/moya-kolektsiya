@@ -58,9 +58,16 @@ async function list(){
  try{
   const res=await request('object/list/'+BUCKET,{method:'POST',body:JSON.stringify({prefix:state.userId+'/snapshots',limit:100,offset:0,sortBy:{column:'updated_at',order:'desc'}})});
   const rows=await res.json();
-  state.snapshots=(Array.isArray(rows)?rows:[]).filter(x=>/^[0-9a-f-]{36}\.json$/.test(x.name)).sort((a,b)=>String(b.updated_at||b.created_at).localeCompare(String(a.updated_at||a.created_at)));
+  state.snapshots=(Array.isArray(rows)?rows:[]).filter(x=>/^[0-9a-f-]{36}(?:-before-\d{13})?\.json$/.test(x.name)).sort((a,b)=>String(b.updated_at||b.created_at).localeCompare(String(a.updated_at||a.created_at)));
   state.loaded=true;
  }catch(err){fail(err)}finally{state.busy=false;state.refresh?.()}
+}
+async function saveSafetyCopy(){
+ const backup={app:'moya-kolektsiya',version:1,device,created:new Date().toISOString(),data:window.CollectorLocal.read()};
+ const bytes=enc.encode(JSON.stringify(backup));
+ if(bytes.length>45*1024*1024)throw Error('Неможливо створити страховочну копію: понад 45 МБ. Перед об’єднанням зроби локальний експорт JSON.');
+ const name=device+'-before-'+Date.now()+'.json';
+ await request('object/'+BUCKET+'/'+objectName(state.userId,name),{method:'POST',body:bytes});
 }
 function summary(snapshot){
  const data=snapshot?.data;
@@ -69,9 +76,9 @@ function summary(snapshot){
  return {folders:data.folders.length,items:data.items.length,photos:data.items.reduce((n,x)=>n+(Array.isArray(x.personalPhotos)?x.personalPhotos.length:0),0)};
 }
 async function mergeFrom(name){
- if(!syncUser()||!/^[0-9a-f-]{36}\.json$/.test(name))throw Error('Неправильна резервна копія.');
+ if(!syncUser()||!/^[0-9a-f-]{36}(?:-before-\d{13})?\.json$/.test(name))throw Error('Неправильна резервна копія.');
  if(state.busy)throw Error('Інша операція ще виконується.');
- state.busy=true;state.error='';
+ state.busy=true;state.error='';let merged=false;
  try{
   const res=await request('object/authenticated/'+BUCKET+'/'+objectName(state.userId,name));
   const text=await res.text();if(text.length>65*1024*1024)throw Error('Файл занадто великий для відновлення.');
@@ -80,10 +87,19 @@ async function mergeFrom(name){
   const localIds=new Set(local.items.map(x=>String(x.id))),folderIds=new Set(local.folders.map(x=>String(x.id)));
   const missingItems=snapshot.data.items.filter(x=>!localIds.has(String(x.id)));
   const missingFolders=snapshot.data.folders.filter(x=>!folderIds.has(String(x.id)));
-  if(!confirm('Об’єднати хмарну копію з локальною колекцією?\n\nУ хмарі: '+info.folders+' папок, '+info.items+' предметів, '+info.photos+' фото.\n\nБуде додано: '+missingFolders.length+' папок і '+missingItems.length+' предметів. Наявні локальні записи НЕ будуть замінені чи видалені.'))return;
-  await window.CollectorLocal.merge({folders:missingFolders,items:missingItems});
-  status('✓ Хмарну копію об’єднано: додано '+missingFolders.length+' папок та '+missingItems.length+' предметів.');state.loaded=false;
- }catch(err){fail(err)}finally{state.busy=false;state.refresh?.()}
+  const localItems=new Map(local.items.map(x=>[String(x.id),x]));
+  const newer=snapshot.data.items.filter(remote=>{
+   const old=localItems.get(String(remote.id));if(!old)return false;
+   const theirDate=Date.parse(remote.updated||''),ourDate=Date.parse(old.updated||'');
+   return Number.isFinite(theirDate)&&theirDate>(Number.isFinite(ourDate)?ourDate:0)+1000;
+  });
+  if(!confirm('Об’єднати хмарну копію з локальною колекцією?\n\nУ хмарі: '+info.folders+' папок, '+info.items+' предметів, '+info.photos+' фото.\n\nНових папок: '+missingFolders.length+'. Нових предметів: '+missingItems.length+'. Новіших версій наявних предметів: '+newer.length+'.'))return;
+  let applyUpdates=false;
+  if(newer.length)applyUpdates=confirm('У хмарі є '+newer.length+' новіших змін уже наявних предметів.\n\nОК — застосувати їх після створення окремої страховочної хмарної копії.\nСкасувати — додати лише відсутні предмети, НЕ змінюючи наявні.');
+  if(applyUpdates)await saveSafetyCopy();
+  const outcome=await window.CollectorLocal.merge(snapshot.data,{applyUpdates});merged=true;
+  status('✓ Хмару об’єднано: '+outcome.addedFolders+' папок, '+outcome.addedItems+' предметів, '+outcome.updatedItems+' оновлених карток.');state.loaded=false;
+ }catch(err){fail(err)}finally{state.busy=false;state.refresh?.();if(merged)notifyLocalChange()}
 }
 function notifyLocalChange(){
  const id=syncUser();
@@ -96,12 +112,12 @@ function render(){
  return '<section class="card collector-cloud"><h2>☁️ Моя хмара</h2>'
  +'<p class="muted">Приватні резервні копії для кожного пристрою. Вони містять папки, предмети та особисті фото, але ніколи не публікуються у стрічці.</p>'
  +'<label class="cloud-switch"><input type="checkbox" id="cloudAuto" '+(state.auto?'checked':'')+'> Автоматично зберігати копію цього пристрою після змін</label>'
- +'<p class="muted">На іншому пристрої спершу увійди до того самого акаунта й обери «Об’єднати». Ми не перезаписуємо дані іншого пристрою автоматично.</p>'
+ +'<p class="muted">На іншому пристрої увійди до цього акаунта й обери «Об’єднати». Новіші зміни можна застосувати окремо, зі страховочною копією; чужі дані не замінюються автоматично.</p>'
  +'<div class="row"><button class="btn" id="cloudUpload" type="button" '+(state.busy?'disabled':'')+'>↑ Зберегти в хмарі</button><button class="alt" id="cloudList" type="button" '+(state.busy?'disabled':'')+'>↓ Мої хмарні копії</button></div>'
  +(state.lastUpload?'<p class="muted">Остання копія цього пристрою: '+esc(new Date(state.lastUpload).toLocaleString('uk-UA'))+'</p>':'')
  +(state.notice?'<div class="banner">'+esc(state.notice)+'</div>':'')
  +(state.error?'<div class="banner cloud-error">'+esc(state.error)+'</div>':'')
- +(state.loaded?'<div class="cloud-copies"><h3>Копії з моїх пристроїв</h3>'+(state.snapshots.length?state.snapshots.map(x=>'<div class="cloud-copy"><div><b>'+(x.name===device+'.json'?'Цей пристрій':'Інший пристрій')+'</b><small>'+esc(x.updated_at?new Date(x.updated_at).toLocaleString('uk-UA'):'Дата невідома')+'</small></div><button class="alt" type="button" data-cloud-merge="'+esc(x.name)+'">Об’єднати</button></div>').join(''):'<p class="muted">Хмарних копій поки немає.</p>')+'</div>':'')+'</section>';
+ +(state.loaded?'<div class="cloud-copies"><h3>Копії з моїх пристроїв</h3>'+(state.snapshots.length?state.snapshots.map(x=>'<div class="cloud-copy"><div><b>'+(x.name.includes('-before-')?'Страховочна копія':x.name===device+'.json'?'Цей пристрій':'Інший пристрій')+'</b><small>'+esc(x.updated_at?new Date(x.updated_at).toLocaleString('uk-UA'):'Дата невідома')+'</small></div><button class="alt" type="button" data-cloud-merge="'+esc(x.name)+'">Об’єднати</button></div>').join(''):'<p class="muted">Хмарних копій поки немає.</p>')+'</div>':'')+'</section>';
 }
 function attach(refresh){
  state.refresh=refresh;syncUser();
