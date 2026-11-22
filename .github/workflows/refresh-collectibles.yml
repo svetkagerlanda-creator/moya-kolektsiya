@@ -7,6 +7,7 @@ on:
       - 'scripts/probe_sources.py'
       - 'scripts/build_mlpmerch.py'
       - 'scripts/build_brushables.py'
+      - 'scripts/build_blind_bags.py'
       - '.github/workflows/refresh-collectibles.yml'
   workflow_dispatch:
   schedule:
@@ -34,13 +35,15 @@ jobs:
         run: python scripts/build_mlpmerch.py
       - name: Build photographed G4 Brushables releases
         run: python scripts/build_brushables.py
+      - name: Build verified G4 Blind Bags waves
+        run: python scripts/build_blind_bags.py
       - name: Inspect additional merchandise sources
         run: python scripts/probe_sources.py
       - name: Commit catalog only when verified data changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalogs/verified-kayou.json catalogs/verified-mlpmerch.json catalogs/verified-brushables.json catalogs/brushables-errors.json catalogs/source-probe.json catalogs/merch-errors.json
+          git add catalogs/verified-kayou.json catalogs/verified-mlpmerch.json catalogs/verified-brushables.json catalogs/brushables-errors.json catalogs/verified-blind-bags.json catalogs/blind-bags-errors.json catalogs/source-probe.json catalogs/merch-errors.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh verified Kayou catalogs"
             # The repository may receive a newer commit while catalogs are built.
