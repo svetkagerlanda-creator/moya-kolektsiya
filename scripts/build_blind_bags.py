@@ -88,6 +88,8 @@ def parse_wave(name,url):
         if root:
             for img in root.select(".data-top img.data-img"):
                 original = img.get("data-src") or img.get("src") or ""
+                if "/v/pixel.gif" in original.lower():
+                    original=(img.parent.get("href") if img.parent else "") or ""
                 candidate = urljoin(url,original) if original else ""
                 if (urlsplit(candidate).scheme == "https"
                         and "/v/pixel.gif" not in candidate.lower()
