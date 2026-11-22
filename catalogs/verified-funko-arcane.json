@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "name": "Funko · Arcane: League of Legends · POP! (основні випуски)",
+      "count": 7,
+      "source": "https://funko.com/fandoms/video-games/league-of-legends/",
+      "verified": true,
+      "manufacturer": "Funko",
+      "fandomKey": "catalog-2-11",
+      "group": "🎮 Відеоігри · League of Legends / Arcane",
+      "completeness": "verified-base-7",
+      "coverPhoto": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw64a2c850/images/funko/upload/75649_POPTV_Arcane_Jinx_POP_GLAM-WEB.png",
+      "items": [
+        {
+          "name": "Champion Viktor",
+          "figureNumber": "#1487",
+          "catalogPosition": "1",
+          "manufacturer": "Funko",
+          "productSku": "83700",
+          "seriesNumber": "83700",
+          "sourceUrl": "https://funko.com/pop-champion-viktor/83700.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw566581df/images/funko/upload/83700_ArcaneLOL_S2_ChampionViktor_POP_GLAM-WEB.png",
+          "photoCredit": "Funko · офіційне фото конкретного випуску",
+          "description": "Funko POP! Arcane: League of Legends · коробка #1487"
+        },
+        {
+          "name": "Caitlyn Kiramman",
+          "figureNumber": "#1488",
+          "catalogPosition": "2",
+          "manufacturer": "Funko",
+          "productSku": "83698",
+          "seriesNumber": "83698",
+          "sourceUrl": "https://funko.com/pop-caitlyn-kiramman/83698.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwdec953c0/images/funko/upload/83698_ArcaneLOL_S2_Caitlyn_POP_GLAM-WEB.png",
+          "photoCredit": "Funko · офіційне фото конкретного випуску",
+          "description": "Funko POP! Arcane: League of Legends · коробка #1488"
+        },
+        {
+          "name": "Vi",
+          "figureNumber": "#1601",
+          "catalogPosition": "3",
+          "manufacturer": "Funko",
+          "productSku": "75652",
+          "seriesNumber": "75652",
+          "sourceUrl": "https://funko.com/pop-vi/75652.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw73fb66e4/images/funko/upload/75652_ArcaneLOL_Vi_POP_GLAM-WEB.png",
+          "photoCredit": "Funko · офіційне фото конкретного випуску",
+          "description": "Funko POP! Arcane: League of Legends · коробка #1601"
+        },
+        {
+          "name": "Jinx",
+          "figureNumber": "#1602",
+          "catalogPosition": "4",
+          "manufacturer": "Funko",
+          "productSku": "75649",
+          "seriesNumber": "75649",
+          "sourceUrl": "https://funko.com/pop-jinx/75649.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw64a2c850/images/funko/upload/75649_POPTV_Arcane_Jinx_POP_GLAM-WEB.png",
+          "photoCredit": "Funko · офіційне фото конкретного випуску",
+          "description": "Funko POP! Arcane: League of Legends · коробка #1602"
+        },
+        {
+          "name": "Ekko",
+          "figureNumber": "#1603",
+          "catalogPosition": "5",
+          "manufacturer": "Funko",
+          "productSku": "75648",
+          "seriesNumber": "75648",
+          "sourceUrl": "https://funko.com/pop-ekko/75648.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw84d00afc/images/funko/upload/75648_ArcaneLOL_Ekko_POP_GLAM-WEB.png",
+          "photoCredit": "Funko · офіційне фото конкретного випуску",
+          "description": "Funko POP! Arcane: League of Legends · коробка #1603"
+        },
+        {
+          "name": "Silco",
+          "figureNumber": "#1604",
+          "catalogPosition": "6",
+          "manufacturer": "Funko",
+          "productSku": "75650",
+          "seriesNumber": "75650",
+          "sourceUrl": "https://funko.com/pop-silco/75650.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwdd171b45/images/funko/upload/75650_ArcaneLOL_Silco_POP_GLAM-WEB.png",
+          "photoCredit": "Funko · офіційне фото конкретного випуску",
+          "description": "Funko POP! Arcane: League of Legends · коробка #1604"
+        },
+        {
+          "name": "Heimerdinger with Poro",
+          "figureNumber": "#1605",
+          "catalogPosition": "7",
+          "manufacturer": "Funko",
+          "productSku": "80193",
+          "seriesNumber": "80193",
+          "sourceUrl": "https://funko.com/pop-heimerdinger-with-poro/80193.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw4aaad8f9/images/funko/upload/80193_ArcaneLOL_HeimerdingerWithPoro_POP_GLAM-WEB.png",
+          "photoCredit": "Funko · офіційне фото конкретного випуску",
+          "description": "Funko POP! Arcane: League of Legends · коробка #1605"
+        }
+      ]
+    }
+  ]
+}
