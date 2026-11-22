@@ -125,7 +125,9 @@
         "href": "/kayou-cards/series/friendship-eternal-cards/moon-edition/",
         "img": ""
       }
-    ]
+    ],
+    "sample_html": "<div class=\"data-bottom\"><b><a href=\"/kayou-cards/details/kcfecmes4r001l1/\">Princess Twilight Sparkle</a></b> (<a href=\"/kayou-cards/rarity/r/\">R</a>)<br/><a href=\"/kayou-cards/series/friendship-eternal-cards/moon-edition/\">Moon Edition</a> <a href=\"/kayou-cards/subset/moon-edition/series-4/\">Series 4</a><span class=\"data-smallt\">MLPME04-R-001L1</span><span class=\"data-amzn\"> <a href=\"https://link.amazon/B0ihq7OzU\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony Moon Edition Series 4 Princess Twilight Sparkle Kayou Card on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+mlpme04+r+001l1&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5GFxjWUd7PgCLcB/s1600/ebay-button.png\" title=\"Buy on eBay\" width=\"66\"/></a></span></div>",
+    "detail_count": 162
   },
   "fun4": {
     "http": 200,
@@ -253,7 +255,9 @@
         "href": "/kayou-cards/series/friendship-eternal-cards/fun-moments-edition/",
         "img": ""
       }
-    ]
+    ],
+    "sample_html": "<div class=\"data-bottom\"><b><a href=\"/kayou-cards/details/kcfecfmes4n001l1/\">You are freer than you think.</a></b> (<a href=\"/kayou-cards/rarity/n/\">N</a>)<br/><a href=\"/kayou-cards/series/friendship-eternal-cards/fun-moments-edition/\">Fun Moments Edition</a> <a href=\"/kayou-cards/subset/fun-moments-edition/series-4/\">Series 4</a><span class=\"data-smallt\">FME04-N-001L1</span><span class=\"data-amzn\"> <a href=\"https://link.amazon/B00J5pyhd\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony Fun Moments Edition Series 4 You are freer than you think. Kayou Card on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+fme04+n+001l1&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5GFxjWUd7PgCLcB/s1600/ebay-button.png\" title=\"Buy on eBay\" width=\"66\"/></a></span></div>",
+    "detail_count": 287
   },
   "brushables": {
     "http": 200,
@@ -381,7 +385,9 @@
         "href": "/brushables/series/canterlot/",
         "img": "My Little Pony Canterlot G4 Brushables Ponies"
       }
-    ]
+    ],
+    "sample_html": "",
+    "detail_count": 0
   },
   "blind_bags": {
     "http": 200,
@@ -509,7 +515,9 @@
         "href": "/blind-bags/release/wave-11b/",
         "img": "My Little Pony Wave 11B G4 Blind Bags Ponies"
       }
-    ]
+    ],
+    "sample_html": "",
+    "detail_count": 0
   },
   "cutie_mark_crew": {
     "http": 200,
@@ -637,6 +645,8 @@
         "href": "/finder/",
         "img": "Find My Pony"
       }
-    ]
+    ],
+    "sample_html": "",
+    "detail_count": 0
   }
 }
