@@ -1,0 +1,19 @@
+{
+  "name": "Моя колекція",
+  "short_name": "Колекція",
+  "description": "Особистий каталог колекціонера",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f0eafb",
+  "theme_color": "#8655c8",
+  "lang": "uk",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
