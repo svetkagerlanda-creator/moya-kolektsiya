@@ -376,6 +376,9 @@ async function repairImportedCatalogPhotos(){
  for(const series of COMPLETE_FIGURE_SERIES)for(const card of series.items||[])remember(series,card);
  let repaired=0;
  for(const item of data.items){
+  // Repair ONLY two confirmed historic metadata mistakes; never touch ownership.
+  if(item.seriesNumber==='96841'&&item.figureNumber==='Item 96841'&&item.name==='Maomao — Dancing'){item.figureNumber='#2595';repaired++}
+  if(item.seriesNumber==='96121'&&item.figureNumber==='Item 96121'&&item.name==='Pocket Pop! Maomao & Jinshi (2-Pack)'){item.figureNumber='';repaired++}
   if(!invalidCatalogPhoto(item.photo))continue;
   const parent=getfolder(item.folder);
   const exact=parent&&byIdentity.get(parent.name+'|'+item.name);
