@@ -86,13 +86,12 @@ def parse_wave(name,url):
         photo = ""
         root = bottom.parent
         if root:
-            for img in root.select("img"):
-                alt = img.get("alt","")
-                if "Blind Bag" not in alt or "Buy " in alt:
-                    continue
+            for img in root.select(".data-top img.data-img"):
                 original = img.get("data-src") or img.get("src") or ""
                 candidate = urljoin(url,original) if original else ""
-                if urlsplit(candidate).scheme == "https":
+                if (urlsplit(candidate).scheme == "https"
+                        and "/v/pixel.gif" not in candidate.lower()
+                        and urlsplit(candidate).hostname != "mlpmerch.mlpmerch.com"):
                     photo = candidate
                     break
         items[key] = {
