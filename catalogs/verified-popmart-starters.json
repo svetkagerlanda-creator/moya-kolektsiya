@@ -28,8 +28,9 @@
           "rarity": "",
           "manufacturer": "POP MART",
           "sourceUrl": "https://www.popmart.com/us/products/1791/the-monsters-have-a-seat-vinyl-plush-blind-box",
-          "photo": "",
-          "description": "vinyl plush blind box"
+          "photo": "https://mthorshop.com/cdn/shop/files/Pop_Mart_Labubu_The_Monsters_Have_a_Seat_QUQU_Vinyl_Plush.webp?v=1766210184&width=2048",
+          "description": "vinyl plush blind box",
+          "photoCredit": "MTHOR Shop"
         },
         {
           "name": "Dada",
@@ -272,8 +273,9 @@
           "rarity": "",
           "manufacturer": "POP MART",
           "sourceUrl": "https://www.popmart.com/us/products/13/HIRONO-Little-Mischief-Series",
-          "photo": "",
-          "description": "figure blind box"
+          "photo": "https://images.stockx.com/images/Pop-Mart-HIRONO-Little-Mischief-Series-LOOSE-FISH-Figure.jpg?bg=FFFFFF&dpr=3&fit=fill&h=384&q=41&trim=color&updated_at=1764096386&w=576",
+          "description": "figure blind box",
+          "photoCredit": "StockX"
         },
         {
           "name": "The Aviator",
@@ -282,8 +284,9 @@
           "rarity": "",
           "manufacturer": "POP MART",
           "sourceUrl": "https://www.popmart.com/us/products/13/HIRONO-Little-Mischief-Series",
-          "photo": "",
-          "description": "figure blind box"
+          "photo": "https://images.stockx.com/images/Pop-Mart-HIRONO-Little-Mischief-Series-THE-AVIATOR-Figure.jpg?auto=compress&bg=FFFFFF&dpr=2&fit=fill&fm=webp&h=500&q=90&trim=color&updated_at=1764096390&w=700",
+          "description": "figure blind box",
+          "photoCredit": "StockX"
         },
         {
           "name": "Protector",
