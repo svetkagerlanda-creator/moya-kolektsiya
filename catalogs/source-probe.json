@@ -1,4 +1,921 @@
 {
+  "blind_wave1": {
+    "http": 200,
+    "length": 93306,
+    "title": "MLP Wave 1 G4 Blind Bags | MLP Merch",
+    "text": "MLP Wave 1 G4 Blind Bags | MLP Merch Toggle navigation Blog Home Databases All Databases Latest Updates Generation 1 G1 Ponies Database G1 Plush Database G1 Retro Ponies Database Petite Ponies Database Dream Beauties Database Generation 2 G2 Ponies Database Generation 3 & 3.5 G3 Ponies Database G3 Plush Database G3.5 Ponies Database Ponyville Figures Database Generation 4 G4 Blind Bag Database G4 ",
+    "links": [
+      {
+        "text": "Kayou Cards Database",
+        "href": "/kayou-cards/",
+        "img": ""
+      },
+      {
+        "text": "",
+        "href": "https://data.mlpmerch.com",
+        "img": "MLP Merch Databases | MLP Merch"
+      },
+      {
+        "text": "See all Wave 1 Blind Bag Cards >",
+        "href": "/blind-bag-cards/release/wave-1/",
+        "img": "Wave 1 Blind Bag Cards"
+      },
+      {
+        "text": "",
+        "href": "https://1.bp.blogspot.com/-N4LIP-c7PUE/VY1J8lld2eI/AAAAAAAAYrM/4oZVYz9hB4w/s1600/1-mlp-wave-1-pinkie-pie-blind-bag.jpg",
+        "img": "My Little Pony Wave 1 Pinkie Pie Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+pinkie+pie+wave+1+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://3.bp.blogspot.com/-8gbfeUf2r90/VY1KFy_2E1I/AAAAAAAAYsA/gapuCo8KVmQ/s1600/2-mlp-wave-1-applejack-blind-bag.jpg",
+        "img": "My Little Pony Wave 1 Applejack Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+applejack+wave+1+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://2.bp.blogspot.com/-7L_AMus44pI/VY1KHPTJGuI/AAAAAAAAYsE/j52L7g0d9RU/s1600/3-mlp-wave-1-rainbow-dash-blind-bag.jpg",
+        "img": "My Little Pony Wave 1 Rainbow Dash Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+rainbow+dash+wave+1+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://4.bp.blogspot.com/-VnxVqO8RGZk/VY1KIVA-tUI/AAAAAAAAYsQ/fj1iVBt5Onc/s1600/4-mlp-wave-1-rarity-blind-bag.jpg",
+        "img": "My Little Pony Wave 1 Rarity Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+rarity+wave+1+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://3.bp.blogspot.com/-itT7fFNXwSY/VY1KRnaLI0I/AAAAAAAAYtA/cCCebpapH_s/s1600/5-mlp-wave-1-twilight-sparkle-blind-bag.jpg",
+        "img": "My Little Pony Wave 1 Twilight Sparkle Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+twilight+sparkle+wave+1+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://3.bp.blogspot.com/-LNOvMh8JAEk/VY1KLCXWOOI/AAAAAAAAYsg/EsNCqQrRbHc/s1600/6-mlp-wave-1-fluttershy-blind-bag.jpg",
+        "img": "My Little Pony Wave 1 Fluttershy Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+fluttershy+wave+1+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://4.bp.blogspot.com/-82oTze10gDc/VY1KdopuWuI/AAAAAAAAYtQ/ACxRosd8DLg/s1600/7-mlp-wave-1-sugar-grape-blind-bag.jpg",
+        "img": "My Little Pony Wave 1 Sugar Grape Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+sugar+grape+wave+1+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://1.bp.blogspot.com/-zjNtZBv5F5E/VY1KPRrcPZI/AAAAAAAAYsw/xh4cP9vgF2M/s1600/8-mlp-wave-1-lily-blossom-light-blind-bag.jpg",
+        "img": "My Little Pony Wave 1 Lily Blossom Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+lily+blossom+wave+1+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://3.bp.blogspot.com/-FvueBMGERYM/VY1KOALqq4I/AAAAAAAAYso/2rtlF_allTo/s1600/8-mlp-wave-1-lily-blossom-dark-blind-bag.jpg",
+        "img": "My Little Pony Wave 1 Lily Blossom Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+lily+blossom+wave+1+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://2.bp.blogspot.com/-H28LKWs5kbs/VY1KQbW8fSI/AAAAAAAAYs4/sz8o52nNbVo/s1600/9-mlp-wave-1-minty-blind-bag.jpg",
+        "img": "My Little Pony Wave 1 Minty Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+minty+wave+1+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://3.bp.blogspot.com/-KMaDlwRqDfs/VY1J1IxhvfI/AAAAAAAAYqc/lUVJL2ajDyc/s1600/10-mlp-wave-1-bubmlesweet-blind-bag.jpg",
+        "img": "My Little Pony Wave 1 Bumblesweet Blind Bag Pony"
+      }
+    ],
+    "sample_html": "<div class=\"data-bottom\"><b><a href=\"/blind-bags/details/1w1/\">Pinkie Pie</a></b><br/><a href=\"/blind-bags/set/wave-1/\">Wave 1</a>: #01, #20415<br/><a href=\"/blind-bags/body/pinkie-pie/\">Pinkie Pie</a><span class=\"data-smallt\">2010</span><span class=\"data-amzn\"> <a href=\"//ebay.com/sch/?kw=my+little+pony+pinkie+pie+wave+1+g4+blind+bag&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5GFxjWUd7PgCLcB/s1600/ebay-button.png\" title=\"Buy on eBay\" width=\"66\"/></a></span></div>",
+    "detail_count": 0,
+    "blind_links": 26,
+    "release_links": [
+      {
+        "label": "Release",
+        "href": "/blind-bags/release/"
+      },
+      {
+        "label": "Wave 1",
+        "href": "/blind-bags/release/wave-1/"
+      },
+      {
+        "label": "Release",
+        "href": "/blind-bags/release/"
+      },
+      {
+        "label": "MLP Wave 1 G4 Blind Bags",
+        "href": "https://data.mlpmerch.com/blind-bags/release/wave-1/"
+      }
+    ],
+    "brushable_links": 0,
+    "smallt_count": 26
+  },
+  "blind_wave2": {
+    "http": 200,
+    "length": 90325,
+    "title": "MLP Wave 2 G4 Blind Bags | MLP Merch",
+    "text": "MLP Wave 2 G4 Blind Bags | MLP Merch Toggle navigation Blog Home Databases All Databases Latest Updates Generation 1 G1 Ponies Database G1 Plush Database G1 Retro Ponies Database Petite Ponies Database Dream Beauties Database Generation 2 G2 Ponies Database Generation 3 & 3.5 G3 Ponies Database G3 Plush Database G3.5 Ponies Database Ponyville Figures Database Generation 4 G4 Blind Bag Database G4 ",
+    "links": [
+      {
+        "text": "Kayou Cards Database",
+        "href": "/kayou-cards/",
+        "img": ""
+      },
+      {
+        "text": "",
+        "href": "https://data.mlpmerch.com",
+        "img": "MLP Merch Databases | MLP Merch"
+      },
+      {
+        "text": "See all Wave 2 Blind Bag Cards >",
+        "href": "/blind-bag-cards/release/wave-2/",
+        "img": "Wave 2 Blind Bag Cards"
+      },
+      {
+        "text": "",
+        "href": "https://1.bp.blogspot.com/-eHEBOPCusWk/VY1Kx-MHrtI/AAAAAAAAYtY/UtxVOlHZuSo/s1600/1-mlp-wave-2-pinkie-pie-blind-bag.jpg",
+        "img": "My Little Pony Wave 2 Pinkie Pie Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+pinkie+pie+wave+2+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://3.bp.blogspot.com/-qKu25Za5ARQ/VY1K1X4u7uI/AAAAAAAAYuI/lBopX-00lLM/s1600/2-mlp-wave-2-applejack-blind-bag.jpg",
+        "img": "My Little Pony Wave 2 Applejack Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+applejack+wave+2+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://4.bp.blogspot.com/-jB1GAnUbCxU/VY1K3VG1CWI/AAAAAAAAYug/cR_R0taOkBw/s1600/3-mlp-wave-2-rainbow-dash-blind-bag.jpg",
+        "img": "My Little Pony Wave 2 Rainbow Dash Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+rainbow+dash+wave+2+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://2.bp.blogspot.com/-J5KIfXy1VMA/VY1K3qPCmbI/AAAAAAAAYuk/6-zgy9Ur974/s1600/4-mlp-wave-2-rarity-blind-bag.jpg",
+        "img": "My Little Pony Wave 2 Rarity Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+rarity+wave+2+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://1.bp.blogspot.com/-a8zMUB5lQi8/VY1K_WobEEI/AAAAAAAAYxw/pk2m417yf6o/s1600/5-mlp-wave-2-twilight-sparkle-blind-bag.jpg",
+        "img": "My Little Pony Wave 2 Twilight Sparkle Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+twilight+sparkle+wave+2+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://3.bp.blogspot.com/-H71nYvM8_CQ/VY1K4IWcnsI/AAAAAAAAYus/c3ZoX_qyIAQ/s1600/6-mlp-wave-2-fluttershy-blind-bag.jpg",
+        "img": "My Little Pony Wave 2 Fluttershy Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+fluttershy+wave+2+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://3.bp.blogspot.com/-qclDB5U21mQ/VY1K4lXoGzI/AAAAAAAAYu0/QzSp1dnSusc/s1600/7-mlp-wave-2-feathermay-blind-bag.jpg",
+        "img": "My Little Pony Wave 2 Feathermay Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+feathermay+wave+2+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://4.bp.blogspot.com/-qDM4Oh34LLo/VY1K5HqWS8I/AAAAAAAAYu8/dNZ9QXdxj2c/s1600/8-mlp-wave-2-blossomforth-blind-bag.jpg",
+        "img": "My Little Pony Wave 2 Blossomforth Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+blossomforth+wave+2+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://1.bp.blogspot.com/-UjnwvtZTUH4/VY1K5jh5ZwI/AAAAAAAAYvE/64amyd4B0c8/s1600/9-mlp-wave-2-lulu-luck-blind-bag.jpg",
+        "img": "My Little Pony Wave 2 Lulu Luck Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+lulu+luck+wave+2+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://2.bp.blogspot.com/-yzOnNBfJ9sk/VY1KxzkAPtI/AAAAAAAAYtc/T2xsl-JB0gY/s1600/10-mlp-wave-2-star-swirl-blind-bag.jpg",
+        "img": "My Little Pony Wave 2 Star Swirl Blind Bag Pony"
+      },
+      {
+        "text": "",
+        "href": "//ebay.com/sch/?kw=my+little+pony+star+swirl+wave+2+g4+blind+bag&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5337961373&toolid=20008",
+        "img": "Buy on eBay"
+      },
+      {
+        "text": "",
+        "href": "https://4.bp.blogspot.com/-ZLODy6EZqBs/VY1K5T0c34I/AAAAAAAAYvA/GGMxsns1ESk/s1600/11-mlp-wave-2-tea-love-blind-bag.jpg",
+        "img": "My Little Pony Wave 2 Tea Love Blind Bag Pony"
+      }
+    ],
+    "sample_html": "<div class=\"data-bottom\"><b><a href=\"/blind-bags/details/2w1/\">Pinkie Pie</a></b><br/><a href=\"/blind-bags/set/wave-2/\">Wave 2</a>: #01<br/><a href=\"/blind-bags/body/pinkie-pie/\">Pinkie Pie</a><span class=\"data-smallt\">EU Exclusive Set</span><span class=\"data-smallt\">2011</span><span class=\"data-amzn\"> <a href=\"//ebay.com/sch/?kw=my+little+pony+pinkie+pie+wave+2+g4+blind+bag&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5GFxjWUd7PgCLcB/s1600/ebay-button.png\" title=\"Buy on eBay\" width=\"66\"/></a></span></div>",
+    "detail_count": 0,
+    "blind_links": 24,
+    "release_links": [
+      {
+        "label": "Release",
+        "href": "/blind-bags/release/"
+      },
+      {
+        "label": "Wave 2",
+        "href": "/blind-bags/release/wave-2/"
+      },
+      {
+        "label": "Release",
+        "href": "/blind-bags/release/"
+      },
+      {
+        "label": "MLP Wave 2 G4 Blind Bags",
+        "href": "https://data.mlpmerch.com/blind-bags/release/wave-2/"
+      }
+    ],
+    "brushable_links": 0,
+    "smallt_count": 48
+  },
+  "blind_releases": {
+    "http": 200,
+    "length": 79542,
+    "title": "MLP G4 Blind Bags by Release | MLP Merch",
+    "text": "MLP G4 Blind Bags by Release | MLP Merch Toggle navigation Blog Home Databases All Databases Latest Updates Generation 1 G1 Ponies Database G1 Plush Database G1 Retro Ponies Database Petite Ponies Database Dream Beauties Database Generation 2 G2 Ponies Database Generation 3 & 3.5 G3 Ponies Database G3 Plush Database G3.5 Ponies Database Ponyville Figures Database Generation 4 G4 Blind Bag Database",
+    "links": [
+      {
+        "text": "Kayou Cards Database",
+        "href": "/kayou-cards/",
+        "img": ""
+      },
+      {
+        "text": "",
+        "href": "https://data.mlpmerch.com",
+        "img": "MLP Merch Databases | MLP Merch"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-1/",
+        "img": "My Little Pony Wave 1 G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-2/",
+        "img": "My Little Pony Wave 2 G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-3/",
+        "img": "My Little Pony Wave 3 G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-4/",
+        "img": "My Little Pony Wave 4 G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-5/",
+        "img": "My Little Pony Wave 5 G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-6/",
+        "img": "My Little Pony Wave 6 G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-7/",
+        "img": "My Little Pony Wave 7 G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-8/",
+        "img": "My Little Pony Wave 8 G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-8a/",
+        "img": "My Little Pony Wave 8A G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-8b/",
+        "img": "My Little Pony Wave 8B G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-9/",
+        "img": "My Little Pony Wave 9 G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-9a/",
+        "img": "My Little Pony Wave 9A G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-9b/",
+        "img": "My Little Pony Wave 9B G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-10/",
+        "img": "My Little Pony Wave 10 G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-10a/",
+        "img": "My Little Pony Wave 10A G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-10b/",
+        "img": "My Little Pony Wave 10B G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-11/",
+        "img": "My Little Pony Wave 11 G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-11a/",
+        "img": "My Little Pony Wave 11A G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-11b/",
+        "img": "My Little Pony Wave 11B G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-12/",
+        "img": "My Little Pony Wave 12 G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-12a/",
+        "img": "My Little Pony Wave 12A G4 Blind Bags Ponies"
+      },
+      {
+        "text": "",
+        "href": "/blind-bags/release/wave-12b/",
+        "img": "My Little Pony Wave 12B G4 Blind Bags Ponies"
+      }
+    ],
+    "sample_html": "",
+    "detail_count": 0,
+    "blind_links": 0,
+    "release_links": [
+      {
+        "label": "Release",
+        "href": "/blind-bags/release/"
+      },
+      {
+        "label": "Release",
+        "href": "/blind-bags/release/"
+      },
+      {
+        "label": "MLP G4 Blind Bags by Release",
+        "href": "https://data.mlpmerch.com/blind-bags/release/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-1/"
+      },
+      {
+        "label": "Wave 1",
+        "href": "/blind-bags/release/wave-1/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-2/"
+      },
+      {
+        "label": "Wave 2",
+        "href": "/blind-bags/release/wave-2/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-3/"
+      },
+      {
+        "label": "Wave 3",
+        "href": "/blind-bags/release/wave-3/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-4/"
+      },
+      {
+        "label": "Wave 4",
+        "href": "/blind-bags/release/wave-4/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-5/"
+      },
+      {
+        "label": "Wave 5",
+        "href": "/blind-bags/release/wave-5/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-6/"
+      },
+      {
+        "label": "Wave 6",
+        "href": "/blind-bags/release/wave-6/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-7/"
+      },
+      {
+        "label": "Wave 7",
+        "href": "/blind-bags/release/wave-7/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-8/"
+      },
+      {
+        "label": "Wave 8",
+        "href": "/blind-bags/release/wave-8/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-8a/"
+      },
+      {
+        "label": "Wave 8A",
+        "href": "/blind-bags/release/wave-8a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-8b/"
+      },
+      {
+        "label": "Wave 8B",
+        "href": "/blind-bags/release/wave-8b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-9/"
+      },
+      {
+        "label": "Wave 9",
+        "href": "/blind-bags/release/wave-9/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-9a/"
+      },
+      {
+        "label": "Wave 9A",
+        "href": "/blind-bags/release/wave-9a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-9b/"
+      },
+      {
+        "label": "Wave 9B",
+        "href": "/blind-bags/release/wave-9b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-10/"
+      },
+      {
+        "label": "Wave 10",
+        "href": "/blind-bags/release/wave-10/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-10a/"
+      },
+      {
+        "label": "Wave 10A",
+        "href": "/blind-bags/release/wave-10a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-10b/"
+      },
+      {
+        "label": "Wave 10B",
+        "href": "/blind-bags/release/wave-10b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-11/"
+      },
+      {
+        "label": "Wave 11",
+        "href": "/blind-bags/release/wave-11/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-11a/"
+      },
+      {
+        "label": "Wave 11A",
+        "href": "/blind-bags/release/wave-11a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-11b/"
+      },
+      {
+        "label": "Wave 11B",
+        "href": "/blind-bags/release/wave-11b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-12/"
+      },
+      {
+        "label": "Wave 12",
+        "href": "/blind-bags/release/wave-12/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-12a/"
+      },
+      {
+        "label": "Wave 12A",
+        "href": "/blind-bags/release/wave-12a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-12b/"
+      },
+      {
+        "label": "Wave 12B",
+        "href": "/blind-bags/release/wave-12b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-13/"
+      },
+      {
+        "label": "Wave 13",
+        "href": "/blind-bags/release/wave-13/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-13a/"
+      },
+      {
+        "label": "Wave 13A",
+        "href": "/blind-bags/release/wave-13a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-13b/"
+      },
+      {
+        "label": "Wave 13B",
+        "href": "/blind-bags/release/wave-13b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-14/"
+      },
+      {
+        "label": "Wave 14",
+        "href": "/blind-bags/release/wave-14/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-14a/"
+      },
+      {
+        "label": "Wave 14A",
+        "href": "/blind-bags/release/wave-14a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-14b/"
+      },
+      {
+        "label": "Wave 14B",
+        "href": "/blind-bags/release/wave-14b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-15/"
+      },
+      {
+        "label": "Wave 15",
+        "href": "/blind-bags/release/wave-15/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-15a/"
+      },
+      {
+        "label": "Wave 15A",
+        "href": "/blind-bags/release/wave-15a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-15b/"
+      },
+      {
+        "label": "Wave 15B",
+        "href": "/blind-bags/release/wave-15b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-16/"
+      },
+      {
+        "label": "Wave 16",
+        "href": "/blind-bags/release/wave-16/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-16a/"
+      },
+      {
+        "label": "Wave 16A",
+        "href": "/blind-bags/release/wave-16a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-16b/"
+      },
+      {
+        "label": "Wave 16B",
+        "href": "/blind-bags/release/wave-16b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-17/"
+      },
+      {
+        "label": "Wave 17",
+        "href": "/blind-bags/release/wave-17/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-17a/"
+      },
+      {
+        "label": "Wave 17A",
+        "href": "/blind-bags/release/wave-17a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-17b/"
+      },
+      {
+        "label": "Wave 17B",
+        "href": "/blind-bags/release/wave-17b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-18/"
+      },
+      {
+        "label": "Wave 18",
+        "href": "/blind-bags/release/wave-18/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-18a/"
+      },
+      {
+        "label": "Wave 18A",
+        "href": "/blind-bags/release/wave-18a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-18b/"
+      },
+      {
+        "label": "Wave 18B",
+        "href": "/blind-bags/release/wave-18b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-19/"
+      },
+      {
+        "label": "Wave 19",
+        "href": "/blind-bags/release/wave-19/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-19a/"
+      },
+      {
+        "label": "Wave 19A",
+        "href": "/blind-bags/release/wave-19a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-19b/"
+      },
+      {
+        "label": "Wave 19B",
+        "href": "/blind-bags/release/wave-19b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-20/"
+      },
+      {
+        "label": "Wave 20",
+        "href": "/blind-bags/release/wave-20/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-20a/"
+      },
+      {
+        "label": "Wave 20A",
+        "href": "/blind-bags/release/wave-20a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-20b/"
+      },
+      {
+        "label": "Wave 20B",
+        "href": "/blind-bags/release/wave-20b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-21/"
+      },
+      {
+        "label": "Wave 21",
+        "href": "/blind-bags/release/wave-21/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-22/"
+      },
+      {
+        "label": "Wave 22",
+        "href": "/blind-bags/release/wave-22/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-23/"
+      },
+      {
+        "label": "Wave 23",
+        "href": "/blind-bags/release/wave-23/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-24/"
+      },
+      {
+        "label": "Wave 24",
+        "href": "/blind-bags/release/wave-24/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-25/"
+      },
+      {
+        "label": "Wave 25",
+        "href": "/blind-bags/release/wave-25/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/best-gift-ever/"
+      },
+      {
+        "label": "Best Gift Ever",
+        "href": "/blind-bags/release/best-gift-ever/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/rainbow-road-trip/"
+      },
+      {
+        "label": "Rainbow Road Trip",
+        "href": "/blind-bags/release/rainbow-road-trip/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/original-series/"
+      },
+      {
+        "label": "Original Series",
+        "href": "/blind-bags/release/original-series/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/collection-sets/"
+      },
+      {
+        "label": "Collection Sets",
+        "href": "/blind-bags/release/collection-sets/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/mini-sets/"
+      },
+      {
+        "label": "Mini Sets",
+        "href": "/blind-bags/release/mini-sets/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wonderbolts/"
+      },
+      {
+        "label": "Wonderbolts",
+        "href": "/blind-bags/release/wonderbolts/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/the-elements-of-friendship/"
+      },
+      {
+        "label": "The Elements of Friendship",
+        "href": "/blind-bags/release/the-elements-of-friendship/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/mlp-the-movie-target/"
+      }
+    ],
+    "brushable_links": 0,
+    "smallt_count": 0
+  },
   "original_brushables": {
     "http": 200,
     "length": 490513,
@@ -128,6 +1045,8 @@
     ],
     "sample_html": "<div class=\"data-bottom\"><b><a href=\"/brushables/details/osrsaj/\">Applejack</a></b> (<a href=\"/brushables/body/regular/\">Regular</a>)<br/><a href=\"/brushables/series/original-series/\">Original Series</a>: <a href=\"/brushables/set/original-series/single-wave-1/\">Single Wave 1</a> (2010)<span class=\"data-smallt\">Comes with puppy</span><span class=\"data-amzn\"> <a href=\"//ebay.com/sch/?kw=my+little+pony+applejack+original+series+g4+brushable&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5GFxjWUd7PgCLcB/s1600/ebay-button.png\" title=\"Buy on eBay\" width=\"66\"/></a></span></div>",
     "detail_count": 0,
+    "blind_links": 0,
+    "release_links": [],
     "brushable_links": 172,
     "smallt_count": 135
   },
@@ -260,6 +1179,8 @@
     ],
     "sample_html": "<div class=\"data-bottom\"><b><a href=\"/kayou-cards/details/kcfecmes4r001l1/\">Princess Twilight Sparkle</a></b> (<a href=\"/kayou-cards/rarity/r/\">R</a>)<br/><a href=\"/kayou-cards/series/friendship-eternal-cards/moon-edition/\">Moon Edition</a> <a href=\"/kayou-cards/subset/moon-edition/series-4/\">Series 4</a><span class=\"data-smallt\">MLPME04-R-001L1</span><span class=\"data-amzn\"> <a href=\"https://link.amazon/B0ihq7OzU\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony Moon Edition Series 4 Princess Twilight Sparkle Kayou Card on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+mlpme04+r+001l1&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5GFxjWUd7PgCLcB/s1600/ebay-button.png\" title=\"Buy on eBay\" width=\"66\"/></a></span></div>",
     "detail_count": 162,
+    "blind_links": 0,
+    "release_links": [],
     "brushable_links": 0,
     "smallt_count": 162
   },
@@ -392,6 +1313,8 @@
     ],
     "sample_html": "<div class=\"data-bottom\"><b><a href=\"/kayou-cards/details/kcfecfmes4n001l1/\">You are freer than you think.</a></b> (<a href=\"/kayou-cards/rarity/n/\">N</a>)<br/><a href=\"/kayou-cards/series/friendship-eternal-cards/fun-moments-edition/\">Fun Moments Edition</a> <a href=\"/kayou-cards/subset/fun-moments-edition/series-4/\">Series 4</a><span class=\"data-smallt\">FME04-N-001L1</span><span class=\"data-amzn\"> <a href=\"https://link.amazon/B00J5pyhd\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony Fun Moments Edition Series 4 You are freer than you think. Kayou Card on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+fme04+n+001l1&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5GFxjWUd7PgCLcB/s1600/ebay-button.png\" title=\"Buy on eBay\" width=\"66\"/></a></span></div>",
     "detail_count": 287,
+    "blind_links": 0,
+    "release_links": [],
     "brushable_links": 0,
     "smallt_count": 287
   },
@@ -524,6 +1447,8 @@
     ],
     "sample_html": "",
     "detail_count": 0,
+    "blind_links": 0,
+    "release_links": [],
     "brushable_links": 0,
     "smallt_count": 0
   },
@@ -656,6 +1581,489 @@
     ],
     "sample_html": "<div class=\"data-small-short\"><div class=\"data-top\"><a href=\"/blind-bags/release/wave-1/\"><img alt=\"My Little Pony Wave 1 G4 Blind Bags Ponies\" border=\"0\" class=\"data-img\" src=\"https://2.bp.blogspot.com/-_KCYznaHcds/U_IZBTRuMsI/AAAAAAAAEeU/ceHTgk2k0gY/s135/mlp-wave-1-blind-bag.jpg\" title=\"My Little Pony Wave 1 G4 Blind Bags Ponies\"/></a></div><div class=\"data-bottom\"><b><a href=\"/blind-bags/release/wave-1/\">Wave 1</a></b><br/>(24 ponies)<span class=\"data-smallt\">2010</span></div></div>",
     "detail_count": 0,
+    "blind_links": 0,
+    "release_links": [
+      {
+        "label": "Release",
+        "href": "/blind-bags/release/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-1/"
+      },
+      {
+        "label": "Wave 1",
+        "href": "/blind-bags/release/wave-1/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-2/"
+      },
+      {
+        "label": "Wave 2",
+        "href": "/blind-bags/release/wave-2/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-3/"
+      },
+      {
+        "label": "Wave 3",
+        "href": "/blind-bags/release/wave-3/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-4/"
+      },
+      {
+        "label": "Wave 4",
+        "href": "/blind-bags/release/wave-4/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-5/"
+      },
+      {
+        "label": "Wave 5",
+        "href": "/blind-bags/release/wave-5/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-6/"
+      },
+      {
+        "label": "Wave 6",
+        "href": "/blind-bags/release/wave-6/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-7/"
+      },
+      {
+        "label": "Wave 7",
+        "href": "/blind-bags/release/wave-7/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-8/"
+      },
+      {
+        "label": "Wave 8",
+        "href": "/blind-bags/release/wave-8/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-8a/"
+      },
+      {
+        "label": "Wave 8A",
+        "href": "/blind-bags/release/wave-8a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-8b/"
+      },
+      {
+        "label": "Wave 8B",
+        "href": "/blind-bags/release/wave-8b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-9/"
+      },
+      {
+        "label": "Wave 9",
+        "href": "/blind-bags/release/wave-9/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-9a/"
+      },
+      {
+        "label": "Wave 9A",
+        "href": "/blind-bags/release/wave-9a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-9b/"
+      },
+      {
+        "label": "Wave 9B",
+        "href": "/blind-bags/release/wave-9b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-10/"
+      },
+      {
+        "label": "Wave 10",
+        "href": "/blind-bags/release/wave-10/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-10a/"
+      },
+      {
+        "label": "Wave 10A",
+        "href": "/blind-bags/release/wave-10a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-10b/"
+      },
+      {
+        "label": "Wave 10B",
+        "href": "/blind-bags/release/wave-10b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-11/"
+      },
+      {
+        "label": "Wave 11",
+        "href": "/blind-bags/release/wave-11/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-11a/"
+      },
+      {
+        "label": "Wave 11A",
+        "href": "/blind-bags/release/wave-11a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-11b/"
+      },
+      {
+        "label": "Wave 11B",
+        "href": "/blind-bags/release/wave-11b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-12/"
+      },
+      {
+        "label": "Wave 12",
+        "href": "/blind-bags/release/wave-12/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-12a/"
+      },
+      {
+        "label": "Wave 12A",
+        "href": "/blind-bags/release/wave-12a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-12b/"
+      },
+      {
+        "label": "Wave 12B",
+        "href": "/blind-bags/release/wave-12b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-13/"
+      },
+      {
+        "label": "Wave 13",
+        "href": "/blind-bags/release/wave-13/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-13a/"
+      },
+      {
+        "label": "Wave 13A",
+        "href": "/blind-bags/release/wave-13a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-13b/"
+      },
+      {
+        "label": "Wave 13B",
+        "href": "/blind-bags/release/wave-13b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-14/"
+      },
+      {
+        "label": "Wave 14",
+        "href": "/blind-bags/release/wave-14/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-14a/"
+      },
+      {
+        "label": "Wave 14A",
+        "href": "/blind-bags/release/wave-14a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-14b/"
+      },
+      {
+        "label": "Wave 14B",
+        "href": "/blind-bags/release/wave-14b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-15/"
+      },
+      {
+        "label": "Wave 15",
+        "href": "/blind-bags/release/wave-15/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-15a/"
+      },
+      {
+        "label": "Wave 15A",
+        "href": "/blind-bags/release/wave-15a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-15b/"
+      },
+      {
+        "label": "Wave 15B",
+        "href": "/blind-bags/release/wave-15b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-16/"
+      },
+      {
+        "label": "Wave 16",
+        "href": "/blind-bags/release/wave-16/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-16a/"
+      },
+      {
+        "label": "Wave 16A",
+        "href": "/blind-bags/release/wave-16a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-16b/"
+      },
+      {
+        "label": "Wave 16B",
+        "href": "/blind-bags/release/wave-16b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-17/"
+      },
+      {
+        "label": "Wave 17",
+        "href": "/blind-bags/release/wave-17/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-17a/"
+      },
+      {
+        "label": "Wave 17A",
+        "href": "/blind-bags/release/wave-17a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-17b/"
+      },
+      {
+        "label": "Wave 17B",
+        "href": "/blind-bags/release/wave-17b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-18/"
+      },
+      {
+        "label": "Wave 18",
+        "href": "/blind-bags/release/wave-18/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-18a/"
+      },
+      {
+        "label": "Wave 18A",
+        "href": "/blind-bags/release/wave-18a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-18b/"
+      },
+      {
+        "label": "Wave 18B",
+        "href": "/blind-bags/release/wave-18b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-19/"
+      },
+      {
+        "label": "Wave 19",
+        "href": "/blind-bags/release/wave-19/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-19a/"
+      },
+      {
+        "label": "Wave 19A",
+        "href": "/blind-bags/release/wave-19a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-19b/"
+      },
+      {
+        "label": "Wave 19B",
+        "href": "/blind-bags/release/wave-19b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-20/"
+      },
+      {
+        "label": "Wave 20",
+        "href": "/blind-bags/release/wave-20/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-20a/"
+      },
+      {
+        "label": "Wave 20A",
+        "href": "/blind-bags/release/wave-20a/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-20b/"
+      },
+      {
+        "label": "Wave 20B",
+        "href": "/blind-bags/release/wave-20b/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-21/"
+      },
+      {
+        "label": "Wave 21",
+        "href": "/blind-bags/release/wave-21/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-22/"
+      },
+      {
+        "label": "Wave 22",
+        "href": "/blind-bags/release/wave-22/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-23/"
+      },
+      {
+        "label": "Wave 23",
+        "href": "/blind-bags/release/wave-23/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-24/"
+      },
+      {
+        "label": "Wave 24",
+        "href": "/blind-bags/release/wave-24/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wave-25/"
+      },
+      {
+        "label": "Wave 25",
+        "href": "/blind-bags/release/wave-25/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/best-gift-ever/"
+      },
+      {
+        "label": "Best Gift Ever",
+        "href": "/blind-bags/release/best-gift-ever/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/rainbow-road-trip/"
+      },
+      {
+        "label": "Rainbow Road Trip",
+        "href": "/blind-bags/release/rainbow-road-trip/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/original-series/"
+      },
+      {
+        "label": "Original Series",
+        "href": "/blind-bags/release/original-series/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/collection-sets/"
+      },
+      {
+        "label": "Collection Sets",
+        "href": "/blind-bags/release/collection-sets/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/mini-sets/"
+      },
+      {
+        "label": "Mini Sets",
+        "href": "/blind-bags/release/mini-sets/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/wonderbolts/"
+      },
+      {
+        "label": "Wonderbolts",
+        "href": "/blind-bags/release/wonderbolts/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/the-elements-of-friendship/"
+      },
+      {
+        "label": "The Elements of Friendship",
+        "href": "/blind-bags/release/the-elements-of-friendship/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/mlp-the-movie-target/"
+      },
+      {
+        "label": "MLP The Movie Target",
+        "href": "/blind-bags/release/mlp-the-movie-target/"
+      },
+      {
+        "label": "",
+        "href": "/blind-bags/release/other/"
+      }
+    ],
     "brushable_links": 0,
     "smallt_count": 59
   },
@@ -788,6 +2196,8 @@
     ],
     "sample_html": "",
     "detail_count": 0,
+    "blind_links": 0,
+    "release_links": [],
     "brushable_links": 0,
     "smallt_count": 0
   }
