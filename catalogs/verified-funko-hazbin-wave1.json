@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "name": "Funko · Hazbin Hotel · POP! Animation · Wave 1 (основні 5)",
+      "count": 5,
+      "source": "https://funko.com/fandoms/movies-tv/animated-tv/hazbin-hotel/",
+      "verified": true,
+      "manufacturer": "Funko",
+      "fandomKey": "catalog-5-hazbin",
+      "group": "🏰 Мультфільми та персонажі · Hazbin Hotel",
+      "completeness": "verified-base-5",
+      "coverPhoto": "https://cdn.awsli.com.br/800x800/84/84034/produto/379652275/hotel-charlie-morni-x-53mmxyydca.png",
+      "items": [
+        {
+          "name": "Charlie Morningstar",
+          "figureNumber": "#2239",
+          "catalogPosition": "1",
+          "manufacturer": "Funko",
+          "productSku": "90415",
+          "seriesNumber": "90415",
+          "sourceUrl": "https://funko.com/pop-charlie-morningstar/90415.html",
+          "photo": "https://cdn.awsli.com.br/800x800/84/84034/produto/379652275/hotel-charlie-morni-x-53mmxyydca.png",
+          "photoCredit": "Moça do Pop · продуктове фото точного випуску",
+          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2239"
+        },
+        {
+          "name": "Vaggie",
+          "figureNumber": "#2240",
+          "catalogPosition": "2",
+          "manufacturer": "Funko",
+          "productSku": "90416",
+          "seriesNumber": "90416",
+          "sourceUrl": "https://funko.com/pop-vaggie/90416.html",
+          "photo": "https://vinylcave.pl/userdata/public/gfx/12248/FIGFUN90416_3.webp",
+          "photoCredit": "Vinyl Cave · продуктове фото точного випуску",
+          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2240"
+        },
+        {
+          "name": "Angel Dust",
+          "figureNumber": "#2241",
+          "catalogPosition": "3",
+          "manufacturer": "Funko",
+          "productSku": "90414",
+          "seriesNumber": "90414",
+          "sourceUrl": "https://funko.com/pop-angel-dust/90414.html",
+          "photo": "https://cdn.awsli.com.br/800x800/84/84034/produto/379652627/d8asdas-dtwixbjviy.png",
+          "photoCredit": "Moça do Pop · продуктове фото точного випуску",
+          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2241"
+        },
+        {
+          "name": "Alastor",
+          "figureNumber": "#2242",
+          "catalogPosition": "4",
+          "manufacturer": "Funko",
+          "productSku": "90413",
+          "seriesNumber": "90413",
+          "sourceUrl": "https://funko.com/pop-alastor/90413.html",
+          "photo": "https://cdn.awsli.com.br/800x800/84/84034/produto/379653084/asdas-uv085btzgl.png",
+          "photoCredit": "Moça do Pop · продуктове фото точного випуску",
+          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2242"
+        },
+        {
+          "name": "Sir Pentious",
+          "figureNumber": "#2243",
+          "catalogPosition": "5",
+          "manufacturer": "Funko",
+          "productSku": "91824",
+          "seriesNumber": "91824",
+          "sourceUrl": "https://funko.com/pop-sir-pentious/91824.html",
+          "photo": "https://www.popcultcha.com.au/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/f/u/fun91824m.png",
+          "photoCredit": "Popcultcha · продуктове фото точного випуску",
+          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2243"
+        }
+      ]
+    }
+  ]
+}
