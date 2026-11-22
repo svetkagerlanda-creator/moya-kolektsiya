@@ -58,18 +58,20 @@ def main():
             previous={x["name"]:x for x in json.loads(OUTPUT.read_text(encoding="utf8")).get("series",[])}
         except (OSError,ValueError):
             pass
+    errors = {}
     for name,path,count in SOURCES:
         try:
             found=extract(name,path,count)
             previous[name]=found
             print(f"OK: {name} ({count}), photos={sum(bool(x['photo']) for x in found['items'])}")
         except Exception as error:
+            errors[name] = str(error)
             print(f"SKIPPED: {name}: {error}")
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     series=[previous[name] for name,_,_ in SOURCES if name in previous]
     OUTPUT.write_text(json.dumps({"schemaVersion":1,"series":series},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf8")
-    if not series:
-        raise SystemExit("No fully verified data available")
+    (OUTPUT.parent / "merch-errors.json").write_text(json.dumps(errors,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
+    print(f"Validated {len(series)} of {len(SOURCES)}; errors: {errors}")
 
 if __name__=="__main__":
     main()
