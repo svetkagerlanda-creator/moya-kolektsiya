@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "name": "Funko · Bleach · Verified POP! selection",
+      "fandomKey": "catalog-1-09",
+      "group": "Bleach · Funko POP!",
+      "source": "https://funko.com/pop-demi-hollowfied-ichigo/93319.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw825ffb21/images/funko/upload/1/93319_BleachTYBW_IchigoKV_POP_render_v4_glam-WEB.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Demi-Hollowfied Ichigo",
+          "figureNumber": "#2575",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "93319",
+          "sourceUrl": "https://funko.com/pop-demi-hollowfied-ichigo/93319.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw825ffb21/images/funko/upload/1/93319_BleachTYBW_IchigoKV_POP_render_v4_glam-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 93319; box #2575"
+        },
+        {
+          "name": "Ichigo Kurosaki (Getsuga Tenshō Technique)",
+          "figureNumber": "#1826",
+          "catalogPosition": "2",
+          "rarity": "Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "84444",
+          "sourceUrl": "https://www.funko.com/gr/pop-ichigo-kurosaki-getsuga-tens%C5%8D-technique/84444.html",
+          "photo": "https://www.funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwcd4bba3c/images/funko/upload/84444_Bleach_S6_IchigoKurosaki_POP_GLAM-WEB.png",
+          "description": "Funko POP! item 84444; box #1826"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Hunter × Hunter · Verified POP! selection",
+      "fandomKey": "catalog-1-12",
+      "group": "Hunter × Hunter · Funko POP!",
+      "source": "https://funko.com/pop-gon-freecss/41062.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw7b9b355c/images/funko/41062-1.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Gon Freecss",
+          "figureNumber": "#651",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "41062",
+          "sourceUrl": "https://funko.com/pop-gon-freecss/41062.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw7b9b355c/images/funko/41062-1.png?sh=800&sw=800",
+          "description": "Funko POP! item 41062; box #651"
+        },
+        {
+          "name": "Super Awaken Gon",
+          "figureNumber": "#1319",
+          "catalogPosition": "2",
+          "rarity": "Vaulted · Convention Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "71764",
+          "sourceUrl": "https://funko.com/pop-super-awaken-gon/71764.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw63c673a3/images/funko/upload/71764_HunterxHunter_GonFreecssAdult_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 71764; box #1319"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Minecraft · Verified POP! selection",
+      "fandomKey": "catalog-2-05",
+      "group": "Minecraft · Funko POP!",
+      "source": "https://funko.com/pop-creeper/26387.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw416cf3c7/images/funko/26387-1.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Creeper",
+          "figureNumber": "#320",
+          "catalogPosition": "1",
+          "rarity": "Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "26387",
+          "sourceUrl": "https://funko.com/pop-creeper/26387.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw416cf3c7/images/funko/26387-1.png?sh=800&sw=800",
+          "description": "Funko POP! item 26387; box #320"
+        },
+        {
+          "name": "Charged Creeper",
+          "figureNumber": "#327",
+          "catalogPosition": "2",
+          "rarity": "Vaulted · Retail Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "26417",
+          "sourceUrl": "https://funko.com/minecraft---charged-creeper/26417.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw72f82bed/images/funko/26417-1_C.png?sh=800&sw=800",
+          "description": "Funko POP! item 26417; box #327"
+        }
+      ]
+    },
+    {
+      "name": "Funko · DC Comics · Batman POP! selection",
+      "fandomKey": "catalog-3-04",
+      "group": "DC Comics · Funko POP!",
+      "source": "https://funko.com/pop-batman-1989/37248.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw145915df/images/funko/37248-1.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Batman (1989)",
+          "figureNumber": "#275",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "37248",
+          "sourceUrl": "https://funko.com/pop-batman-1989/37248.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw145915df/images/funko/37248-1.png?sh=800&sw=800",
+          "description": "Funko POP! item 37248; box #275"
+        },
+        {
+          "name": "Batman (DC New Classics)",
+          "figureNumber": "#598",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "86369",
+          "sourceUrl": "https://funko.com/be/pop-batman-dc-new-classics/86369.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw637be860/images/funko/upload/1/86369_DC_S1_Batman_POP_EDIT_T7_GLAM_Frontview-WEB.png",
+          "description": "Funko POP! item 86369; box #598"
+        }
+      ]
+    },
+    {
+      "name": "Funko · The Lord of the Rings · Frodo POP! selection",
+      "fandomKey": "catalog-3-05",
+      "group": "The Lord of the Rings · Funko POP!",
+      "source": "https://funko.com/pop-frodo-with-the-ring/71739.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw92bd8e43/images/funko/upload/71739_POP_Movies_LOTR-Frodo_w_Ring_GLAM-WEB.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Frodo with the Ring",
+          "figureNumber": "#1389",
+          "catalogPosition": "1",
+          "rarity": "Vaulted · Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "71739",
+          "sourceUrl": "https://funko.com/pop-frodo-with-the-ring/71739.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw92bd8e43/images/funko/upload/71739_POP_Movies_LOTR-Frodo_w_Ring_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 71739; box #1389"
+        },
+        {
+          "name": "Frodo with Orc Helmet",
+          "figureNumber": "#1565",
+          "catalogPosition": "2",
+          "rarity": "Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "52343",
+          "sourceUrl": "https://funko.com/pop-frodo-with-orc-helmet/52343.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1758e312/images/funko/upload/52343_LOTR_FrodoWithOrcHelmet_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 52343; box #1565"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Squid Game · Player POP! selection",
+      "fandomKey": "catalog-4-06",
+      "group": "Squid Game · Funko POP!",
+      "source": "https://funko.com/pop-player-456/64795.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw3dd3b821/images/funko/64795-1.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Player 456 (Seong Gi-Hun)",
+          "figureNumber": "#1222",
+          "catalogPosition": "1",
+          "rarity": "Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "64795",
+          "sourceUrl": "https://funko.com/pop-player-456/64795.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw3dd3b821/images/funko/64795-1.png?sh=800&sw=800",
+          "description": "Funko POP! item 64795; box #1222"
+        },
+        {
+          "name": "Player 199 (Ali)",
+          "figureNumber": "#1221",
+          "catalogPosition": "2",
+          "rarity": "Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "64794",
+          "sourceUrl": "https://funko.com/pop-player-199/64794.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw7eea694c/images/funko/64794-1.png?sh=800&sw=800",
+          "description": "Funko POP! item 64794; box #1221"
+        }
+      ]
+    }
+  ]
+}
