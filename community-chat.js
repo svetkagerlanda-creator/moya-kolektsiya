@@ -3,7 +3,7 @@
 'use strict';
 const URLROOT='https://nihheolmwvkgtvtmfzsv.supabase.co';
 const KEY='sb_publishable_M_mIhlp0ZqintLb0ONy8BQ_SzEBCAT0';
-const st={id:'',people:[],mode:'general',target:'',thread:'',threads:[],general:[],direct:[],blocked:[],inbox:[],readSeen:{},announcement:null,busy:false,loaded:false,error:'',info:'',refresh:null,fetching:false,peekBusy:false,lastPeek:0};
+const st={id:'',people:[],mode:'general',target:'',thread:'',threads:[],general:[],direct:[],blocked:[],inbox:[],readSeen:{},drafts:{},announcement:null,busy:false,loaded:false,error:'',info:'',refresh:null,fetching:false,peekBusy:false,lastPeek:0};
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const tr=s=>window.CollectorI18n?.translate(s,document.documentElement.lang||'uk')||s;
 const knownPerson=id=>st.people.find(p=>p.id===id);
@@ -45,10 +45,10 @@ function start(userId){
  if(existing)refreshMessages();
 }
 function setup(id,people){
- if(st.id!==id)Object.assign(st,{id,people:people||[],mode:'general',target:'',thread:'',threads:[],general:[],direct:[],blocked:[],inbox:[],readSeen:{},announcement:null,loaded:false,error:'',info:'',busy:false,fetching:false,peekBusy:false,lastPeek:0});
+ if(st.id!==id)Object.assign(st,{id,people:people||[],mode:'general',target:'',thread:'',threads:[],general:[],direct:[],blocked:[],inbox:[],readSeen:{},drafts:{},announcement:null,loaded:false,error:'',info:'',busy:false,fetching:false,peekBusy:false,lastPeek:0});
  else st.people=people||[];
 }
-function clean(){if(notificationTimer){clearInterval(notificationTimer);notificationTimer=null}st.id='';st.loaded=false;st.threads=[];st.general=[];st.direct=[];st.blocked=[];st.inbox=[];st.readSeen={};st.announcement=null;st.target='';st.thread='';clearInterval(timer);timer=null}
+function clean(){if(notificationTimer){clearInterval(notificationTimer);notificationTimer=null}st.id='';st.loaded=false;st.threads=[];st.general=[];st.direct=[];st.blocked=[];st.inbox=[];st.readSeen={};st.drafts={};st.announcement=null;st.target='';st.thread='';clearInterval(timer);timer=null}
 async function refreshAll(){
  if(st.fetching||!st.id)return;
  st.fetching=true;
@@ -108,7 +108,7 @@ function connect(refresh){
  if(notificationTimer)return;
  notificationTimer=setInterval(()=>{
   if(!document.querySelector('.sc-wrap')){clearInterval(notificationTimer);notificationTimer=null;return}
-  if(document.visibilityState==='visible'&&navigator.onLine&&st.mode!=='direct'&&!st.fetching&&Date.now()-st.lastPeek>=20000)peekInbox();
+  if(document.visibilityState==='visible'&&navigator.onLine&&(st.mode!=='direct'||!document.querySelector('[data-cc-mode="direct"].active'))&&!st.fetching&&Date.now()-st.lastPeek>=20000)peekInbox();
  },20000);
 }
 let timer=null;
@@ -143,11 +143,12 @@ function direct(){
  +'<div class="cc-history" id="ccHistory">'+(st.direct.length?st.direct.map(m=>messageView(m,'direct')).join(''):'<div class="empty">'+tr('Поки немає повідомлень. Почни розмову!')+'</div>')+'</div>'
  +(blocked(st.target)?'':compose('direct'));
 }
+function draftKey(){return st.mode==='direct'?'dm:'+st.target:'general'}
 function compose(where){
  const privateTarget=where==='direct'&&st.target;
  const publicOk=st.people.find(p=>p.id===st.id)?.is_discoverable;
  if(!privateTarget&&!publicOk)return '<p class="muted">'+tr('Щоб писати в загальному чаті, зроби профіль публічним у налаштуваннях.')+'</p>';
- return '<form id="ccSend" class="cc-compose"><textarea name="body" rows="2" maxlength="1200" required class="field" placeholder="'+tr('Твоє повідомлення…')+'"></textarea><button class="btn" type="submit" '+(st.busy?'disabled':'')+'>'+tr('Надіслати')+'</button></form>';
+ return '<form id="ccSend" class="cc-compose"><textarea name="body" rows="2" maxlength="1200" required class="field" placeholder="'+tr('Твоє повідомлення…')+'">'+esc(st.drafts[draftKey()]||'')+'</textarea><button class="btn" type="submit" '+(st.busy?'disabled':'')+'>'+tr('Надіслати')+'</button></form>';
 }
 function render(){
  if(!st.id)return '<div class="empty">'+tr('Увійди в акаунт, щоб користуватися чатом.')+'</div>';
@@ -180,7 +181,7 @@ async function send(event){
   }else{
    await api('collector_global_chat','','POST',{sender_id:st.id,body});
   }
-  form.elements.body.value='';st.info='';
+  form.elements.body.value='';st.drafts[draftKey()]='';st.info='';
   await refreshAll();
  }catch(err){st.error=String(err.message||err);st.refresh?.()}
  finally{st.busy=false;if(button.isConnected)button.disabled=false}
@@ -218,7 +219,7 @@ function attach(refresh){
  document.querySelectorAll('[data-cc-mode]').forEach(b=>b.onclick=()=>{st.mode=b.dataset.ccMode;st.error='';refresh();if(st.mode==='direct'&&st.thread)refreshMessages()});
  document.querySelectorAll('[data-cc]').forEach(b=>b.onclick=()=>doAction(b.dataset.cc,b));
  const select=document.getElementById('ccChoosePerson');if(select)select.onchange=e=>{if(e.target.value)start(e.target.value)};
- const form=document.getElementById('ccSend');if(form)form.onsubmit=send;
+ const form=document.getElementById('ccSend');if(form){form.onsubmit=send;form.elements.body.addEventListener('input',()=>{st.drafts[draftKey()]=form.elements.body.value})}
  const history=document.getElementById('ccHistory');if(history&&!history.dataset.initialScroll){history.scrollTop=history.scrollHeight;history.dataset.initialScroll='yes'}
  activate();
 }
