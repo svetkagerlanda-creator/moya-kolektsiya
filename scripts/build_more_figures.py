@@ -98,14 +98,19 @@ def parse(entry):
         title=a.get_text(" ",strip=True)
         if not title or not detail_id:continue
         data=bottom.find_parent(class_="data-item")
-        if data is None:continue
         image=""
-        for img in data.select(".data-top img"):
+        images = data.select(".data-top img") if data else []
+        # Some MLP Merch sections use a different item wrapper. Their product
+        # image still appears directly before the matching data-bottom block.
+        if not images:
+            prior=bottom.find_previous("img",class_="data-img")
+            images=[prior] if prior else []
+        for img in images:
             alt=img.get("alt","")
             if "Buy " in alt:continue
             raw=img.get("data-src") or img.get("src") or ""
             candidate=urljoin(url,raw) if raw else ""
-            if urlsplit(candidate).scheme=="https":
+            if urlsplit(candidate).scheme=="https" and "mlp" in alt.lower() or (urlsplit(candidate).scheme=="https" and "pony" in alt.lower()):
                 image=candidate;break
         if not image:
             continue
