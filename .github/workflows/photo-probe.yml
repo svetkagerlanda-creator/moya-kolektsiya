@@ -1,0 +1,28 @@
+name: Inspect broken image attributes
+on:
+  push:
+    paths: ['.github/workflows/photo-probe.yml','scripts/photo_probe.py']
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - run: python scripts/photo_probe.py
+      - name: Save image diagnostics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalogs/photo-probe.json
+          if ! git diff --cached --quiet; then
+            git commit -m "diagnostics: real image attributes"
+            git pull --rebase -X theirs origin main
+            git push origin HEAD:main
+          fi
