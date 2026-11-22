@@ -16,6 +16,9 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "catalogs" / "verified-kayou.json"
 SOURCES = [
+    ("Kayou · Moon Edition · Series 1", "kayou-mlp-moon-001-na", 186),
+    ("Kayou · Fun Moments Edition · Series 1", "kayou-mlp-fun-moments-001-na", 127),
+    ("Kayou · Star Edition · Series 1", "kayou-mlp-star-001-na", 105),
     ("Kayou · Moon Edition · Series 2", "kayou-mlp-moon-002-na", 189),
     ("Kayou · Moon Edition · Series 3", "kayou-mlp-moon-003-na", 290),
     ("Kayou · Moon Edition · Series 4", "kayou-mlp-moon-004-na", 162),
