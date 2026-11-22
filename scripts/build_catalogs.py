@@ -69,6 +69,9 @@ def parse(source, slug, expected):
             name = re.split(re.escape(code), alt, flags=re.I)[0].strip()
         if not name or len(name) > 160:
             continue
+        unverified_name = name.casefold() in ("[object object]", "object object")
+        if unverified_name:
+            name = f"Назву не підтверджено ({code})"
         rarity = code.rsplit("-", 2)[-2]
         image = link.find("img")
         photo = ""
@@ -80,6 +83,7 @@ def parse(source, slug, expected):
                     photo = resolved
         cards[code] = {
             "name": name,
+            "nameVerified": not unverified_name,
             "figureNumber": code,
             "rarity": rarity,
             "manufacturer": "Kayou",
