@@ -1,6 +1,6 @@
 // Network-first for application scripts; cached copies keep the PWA usable offline.
-const CACHE='moya-kolektsiya-v1.0.0-beta.5';
-const CORE=['./','./index.html','./i18n.js?v=1.0.0-beta.5','./collector-cloud.js?v=1.0.0-beta.5','./personal-photos.js?v=1.0.0-beta.5','./community-social.js?v=1.0.0-beta.5','./community-chat.js?v=1.0.0-beta.5','./banner-crop.js?v=1.0.0-beta.5','./community-auth.js?v=1.0.0-beta.5','./donation.json','./manifest.webmanifest','./icon.svg'];
+const CACHE='moya-kolektsiya-v1.0.0-beta.6';
+const CORE=['./','./index.html','./i18n.js?v=1.0.0-beta.6','./collector-cloud.js?v=1.0.0-beta.6','./personal-photos.js?v=1.0.0-beta.6','./community-social.js?v=1.0.0-beta.6','./community-chat.js?v=1.0.0-beta.6','./banner-crop.js?v=1.0.0-beta.6','./community-auth.js?v=1.0.0-beta.6','./donation.json','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>{
   event.waitUntil(caches.open(CACHE).then(cache=>Promise.allSettled(CORE.map(path=>cache.add(path)))).then(()=>self.skipWaiting()));
 });
