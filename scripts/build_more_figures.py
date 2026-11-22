@@ -127,9 +127,11 @@ def parse(entry):
         type_node=(bottom.select_one(f'a[href*="/{root}/type/"]')
             or bottom.select_one(f'a[href*="/{root}/body/"]')
             or bottom.select_one(f'a[href*="/{root}/species/"]'))
+        maker={"funko-figures":"Funko","g1-retro":"Hasbro / Basic Fun / Just Play",
+               "other-figures":"Ліцензіат My Little Pony"}.get(root,"Hasbro")
         items[detail_id]={
             "name":title,"catalogPosition":detail_id,"figureNumber":"",
-            "manufacturer":"Hasbro / ліцензіат",
+            "manufacturer":maker,
             "year":year,
             "setName":set_node.get_text(" ",strip=True) if set_node else "",
             "bodyType":type_node.get_text(" ",strip=True) if type_node else "",
@@ -139,7 +141,7 @@ def parse(entry):
     if len(items)!=expected:
         raise ValueError(f"Source declares {expected} releases; found {len(items)} unique photographed details")
     return {"name":name,"count":len(items),"source":url,"verified":True,
-            "manufacturer":"Hasbro / ліцензіат","items":list(items.values())}
+            "manufacturer":items[next(iter(items))]["manufacturer"],"items":list(items.values())}
 
 def main():
     previous={}
