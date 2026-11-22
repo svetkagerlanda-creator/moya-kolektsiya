@@ -163,25 +163,25 @@
         },
         {
           "name": "Tigger (Bouncing)",
-          "figureNumber": "",
+          "figureNumber": "#1517",
           "catalogPosition": "2",
           "rarity": "",
           "manufacturer": "Funko",
           "seriesNumber": "80241",
           "sourceUrl": "https://funko.com/pop-tigger-bouncing/80241.html",
-          "photo": "",
-          "description": "Funko POP! item 80241"
+          "photo": "https://media.gamestop.com/i/gamestop/20011129/Funko-POP-Disney-Winnie-The-Pooh-Tigger-4.5-in-Vinyl-Figure",
+          "description": "Funko POP! item 80241; box #1517"
         },
         {
           "name": "Tigger with Balloon",
-          "figureNumber": "",
+          "figureNumber": "#1644",
           "catalogPosition": "3",
           "rarity": "",
           "manufacturer": "Funko",
           "seriesNumber": "88657",
           "sourceUrl": "https://funko.com/pop-tigger-with-balloon/88657.html",
-          "photo": "",
-          "description": "Funko POP! item 88657"
+          "photo": "https://doc.smarty.cz/pic/FVHK000K01-600-600.jpg",
+          "description": "Funko POP! item 88657; box #1644"
         }
       ]
     },
