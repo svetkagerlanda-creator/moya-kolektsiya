@@ -8,7 +8,7 @@ const DEVICE_KEY='collector-backup-device-v1';
 let device=localStorage.getItem(DEVICE_KEY);
 if(!/^[a-f0-9-]{36}$/.test(device||'')){device=crypto.randomUUID();localStorage.setItem(DEVICE_KEY,device)}
 const enc=new TextEncoder(),esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const state={busy:false,auto:false,snapshots:[],notice:'',lastUpload:null,error:'',userId:'',loaded:false,refresh:null,uploadPending:false,syncPending:false,lastSynced:0};
+const state={busy:false,auto:false,snapshots:[],notice:'',lastUpload:null,error:'',userId:'',loaded:false,refresh:null,uploadPending:false,syncPending:false,lastSynced:0,reconciling:false,autoStarted:false};
 let timer=null,uploadChain=Promise.resolve(),syncChain=Promise.resolve();
 const prefKey=id=>'collector-auto-cloud-'+id;
 const lastKey=id=>'collector-last-cloud-'+id;
@@ -19,7 +19,7 @@ function fail(err){state.error=String(err?.message||err);state.notice='';state.r
 function syncUser(){
  const id=userid(window.CollectorCommunity?.getSession?.()?.access_token||'');
  if(id!==state.userId){
-  state.userId=id||'';state.loaded=false;state.snapshots=[];state.error='';
+  state.userId=id||'';state.loaded=false;state.snapshots=[];state.error='';state.autoStarted=false;state.lastSynced=0;
   state.auto=!!id&&localStorage.getItem(prefKey(id))==='yes';
   state.lastUpload=id?localStorage.getItem(lastKey(id)):null;
  }
@@ -98,6 +98,7 @@ async function reconcileDevices(){
    }
   }
   if(needsBackup)await saveSafetyCopy();
+  state.reconciling=true;
   // Merge in ascending snapshot time, using per-item timestamps to choose updates.
   remote.sort((a,b)=>String(a.entry.updated_at||'').localeCompare(String(b.entry.updated_at||'')));
   for(const {snapshot} of remote){
@@ -114,7 +115,7 @@ async function reconcileDevices(){
   status('✓ Синхронізовано. Додано '+totalFolders+' папок, '+totalItems+' предметів; оновлено '+totalUpdated+' карток. Для другого пристрою теж запусти синхронізацію.');
  }catch(e){fail(e);throw e}
  finally{
-  state.busy=false;state.refresh?.();
+  state.reconciling=false;state.busy=false;state.refresh?.();
   if(state.syncPending||state.uploadPending){state.syncPending=false;state.uploadPending=false;if(state.auto)notifyLocalChange()}
  }
 }
@@ -160,7 +161,7 @@ async function mergeFrom(name){
 }
 function notifyLocalChange(){
  const id=syncUser();
- if(!id||!state.auto)return;
+ if(!id||!state.auto||state.reconciling)return;
  if(state.busy){state.uploadPending=true;return}
  if(timer)clearTimeout(timer);
  timer=setTimeout(()=>{timer=null;syncNow().catch(()=>{})},6500);
@@ -179,8 +180,9 @@ function render(){
 }
 function attach(refresh){
  state.refresh=refresh;syncUser();
+ if(state.auto&&!state.autoStarted){state.autoStarted=true;setTimeout(()=>syncNow().catch(()=>{}),1200)}
  const toggle=document.getElementById('cloudAuto');
- if(toggle)toggle.onchange=e=>{state.auto=!!e.target.checked;localStorage.setItem(prefKey(state.userId),state.auto?'yes':'no');if(!state.auto&&timer){clearTimeout(timer);timer=null}if(state.auto)notifyLocalChange();refresh()};
+ if(toggle)toggle.onchange=e=>{state.auto=!!e.target.checked;localStorage.setItem(prefKey(state.userId),state.auto?'yes':'no');if(!state.auto&&timer){clearTimeout(timer);timer=null}if(state.auto){state.autoStarted=true;notifyLocalChange()}refresh()};
  const syncButton=document.getElementById('cloudSync');
  if(syncButton)syncButton.onclick=()=>syncNow().catch(()=>{});
  const uploadButton=document.getElementById('cloudUpload');
