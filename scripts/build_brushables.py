@@ -54,14 +54,15 @@ def extract(title,slug,expected):
         notes=note_el.get_text(" ",strip=True) if note_el else ""
         photo=""
         root=bottom.parent
+        # Product card wrappers differ between MLP Merch databases. Always
+        # select the image from this very item; pixel.gif is a tracking image.
         if root:
-            for img in root.select("img"):
-                alt=img.get("alt","")
-                if ("Brushable" not in alt and "Pony" not in alt) or "Buy" in alt:
-                    continue
+            for img in root.select(".data-top img.data-img"):
                 path=img.get("data-src") or img.get("src") or ""
                 candidate=urljoin(url,path) if path else ""
-                if urlsplit(candidate).scheme=="https":
+                if (urlsplit(candidate).scheme=="https"
+                        and "/v/pixel.gif" not in candidate.lower()
+                        and "mlpmerch.mlpmerch.com" not in urlsplit(candidate).hostname):
                     photo=candidate
                     break
         if not name:
