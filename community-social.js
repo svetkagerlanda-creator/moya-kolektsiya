@@ -10,7 +10,7 @@ const pic=(p,large=false)=>{let a=media(p?.avatar_path);return '<span class="sc-
 const label=p=>p?.display_name||p?.handle||'Колекціонер';
 function fail(x){state.error=String(x?.message||x);state.refresh?.()}
 async function api(table,params='',method='GET',body){
- const token=window.CollectorCommunity?.getSession?.()?.access_token;if(!token)throw Error('Сеанс завершився. Увійди повторно.');
+ const token=await window.CollectorCommunity?.getAccessToken?.();if(!token)throw Error('Сеанс завершився. Увійди повторно.');
  const headers={apikey:KEY,Authorization:'Bearer '+token};
  if(body!==undefined)headers['Content-Type']='application/json';
  if(method==='POST')headers.Prefer='return=representation';
@@ -75,7 +75,7 @@ async function upload(file,type){
  if(!['image/jpeg','image/png','image/webp'].includes(file.type)||file.size>3145728)throw Error('Фото має бути JPG, PNG або WEBP до 3 МБ.');
  const ext=file.type==='image/png'?'png':file.type==='image/webp'?'webp':'jpg';
  const name=state.id+'/'+type+'/'+crypto.randomUUID()+'.'+ext;
- const token=window.CollectorCommunity.getSession().access_token;
+ const token=await window.CollectorCommunity.getAccessToken();if(!token)throw Error('Увійди до акаунта повторно.');
  const r=await fetch(BASE+'/storage/v1/object/collector-media/'+name,{method:'POST',headers:{apikey:KEY,Authorization:'Bearer '+token,'Content-Type':file.type},body:file});
  if(!r.ok)throw Error('Не вдалося завантажити зображення');
  return name;
