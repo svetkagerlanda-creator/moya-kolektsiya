@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "name": "Funko · Dragon Ball Z · Verified POP! figures",
+      "fandomKey": "catalog-1-03",
+      "group": "Dragon Ball · Funko POP!",
+      "source": "https://funko.com/pop-frieza/39702.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dweba4f0b8/images/funko/39702-1.png",
+      "items": [
+        {
+          "name": "Frieza",
+          "figureNumber": "#619",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "39702",
+          "sourceUrl": "https://funko.com/pop-frieza/39702.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dweba4f0b8/images/funko/39702-1.png",
+          "description": "Funko POP! item 39702; box #619"
+        },
+        {
+          "name": "Goku",
+          "figureNumber": "#615",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "39698",
+          "sourceUrl": "https://funko.com/cy/pop-goku/39698.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwe91c7d6d/images/funko/39698-1.png",
+          "description": "Funko POP! item 39698; box #615"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Attack on Titan · Verified POP! figures",
+      "fandomKey": "catalog-1-05",
+      "group": "Attack on Titan · Funko POP!",
+      "source": "https://funko.com/pop-eren-jaeger/68655.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwc210b202/images/funko/upload/68655_AOT_S5_ErenJaegerMT_POP_GLAM-WEB.png",
+      "items": [
+        {
+          "name": "Eren Jaeger (Metallic)",
+          "figureNumber": "#1321",
+          "catalogPosition": "1",
+          "rarity": "Metallic · Retail Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "68655",
+          "sourceUrl": "https://funko.com/pop-eren-jaeger/68655.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwc210b202/images/funko/upload/68655_AOT_S5_ErenJaegerMT_POP_GLAM-WEB.png",
+          "description": "Funko POP! item 68655; box #1321"
+        },
+        {
+          "name": "Mikasa Ackermann with Thunder Spears",
+          "figureNumber": "#1446",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "67929",
+          "sourceUrl": "https://funko.com/pop-mikasa-ackermann-with-thunder-spears/67929.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwe4afd55e/images/funko/upload/67929_AOT_S5_MikasaAckermann_POP_GLAM-WEB.png",
+          "description": "Funko POP! item 67929; box #1446"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Chainsaw Man · Verified POP! figures",
+      "fandomKey": "catalog-1-07",
+      "group": "Chainsaw Man · Funko POP!",
+      "source": "https://funko.com/im/pop-chainsaw-man/80324.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw8cc2f0aa/images/funko/upload/80324_CSM_ChainsawMan_POP_GLAM-WEB.png",
+      "items": [
+        {
+          "name": "Chainsaw Man (Standard)",
+          "figureNumber": "#1677",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "80324",
+          "sourceUrl": "https://funko.com/im/pop-chainsaw-man/80324.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw8cc2f0aa/images/funko/upload/80324_CSM_ChainsawMan_POP_GLAM-WEB.png",
+          "description": "Funko POP! item 80324; box #1677"
+        },
+        {
+          "name": "Aki Hayakawa",
+          "figureNumber": "#1680",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "80319",
+          "sourceUrl": "https://funko.com/pop-aki-hayakawa/80319.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwa8a5dd35/images/funko/upload/80319_CSM_Aki_POP_GLAM-WEB.png",
+          "description": "Funko POP! item 80319; box #1680"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Disney Princess · Rapunzel POP! figures",
+      "fandomKey": "catalog-5-01",
+      "group": "Disney Princess · Funko POP!",
+      "source": "https://funko.com/pop-rapunzel/55972.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwe9d4198d/images/funko/55972-1.png",
+      "items": [
+        {
+          "name": "Rapunzel with Paints & Pascal",
+          "figureNumber": "#1018",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "55972",
+          "sourceUrl": "https://funko.com/pop-rapunzel/55972.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwe9d4198d/images/funko/55972-1.png",
+          "description": "Funko POP! item 55972; box #1018"
+        },
+        {
+          "name": "Rapunzel (Winter Outfit)",
+          "figureNumber": "#1613",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "86071",
+          "sourceUrl": "https://funko.com/pop-rapunzel-winter-outfit/86071.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw59f50a85/images/funko/upload/1/86071_DisneyPrincessHoliday_Rapunzel_POP_GLAM-WEB.png",
+          "description": "Funko POP! item 86071; box #1613"
+        }
+      ]
+    }
+  ]
+}
