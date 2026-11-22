@@ -74,10 +74,10 @@ function countCollections(){return data.folders.filter(f=>f.kind==='series'||(f.
 function home(){let s=metric(),root=data.folders.filter(f=>!f.parent);return '<div class="stats">'+[['📦 У наявності',s.have],['▣ Серій',countCollections()],['♡ Бажанки',data.items.filter(i=>i.status==='wish').length],['₴ Ринкова вартість',fmt(s.market)]].map(x=>'<div class="card"><span class="muted">'+x[0]+'</span><div class="big">'+esc(x[1])+'</div></div>').join('')+'</div><h2>Швидкі дії</h2><div class="tools"><button class="btn" data-action="new-item">+ Предмет</button><button class="alt" data-action="new-folder">+ Папка</button><button class="alt" data-action="scan">▤ Штрихкод</button><button class="alt" data-action="backup">↓ Резервна копія</button></div><h2>Колекції</h2><div class="grid">'+root.map(foldercard).join('')+'</div>'+(root.length?'':'<div class="empty">Створи першу папку для своєї серії</div>')+'<h2>Останні придбання</h2>'+cards(data.items.filter(owned).slice().sort((a,b)=>(b.updated||'').localeCompare(a.updated||'')).slice(0,4))}
 
 const FANDOMS=[
- {key:'mlp',name:'My Little Pony',icon:'🦄',pattern:/my little pony|\\bmlp\\b|kayou|hasbro|equestria|ponyville|cutie mark|fluttershy|twilight sparkle/i},
+ {key:'mlp',name:'My Little Pony',icon:'🦄',pattern:/my little pony|mlp|kayou|hasbro|equestria|ponyville|cutie mark|fluttershy|twilight sparkle/i},
  {key:'naruto',name:'Naruto',icon:'🍥',pattern:/naruto|shippuden|boruto|uzumaki|akatsuki/i},
  {key:'demonslayer',name:'Demon Slayer',icon:'⚔️',pattern:/demon slayer|kimetsu|tanjiro|nezuko/i},
- {key:'kpop',name:'KPop Demon Hunters',icon:'🎤',pattern:/kpop demon hunters|huntr\\/?x|saja boys|rumi|mira|zoey/i},
+ {key:'kpop',name:'KPop Demon Hunters',icon:'🎤',pattern:/kpop demon hunters|huntr.x|saja boys|rumi|mira|zoey/i},
  {key:'doctorwho',name:'Doctor Who',icon:'🔷',pattern:/doctor who|tardis|dalek/i},
  {key:'other',name:'Інші всесвіти',icon:'🌟',pattern:/$^/}
 ];
