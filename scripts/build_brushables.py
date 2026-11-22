@@ -59,10 +59,12 @@ def extract(title,slug,expected):
         if root:
             for img in root.select(".data-top img.data-img"):
                 path=img.get("data-src") or img.get("src") or ""
+                if "/v/pixel.gif" in path.lower():
+                    path=(img.parent.get("href") if img.parent else "") or ""
                 candidate=urljoin(url,path) if path else ""
                 if (urlsplit(candidate).scheme=="https"
                         and "/v/pixel.gif" not in candidate.lower()
-                        and "mlpmerch.mlpmerch.com" not in urlsplit(candidate).hostname):
+                        and urlsplit(candidate).hostname!="mlpmerch.mlpmerch.com"):
                     photo=candidate
                     break
         if not name:
