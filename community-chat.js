@@ -30,7 +30,7 @@ async function api(table,params='',method='GET',data){
 }
 const messageView=(m,where)=>{
  const isMine=m.sender_id===st.id,hidden=!isMine&&blocked(m.sender_id);
- return '<div class="cc-message '+(isMine?'cc-own':'')+'"><div class="cc-message-head"><b>'+esc(isMine?tr('Я'):pname(m.sender_id))+'</b><small>'+esc(hh(m.created_at))+'</small></div>'
+ return '<div class="cc-message '+(isMine?'cc-own':'')+'"><div class="cc-message-head">'+(isMine?'<b>'+esc(tr('Я'))+'</b>':'<button type="button" class="cc-profile-link" data-cc="profile" data-id="'+esc(m.sender_id)+'" title="Відкрити профіль">'+esc(pname(m.sender_id))+'</button>')+'<small>'+esc(hh(m.created_at))+'</small></div>'
  +(hidden?'<p class="muted">'+tr('Повідомлення заблокованого користувача приховано.')+'</p>':'<p>'+esc(m.body)+'</p>')
  +(isMine?'<div class="cc-message-tools"><button type="button" class="alt" data-cc="delete" data-id="'+esc(m.id)+'" data-type="'+where+'">'+tr('Видалити повідомлення')+'</button></div>':'')
  +(!isMine&&!hidden?'<div class="cc-message-tools"><button type="button" class="alt" data-cc="report" data-id="'+esc(m.id)+'" data-sender="'+esc(m.sender_id)+'" data-type="'+where+'">'+tr('Поскаржитися')+'</button><button type="button" class="alt" data-cc="block" data-sender="'+esc(m.sender_id)+'">'+tr('Заблокувати')+'</button></div>':'')
@@ -129,7 +129,7 @@ function inbox(){
   const other=t.other_id,count=Number(t.unread_count)||0;
   return '<button type="button" class="cc-peer '+(st.target===other?'active':'')+(count?' cc-has-unread':'')+'" data-cc="person" data-id="'+esc(other)+'">'
    +'<span class="cc-peer-head"><b>'+esc(pname(other))+'</b>'+unreadBadge(count)+'</span>'
-   +'<small>@'+esc(handle(other))+'</small>'
+   +'<small>@'+esc(handle(other))+'</small><span class="cc-peer-profile"><span role="button" tabindex="0" data-cc="profile" data-id="'+esc(other)+'" aria-label="Відкрити профіль '+esc(pname(other))+'">↗ Профіль</span></span>'
    +(t.last_message?'<span class="cc-peer-preview">'+esc(t.last_message.slice(0,80))+'</span>':'')
    +(t.last_sent_at?'<small>'+esc(hh(t.last_sent_at))+'</small>':'')+'</button>';
  }).join('');
@@ -138,7 +138,7 @@ function inbox(){
  +'<section class="cc-panel">'+(st.target?direct():'<div class="empty">'+tr('Обери людину або відкрий її профіль, щоб написати повідомлення.')+'</div>')+'</section></div>';
 }
 function direct(){
- return '<div class="cc-title"><h3>'+esc(pname(st.target))+'</h3><span class="muted">@'+esc(handle(st.target))+'</span></div>'
+ return '<div class="cc-title"><button type="button" class="cc-profile-link cc-profile-title" data-cc="profile" data-id="'+esc(st.target)+'" title="Переглянути профіль">'+esc(pname(st.target))+' <span aria-hidden="true">↗</span></button><span class="muted">@'+esc(handle(st.target))+'</span></div>'
  +(blocked(st.target)?'<div class="banner">'+tr('Цього користувача заблоковано.')+' <button class="alt" type="button" data-cc="unblock" data-sender="'+esc(st.target)+'">'+tr('Розблокувати')+'</button></div>':'')
  +'<div class="cc-history" id="ccHistory">'+(st.direct.length?st.direct.map(m=>messageView(m,'direct')).join(''):'<div class="empty">'+tr('Поки немає повідомлень. Почни розмову!')+'</div>')+'</div>'
  +(blocked(st.target)?'':compose('direct'));
@@ -190,6 +190,7 @@ async function doAction(type,el){
  try{
   const id=el.dataset.id,target=el.dataset.sender;
   if(type==='person'){start(id);return}
+   if(type==='profile'){window.CollectorSocial?.openProfile?.(id,'chats');return}
   if(type==='delete'){
    if(!confirm(tr('Видалити власне повідомлення?')))return;
    const table=el.dataset.type==='direct'?'collector_dm_entries':'collector_global_chat';
@@ -217,13 +218,16 @@ function attach(refresh){
  st.refresh=refresh;
  if(!st.loaded&&!st.fetching){refreshAll();return}
  document.querySelectorAll('[data-cc-mode]').forEach(b=>b.onclick=()=>{st.mode=b.dataset.ccMode;st.error='';refresh();if(st.mode==='direct'&&st.thread)refreshMessages()});
- document.querySelectorAll('[data-cc]').forEach(b=>b.onclick=()=>doAction(b.dataset.cc,b));
+ document.querySelectorAll('[data-cc]').forEach(b=>{
+   b.onclick=event=>{if(b.dataset.cc==='person'&&event.target.closest('[data-cc="profile"]'))return;doAction(b.dataset.cc,b)};
+   if(b.getAttribute('role')==='button')b.onkeydown=event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();event.stopPropagation();doAction(b.dataset.cc,b)}};
+  });
  const select=document.getElementById('ccChoosePerson');if(select)select.onchange=e=>{if(e.target.value)start(e.target.value)};
  const form=document.getElementById('ccSend');if(form){form.onsubmit=send;form.elements.body.addEventListener('input',()=>{st.drafts[draftKey()]=form.elements.body.value})}
  const history=document.getElementById('ccHistory');if(history&&!history.dataset.initialScroll){history.scrollTop=history.scrollHeight;history.dataset.initialScroll='yes'}
  activate();
 }
 const css='.cc-unread-badge{display:inline-flex;align-items:center;justify-content:center;min-width:21px;height:21px;padding:0 6px;background:#d92d59;color:#fff;border-radius:999px;font-weight:800;font-size:12px;line-height:1}.cc-peer-head{display:flex;align-items:center;justify-content:space-between;gap:7px}.cc-peer-preview{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:5px;color:var(--sub);font-size:12px}.cc-peer.cc-has-unread{border-color:var(--accent);background:var(--pale)}.cc-pinned{padding:15px 17px;border:1px solid var(--accent);border-radius:16px;background:var(--pale);color:var(--fg);box-shadow:0 2px 10px #0000000b}.cc-pinned-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:7px;color:var(--accent);font-size:13px;font-weight:800}.cc-pinned-heading small{color:var(--sub);font-weight:600}.cc-pinned h3{margin:12px 0 10px;font-size:17px}.cc-pinned-body{white-space:pre-wrap;line-height:1.6;font-size:14px;overflow-wrap:anywhere}.cc-wrap{display:grid;gap:14px}.cc-modes{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:5px;background:var(--panel);border:1px solid var(--edge);border-radius:16px}.cc-modes button{border:0;border-radius:12px;background:transparent;color:var(--fg);padding:13px 7px;cursor:pointer;font-weight:650}.cc-modes button.active{background:var(--pale);color:var(--accent)}.cc-title{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}.cc-title h3{margin:0}.cc-panel{background:var(--panel);border:1px solid var(--edge);border-radius:16px;padding:15px;display:grid;gap:12px;min-width:0}.cc-history{height:360px;overflow-y:auto;display:flex;flex-direction:column;gap:10px;padding:8px;background:var(--bg);border-radius:14px;border:1px solid var(--edge)}.cc-message{max-width:min(85%,610px);padding:10px 13px;background:var(--panel);border-radius:12px;overflow-wrap:anywhere}.cc-message.cc-own{margin-left:auto;background:var(--pale)}.cc-message p{margin:7px 0;white-space:pre-wrap}.cc-message-head{display:flex;gap:10px;align-items:center}.cc-message-head small{color:var(--sub)}.cc-message-tools{display:flex;gap:6px;flex-wrap:wrap}.cc-message-tools button{padding:6px 9px;font-size:11px}.cc-compose{display:flex;gap:9px;align-items:end}.cc-compose textarea{flex:1;min-width:0;resize:vertical}.cc-compose button{align-self:stretch}.cc-layout{display:grid;grid-template-columns:minmax(200px,260px) minmax(0,1fr);gap:12px}.cc-inbox{background:var(--panel);border:1px solid var(--edge);border-radius:16px;padding:12px;min-width:0}.cc-inbox h3{margin:0 0 12px}.cc-inbox label{display:grid;gap:7px}.cc-peer-list{display:grid;gap:6px;margin-top:12px}.cc-peer{border:1px solid var(--edge);padding:11px;border-radius:11px;background:var(--panel);color:var(--fg);text-align:left;cursor:pointer}.cc-peer.active{background:var(--pale);border-color:var(--accent)}.cc-peer small{display:block;color:var(--sub);margin-top:4px}@media(max-width:680px){.cc-layout{grid-template-columns:1fr}.cc-history{height:320px}.cc-compose{flex-direction:column;align-items:stretch}.cc-compose button{align-self:flex-end}}';
-const style=document.createElement('style');style.textContent=css;document.head.appendChild(style);
+const style=document.createElement('style');style.textContent='.cc-profile-link{border:0;background:transparent;color:var(--accent);font:inherit;font-weight:750;cursor:pointer;text-align:left;padding:0;text-decoration:underline;text-underline-offset:3px}.cc-profile-link:hover{opacity:.8}.cc-profile-title{font-size:19px}.cc-peer-profile{display:block;margin-top:6px}.cc-peer-profile [role=button]{display:inline-block;padding:3px 0;color:var(--accent);font-size:12px;text-decoration:underline;text-underline-offset:2px;cursor:pointer}.cc-peer-profile [role=button]:focus-visible{outline:2px solid var(--accent)}'+css;document.head.appendChild(style);
 window.CollectorChats={setup,render,attach,start,clean,deactivate,connect,unreadCount};
 })();
