@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "name": "Funko · Game of Thrones · Daenerys POP! selection",
+      "fandomKey": "catalog-4-03",
+      "group": "Game of Thrones · Funko POP!",
+      "source": "https://funko.com/pop-daenerys-targaryen/28888.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw06c9dc28/images/funko/28888-1.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Daenerys Targaryen",
+          "figureNumber": "#59",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "28888",
+          "sourceUrl": "https://funko.com/pop-daenerys-targaryen/28888.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw06c9dc28/images/funko/28888-1.png?sh=800&sw=800",
+          "description": "Funko POP! item 28888; box #59"
+        }
+      ]
+    },
+    {
+      "name": "Funko · The Last of Us · POP! selection",
+      "fandomKey": "catalog-4-05",
+      "group": "The Last of Us · Funko POP!",
+      "source": "https://funko.com/pop-joel-miller/91814.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwecb76465/images/funko/upload/1/91814a_POPTV_LoUS1_JoelMiller_GLAM-WEB.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Joel Miller",
+          "figureNumber": "#1845",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "91814",
+          "sourceUrl": "https://funko.com/pop-joel-miller/91814.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwecb76465/images/funko/upload/1/91814a_POPTV_LoUS1_JoelMiller_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 91814; box #1845"
+        },
+        {
+          "name": "Ellie with Clipboard",
+          "figureNumber": "#1844",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "91813",
+          "sourceUrl": "https://funko.com/pop-ellie-with-clipboard/91813.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf1c28adc/images/funko/upload/1/91813a_POPTV_LoUS1_Ellie_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 91813; box #1844"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Transformers · Optimus Prime POP! selection",
+      "fandomKey": "catalog-3-07",
+      "group": "Transformers · Funko POP!",
+      "source": "https://funko.com/pop-optimus-prime/63953.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw42b77913/images/funko/upload/63953_Transformers_OptimusPrime_POP_GLAM-WEB.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Optimus Prime (Rise of the Beasts)",
+          "figureNumber": "#1372",
+          "catalogPosition": "1",
+          "rarity": "Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "63953",
+          "sourceUrl": "https://funko.com/pop-optimus-prime/63953.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw42b77913/images/funko/upload/63953_Transformers_OptimusPrime_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 63953; box #1372"
+        },
+        {
+          "name": "Optimus Prime (Generation 1)",
+          "figureNumber": "#131",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "80987",
+          "sourceUrl": "https://funko.com/pop-optimus-prime-generation-1/80987.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwd036d746/images/funko/upload/80987_POP-Retro-Toys_Trfms-G1_Optimus-Prime_POP_Glam_FigureOnly-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 80987; box #131"
+        },
+        {
+          "name": "Optimus Prime (40th Anniversary)",
+          "figureNumber": "#178",
+          "catalogPosition": "3",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "93350",
+          "sourceUrl": "https://funko.com/pop-optimus-prime-40th-anniversary/93350.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwc896ac7f/images/funko/upload/1/93350_Transformers-S7_OptimusPrime_Pop_render-Glam-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 93350; box #178"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Toy Story · POP! classics and Moment",
+      "fandomKey": "catalog-5-06",
+      "group": "Toy Story · Funko POP!",
+      "source": "https://funko.com/pop-woody-20th-anniversary/6877.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwa6185e79/images/funko/6877-1.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Woody (20th Anniversary)",
+          "figureNumber": "#168",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "6877",
+          "sourceUrl": "https://funko.com/pop-woody-20th-anniversary/6877.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwa6185e79/images/funko/6877-1.png?sh=800&sw=800",
+          "description": "Funko POP! item 6877; box #168"
+        },
+        {
+          "name": "Buzz Lightyear",
+          "figureNumber": "#169",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "6876",
+          "sourceUrl": "https://funko.com/pop-buzz/6876.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw79f27880/images/funko/6876-1.png?sh=800&sw=800",
+          "description": "Funko POP! item 6876; box #169"
+        },
+        {
+          "name": "Moment Woody and Buzz (30th Anniversary)",
+          "figureNumber": "#1599",
+          "catalogPosition": "3",
+          "rarity": "Pop! Moment",
+          "manufacturer": "Funko",
+          "seriesNumber": "88466",
+          "sourceUrl": "https://funko.com/pop-moment-woody-and-buzz-30th-anniversary/88466.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw5aeb48fa/images/funko/upload/88466_POPMoment_TS30th_WoodyBuzz_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 88466; box #1599"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Frozen · Elsa & Anna POP! selection",
+      "fandomKey": "catalog-5-03",
+      "group": "Frozen · Funko POP!",
+      "source": "https://funko.com/pop-elsa/40884.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw95ff400e/images/funko/40884-1.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Elsa",
+          "figureNumber": "#581",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "40884",
+          "sourceUrl": "https://funko.com/pop-elsa/40884.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw95ff400e/images/funko/40884-1.png?sh=800&sw=800",
+          "description": "Funko POP! item 40884; box #581"
+        },
+        {
+          "name": "Anna",
+          "figureNumber": "#582",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "40886",
+          "sourceUrl": "https://funko.com/pop-anna/40886.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw15b0fb5d/images/funko/40886-1.png?sh=800&sw=800",
+          "description": "Funko POP! item 40886; box #582"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Jurassic Park · T. Rex Breakout Moments",
+      "fandomKey": "catalog-3-06",
+      "group": "Jurassic Park · Funko POP!",
+      "source": "https://funko.com/pop-moment-t.-rex-breakout-dr.-alan-grant/71331.html",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1fea5a53/images/funko/upload/71331_JurassicPark_BreakoutCar_POPMoment_GLAM-1-WEB.png?sh=800&sw=800",
+      "items": [
+        {
+          "name": "Moment T. Rex Breakout: Dr. Alan Grant",
+          "figureNumber": "#1382",
+          "catalogPosition": "1",
+          "rarity": "Pop! Moment · Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "71331",
+          "sourceUrl": "https://funko.com/pop-moment-t.-rex-breakout-dr.-alan-grant/71331.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1fea5a53/images/funko/upload/71331_JurassicPark_BreakoutCar_POPMoment_GLAM-1-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 71331; box #1382"
+        },
+        {
+          "name": "Moment T. Rex Breakout: Tyrannosaurus Rex",
+          "figureNumber": "#1381",
+          "catalogPosition": "2",
+          "rarity": "Pop! Moment · Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "71332",
+          "sourceUrl": "https://funko.com/pop-moment-t.-rex-breakout-tyrannosaurus-rex/71332.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1d4973c2/images/funko/upload/71332_JurassicPark_BreakoutDino_POPMoment_GLAM-1-WEB.png?sh=800&sw=800",
+          "description": "Funko POP! item 71332; box #1381"
+        }
+      ]
+    }
+  ]
+}
