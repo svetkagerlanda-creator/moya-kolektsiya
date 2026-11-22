@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/build_catalogs.py'
       - 'scripts/probe_sources.py'
+      - 'scripts/build_mlpmerch.py'
       - '.github/workflows/refresh-collectibles.yml'
   workflow_dispatch:
   schedule:
@@ -25,13 +26,15 @@ jobs:
       - run: python -m pip install requests beautifulsoup4
       - name: Fetch and validate every card
         run: python scripts/build_catalogs.py
+      - name: Build final two Kayou editions from MLP Merch
+        run: python scripts/build_mlpmerch.py
       - name: Inspect additional merchandise sources
         run: python scripts/probe_sources.py
       - name: Commit catalog only when verified data changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalogs/verified-kayou.json catalogs/source-probe.json
+          git add catalogs/verified-kayou.json catalogs/verified-mlpmerch.json catalogs/source-probe.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh verified Kayou catalogs"
             git push
