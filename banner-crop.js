@@ -91,29 +91,7 @@ document.addEventListener('change',e=>{
   editCover(e.target.files[0]);
  }
 });
-document.addEventListener('click',e=>{
- if(e.target.closest?.('[data-open-banner-editor]')){
-  const form=document.getElementById('scEdit');
-  if(!form){document.querySelector('.sc-profile [data-sc="edit"]')?.click();setTimeout(()=>editCover(null),0)}
-  else editCover(form.elements.cover.files?.[0]||null);
- }
-});
-function enhance(){
- const form=document.getElementById('scEdit');
- if(form&&!form.querySelector('[data-open-banner-editor]')){
-  const button=document.createElement('button');button.type='button';button.className='alt';
-  button.setAttribute('data-open-banner-editor','');button.textContent='✎ '+translate('Відкрити редактор банера');
-  const picker=form.querySelector('input[name="cover"]');picker?.closest('label')?.after(button);
- }
- const header=document.querySelector('.sc-profile .sc-cover');
- if(header&&!header.querySelector('[data-open-banner-editor]')&&document.querySelector('.sc-profile [data-sc="edit"]')&&header.style.backgroundImage){
-  const button=document.createElement('button');button.type='button';button.className='collector-banner-edit';
-  button.setAttribute('data-open-banner-editor','');button.textContent='✎ '+translate('Редагувати банер');
-  header.appendChild(button);
- }
-}
-new MutationObserver(enhance).observe(document.body,{subtree:true,childList:true});
-enhance();
+window.CollectorBannerCrop={open:editCover};
 const style=document.createElement('style');
 style.textContent='.sc-cover{position:relative}.collector-banner-edit{position:absolute;right:12px;bottom:12px;border:1px solid #fff;background:#ffffffef;color:#442659;border-radius:12px;padding:8px 12px;font-weight:700;cursor:pointer}.collector-banner-overlay{position:fixed;inset:0;z-index:10000;display:flex;align-items:center;justify-content:center;overflow:auto;padding:14px;background:#000a}.collector-banner-dialog{width:min(880px,100%);max-height:calc(100dvh - 28px);overflow-y:auto;background:var(--panel);color:var(--fg);border-radius:18px;padding:20px;box-shadow:0 20px 60px #0007;display:grid;gap:14px}.collector-banner-dialog h2{margin:0}.collector-banner-viewport{width:100%;height:clamp(145px,24vw,260px);background-size:cover;background-repeat:no-repeat;background-position:center;border:2px solid var(--edge);border-radius:12px;cursor:grab;touch-action:none;user-select:none}.collector-banner-viewport:active{cursor:grabbing}.collector-banner-viewport:focus-visible{outline:3px solid var(--accent)}.collector-banner-controls{display:grid;grid-template-columns:1fr 1fr;gap:15px}.collector-banner-controls label{display:grid;gap:8px}.collector-banner-controls input{width:100%;accent-color:var(--accent)}.collector-banner-buttons{display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap}@media(max-width:600px){.collector-banner-dialog{padding:14px}.collector-banner-controls{grid-template-columns:1fr}.collector-banner-viewport{height:155px}}';
 document.head.appendChild(style);
