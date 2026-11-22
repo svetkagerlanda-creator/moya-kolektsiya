@@ -36,6 +36,7 @@ async function reload(){
     api('collector_public_collections','select=user_id,folder_id,title,owned_count,total_count&limit=2000')
   ]);
   Object.assign(state,{people,posts,likes,comments,follows,fandoms,fandomFollows,collectionSummaries,profile:people.find(p=>p.id===state.id),loaded:true,error:''});
+   syncCollectionSummaries();
  }catch(err){state.error=String(err.message||err)}finally{state.loading=false;state.refresh?.()}
 }
 
