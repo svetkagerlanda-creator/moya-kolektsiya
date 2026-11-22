@@ -37,7 +37,7 @@ body[data-theme="dark"] .item-owned .muted{color:#abd0b3}
 .fandom-folder-entry{display:flex;flex-direction:column;gap:7px;min-width:0}.fandom-folder-entry .fandom-remove{align-self:flex-end;font-size:12px;padding:8px 11px}.fandom-folder-entry>.card{flex:1}.fandom-grid{grid-template-columns:repeat(auto-fill,minmax(185px,1fr))}.fandom-card{min-height:160px;display:flex;flex-direction:column;justify-content:center;gap:8px}.fandom-card h3{margin:0;font-size:18px}.fandom-icon{font-size:39px}@media(max-width:800px){.fandom-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.fandom-card{min-height:145px}}\n.source-photo-link{display:block;font-size:12px;text-align:center;text-decoration:none;color:var(--accent);margin-top:6px;padding:6px 4px;border:1px solid var(--edge);border-radius:9px}.source-photo-link:focus-visible{outline:2px solid var(--accent)}
 </style></head><body data-theme="purple"><div class="app"><aside class="nav"><div class="logo">💜 Моя колекція</div><div id="side"></div><div class="foot">Версія <b id="sideVersion"></b><br>Особисте локальне сховище</div></aside><main class="main"><header class="head"><div><h1 id="heading">Моя колекція</h1><span class="muted">Твій персональний цифровий музей</span></div><div class="row"><button class="alt" id="donate">💜 Підтримати</button><button class="alt" id="share">↗ Поділитися</button><button class="btn" id="add">+ Додати предмет</button></div></header><div id="content"></div></main></div><nav id="bottom" class="bottom"></nav><div id="modal" class="hidden"></div><div id="toast" role="status"></div><input type="file" id="backupfile" accept=".json,application/json" hidden>
 <script src="./i18n.js"></script><script>
-const VERSION='0.10.10', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
+const VERSION='0.10.11', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
 const $=x=>document.getElementById(x), esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),id=()=>crypto.randomUUID(),now=()=>new Date().toISOString(),fmt=x=>x===''||x==null?'—':Number(x).toLocaleString('uk-UA',{maximumFractionDigits:2})+' '+data.settings.currency;
 let db,data={folders:[],items:[],settings:{theme:'purple',currency:'UAH',language:'uk'}},page='home',folder=null,searchTerm='',view='cards',discoveryMode='character',selectedFandomKey='';
 const validPages=new Set(menu.map(x=>x[0]));
@@ -215,23 +215,33 @@ let generatedSeries=[],generatedCatalogState='idle';
 async function loadGeneratedCatalog(force=false){if(generatedCatalogState==='ready'&&!force)return;let files=['./catalogs/verified-kayou.json','./catalogs/verified-mlpmerch.json','./catalogs/verified-brushables.json','./catalogs/verified-blind-bags.json','./catalogs/verified-mlp-figures.json','./catalogs/verified-popmart-starters.json','./catalogs/verified-funko-fandoms.json','./catalogs/verified-funko-more-fandoms.json'];let responses=await Promise.allSettled(files.map(async path=>{let res=await fetch(path,{cache:'no-cache'});if(!res.ok)throw Error('Не доступний '+path);let json=await res.json();return Array.isArray(json.series)?json.series:[]}));let byName=new Map;for(let res of responses)if(res.status==='fulfilled')for(let item of res.value){if(item.verified===true&&Array.isArray(item.items)&&item.items.length===item.count&&item.items.length>0)byName.set(item.name,item)}generatedSeries=[...byName.values()];generatedCatalogState=generatedSeries.length?'ready':'unavailable'}
 function invalidCatalogPhoto(src){return !src||/mlpmerch\.mlpmerch\.com\/v\/pixel\.gif|\/v\/pixel\.gif(?:[?#]|$)/i.test(src)}
 async function repairImportedCatalogPhotos(){
- if(!generatedSeries.length||!data.items.length)return 0;
- const photos=new Map,legacy=new Map;
- for(let series of generatedSeries)for(let card of series.items||[]){
-  if(card.sourceUrl&&!invalidCatalogPhoto(card.photo))photos.set(card.sourceUrl,card.photo);
- }
- for(let series of COMPLETE_FIGURE_SERIES)for(let card of series.items||[]){
-  if(!invalidCatalogPhoto(card.photo)){
-   if(card.sourceUrl)photos.set(card.sourceUrl,card.photo);
-   legacy.set(series.name+'|'+card.name,card.photo);
+ if(!generatedSeries.length)return 0;
+ const byIdentity=new Map,bySource=new Map,seenSource=new Set;
+ const remember=(series,card)=>{
+  if(invalidCatalogPhoto(card.photo))return;
+  byIdentity.set(series.name+'|'+card.name,card.photo);
+  if(card.sourceUrl){
+   if(seenSource.has(card.sourceUrl))bySource.delete(card.sourceUrl);
+   else if(bySource.has(card.sourceUrl)){bySource.delete(card.sourceUrl);seenSource.add(card.sourceUrl)}
+   else bySource.set(card.sourceUrl,card.photo);
   }
- }
+ };
+ for(const series of generatedSeries)for(const card of series.items||[])remember(series,card);
+ for(const series of COMPLETE_FIGURE_SERIES)for(const card of series.items||[])remember(series,card);
  let repaired=0;
- for(let item of data.items){
+ for(const item of data.items){
   if(!invalidCatalogPhoto(item.photo))continue;
-  let found=item.sourceUrl&&photos.get(item.sourceUrl);
-  if(!found){let f=getfolder(item.folder);if(f)found=legacy.get(f.name+'|'+item.name)}
-  if(found&&item.photo!==found){item.photo=found;repaired++}
+  const parent=getfolder(item.folder);
+  const exact=parent&&byIdentity.get(parent.name+'|'+item.name);
+  const found=exact||(item.sourceUrl&&bySource.get(item.sourceUrl));
+  if(found){item.photo=found;repaired++}
+ }
+ for(const f of data.folders){
+  if(f.photo)continue;
+  const series=generatedSeries.find(s=>s.name===f.name);
+  if(!series)continue;
+  const cover=series.coverPhoto||series.items?.find(card=>!invalidCatalogPhoto(card.photo))?.photo;
+  if(cover){f.photo=cover;repaired++}
  }
  if(repaired){try{await save()}catch(err){console.warn('Photo metadata save failed',err)}render()}
  return repaired
