@@ -75,9 +75,13 @@ def parse_wave(name,url):
         set_link = bottom.select_one('a[href*="/blind-bags/set/"]')
         body_link = bottom.select_one('a[href*="/blind-bags/body/"]')
         annotations = [x.get_text(" ",strip=True) for x in bottom.select(".data-smallt")]
-        year = next((value for value in annotations if re.fullmatch(r"20\d{2}",value)),"")
-        numbered = re.search(r":\s*(#[0-9][0-9A-Za-z, #]*)",info)
-        number_text = numbered.group(1).strip() if numbered else ""
+        year = next((m.group(1) for value in annotations if (m := re.search(r"\b(20\d{2})\b", value))), "")
+        # Only use the text directly following the release/set link: get_text()
+        # also includes body type, year and variants, which are not printed IDs.
+        immediate = set_link.next_sibling if set_link else None
+        id_label = str(immediate).strip() if isinstance(immediate,str) else ""
+        numbered = re.search(r":\s*(#[0-9][0-9A-Za-z, #]*)",id_label)
+        number_text = numbered.group(1).strip().strip(", ") if numbered else ""
         # Distinct MLP Merch item IDs preserve regional and packaging variants.
         photo = ""
         root = bottom.parent
