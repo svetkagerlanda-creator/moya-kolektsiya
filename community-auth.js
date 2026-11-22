@@ -42,6 +42,12 @@
         const data=await response.json().catch(()=>({}));
         if(!response.ok){
           if(response.status===400||response.status===401||response.status===403){
+            try{
+              const other=JSON.parse(localStorage.getItem(sessionKey)||'null');
+              if(other?.refresh_token&&other.refresh_token!==session?.refresh_token&&other.expires_at*1000>Date.now()+15000){
+                session=other;remember=true;schedule();return session.access_token;
+              }
+            }catch{}
             session=null;persist();window.CollectorSocial?.reset();window.CollectorCloud?.signedOut();
             window.CollectorRefreshView?.();
           }
@@ -63,8 +69,20 @@
     const token=session?.access_token;
     session=null;if(refreshTimer)clearTimeout(refreshTimer);
     persist();window.CollectorSocial?.reset();window.CollectorCloud?.signedOut();
-    if(token)fetch(root+'/auth/v1/logout',{method:'POST',headers:{apikey:publishable,Authorization:'Bearer '+token}}).catch(()=>{});
+    if(token)fetch(root+'/auth/v1/logout?scope=local',{method:'POST',headers:{apikey:publishable,Authorization:'Bearer '+token}}).catch(()=>{});
   }
+  window.addEventListener('storage',event=>{
+    if(event.key!==sessionKey)return;
+    try{
+      const saved=JSON.parse(event.newValue||'null');
+      if(saved?.refresh_token&&saved.refresh_token!==session?.refresh_token){
+        session=saved;remember=true;schedule();window.CollectorRefreshView?.();
+      }else if(!saved&&remember){
+        session=null;if(refreshTimer)clearTimeout(refreshTimer);window.CollectorSocial?.reset();
+        window.CollectorCloud?.signedOut();window.CollectorRefreshView?.();
+      }
+    }catch{}
+  });
   window.addEventListener('online',()=>{if(session)getAccessToken().catch(()=>{})});
   document.addEventListener('visibilitychange',()=>{if(!document.hidden&&session)getAccessToken().catch(()=>{})});
   if(session){schedule();if(session.refresh_token)getAccessToken().catch(()=>{})}
