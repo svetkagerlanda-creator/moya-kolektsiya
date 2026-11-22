@@ -1,0 +1,663 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "name": "Funko · Demon Slayer · Selected POP! releases",
+      "fandomKey": "demonslayer",
+      "group": "Demon Slayer · Funko POP!",
+      "source": "https://funko.com/",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 7,
+      "items": [
+        {
+          "name": "Tanjiro Kamado",
+          "figureNumber": "#867",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "49010",
+          "sourceUrl": "https://funko.com/pop-tanjiro-kamado/49010.html",
+          "photo": "",
+          "description": "Funko item 49010; box 867"
+        },
+        {
+          "name": "Nezuko Kamado (Demon Form)",
+          "figureNumber": "#1749",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "80333",
+          "sourceUrl": "https://funko.com/pop-nezuko-kamado-demon-form/80333.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwe45d9100/images/funko/upload/80333_DemonSlayer_S6_Nezuko_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 80333; box 1749"
+        },
+        {
+          "name": "Gyutaro",
+          "figureNumber": "",
+          "catalogPosition": "3",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "80332",
+          "sourceUrl": "https://funko.com/pop-gyutaro/80332.html",
+          "photo": "",
+          "description": "Funko item 80332"
+        },
+        {
+          "name": "Kaigaku",
+          "figureNumber": "",
+          "catalogPosition": "4",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "93892",
+          "sourceUrl": "https://funko.com/pop-kaigaku/93892.html",
+          "photo": "",
+          "description": "Funko item 93892"
+        },
+        {
+          "name": "Shinobu Kocho (Bloody)",
+          "figureNumber": "",
+          "catalogPosition": "5",
+          "rarity": "Retail Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "94180",
+          "sourceUrl": "https://funko.com/pop-shinobu-kocho-bloody/94180.html",
+          "photo": "",
+          "description": "Funko item 94180"
+        },
+        {
+          "name": "Doma with War Fans",
+          "figureNumber": "#2511",
+          "catalogPosition": "6",
+          "rarity": "Retail Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "94702",
+          "sourceUrl": "https://funko.com/pop-doma-with-war-fans/94702.html",
+          "photo": "",
+          "description": "Funko item 94702; box 2511"
+        },
+        {
+          "name": "Muzan Kibutsuji (Bloody)",
+          "figureNumber": "",
+          "catalogPosition": "7",
+          "rarity": "Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "92021",
+          "sourceUrl": "https://funko.com/pop-muzan-kibutsuji-bloody/92021.html",
+          "photo": "",
+          "description": "Funko item 92021"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Jujutsu Kaisen · Selected POP! releases",
+      "fandomKey": "catalog-1-04",
+      "group": "Jujutsu Kaisen · Funko POP!",
+      "source": "https://funko.com/",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 7,
+      "items": [
+        {
+          "name": "Yuji Itadori",
+          "figureNumber": "#1111",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "61358",
+          "sourceUrl": "https://funko.com/pop-yuji-itadori/61358.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw93c386ca/images/funko/61358-1.png?sh=800&sw=800",
+          "description": "Funko item 61358; box 1111"
+        },
+        {
+          "name": "Satoru Gojo",
+          "figureNumber": "",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "61357",
+          "sourceUrl": "https://funko.com/pop-satoru-gojo/61357.html",
+          "photo": "",
+          "description": "Funko item 61357"
+        },
+        {
+          "name": "Panda",
+          "figureNumber": "",
+          "catalogPosition": "3",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "72046",
+          "sourceUrl": "https://funko.com/pop-panda/72046.html",
+          "photo": "",
+          "description": "Funko item 72046"
+        },
+        {
+          "name": "Jogo",
+          "figureNumber": "",
+          "catalogPosition": "4",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "86773",
+          "sourceUrl": "https://funko.com/pop-jogo/86773.html",
+          "photo": "",
+          "description": "Funko item 86773"
+        },
+        {
+          "name": "Hanami",
+          "figureNumber": "",
+          "catalogPosition": "5",
+          "rarity": "Exclusive",
+          "manufacturer": "Funko",
+          "seriesNumber": "73900",
+          "sourceUrl": "https://funko.com/pop-hanami/73900.html",
+          "photo": "",
+          "description": "Funko item 73900"
+        },
+        {
+          "name": "Yuta Okkotsu with Sword",
+          "figureNumber": "",
+          "catalogPosition": "6",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "90635",
+          "sourceUrl": "https://funko.com/pop-yuta-okkotsu-with-sword/90635.html",
+          "photo": "",
+          "description": "Funko item 90635"
+        },
+        {
+          "name": "Yuji Itadori with Divergent Fists (Glow)",
+          "figureNumber": "",
+          "catalogPosition": "7",
+          "rarity": "Glow",
+          "manufacturer": "Funko",
+          "seriesNumber": "73980",
+          "sourceUrl": "https://funko.com/pop-yuji-itadori-with-divergent-fists-glow/73980.html",
+          "photo": "",
+          "description": "Funko item 73980"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Pokémon · Selected POP! releases",
+      "fandomKey": "catalog-1-02",
+      "group": "Pokémon · Funko POP!",
+      "source": "https://funko.com/",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 8,
+      "items": [
+        {
+          "name": "Pikachu",
+          "figureNumber": "#553",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "43263",
+          "sourceUrl": "https://funko.com/pop-pikachu/43263.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw8de08a6d/images/funko/43263-1.png?sh=800&sw=800",
+          "description": "Funko item 43263; box 553"
+        },
+        {
+          "name": "Pikachu (Standing)",
+          "figureNumber": "#353",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "31528",
+          "sourceUrl": "https://funko.com/pop-pikachu-standing/31528.html",
+          "photo": "",
+          "description": "Funko item 31528; box 353"
+        },
+        {
+          "name": "Mr. Mime",
+          "figureNumber": "#582",
+          "catalogPosition": "3",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "46865",
+          "sourceUrl": "https://funko.com/pop-mr.-mime/46865.html",
+          "photo": "",
+          "description": "Funko item 46865; box 582"
+        },
+        {
+          "name": "Espeon",
+          "figureNumber": "#884",
+          "catalogPosition": "4",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "62267",
+          "sourceUrl": "https://funko.com/pop-espeon/62267.html",
+          "photo": "",
+          "description": "Funko item 62267; box 884"
+        },
+        {
+          "name": "Glaceon",
+          "figureNumber": "#921",
+          "catalogPosition": "5",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "62270",
+          "sourceUrl": "https://funko.com/pop-glaceon/62270.html",
+          "photo": "",
+          "description": "Funko item 62270; box 921"
+        },
+        {
+          "name": "Dratini",
+          "figureNumber": "#1050",
+          "catalogPosition": "6",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "83854",
+          "sourceUrl": "https://funko.com/pop-dratini/83854.html",
+          "photo": "",
+          "description": "Funko item 83854; box 1050"
+        },
+        {
+          "name": "Fuecoco",
+          "figureNumber": "#1030",
+          "catalogPosition": "7",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "80310",
+          "sourceUrl": "https://funko.com/pop-fuecoco/80310.html",
+          "photo": "",
+          "description": "Funko item 80310; box 1030"
+        },
+        {
+          "name": "Zoroark",
+          "figureNumber": "#1156",
+          "catalogPosition": "8",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "91665",
+          "sourceUrl": "https://funko.com/pop-zoroark/91665.html",
+          "photo": "",
+          "description": "Funko item 91665; box 1156"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Doctor Who · Selected POP! releases",
+      "fandomKey": "doctorwho",
+      "group": "Doctor Who · Funko POP!",
+      "source": "https://funko.com/",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 5,
+      "items": [
+        {
+          "name": "Ninth Doctor",
+          "figureNumber": "#1963",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "93137",
+          "sourceUrl": "https://funko.com/pop-ninth-doctor/93137.html",
+          "photo": "",
+          "description": "Funko item 93137; box 1963"
+        },
+        {
+          "name": "Tenth Doctor",
+          "figureNumber": "#1965",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "93134",
+          "sourceUrl": "https://funko.com/pop-tenth-doctor/93134.html",
+          "photo": "",
+          "description": "Funko item 93134; box 1965"
+        },
+        {
+          "name": "Eleventh Doctor",
+          "figureNumber": "#1966",
+          "catalogPosition": "3",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "93135",
+          "sourceUrl": "https://funko.com/pop-eleventh-doctor/93135.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw8b3988b5/images/funko/upload/1/93135a_POPTV_DoctorWho_S5_11thDoctor_Renders-glam-WEB.png?sh=800&sw=800",
+          "description": "Funko item 93135; box 1966"
+        },
+        {
+          "name": "Fifteenth Doctor",
+          "figureNumber": "#1967",
+          "catalogPosition": "4",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "93136",
+          "sourceUrl": "https://funko.com/pop-fifteenth-doctor/93136.html",
+          "photo": "",
+          "description": "Funko item 93136; box 1967"
+        },
+        {
+          "name": "Reconnaissance Dalek",
+          "figureNumber": "#901",
+          "catalogPosition": "5",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "43350",
+          "sourceUrl": "https://funko.com/pop-tv-doctor-who---reconnaissance-dalek/43350.html",
+          "photo": "",
+          "description": "Funko item 43350; box 901"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Stranger Things · Selected POP! releases",
+      "fandomKey": "catalog-4-01",
+      "group": "Stranger Things · Funko POP!",
+      "source": "https://funko.com/",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 6,
+      "items": [
+        {
+          "name": "Will",
+          "figureNumber": "#1242",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "62396",
+          "sourceUrl": "https://funko.com/pop-will/62396.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw94f81ba9/images/funko/62396-1.png?sh=800&sw=800",
+          "description": "Funko item 62396; box 1242"
+        },
+        {
+          "name": "Max",
+          "figureNumber": "#1243",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "62399",
+          "sourceUrl": "https://funko.com/pop-max/62399.html",
+          "photo": "",
+          "description": "Funko item 62399; box 1243"
+        },
+        {
+          "name": "Henry (001)",
+          "figureNumber": "#1458",
+          "catalogPosition": "3",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "72136",
+          "sourceUrl": "https://funko.com/pop-henry-001/72136.html",
+          "photo": "",
+          "description": "Funko item 72136; box 1458"
+        },
+        {
+          "name": "Vecna",
+          "figureNumber": "#1312",
+          "catalogPosition": "4",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "65632",
+          "sourceUrl": "https://funko.com/pop-vecna/65632.html",
+          "photo": "",
+          "description": "Funko item 65632; box 1312"
+        },
+        {
+          "name": "Robin Buckley with Flashlight",
+          "figureNumber": "#1799",
+          "catalogPosition": "5",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "88521",
+          "sourceUrl": "https://funko.com/pop-robin-buckley-with-flashlight/88521.html",
+          "photo": "",
+          "description": "Funko item 88521; box 1799"
+        },
+        {
+          "name": "Dustin Henderson with Flashlight",
+          "figureNumber": "#1796",
+          "catalogPosition": "6",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "88959",
+          "sourceUrl": "https://funko.com/pop-dustin-henderson-with-flashlight/88959.html",
+          "photo": "",
+          "description": "Funko item 88959; box 1796"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Sanrio · Selected POP! releases",
+      "fandomKey": "catalog-5-04",
+      "group": "Sanrio · Funko POP!",
+      "source": "https://funko.com/",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 5,
+      "items": [
+        {
+          "name": "Hello Kitty Classic",
+          "figureNumber": "#28",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "43461",
+          "sourceUrl": "https://funko.com/pop-hello-kitty-classic/43461.html",
+          "photo": "",
+          "description": "Funko item 43461; box 28"
+        },
+        {
+          "name": "Hello Kitty in Kimono",
+          "figureNumber": "#135",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "91717",
+          "sourceUrl": "https://funko.com/pop-hello-kitty-in-kimono/91717.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwd60a2d62/images/funko/upload/1/91717_HK_Kimono_POP_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Funko item 91717; box 135"
+        },
+        {
+          "name": "Hello Kitty with Airplane Balloon",
+          "figureNumber": "#144",
+          "catalogPosition": "3",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "92223",
+          "sourceUrl": "https://funko.com/pop-hello-kitty-with-airplane-balloon/92223.html",
+          "photo": "",
+          "description": "Funko item 92223; box 144"
+        },
+        {
+          "name": "Cinnamoroll as Penguin",
+          "figureNumber": "#127",
+          "catalogPosition": "4",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "88404",
+          "sourceUrl": "https://funko.com/pop-cinnamoroll-as-penguin/88404.html",
+          "photo": "",
+          "description": "Funko item 88404; box 127"
+        },
+        {
+          "name": "Cinnamoroll (Berry Outfit)",
+          "figureNumber": "#149",
+          "catalogPosition": "5",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "92043",
+          "sourceUrl": "https://funko.com/pop-cinnamoroll-berry-outfit/92043.html",
+          "photo": "",
+          "description": "Funko item 92043; box 149"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Marvel · Selected POP! releases",
+      "fandomKey": "catalog-3-03",
+      "group": "Marvel · Funko POP!",
+      "source": "https://funko.com/",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 5,
+      "items": [
+        {
+          "name": "Tony Stark (Endgame)",
+          "figureNumber": "#449",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "36660",
+          "sourceUrl": "https://funko.com/pop-tony-stark/36660.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw8c917403/images/funko/36660-1.png?sh=800&sw=800",
+          "description": "Funko item 36660; box 449"
+        },
+        {
+          "name": "Thanos (Endgame)",
+          "figureNumber": "#458",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "36672",
+          "sourceUrl": "https://funko.com/pop-thanos/36672.html",
+          "photo": "",
+          "description": "Funko item 36672; box 458"
+        },
+        {
+          "name": "Iron Man (Marvel New Classics)",
+          "figureNumber": "#1421",
+          "catalogPosition": "3",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "82499",
+          "sourceUrl": "https://funko.com/pop-iron-man-marvel-new-classics/82499.html",
+          "photo": "",
+          "description": "Funko item 82499; box 1421"
+        },
+        {
+          "name": "Tony Stark / Iron Man",
+          "figureNumber": "#1569",
+          "catalogPosition": "4",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "88520",
+          "sourceUrl": "https://funko.com/pop-tony-stark%2Firon-man/88520.html",
+          "photo": "",
+          "description": "Funko item 88520; box 1569"
+        },
+        {
+          "name": "Blacklight Thanos",
+          "figureNumber": "#909",
+          "catalogPosition": "5",
+          "rarity": "Blacklight",
+          "manufacturer": "Funko",
+          "seriesNumber": "57926",
+          "sourceUrl": "https://funko.com/pop-marvel-blacklight--thanos/57926.html",
+          "photo": "",
+          "description": "Funko item 57926; box 909"
+        }
+      ]
+    },
+    {
+      "name": "Funko · One Piece · Selected POP! releases",
+      "fandomKey": "catalog-1-01",
+      "group": "One Piece · Funko POP!",
+      "source": "https://funko.com/",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 4,
+      "items": [
+        {
+          "name": "Monkey D. Luffy",
+          "figureNumber": "",
+          "catalogPosition": "1",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "5305",
+          "sourceUrl": "https://funko.com/pop-monkey.-d.-luffy/5305.html",
+          "photo": "",
+          "description": "Funko item 5305"
+        },
+        {
+          "name": "Bonekichi",
+          "figureNumber": "",
+          "catalogPosition": "2",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "54463",
+          "sourceUrl": "https://funko.com/pop-bonekichi/54463.html",
+          "photo": "",
+          "description": "Funko item 54463"
+        },
+        {
+          "name": "Monkey D. Luffy (Whole Cake Arc)",
+          "figureNumber": "",
+          "catalogPosition": "3",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "88259",
+          "sourceUrl": "https://funko.com/pop-monkey-d.-luffy-whole-cake-arc/88259.html",
+          "photo": "",
+          "description": "Funko item 88259"
+        },
+        {
+          "name": "Usopp (Going Merry)",
+          "figureNumber": "",
+          "catalogPosition": "4",
+          "rarity": "",
+          "manufacturer": "Funko",
+          "seriesNumber": "91689",
+          "sourceUrl": "https://funko.com/pop-usopp-going-merry/91689.html",
+          "photo": "",
+          "description": "Funko item 91689"
+        }
+      ]
+    },
+    {
+      "name": "Funko · Fairy Tail · Vault Classics",
+      "fandomKey": "catalog-1-15",
+      "group": "Fairy Tail · Funko POP! Vault",
+      "source": "https://funko.com/",
+      "manufacturer": "Funko",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "items": [
+        {
+          "name": "Natsu (Vault)",
+          "figureNumber": "",
+          "catalogPosition": "1",
+          "rarity": "Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "6356",
+          "sourceUrl": "https://funko.com/pop-natsu/6356.html",
+          "photo": "",
+          "description": "Funko item 6356"
+        },
+        {
+          "name": "Lucy (Vault)",
+          "figureNumber": "",
+          "catalogPosition": "2",
+          "rarity": "Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "6355",
+          "sourceUrl": "https://funko.com/pop-lucy/6355.html",
+          "photo": "",
+          "description": "Funko item 6355"
+        },
+        {
+          "name": "Happy (Vault)",
+          "figureNumber": "",
+          "catalogPosition": "3",
+          "rarity": "Vaulted",
+          "manufacturer": "Funko",
+          "seriesNumber": "6357",
+          "sourceUrl": "https://funko.com/pop-happy/6357.html",
+          "photo": "",
+          "description": "Funko item 6357"
+        }
+      ]
+    }
+  ]
+}
