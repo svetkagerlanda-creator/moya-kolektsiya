@@ -37,7 +37,7 @@ body[data-theme="dark"] .item-owned .muted{color:#abd0b3}
 .fandom-grid{grid-template-columns:repeat(auto-fill,minmax(185px,1fr))}.fandom-card{min-height:160px;display:flex;flex-direction:column;justify-content:center;gap:8px}.fandom-card h3{margin:0;font-size:18px}.fandom-icon{font-size:39px}@media(max-width:800px){.fandom-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.fandom-card{min-height:145px}}\n.source-photo-link{display:block;font-size:12px;text-align:center;text-decoration:none;color:var(--accent);margin-top:6px;padding:6px 4px;border:1px solid var(--edge);border-radius:9px}.source-photo-link:focus-visible{outline:2px solid var(--accent)}
 </style></head><body data-theme="purple"><div class="app"><aside class="nav"><div class="logo">💜 Моя колекція</div><div id="side"></div><div class="foot">Версія <b id="sideVersion"></b><br>Особисте локальне сховище</div></aside><main class="main"><header class="head"><div><h1 id="heading">Моя колекція</h1><span class="muted">Твій персональний цифровий музей</span></div><div class="row"><button class="alt" id="share">↗ Поділитися</button><button class="btn" id="add">+ Додати предмет</button></div></header><div id="content"></div></main></div><nav id="bottom" class="bottom"></nav><div id="modal" class="hidden"></div><div id="toast" role="status"></div><input type="file" id="backupfile" accept=".json,application/json" hidden>
 <script>
-const VERSION='0.9.8', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
+const VERSION='0.9.9', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
 const $=x=>document.getElementById(x), esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),id=()=>crypto.randomUUID(),now=()=>new Date().toISOString(),fmt=x=>x===''||x==null?'—':Number(x).toLocaleString('uk-UA',{maximumFractionDigits:2})+' '+data.settings.currency;
 let db,data={folders:[],items:[],settings:{theme:'purple',currency:'UAH'}},page='home',folder=null,searchTerm='',view='cards',discoveryMode='character',selectedFandomKey='';
 const validPages=new Set(menu.map(x=>x[0]));
@@ -99,6 +99,12 @@ async function ensureFandomFolders(){
   const key=fandomMatch(f.name),target=key!=='other'?fandomRoot(key):null;
   if(target&&target.id!==f.id){f.parent=target.id;changed=true}
  }
+ // Legacy versions generated all six default fandom roots without asking.
+ // Remove ONLY untouched empty default roots; never touch children, items,
+ // custom fandoms or roots explicitly created by the user in newer versions.
+ const autoKeys=new Set(FANDOMS.map(x=>x.key));
+ const toRemove=new Set(data.folders.filter(f=>f.kind==='fandom'&&autoKeys.has(f.fandomKey)&&!f.userSelected&&!f.photo&&!f.source&&!f.description&&!f.updated&&!data.folders.some(child=>child.parent===f.id)&&!data.items.some(item=>item.folder===f.id)).map(f=>f.id));
+ if(toRemove.size){data.folders=data.folders.filter(f=>!toRemove.has(f.id));changed=true}
  if(changed)try{await save()}catch(e){data.folders=JSON.parse(snapshot);console.warn('Fandom migration not saved:',e)}
 }
 function fandomOptions(){
@@ -137,7 +143,7 @@ function openFandom(key){
 async function createFandomFolder(key,name,icon){
  let existing=fandomRoot(key)||data.folders.find(f=>f.kind==='fandom'&&f.name.toLocaleLowerCase('uk-UA')===name.toLocaleLowerCase('uk-UA'));
  if(existing){close();selectedFandomKey=existing.fandomKey;navigate('collections',null);return}
- let created={id:id(),name,parent:null,kind:'fandom',fandomKey:key,icon:icon||'🌐',photo:'',created:now()};
+ let created={id:id(),name,parent:null,kind:'fandom',fandomKey:key,userSelected:true,icon:icon||'🌐',photo:'',created:now()};
  data.folders.push(created);
  try{await save()}catch(e){data.folders=data.folders.filter(f=>f.id!==created.id);showToast('Не вдалося створити фандом');return}
  selectedFandomKey=key;close();navigate('collections',null);showToast('Папка фандому з’явилася під списком');
