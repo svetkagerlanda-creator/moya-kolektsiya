@@ -27,6 +27,7 @@ const messageView=(m,where)=>{
  const isMine=m.sender_id===st.id,hidden=!isMine&&blocked(m.sender_id);
  return '<div class="cc-message '+(isMine?'cc-own':'')+'"><div class="cc-message-head"><b>'+esc(isMine?tr('Я'):pname(m.sender_id))+'</b><small>'+esc(hh(m.created_at))+'</small></div>'
  +(hidden?'<p class="muted">'+tr('Повідомлення заблокованого користувача приховано.')+'</p>':'<p>'+esc(m.body)+'</p>')
+ +(isMine?'<div class="cc-message-tools"><button type="button" class="alt" data-cc="delete" data-id="'+esc(m.id)+'" data-type="'+where+'">'+tr('Видалити повідомлення')+'</button></div>':'')
  +(!isMine&&!hidden?'<div class="cc-message-tools"><button type="button" class="alt" data-cc="report" data-id="'+esc(m.id)+'" data-sender="'+esc(m.sender_id)+'" data-type="'+where+'">'+tr('Поскаржитися')+'</button><button type="button" class="alt" data-cc="block" data-sender="'+esc(m.sender_id)+'">'+tr('Заблокувати')+'</button></div>':'')
  +'</div>';
 };
@@ -139,6 +140,12 @@ async function doAction(type,el){
  try{
   const id=el.dataset.id,target=el.dataset.sender;
   if(type==='person'){start(id);return}
+  if(type==='delete'){
+   if(!confirm(tr('Видалити власне повідомлення?')))return;
+   const table=el.dataset.type==='direct'?'collector_dm_entries':'collector_global_chat';
+   await api(table,'id=eq.'+eurl(id)+'&sender_id=eq.'+eurl(st.id),'DELETE');
+   await refreshAll();return;
+  }
   if(type==='block'){
    if(!confirm(tr('Заблокувати цього користувача? Ви більше не зможете обмінюватися повідомленнями.')))return;
    await api('collector_blocks','','POST',{blocker_id:st.id,blocked_id:target});
