@@ -26,7 +26,11 @@
           "photo": "https://bi.ua/uploaded-images/products/size_650/602437_1.jpg",
           "retailPriceUAH": 899,
           "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
-          "photoCredit": "Будинок іграшок — exact product 602437 box image"
+          "photoCredit": "Будинок іграшок — exact product 602437 box image",
+          "ean": "6958985027595",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://oxfordcomicsandgames.com/products/dec228539-52toys-sleep-fairyland-elves-8pc-fig-bmb-ds",
+          "barcodeNote": "Identifies sealed random blind-box product, not individual revealed figures"
         },
         {
           "name": "The High Priestess",
