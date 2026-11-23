@@ -169,7 +169,7 @@
       "missingPhotos": 0,
       "invalidSeries": 0,
       "duplicateUrls": 0,
-      "partialSeries": 31
+      "partialSeries": 0
     },
     {
       "file": "verified-mlp-figures.json",
@@ -179,7 +179,7 @@
       "missingPhotos": 0,
       "invalidSeries": 0,
       "duplicateUrls": 0,
-      "partialSeries": 34
+      "partialSeries": 0
     },
     {
       "file": "verified-mlpmerch.json",
@@ -214,7 +214,7 @@
   ],
   "totals": {
     "verifiedSeriesRecords": 1224,
-    "partialSeriesRecords": 112,
+    "partialSeriesRecords": 47,
     "releaseRecords": 17245,
     "photoRecords": 17213,
     "missingPhotoRecords": 32,
