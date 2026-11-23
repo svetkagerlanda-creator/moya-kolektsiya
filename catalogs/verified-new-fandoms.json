@@ -91,7 +91,11 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-babyz-runwayz-doll-felicia",
           "photo": "https://cdn.shopify.com/s/files/1/0461/4452/0344/files/527701-Bratz-Babyz-Runwayz-Felicia2.jpg?v=1758827206",
-          "description": "Before they were Bratz, they were Bratz Babyz! Step back in time with the Bratz and see how it all began, as they hit the runway with baby bratitude style. Our tiniest trendsetters bring big personalities to the catwalk, each girl showcasing a look that expresses their passion for fashion. They’re taking the world of s"
+          "description": "Before they were Bratz, they were Bratz Babyz! Step back in time with the Bratz and see how it all began, as they hit the runway with baby bratitude style. Our tiniest trendsetters bring big personalities to the catwalk, each girl showcasing a look that expresses their passion for fashion. They’re taking the world of s",
+          "upc": "035051527701",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/bratz-babyz-felicia-runwayz-doll/",
+          "barcodeVerification": "Retailer product data names exact physical release and model code; check digit valid"
         },
         {
           "name": "Bratz Big Babyz Doll - Cloe",
@@ -1069,7 +1073,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-haunted-high-school-playset-hlp88-en-ca",
           "photo": "https://shop.mattel.com/cdn/shop/files/zgoihljq0kwrf8csmwyh.png?v=1712598915",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735117666",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.e.leclerc/fp/monster-high-le-lycee-hante-maison-de-poupees-plus-de-35-accessoires-0194735117666",
+          "barcodeVerification": "Retailer product data names exact physical release and model code; check digit valid"
         },
         {
           "name": "Monster High Monster Fest Clawdeen Wolf Fashion Doll With Festival Outfit, Band Poster And Accessories",
@@ -1164,7 +1172,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-toy-car-ghoul-mobile-hhk63",
           "photo": "https://shop.mattel.com/cdn/shop/files/hslbgirfiddifs7xrjga.jpg?v=1778677844",
-          "description": "Cruise around with the boo-crew in the Monster High Ghoul Mobile! This creeperific car comes with a pet and accessories. Shop spooktacular gifts at [URL here]!"
+          "description": "Cruise around with the boo-crew in the Monster High Ghoul Mobile! This creeperific car comes with a pet and accessories. Shop spooktacular gifts at [URL here]!",
+          "ean": "0194735069828",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.elcorteingles.es/juguetes/A48452876-monster-high-mh-coche-ghoul-mattel/",
+          "barcodeVerification": "Retailer product data names exact physical release and model code; check digit valid"
         }
       ]
     },
