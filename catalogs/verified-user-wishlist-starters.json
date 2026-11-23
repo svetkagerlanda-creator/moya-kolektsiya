@@ -189,9 +189,9 @@
       "group": "🎁 Blind Box · POP TOP",
       "source": "https://bi.ua/ukr/product/fgurka-syurpriz-pop-top-letsvan-ziyuli-rozkshn-samocvti-17zl-0204.html",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 2,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок. Secret variant confirmed, other six regular designs still require name verification; rarity Diamond 1/72. The existing sealed-box card remains separate.",
+      "completeness": "full-named-variant-checklist-with-sealed-assortment",
+      "count": 8,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок. Secret variant confirmed, other six regular designs still require name verification; rarity Diamond 1/72. The existing sealed-box card remains separate. Six regular gem-themed variants verified by multiple exact-SKU retailer listings. The retailer spells Emerald as 'Kmerald', apparently a typo; normalized to standard English gemstone name. Secret Diamond retained.",
       "items": [
         {
           "name": "Letsvan Ziyuli · Розкішні самоцвіти",
@@ -219,6 +219,60 @@
           "photo": "",
           "rarity": "Secret · 1/72",
           "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Розкішні самоцвіти · Topaz",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://rozetka.com.ua/ua/pop-top-6974773011294/p541092599/",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Розкішні самоцвіти · Sapphire",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://rozetka.com.ua/ua/pop-top-6974773011294/p541092599/",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Розкішні самоцвіти · Amethyst",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://rozetka.com.ua/ua/pop-top-6974773011294/p541092599/",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Розкішні самоцвіти · Pearl",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://rozetka.com.ua/ua/pop-top-6974773011294/p541092599/",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Розкішні самоцвіти · Ruby",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://rozetka.com.ua/ua/pop-top-6974773011294/p541092599/",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Розкішні самоцвіти · Emerald",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://rozetka.com.ua/ua/pop-top-6974773011294/p541092599/",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
         }
       ],
       "assortmentEan": "6974773011294",
@@ -711,9 +765,9 @@
       "group": "🎁 Blind Box · POP TOP",
       "source": "https://www.kikagoods.com/collections/confirmed-style-collection/products/ziyuli-spiritual-power-series-blind-box",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 2,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок. Six regular designs and secret Twins (1/72) confirmed by specialist seller; regular figure names still pending.",
+      "completeness": "full-named-variant-checklist-with-sealed-assortment",
+      "count": 8,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок. Six regular designs and secret Twins (1/72) confirmed by specialist seller; regular figure names still pending. Six regular designs confirmed by retailer and Japanese official announcement. Secret Twins redemption edition retained separately.",
       "items": [
         {
           "name": "Letsvan Ziyuli · Духовна сила",
@@ -744,6 +798,60 @@
           "photo": "",
           "rarity": "Secret · 1/72",
           "description": "Named blind-box variant listed by specialist retailer; sealed box SKU and EAN are not individual variant identifiers. Exact individual photo not verified."
+        },
+        {
+          "name": "Духовна сила · Scarlet Night",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://fairyfox.ua/kolektsiina-ihrashka-pop-top-letsvan-serii-ziyuli-dukhovna-syla/",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Духовна сила · Mirror Talk",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://fairyfox.ua/kolektsiina-ihrashka-pop-top-letsvan-serii-ziyuli-dukhovna-syla/",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Духовна сила · Magic Potion Witch",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://fairyfox.ua/kolektsiina-ihrashka-pop-top-letsvan-serii-ziyuli-dukhovna-syla/",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Духовна сила · Dreamer Doll",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://fairyfox.ua/kolektsiina-ihrashka-pop-top-letsvan-serii-ziyuli-dukhovna-syla/",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Духовна сила · Silver Oath",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://fairyfox.ua/kolektsiina-ihrashka-pop-top-letsvan-serii-ziyuli-dukhovna-syla/",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Духовна сила · Dark Rose Time",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://fairyfox.ua/kolektsiina-ihrashka-pop-top-letsvan-serii-ziyuli-dukhovna-syla/",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
         }
       ],
       "assortmentEan": "6974773012444",
@@ -1701,9 +1809,9 @@
       "group": "🎁 Blind Box · 10/10 Toys",
       "source": "https://www.kikagoods.com/products/nono-sova-nightmare-lullaby-series-blind-box",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 2,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок. Six regular designs and one secret Thornbird confirmed by specialist seller. Regular design names still pending reliable identification.",
+      "completeness": "full-named-variant-checklist-with-sealed-assortment",
+      "count": 8,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок. Six regular designs and one secret Thornbird confirmed by specialist seller. Regular design names still pending reliable identification. Regular character names confirmed by independent seller's listed selectable options; secret Thornbird remains separately listed.",
       "items": [
         {
           "name": "Nono Sova · Nightmare Lullaby",
@@ -1734,6 +1842,60 @@
           "photo": "",
           "rarity": "Secret · 1/144",
           "description": "Named blind-box variant listed by specialist retailer; sealed box SKU and EAN are not individual variant identifiers. Exact individual photo not verified."
+        },
+        {
+          "name": "Nightmare Lullaby · Neverland",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://www.joyqueenland.com/products/nono-sova-nightmare-lullaby-pvc-figures",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Nightmare Lullaby · Siren",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://www.joyqueenland.com/products/nono-sova-nightmare-lullaby-pvc-figures",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Nightmare Lullaby · Cinderella",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://www.joyqueenland.com/products/nono-sova-nightmare-lullaby-pvc-figures",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Nightmare Lullaby · Spider",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://www.joyqueenland.com/products/nono-sova-nightmare-lullaby-pvc-figures",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Nightmare Lullaby · Delicious",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://www.joyqueenland.com/products/nono-sova-nightmare-lullaby-pvc-figures",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
+        },
+        {
+          "name": "Nightmare Lullaby · Demoness",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://www.joyqueenland.com/products/nono-sova-nightmare-lullaby-pvc-figures",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed named regular variant in the exact named blind-box series. The shared blind-box SKU and EAN must not be copied to this individual design; individual image and UPC/EAN not verified."
         }
       ],
       "assortmentEan": "6978571803426",
