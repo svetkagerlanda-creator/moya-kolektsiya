@@ -170,8 +170,6 @@ def main():
                 errors[entry["source"]]=error
                 continue
             old=past.get(entry["source"],{})
-            if old.get("completeness")=="verified-full-series" and result["completeness"]!="verified-full-series":
-                continue
             olditems={c["sourceUrl"]:c for c in old.get("items",[]) if c.get("sourceUrl")}
             for card in result["items"]:
                 previous=olditems.get(card["sourceUrl"],{})
@@ -185,6 +183,16 @@ def main():
                 result["completeness"]="verified-full-series"
             else:
                 result["completeness"]="verified-selected-releases"
+            # Do not downgrade a previously verified complete set if the
+            # upstream index is temporarily incomplete or its images fail.
+            if (old.get("completeness")=="verified-full-series"
+                    and result["completeness"]!="verified-full-series"):
+                errors[entry["source"]] = "upstream incomplete; retained prior verified-full-series"
+                continue
+            if (old.get("completeness")=="verified-full-series"
+                    and result["count"] < len(old.get("items", []))):
+                errors[entry["source"]] = "upstream item count decreased; retained prior complete set"
+                continue
             if (old.get("completeness")=="verified-selected-releases"
                     and result["completeness"]=="verified-selected-releases"
                     and len(result["items"])<len(old.get("items",[]))):
