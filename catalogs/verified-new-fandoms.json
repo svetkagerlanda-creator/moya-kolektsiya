@@ -1599,7 +1599,12 @@
           "year": "2013",
           "sourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD42&siteid=27",
           "photo": "https://service.mattel.com//us/img/prod/243/bbd42_c_13_003.jpg",
-          "description": "Оригінальна Raven Queen, офіційний архів Mattel."
+          "description": "Оригінальна Raven Queen, офіційний архів Mattel.",
+          "upc": "746775266493",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://wertoys.com/ever-after-high-first-chapter-raven-queen-doll-2013-mattel-bbd42/",
+          "barcodeVerification": "Exact physical product matched to explicit UPC on source; GS1 check digit validated 2026-11-23",
+          "barcodeNote": "Retail listing explicitly matches UPC 746775266493 and Mattel BBD42 2013 First Chapter Raven Queen. Do not transfer to other rereleases."
         }
       ]
     },
@@ -16293,7 +16298,12 @@
           "photoVerification": "Official Bratz product-page image opened and visually matched to this exact product / sealed packaging (2026-11-23)",
           "description": "Retail box contains logo-shaped storage case and exclusive Mini Bratz Pretty 'N' Punk Sasha mini. Sold as one physical set; do not split included figure into a second SKU.",
           "verificationStatus": "manufacturer-product-verified; photo-visually-checked; barcode-not-verified",
-          "sku": "594932"
+          "sku": "594932",
+          "upc": "035051594932",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://barcodeindex.com/upc/035051594932",
+          "barcodeVerification": "Exact physical product matched to explicit UPC on source; GS1 check digit validated 2026-11-23",
+          "barcodeNote": "Barcode Index product-specific UPC and model 594932C3; manufacturer Bratz page confirms 594932; sealed collector case with exclusive Sasha."
         }
       ]
     },
