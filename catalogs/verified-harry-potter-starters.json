@@ -2673,6 +2673,114 @@
           "description": "Official LEGO Harry Potter set; product photo pending exact verification."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Diagon Alley Shops",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/product/ollivanders-madam-malkins-robes-76439",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Ollivanders & Madam Malkin's Robes",
+          "manufacturer": "LEGO",
+          "figureNumber": "76439",
+          "sourceUrl": "https://www.lego.com/en-us/product/ollivanders-madam-malkins-robes-76439",
+          "photo": "",
+          "description": "Set verified from official LEGO source; exact product image pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Triwizard Tournament · Black Lake",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/product/triwizard-tournament-the-black-lake-76420",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Triwizard Tournament: The Black Lake",
+          "manufacturer": "LEGO",
+          "figureNumber": "76420",
+          "sourceUrl": "https://www.lego.com/en-us/product/triwizard-tournament-the-black-lake-76420",
+          "photo": "",
+          "description": "Set verified from official LEGO source; exact product image pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Forbidden Forest · Magical Creatures",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/uk-ua/product/forbidden-forest-magical-creatures-76432",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Forbidden Forest: Magical Creatures",
+          "manufacturer": "LEGO",
+          "figureNumber": "76432",
+          "sourceUrl": "https://www.lego.com/uk-ua/product/forbidden-forest-magical-creatures-76432",
+          "photo": "",
+          "description": "Set verified from official LEGO source; exact product image pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 20th Anniversary Buildable Figures",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/aboutus/news/2021/april/lego-harry-potter",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Harry Potter & Hermione Granger",
+          "manufacturer": "LEGO",
+          "figureNumber": "76393",
+          "sourceUrl": "https://www.lego.com/en-us/aboutus/news/2021/april/lego-harry-potter",
+          "photo": "",
+          "description": "Set verified from official LEGO source; exact product image pending."
+        },
+        {
+          "name": "Fawkes, Dumbledore's Phoenix",
+          "manufacturer": "LEGO",
+          "figureNumber": "76394",
+          "sourceUrl": "https://www.lego.com/en-us/aboutus/news/2021/april/lego-harry-potter",
+          "photo": "",
+          "description": "Set verified from official LEGO source; exact product image pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 20th Anniversary Hogwarts",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/aboutus/news/2021/april/lego-harry-potter",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Hogwarts: First Flying Lesson",
+          "manufacturer": "LEGO",
+          "figureNumber": "76395",
+          "sourceUrl": "https://www.lego.com/en-us/aboutus/news/2021/april/lego-harry-potter",
+          "photo": "",
+          "description": "Set verified from official LEGO source; exact product image pending."
+        }
+      ]
     }
   ]
 }
