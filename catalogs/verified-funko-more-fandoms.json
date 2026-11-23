@@ -98,7 +98,12 @@
           "seriesNumber": "94702",
           "sourceUrl": "https://funko.com/pop-doma-with-war-fans/94702.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwdf20d657/images/funko/upload/1/94702a_DSM1_Doma_POP_render_v2-Glam-WEB.png?sh=800&sw=800",
-          "description": "Funko item 94702; box 2511"
+          "description": "Funko item 94702; box 2511",
+          "upc": "889698947022",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.intertoys.nl/funko-pop-figuur-demon-slayer-doma-glow-in-the-dark",
+          "barcodeVerification": "Retailer explicitly pairs barcode 0889698947022 with Doma Funko #2511 / item 94702; UPC-A checksum validated",
+          "barcodeNote": "UPC-A is EAN-13 retail display without leading 0; exact War Fans/GITD exclusive #2511, not common Doma release."
         },
         {
           "name": "Muzan Kibutsuji (Bloody)",
