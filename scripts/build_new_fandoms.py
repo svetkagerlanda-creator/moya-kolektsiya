@@ -122,6 +122,48 @@ def parse_product(url,fandom,manufacturer):
     return {"name":title,"figureNumber":number,"manufacturer":manufacturer,
             "sourceUrl":canonical(url),"photo":photo,"description":description}
 
+def verified_product_cards(url,fandom,manufacturer):
+    """Read distinct Shopify variants when available, otherwise one real SKU."""
+    base=parse_product(url,fandom,manufacturer)
+    parsed=urlsplit(url)
+    if (parsed.hostname not in {"www.bratz.com","shop.mgae.com","www.winxclub.com"}
+            or "/products/" not in parsed.path):
+        return [base]
+    endpoint=urlunsplit((parsed.scheme,parsed.netloc,parsed.path.rstrip("/")+".js","",""))
+    try:
+        response=requests.get(endpoint,headers=HEADERS,timeout=18)
+        response.raise_for_status()
+        product=response.json()
+    except (ValueError,requests.RequestException):
+        return [base]
+    variants=product.get("variants",[])
+    if len(variants)<2:
+        return [base]
+    result=[]
+    for v in variants:
+        if not v.get("id"):continue
+        title=str(v.get("public_title") or v.get("title") or "").strip()
+        if not title or title.lower() in {"default title","default"}:
+            continue
+        photo=""
+        featured=v.get("featured_image")
+        if isinstance(featured,dict):photo=featured.get("src") or ""
+        elif isinstance(featured,str):photo=featured
+        photo=urljoin(url,photo) if photo else ""
+        if urlsplit(photo).scheme!="https":photo=""
+        # Every variant needs its own verified photo. Never apply the parent
+        # product's generic gallery image to all six different characters.
+        entry=dict(base)
+        entry.update(name=base["name"]+" — "+title,
+                     figureNumber=str(v.get("sku") or ""),
+                     variantKey=str(product.get("id") or "")+"|"+str(v["id"]),
+                     photo=photo,description=(base["description"]+"; variant: "+title).strip("; "))
+        result.append(entry)
+    return result or [base]
+
+def identity(card):
+    return (card["sourceUrl"],card.get("variantKey") or "")
+
 def main():
     previous={}
     if OUTPUT.exists():
@@ -139,7 +181,7 @@ def main():
         candidates.setdefault((name,fandom,maker),set()).add(canonical(url))
     def task(info):
         (name,fandom,maker),url=info
-        try:return (name,fandom,maker,url,parse_product(url,fandom,maker),None)
+        try:return (name,fandom,maker,url,verified_product_cards(url,fandom,maker),None)
         except Exception as e:return (name,fandom,maker,url,None,str(e)[:250])
     jobs=[(key,url) for key,urls in candidates.items() for url in sorted(urls)]
     results={}
@@ -148,16 +190,17 @@ def main():
             if error:
                 errors[url]=error
             elif card:
-                results.setdefault((name,fandom,maker),{})[card["sourceUrl"]]=card
+                for item in card:
+                    results.setdefault((name,fandom,maker),{})[identity(item)]=item
     for (name,fandom,maker),cards in results.items():
         old=previous.get(name,{})
         # Preserve old cards and exact-source photos if a store changes navigation.
-        merged={c["sourceUrl"]:c for c in old.get("items",[]) if c.get("sourceUrl")}
-        for url,card in cards.items():
-            oldcard=merged.get(url,{})
+        merged={identity(c):c for c in old.get("items",[]) if c.get("sourceUrl")}
+        for key,card in cards.items():
+            oldcard=merged.get(key,{})
             if not card["photo"] and oldcard.get("photo"):card["photo"]=oldcard["photo"]
-            merged[url]=card
-        items=sorted(merged.values(),key=lambda c:(c["name"],c["sourceUrl"]))
+            merged[key]=card
+        items=sorted(merged.values(),key=lambda c:(c["name"],c["sourceUrl"],c.get("variantKey","")))
         previous[name]={"name":name,"verified":True,"completeness":"verified-selected-releases",
                         "source":next((src for n,f,m,src in SOURCES if n==name),items[0]["sourceUrl"]),
                         "manufacturer":maker,"fandomKey":fandom,
