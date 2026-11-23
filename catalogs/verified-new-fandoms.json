@@ -4467,6 +4467,32 @@
           "description": "Підтверджений штрихкод запечатаного асортименту; результат-сюрприз за ним не визначається."
         }
       ]
+    },
+    {
+      "name": "Bratz · The Craft",
+      "source": "https://www.entertainmentearth.com/product/bratz-x-the-craft-nancy-collector-doll/mga247500",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "💋 Bratz",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені товари, не повна серія.",
+      "items": [
+        {
+          "name": "Bratz x The Craft Nancy Collector Doll",
+          "manufacturer": "MGA Entertainment",
+          "variantKey": "bratz:035051247500",
+          "sourceUrl": "https://www.entertainmentearth.com/product/bratz-x-the-craft-nancy-collector-doll/mga247500",
+          "photo": "",
+          "upc": "035051247500",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/bratz-x-the-craft-nancy-collector-doll/mga247500",
+          "barcodeVerification": "Retailer explicitly publishes UPC against product title; UPC-A checksum passed",
+          "barcodeNote": "Unique retail package UPC.",
+          "description": "Підтверджений UPC окремого фізичного випуску."
+        }
+      ]
     }
   ]
 }
