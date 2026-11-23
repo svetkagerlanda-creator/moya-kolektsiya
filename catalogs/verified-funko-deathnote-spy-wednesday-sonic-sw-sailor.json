@@ -266,7 +266,12 @@
           "seriesNumber": "64557",
           "sourceUrl": "https://funko.com/pop-darth-vader/64557.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw25b89d6e/images/funko/64557-1.png?sh=800&sw=800",
-          "description": "Funko item 64557; box #539"
+          "description": "Funko item 64557; box #539",
+          "upc": "889698645577",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/itm/285243448056",
+          "barcodeVerification": "UPC explicitly displayed for exact Funko item number and character/edition; UPC-A check digit validated",
+          "barcodeNote": "Release-specific retail UPC, distinct from the figure box number."
         },
         {
           "name": "Anakin Skywalker with Lightsaber (Ahsoka)",
@@ -277,7 +282,12 @@
           "seriesNumber": "83763",
           "sourceUrl": "https://funko.com/pop-anakin-skywalker-with-lightsaber/83763.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwb5d4b7e9/images/funko/upload/83763_POP_Ahsoka_Anakin-Skywalker_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 83763; box #751"
+          "description": "Funko item 83763; box #751",
+          "upc": "889698837637",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.shopforgeek.com/en/STAR-WARS-AHSOKA-POP-N-751-ANAKIN-SKYWALKER-232491.html",
+          "barcodeVerification": "UPC explicitly displayed for exact Funko item number and character/edition; UPC-A check digit validated",
+          "barcodeNote": "Release-specific retail UPC, distinct from the figure box number."
         }
       ]
     },
@@ -301,7 +311,12 @@
           "seriesNumber": "6350",
           "sourceUrl": "https://funko.com/sailor-moon---sailor-moon-w%2F-luna/6350.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw55e3a260/images/funko/6350-1_C.jpeg?sh=800&sw=800",
-          "description": "Funko item 6350; box #89"
+          "description": "Funko item 6350; box #89",
+          "upc": "849803063504",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/itm/377527462994",
+          "barcodeVerification": "UPC explicitly displayed for exact Funko item number and character/edition; UPC-A check digit validated",
+          "barcodeNote": "Release-specific retail UPC, distinct from the figure box number."
         },
         {
           "name": "Sailor Mercury",
