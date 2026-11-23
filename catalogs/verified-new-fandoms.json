@@ -4712,6 +4712,79 @@
           "description": "Підтверджений індивідуальний UPC для фізичного випуску; фото потребує окремої перевірки."
         }
       ]
+    },
+    {
+      "name": "Bratz · Sassy Stampede (2026)",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "💋 Bratz · 2025–2026 Dolls",
+      "source": "https://www.bratz.com/collections/bratz-sassy-stampede",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 4,
+      "notes": "Character-specific physical UPC-A backed by individual retailers.",
+      "items": [
+        {
+          "name": "Bratz Sassy Stampede — Cloe",
+          "manufacturer": "MGA Entertainment",
+          "character": "Cloe",
+          "figureNumber": "247159",
+          "variantKey": "bratz:mga:035051247159",
+          "sourceUrl": "https://www.mercari.com/us/item/m80256070743/",
+          "photo": "",
+          "upc": "035051247159",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.mercari.com/us/item/m80256070743/",
+          "barcodeVerification": "Retailer directly provides physical character doll UPC-A; checksum validated",
+          "barcodeNote": "Individual release barcode, not character-agnostic assortment SKU.",
+          "description": "Bratz Sassy Stampede 2026 — підтверджений UPC, фото потребує звірки"
+        },
+        {
+          "name": "Bratz Sassy Stampede — Yasmin",
+          "manufacturer": "MGA Entertainment",
+          "character": "Yasmin",
+          "figureNumber": "247166",
+          "variantKey": "bratz:mga:035051247166",
+          "sourceUrl": "https://comsed.net/%D0%BA%D1%83%D0%BA%D0%BB%D0%B0-bratz-sassy-stampede-yasmin",
+          "photo": "",
+          "upc": "035051247166",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://comsed.net/%D0%BA%D1%83%D0%BA%D0%BB%D0%B0-bratz-sassy-stampede-yasmin",
+          "barcodeVerification": "Retailer directly provides physical character doll UPC-A; checksum validated",
+          "barcodeNote": "Individual release barcode, not character-agnostic assortment SKU.",
+          "description": "Bratz Sassy Stampede 2026 — підтверджений UPC, фото потребує звірки"
+        },
+        {
+          "name": "Bratz Sassy Stampede — Jade",
+          "manufacturer": "MGA Entertainment",
+          "character": "Jade",
+          "figureNumber": "247173",
+          "variantKey": "bratz:mga:035051247173",
+          "sourceUrl": "https://comsed.net/%D0%BA%D1%83%D0%BA%D0%BB%D0%B0-bratz-sassy-stampede-jade",
+          "photo": "",
+          "upc": "035051247173",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://comsed.net/%D0%BA%D1%83%D0%BA%D0%BB%D0%B0-bratz-sassy-stampede-jade",
+          "barcodeVerification": "Retailer directly provides physical character doll UPC-A; checksum validated",
+          "barcodeNote": "Individual release barcode, not character-agnostic assortment SKU.",
+          "description": "Bratz Sassy Stampede 2026 — підтверджений UPC, фото потребує звірки"
+        },
+        {
+          "name": "Bratz Sassy Stampede — Sasha",
+          "manufacturer": "MGA Entertainment",
+          "character": "Sasha",
+          "figureNumber": "247180",
+          "variantKey": "bratz:mga:035051247180",
+          "sourceUrl": "https://toywiz.com/bratz-sassy-stampede-sasha-fashion-doll/",
+          "photo": "",
+          "upc": "035051247180",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/bratz-sassy-stampede-sasha-fashion-doll/",
+          "barcodeVerification": "Retailer directly provides physical character doll UPC-A; checksum validated",
+          "barcodeNote": "Individual release barcode, not character-agnostic assortment SKU.",
+          "description": "Bratz Sassy Stampede 2026 — підтверджений UPC, фото потребує звірки"
+        }
+      ]
     }
   ]
 }
