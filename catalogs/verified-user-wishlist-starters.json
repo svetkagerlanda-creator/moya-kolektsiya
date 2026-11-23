@@ -1060,11 +1060,11 @@
       "manufacturer": "PMI",
       "fandomKey": "naruto",
       "group": "🍥 Naruto · PMI",
-      "source": "",
+      "source": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "completeness": "full-variant-checklist-with-sealed-assortment",
+      "count": 19,
+      "notes": "18 distinct figures (14 regular, 4 rare) plus sealed mystery pack NSH2005. Only sealed pack barcode 7290120511576 verified; individual figure barcodes unavailable.",
       "items": [
         {
           "name": "Naruto Shippuden",
@@ -1086,6 +1086,168 @@
           "photoCredit": "Будинок іграшок — головне фото товару з відповідним кодом магазину",
           "photoStatus": "retailer-product-image-link-pending-http-check",
           "photoVerificationNote": "Retailer listing confirms SKU and identifies the item; image CDN path follows documented bi.ua product photo pattern. HTTP response could not be validated independently. For random blind box this is assortment/product image, not a confirmed specific variant."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Naruto Uzumaki — Shadow Clone Jutsu",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Naruto Uzumaki — Sage Mode",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Naruto Uzumaki — Bijuu Mode",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Rare",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Sasuke Uchiha — Hebi Uniform",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Sasuke Uchiha — Mangekyo Sharingan",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Sakura Haruno",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Kakashi Hatake",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Kakashi Hatake — ANBU",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Rare",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Gaara",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Hinata Hyuga",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Itachi Uchiha",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Tobi (Masked Obito)",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Obito Uchiha — Fourth Shinobi War",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Rare",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Pain (Nagato)",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Jiraiya",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Orochimaru",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Tsunade",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
+        },
+        {
+          "name": "Naruto Shippuden PMI Vol. 1 · Minato Namikaze — Third Shinobi War",
+          "manufacturer": "PMI",
+          "figureNumber": "",
+          "sourceUrl": "https://www.collexstash.com/collections/figures/naruto-shippuden-mini-figures-vol-1",
+          "photo": "",
+          "rarity": "Rare",
+          "description": "Confirmed collectible in the 18-figure PMI NSH2005 Naruto Shippuden Vol. 1 lineup. Names and rarity cross-checked against specialist collector checklist; no per-figure EAN or photo established."
         }
       ],
       "assortmentEan": "7290120511576",
