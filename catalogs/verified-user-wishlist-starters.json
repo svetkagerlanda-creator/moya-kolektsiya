@@ -275,9 +275,19 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 1299,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6975170197758",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://auchan.ua/ua/kolekcijna-figurka-10-10-toys-dodo-nami-serija-nightmare-core-surprise-box-12-sm-dd-pa00068-2045808/",
+          "assortmentBarcodeVerification": "Retailer explicitly pairs EAN with exact 10/10 Toys DD-PA model; EAN-13 check digit valid",
+          "assortmentBarcodeNote": "Sealed random box SKU DD-PA00068. EAN does not identify a revealed character."
         }
-      ]
+      ],
+      "assortmentEan": "6975170197758",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://auchan.ua/ua/kolekcijna-figurka-10-10-toys-dodo-nami-serija-nightmare-core-surprise-box-12-sm-dd-pa00068-2045808/",
+      "assortmentBarcodeVerification": "Retailer explicitly pairs EAN with exact 10/10 Toys DD-PA model; EAN-13 check digit valid",
+      "assortmentBarcodeNote": "Sealed random box SKU DD-PA00068. EAN does not identify a revealed character."
     },
     {
       "name": "10/10 Toys · Dodo Nami · Floating Mountain Sea",
@@ -300,9 +310,19 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 1299,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6975170196928",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://auchan.ua/ua/kolekcijna-figurka-10-10-toys-dodo-nami-serija-floating-mountain-sea-surprise-box-12-sm-dd-pa00038-2045802/",
+          "assortmentBarcodeVerification": "Retailer explicitly pairs EAN with exact 10/10 Toys DD-PA model; EAN-13 check digit valid",
+          "assortmentBarcodeNote": "Sealed random box SKU DD-PA00038. EAN does not identify a revealed character."
         }
-      ]
+      ],
+      "assortmentEan": "6975170196928",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://auchan.ua/ua/kolekcijna-figurka-10-10-toys-dodo-nami-serija-floating-mountain-sea-surprise-box-12-sm-dd-pa00038-2045802/",
+      "assortmentBarcodeVerification": "Retailer explicitly pairs EAN with exact 10/10 Toys DD-PA model; EAN-13 check digit valid",
+      "assortmentBarcodeNote": "Sealed random box SKU DD-PA00038. EAN does not identify a revealed character."
     },
     {
       "name": "52TOYS · Lilith · The Century of Mary",
