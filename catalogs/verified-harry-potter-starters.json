@@ -1953,6 +1953,122 @@
           "description": "Manufacturer-listed collectible set; exact product photo pending verification."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2026 Collectors Editions",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-ie/themes/harry-potter",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Philosopher's Stone — Collectors' Edition",
+          "manufacturer": "LEGO",
+          "figureNumber": "76466",
+          "sourceUrl": "https://www.lego.com/en-us/product/philosopher-s-stone-collectors-edition-76466",
+          "photo": "",
+          "description": "Official LEGO Harry Potter product; exact image pending."
+        },
+        {
+          "name": "Hogsmeade Village — Collectors' Edition",
+          "manufacturer": "LEGO",
+          "figureNumber": "76457",
+          "sourceUrl": "https://www.lego.com/en-us/product/hogsmeade-village-collectors-edition-76457",
+          "photo": "",
+          "description": "Official LEGO Harry Potter product; exact image pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2026 Magical Creatures",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-ie/themes/harry-potter",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "items": [
+        {
+          "name": "Cornish Pixie",
+          "manufacturer": "LEGO",
+          "figureNumber": "76461",
+          "sourceUrl": "https://www.lego.com/en-us/product/cornish-pixie-76461",
+          "photo": "",
+          "description": "Official LEGO Harry Potter product; exact image pending."
+        },
+        {
+          "name": "Thestral Family",
+          "manufacturer": "LEGO",
+          "figureNumber": "76458",
+          "sourceUrl": "https://www.lego.com/en-us/product/thestral-family-76458",
+          "photo": "",
+          "description": "Official LEGO Harry Potter product; exact image pending."
+        },
+        {
+          "name": "Luna Lovegood & Thestral Figures",
+          "manufacturer": "LEGO",
+          "figureNumber": "76443",
+          "sourceUrl": "https://www.lego.com/en-us/product/luna-lovegood-thestral-figures-76443",
+          "photo": "",
+          "description": "Official LEGO Harry Potter product; exact image pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2026 Hogwarts & Locations",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-ie/themes/harry-potter",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 5,
+      "items": [
+        {
+          "name": "Hogwarts Castle: Hospital Wing",
+          "manufacturer": "LEGO",
+          "figureNumber": "76463",
+          "sourceUrl": "https://www.lego.com/en-us/product/hogwarts-castle-hospital-wing-76463",
+          "photo": "",
+          "description": "Official LEGO Harry Potter product; exact image pending."
+        },
+        {
+          "name": "Hogwarts Castle: Herbology Class",
+          "manufacturer": "LEGO",
+          "figureNumber": "76445",
+          "sourceUrl": "https://www.lego.com/en-us/product/hogwarts-castle-herbology-class-76445",
+          "photo": "",
+          "description": "Official LEGO Harry Potter product; exact image pending."
+        },
+        {
+          "name": "Luna Lovegood's House",
+          "manufacturer": "LEGO",
+          "figureNumber": "76467",
+          "sourceUrl": "https://www.lego.com/en-us/product/luna-lovegood-s-house-76467",
+          "photo": "",
+          "description": "Official LEGO Harry Potter product; exact image pending."
+        },
+        {
+          "name": "Book Nook: Hogwarts Express",
+          "manufacturer": "LEGO",
+          "figureNumber": "76450",
+          "sourceUrl": "https://www.lego.com/en-us/product/book-nook-hogwarts-express-76450",
+          "photo": "",
+          "description": "Official LEGO Harry Potter product; exact image pending."
+        },
+        {
+          "name": "Cauldron: Secret Potions Classroom",
+          "manufacturer": "LEGO",
+          "figureNumber": "76464",
+          "sourceUrl": "https://www.lego.com/en-us/product/cauldron-secret-potions-classroom-76464",
+          "photo": "",
+          "description": "Official LEGO Harry Potter product; exact image pending."
+        }
+      ]
     }
   ]
 }
