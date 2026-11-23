@@ -568,7 +568,12 @@
           "variantKey": "POP MART|POP MART · CRYBABY · Crying Again|8|Baby Blonde (Super Secret)"
         }
       ],
-      "identityPolicy": "Series source URL may be shared across variants; identify items by manufacturer + series + catalogPosition + name, not sourceUrl alone."
+      "identityPolicy": "Series source URL may be shared across variants; identify items by manufacturer + series + catalogPosition + name, not sourceUrl alone.",
+      "assortmentEan": "6931571028763",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://displaygeek.com/products/in-stock-popmart-crybaby-crying-again-series-vinyl-face-plush-blind-box",
+      "assortmentBarcodeVerification": "Retailer displays EAN as variant barcode for a single sealed Crybaby Crying Again vinyl-face plush blind box; GS1 checksum validated",
+      "assortmentBarcodeNote": "Do not confuse with Crying Again plush badge or other releases; rejected invalid retailer EAN 6931571029763."
     }
   ]
 }
