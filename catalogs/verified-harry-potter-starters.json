@@ -5251,8 +5251,17 @@
           "manufacturer": "Funko",
           "figureNumber": "93269",
           "sourceUrl": "https://www.funko.com/gb/mystery-pop-keychain-harry-potter-25th-anniversary/93269.html",
-          "photo": "",
-          "description": "Sealed blind-pack collectible; no unverified per-character variants have been added. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending."
+          "photo": "https://www.distritomax.com/cdn/shop/files/93269PKG_HarryPotter_HarryPotter_MMPOPKeychain_PRINTFILE_T7_glam-WEB-20260708-101625_1200x1200_crop_center.jpg?v=1783527413",
+          "description": "Sealed blind-pack collectible; no unverified per-character variants have been added. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending.",
+          "photoSourceUrl": "https://www.distritomax.com/products/funko-pop-keychain-harry-potter-unitario",
+          "photoCredit": "Distrito Max — Funko 93269 sealed blind bag and assortment promo photo",
+          "photoStatus": "exact-93269-sealed-pack-from-retailer",
+          "photoVerificationNote": "Image shows packaging and lineup, not a guaranteed individual mystery character. Online image availability not directly tested.",
+          "upc": "889698932691",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.midtowncomics.com/p/2607804-pop-keychain-mystery-harry-potter-25th-anniversary/",
+          "barcodeVerification": "Exact Funko 93269 blind pack UPC shown by Midtown Comics and valid UPC-A checksum",
+          "barcodeNote": "UPC for sealed random mystery keychain assortment only; not for a specific character."
         },
         {
           "name": "Mystery POP! Keychain — Harry Potter",
@@ -5261,7 +5270,10 @@
           "sourceUrl": "https://funko.com/pop-keychain-harry-potter-25th-anniversary/93269a.html",
           "photo": "",
           "description": "Official Funko mystery keychain lineup. Published odds: 1/3. Individual sealed-pack barcode not confirmed; this is a possible blind-box outcome.",
-          "rarity": "1/3"
+          "rarity": "1/3",
+          "rarityOdds": "1/3",
+          "raritySourceUrl": "https://www.funko.com/im/mystery-pop-keychain-harry-potter-25th-anniversary/93269.html",
+          "barcodeNote": "Named random outcome; UPC 889698932691 only identifies the unopened assortment."
         },
         {
           "name": "Mystery POP! Keychain — Draco Malfoy",
@@ -5270,7 +5282,10 @@
           "sourceUrl": "https://funko.com/pop-keychain-harry-potter-25th-anniversary/93269a.html",
           "photo": "",
           "description": "Official Funko mystery keychain lineup. Published odds: 1/4. Individual sealed-pack barcode not confirmed; this is a possible blind-box outcome.",
-          "rarity": "1/4"
+          "rarity": "1/4",
+          "rarityOdds": "1/4",
+          "raritySourceUrl": "https://www.funko.com/im/mystery-pop-keychain-harry-potter-25th-anniversary/93269.html",
+          "barcodeNote": "Named random outcome; UPC 889698932691 only identifies the unopened assortment."
         },
         {
           "name": "Mystery POP! Keychain — Hermione Granger",
@@ -5279,7 +5294,10 @@
           "sourceUrl": "https://funko.com/pop-keychain-harry-potter-25th-anniversary/93269a.html",
           "photo": "",
           "description": "Official Funko mystery keychain lineup. Published odds: 1/6. Individual sealed-pack barcode not confirmed; this is a possible blind-box outcome.",
-          "rarity": "1/6"
+          "rarity": "1/6",
+          "rarityOdds": "1/6",
+          "raritySourceUrl": "https://www.funko.com/im/mystery-pop-keychain-harry-potter-25th-anniversary/93269.html",
+          "barcodeNote": "Named random outcome; UPC 889698932691 only identifies the unopened assortment."
         },
         {
           "name": "Mystery POP! Keychain — Severus Snape",
@@ -5288,7 +5306,10 @@
           "sourceUrl": "https://funko.com/pop-keychain-harry-potter-25th-anniversary/93269a.html",
           "photo": "",
           "description": "Official Funko mystery keychain lineup. Published odds: 1/6. Individual sealed-pack barcode not confirmed; this is a possible blind-box outcome.",
-          "rarity": "1/6"
+          "rarity": "1/6",
+          "rarityOdds": "1/6",
+          "raritySourceUrl": "https://www.funko.com/im/mystery-pop-keychain-harry-potter-25th-anniversary/93269.html",
+          "barcodeNote": "Named random outcome; UPC 889698932691 only identifies the unopened assortment."
         },
         {
           "name": "Mystery POP! Keychain — Dark Mark",
@@ -5297,7 +5318,10 @@
           "sourceUrl": "https://funko.com/pop-keychain-harry-potter-25th-anniversary/93269a.html",
           "photo": "",
           "description": "Official Funko mystery keychain lineup. Published odds: 1/12. Individual sealed-pack barcode not confirmed; this is a possible blind-box outcome.",
-          "rarity": "1/12"
+          "rarity": "1/12",
+          "rarityOdds": "1/12",
+          "raritySourceUrl": "https://www.funko.com/im/mystery-pop-keychain-harry-potter-25th-anniversary/93269.html",
+          "barcodeNote": "Named random outcome; UPC 889698932691 only identifies the unopened assortment."
         }
       ]
     },
