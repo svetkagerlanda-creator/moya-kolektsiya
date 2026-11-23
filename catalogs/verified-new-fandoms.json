@@ -12844,6 +12844,758 @@
           "verificationStatus": "collector-checklist-verified; photo-sku-barcode-pending"
         }
       ]
+    },
+    {
+      "name": "Winx Club · Glamour Friends · Witty Toys Season 8 Style",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys Season 8 Style",
+      "source": "https://dollect.net/database/winx-club-witty-toys-s8/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Окрема форма обличчя Season 8. Не змішувати зі стилем New Witty. Не додавати невипущені прототипи.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Season 8 Style Glamour Friends — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:s8:glamour-friends:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Glamour Friends: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Glamour Friends — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:s8:glamour-friends:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Glamour Friends: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Glamour Friends — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:s8:glamour-friends:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Glamour Friends: Aisha. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Glamour Friends — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:s8:glamour-friends:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Glamour Friends: Tecna. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Glamour Friends — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:s8:glamour-friends:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Glamour Friends: Musa. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Glamour Friends — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:s8:glamour-friends:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Glamour Friends: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Selfie Magic · Witty Toys Season 8 Style",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys Season 8 Style",
+      "source": "https://dollect.net/database/winx-club-witty-toys-s8/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Окрема форма обличчя Season 8. Не змішувати зі стилем New Witty. Не додавати невипущені прототипи.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Season 8 Style Selfie Magic — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:s8:selfie-magic:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Selfie Magic: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Selfie Magic — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:s8:selfie-magic:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Selfie Magic: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Selfie Magic — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:s8:selfie-magic:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Selfie Magic: Aisha. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Selfie Magic — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:s8:selfie-magic:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Selfie Magic: Tecna. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Selfie Magic — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:s8:selfie-magic:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Selfie Magic: Musa. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Selfie Magic — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:s8:selfie-magic:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Selfie Magic: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Rock Style · Witty Toys Season 8 Style",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys Season 8 Style",
+      "source": "https://dollect.net/database/winx-club-witty-toys-s8/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Окрема форма обличчя Season 8. Не змішувати зі стилем New Witty. Не додавати невипущені прототипи.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Season 8 Style Rock Style — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:s8:rock-style:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Rock Style: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Rock Style — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:s8:rock-style:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Rock Style: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Rock Style — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:s8:rock-style:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Rock Style: Aisha. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Rock Style — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:s8:rock-style:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Rock Style: Tecna. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Rock Style — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:s8:rock-style:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Rock Style: Musa. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Rock Style — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:s8:rock-style:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Rock Style: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Cosmix Power · Witty Toys Season 8 Style",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys Season 8 Style",
+      "source": "https://dollect.net/database/winx-club-witty-toys-s8/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Окрема форма обличчя Season 8. Не змішувати зі стилем New Witty. Не додавати невипущені прототипи.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Season 8 Style Cosmix Power — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:s8:cosmix-power:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Cosmix Power: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Cosmix Power — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:s8:cosmix-power:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Cosmix Power: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Cosmix Power — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:s8:cosmix-power:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Cosmix Power: Aisha. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Cosmix Power — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:s8:cosmix-power:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Cosmix Power: Tecna. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Cosmix Power — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:s8:cosmix-power:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Cosmix Power: Musa. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Cosmix Power — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:s8:cosmix-power:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Cosmix Power: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Crystal Sirenix · Witty Toys Season 8 Style",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys Season 8 Style",
+      "source": "https://dollect.net/database/winx-club-witty-toys-s8/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Окрема форма обличчя Season 8. Не змішувати зі стилем New Witty. Не додавати невипущені прототипи.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Season 8 Style Crystal Sirenix — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:s8:crystal-sirenix:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Crystal Sirenix: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Crystal Sirenix — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:s8:crystal-sirenix:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Crystal Sirenix: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Crystal Sirenix — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:s8:crystal-sirenix:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Crystal Sirenix: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Spinning Enchantix · Witty Toys Season 8 Style",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys Season 8 Style",
+      "source": "https://dollect.net/database/winx-club-witty-toys-s8/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Окрема форма обличчя Season 8. Не змішувати зі стилем New Witty. Не додавати невипущені прототипи.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Season 8 Style Spinning Enchantix — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:s8:spinning-enchantix:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Spinning Enchantix: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Spinning Enchantix — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:s8:spinning-enchantix:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Spinning Enchantix: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Spinning Enchantix — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:s8:spinning-enchantix:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Spinning Enchantix: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Sirenix Fairy Bubbles · Witty Toys Season 8 Style",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys Season 8 Style",
+      "source": "https://dollect.net/database/winx-club-witty-toys-s8/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Окрема форма обличчя Season 8. Не змішувати зі стилем New Witty. Не додавати невипущені прототипи.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Season 8 Style Sirenix Fairy Bubbles — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:s8:sirenix-fairy-bubbles:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Sirenix Fairy Bubbles: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Sirenix Fairy Bubbles — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:s8:sirenix-fairy-bubbles:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Sirenix Fairy Bubbles: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Sirenix Fairy Bubbles — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:s8:sirenix-fairy-bubbles:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Sirenix Fairy Bubbles: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Sirenix Bubble Magic · Witty Toys Season 8 Style",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys Season 8 Style",
+      "source": "https://dollect.net/database/winx-club-witty-toys-s8/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Окрема форма обличчя Season 8. Не змішувати зі стилем New Witty. Не додавати невипущені прототипи.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Season 8 Style Sirenix Bubble Magic — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:s8:sirenix-bubble-magic:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Sirenix Bubble Magic: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Sirenix Bubble Magic — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:s8:sirenix-bubble-magic:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Sirenix Bubble Magic: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Sirenix Bubble Magic — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:s8:sirenix-bubble-magic:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Sirenix Bubble Magic: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Star Magic · Witty Toys Season 8 Style",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys Season 8 Style",
+      "source": "https://dollect.net/database/winx-club-witty-toys-s8/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Окрема форма обличчя Season 8. Не змішувати зі стилем New Witty. Не додавати невипущені прототипи.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Season 8 Style Star Magic — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:s8:star-magic:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Star Magic: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Star Magic — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:s8:star-magic:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Star Magic: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Star Magic — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:s8:star-magic:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Star Magic: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Sweet Time · Witty Toys Season 8 Style",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys Season 8 Style",
+      "source": "https://dollect.net/database/winx-club-witty-toys-s8/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Окрема форма обличчя Season 8. Не змішувати зі стилем New Witty. Не додавати невипущені прототипи.",
+      "count": 4,
+      "items": [
+        {
+          "name": "Winx Season 8 Style Sweet Time — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:s8:sweet-time:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Sweet Time: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Sweet Time — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:s8:sweet-time:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Sweet Time: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Sweet Time — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:s8:sweet-time:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Sweet Time: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Sweet Time — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:s8:sweet-time:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Sweet Time: Musa. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Magic Ribbon · Witty Toys Season 8 Style",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys Season 8 Style",
+      "source": "https://dollect.net/database/winx-club-witty-toys-s8/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Окрема форма обличчя Season 8. Не змішувати зі стилем New Witty. Не додавати невипущені прототипи.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Season 8 Style Magic Ribbon — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:s8:magic-ribbon:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Magic Ribbon: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Magic Ribbon — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:s8:magic-ribbon:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Magic Ribbon: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Magic Ribbon — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:s8:magic-ribbon:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Magic Ribbon: Aisha. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Magic Ribbon — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:s8:magic-ribbon:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Magic Ribbon: Tecna. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Magic Ribbon — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:s8:magic-ribbon:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Magic Ribbon: Musa. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Magic Ribbon — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:s8:magic-ribbon:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Magic Ribbon: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Autumn Glamour · Witty Toys Season 8 Style",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys Season 8 Style",
+      "source": "https://dollect.net/database/winx-club-witty-toys-s8/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Окрема форма обличчя Season 8. Не змішувати зі стилем New Witty. Не додавати невипущені прототипи.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Season 8 Style Autumn Glamour — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:s8:autumn-glamour:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Autumn Glamour: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Autumn Glamour — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:s8:autumn-glamour:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Autumn Glamour: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Season 8 Style Autumn Glamour — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:s8:autumn-glamour:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys Autumn Glamour: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · 15th Anniversary · Witty Toys Season 8 Style",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys Season 8 Style",
+      "source": "https://dollect.net/database/winx-club-witty-toys-s8/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Окрема форма обличчя Season 8. Не змішувати зі стилем New Witty. Не додавати невипущені прототипи.",
+      "count": 1,
+      "items": [
+        {
+          "name": "Winx Season 8 Style 15th Anniversary — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:s8:15th-anniversary:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photo": "",
+          "description": "Season 8-style Winx Club Witty Toys 15th Anniversary: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        }
+      ]
     }
   ]
 }
