@@ -1737,13 +1737,16 @@
           "figureNumber": "",
           "manufacturer": "Giochi Preziosi",
           "sourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
-          "photo": "",
+          "photo": "https://www.winxclub.com/cdn/shop/files/0017_WNX77000_iconic_bloom2_fb431fa6-8c83-4774-a3ba-2687fdea5e9f.jpg?v=1762957274&width=1500",
           "description": "Experience the magic of the Winx like never before! The Winx Fairy line comes with sparkling wings and a look ready for any challenge.",
           "ean": "8056379198789",
           "barcodeType": "EAN-13",
           "barcodeSourceUrl": "https://www.auchan.pt/pt/brinquedos/bonecas-peluches-e-acessorios/bonecas/iconic-fashion-winx-modelos-sortidos/3934073.html",
           "barcodeVerification": "Exact character-level WNX77-series retailer EAN, or explicitly designated randomized assortment EAN; check digit validated",
-          "barcodeNote": "Mixed assortment (WNX77000), random selection of six characters; barcode does not identify the chosen character."
+          "barcodeNote": "Mixed assortment (WNX77000), random selection of six characters; barcode does not identify the chosen character.",
+          "photoStatus": "representative-character-image-not-assortment-photo",
+          "photoCredit": "Official Winx Club product gallery; representative Bloom variant only, not a photo of the complete assortment",
+          "photoSourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi"
         }
       ]
     },
