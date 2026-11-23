@@ -188,6 +188,28 @@ def verified_product_cards(url,fandom,manufacturer):
 def identity(card):
     return (card["sourceUrl"],card.get("variantKey") or "")
 
+# Curated, product-specific metadata is not derivable from a product gallery.
+# Keep it when a crawl refreshes a card from the same physical listing.
+PRESERVED_CARD_FIELDS = (
+    "upc", "ean", "gtin", "barcode", "barcodeType", "barcodeSourceUrl",
+    "barcodeVerification", "barcodeNote",
+)
+
+def preserve_curated_fields(refreshed, existing):
+    """Merge a freshly parsed card without discarding curated barcode data.
+
+    Manufacturer-provided fields win when nonempty, but a crawl that has no
+    barcode information must never erase verified UPC/EAN provenance.
+    """
+    merged = dict(existing)
+    for key, value in refreshed.items():
+        if key in PRESERVED_CARD_FIELDS and not value:
+            continue
+        if key in ("photo", "figureNumber") and not value and merged.get(key):
+            continue
+        merged[key] = value
+    return merged
+
 def belongs_to_series(name,card):
     """Exclude unrelated recommendations and apparel from named doll lines."""
     title=card["name"].lower()
@@ -293,8 +315,9 @@ def main():
             if matching_old:
                 oldkey,oldcard=matching_old[0]
                 if oldkey!=key:merged.pop(oldkey,None)
-            if not card["photo"] and oldcard.get("photo"):card["photo"]=oldcard["photo"]
-            merged[key]=card
+            # Preserve UPC/EAN and provenance when a refreshed storefront response
+            # contains only product title/photo/description.
+            merged[key]=preserve_curated_fields(card,oldcard)
         items=sorted(merged.values(),key=lambda c:(c["name"],c["sourceUrl"],c.get("variantKey","")))
         previous[name]={"name":name,"verified":True,"completeness":"verified-selected-releases",
                         "source":next((src for n,f,m,src in SOURCES if n==name),items[0]["sourceUrl"]),
