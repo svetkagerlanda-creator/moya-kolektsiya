@@ -4380,16 +4380,24 @@
           "manufacturer": "Funko",
           "figureNumber": "94782",
           "sourceUrl": "https://www.funko.com/gg/bitty-pop-rubeus-hagrid-dobby-2-pack/94782.html",
-          "photo": "",
-          "description": "Bitty POP! 2-Pack with Rubeus Hagrid and Dobby. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending."
+          "photo": "https://grottotreasures.com/cdn/shop/files/94782_HP_2PK_HAGRID_DOBBY_GLAM-1-WEB.png?v=1784017889",
+          "description": "Bitty POP! 2-Pack with Rubeus Hagrid and Dobby. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending.",
+          "photoSourceUrl": "https://grottotreasures.com/products/funko-harry-potter-rubeus-hagrid-dobby-bitty-pop-vinyl-figure-2-pack",
+          "photoCredit": "Exact retail 2-Pack packaging photograph",
+          "photoStatus": "retailer-identified-exact-product",
+          "photoVerificationNote": "Matched printed characters and Funko SKU with official Funko product listing; external host availability not guaranteed."
         },
         {
           "name": "Albus Dumbledore & Lord Voldemort 2-Pack",
           "manufacturer": "Funko",
           "figureNumber": "94783",
           "sourceUrl": "https://www.funko.com/gg/bitty-pop-albus-dumbledore-lord-voldemort-2-pack/94783.html",
-          "photo": "",
-          "description": "Bitty POP! 2-Pack with Albus Dumbledore and Lord Voldemort. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending."
+          "photo": "https://www.distritomax.com/cdn/shop/files/94783_HP_2PK_DUMBLEDORE_VOLDEMORT_Glam-1-WEB_1200x1200.png?v=1783527040",
+          "description": "Bitty POP! 2-Pack with Albus Dumbledore and Lord Voldemort. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending.",
+          "photoSourceUrl": "https://www.distritomax.com/products/funko-bitty-pop-harry-potter-dumbledore-y-voldemort-2-pack",
+          "photoCredit": "Exact retail 2-Pack packaging photograph",
+          "photoStatus": "retailer-identified-exact-product",
+          "photoVerificationNote": "Matched printed characters and Funko SKU with official Funko product listing; external host availability not guaranteed."
         },
         {
           "name": "Harry Potter & Draco Malfoy 2-Pack",
@@ -4408,8 +4416,16 @@
           "manufacturer": "Funko",
           "figureNumber": "88917",
           "sourceUrl": "https://funko.com/dk/bitty-pop-hermione-granger-ron-weasley-2-pack/88917.html",
-          "photo": "",
-          "description": "Official Funko two-pack with Hermione Granger and Ron Weasley. Funko item number is not a barcode. Exact photo and EAN/UPC pending."
+          "photo": "https://a.allegroimg.com/original/111b90/35ade8664b74890ae7bc2fb7638b/Funko-Bitty-Pop-2-Pack-Harry-Potter-Ron-Hermione",
+          "description": "Official Funko two-pack with Hermione Granger and Ron Weasley. Funko item number is not a barcode. Exact photo and EAN/UPC pending.",
+          "photoSourceUrl": "https://allegro.cz/produkt/funko-bitty-pop-2-pack-harry-potter-ron-hermione-60fefea8-5df9-4def-bda4-97d9d958be4a",
+          "photoCredit": "Exact retail 2-Pack packaging photograph",
+          "photoStatus": "retailer-identified-exact-product",
+          "photoVerificationNote": "Matched printed characters and Funko SKU with official Funko product listing; external host availability not guaranteed.",
+          "ean": "0889698889179",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.hobbydb.com/marketplaces/hobbydb/catalog_items/hermione-granger-ron-weasley-2-pack",
+          "barcodeVerification": "hobbyDB catalogue provides barcode 889698889179, normalized to EAN-13 with leading zero. Check digit checked."
         },
         {
           "name": "Harry Potter & Ginny Weasley (Yule Ball) 2-Pack",
@@ -4428,8 +4444,12 @@
           "manufacturer": "Funko",
           "figureNumber": "88941",
           "sourceUrl": "https://funko.com/gb/bitty-pop-hermione-granger-viktor-krum-2-pack/88941.html",
-          "photo": "",
-          "description": "Official Funko Yule Ball two-pack with Hermione Granger and Viktor Krum. Funko item number is not a barcode. Exact photo and EAN/UPC pending."
+          "photo": "https://sw6.elbenwald.de/media/95/9e/ca/1760222777/E1089780_1.jpg",
+          "description": "Official Funko Yule Ball two-pack with Hermione Granger and Viktor Krum. Funko item number is not a barcode. Exact photo and EAN/UPC pending.",
+          "photoSourceUrl": "https://www.elbenwald.com/harry-potter/harry-potter-hermione-and-victor-krum-funko-bitty-pop-2-pack-figure-set",
+          "photoCredit": "Exact retail 2-Pack packaging photograph",
+          "photoStatus": "retailer-identified-exact-product",
+          "photoVerificationNote": "Matched printed characters and Funko SKU with official Funko product listing; external host availability not guaranteed."
         }
       ]
     },
