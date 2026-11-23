@@ -183,6 +183,18 @@ def main():
             for card in result["items"]:
                 previous=olditems.get(card["sourceUrl"],{})
                 if not card.get("photo") and previous.get("photo"):card["photo"]=previous["photo"]
+                # A refreshed source card does not invalidate an already verified
+                # barcode for the same physical release. Never infer a code from SKU.
+                # Refuse to carry a barcode across a changed physical SKU/variant.
+                same_sku=(not previous.get("sku") or not card.get("sku")
+                          or previous["sku"]==card["sku"])
+                same_variant=(not previous.get("variantKey") or not card.get("variantKey")
+                              or previous["variantKey"]==card["variantKey"])
+                if same_sku and same_variant and previous.get("barcodeVerification"):
+                    for field in ("upc","ean","barcodeType","barcodeSourceUrl",
+                                  "barcodeVerification","barcodeNote"):
+                        if previous.get(field) and not card.get(field):
+                            card[field]=previous[field]
             # Keep distinct previously verified releases when an upstream page
             # temporarily omits cards. Do not silently discard historical data.
             seen_urls={card["sourceUrl"] for card in result["items"]}
