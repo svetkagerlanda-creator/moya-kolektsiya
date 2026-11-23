@@ -3189,9 +3189,12 @@
           "catalogPosition": "03",
           "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|White Rabbit Magician",
           "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
-          "photo": "",
+          "photo": "https://www.kikagoods.com/cdn/shop/files/DS220100-3787-00-main-img-12.jpg?v=1725505799",
           "rarity": "Regular",
-          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods.",
+          "photoSourceUrl": "https://www.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photoCredit": "KikaGoods — branded individual figure photo",
+          "photoStatus": "individual-variant-matched-image"
         },
         {
           "name": "Butterfly Witch",
@@ -3222,9 +3225,12 @@
           "catalogPosition": "06",
           "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|Detective Girl",
           "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
-          "photo": "",
+          "photo": "https://www.kikagoods.com/cdn/shop/files/DS220100-3787-00-main-img-11.jpg?v=1744188341",
           "rarity": "Regular",
-          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods.",
+          "photoSourceUrl": "https://www.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photoCredit": "KikaGoods — branded individual figure photo",
+          "photoStatus": "individual-variant-matched-image"
         },
         {
           "name": "Berry Sweetheart Baker",
@@ -3261,9 +3267,12 @@
           "catalogPosition": "09",
           "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|Hidden Temple Rose",
           "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
-          "photo": "",
+          "photo": "https://us.toybeta.com/cdn/shop/files/kokoyabreeze_1.jpg?v=1728903128&width=1445",
           "rarity": "Secret",
-          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods.",
+          "photoSourceUrl": "https://us.toybeta.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photoCredit": "ToyBeta — named rare design promo photo",
+          "photoStatus": "individual-variant-matched-image"
         }
       ]
     }
