@@ -153,13 +153,13 @@
     },
     {
       "file": "verified-historical-dolls-pets.json",
-      "series": 240,
-      "items": 3958,
-      "photos": 3958,
+      "series": 360,
+      "items": 6441,
+      "photos": 6441,
       "missingPhotos": 0,
       "invalidSeries": 0,
       "duplicateUrls": 0,
-      "partialSeries": 0
+      "partialSeries": 1
     },
     {
       "file": "verified-kayou.json",
@@ -245,21 +245,21 @@
       "file": "verified-user-wishlist-starters.json",
       "series": 26,
       "items": 154,
-      "photos": 86,
-      "missingPhotos": 68,
+      "photos": 130,
+      "missingPhotos": 24,
       "invalidSeries": 0,
       "duplicateUrls": 0,
       "partialSeries": 26
     }
   ],
   "totals": {
-    "verifiedSeriesRecords": 1594,
-    "partialSeriesRecords": 98,
-    "releaseRecords": 22315,
-    "photoRecords": 22139,
-    "missingPhotoRecords": 176,
+    "verifiedSeriesRecords": 1714,
+    "partialSeriesRecords": 99,
+    "releaseRecords": 24798,
+    "photoRecords": 24666,
+    "missingPhotoRecords": 132,
     "crossFeedOverlappingSourceUrls": 2924,
-    "distinctSourceUrls": 19080
+    "distinctSourceUrls": 21563
   },
   "sourceRoots": {
     "basic-fun": {
@@ -398,9 +398,9 @@
       "photos": 46
     },
     "other": {
-      "series": 370,
-      "items": 7070,
-      "photos": 6914
+      "series": 490,
+      "items": 9553,
+      "photos": 9441
     },
     "other-figures": {
       "series": 293,

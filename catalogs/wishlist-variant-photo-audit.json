@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "verifiedSeries": 8,
-  "newExactPhotos": 86,
+  "newExactPhotos": 0,
   "verifiedFigures": 99,
-  "photoRecords": 86,
+  "photoRecords": 99,
   "series": [
     {
       "series": "POP MART · Chaka · Luminous Reverie",
@@ -57,61 +57,8 @@
     {
       "series": "POP MART · SKULLPANDA · The Ink Plum Blossom",
       "figures": 13,
-      "photos": 0,
-      "missing": [
-        {
-          "figure": "The Forest",
-          "matches": 0
-        },
-        {
-          "figure": "The Moss",
-          "matches": 0
-        },
-        {
-          "figure": "The Bamboo",
-          "matches": 0
-        },
-        {
-          "figure": "The Snow",
-          "matches": 0
-        },
-        {
-          "figure": "The Wind",
-          "matches": 0
-        },
-        {
-          "figure": "The Bridge",
-          "matches": 0
-        },
-        {
-          "figure": "The Moon",
-          "matches": 0
-        },
-        {
-          "figure": "The Root",
-          "matches": 0
-        },
-        {
-          "figure": "The Valley",
-          "matches": 0
-        },
-        {
-          "figure": "The Spring",
-          "matches": 0
-        },
-        {
-          "figure": "The Scene",
-          "matches": 0
-        },
-        {
-          "figure": "The Courtyard",
-          "matches": 0
-        },
-        {
-          "figure": "The Plum Blossom (Secret)",
-          "matches": 0
-        }
-      ],
+      "photos": 13,
+      "missing": [],
       "error": ""
     }
   ]
