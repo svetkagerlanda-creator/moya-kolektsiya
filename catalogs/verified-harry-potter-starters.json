@@ -647,11 +647,15 @@
           "manufacturer": "Spin Master",
           "figureNumber": "",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
-          "photo": "",
+          "photo": "https://i5.walmartimages.com/asr/d9d258bd-5bbb-4e5a-a0f3-b1d2ccdcd6c4.a2a77edca4f6b5a5340df72ab2b2d1d7.jpeg?odnBg=FFFFFF&odnHeight=612&odnWidth=612",
           "rarity": "Not independently established",
           "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified.",
           "collectorCode": "09",
-          "collectorCodeType": "community-reported-box-code"
+          "collectorCodeType": "community-reported-box-code",
+          "photoSourceUrl": "https://business.walmart.com/ip/Wizarding-World-Harry-Potter-Micro-Magical-Moments-Blind-Box-1-Pack-Styles-Vary/5383803658",
+          "photoCredit": "Walmart listing gallery showing Year 3 Crookshanks and Scabbers paired display",
+          "photoStatus": "exact-variant-in-mixed-assortment-gallery",
+          "photoVerificationNote": "Photo depicts one orange Crookshanks cat and small Scabbers rat together in the same gold-trimmed case. Listing is for randomized packaging, so this image is a displayed variant, not a guaranteed sealed-box outcome."
         },
         {
           "name": "Mystery variant — Professor Sybill Trelawney",
