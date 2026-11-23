@@ -1,9 +1,9 @@
 {
   "sourcePages": 21,
   "queriedProductPages": 199,
-  "verifiedSeries": 20,
-  "verifiedProducts": 250,
-  "photoRecords": 175,
+  "verifiedSeries": 238,
+  "verifiedProducts": 1131,
+  "photoRecords": 184,
   "errors": {
     "https://shop.mgae.com/collections/bratz-babyz/products/bratz-big-babyz-doll-yasmin": "404 Client Error: Not Found for url: https://shop.mgae.com/collections/bratz-babyz/products/bratz-big-babyz-doll-yasmin",
     "https://www.bratz.com/products/bratz-play-sportz-jade-basketball": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-play-sportz-jade-basketball",
@@ -17,6 +17,7 @@
     "https://www.bratz.com/products/bratz-charmz-doll-jade": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-charmz-doll-jade",
     "https://www.bratz.com/products/bratz-charmz-doll-sasha": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-charmz-doll-sasha",
     "https://www.bratz.com/products/bratz-charmz-doll-yasmin": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-charmz-doll-yasmin",
+    "https://shop.mattel.com/products/monster-high-scare-adise-island-snack-shack-playset-hrp70-en-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-high-scare-adise-island-snack-shack-playset-hrp70-en-ca",
     "https://shop.mattel.com/products/monster-high-spectra-vondergeist-doll-hxh77": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-high-spectra-vondergeist-doll-hxh77",
     "https://shop.mattel.com/products/monster-high-spectra-vondergeist-doll-hxh77-en-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-high-spectra-vondergeist-doll-hxh77-en-ca",
     "https://shop.mattel.com/products/monster-high-stitched-in-style-frankie-stein-collector-doll-hrl66-en-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-high-stitched-in-style-frankie-stein-collector-doll-hrl66-en-ca",

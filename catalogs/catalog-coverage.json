@@ -22,6 +22,16 @@
       "partialSeries": 0
     },
     {
+      "file": "verified-buildabear-ty.json",
+      "series": 8,
+      "items": 85,
+      "photos": 52,
+      "missingPhotos": 33,
+      "invalidSeries": 0,
+      "duplicateUrls": 0,
+      "partialSeries": 8
+    },
+    {
       "file": "verified-funko-arcane.json",
       "series": 1,
       "items": 7,
@@ -213,13 +223,13 @@
     },
     {
       "file": "verified-new-fandoms.json",
-      "series": 20,
-      "items": 250,
-      "photos": 175,
-      "missingPhotos": 75,
+      "series": 238,
+      "items": 1131,
+      "photos": 184,
+      "missingPhotos": 947,
       "invalidSeries": 0,
       "duplicateUrls": 0,
-      "partialSeries": 20
+      "partialSeries": 80
     },
     {
       "file": "verified-popmart-starters.json",
@@ -253,13 +263,13 @@
     }
   ],
   "totals": {
-    "verifiedSeriesRecords": 1777,
-    "partialSeriesRecords": 99,
-    "releaseRecords": 25840,
-    "photoRecords": 25711,
-    "missingPhotoRecords": 129,
+    "verifiedSeriesRecords": 2003,
+    "partialSeriesRecords": 167,
+    "releaseRecords": 26806,
+    "photoRecords": 25772,
+    "missingPhotoRecords": 1034,
     "crossFeedOverlappingSourceUrls": 2924,
-    "distinctSourceUrls": 22605
+    "distinctSourceUrls": 22791
   },
   "sourceRoots": {
     "basic-fun": {
@@ -398,9 +408,9 @@
       "photos": 46
     },
     "other": {
-      "series": 553,
-      "items": 10595,
-      "photos": 10486
+      "series": 779,
+      "items": 11561,
+      "photos": 10547
     },
     "other-figures": {
       "series": 293,
