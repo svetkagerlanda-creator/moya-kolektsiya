@@ -91,8 +91,8 @@ def parse(entry):
     text=soup.get_text(" ",strip=True)
     match=TOTAL_RE.search(text[:1800])
     expected=int(match.group(1).replace(",","")) if match else entry["expected"]
-    if not expected:
-        raise ValueError("neither index nor series page declares an item count")
+    # If the source does not give a total, import only individually evidenced
+    # release links as an explicitly partial series, never a complete one.
     # An index could be stale. Do not silently change expected item counts.
     if entry["expected"] and expected!=entry["expected"]:
         raise ValueError(f"index says {entry['expected']}, page says {expected}")
@@ -122,9 +122,14 @@ def parse(entry):
         notes=[node.get_text(" ",strip=True) for node in bottom.select(".data-smallt")]
         items[code]={"name":name,"catalogPosition":code,"manufacturer":entry["manufacturer"] or "Ліцензіат MLP",
                      "sourceUrl":href,"photo":photo,"description":"; ".join(x for x in notes if x)}
-    if len(items)!=expected:
+    if not items:
+        raise ValueError("no confirmed individual release links")
+    if expected and len(items)!=expected:
         raise ValueError(f"expected {expected}, extracted {len(items)} unique releases")
-    return {"name":entry["name"],"count":expected,"source":url,"verified":True,
+    return {"name":entry["name"],"count":len(items),"source":url,"verified":True,
+            "completeness":"verified-full-series" if expected else "verified-selected-releases",
+            "sourceDeclaredCount":expected,
+            "manufacturer":entry["manufacturer"] or "Ліцензіат MLP",
             "items":list(items.values())}
 
 def main():
@@ -152,7 +157,13 @@ def main():
             entry=jobs[job]
             try:
                 record=job.result()
-                old={x.get("sourceUrl"):x.get("photo") for x in previous.get(record["source"],{}).get("items",[])}
+                previous_record=previous.get(record["source"],{})
+                if (previous_record.get("verified") is True
+                        and previous_record.get("completeness")!="verified-selected-releases"
+                        and record["completeness"]=="verified-selected-releases"):
+                    print(f"KEEP COMPLETE {record['name']}",flush=True)
+                    continue
+                old={x.get("sourceUrl"):x.get("photo") for x in previous_record.get("items",[])}
                 for item in record["items"]:
                     if not item["photo"]:item["photo"]=old.get(item["sourceUrl"]) or ""
                 previous[record["source"]]=record
