@@ -2069,6 +2069,133 @@
           "description": "Official LEGO Harry Potter product; exact image pending."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · Funko · POP! Mystery Blind Box (96297)",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/pop-mystery-harry-potter/96297.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 6,
+      "items": [
+        {
+          "name": "Harry Potter",
+          "manufacturer": "Funko",
+          "figureNumber": "",
+          "rarityOdds": "1/6",
+          "sourceUrl": "https://funko.com/pop-mystery-harry-potter/96297.html",
+          "photo": "",
+          "description": "Confirmed by the official Funko product listing; individual photo pending verification."
+        },
+        {
+          "name": "Hermione Granger",
+          "manufacturer": "Funko",
+          "figureNumber": "",
+          "rarityOdds": "1/6",
+          "sourceUrl": "https://funko.com/pop-mystery-harry-potter/96297.html",
+          "photo": "",
+          "description": "Confirmed by the official Funko product listing; individual photo pending verification."
+        },
+        {
+          "name": "Ron Weasley",
+          "manufacturer": "Funko",
+          "figureNumber": "",
+          "rarityOdds": "1/6",
+          "sourceUrl": "https://funko.com/pop-mystery-harry-potter/96297.html",
+          "photo": "",
+          "description": "Confirmed by the official Funko product listing; individual photo pending verification."
+        },
+        {
+          "name": "Luna Lovegood",
+          "manufacturer": "Funko",
+          "figureNumber": "",
+          "rarityOdds": "1/6",
+          "sourceUrl": "https://funko.com/pop-mystery-harry-potter/96297.html",
+          "photo": "",
+          "description": "Confirmed by the official Funko product listing; individual photo pending verification."
+        },
+        {
+          "name": "Fred Weasley",
+          "manufacturer": "Funko",
+          "figureNumber": "",
+          "rarityOdds": "1/6",
+          "sourceUrl": "https://funko.com/pop-mystery-harry-potter/96297.html",
+          "photo": "",
+          "description": "Confirmed by the official Funko product listing; individual photo pending verification."
+        },
+        {
+          "name": "George Weasley",
+          "manufacturer": "Funko",
+          "figureNumber": "",
+          "rarityOdds": "1/6",
+          "sourceUrl": "https://funko.com/pop-mystery-harry-potter/96297.html",
+          "photo": "",
+          "description": "Confirmed by the official Funko product listing; individual photo pending verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · POP! Mystery 6-Pack (96296)",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/pop-mystery-harry-potter-6-pack/96296.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "POP! Mystery Harry Potter — sealed 6-pack",
+          "manufacturer": "Funko",
+          "figureNumber": "",
+          "sourceUrl": "https://funko.com/pop-mystery-harry-potter-6-pack/96296.html",
+          "photo": "",
+          "description": "Assortment of six blind-box figures; character contents are not guaranteed."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · POP! Movie Posters",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/cy/pop-movie-posters-harry-potter-and-the-sorcerers-stone/69703.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Harry Potter and the Sorcerer's Stone — Movie Poster",
+          "manufacturer": "Funko",
+          "figureNumber": "69703",
+          "sourceUrl": "https://funko.com/cy/pop-movie-posters-harry-potter-and-the-sorcerers-stone/69703.html",
+          "photo": "",
+          "description": "Official Movie Poster display with attached figures."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · POP! Classic",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/gr/pop-harry-potter/5858.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Harry Potter — Hogwarts Robes",
+          "manufacturer": "Funko",
+          "figureNumber": "5858",
+          "boxNumber": "1",
+          "sourceUrl": "https://funko.com/gr/pop-harry-potter/5858.html",
+          "photo": "",
+          "description": "Confirmed by the official Funko product listing; individual photo pending verification."
+        }
+      ]
     }
   ]
 }
