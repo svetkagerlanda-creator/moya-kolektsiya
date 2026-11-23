@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "target": "catalogs/verified-new-fandoms.json",
+  "description": "Exact-series-and-variant photo patches applied at catalogue load; original large JSON preserved",
+  "items": [
+    {
+      "series": "Bratz · Babyz",
+      "name": "Bratz Babyz Runwayz Doll - Cloe",
+      "photo": "https://cdn.shopify.com/s/files/1/0272/0202/7618/files/524052-Bratz-Babyz-Runwayz-Cloe2.jpg?v=1733410191",
+      "sourceUrl": "https://shop.mgae.com/products/bratz-babyz-runwayz-doll-cloe",
+      "photoCredit": "MGA/Bratz product gallery or named retailer product photograph",
+      "photoStatus": "matched-variant-photo-indexed",
+      "photoVerificationNote": "Picture and variant matched by named product image result; actual image HTTP status on deployed PWA still requires checking."
+    },
+    {
+      "series": "Bratz · Babyz",
+      "name": "Bratz Babyz Runwayz Doll - Yasmin",
+      "photo": "https://www.bratz.com/cdn/shop/files/524069-Bratz-Babyz-Runwayz-Yasmin1_79c76c6b-a087-4990-9b0c-5df1d29316b1.jpg?v=1734124317&width=1120",
+      "sourceUrl": "https://www.bratz.com/products/bratz-babyz-runwayz-doll-yasmin",
+      "photoCredit": "MGA/Bratz product gallery or named retailer product photograph",
+      "photoStatus": "matched-variant-photo-indexed",
+      "photoVerificationNote": "Picture and variant matched by named product image result; actual image HTTP status on deployed PWA still requires checking."
+    },
+    {
+      "series": "Bratz · Babyz",
+      "name": "Bratz Big Babyz Doll - Yasmin",
+      "photo": "https://www.bratz.com/cdn/shop/files/524151-Bratz-Big-Babyz-Doll-Yasmin1.jpg?v=1752683399&width=1946",
+      "sourceUrl": "https://www.bratz.com/products/bratz-big-babyz-doll-yasmin",
+      "photoCredit": "MGA/Bratz product gallery or named retailer product photograph",
+      "photoStatus": "matched-variant-photo-indexed",
+      "photoVerificationNote": "Picture and variant matched by named product image result; actual image HTTP status on deployed PWA still requires checking."
+    },
+    {
+      "series": "Bratz · First Edition Reimagined (2026)",
+      "name": "Bratz First Edition Reimagined (2026) — Cloe",
+      "photo": "https://target.scene7.com/is/image/Target/GUEST_51d1c2cf-a5cc-4d8c-8f74-a895abc2bcf0",
+      "sourceUrl": "https://www.target.com/p/-/A-94673977",
+      "photoCredit": "MGA/Bratz product gallery or named retailer product photograph",
+      "photoStatus": "matched-variant-photo-indexed",
+      "photoVerificationNote": "Picture and variant matched by named product image result; actual image HTTP status on deployed PWA still requires checking."
+    },
+    {
+      "series": "Bratz · First Edition Reimagined (2026)",
+      "name": "Bratz First Edition Reimagined (2026) — Jade",
+      "photo": "https://i5.walmartimages.com/seo/Bratz-2001-Reimagined-Dolls-Jade_afead0f6-a090-460a-b1b7-2c869f2027d7.8365e9a40e05b781456f9e952db81e4f.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+      "sourceUrl": "https://www.walmart.com/ip/20130963556",
+      "photoCredit": "MGA/Bratz product gallery or named retailer product photograph",
+      "photoStatus": "matched-variant-photo-indexed",
+      "photoVerificationNote": "Picture and variant matched by named product image result; actual image HTTP status on deployed PWA still requires checking."
+    },
+    {
+      "series": "Bratz · First Edition Reimagined (2026)",
+      "name": "Bratz First Edition Reimagined (2026) — Sasha",
+      "photo": "https://i5.walmartimages.com/seo/Bratz-2001-Reimagined-Dolls-Sasha_0fb9cca8-e4e7-4ac7-8587-d774b7e525a7.03914b0de9e242512d4b4805af67a526.jpeg?odnBg=FFFFFF&odnHeight=576&odnWidth=576",
+      "sourceUrl": "https://www.walmart.com/c/kp/bratz-limited-edition-dolls",
+      "photoCredit": "MGA/Bratz product gallery or named retailer product photograph",
+      "photoStatus": "matched-variant-photo-indexed",
+      "photoVerificationNote": "Picture and variant matched by named product image result; actual image HTTP status on deployed PWA still requires checking."
+    },
+    {
+      "series": "Bratz · First Edition Reimagined (2026)",
+      "name": "Bratz First Edition Reimagined (2026) — Yasmin",
+      "photo": "https://target.scene7.com/is/image/Target/GUEST_e98b6b58-f675-40ea-9aa1-9c987ecd0ba1",
+      "sourceUrl": "https://www.bratz.com/products/bratz-first-edition-reimagined-doll-yasmin",
+      "photoCredit": "MGA/Bratz product gallery or named retailer product photograph",
+      "photoStatus": "matched-variant-photo-indexed",
+      "photoVerificationNote": "Picture and variant matched by named product image result; actual image HTTP status on deployed PWA still requires checking."
+    }
+  ]
+}
