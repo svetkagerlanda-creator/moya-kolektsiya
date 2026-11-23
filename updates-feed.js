@@ -13,6 +13,7 @@ function category(message){
  const m=message.toLowerCase();
  if(/^(chore|release|bump|deploy|build|docs|test)(\b|\()/i.test(m)&&!/\b(add|fill|expand|complete|catalog)\b/i.test(m))return null;
  const explicit=/^(?:catalog:|data:)/i.test(m);
+ if(/\b(?:chat|chats|profile|avatar|account|login|logout|moderation|moderator|request|requests|navigation|sidebar|menu|button|layout|picker|upload|private user|settings|tabs?)\b/i.test(message)&&!explicit)return {section:'features',kind:'feature',label:'Функції та виправлення'};
  if(explicit||words.series.test(message)){
   if(words.photos.test(message))return {section:'catalog',kind:'photo',label:'Фотографії'};
   if(words.barcodes.test(message))return {section:'catalog',kind:'barcode',label:'Штрихкоди'};
