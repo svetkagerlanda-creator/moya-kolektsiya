@@ -709,6 +709,106 @@
       "photoCredit": "MHcollector exact-variant photo gallery",
       "photoStatus": "direct-image-verified",
       "photoVerificationNote": "Exact model number verified on character-specific gallery; image URL opened and visually confirmed. PWA display not tested."
+    },
+    {
+      "series": "Monster High · Fearbook",
+      "name": "Fearbook Abbey Bominable",
+      "figureNumber": "JDR58",
+      "photo": "https://mhcollector.com/wp-content/uploads/2025/01/fearbook-abbey-bominable-4.jpg",
+      "sourceUrl": "https://mhcollector.com/fearbook-abbey-bominable/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "exact-sku-direct-image-verified",
+      "photoVerificationNote": "Source page confirms SKU; direct image link opened and visually checked against named doll; application display not independently tested."
+    },
+    {
+      "series": "Monster High · Fearbook",
+      "name": "Fearbook Draculaura (2024)",
+      "figureNumber": "HXW30",
+      "photo": "https://mhcollector.com/wp-content/uploads/2024/08/fearbook-draculaura-6.jpg",
+      "sourceUrl": "https://mhcollector.com/generation-3-fearbook-draculaura/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "exact-sku-direct-image-verified",
+      "photoVerificationNote": "Source page confirms SKU; direct image link opened and visually checked against named doll; application display not independently tested."
+    },
+    {
+      "series": "Monster High · Fearbook",
+      "name": "Fearbook Draculaura (2026)",
+      "figureNumber": "JML43",
+      "photo": "https://mhcollector.com/wp-content/uploads/2026/06/Fearbook-Draculaura-0-4.jpg",
+      "sourceUrl": "https://mhcollector.com/fearbook-draculaura/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "exact-sku-direct-image-verified",
+      "photoVerificationNote": "Source page confirms SKU; direct image link opened and visually checked against named doll; application display not independently tested."
+    },
+    {
+      "series": "Monster High · Fearbook",
+      "name": "Fearbook Ghoulia Yelps",
+      "figureNumber": "JML44",
+      "photo": "https://mhcollector.com/wp-content/uploads/2026/06/Fearbook-Ghoulia-Yelps-0-3.jpg",
+      "sourceUrl": "https://mhcollector.com/fearbook-ghoulia-yelps/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "exact-sku-direct-image-verified",
+      "photoVerificationNote": "Source page confirms SKU; direct image link opened and visually checked against named doll; application display not independently tested."
+    },
+    {
+      "series": "Monster High · Fearbook",
+      "name": "Fearbook Lagoona Blue",
+      "figureNumber": "JML45",
+      "photo": "https://mhcollector.com/wp-content/uploads/2026/06/Fearbook-Lagoona-Blue-0-3.jpg",
+      "sourceUrl": "https://mhcollector.com/fearbook-lagoona-blue/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "exact-sku-direct-image-verified",
+      "photoVerificationNote": "Source page confirms SKU; direct image link opened and visually checked against named doll; application display not independently tested."
+    },
+    {
+      "series": "Monster High · Fearbook",
+      "name": "Fearbook Toralei Stripe",
+      "figureNumber": "HXW32",
+      "photo": "https://mhcollector.com/wp-content/uploads/2024/08/fearbook-toralei-5.jpg",
+      "sourceUrl": "https://mhcollector.com/fearbook-toralei-stripe/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "exact-sku-direct-image-verified",
+      "photoVerificationNote": "Source page confirms SKU; direct image link opened and visually checked against named doll; application display not independently tested."
+    },
+    {
+      "series": "Monster High · Fearbook",
+      "name": "Fearbook Twyla",
+      "figureNumber": "HXW31",
+      "photo": "https://mhcollector.com/wp-content/uploads/2024/08/fearbook-twyla-9.jpg",
+      "sourceUrl": "https://mhcollector.com/fearbook-twyla/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "exact-sku-direct-image-verified",
+      "photoVerificationNote": "Source page confirms SKU; direct image link opened and visually checked against named doll; application display not independently tested."
+    },
+    {
+      "series": "Monster High · Fearbook",
+      "name": "Fearbook Venus McFlytrap",
+      "figureNumber": "JDR59",
+      "photo": "https://mhcollector.com/wp-content/uploads/2025/01/1731352766_youloveit_com_monster_high_fearbook_series_2_doll_venus.jpg",
+      "sourceUrl": "https://mhcollector.com/fearbook-venus-mcflytrap/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "exact-sku-direct-image-verified",
+      "photoVerificationNote": "Source page confirms SKU; direct image link opened and visually checked against named doll; application display not independently tested."
+    },
+    {
+      "series": "Monster High · Monster High x Wednesday",
+      "name": "Monster High x Wednesday Wednesday Addams (2024)",
+      "figureNumber": "HXJ04",
+      "photo": "https://mhcollector.com/wp-content/uploads/2024/08/Wednesday-Addams-2.jpg",
+      "sourceUrl": "https://mhcollector.com/wednesday-addams/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "exact-sku-direct-image-verified",
+      "photoVerificationNote": "Source page confirms SKU; direct image link opened and visually checked against named doll; application display not independently tested."
+    },
+    {
+      "series": "Monster High · Creepover Party",
+      "name": "Creepover Party Twyla",
+      "figureNumber": "HLP87",
+      "photo": "https://mhcollector.com/wp-content/uploads/2022/10/Creepover-Party-Twyla-1.jpg",
+      "sourceUrl": "https://mhcollector.com/creepover-party-twyla/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "exact-sku-direct-image-verified",
+      "photoVerificationNote": "Source page confirms SKU; direct image link opened and visually checked against named doll; application display not independently tested."
     }
   ]
 }
