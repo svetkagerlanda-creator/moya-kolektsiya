@@ -533,7 +533,12 @@
           "variantKey": "ty:beanie-bellies:41282",
           "sourceUrl": "https://www.ty.com/product/lloyd/41282.html?cgid=beanie-bellies&lang=en",
           "photo": "",
-          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging.",
+          "upc": "008421412822",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.rofu.de/ty-beanie-bellies-leopard-lloyd-ca-14-cm.html",
+          "barcodeVerification": "Product page associates Ty character, precise manufacturer SKU and EAN-13 with leading zero / equivalent UPC-A; checksum valid.",
+          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions."
         },
         {
           "name": "Bumper",
@@ -573,7 +578,12 @@
           "sourceUrl": "https://www.ty.com/product/penelope/43202.html",
           "photo": "",
           "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
-          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN."
+          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN.",
+          "upc": "008421432028",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://cdon.fi/tuote/ty-inc-maskotka-ty-beanie-bellies-penelope-swinka-24cm-43202-26a4e78c67da5a3e/",
+          "barcodeVerification": "Product page associates Ty character, precise manufacturer SKU and EAN-13 with leading zero / equivalent UPC-A; checksum valid.",
+          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions."
         },
         {
           "name": "Heartly",
@@ -643,7 +653,12 @@
           "sourceUrl": "https://www.ty.com/product/emery/41042.html",
           "photo": "",
           "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
-          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN."
+          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN.",
+          "upc": "008421410422",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://buy-it.pl/product/maskotka-ty-niedzwiedz-polarny-emery-15-cm-123592/",
+          "barcodeVerification": "Product page associates Ty character, precise manufacturer SKU and EAN-13 with leading zero / equivalent UPC-A; checksum valid.",
+          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions."
         },
         {
           "name": "Skylar",
@@ -653,7 +668,12 @@
           "sourceUrl": "https://www.ty.com/product/skylar/43210.html",
           "photo": "",
           "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
-          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN."
+          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN.",
+          "upc": "008421432103",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.csmegastore.dk/i/21204181/beanie-bellies-skylar-pink-enhj%C3%B8rning-24-cm",
+          "barcodeVerification": "Product page associates Ty character, precise manufacturer SKU and EAN-13 with leading zero / equivalent UPC-A; checksum valid.",
+          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions."
         },
         {
           "name": "Witt",
@@ -663,7 +683,12 @@
           "sourceUrl": "https://www.ty.com/product/witt/43214.html",
           "photo": "",
           "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
-          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN."
+          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN.",
+          "upc": "008421432141",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.vedes.com/p/ty-witt-fox-medium-43214-59155130",
+          "barcodeVerification": "Product page associates Ty character, precise manufacturer SKU and EAN-13 with leading zero / equivalent UPC-A; checksum valid.",
+          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions."
         }
       ],
       "count": 18
