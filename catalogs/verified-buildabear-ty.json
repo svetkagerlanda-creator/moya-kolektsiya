@@ -74,8 +74,12 @@
           "figureNumber": "032645",
           "variantKey": "buildabear:sanrio:standard:032645",
           "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-chococat-plush/032645.html",
-          "photo": "",
-          "description": "Official Build-A-Bear Chococat standard plush, SKU 032645, 15 inches. The advertised bundle also includes a sleeper and Mini Bean; these are not duplicated as separate plush bodies. UPC pending verification."
+          "photo": "https://www.buildabear.com/dw/image/v2/BBNG_PRD/on/demandware.static/-/Sites-buildabear-master/default/dw54e90edd/81240800432645~x20119029.jpg?sh=800&sm=fit&sw=800",
+          "description": "Official Build-A-Bear Chococat standard plush, SKU 032645, 15 inches. The advertised bundle also includes a sleeper and Mini Bean; these are not duplicated as separate plush bodies. UPC pending verification.",
+          "photoSourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-chococat-plush/032645.html",
+          "photoCredit": "Product gallery for verified model SKU 032645",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Direct image URL taken from the image link in the SKU-matched product page. Independent HTTP availability unconfirmed unless explicitly checked; verify in PWA."
         }
       ],
       "count": 6
@@ -157,8 +161,12 @@
           "figureNumber": "033948",
           "variantKey": "buildabear:sanrio:mini-beans:033948",
           "sourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-chococat-plush/033948.html",
-          "photo": "",
-          "description": "Офіційний Mini Beans плюшевий персонаж, окремо від стандартного розміру. SKU виробника, не UPC; фото та штрихкод очікують підтвердження."
+          "photo": "https://www.buildabear.com/dw/image/v2/BBNG_PRD/on/demandware.static/-/Sites-buildabear-master/default/dw21c2405f/99240812333948~x20000116.jpg?sh=800&sm=fit&sw=800",
+          "description": "Офіційний Mini Beans плюшевий персонаж, окремо від стандартного розміру. SKU виробника, не UPC; фото та штрихкод очікують підтвердження.",
+          "photoSourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-chococat-plush/033948.html",
+          "photoCredit": "Product gallery for verified model SKU 033948",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Direct image URL taken from the image link in the SKU-matched product page. Independent HTTP availability unconfirmed unless explicitly checked; verify in PWA."
         },
         {
           "name": "Mini Beans · Hello Kitty",
@@ -167,8 +175,12 @@
           "figureNumber": "034102",
           "variantKey": "buildabear:sanrio:mini-beans:034102",
           "sourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-plush/034102.html",
-          "photo": "",
-          "description": "Офіційний Mini Beans плюшевий персонаж, окремо від стандартного розміру. SKU виробника, не UPC; фото та штрихкод очікують підтвердження."
+          "photo": "https://www.buildabear.com/dw/image/v2/BBNG_PRD/on/demandware.static/-/Sites-buildabear-master/default/dwa7ebb0a8/91250802134102~x20055013.jpg?sh=800&sm=fit&sw=800",
+          "description": "Офіційний Mini Beans плюшевий персонаж, окремо від стандартного розміру. SKU виробника, не UPC; фото та штрихкод очікують підтвердження.",
+          "photoSourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-plush/034102.html",
+          "photoCredit": "Product gallery for verified model SKU 034102",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Direct image URL taken from the image link in the SKU-matched product page. Independent HTTP availability unconfirmed unless explicitly checked; verify in PWA."
         }
       ],
       "count": 7
@@ -842,14 +854,18 @@
           "figureNumber": "43205",
           "variantKey": "ty:beanie-bellies:43205",
           "sourceUrl": "https://www.ty.com/product/bumper/43205.html?cgid=beanie-bellies&lang=en",
-          "photo": "",
+          "photo": "https://bi.ua/uploaded-images/products/size_650/591038_1.jpg",
           "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
           "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN.",
           "upc": "008421432059",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.morele.net/ty-maskotka-ty-beanie-bellies-bumper-jez-24cm-43205-13471814/",
           "barcodeVerification": "Retailer product listing explicitly matches Ty Beanie Bellies (or legacy Beanie Babies line), manufacturer SKU and barcode; UPC-A check digit verified.",
-          "barcodeNote": "Individual Ty item; original retailer may show the same GTIN as EAN-13 with one leading zero. Not interchangeable with other SKU variants."
+          "barcodeNote": "Individual Ty item; original retailer may show the same GTIN as EAN-13 with one leading zero. Not interchangeable with other SKU variants.",
+          "photoSourceUrl": "https://bi.ua/ukr/product/myagkaya-igrushka-ty-beanie-bellies-ezhik-bumper-25-sm-43205.html",
+          "photoCredit": "Product gallery for verified model SKU 43205",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Direct image URL taken from the image link in the SKU-matched product page. Independent HTTP availability unconfirmed unless explicitly checked; verify in PWA."
         },
         {
           "name": "Penelope",
@@ -893,14 +909,18 @@
           "figureNumber": "41503",
           "variantKey": "ty:beanie-bellies:41503",
           "sourceUrl": "https://www.ty.com/product/witt/41503.html",
-          "photo": "",
+          "photo": "https://content2.rozetka.com.ua/goods/images/big/447305082.jpg",
           "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
           "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN.",
           "upc": "008421415038",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.todicom.shop/TY-Beanie-Bellies-Witt-Fuchs-ca-15-cm/034411",
           "barcodeVerification": "Retailer product listing explicitly matches Ty Beanie Bellies (or legacy Beanie Babies line), manufacturer SKU and barcode; UPC-A check digit verified.",
-          "barcodeNote": "Individual Ty item; original retailer may show the same GTIN as EAN-13 with one leading zero. Not interchangeable with other SKU variants."
+          "barcodeNote": "Individual Ty item; original retailer may show the same GTIN as EAN-13 with one leading zero. Not interchangeable with other SKU variants.",
+          "photoSourceUrl": "https://rozetka.com.ua/ua/438885719/p438885719/",
+          "photoCredit": "Product gallery for verified model SKU 41503",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Direct image URL taken from the image link in the SKU-matched product page. Independent HTTP availability unconfirmed unless explicitly checked; verify in PWA."
         },
         {
           "name": "Randi",
@@ -1212,8 +1232,12 @@
           "figureNumber": "033677",
           "variantKey": "buildabear:disney:stitch:033677",
           "sourceUrl": "https://www.buildabear.com/disney-stitch-experiment-626-plush/033677.html",
-          "photo": "",
-          "description": "Individual Disney Stitch-universe plush from official Build-A-Bear catalogue. Maker SKU, not UPC; costume and accessories counted separately."
+          "photo": "https://www.buildabear.com/dw/image/v2/BBNG_PRD/on/demandware.static/-/Sites-buildabear-master/default/dw87386733/13240702133677~x20105099.jpg?sh=800&sm=fit&sw=800",
+          "description": "Individual Disney Stitch-universe plush from official Build-A-Bear catalogue. Maker SKU, not UPC; costume and accessories counted separately.",
+          "photoSourceUrl": "https://www.buildabear.com/disney-stitch-experiment-626-plush/033677.html",
+          "photoCredit": "Product gallery for verified model SKU 033677",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Direct image URL taken from the image link in the SKU-matched product page. Independent HTTP availability unconfirmed unless explicitly checked; verify in PWA."
         },
         {
           "name": "Disney Leroy Plush",
@@ -1247,8 +1271,12 @@
           "figureNumber": "329837",
           "variantKey": "buildabear:pokemon:pikachu:329837",
           "sourceUrl": "https://www.buildabear.com/pokemon-pikachu-plush-hoodie-bundle/329837_23396_25440.html",
-          "photo": "",
-          "description": "Individual plush body SKU identified in official bundle details; no other bundle parts counted as separate plush. No barcode assigned without direct retail evidence."
+          "photo": "https://www.buildabear.com/dw/image/v2/BBNG_PRD/on/demandware.static/-/Sites-buildabear-master/default/dwa934ca67/31231221229837x20119017.jpg?sh=140&sm=fit&sw=140",
+          "description": "Individual plush body SKU identified in official bundle details; no other bundle parts counted as separate plush. No barcode assigned without direct retail evidence.",
+          "photoSourceUrl": "https://www.buildabear.com/pokemon-pikachu-plush-hoodie-bundle/329837_23396_25440.html",
+          "photoCredit": "Product gallery for verified model SKU 329837",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Direct image URL taken from the image link in the SKU-matched product page. Independent HTTP availability unconfirmed unless explicitly checked; verify in PWA."
         },
         {
           "name": "Pokémon 25th Celebration Pikachu (Female) with Sound",
@@ -1291,8 +1319,12 @@
           "figureNumber": "034225",
           "variantKey": "buildabear:sanrio:giant:034225",
           "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-giant-chococat-plush/034225.html",
-          "photo": "",
-          "description": "Official standalone giant plush edition, stated height 36 inches. Accessories and gift bundles are excluded. No UPC inferred from SKU."
+          "photo": "https://www.buildabear.com/dw/image/v2/BBNG_PRD/on/demandware.static/-/Sites-buildabear-master/default/dwb40ae7ac/55250801534225Alt3~x20613033.jpg?sh=800&sm=fit&sw=800",
+          "description": "Official standalone giant plush edition, stated height 36 inches. Accessories and gift bundles are excluded. No UPC inferred from SKU.",
+          "photoSourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-giant-chococat-plush/034225.html",
+          "photoCredit": "Product gallery for verified model SKU 034225",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Direct image URL taken from the image link in the SKU-matched product page. Independent HTTP availability unconfirmed unless explicitly checked; verify in PWA."
         },
         {
           "name": "Sanrio · Giant Pompompurin",
@@ -1301,8 +1333,12 @@
           "figureNumber": "033256",
           "variantKey": "buildabear:sanrio:giant:033256",
           "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-giant-pompompurin-plush/033256.html",
-          "photo": "",
-          "description": "Official standalone giant plush edition. Accessories and gift bundles are excluded. No UPC inferred from SKU."
+          "photo": "https://www.buildabear.com/dw/image/v2/BBNG_PRD/on/demandware.static/-/Sites-buildabear-master/default/dw87a576bd/78240701833256Alt1~x20138052.jpg?sh=800&sm=fit&sw=800",
+          "description": "Official standalone giant plush edition. Accessories and gift bundles are excluded. No UPC inferred from SKU.",
+          "photoSourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-giant-pompompurin-plush/033256.html",
+          "photoCredit": "Product gallery for verified model SKU 033256",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Direct image URL taken from the image link in the SKU-matched product page. Independent HTTP availability unconfirmed unless explicitly checked; verify in PWA."
         },
         {
           "name": "Sanrio · Giant Cinnamoroll",
@@ -1311,8 +1347,12 @@
           "figureNumber": "032060",
           "variantKey": "buildabear:sanrio:giant:032060",
           "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-giant-cinnamoroll-stuffed-animal/032060.html",
-          "photo": "",
-          "description": "Official standalone giant plush edition. Accessories and gift bundles are excluded. No UPC inferred from SKU."
+          "photo": "https://www.buildabear.com/dw/image/v2/BBNG_PRD/on/demandware.static/-/Sites-buildabear-master/default/dw4b9583f9/07230701932060~x20035051.jpg?sh=800&sm=fit&sw=800",
+          "description": "Official standalone giant plush edition. Accessories and gift bundles are excluded. No UPC inferred from SKU.",
+          "photoSourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-giant-cinnamoroll-stuffed-animal/032060.html",
+          "photoCredit": "Product gallery for verified model SKU 032060",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Direct image URL taken from the image link in the SKU-matched product page. Independent HTTP availability unconfirmed unless explicitly checked; verify in PWA."
         },
         {
           "name": "Sanrio · Giant Mocha",
@@ -1321,8 +1361,12 @@
           "figureNumber": "034445",
           "variantKey": "buildabear:sanrio:giant:034445",
           "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-giant-mocha-plush/034445.html",
-          "photo": "",
-          "description": "Official standalone giant plush edition. Accessories and gift bundles are excluded. No UPC inferred from SKU."
+          "photo": "https://www.buildabear.com/dw/image/v2/BBNG_PRD/on/demandware.static/-/Sites-buildabear-master/default/dw1a699757/59250701934445Alt1~x20121061.jpg?sh=800&sm=fit&sw=800",
+          "description": "Official standalone giant plush edition. Accessories and gift bundles are excluded. No UPC inferred from SKU.",
+          "photoSourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-giant-mocha-plush/034445.html",
+          "photoCredit": "Product gallery for verified model SKU 034445",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Direct image URL taken from the image link in the SKU-matched product page. Independent HTTP availability unconfirmed unless explicitly checked; verify in PWA."
         }
       ]
     }
