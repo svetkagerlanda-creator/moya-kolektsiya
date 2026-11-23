@@ -15680,6 +15680,440 @@
           "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
         }
       ]
+    },
+    {
+      "name": "Winx Club · Believix Fairy · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "collector-line-verified-photo-barcode-pending",
+      "notes": "Відповідність випусків колекціонерському джерелу; фото й EAN/UPC залишаються на перевірку.",
+      "count": 7,
+      "items": [
+        {
+          "name": "Winx Believix Fairy — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:old-witty-simba-smoby:believix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Believix Fairy, edition Bloom.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Believix Fairy — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:old-witty-simba-smoby:believix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Believix Fairy, edition Stella.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Believix Fairy — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty:old-witty-simba-smoby:believix-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Believix Fairy, edition Aisha.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Believix Fairy — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty:old-witty-simba-smoby:believix-fairy:tecna",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Believix Fairy, edition Tecna.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Believix Fairy — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty:old-witty-simba-smoby:believix-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Believix Fairy, edition Musa.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Believix Fairy — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:old-witty-simba-smoby:believix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Believix Fairy, edition Flora.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Believix Fairy — Roxy",
+          "manufacturer": "Witty Toys",
+          "character": "Roxy",
+          "variantKey": "winx:witty:old-witty-simba-smoby:believix-fairy:roxy",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Believix Fairy, edition Roxy.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Lovix Fairy · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "collector-line-verified-photo-barcode-pending",
+      "notes": "Відповідність випусків колекціонерському джерелу; фото й EAN/UPC залишаються на перевірку.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Lovix Fairy — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:old-witty-simba-smoby:lovix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Lovix Fairy, edition Bloom.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Lovix Fairy — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty:old-witty-simba-smoby:lovix-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Lovix Fairy, edition Aisha.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Lovix Fairy — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:old-witty-simba-smoby:lovix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Lovix Fairy, edition Stella.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Lovix Fairy — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty:old-witty-simba-smoby:lovix-fairy:tecna",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Lovix Fairy, edition Tecna.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Lovix Fairy — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:old-witty-simba-smoby:lovix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Lovix Fairy, edition Flora.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Lovix Fairy — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty:old-witty-simba-smoby:lovix-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Lovix Fairy, edition Musa.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · You are the Fairy (Lovix) · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "collector-line-verified-photo-barcode-pending",
+      "notes": "Відповідність випусків колекціонерському джерелу; фото й EAN/UPC залишаються на перевірку.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx You are the Fairy (Lovix) — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:old-witty-simba-smoby:you-are-the-fairy-lovix-:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible You are the Fairy (Lovix), edition Bloom.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx You are the Fairy (Lovix) — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:old-witty-simba-smoby:you-are-the-fairy-lovix-:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible You are the Fairy (Lovix), edition Stella.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx You are the Fairy (Lovix) — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:old-witty-simba-smoby:you-are-the-fairy-lovix-:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible You are the Fairy (Lovix), edition Flora.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Magical Hair · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "collector-line-verified-photo-barcode-pending",
+      "notes": "Відповідність випусків колекціонерському джерелу; фото й EAN/UPC залишаються на перевірку.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Magical Hair — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:old-witty-simba-smoby:magical-hair:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Magical Hair, edition Bloom.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Hair — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:old-witty-simba-smoby:magical-hair:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Magical Hair, edition Stella.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Hair — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty:old-witty-simba-smoby:magical-hair:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Magical Hair, edition Aisha.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Flower Princess · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "collector-line-verified-photo-barcode-pending",
+      "notes": "Відповідність випусків колекціонерському джерелу; фото й EAN/UPC залишаються на перевірку.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Flower Princess — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:old-witty-simba-smoby:flower-princess:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Flower Princess, edition Bloom.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Flower Princess — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:old-witty-simba-smoby:flower-princess:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Flower Princess, edition Stella.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Flower Princess — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:old-witty-simba-smoby:flower-princess:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Flower Princess, edition Flora.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Magiche Amiche Del Cuore · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "collector-line-verified-photo-barcode-pending",
+      "notes": "Two retail 2-packs, rather than four separately sold dolls.",
+      "count": 2,
+      "items": [
+        {
+          "name": "Winx Magiche Amiche Del Cuore — Bloom & Stella boxed 2-pack",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom & Stella boxed 2-pack",
+          "variantKey": "winx:witty:old-witty-simba-smoby:magiche-amiche-del-cuore:bloom-stella-boxed-2-pack",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Magiche Amiche Del Cuore, edition Bloom & Stella boxed 2-pack. Two retail 2-packs, rather than four separately sold dolls. Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magiche Amiche Del Cuore — Flora & Musa boxed 2-pack",
+          "manufacturer": "Witty Toys",
+          "character": "Flora & Musa boxed 2-pack",
+          "variantKey": "winx:witty:old-witty-simba-smoby:magiche-amiche-del-cuore:flora-musa-boxed-2-pack",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Magiche Amiche Del Cuore, edition Flora & Musa boxed 2-pack. Two retail 2-packs, rather than four separately sold dolls. Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Electronic Believix Special Editions · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "collector-line-verified-photo-barcode-pending",
+      "notes": "Відповідність випусків колекціонерському джерелу; фото й EAN/UPC залишаються на перевірку.",
+      "count": 5,
+      "items": [
+        {
+          "name": "Winx Electronic Believix Special Editions — Magical Scepter Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Magical Scepter Bloom",
+          "variantKey": "winx:witty:old-witty-simba-smoby:electronic-believix-special-editions:magical-scepter-bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Electronic Believix Special Editions, edition Magical Scepter Bloom.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Electronic Believix Special Editions — You are the Fairy Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "You are the Fairy Bloom",
+          "variantKey": "winx:witty:old-witty-simba-smoby:electronic-believix-special-editions:you-are-the-fairy-bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Electronic Believix Special Editions, edition You are the Fairy Bloom.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Electronic Believix Special Editions — Believix Magiche Ali Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Believix Magiche Ali Bloom",
+          "variantKey": "winx:witty:old-witty-simba-smoby:electronic-believix-special-editions:believix-magiche-ali-bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Electronic Believix Special Editions, edition Believix Magiche Ali Bloom.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Electronic Believix Special Editions — Believix Magiche Ali Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Believix Magiche Ali Stella",
+          "variantKey": "winx:witty:old-witty-simba-smoby:electronic-believix-special-editions:believix-magiche-ali-stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Electronic Believix Special Editions, edition Believix Magiche Ali Stella.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Electronic Believix Special Editions — Believix Magiche Ali Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Believix Magiche Ali Flora",
+          "variantKey": "winx:witty:old-witty-simba-smoby:electronic-believix-special-editions:believix-magiche-ali-flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Witty Toys Old Witty / Simba / Smoby collectible Electronic Believix Special Editions, edition Believix Magiche Ali Flora.  Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Mythix & Icy Two-Pack · New Witty",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · New Witty",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "collector-line-verified-photo-barcode-pending",
+      "notes": "Alternate Mythix Fairy retail packaging containing Bloom and season 6 Icy; recorded as a single boxed set.",
+      "count": 1,
+      "items": [
+        {
+          "name": "Winx Mythix & Icy Two-Pack — Bloom & Icy (Mythix package)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom & Icy (Mythix package)",
+          "variantKey": "winx:witty:new-witty:mythix-icy-two-pack:bloom-icy-mythix-package-",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Witty Toys New Witty collectible Mythix & Icy Two-Pack, edition Bloom & Icy (Mythix package). Alternate Mythix Fairy retail packaging containing Bloom and season 6 Icy; recorded as a single boxed set. Photo and EAN/UPC have not been confirmed.",
+          "sourceVerification": "Listed in Dollect historical Witty Toys reference (line, variant and named release); exact retail SKU and barcode pending.",
+          "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
+        }
+      ]
     }
   ]
 }
