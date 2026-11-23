@@ -861,6 +861,23 @@ function scan(){
  };
  function search(){
   const code=input.value.trim();if(!code)return showToast('Введи або зіскануй код');stop();
+  // A sealed mystery assortment identifies its series, never a random character.
+  // The same code may appear on every variant as assortmentUpc.
+  const mysterySeries=[...generatedSeries,...COMPLETE_SERIES_DATA,...COMPLETE_FIGURE_SERIES]
+   .filter(s=>/mystery|blind[ -]?(?:box|bag)|сюрприз|bratziez/i.test([s.name,s.group].join(' ')))
+   .filter(s=>listCompleteCards(s).some(i=>{
+    const assortment=String(i.assortmentUpc||'').trim();
+    const assortmentMatch=isGtin(code)&&isGtin(assortment)&&assortment.padStart(14,'0')===code.padStart(14,'0');
+    return assortmentMatch||matches(i,code);
+   }));
+  const uniqueMystery=[...new Map(mysterySeries.map(s=>[s.name,s])).values()];
+  if(uniqueMystery.length===1){close();browseSeriesDirectory(uniqueMystery[0].name);return;}
+  if(uniqueMystery.length>1){
+   results.innerHTML='<h3>Знайдено серії: '+esc(code)+'</h3><p class="muted">Штрихкод mystery-набору відкриває серію, а не випадкового персонажа.</p>'
+    +uniqueMystery.map((s,n)=>'<div class="card"><b>'+esc(s.name)+'</b><button type="button" data-mystery-series="'+n+'">Переглянути серію</button></div>').join('');
+   results.querySelectorAll('[data-mystery-series]').forEach(b=>b.onclick=()=>{let name=uniqueMystery[Number(b.dataset.mysterySeries)].name;close();browseSeriesDirectory(name)});
+   return;
+  }
   const mine=data.items.filter(i=>matches(i,code)),catalog=[],seen=new Set();
   for(const series of [...generatedSeries,...COMPLETE_SERIES_DATA,...COMPLETE_FIGURE_SERIES]){
    for(const item of listCompleteCards(series)){if(!matches(item,code))continue;
