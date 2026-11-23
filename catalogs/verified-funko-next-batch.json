@@ -135,7 +135,12 @@
           "seriesNumber": "95812",
           "sourceUrl": "https://funko.com/im/pop-rumi-huntr%2Fx/95812.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwcd4fc904/images/funko/upload/1/95812_KPOPDH_RumiHTRX_POP_render-Glam-WEB.png?sh=800&sw=800",
-          "description": "Funko POP! item 95812; box #2586"
+          "description": "Funko POP! item 95812; box #2586",
+          "upc": "889698958127",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.popcultcha.com.au/k-pop-demon-hunters-rumi-huntr-x-pop-vinyl-figure.html",
+          "barcodeVerification": "UPC explicitly published with exact Funko item or shared Chase retail assortment; checksum checked",
+          "barcodeNote": "Exact Funko SKU 95812, #2586; distinct retail listing UPC 889698946926 pertains to another release, not substituted."
         }
       ]
     }
