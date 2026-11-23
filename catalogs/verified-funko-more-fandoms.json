@@ -113,7 +113,11 @@
           "seriesNumber": "61358",
           "sourceUrl": "https://funko.com/pop-yuji-itadori/61358.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw93c386ca/images/funko/61358-1.png?sh=800&sw=800",
-          "description": "Funko item 61358; box 1111"
+          "description": "Funko item 61358; box 1111",
+          "upc": "889698613583",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-84602477",
+          "barcodeVerification": "Explicit product UPC and exact release confirmed by retailer/collector listing; GTIN checksum validated"
         },
         {
           "name": "Satoru Gojo",
@@ -124,7 +128,11 @@
           "seriesNumber": "61357",
           "sourceUrl": "https://funko.com/pop-satoru-gojo/61357.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwfe3920dc/images/funko/61357-1.png?sh=800&sw=800",
-          "description": "Funko item 61357"
+          "description": "Funko item 61357",
+          "upc": "889698613576",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.toys-shop.gr/en/p/toys/figures/action-figures/1040029-funko-jujutsu-kaisen-pop-animation-jujutsu-kaisen-s1-satoru-gojo-1114-vinyl-figure-61357.html",
+          "barcodeVerification": "Explicit product UPC and exact release confirmed by retailer/collector listing; GTIN checksum validated"
         },
         {
           "name": "Panda",
@@ -202,7 +210,11 @@
           "seriesNumber": "43263",
           "sourceUrl": "https://funko.com/pop-pikachu/43263.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw8de08a6d/images/funko/43263-1.png?sh=800&sw=800",
-          "description": "Funko item 43263; box 553"
+          "description": "Funko item 43263; box 553",
+          "upc": "889698432634",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-games-pokemon-pikachu-waving-3.75-in-vinyl-figure/198682.html",
+          "barcodeVerification": "Explicit product UPC and exact release confirmed by retailer/collector listing; GTIN checksum validated"
         },
         {
           "name": "Pikachu (Standing)",
@@ -224,7 +236,11 @@
           "seriesNumber": "46865",
           "sourceUrl": "https://funko.com/pop-mr.-mime/46865.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw19bf61c3/images/funko/46865-1.png?sh=800&sw=800",
-          "description": "Funko item 46865; box 582"
+          "description": "Funko item 46865; box 582",
+          "upc": "889698468657",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-games-pokemon-mr.-mime-3.75-in-vinyl-figure/419591.html",
+          "barcodeVerification": "Explicit product UPC and exact release confirmed by retailer/collector listing; GTIN checksum validated"
         },
         {
           "name": "Espeon",
@@ -512,7 +528,11 @@
           "seriesNumber": "88404",
           "sourceUrl": "https://funko.com/pop-cinnamoroll-as-penguin/88404.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwd4ac6e4d/images/funko/upload/1/88404_HK%26F_Cinnamoroll%28Winter%29_POP-HORIZONTAL_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 88404; box 127"
+          "description": "Funko item 88404; box 127",
+          "upc": "889698884044",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.de/p/11081302558",
+          "barcodeVerification": "Explicit product UPC and exact release confirmed by retailer/collector listing; GTIN checksum validated"
         },
         {
           "name": "Cinnamoroll (Berry Outfit)",
