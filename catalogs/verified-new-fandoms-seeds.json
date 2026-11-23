@@ -53,7 +53,7 @@
       "manufacturer": "Mattel",
       "fandomKey": "everafterhigh",
       "group": "📖 Ever After High",
-      "count": 1,
+      "count": 4,
       "items": [
         {
           "name": "Ever After High Raven Queen Doll (2013)",
@@ -63,6 +63,33 @@
           "sourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD42&siteid=27",
           "photo": "https://service.mattel.com//us/img/prod/243/bbd42_c_13_003.jpg",
           "description": "Оригінальна Raven Queen, офіційний архів Mattel."
+        },
+        {
+          "name": "Ever After High Apple White Doll (2013)",
+          "manufacturer": "Mattel",
+          "figureNumber": "BBD52",
+          "year": "2013",
+          "sourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD52&siteid=27",
+          "photo": "",
+          "description": "Original First Chapter signature doll listed in Mattel product archive. Exact image and barcode pending."
+        },
+        {
+          "name": "Ever After High Briar Beauty Doll (2013)",
+          "manufacturer": "Mattel",
+          "figureNumber": "BBD53",
+          "year": "2013",
+          "sourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD53&siteid=27",
+          "photo": "",
+          "description": "Original First Chapter signature doll listed in Mattel product archive. Exact image and barcode pending."
+        },
+        {
+          "name": "Ever After High Madeline Hatter Doll (2013)",
+          "manufacturer": "Mattel",
+          "figureNumber": "BBD43",
+          "year": "2013",
+          "sourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD43&siteid=27",
+          "photo": "",
+          "description": "Original First Chapter signature doll listed in Mattel product archive. Exact image and barcode pending."
         }
       ]
     },
