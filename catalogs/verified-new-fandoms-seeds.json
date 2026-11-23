@@ -84,8 +84,9 @@
           "manufacturer": "Mattel",
           "figureNumber": "JBG80",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-skulltimate-secrets-clawdeen-wolf-doll-jbg80",
-          "photo": "",
-          "description": "Офіційна лялька Mattel Skulltimate Secrets: Hauntlywood Mysteries."
+          "photo": "https://shop.mattel.com/cdn/shop/files/efbaa1c73212ddd46ad868bd71334aed8b88b74f.jpg?v=1760626012",
+          "description": "Офіційна лялька Mattel Skulltimate Secrets: Hauntlywood Mysteries.",
+          "photoCredit": "Same official Mattel SKU JBG80 and exact sourceUrl as verified item in this seed catalog"
         }
       ]
     },
