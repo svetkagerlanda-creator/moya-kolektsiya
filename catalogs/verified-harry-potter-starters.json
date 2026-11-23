@@ -8,8 +8,8 @@
       "manufacturer": "Spin Master",
       "source": "https://www.spinmaster.com/en-US/brands/harrypotter",
       "verified": true,
-      "completeness": "verified-selected-mystery-variants",
-      "count": 8,
+      "completeness": "full-community-checklist",
+      "count": 19,
       "items": [
         {
           "name": "Harry, Ron & Hedwig — 3-Figure Set",
@@ -49,40 +49,169 @@
           "name": "Mystery variant — Harry Potter — First Quidditch Match",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6-and-up",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
           "photo": "",
-          "rarity": "Regular",
-          "description": "Named possible outcome confirmed by Spin Master's product description of the 15-design mystery assortment. No specific individual photo or barcode verified. Does not identify contents of a sealed pack."
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified.",
+          "collectorCode": "20142908",
+          "collectorCodeType": "community-reported-box-code"
         },
         {
           "name": "Mystery variant — Rubeus Hagrid — Birthday Cake",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6-and-up",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
           "photo": "",
-          "rarity": "Regular",
-          "description": "Named possible outcome confirmed by Spin Master's product description of the 15-design mystery assortment. No specific individual photo or barcode verified. Does not identify contents of a sealed pack."
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified.",
+          "collectorCode": "20142901",
+          "collectorCodeType": "community-reported-box-code"
         },
         {
           "name": "Mystery variant — Hermione Granger — Sorting Hat",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6-and-up",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
           "photo": "",
-          "rarity": "Regular",
-          "description": "Named possible outcome confirmed by Spin Master's product description of the 15-design mystery assortment. No specific individual photo or barcode verified. Does not identify contents of a sealed pack."
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified.",
+          "collectorCode": "20142905",
+          "collectorCodeType": "community-reported-box-code"
         },
         {
           "name": "Mystery variant — Hermione Granger — Levitation Spell",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "sourceUrl": "https://www.wizardo.cz/sberatelske-figurky/harry-potter-micro-magical-moments/",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
           "photo": "",
-          "rarity": "Undetermined",
-          "description": "Collector retailer identifies Hermione practicing the levitation spell as a Year 1 surprise collectible; separate from Hermione with the Sorting Hat. Exact variant photo and individual barcode not verified."
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified.",
+          "collectorCode": "20142906",
+          "collectorCodeType": "community-reported-box-code"
+        },
+        {
+          "name": "Mystery variant — Albus Dumbledore",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20142899",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
+        },
+        {
+          "name": "Mystery variant — Dudley Dursley",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20142900",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
+        },
+        {
+          "name": "Mystery variant — Harry Potter — Invisibility Cloak",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20142902",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
+        },
+        {
+          "name": "Mystery variant — Ron Weasley",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20142903",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
+        },
+        {
+          "name": "Mystery variant — Hedwig",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20142904",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
+        },
+        {
+          "name": "Mystery variant — Harry Potter — Mirror of Erised",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20142907",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
+        },
+        {
+          "name": "Mystery variant — Nearly Headless Nick",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20142909",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
+        },
+        {
+          "name": "Mystery variant — Neville Longbottom",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20142910",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
+        },
+        {
+          "name": "Mystery variant — Professor Quirrell",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20142911",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
+        },
+        {
+          "name": "Mystery variant — Seamus Finnigan",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20142912",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
+        },
+        {
+          "name": "Mystery variant — Severus Snape",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20142913",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
         }
       ],
-      "notes": "Spin Master confirms 15 Year 1 mystery designs; four explicitly identified in current checklist. Do not substitute exclusive multi-pack figurines for a blind-box variant without source confirmation."
+      "notes": "All 15 mystery figures mapped to distinct collector-reported box codes. Source is community-collected unboxing data, not official individual product identifiers. Separate sealed mystery package and character scene multipacks are not included in the figure count."
     },
     {
       "name": "Harry Potter · Spin Master · Micro Magical Moments · Year 4",
@@ -316,8 +445,8 @@
       "manufacturer": "Spin Master",
       "source": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-figure-set-with-harry-stag-patronus-dementor-and-display-case-kids-toys-for-ages-6-and-up",
       "verified": true,
-      "completeness": "verified-selected-mystery-variants",
-      "count": 12,
+      "completeness": "full-community-checklist",
+      "count": 16,
       "items": [
         {
           "name": "Harry, Stag Patronus & Dementor — 3-Figure Set",
@@ -357,76 +486,136 @@
           "name": "Mystery variant — Harry Potter — Marauder's Map",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
           "photo": "",
-          "rarity": "Regular",
-          "description": "Named possible outcome confirmed by Spin Master's product description of the 12-design mystery assortment. No specific individual photo or barcode verified. Does not identify contents of a sealed pack."
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified.",
+          "collectorCode": "02",
+          "collectorCodeType": "community-reported-box-code"
         },
         {
           "name": "Mystery variant — Dementor",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
           "photo": "",
-          "rarity": "Regular",
-          "description": "Named possible outcome confirmed by Spin Master's product description of the 12-design mystery assortment. No specific individual photo or barcode verified. Does not identify contents of a sealed pack."
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified.",
+          "collectorCode": "12",
+          "collectorCodeType": "community-reported-box-code"
         },
         {
-          "name": "Mystery variant — Crookshanks",
+          "name": "Mystery variant — Crookshanks & Scabbers",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
           "photo": "",
-          "rarity": "Regular",
-          "description": "Named possible outcome confirmed by Spin Master's product description of the 12-design mystery assortment. No specific individual photo or barcode verified. Does not identify contents of a sealed pack."
-        },
-        {
-          "name": "Mystery variant — Scabbers",
-          "manufacturer": "Spin Master",
-          "figureNumber": "",
-          "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6",
-          "photo": "",
-          "rarity": "Regular",
-          "description": "Named possible outcome confirmed by Spin Master's product description of the 12-design mystery assortment. No specific individual photo or barcode verified. Does not identify contents of a sealed pack."
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified.",
+          "collectorCode": "09",
+          "collectorCodeType": "community-reported-box-code"
         },
         {
           "name": "Mystery variant — Professor Sybill Trelawney",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "sourceUrl": "https://www.spinmaster.com/en-us/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6/",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
           "photo": "",
-          "description": "Manufacturer product marketing explicitly names Professor Trelawney among possible Year 3 blind-box characters. Individual mystery barcode and exact photograph unverified. Source evidence: manufacturer / collector video.",
-          "rarity": "Undetermined"
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified.",
+          "rarity": "Not independently established",
+          "collectorCode": "01",
+          "collectorCodeType": "community-reported-box-code"
         },
         {
           "name": "Mystery variant — Hermione Granger",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "sourceUrl": "https://www.youtube.com/watch?v=Pm3uAwtIKcw",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
           "photo": "",
-          "description": "Collector video names Hermione Granger among Year 3 miniature blind-box collectibles; variant-specific appearance not independently established. Individual mystery barcode and exact photograph unverified. Source evidence: manufacturer / collector video.",
-          "rarity": "Undetermined"
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified.",
+          "rarity": "Not independently established",
+          "collectorCode": "03",
+          "collectorCodeType": "community-reported-box-code"
         },
         {
           "name": "Mystery variant — Ron Weasley",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "sourceUrl": "https://www.youtube.com/watch?v=Pm3uAwtIKcw",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
           "photo": "",
-          "description": "Collector video names Ron Weasley among Year 3 miniature blind-box collectibles; variant-specific appearance not independently established. Individual mystery barcode and exact photograph unverified. Source evidence: manufacturer / collector video.",
-          "rarity": "Undetermined"
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified.",
+          "rarity": "Not independently established",
+          "collectorCode": "04",
+          "collectorCodeType": "community-reported-box-code"
         },
         {
           "name": "Mystery variant — Hedwig",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "sourceUrl": "https://www.youtube.com/watch?v=Pm3uAwtIKcw",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
           "photo": "",
-          "description": "Collector video names Hedwig among Year 3 miniature blind-box collectibles; variant-specific appearance not independently established. Individual mystery barcode and exact photograph unverified. Source evidence: manufacturer / collector video.",
-          "rarity": "Undetermined"
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified.",
+          "rarity": "Not independently established",
+          "collectorCode": "05",
+          "collectorCodeType": "community-reported-box-code"
+        },
+        {
+          "name": "Mystery variant — Sirius Black — Padfoot / The Grim",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "06",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
+        },
+        {
+          "name": "Mystery variant — Neville Longbottom",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "07",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
+        },
+        {
+          "name": "Mystery variant — Rubeus Hagrid",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "08",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
+        },
+        {
+          "name": "Mystery variant — Remus Lupin",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "10",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
+        },
+        {
+          "name": "Mystery variant — Severus Snape — Boggart",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "11",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
         }
       ],
-      "notes": "Spin Master confirms 12 Year 3 blind-box designs. Named candidates must be distinguished from separate 3-/4-figure multipacks. One reseller's 'complete set' description ambiguously lists 13 names for 12 figures, so not used to declare completeness."
+      "notes": "All 12 mystery figures mapped to distinct collector-reported box codes. Source is community-collected unboxing data, not official individual product identifiers. Separate sealed mystery package and character scene multipacks are not included in the figure count."
     },
     {
       "name": "Harry Potter · Iron Studios · MiniCo",
@@ -4180,6 +4369,151 @@
           "description": "Official Hogwarts Express display/carry case including three exclusive figures (Harry with sweets, Ron with sweets and Luna Lovegood); stores up to 22 figures. No individual photo or EAN/UPC verified."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · Spin Master · Micro Magical Moments · Year 2",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Spin Master",
+      "manufacturer": "Spin Master",
+      "source": "https://www.spinmaster.com/en-GB/brands/harrypotter",
+      "verified": true,
+      "completeness": "full-community-checklist",
+      "count": 12,
+      "items": [
+        {
+          "name": "Mystery variant — Aragog",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20145002",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
+        },
+        {
+          "name": "Mystery variant — Mandrake",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20145003",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
+        },
+        {
+          "name": "Mystery variant — Dobby",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20145004",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
+        },
+        {
+          "name": "Mystery variant — Gilderoy Lockhart",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20145005",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
+        },
+        {
+          "name": "Mystery variant — Ginny Weasley",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20145006",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
+        },
+        {
+          "name": "Mystery variant — Harry Potter — Birthday Cake",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20145007",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
+        },
+        {
+          "name": "Mystery variant — Harry Potter — Golden Snitch",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20145009",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
+        },
+        {
+          "name": "Mystery variant — Lucius Malfoy",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20145010",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
+        },
+        {
+          "name": "Mystery variant — Moaning Myrtle",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20145011",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
+        },
+        {
+          "name": "Mystery variant — Molly Weasley",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20145013",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
+        },
+        {
+          "name": "Mystery variant — Hermione Granger — Petrified",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20145015",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
+        },
+        {
+          "name": "Mystery variant — Ron Weasley — Slugs",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "photo": "",
+          "collectorCode": "20145016",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
+          "rarity": "Not independently established",
+          "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
+        }
+      ],
+      "notes": "Year 2 The Chamber of Secrets blind-box assortment. Community-confirmed twelve figures; box codes are not barcodes or guaranteed across batches."
     }
   ]
 }
