@@ -32,7 +32,7 @@ CATALOGS=[
 ]
 # Categories like Other Figures have hundreds of independent sets; keep the
 # run bounded and continue with previously validated records each time.
-MAX_PER_CATEGORY=80
+MAX_PER_CATEGORY=250
 HEADERS={"User-Agent":"Mozilla/5.0 (compatible; noncommercial-personal-collectibles-index/1.0)"}
 
 def get(url):
@@ -64,7 +64,16 @@ def discover(root,category,index):
         title=re.sub(r"\s+"," ",title).strip()
         if len(title)>100: title=title[:100].strip()
         name=f"Hasbro · {index} · {title}"
-        links[slug]={"name":name,"url":dest,"root":root,"category":category}
+        expected=None
+        # Some source indexes display the count on a series tile rather than
+        # its detail page. Accept it only when clearly tied to this link.
+        for node in (a, a.parent, a.parent.parent if a.parent else None):
+            if node is None: continue
+            count_match=re.search(r"\\(([\\d,]+)\\s+(?:releases|figures|ponies|dolls|items|toys)\\)",node.get_text(" ",strip=True),re.I)
+            if count_match:
+                expected=int(count_match.group(1).replace(",",""))
+                break
+        links[slug]={"name":name,"url":dest,"root":root,"category":category,"index_count":expected}
     # Source index may list linked image and name separately for same URL;
     # keep one per real indexed set.
     return list(links.values())[:MAX_PER_CATEGORY]
@@ -84,9 +93,13 @@ def source_count(soup):
 def parse(entry):
     name,url,root=entry["name"],entry["url"],entry["root"]
     soup=get(url)
-    expected=source_count(soup)
+    detail_count=source_count(soup)
+    index_count=entry.get("index_count")
+    if detail_count and index_count and detail_count!=index_count:
+        raise ValueError(f"Conflicting source totals: page={detail_count} index={index_count}")
+    expected=detail_count or index_count
     if not expected:
-        raise ValueError("No source-declared total; skipped rather than guessing completeness")
+        raise ValueError("No source-declared total on series page or index; cannot verify completeness")
     items={}
     for a in soup.select(f'a[href*="/{root}/details/"]'):
         bottom=a.find_parent(class_="data-bottom")
