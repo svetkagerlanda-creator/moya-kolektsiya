@@ -58,8 +58,12 @@ def main():
                 if not isinstance(card,dict):continue
                 item_url=str(card.get("sourceUrl") or "")
                 if not item_url:continue
-                if item_url in seen:stats["duplicateUrls"]+=1
-                seen.add(item_url)
+                # Comic issues and physical variants can share a source page.
+                # A separately documented variantKey makes their identities distinct.
+                variant=str(card.get("variantKey") or "")
+                identity=(item_url,variant) if variant else item_url
+                if identity in seen:stats["duplicateUrls"]+=1
+                seen.add(identity)
                 known_urls[item_url].add(path.name)
         stats["missingPhotos"]=stats["items"]-stats["photos"]
         total_partial+=stats["partialSeries"]
