@@ -7677,6 +7677,1283 @@
           "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
         }
       ]
+    },
+    {
+      "name": "Winx Club · Pixie Magic (2005) · Mattel",
+      "manufacturer": "Mattel",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/mattel-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 7,
+      "items": [
+        {
+          "name": "Winx Pixie Magic 2005 — Bloom & Lockette",
+          "manufacturer": "Mattel",
+          "character": "Bloom & Lockette",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:pixie-magic:bloom-lockette",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Pixie Magic (2005) — Bloom & Lockette. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Pixie Magic 2005 — Stella & Amore",
+          "manufacturer": "Mattel",
+          "character": "Stella & Amore",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:pixie-magic:stella-amore",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Pixie Magic (2005) — Stella & Amore. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Pixie Magic 2005 — Flora & Chatta",
+          "manufacturer": "Mattel",
+          "character": "Flora & Chatta",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:pixie-magic:flora-chatta",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Pixie Magic (2005) — Flora & Chatta. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Pixie Magic 2005 — Musa & Tune",
+          "manufacturer": "Mattel",
+          "character": "Musa & Tune",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:pixie-magic:musa-tune",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Pixie Magic (2005) — Musa & Tune. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Pixie Magic 2005 — Tecna & Digit",
+          "manufacturer": "Mattel",
+          "character": "Tecna & Digit",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:pixie-magic:tecna-digit",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Pixie Magic (2005) — Tecna & Digit. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Pixie Magic 2005 — Aisha & Piff",
+          "manufacturer": "Mattel",
+          "character": "Aisha & Piff",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:pixie-magic:aisha-piff",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Pixie Magic (2005) — Aisha & Piff. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Pixie Magic 2005 — Icy",
+          "manufacturer": "Mattel",
+          "character": "Icy",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:pixie-magic:icy",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Pixie Magic (2005) — Icy. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Charmix (2005) · Mattel",
+      "manufacturer": "Mattel",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/mattel-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Charmix 2005 — Bloom",
+          "manufacturer": "Mattel",
+          "character": "Bloom",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:charmix:bloom",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Charmix (2005) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Charmix 2005 — Stella",
+          "manufacturer": "Mattel",
+          "character": "Stella",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:charmix:stella",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Charmix (2005) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Charmix 2005 — Flora",
+          "manufacturer": "Mattel",
+          "character": "Flora",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:charmix:flora",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Charmix (2005) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Charmix 2005 — Musa",
+          "manufacturer": "Mattel",
+          "character": "Musa",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:charmix:musa",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Charmix (2005) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Charmix 2005 — Tecna",
+          "manufacturer": "Mattel",
+          "character": "Tecna",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:charmix:tecna",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Charmix (2005) — Tecna. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Charmix 2005 — Aisha",
+          "manufacturer": "Mattel",
+          "character": "Aisha",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:charmix:aisha",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Charmix (2005) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Flutter Magic (2005) · Mattel",
+      "manufacturer": "Mattel",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/mattel-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Flutter Magic 2005 — Bloom",
+          "manufacturer": "Mattel",
+          "character": "Bloom",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:flutter-magic:bloom",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Flutter Magic (2005) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Flutter Magic 2005 — Stella",
+          "manufacturer": "Mattel",
+          "character": "Stella",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:flutter-magic:stella",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Flutter Magic (2005) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Flutter Magic 2005 — Flora",
+          "manufacturer": "Mattel",
+          "character": "Flora",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:flutter-magic:flora",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Flutter Magic (2005) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Dance Night (2005) · Mattel",
+      "manufacturer": "Mattel",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/mattel-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Dance Night 2005 — Bloom",
+          "manufacturer": "Mattel",
+          "character": "Bloom",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:dance-night:bloom",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Dance Night (2005) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Dance Night 2005 — Stella",
+          "manufacturer": "Mattel",
+          "character": "Stella",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:dance-night:stella",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Dance Night (2005) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Dance Night 2005 — Flora",
+          "manufacturer": "Mattel",
+          "character": "Flora",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:dance-night:flora",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Dance Night (2005) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Dance Night 2005 — Musa",
+          "manufacturer": "Mattel",
+          "character": "Musa",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:dance-night:musa",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Dance Night (2005) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Dance Night 2005 — Tecna",
+          "manufacturer": "Mattel",
+          "character": "Tecna",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:dance-night:tecna",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Dance Night (2005) — Tecna. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Dance Night 2005 — Aisha",
+          "manufacturer": "Mattel",
+          "character": "Aisha",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:dance-night:aisha",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Dance Night (2005) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Beach (2005) · Mattel",
+      "manufacturer": "Mattel",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/mattel-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 5,
+      "items": [
+        {
+          "name": "Winx Beach 2005 — Bloom",
+          "manufacturer": "Mattel",
+          "character": "Bloom",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:beach:bloom",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Beach (2005) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Beach 2005 — Stella",
+          "manufacturer": "Mattel",
+          "character": "Stella",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:beach:stella",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Beach (2005) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Beach 2005 — Flora",
+          "manufacturer": "Mattel",
+          "character": "Flora",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:beach:flora",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Beach (2005) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Beach 2005 — Aisha",
+          "manufacturer": "Mattel",
+          "character": "Aisha",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:beach:aisha",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Beach (2005) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Beach 2005 — Musa",
+          "manufacturer": "Mattel",
+          "character": "Musa",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:beach:musa",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Beach (2005) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Singsational Magic (2005) · Mattel",
+      "manufacturer": "Mattel",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/mattel-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Singsational Magic 2005 — Bloom",
+          "manufacturer": "Mattel",
+          "character": "Bloom",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:singsational-magic:bloom",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Singsational Magic (2005) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Singsational Magic 2005 — Stella",
+          "manufacturer": "Mattel",
+          "character": "Stella",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:singsational-magic:stella",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Singsational Magic (2005) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Singsational Magic 2005 — Flora",
+          "manufacturer": "Mattel",
+          "character": "Flora",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:singsational-magic:flora",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Singsational Magic (2005) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Singsational Magic 2005 — Musa",
+          "manufacturer": "Mattel",
+          "character": "Musa",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:singsational-magic:musa",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Singsational Magic (2005) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Singsational Magic 2005 — Tecna",
+          "manufacturer": "Mattel",
+          "character": "Tecna",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:singsational-magic:tecna",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Singsational Magic (2005) — Tecna. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Singsational Magic 2005 — Aisha",
+          "manufacturer": "Mattel",
+          "character": "Aisha",
+          "year": 2005,
+          "variantKey": "winx:mattel:2005:singsational-magic:aisha",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Singsational Magic (2005) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Denim (2006) · Mattel",
+      "manufacturer": "Mattel",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/mattel-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 5,
+      "items": [
+        {
+          "name": "Winx Denim 2006 — Bloom",
+          "manufacturer": "Mattel",
+          "character": "Bloom",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:denim:bloom",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Denim (2006) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Denim 2006 — Stella",
+          "manufacturer": "Mattel",
+          "character": "Stella",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:denim:stella",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Denim (2006) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Denim 2006 — Flora",
+          "manufacturer": "Mattel",
+          "character": "Flora",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:denim:flora",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Denim (2006) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Denim 2006 — Musa",
+          "manufacturer": "Mattel",
+          "character": "Musa",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:denim:musa",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Denim (2006) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Denim 2006 — Aisha",
+          "manufacturer": "Mattel",
+          "character": "Aisha",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:denim:aisha",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Denim (2006) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Disco (2006) · Mattel",
+      "manufacturer": "Mattel",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/mattel-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 5,
+      "items": [
+        {
+          "name": "Winx Disco 2006 — Bloom",
+          "manufacturer": "Mattel",
+          "character": "Bloom",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:disco:bloom",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Disco (2006) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Disco 2006 — Stella",
+          "manufacturer": "Mattel",
+          "character": "Stella",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:disco:stella",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Disco (2006) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Disco 2006 — Flora",
+          "manufacturer": "Mattel",
+          "character": "Flora",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:disco:flora",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Disco (2006) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Disco 2006 — Musa",
+          "manufacturer": "Mattel",
+          "character": "Musa",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:disco:musa",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Disco (2006) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Disco 2006 — Aisha",
+          "manufacturer": "Mattel",
+          "character": "Aisha",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:disco:aisha",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Disco (2006) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Slumber Party (2006) · Mattel",
+      "manufacturer": "Mattel",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/mattel-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 5,
+      "items": [
+        {
+          "name": "Winx Slumber Party 2006 — Bloom",
+          "manufacturer": "Mattel",
+          "character": "Bloom",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:slumber-party:bloom",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Slumber Party (2006) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Slumber Party 2006 — Stella",
+          "manufacturer": "Mattel",
+          "character": "Stella",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:slumber-party:stella",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Slumber Party (2006) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Slumber Party 2006 — Flora",
+          "manufacturer": "Mattel",
+          "character": "Flora",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:slumber-party:flora",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Slumber Party (2006) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Slumber Party 2006 — Musa",
+          "manufacturer": "Mattel",
+          "character": "Musa",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:slumber-party:musa",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Slumber Party (2006) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Slumber Party 2006 — Aisha",
+          "manufacturer": "Mattel",
+          "character": "Aisha",
+          "year": 2006,
+          "variantKey": "winx:mattel:2006:slumber-party:aisha",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Slumber Party (2006) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Glam Magic (2007) · Mattel",
+      "manufacturer": "Mattel",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/mattel-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Glam Magic 2007 — Bloom",
+          "manufacturer": "Mattel",
+          "character": "Bloom",
+          "year": 2007,
+          "variantKey": "winx:mattel:2007:glam-magic:bloom",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Glam Magic (2007) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Glam Magic 2007 — Stella",
+          "manufacturer": "Mattel",
+          "character": "Stella",
+          "year": 2007,
+          "variantKey": "winx:mattel:2007:glam-magic:stella",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Glam Magic (2007) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Glam Magic 2007 — Flora",
+          "manufacturer": "Mattel",
+          "character": "Flora",
+          "year": 2007,
+          "variantKey": "winx:mattel:2007:glam-magic:flora",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Glam Magic (2007) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Glam Magic 2007 — Musa",
+          "manufacturer": "Mattel",
+          "character": "Musa",
+          "year": 2007,
+          "variantKey": "winx:mattel:2007:glam-magic:musa",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Glam Magic (2007) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Glam Magic 2007 — Tecna",
+          "manufacturer": "Mattel",
+          "character": "Tecna",
+          "year": 2007,
+          "variantKey": "winx:mattel:2007:glam-magic:tecna",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Glam Magic (2007) — Tecna. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Glam Magic 2007 — Aisha",
+          "manufacturer": "Mattel",
+          "character": "Aisha",
+          "year": 2007,
+          "variantKey": "winx:mattel:2007:glam-magic:aisha",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Glam Magic (2007) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Ballerina (2007) · Mattel",
+      "manufacturer": "Mattel",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/mattel-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Ballerina 2007 — Bloom",
+          "manufacturer": "Mattel",
+          "character": "Bloom",
+          "year": 2007,
+          "variantKey": "winx:mattel:2007:ballerina:bloom",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Ballerina (2007) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Ballerina 2007 — Stella",
+          "manufacturer": "Mattel",
+          "character": "Stella",
+          "year": 2007,
+          "variantKey": "winx:mattel:2007:ballerina:stella",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Ballerina (2007) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Ballerina 2007 — Flora",
+          "manufacturer": "Mattel",
+          "character": "Flora",
+          "year": 2007,
+          "variantKey": "winx:mattel:2007:ballerina:flora",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Ballerina (2007) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Ballerina 2007 — Musa",
+          "manufacturer": "Mattel",
+          "character": "Musa",
+          "year": 2007,
+          "variantKey": "winx:mattel:2007:ballerina:musa",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Ballerina (2007) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Ballerina 2007 — Tecna",
+          "manufacturer": "Mattel",
+          "character": "Tecna",
+          "year": 2007,
+          "variantKey": "winx:mattel:2007:ballerina:tecna",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Ballerina (2007) — Tecna. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Ballerina 2007 — Aisha",
+          "manufacturer": "Mattel",
+          "character": "Aisha",
+          "year": 2007,
+          "variantKey": "winx:mattel:2007:ballerina:aisha",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Ballerina (2007) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Trendy Spring 06 (2006) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Trendy Spring 06 2006 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:trendy-spring-06:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Trendy Spring 06 (2006) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Trendy Spring 06 2006 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:trendy-spring-06:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Trendy Spring 06 (2006) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Trendy Spring 06 2006 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:trendy-spring-06:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Trendy Spring 06 (2006) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Trendy Spring 06 2006 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:trendy-spring-06:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Trendy Spring 06 (2006) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Trendy Spring 06 2006 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:trendy-spring-06:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Trendy Spring 06 (2006) — Tecna. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Trendy Spring 06 2006 — Aisha",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Aisha",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:trendy-spring-06:aisha",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Trendy Spring 06 (2006) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Cammina Davvero (2006) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Cammina Davvero 2006 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:cammina-davvero:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Cammina Davvero (2006) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Cammina Davvero 2006 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:cammina-davvero:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Cammina Davvero (2006) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Cammina Davvero 2006 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:cammina-davvero:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Cammina Davvero (2006) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Cammina Davvero 2006 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:cammina-davvero:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Cammina Davvero (2006) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Cammina Davvero 2006 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:cammina-davvero:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Cammina Davvero (2006) — Tecna. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Cammina Davvero 2006 — Aisha",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Aisha",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:cammina-davvero:aisha",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Cammina Davvero (2006) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Magix Shopping (2006) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Magix Shopping 2006 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magix-shopping:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Magix Shopping (2006) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Magix Shopping 2006 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magix-shopping:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Magix Shopping (2006) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Magix Shopping 2006 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magix-shopping:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Magix Shopping (2006) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Magix Shopping 2006 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magix-shopping:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Magix Shopping (2006) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Magix Shopping 2006 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magix-shopping:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Magix Shopping (2006) — Tecna. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Magix Shopping 2006 — Aisha",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Aisha",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magix-shopping:aisha",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Magix Shopping (2006) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Magici Capelli (2006) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Magici Capelli 2006 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magici-capelli:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Magici Capelli (2006) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Magici Capelli 2006 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magici-capelli:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Magici Capelli (2006) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Magici Capelli 2006 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magici-capelli:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Magici Capelli (2006) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Magici Capelli 2006 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magici-capelli:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Magici Capelli (2006) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Magici Capelli 2006 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magici-capelli:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Magici Capelli (2006) — Tecna. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Magici Capelli 2006 — Aisha",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Aisha",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magici-capelli:aisha",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Magici Capelli (2006) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Discomagia (2006) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Discomagia 2006 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:discomagia:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Discomagia (2006) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Discomagia 2006 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:discomagia:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Discomagia (2006) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Discomagia 2006 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:discomagia:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Discomagia (2006) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Discomagia 2006 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:discomagia:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Discomagia (2006) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Discomagia 2006 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:discomagia:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Discomagia (2006) — Tecna. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Discomagia 2006 — Aisha",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Aisha",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:discomagia:aisha",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Discomagia (2006) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Dancing Party (2006) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Перевірені персонажі та назва лінійки, але відсутні фото й артикули конкретних випусків. Без підміни кодів і прототипів.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Dancing Party 2006 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:dancing-party:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Dancing Party (2006) — Bloom. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Dancing Party 2006 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:dancing-party:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Dancing Party (2006) — Stella. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Dancing Party 2006 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:dancing-party:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Dancing Party (2006) — Flora. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Dancing Party 2006 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:dancing-party:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Dancing Party (2006) — Musa. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Dancing Party 2006 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:dancing-party:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Dancing Party (2006) — Tecna. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        },
+        {
+          "name": "Winx Dancing Party 2006 — Aisha",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Aisha",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:dancing-party:aisha",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Dancing Party (2006) — Aisha. Внесено за підтвердженим переліком випущених персонажів. Фото конкретної версії, артикул та UPC/EAN ще не підтверджені.",
+          "sourceVerification": "Line, year, manufacturer and listed character verified in Dollect manufacturer catalogue; individual image and barcode not verified."
+        }
+      ]
     }
   ]
 }
