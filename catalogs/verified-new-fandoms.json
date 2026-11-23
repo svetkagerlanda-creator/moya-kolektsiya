@@ -815,7 +815,12 @@
           "year": "2013",
           "sourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD42&siteid=27",
           "photo": "https://service.mattel.com//us/img/prod/243/bbd42_c_13_003.jpg",
-          "description": "Оригінальна Raven Queen, офіційний архів Mattel."
+          "description": "Оригінальна Raven Queen, офіційний архів Mattel.",
+          "upc": "746775266493",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/ever-after-high-rebel-raven-queen-doll/",
+          "barcodeVerification": "Explicit retail product UPC matched to original Mattel SKU/edition; check digit validated",
+          "barcodeNote": "Original 2013 BBD42; not wave 2/3 re-release"
         }
       ]
     },
@@ -835,7 +840,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://eahmerch.com/dolls/details/eahld1aw/",
           "photo": "https://4.bp.blogspot.com/-EolNqX-K930/Vw0Zf8Y70MI/AAAAAAAAjxA/72Mbn4DZlPIr1IJGF08gDyb7neUtaeEpwCLcB/s800/Apple-White-Legacy-Day-1.jpg",
-          "description": "Ever After High Legacy Day Wave 1 Apple White details page."
+          "description": "Ever After High Legacy Day Wave 1 Apple White details page.",
+          "upc": "746775282042",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.coleka.com/en/collector-action-figures/dolls/ever-after-high-dolls/apple-white-legacy-day_i234406",
+          "barcodeVerification": "Explicit retail product UPC matched to original Mattel SKU/edition; check digit validated",
+          "barcodeNote": "Mattel BCF49"
         },
         {
           "name": "Ever After High Legacy Day Wave 1 Briar Beauty | EAH Merch",
@@ -843,7 +853,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://eahmerch.com/dolls/details/eahld1bb/",
           "photo": "https://1.bp.blogspot.com/-RWF1-Cwo1kI/Vw0ZgojMQwI/AAAAAAAAjxQ/3DvWt3My1qA9FFeN8gc1-eDb1xVpFutqgCLcB/s800/Briar-Beauty-Legacy-Day-1.jpg",
-          "description": "Ever After High Legacy Day Wave 1 Briar Beauty details page."
+          "description": "Ever After High Legacy Day Wave 1 Briar Beauty details page.",
+          "upc": "746775282059",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/p/2255405157",
+          "barcodeVerification": "Explicit retail product UPC matched to original Mattel SKU/edition; check digit validated",
+          "barcodeNote": "Mattel BCF50"
         },
         {
           "name": "Ever After High Legacy Day Wave 1 Raven Queen | EAH Merch",
@@ -851,7 +866,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://eahmerch.com/dolls/details/eahld1rq/",
           "photo": "https://3.bp.blogspot.com/-xOSMsgvGEKY/Vw0ZiKLlDHI/AAAAAAAAjxo/AdTNSYBPWQsL5CGMwmzUlgKvnzxJN6wQgCLcB/s800/Raven-Queen-Legacy-Day-Doll-1.jpg",
-          "description": "Ever After High Legacy Day Wave 1 Raven Queen details page."
+          "description": "Ever After High Legacy Day Wave 1 Raven Queen details page.",
+          "upc": "746775282035",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://serendipitydollboutique.com/products/ever-after-high-legacy-day-raven-queen-doll",
+          "barcodeVerification": "Explicit retail product UPC matched to original Mattel SKU/edition; check digit validated",
+          "barcodeNote": "Mattel BCF48"
         },
         {
           "name": "Ever After High Legacy Day Wave 2 Ashlynn Ella | EAH Merch",
@@ -859,7 +879,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://eahmerch.com/dolls/details/eahld2ae/",
           "photo": "https://4.bp.blogspot.com/-xo1lBSxNhY0/Vw0Zf2EafuI/AAAAAAAAjxI/BxNt1SW5bycSfJqBJLpl4zekqvE_QOR_QCLcB/s800/Ashlynn-Legacy-Day-1.jpg",
-          "description": "Ever After High Legacy Day Wave 2 Ashlynn Ella details page."
+          "description": "Ever After High Legacy Day Wave 2 Ashlynn Ella details page.",
+          "upc": "746775355913",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.u-buy.co.uk/product/R2UM1PE-ever-after-high-legacy-day-ashlynn-ella-doll",
+          "barcodeVerification": "Explicit retail product UPC matched to original Mattel SKU/edition; check digit validated",
+          "barcodeNote": "Mattel BJH49"
         },
         {
           "name": "Ever After High Legacy Day Wave 2 Cerise Hood | EAH Merch",
@@ -867,7 +892,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://eahmerch.com/dolls/details/eahld2ch/",
           "photo": "https://2.bp.blogspot.com/-ivKALmkl9rY/Vw0Zg4rF3WI/AAAAAAAAjxU/M6cV4rLEc3EJ9FaVDpIxQPD7xoVvC1ehgCLcB/s800/Cerise-Legacy-Day-Doll-1.jpg",
-          "description": "Ever After High Legacy Day Wave 2 Cerise Hood details page."
+          "description": "Ever After High Legacy Day Wave 2 Cerise Hood details page.",
+          "upc": "746775355906",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.u-buy.co.uk/product/11BA8N1S-ever-after-high-first-chapter-cerise-hood-doll",
+          "barcodeVerification": "Explicit retail product UPC matched to original Mattel SKU/edition; check digit validated",
+          "barcodeNote": "Mattel BJH48; UPC corroborated by retailer product listings"
         },
         {
           "name": "Ever After High Legacy Day Wave 2 Madeline Hatter | EAH Merch",
@@ -875,7 +905,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://eahmerch.com/dolls/details/eahld2mh/",
           "photo": "https://2.bp.blogspot.com/-t3G0MPpohJg/Vw0ZhzNcYaI/AAAAAAAAjxg/CLty9hPZc-4gKgqbsbV0T28haff28Z4fwCLcB/s800/Madeline-Legacy-Day-1.jpg",
-          "description": "Ever After High Legacy Day Wave 2 Madeline Hatter details page."
+          "description": "Ever After High Legacy Day Wave 2 Madeline Hatter details page.",
+          "upc": "746775355890",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ubuy.co.za/product/2K99QDI-ever-after-high-legacy-day-madeline-hatter-doll",
+          "barcodeVerification": "Explicit retail product UPC matched to original Mattel SKU/edition; check digit validated",
+          "barcodeNote": "Mattel BJH47"
         }
       ]
     },
