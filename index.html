@@ -871,11 +871,17 @@ function scan(){
     return assortmentMatch||matches(i,code);
    }));
   const uniqueMystery=[...new Map(mysterySeries.map(s=>[s.name,s])).values()];
-  if(uniqueMystery.length===1){close();browseSeriesDirectory(uniqueMystery[0].name);return;}
+  const openMysterySeries=s=>{
+   const existing=importedSeriesFolder(s);
+   close();
+   if(existing)navigate('collections',existing.id);
+   else browseSeriesDirectory(s.name);
+  };
+  if(uniqueMystery.length===1){openMysterySeries(uniqueMystery[0]);return;}
   if(uniqueMystery.length>1){
    results.innerHTML='<h3>Знайдено серії: '+esc(code)+'</h3><p class="muted">Штрихкод mystery-набору відкриває серію, а не випадкового персонажа.</p>'
     +uniqueMystery.map((s,n)=>'<div class="card"><b>'+esc(s.name)+'</b><button type="button" data-mystery-series="'+n+'">Переглянути серію</button></div>').join('');
-   results.querySelectorAll('[data-mystery-series]').forEach(b=>b.onclick=()=>{let name=uniqueMystery[Number(b.dataset.mysterySeries)].name;close();browseSeriesDirectory(name)});
+   results.querySelectorAll('[data-mystery-series]').forEach(b=>b.onclick=()=>{openMysterySeries(uniqueMystery[Number(b.dataset.mysterySeries)])});
    return;
   }
   const mine=data.items.filter(i=>matches(i,code)),catalog=[],seen=new Set();
