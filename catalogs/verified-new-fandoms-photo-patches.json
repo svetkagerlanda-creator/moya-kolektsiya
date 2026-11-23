@@ -92,6 +92,105 @@
       "photoCredit": "Named MGA/Bratz product gallery image",
       "photoStatus": "matched-variant-photo-indexed",
       "photoVerificationNote": "Verified visually against matching name/model on listing, direct image network response in deployed PWA untested."
+    },
+    {
+      "series": "Bratz · Sassy Stampede (2026)",
+      "name": "Bratz Sassy Stampede — Cloe",
+      "photo": "https://www.bratz.com/cdn/shop/files/SassyStampede_Cloe_1.jpg?v=1777925899&width=1946",
+      "sourceUrl": "https://www.bratz.com/products/bratz-sassy-stampede-doll-cloe",
+      "photoCredit": "Official Bratz / MGA Entertainment character-specific product gallery",
+      "photoStatus": "official-item-gallery-direct-image-url",
+      "photoVerificationNote": "Image URL taken from named character's official Bratz product gallery. Link observed in actual gallery image metadata; in-app live rendering not independently checked."
+    },
+    {
+      "series": "Bratz · Sassy Stampede (2026)",
+      "name": "Bratz Sassy Stampede — Yasmin",
+      "photo": "https://www.bratz.com/cdn/shop/files/SassyStampede_Yasmin_2.jpg?v=1777926703&width=1946",
+      "sourceUrl": "https://www.bratz.com/products/bratz-sassy-stampede-doll-yasmin",
+      "photoCredit": "Official Bratz / MGA Entertainment character-specific product gallery",
+      "photoStatus": "official-item-gallery-direct-image-url",
+      "photoVerificationNote": "Image URL taken from named character's official Bratz product gallery. Link observed in actual gallery image metadata; in-app live rendering not independently checked."
+    },
+    {
+      "series": "Bratz · Sassy Stampede (2026)",
+      "name": "Bratz Sassy Stampede — Jade",
+      "photo": "https://www.bratz.com/cdn/shop/files/Bratz-Sassy-Stampede-Jade.jpg?v=1777330054&width=1946",
+      "sourceUrl": "https://www.bratz.com/products/bratz-sassy-stampede-doll-jade",
+      "photoCredit": "Official Bratz / MGA Entertainment character-specific product gallery",
+      "photoStatus": "official-item-gallery-direct-image-url",
+      "photoVerificationNote": "Image URL taken from named character's official Bratz product gallery. Link observed in actual gallery image metadata; in-app live rendering not independently checked."
+    },
+    {
+      "series": "Bratz · Sassy Stampede (2026)",
+      "name": "Bratz Sassy Stampede — Sasha",
+      "photo": "https://www.bratz.com/cdn/shop/files/SassyStampede_Sasha_1.jpg?v=1777927919&width=1946",
+      "sourceUrl": "https://www.bratz.com/products/bratz-sassy-stampede-doll-sasha",
+      "photoCredit": "Official Bratz / MGA Entertainment character-specific product gallery",
+      "photoStatus": "official-item-gallery-direct-image-url",
+      "photoVerificationNote": "Image URL taken from named character's official Bratz product gallery. Link observed in actual gallery image metadata; in-app live rendering not independently checked."
+    },
+    {
+      "series": "Bratz · Scorchin’ (2025)",
+      "name": "Bratz Scorchin’ (2025) — Cloe",
+      "photo": "https://www.bratz.com/cdn/shop/files/544111-Bratz-Scorchin_-Cloe-1.jpg?v=1747762534&width=1946",
+      "sourceUrl": "https://www.bratz.com/products/bratz-scorchin-doll-cloe",
+      "photoCredit": "Official Bratz / MGA Entertainment character-specific product gallery",
+      "photoStatus": "official-item-gallery-direct-image-url",
+      "photoVerificationNote": "Image URL taken from named character's official Bratz product gallery. Link observed in actual gallery image metadata; in-app live rendering not independently checked."
+    },
+    {
+      "series": "Bratz · Scorchin’ (2025)",
+      "name": "Bratz Scorchin’ (2025) — Jade",
+      "photo": "https://www.bratz.com/cdn/shop/files/544838-Bratz-Scorchin-Jade1.jpg?v=1747763049&width=1946",
+      "sourceUrl": "https://www.bratz.com/products/bratz-scorchin-doll-jade",
+      "photoCredit": "Official Bratz / MGA Entertainment character-specific product gallery",
+      "photoStatus": "official-item-gallery-direct-image-url",
+      "photoVerificationNote": "Image URL taken from named character's official Bratz product gallery. Link observed in actual gallery image metadata; in-app live rendering not independently checked."
+    },
+    {
+      "series": "Bratz · Scorchin’ (2025)",
+      "name": "Bratz Scorchin’ (2025) — Sasha",
+      "photo": "https://www.bratz.com/cdn/shop/files/544845-Bratz-Scorchin-Sasha2.jpg?v=1747763504&width=1946",
+      "sourceUrl": "https://www.bratz.com/products/bratz-scorchin-doll-sasha",
+      "photoCredit": "Official Bratz / MGA Entertainment character-specific product gallery",
+      "photoStatus": "official-item-gallery-direct-image-url",
+      "photoVerificationNote": "Image URL taken from named character's official Bratz product gallery. Link observed in actual gallery image metadata; in-app live rendering not independently checked."
+    },
+    {
+      "series": "Bratz · Scorchin’ (2025)",
+      "name": "Bratz Scorchin’ (2025) — Yasmin",
+      "photo": "https://www.bratz.com/cdn/shop/files/544821-Bratz-Scorchin-Yasmin1.jpg?v=1747762799&width=1946",
+      "sourceUrl": "https://www.bratz.com/products/bratz-scorchin-doll-yasmin",
+      "photoCredit": "Official Bratz / MGA Entertainment character-specific product gallery",
+      "photoStatus": "official-item-gallery-direct-image-url",
+      "photoVerificationNote": "Image URL taken from named character's official Bratz product gallery. Link observed in actual gallery image metadata; in-app live rendering not independently checked."
+    },
+    {
+      "series": "Bratz · Stylin’ Birthdayz (2026)",
+      "name": "Bratz Stylin’ Birthdayz (2026) — Cloe",
+      "photo": "https://www.bratz.com/cdn/shop/files/596011_Stylin_Birthdayz_Cloe_Outfit.jpg?v=1781121906&width=1946",
+      "sourceUrl": "https://www.bratz.com/products/bratz-stylin-birthdayz-doll-cloe",
+      "photoCredit": "Official Bratz / MGA Entertainment character-specific product gallery",
+      "photoStatus": "official-item-gallery-direct-image-url",
+      "photoVerificationNote": "Image URL taken from named character's official Bratz product gallery. Link observed in actual gallery image metadata; in-app live rendering not independently checked."
+    },
+    {
+      "series": "Bratz · Stylin’ Birthdayz (2026)",
+      "name": "Bratz Stylin’ Birthdayz (2026) — Jade",
+      "photo": "https://www.bratz.com/cdn/shop/files/596035_Stylin_Birthdayz_Jade_Doll_Outfit.jpg?v=1781121224&width=1946",
+      "sourceUrl": "https://www.bratz.com/products/bratz-stylin-birthdayz-doll-jade",
+      "photoCredit": "Official Bratz / MGA Entertainment character-specific product gallery",
+      "photoStatus": "official-item-gallery-direct-image-url",
+      "photoVerificationNote": "Image URL taken from named character's official Bratz product gallery. Link observed in actual gallery image metadata; in-app live rendering not independently checked."
+    },
+    {
+      "series": "Bratz · Stylin’ Birthdayz (2026)",
+      "name": "Bratz Stylin’ Birthdayz (2026) — Yasmin",
+      "photo": "https://www.bratz.com/cdn/shop/files/596028_Stylin_Birthday_Yasmin_Doll_Outfit.jpg?v=1781121629&width=1946",
+      "sourceUrl": "https://www.bratz.com/products/bratz-stylin-birthdayz-doll-yasmin",
+      "photoCredit": "Official Bratz / MGA Entertainment character-specific product gallery",
+      "photoStatus": "official-item-gallery-direct-image-url",
+      "photoVerificationNote": "Image URL taken from named character's official Bratz product gallery. Link observed in actual gallery image metadata; in-app live rendering not independently checked."
     }
   ]
 }
