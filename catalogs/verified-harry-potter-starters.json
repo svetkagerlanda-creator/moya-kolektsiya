@@ -270,10 +270,14 @@
           "manufacturer": "Spin Master",
           "figureNumber": "",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1j6tzga/",
-          "photo": "",
+          "photo": "https://i5.walmartimages.com/seo/Year-4-Micro-Magical-Moments-Harry-Potter-Mini-Figure-Wand-No-Packaging_7f5e3eb9-5629-44f1-b6ba-c2c4e3ea547b.2aed79bcfebf49dc4ec6894a37a61767.jpeg",
           "rarity": "Regular / rarity unverified",
           "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches.",
-          "collectorCode": "M01"
+          "collectorCode": "M01",
+          "photoSourceUrl": "https://www.walmart.com/ip/16272170749",
+          "photoCredit": "Retailer exact Year 4 mini figure gallery",
+          "photoStatus": "exact-variant-retailer-product-gallery",
+          "photoVerificationNote": "Harry with wand in red and black Triwizard outfit with maze-themed backdrop. Linked retailer listing identifies the specific figure; direct CDN HTTP verification not performed."
         },
         {
           "name": "Mystery variant — Viktor Krum — Shark Transformation",
@@ -294,10 +298,14 @@
           "manufacturer": "Spin Master",
           "figureNumber": "",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1j6tzga/",
-          "photo": "",
+          "photo": "https://i5.walmartimages.com/seo/Harry-Potter-Year-4-Micro-Magical-Moments-Madame-Olympe-Maxime-Mini-Figure-No-Packaging_3322e591-f3e0-4b7e-b35e-429ca2de8323.f883c0a0139bbea982176e7d6b1413b1.jpeg",
           "rarity": "Regular / rarity unverified",
           "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches.",
-          "collectorCode": "M12"
+          "collectorCode": "M12",
+          "photoSourceUrl": "https://www.walmart.com/ip/16256700197",
+          "photoCredit": "Retailer exact Year 4 mini figure gallery",
+          "photoStatus": "exact-variant-retailer-product-gallery",
+          "photoVerificationNote": "Madame Maxime in burgundy gown with green fur accents. Linked retailer listing identifies the specific figure; direct CDN HTTP verification not performed."
         },
         {
           "name": "Mystery variant — Mad-Eye Moody",
@@ -326,21 +334,29 @@
           "name": "Mystery variant — Cedric Diggory — Triwizard Tournament Outfit",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "photo": "",
+          "photo": "https://i5.walmartimages.com/seo/Harry-Potter-Year-4-Micro-Magical-Moments-Cedric-Diggory-Mini-Figure-Wand-No-Packaging_bacc8dbe-ea7e-417e-ab96-efb79f48b51d.7fd395b67280e103727dc409b9d2fb21.jpeg",
           "collectorCode": "M03",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1j6tzga/",
           "rarity": "Regular / rarity unverified",
-          "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches."
+          "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches.",
+          "photoSourceUrl": "https://www.walmart.com/ip/16256750074",
+          "photoCredit": "Retailer exact Year 4 mini figure gallery",
+          "photoStatus": "exact-variant-retailer-product-gallery",
+          "photoVerificationNote": "Cedric in black and yellow Triwizard uniform with wand. Linked retailer listing identifies the specific figure; direct CDN HTTP verification not performed."
         },
         {
           "name": "Mystery variant — Ron Weasley — Quidditch World Cup",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "photo": "",
+          "photo": "https://i5.walmartimages.com/seo/Harry-Potter-Year-4-Micro-Magical-Moments-Ron-Weasley-Mini-Figure-No-Packaging_cc7da862-db9a-4968-ad23-a69611520fbe.593ca621a7d9d7ac37cd13d35a4af3b2.jpeg",
           "collectorCode": "M04",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1j6tzga/",
           "rarity": "Regular / rarity unverified",
-          "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches."
+          "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches.",
+          "photoSourceUrl": "https://www.walmart.com/ip/16273512112",
+          "photoCredit": "Retailer exact Year 4 mini figure gallery",
+          "photoStatus": "exact-variant-retailer-product-gallery",
+          "photoVerificationNote": "Ron in green World Cup outfit and burgundy bowler hat. Linked retailer listing identifies the specific figure; direct CDN HTTP verification not performed."
         },
         {
           "name": "Mystery variant — Harry Potter — Quidditch World Cup",
