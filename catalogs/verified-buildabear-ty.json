@@ -1000,13 +1000,17 @@
           "figureNumber": "39237",
           "variantKey": "ty:squishy-beanies:39237",
           "sourceUrl": "https://www.ty.com/product/nessa/39237.html?cgid=sab&lang=en",
-          "photo": "",
+          "photo": "https://netdm.pl/hpeciai/a4fc0ad3501bc3bf2e6782eb75097735/pol_pl_Ty-Squish-a-Boos-gasienica-Nessa-22cm-392377-77638_1.png",
           "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag.",
           "upc": "008421392377",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-squish-a-boos/raupe-nessa-kuschelkissen.html",
           "barcodeVerification": "Retail product record explicitly lists this character, collection and matching manufacturer SKU with GTIN/EAN or UPC; UPC-A checksum verified.",
-          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes."
+          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes.",
+          "photoSourceUrl": "https://netdm.pl/product-pol-77638-Ty-Squish-a-Boos-gasienica-Nessa-22cm-392377.html",
+          "photoCredit": "Ty Squish-a-Boos model photo matched to manufacturer SKU 39237",
+          "photoStatus": "source-matched-image",
+          "photoVerificationNote": "Named toy product image and SKU corroboration; runtime image availability not tested."
         },
         {
           "name": "Charlie",
@@ -1028,13 +1032,17 @@
           "figureNumber": "39268",
           "variantKey": "ty:squishy-beanies:39268",
           "sourceUrl": "https://www.ty.com/product/finsley/39268.html?cgid=sab&lang=en",
-          "photo": "",
+          "photo": "https://apiv1.biblusi.ge/storage/book/BGPOQz8LiTheLZ4WY4PZYJjovFtyoqmL2QyGTImJ.png",
           "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag.",
           "upc": "008421392681",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-squish-a-boos/hai-fisch-finsley-kuschelkissen.html",
           "barcodeVerification": "Retail product record explicitly lists this character, collection and matching manufacturer SKU with GTIN/EAN or UPC; UPC-A checksum verified.",
-          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes."
+          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes.",
+          "photoSourceUrl": "https://www.synchro-diffusion.com/media/akeneo_connector/asset_files/9/3/933226_FP_fr_FR_e808.pdf",
+          "photoCredit": "Ty Squish-a-Boos model photo matched to manufacturer SKU 39268",
+          "photoStatus": "source-matched-image",
+          "photoVerificationNote": "Named toy product image and SKU corroboration; runtime image availability not tested."
         },
         {
           "name": "Lucy",
