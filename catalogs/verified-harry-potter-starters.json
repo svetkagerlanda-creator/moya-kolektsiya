@@ -2886,7 +2886,7 @@
       "source": "https://www.funko.com/gg/bitty-pop-rubeus-hagrid-dobby-2-pack/94782.html",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 2,
+      "count": 6,
       "items": [
         {
           "name": "Rubeus Hagrid & Dobby 2-Pack",
@@ -2903,6 +2903,38 @@
           "sourceUrl": "https://www.funko.com/gg/bitty-pop-albus-dumbledore-lord-voldemort-2-pack/94783.html",
           "photo": "",
           "description": "Bitty POP! 2-Pack with Albus Dumbledore and Lord Voldemort. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending."
+        },
+        {
+          "name": "Harry Potter & Draco Malfoy 2-Pack",
+          "manufacturer": "Funko",
+          "figureNumber": "88916",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-draco-malfoy-2-pack/88916.html",
+          "photo": "",
+          "description": "Official Funko two-pack with Harry Potter and Draco Malfoy. Funko item number is not a barcode. Exact photo and EAN/UPC pending."
+        },
+        {
+          "name": "Hermione Granger & Ron Weasley 2-Pack",
+          "manufacturer": "Funko",
+          "figureNumber": "88917",
+          "sourceUrl": "https://funko.com/dk/bitty-pop-hermione-granger-ron-weasley-2-pack/88917.html",
+          "photo": "",
+          "description": "Official Funko two-pack with Hermione Granger and Ron Weasley. Funko item number is not a barcode. Exact photo and EAN/UPC pending."
+        },
+        {
+          "name": "Harry Potter & Ginny Weasley (Yule Ball) 2-Pack",
+          "manufacturer": "Funko",
+          "figureNumber": "88940",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-ginny-weasley-2-pack/88940.html",
+          "photo": "",
+          "description": "Official Funko Yule Ball two-pack with Harry Potter and Ginny Weasley. Funko item number is not a barcode. Exact photo and EAN/UPC pending."
+        },
+        {
+          "name": "Hermione Granger & Viktor Krum (Yule Ball) 2-Pack",
+          "manufacturer": "Funko",
+          "figureNumber": "88941",
+          "sourceUrl": "https://funko.com/gb/bitty-pop-hermione-granger-viktor-krum-2-pack/88941.html",
+          "photo": "",
+          "description": "Official Funko Yule Ball two-pack with Hermione Granger and Viktor Krum. Funko item number is not a barcode. Exact photo and EAN/UPC pending."
         }
       ]
     },
@@ -2981,7 +3013,7 @@
       "source": "https://www.funko.com/gb/mystery-pop-keychain-harry-potter-25th-anniversary/93269.html",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
+      "count": 6,
       "items": [
         {
           "name": "Mystery POP! Keychain Harry Potter (25th Anniversary) — Sealed Pack",
@@ -2990,6 +3022,51 @@
           "sourceUrl": "https://www.funko.com/gb/mystery-pop-keychain-harry-potter-25th-anniversary/93269.html",
           "photo": "",
           "description": "Sealed blind-pack collectible; no unverified per-character variants have been added. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending."
+        },
+        {
+          "name": "Mystery POP! Keychain — Harry Potter",
+          "manufacturer": "Funko",
+          "figureNumber": "93269a",
+          "sourceUrl": "https://funko.com/pop-keychain-harry-potter-25th-anniversary/93269a.html",
+          "photo": "",
+          "description": "Official Funko mystery keychain lineup. Published odds: 1/3. Individual sealed-pack barcode not confirmed; this is a possible blind-box outcome.",
+          "rarity": "1/3"
+        },
+        {
+          "name": "Mystery POP! Keychain — Draco Malfoy",
+          "manufacturer": "Funko",
+          "figureNumber": "",
+          "sourceUrl": "https://funko.com/pop-keychain-harry-potter-25th-anniversary/93269a.html",
+          "photo": "",
+          "description": "Official Funko mystery keychain lineup. Published odds: 1/4. Individual sealed-pack barcode not confirmed; this is a possible blind-box outcome.",
+          "rarity": "1/4"
+        },
+        {
+          "name": "Mystery POP! Keychain — Hermione Granger",
+          "manufacturer": "Funko",
+          "figureNumber": "",
+          "sourceUrl": "https://funko.com/pop-keychain-harry-potter-25th-anniversary/93269a.html",
+          "photo": "",
+          "description": "Official Funko mystery keychain lineup. Published odds: 1/6. Individual sealed-pack barcode not confirmed; this is a possible blind-box outcome.",
+          "rarity": "1/6"
+        },
+        {
+          "name": "Mystery POP! Keychain — Severus Snape",
+          "manufacturer": "Funko",
+          "figureNumber": "",
+          "sourceUrl": "https://funko.com/pop-keychain-harry-potter-25th-anniversary/93269a.html",
+          "photo": "",
+          "description": "Official Funko mystery keychain lineup. Published odds: 1/6. Individual sealed-pack barcode not confirmed; this is a possible blind-box outcome.",
+          "rarity": "1/6"
+        },
+        {
+          "name": "Mystery POP! Keychain — Dark Mark",
+          "manufacturer": "Funko",
+          "figureNumber": "",
+          "sourceUrl": "https://funko.com/pop-keychain-harry-potter-25th-anniversary/93269a.html",
+          "photo": "",
+          "description": "Official Funko mystery keychain lineup. Published odds: 1/12. Individual sealed-pack barcode not confirmed; this is a possible blind-box outcome.",
+          "rarity": "1/12"
         }
       ]
     }
