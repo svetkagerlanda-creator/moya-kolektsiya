@@ -11,9 +11,9 @@
       "group": "🎁 Blind Box · 52TOYS",
       "source": "https://toysez.com/products/sleep-fairyland-elves-series",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 4,
-      "notes": "Перевірені поіменно фігурки; неповний список, без вигаданих персонажів. Запаковану коробку залишено як окремий товар.",
+      "completeness": "verified-full-series",
+      "count": 11,
+      "notes": "10 підтверджених персонажів: 8 regular + 1 secret + 1 super secret; додатково окрема SKU закритої коробки. Індивідуальні фото для відсутніх варіантів ще потребують перевірки.",
       "items": [
         {
           "name": "Sleep · Fairyland Elves",
@@ -57,14 +57,92 @@
           "character": "The Magician",
           "catalogPosition": "03",
           "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|The Magician",
-          "sourceUrl": "https://toysez.com/products/sleep-fairyland-elves-series",
+          "sourceUrl": "https://pokkii.com/products/sleep-fairyland-elves-series-blind-box-figure-52toys",
+          "photo": "",
+          "rarity": "Secret",
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
+        },
+        {
+          "name": "The Devil",
+          "manufacturer": "52TOYS",
+          "character": "The Devil",
+          "catalogPosition": "04",
+          "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|The Devil",
+          "sourceUrl": "https://pokkii.com/products/sleep-fairyland-elves-series-blind-box-figure-52toys",
           "photo": "",
           "rarity": "Regular",
-          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
+          "description": "Підтверджений варіант у переліку продавця POKKII. Індивідуальне фото не підтверджене; випадкову коробку не прирівнювати до цього персонажа."
+        },
+        {
+          "name": "Death",
+          "manufacturer": "52TOYS",
+          "character": "Death",
+          "catalogPosition": "05",
+          "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|Death",
+          "sourceUrl": "https://pokkii.com/products/sleep-fairyland-elves-series-blind-box-figure-52toys",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант у переліку продавця POKKII. Індивідуальне фото не підтверджене; випадкову коробку не прирівнювати до цього персонажа."
+        },
+        {
+          "name": "The Hanged Man",
+          "manufacturer": "52TOYS",
+          "character": "The Hanged Man",
+          "catalogPosition": "06",
+          "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|The Hanged Man",
+          "sourceUrl": "https://pokkii.com/products/sleep-fairyland-elves-series-blind-box-figure-52toys",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант у переліку продавця POKKII. Індивідуальне фото не підтверджене; випадкову коробку не прирівнювати до цього персонажа."
+        },
+        {
+          "name": "The Moon",
+          "manufacturer": "52TOYS",
+          "character": "The Moon",
+          "catalogPosition": "07",
+          "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|The Moon",
+          "sourceUrl": "https://pokkii.com/products/sleep-fairyland-elves-series-blind-box-figure-52toys",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант у переліку продавця POKKII. Індивідуальне фото не підтверджене; випадкову коробку не прирівнювати до цього персонажа."
+        },
+        {
+          "name": "The Hierophant",
+          "manufacturer": "52TOYS",
+          "character": "The Hierophant",
+          "catalogPosition": "08",
+          "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|The Hierophant",
+          "sourceUrl": "https://pokkii.com/products/sleep-fairyland-elves-series-blind-box-figure-52toys",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант у переліку продавця POKKII. Індивідуальне фото не підтверджене; випадкову коробку не прирівнювати до цього персонажа."
+        },
+        {
+          "name": "The Lovers",
+          "manufacturer": "52TOYS",
+          "character": "The Lovers",
+          "catalogPosition": "09",
+          "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|The Lovers",
+          "sourceUrl": "https://pokkii.com/products/sleep-fairyland-elves-series-blind-box-figure-52toys",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант у переліку продавця POKKII. Індивідуальне фото не підтверджене; випадкову коробку не прирівнювати до цього персонажа."
+        },
+        {
+          "name": "The Wheel of Fortune",
+          "manufacturer": "52TOYS",
+          "character": "The Wheel of Fortune",
+          "catalogPosition": "10",
+          "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|The Wheel of Fortune",
+          "sourceUrl": "https://pokkii.com/products/sleep-fairyland-elves-series-blind-box-figure-52toys",
+          "photo": "",
+          "rarity": "Super Secret",
+          "description": "Підтверджений варіант у переліку продавця POKKII. Індивідуальне фото не підтверджене; випадкову коробку не прирівнювати до цього персонажа."
         }
       ],
       "sourceType": "collector-database-verified-figures-and-retailer-packaging",
-      "verifiedFigureCount": 3
+      "verifiedFigureCount": 10,
+      "sourceDeclaredCount": 10
     },
     {
       "name": "POP TOP · Letsvan Ziyuli · Розкішні самоцвіти",
