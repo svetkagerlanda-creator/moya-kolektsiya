@@ -2814,6 +2814,67 @@
           "description": "You're Magical! Birthday card. Blank inside for your own message Size: 115mm x 175mm Customized graphics with colroful foil 350 gsm quality paper White envelope included Transparent polybag Made in Italy"
         }
       ]
+    },
+    {
+      "name": "Winx Club · The Alfea Grand Ball · Giochi Preziosi",
+      "source": "https://www.lagranderecre.fr/poupons-et-poupees/poupees-mannequins/poupee-winx-tenue-de-bal-a-alfea-26cm.html",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · The Alfea Grand Ball",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "assortmentEan": "8056379198772",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://www.lagranderecre.fr/poupons-et-poupees/poupees-mannequins/poupee-winx-tenue-de-bal-a-alfea-26cm.html",
+      "assortmentBarcodeNote": "Random mixed assortment, not a character-specific EAN. Six characters exist; only three individually verified here.",
+      "items": [
+        {
+          "name": "Winx The Alfea Grand Ball — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "figureNumber": "WNX702",
+          "variantKey": "giochi-preziosi:the-alfea-grand-ball:WNX702",
+          "sourceUrl": "https://www.lagranderecre.fr/poupons-et-poupees/poupees-mannequins/poupee-winx-tenue-de-bal-a-alfea-26cm-bloom.html",
+          "photo": "",
+          "ean": "8056379202141",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.lagranderecre.fr/poupons-et-poupees/poupees-mannequins/poupee-winx-tenue-de-bal-a-alfea-26cm-bloom.html",
+          "barcodeVerification": "La Grande Récré retailer explicitly identifies Giochi Preziosi WNX model and its character-specific EAN-13; check digit valid",
+          "barcodeNote": "Grand Ball gala costume, not Winx Alfea casual-style doll from Playmates",
+          "description": "Лялька 26 см у святковій сукні. Фото залишене порожнім до підтвердження прямого URL."
+        },
+        {
+          "name": "Winx The Alfea Grand Ball — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "figureNumber": "WNX703",
+          "variantKey": "giochi-preziosi:the-alfea-grand-ball:WNX703",
+          "sourceUrl": "https://www.lagranderecre.fr/poupons-et-poupees/poupees-mannequins/poupee-winx-tenue-de-bal-a-alfea-26cm-flora.html",
+          "photo": "",
+          "ean": "8056379202158",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.lagranderecre.fr/poupons-et-poupees/poupees-mannequins/poupee-winx-tenue-de-bal-a-alfea-26cm-flora.html",
+          "barcodeVerification": "La Grande Récré retailer explicitly identifies Giochi Preziosi WNX model and its character-specific EAN-13; check digit valid",
+          "barcodeNote": "Grand Ball gala costume, not Winx Alfea casual-style doll from Playmates",
+          "description": "Лялька 26 см у святковій сукні. Фото залишене порожнім до підтвердження прямого URL."
+        },
+        {
+          "name": "Winx The Alfea Grand Ball — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "figureNumber": "WNX705",
+          "variantKey": "giochi-preziosi:the-alfea-grand-ball:WNX705",
+          "sourceUrl": "https://www.lagranderecre.fr/poupons-et-poupees/poupee-winx-stella-grand-bal-a-alfea.html",
+          "photo": "",
+          "ean": "8056379202172",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.lagranderecre.fr/poupons-et-poupees/poupee-winx-stella-grand-bal-a-alfea.html",
+          "barcodeVerification": "La Grande Récré retailer explicitly identifies Giochi Preziosi WNX model and its character-specific EAN-13; check digit valid",
+          "barcodeNote": "Grand Ball gala costume, not Winx Alfea casual-style doll from Playmates",
+          "description": "Лялька 26 см у святковій сукні. Фото залишене порожнім до підтвердження прямого URL."
+        }
+      ]
     }
   ]
 }
