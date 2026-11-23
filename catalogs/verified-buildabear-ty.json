@@ -99,8 +99,10 @@
           "figureNumber": "034050",
           "variantKey": "buildabear:sanrio:mini-beans:034050",
           "sourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-kuromi-plush/034050.html",
-          "photo": "",
-          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод."
+          "photo": "https://buildabear.co.za/cdn/shop/files/34050-2100x2100-78a2812_1.jpg?v=1752041876",
+          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод.",
+          "photoCredit": "Build-A-Bear South Africa, item 034050",
+          "photoSourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-kuromi-plush/034050.html"
         },
         {
           "name": "Mini Beans · My Melody",
@@ -109,8 +111,10 @@
           "figureNumber": "033950",
           "variantKey": "buildabear:sanrio:mini-beans:033950",
           "sourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-my-melody-plush/033950.html",
-          "photo": "",
-          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод."
+          "photo": "https://www.buildabear.co.uk/on/demandware.static/-/Sites-buildabear-master/default/dwcba79d79/18240812333950~x20001115.jpg",
+          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод.",
+          "photoCredit": "Build-A-Bear UK corresponding Mini Beans item 433950 / US 033950",
+          "photoSourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-my-melody-plush/033950.html"
         },
         {
           "name": "Mini Beans · Pompompurin",
@@ -119,8 +123,10 @@
           "figureNumber": "033951",
           "variantKey": "buildabear:sanrio:mini-beans:033951",
           "sourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-pompompurin-plush/033951.html",
-          "photo": "",
-          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод."
+          "photo": "https://www.buildabear.com/on/demandware.static/-/Sites-buildabear-master/default/dw77c5670b/57240812333951~x20001119.jpg",
+          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод.",
+          "photoCredit": "Official Build-A-Bear Mini Beans 033951",
+          "photoSourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-pompompurin-plush/033951.html"
         },
         {
           "name": "Mini Beans · Pochacco",
@@ -129,11 +135,33 @@
           "figureNumber": "034174",
           "variantKey": "buildabear:sanrio:mini-beans:034174",
           "sourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-pochacco-plush/034174.html",
+          "photo": "https://www.buildabear.co.uk/on/demandware.static/-/Sites-buildabear-master/default/dwcafd47f0/40250811934174~x20241025.jpg",
+          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод.",
+          "photoCredit": "Official Build-A-Bear UK corresponding Mini Beans 434174 / US 034174",
+          "photoSourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-pochacco-plush/034174.html"
+        },
+        {
+          "name": "Mini Beans · Chococat",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Chococat",
+          "figureNumber": "033948",
+          "variantKey": "buildabear:sanrio:mini-beans:033948",
+          "sourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-chococat-plush/033948.html",
           "photo": "",
-          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод."
+          "description": "Офіційний Mini Beans плюшевий персонаж, окремо від стандартного розміру. SKU виробника, не UPC; фото та штрихкод очікують підтвердження."
+        },
+        {
+          "name": "Mini Beans · Hello Kitty",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Hello Kitty",
+          "figureNumber": "034102",
+          "variantKey": "buildabear:sanrio:mini-beans:034102",
+          "sourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-plush/034102.html",
+          "photo": "",
+          "description": "Офіційний Mini Beans плюшевий персонаж, окремо від стандартного розміру. SKU виробника, не UPC; фото та штрихкод очікують підтвердження."
         }
       ],
-      "count": 5
+      "count": 7
     },
     {
       "name": "Ty · Beanie Boos · Selected Official Releases",
@@ -564,8 +592,10 @@
           "figureNumber": "029058",
           "variantKey": "buildabear:disney:stitch:029058",
           "sourceUrl": "https://www.buildabear.com/disney-angel-plush/029058.html",
-          "photo": "",
-          "description": "Individual Disney Stitch-universe plush from official Build-A-Bear catalogue. Maker SKU, not UPC; costume and accessories counted separately."
+          "photo": "https://www.buildabear.com/dw/image/v2/BBNG_PRD/on/demandware.static/-/Sites-buildabear-master/default/dw99313a49/00231211229058Alt1x20920011.jpg?sh=800&sm=fit&sw=800",
+          "description": "Individual Disney Stitch-universe plush from official Build-A-Bear catalogue. Maker SKU, not UPC; costume and accessories counted separately.",
+          "photoCredit": "Official Build-A-Bear 029058",
+          "photoSourceUrl": "https://www.buildabear.com/disney-angel-plush/029058.html"
         },
         {
           "name": "Disney Experiment 626 Stitch Plush",
@@ -584,8 +614,10 @@
           "figureNumber": "034339",
           "variantKey": "buildabear:disney:stitch:034339",
           "sourceUrl": "https://www.buildabear.com/disney-lilo-and-stitch-leroy-plush/034339.html",
-          "photo": "",
-          "description": "Individual Disney Stitch-universe plush from official Build-A-Bear catalogue. Maker SKU, not UPC; costume and accessories counted separately."
+          "photo": "https://www.buildabear.co.uk/on/demandware.static/-/Sites-buildabear-master/default/dw9f9404cc/33250700934339~x20339052.jpg",
+          "description": "Individual Disney Stitch-universe plush from official Build-A-Bear catalogue. Maker SKU, not UPC; costume and accessories counted separately.",
+          "photoCredit": "Official Build-A-Bear UK 434339 corresponding to US 034339",
+          "photoSourceUrl": "https://www.buildabear.com/disney-lilo-and-stitch-leroy-plush/034339.html"
         }
       ],
       "count": 4
