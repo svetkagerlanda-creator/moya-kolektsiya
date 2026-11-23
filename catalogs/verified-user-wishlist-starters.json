@@ -114,10 +114,12 @@
           "catalogPosition": "07",
           "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|The Moon",
           "sourceUrl": "https://toysez.com/products/sleep-fairyland-elves-series-the-moon",
-          "photo": "",
+          "photo": "https://toysez.com/cdn/shop/files/4_1_e947c8f2-cb96-4ae9-9ab9-6e574a7cdc45.jpg?v=1736351314",
           "rarity": "Regular",
           "description": "Підтверджений варіант у переліку продавця POKKII. Індивідуальне фото не підтверджене; випадкову коробку не прирівнювати до цього персонажа.",
-          "retailerSku": "8680929951932"
+          "retailerSku": "8680929951932",
+          "photoCredit": "TOYSEZ exact The Moon figurine listing",
+          "photoStatus": "exact-variant-product-gallery"
         },
         {
           "name": "The Hierophant",
