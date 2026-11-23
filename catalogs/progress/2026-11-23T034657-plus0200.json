@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-11-23T03:46:57+02:00",
+  "scope": "historical dolls and pets catalog importer",
+  "baselineFromDiagnostics": {
+    "indexed": 422,
+    "selected": 120,
+    "verifiedSeries": 360,
+    "items": 6441,
+    "photosWithUrls": 6441,
+    "remainingUnscanned": 62
+  },
+  "changes": [
+    {
+      "path": "scripts/build_historical_dolls_pets.py",
+      "type": "completeness-validation",
+      "description": "Only label historical series full when source-declared count matches and each release has an individual photo URL"
+    },
+    {
+      "path": "scripts/build_historical_dolls_pets.py",
+      "type": "diagnostics",
+      "description": "Expose missingIndividualPhotos and partialSeries counts"
+    }
+  ],
+  "commits": [
+    "37590240dec3c8be73ba13ab5cedd8b5ca25081f",
+    "bb70c93672bdc3040a93eb225ce5f241dea0b885"
+  ],
+  "newVerifiedSeries": 0,
+  "newVerifiedItems": 0,
+  "newVerifiedPhotos": 0,
+  "limitations": [
+    "Importer was updated but not executed in this run; existing historical catalog and diagnostics retain their previous state",
+    "Photo URL presence does not prove HTTP accessibility or image-to-SKU match"
+  ],
+  "nextSteps": [
+    "Execute historical importer in repository environment with dependencies",
+    "Verify resulting completeness counts and HTTP image responses",
+    "Continue indexing 62 unscanned historical series and expand Winx, Bratz and other manufacturers"
+  ],
+  "personalCollectionsChanged": false
+}
