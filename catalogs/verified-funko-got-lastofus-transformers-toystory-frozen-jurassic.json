@@ -91,7 +91,11 @@
           "seriesNumber": "80987",
           "sourceUrl": "https://funko.com/pop-optimus-prime-generation-1/80987.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwd036d746/images/funko/upload/80987_POP-Retro-Toys_Trfms-G1_Optimus-Prime_POP_Glam_FigureOnly-WEB.png?sh=800&sw=800",
-          "description": "Funko POP! item 80987; box #131"
+          "description": "Funko POP! item 80987; box #131",
+          "upc": "889698809870",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/transformers-generation-1-optimus-prime-funko-pop-vinyl-figure-131/fu80987",
+          "barcodeVerification": "Entertainment Earth explicitly lists this Funko release, its item number and UPC-A; check digit verified"
         },
         {
           "name": "Optimus Prime (40th Anniversary)",
@@ -102,7 +106,11 @@
           "seriesNumber": "93350",
           "sourceUrl": "https://funko.com/pop-optimus-prime-40th-anniversary/93350.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwc896ac7f/images/funko/upload/1/93350_Transformers-S7_OptimusPrime_Pop_render-Glam-WEB.png?sh=800&sw=800",
-          "description": "Funko POP! item 93350; box #178"
+          "description": "Funko POP! item 93350; box #178",
+          "upc": "889698933506",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/retro-toys-transformers-optimus-prime-funko-pop-vinyl-figure/fu93350",
+          "barcodeVerification": "Entertainment Earth explicitly lists this Funko release, its item number and UPC-A; check digit verified"
         }
       ]
     },
