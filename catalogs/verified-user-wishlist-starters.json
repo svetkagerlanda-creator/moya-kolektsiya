@@ -471,11 +471,11 @@
       "manufacturer": "10/10 Toys",
       "fandomKey": "blind-box",
       "group": "🎁 Blind Box · 10/10 Toys",
-      "source": "",
+      "source": "https://pokkii.com/products/dodo-nami-floating-mountains-and-seas-series-blind-box-figures",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "completeness": "full-named-variant-checklist-with-sealed-assortment",
+      "count": 8,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок. Six regular variants and one secret Kun Peng; named variants confirmed by specialist retailer. Secret ratio differs across retailers and is not asserted.",
       "items": [
         {
           "name": "Dodo Nami · Floating Mountain Sea",
@@ -497,6 +497,69 @@
           "photoCredit": "Будинок іграшок — головне фото товару з відповідним кодом магазину",
           "photoStatus": "retailer-product-image-link-pending-http-check",
           "photoVerificationNote": "Retailer listing confirms SKU and identifies the item; image CDN path follows documented bi.ua product photo pattern. HTTP response could not be validated independently. For random blind box this is assortment/product image, not a confirmed specific variant."
+        },
+        {
+          "name": "Floating Mountain Sea · Meng Ji",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://pokkii.com/products/dodo-nami-floating-mountains-and-seas-series-blind-box-figures",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Named blind-box variant listed by specialist retailer; sealed box SKU and EAN are not individual variant identifiers. Exact individual photo not verified."
+        },
+        {
+          "name": "Floating Mountain Sea · Jiao Ren",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://pokkii.com/products/dodo-nami-floating-mountains-and-seas-series-blind-box-figures",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Named blind-box variant listed by specialist retailer; sealed box SKU and EAN are not individual variant identifiers. Exact individual photo not verified."
+        },
+        {
+          "name": "Floating Mountain Sea · Zhu Que",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://pokkii.com/products/dodo-nami-floating-mountains-and-seas-series-blind-box-figures",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Named blind-box variant listed by specialist retailer; sealed box SKU and EAN are not individual variant identifiers. Exact individual photo not verified."
+        },
+        {
+          "name": "Floating Mountain Sea · Bai Ze",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://pokkii.com/products/dodo-nami-floating-mountains-and-seas-series-blind-box-figures",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Named blind-box variant listed by specialist retailer; sealed box SKU and EAN are not individual variant identifiers. Exact individual photo not verified."
+        },
+        {
+          "name": "Floating Mountain Sea · Pi Xiu",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://pokkii.com/products/dodo-nami-floating-mountains-and-seas-series-blind-box-figures",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Named blind-box variant listed by specialist retailer; sealed box SKU and EAN are not individual variant identifiers. Exact individual photo not verified."
+        },
+        {
+          "name": "Floating Mountain Sea · Jiu Wei",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://pokkii.com/products/dodo-nami-floating-mountains-and-seas-series-blind-box-figures",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Named blind-box variant listed by specialist retailer; sealed box SKU and EAN are not individual variant identifiers. Exact individual photo not verified."
+        },
+        {
+          "name": "Floating Mountain Sea · Kun Peng",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://pokkii.com/products/dodo-nami-floating-mountains-and-seas-series-blind-box-figures",
+          "photo": "",
+          "rarity": "Secret",
+          "description": "Named blind-box variant listed by specialist retailer; sealed box SKU and EAN are not individual variant identifiers. Exact individual photo not verified."
         }
       ],
       "assortmentEan": "6975170196928",
@@ -637,11 +700,11 @@
       "manufacturer": "POP TOP",
       "fandomKey": "blind-box",
       "group": "🎁 Blind Box · POP TOP",
-      "source": "",
+      "source": "https://www.kikagoods.com/collections/confirmed-style-collection/products/ziyuli-spiritual-power-series-blind-box",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "count": 2,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок. Six regular designs and secret Twins (1/72) confirmed by specialist seller; regular figure names still pending.",
       "items": [
         {
           "name": "Letsvan Ziyuli · Духовна сила",
@@ -663,6 +726,15 @@
           "photoCredit": "Будинок іграшок — головне зображення товару з кодом 636065",
           "photoStatus": "retailer-sku-image-url-needs-live-validation",
           "photoVerificationNote": "SKU matches retailer product listing on its brand page; image path follows retailer CDN convention, but HTTP response is not confirmed. Photo is for sealed random product, not individual blind-box figure."
+        },
+        {
+          "name": "Духовна сила · Twins",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://www.kikagoods.com/collections/confirmed-style-collection/products/ziyuli-spiritual-power-series-blind-box",
+          "photo": "",
+          "rarity": "Secret · 1/72",
+          "description": "Named blind-box variant listed by specialist retailer; sealed box SKU and EAN are not individual variant identifiers. Exact individual photo not verified."
         }
       ],
       "assortmentEan": "6974773012444",
@@ -1456,11 +1528,11 @@
       "manufacturer": "10/10 Toys",
       "fandomKey": "blind-box",
       "group": "🎁 Blind Box · 10/10 Toys",
-      "source": "",
+      "source": "https://www.kikagoods.com/products/nono-sova-nightmare-lullaby-series-blind-box",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "count": 2,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок. Six regular designs and one secret Thornbird confirmed by specialist seller. Regular design names still pending reliable identification.",
       "items": [
         {
           "name": "Nono Sova · Nightmare Lullaby",
@@ -1482,6 +1554,15 @@
           "photoCredit": "Будинок іграшок — головне зображення товару з кодом 637170",
           "photoStatus": "retailer-sku-image-url-needs-live-validation",
           "photoVerificationNote": "SKU matches retailer product listing on its brand page; image path follows retailer CDN convention, but HTTP response is not confirmed. Photo is for sealed random product, not individual blind-box figure."
+        },
+        {
+          "name": "Nightmare Lullaby · Thornbird",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://www.kikagoods.com/products/nono-sova-nightmare-lullaby-series-blind-box",
+          "photo": "",
+          "rarity": "Secret · 1/144",
+          "description": "Named blind-box variant listed by specialist retailer; sealed box SKU and EAN are not individual variant identifiers. Exact individual photo not verified."
         }
       ],
       "assortmentEan": "6978571803426",
