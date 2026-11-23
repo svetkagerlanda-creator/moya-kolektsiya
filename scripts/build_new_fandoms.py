@@ -118,7 +118,7 @@ def parse_product(url,fandom,manufacturer):
     p=urlsplit(url)
     number=""
     if p.hostname=="shop.mattel.com":
-        m=re.search(r"-([a-z]{2,4}\d{2,6})/?$",p.path,re.I)
+        m=re.search(r"[-/]([a-z]{2,4}\d{2,6})(?:[-/]|$)",p.path,re.I)
         if m:number=m.group(1).upper()
     elif "product_id=" in p.query:
         number=parse_qs(p.query).get("product_id",[""])[0]
@@ -287,7 +287,36 @@ def main():
                                  "everafterhigh":"📖 Ever After High","sylvanian":"🐰 Sylvanian Families",
                                  "lps":"🐾 Littlest Pet Shop","winx":"🧚 Winx Club"}[fandom],
                         "count":len(items),"items":items}
-    output={"schemaVersion":1,"series":sorted(previous.values(),key=lambda s:s["name"])}
+    # Clean earlier crawls with storefront "you may also like" recommendations.
+    # Keep only releases belonging to their series, and one identity across
+    # different country/language storefront pages where SKU is identical.
+    old_wrong_names={"Bratz · Official Fashion Dolls"}
+    priority=lambda name:(any(x in name for x in
+        ("Official Collections","Official Products","Official Mattel",
+         "Generation 7","Product Series","Doll Series")),name)
+    dedup=set()
+    clean=[]
+    for series in sorted(previous.values(),key=lambda x:priority(x["name"])):
+        if series["name"] in old_wrong_names:continue
+        valid=[]
+        for card in series.get("items",[]):
+            if not belongs_to_series(series["name"],card):continue
+            url=card.get("sourceUrl","")
+            sku=str(card.get("figureNumber") or "")
+            if series.get("fandomKey")=="monsterhigh" and sku:
+                release_key=("monsterhigh",sku.casefold())
+            elif card.get("variantKey"):
+                release_key=(series.get("fandomKey"),url,card["variantKey"])
+            else:
+                release_key=(series.get("fandomKey"),url)
+            if release_key in dedup:continue
+            dedup.add(release_key)
+            valid.append(card)
+        if not valid:continue
+        series["items"]=sorted(valid,key=lambda c:(c.get("name",""),c.get("sourceUrl","")))
+        series["count"]=len(valid)
+        clean.append(series)
+    output={"schemaVersion":1,"series":sorted(clean,key=lambda s:s["name"])}
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     OUTPUT.write_text(json.dumps(output,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf8")
     ERRORS.write_text(json.dumps({"sourcePages":len(SOURCES),"queriedProductPages":len(jobs),
