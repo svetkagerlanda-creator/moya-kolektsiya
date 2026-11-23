@@ -1184,7 +1184,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-muneca-skulltimate-secrets-garden-mysteries-sorpresa-hyt71-es-mx",
           "photo": "https://shop.mattel.com/cdn/shop/files/xggyizx9zrgeojdqvgem.jpg?v=1758312587",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735255412",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.sanborns.com.mx/producto/869333/muneca-skulltimate-secrets-garden-mysteries-monster-high",
+          "barcodeVerification": "Retailer product SKU HYT71 and EAN corroborated by manufacturer assortment listing; check digit valid",
+          "barcodeNote": "Assortment-wide Garden Mysteries retail barcode; NOT individual doll/character identifier"
         },
         {
           "name": "Monster High Skulltimate Secrets Cabin Slay-Cation Playset, Clawdeen Wolf Doll And Accessories",
