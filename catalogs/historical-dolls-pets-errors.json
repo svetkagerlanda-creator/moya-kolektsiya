@@ -39,5 +39,9 @@
       ]
     }
   },
+  "duplicateDetailPagesAcrossSeries": {},
+  "missingPhotoCards": [],
+  "invalidPhotoUrls": [],
+  "photoValidationScope": "URL syntax and card association only; remote image accessibility and physical SKU matching not verified",
   "errors": {}
 }

@@ -6,7 +6,7 @@
   "photoRecords": 170,
   "errors": {
     "https://shop.mgae.com/collections/bratz-babyz/products/bratz-big-babyz-doll-yasmin": "404 Client Error: Not Found for url: https://shop.mgae.com/collections/bratz-babyz/products/bratz-big-babyz-doll-yasmin",
-    "https://www.bratz.com/products/bratz-play-sportz-jade-basketball": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-play-sportz-jade-basketball",
+    "https://www.bratz.com/products/bratz-play-sportz-roxxi-soccer": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-play-sportz-roxxi-soccer",
     "https://www.bratz.com/products/bratz-play-sportz-sasha-cheerleading": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-play-sportz-sasha-cheerleading",
     "https://www.bratz.com/products/bratz-play-sportz-yasmin-gymnastics": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-play-sportz-yasmin-gymnastics",
     "https://www.bratz.com/products/bratz-sportz-champions-adult-t-shirt": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-sportz-champions-adult-t-shirt",
@@ -29,7 +29,6 @@
     "https://shop.mattel.com/products/monster-highpoupeedraculaura-hrp64-fr-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-highpoupeedraculaura-hrp64-fr-ca",
     "https://shop.mattel.com/products/monster-highpoupeevenus-mcflytrap-hrp81-fr-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-highpoupeevenus-mcflytrap-hrp81-fr-ca",
     "https://www.winxclub.com/en-us/products/winx-dreamix-figure-collection-6-characters": "404 Client Error: Not Found for url: https://www.winxclub.com/en-us/products/winx-dreamix-figure-collection-6-characters",
-    "https://www.winxclub.com/products/winx-club-we-are-the-magic-t-shirt": "429 Client Error: Too Many Requests for url: https://www.winxclub.com/products/winx-club-we-are-the-magic-t-shirt",
     "https://www.winxclub.com/products/winx-rock-band-limited-edition-comics-vol-1-italian-edition": "429 Client Error: Too Many Requests for url: https://www.winxclub.com/products/winx-rock-band-limited-edition-comics-vol-1-italian-edition",
     "https://www.winxclub.com/products/winx-vs-trix-limited-edition-comics-vol-2-italian-edition": "429 Client Error: Too Many Requests for url: https://www.winxclub.com/products/winx-vs-trix-limited-edition-comics-vol-2-italian-edition",
     "https://www.winxclub.com/products/youre-magical-birthday-card": "429 Client Error: Too Many Requests for url: https://www.winxclub.com/products/youre-magical-birthday-card",
