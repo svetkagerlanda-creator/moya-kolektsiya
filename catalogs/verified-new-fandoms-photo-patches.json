@@ -191,6 +191,15 @@
       "photoCredit": "Official Bratz / MGA Entertainment character-specific product gallery",
       "photoStatus": "official-item-gallery-direct-image-url",
       "photoVerificationNote": "Image URL taken from named character's official Bratz product gallery. Link observed in actual gallery image metadata; in-app live rendering not independently checked."
+    },
+    {
+      "series": "Bratz · Stylin’ Birthdayz (2026)",
+      "name": "Bratz Stylin’ Birthdayz (2026) — Sasha",
+      "photo": "https://www.bratz.com/cdn/shop/files/596042_Stylin_Birthdayz_Sasha_Outfit.jpg?v=1781120449",
+      "sourceUrl": "https://www.bratz.com/products/bratz-stylin-birthdayz-doll-sasha",
+      "photoCredit": "MGA / Bratz official Stylin Birthdayz Sasha full-outfit product photo",
+      "photoStatus": "official-item-gallery-image-visually-confirmed",
+      "photoVerificationNote": "Official Bratz product image result visibly shows Sasha in matching 596042 Birthdayz release; live PWA load still untested."
     }
   ]
 }
