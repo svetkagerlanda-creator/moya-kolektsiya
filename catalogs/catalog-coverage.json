@@ -163,9 +163,9 @@
     },
     {
       "file": "verified-mlp-all-series.json",
-      "series": 793,
-      "items": 9697,
-      "photos": 9697,
+      "series": 872,
+      "items": 10398,
+      "photos": 10398,
       "missingPhotos": 0,
       "invalidSeries": 0,
       "duplicateUrls": 0,
@@ -213,15 +213,20 @@
     }
   ],
   "totals": {
-    "verifiedSeriesRecords": 1224,
+    "verifiedSeriesRecords": 1303,
     "partialSeriesRecords": 47,
-    "releaseRecords": 17245,
-    "photoRecords": 17213,
+    "releaseRecords": 17946,
+    "photoRecords": 17914,
     "missingPhotoRecords": 32,
     "crossFeedOverlappingSourceUrls": 2883,
-    "distinctSourceUrls": 14293
+    "distinctSourceUrls": 14994
   },
   "sourceRoots": {
+    "basic-fun": {
+      "series": 17,
+      "items": 208,
+      "photos": 208
+    },
     "blind-bags": {
       "series": 51,
       "items": 915,
@@ -242,10 +247,20 @@
       "items": 18,
       "photos": 18
     },
+    "ep": {
+      "series": 3,
+      "items": 19,
+      "photos": 19
+    },
     "equestria-girls": {
       "series": 22,
       "items": 306,
       "photos": 306
+    },
+    "fairy-tails": {
+      "series": 7,
+      "items": 56,
+      "photos": 56
     },
     "funko-figures": {
       "series": 62,
@@ -256,6 +271,11 @@
       "series": 194,
       "items": 1290,
       "photos": 1290
+    },
+    "g1-plush": {
+      "series": 9,
+      "items": 64,
+      "photos": 64
     },
     "g1-retro": {
       "series": 78,
@@ -271,6 +291,11 @@
       "series": 73,
       "items": 828,
       "photos": 828
+    },
+    "g3-plush": {
+      "series": 32,
+      "items": 253,
+      "photos": 253
     },
     "g35": {
       "series": 40,
@@ -292,6 +317,11 @@
       "items": 129,
       "photos": 129
     },
+    "g5-blind-bags": {
+      "series": 1,
+      "items": 39,
+      "photos": 39
+    },
     "g5-other-figures": {
       "series": 32,
       "items": 167,
@@ -306,6 +336,11 @@
       "series": 10,
       "items": 80,
       "photos": 80
+    },
+    "hasbro-pop": {
+      "series": 10,
+      "items": 62,
+      "photos": 62
     },
     "kayou-cards": {
       "series": 17,
