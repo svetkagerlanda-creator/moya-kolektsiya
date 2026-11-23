@@ -63,13 +63,14 @@ def discover(root,category,index):
             title=unquote(slug).replace("-"," ").title()
         title=re.sub(r"\s+"," ",title).strip()
         if len(title)>100: title=title[:100].strip()
+        title=re.sub(r"\s*\([\d,]+\s+(?:releases|figures|ponies|dolls|items|toys)\)\s*$","",title,flags=re.I).strip()
         name=f"Hasbro · {index} · {title}"
         expected=None
         # Some source indexes display the count on a series tile rather than
         # its detail page. Accept it only when clearly tied to this link.
         for node in (a, a.parent, a.parent.parent if a.parent else None):
             if node is None: continue
-            count_match=re.search(r"\\(([\\d,]+)\\s+(?:releases|figures|ponies|dolls|items|toys)\\)",node.get_text(" ",strip=True),re.I)
+            count_match=re.search(r"\(([\d,]+)\s+(?:releases|figures|ponies|dolls|items|toys)\)",node.get_text(" ",strip=True),re.I)
             if count_match:
                 expected=int(count_match.group(1).replace(",",""))
                 break
