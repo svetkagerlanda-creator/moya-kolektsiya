@@ -200,6 +200,46 @@
       "photoCredit": "MGA / Bratz official Stylin Birthdayz Sasha full-outfit product photo",
       "photoStatus": "official-item-gallery-image-visually-confirmed",
       "photoVerificationNote": "Official Bratz product image result visibly shows Sasha in matching 596042 Birthdayz release; live PWA load still untested."
+    },
+    {
+      "series": "Monster High · Core Dolls 2026",
+      "name": "Draculaura 2026",
+      "photo": "https://b2b.enarxis.eu/images/thumbs/0203058_100.jpeg",
+      "sourceUrl": "https://b2b.enarxis.eu/mattel-monster-high-basic-series-draculaura-doll-new-design-jhk29",
+      "figureNumber": "JHK29",
+      "photoCredit": "Photograph from specific doll's matched Mattel SKU merchant/collector gallery",
+      "photoStatus": "exact-sku-gallery-image-url-unchecked-http",
+      "photoVerificationNote": "Image URL extracted by opening a named image link from the exact SKU product page. Exact image HTTP status and deployed PWA rendering still untested."
+    },
+    {
+      "series": "Monster High · Core Dolls 2026",
+      "name": "Skelita Calaveras 2026",
+      "photo": "https://b2b.enarxis.eu/images/thumbs/0203025_100.jpeg",
+      "sourceUrl": "https://b2b.enarxis.eu/mattel-monster-high-basic-series-skelita-calaveras-doll-jhk34",
+      "figureNumber": "JHK34",
+      "photoCredit": "Photograph from specific doll's matched Mattel SKU merchant/collector gallery",
+      "photoStatus": "exact-sku-gallery-image-url-unchecked-http",
+      "photoVerificationNote": "Image URL extracted by opening a named image link from the exact SKU product page. Exact image HTTP status and deployed PWA rendering still untested."
+    },
+    {
+      "series": "Monster High · Core Dolls 2026",
+      "name": "Jinafire Long 2026",
+      "photo": "https://toysline.com.ua/content/images/28/330x450l85mc0/kukla-monster-khai-dzhynafaer-lonh-s-pytomtsem-monster-high-jinafire-long-mattel-hyv58-58681751242873.webp",
+      "sourceUrl": "https://toysline.com.ua/kukla-monster-khai-dzhynafaer-lonh-s-pytomtsem-monster-high-jinafire-long-mattel-hyv58/",
+      "figureNumber": "HYV58",
+      "photoCredit": "Photograph from specific doll's matched Mattel SKU merchant/collector gallery",
+      "photoStatus": "exact-sku-gallery-image-url-unchecked-http",
+      "photoVerificationNote": "Image URL extracted by opening a named image link from the exact SKU product page. Exact image HTTP status and deployed PWA rendering still untested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Fearidescent",
+      "name": "Skulltimate Secrets Fearidescent Frankie Stein",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/07/Skulltimate-Secrets-Fearidescent-Frankie-Stein-2.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-fearidescent-frankie-stein/",
+      "figureNumber": "HNF75",
+      "photoCredit": "Photograph from specific doll's matched Mattel SKU merchant/collector gallery",
+      "photoStatus": "exact-sku-gallery-image-url-unchecked-http",
+      "photoVerificationNote": "Image URL extracted by opening a named image link from the exact SKU product page. Exact image HTTP status and deployed PWA rendering still untested."
     }
   ]
 }
