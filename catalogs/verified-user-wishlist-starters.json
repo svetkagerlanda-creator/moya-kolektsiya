@@ -1325,9 +1325,13 @@
           "character": "Jellyfish",
           "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Jellyfish",
           "sourceUrl": "https://toysez.com/products/sleep-sea-elves-series-jellyfish",
-          "photo": "",
+          "photo": "https://toysez.com/cdn/shop/files/4_1_ef5b20fc-d9cd-46f6-981c-e0490f5d26ff_1200x.jpg?v=1736354127",
           "rarity": "Regular",
-          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа."
+          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа.",
+          "photoSourceUrl": "https://toysez.com/products/sleep-sea-elves-series-jellyfish",
+          "photoCredit": "TOYSEZ — individually named product gallery",
+          "photoStatus": "named-retailer-image-url-not-http-verified",
+          "photoVerificationNote": "Direct image URL extracted from the named retailer product page. Remote response could not be independently verified; monitor for broken links."
         },
         {
           "name": "Sea Anemone",
@@ -1335,9 +1339,13 @@
           "character": "Sea Anemone",
           "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Sea Anemone",
           "sourceUrl": "https://worldofcomics.ua/product/figurka-52toys-sleep-sea-elves-art-21289/",
-          "photo": "",
+          "photo": "https://toysez.com/cdn/shop/files/1_1_1a1fe296-a4b9-4453-a6cd-65531605c948_large.jpg?v=1736353938",
           "rarity": "Regular",
-          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа."
+          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа.",
+          "photoSourceUrl": "https://toysez.com/products/sleep-sea-elves-series-sea-anemone",
+          "photoCredit": "TOYSEZ — individually named product gallery",
+          "photoStatus": "named-retailer-image-url-not-http-verified",
+          "photoVerificationNote": "Direct image URL extracted from the named retailer product page. Remote response could not be independently verified; monitor for broken links."
         },
         {
           "name": "Weedy Seadragon",
@@ -1345,9 +1353,13 @@
           "character": "Weedy Seadragon",
           "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Weedy Seadragon",
           "sourceUrl": "https://worldofcomics.ua/product/figurka-52toys-sleep-sea-elves-art-21289/",
-          "photo": "",
+          "photo": "https://toysez.com/cdn/shop/files/3_1_06f96949-0171-4fca-addd-f17cc15fcf43_1200x.jpg?v=1736354066",
           "rarity": "Regular",
-          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа."
+          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа.",
+          "photoSourceUrl": "https://toysez.com/products/sleep-sea-elves-series-weedy-seadragon",
+          "photoCredit": "TOYSEZ — individually named product gallery",
+          "photoStatus": "named-retailer-image-url-not-http-verified",
+          "photoVerificationNote": "Direct image URL extracted from the named retailer product page. Remote response could not be independently verified; monitor for broken links."
         }
       ],
       "assortmentEan": "6958985021289",
@@ -1743,7 +1755,12 @@
           "variantKey": "52TOYS|52TOYS · Sleep Dreamland Elves · Life of Fantasies|Embrace",
           "sourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-embrace",
           "rarity": "Regular",
-          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки.",
+          "photo": "https://toysez.com/cdn/shop/files/22_e29d8c34-b97e-4891-bd18-922aa1cd24d3_1200x.jpg?v=1713874042",
+          "photoSourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-embrace",
+          "photoCredit": "TOYSEZ — individually named product gallery",
+          "photoStatus": "named-retailer-image-url-not-http-verified",
+          "photoVerificationNote": "Direct image URL extracted from the named retailer product page. Remote response could not be independently verified; monitor for broken links."
         },
         {
           "name": "Dream Sculptor",
@@ -1752,7 +1769,12 @@
           "variantKey": "52TOYS|52TOYS · Sleep Dreamland Elves · Life of Fantasies|Dream Sculptor",
           "sourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-dream-sculptor",
           "rarity": "Regular",
-          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки.",
+          "photo": "https://toysez.com/cdn/shop/files/21_11c6319b-5878-41bc-9a8f-d76f6c9ea27f_1200x.jpg?v=1713873623",
+          "photoSourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-dream-sculptor",
+          "photoCredit": "TOYSEZ — individually named product gallery",
+          "photoStatus": "named-retailer-image-url-not-http-verified",
+          "photoVerificationNote": "Direct image URL extracted from the named retailer product page. Remote response could not be independently verified; monitor for broken links."
         },
         {
           "name": "Mild Zephyr",
@@ -1804,9 +1826,13 @@
           "character": "Hibernation",
           "variantKey": "52TOYS|52TOYS · Sleep Dreamland Elves · Life of Fantasies|Hibernation",
           "sourceUrl": "https://wholesale.kikagoods.com/products/sleep-life-of-fantasies-elves-blind-box",
-          "photo": "",
+          "photo": "https://toysez.com/cdn/shop/files/29_d1a5d468-e7d5-418b-a650-a9b71d79bede_1200x.jpg?v=1713874594",
           "rarity": "Regular",
-          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа."
+          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа.",
+          "photoSourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-hibernation",
+          "photoCredit": "TOYSEZ — individually named product gallery",
+          "photoStatus": "named-retailer-image-url-not-http-verified",
+          "photoVerificationNote": "Direct image URL extracted from the named retailer product page. Remote response could not be independently verified; monitor for broken links."
         },
         {
           "name": "Winter Slumber",
@@ -3049,7 +3075,12 @@
           "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Fairy",
           "sourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-fairy-cosplay",
           "rarity": "Regular",
-          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки.",
+          "photo": "https://toysez.com/cdn/shop/files/2_1_025d550b-3f73-4b3e-8c2a-383cd2701f1b_1200x.jpg?v=1740506867",
+          "photoSourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-fairy-cosplay",
+          "photoCredit": "TOYSEZ — individually named product gallery",
+          "photoStatus": "named-retailer-image-url-not-http-verified",
+          "photoVerificationNote": "Direct image URL extracted from the named retailer product page. Remote response could not be independently verified; monitor for broken links."
         },
         {
           "name": "Witch Cosplay",
@@ -3071,7 +3102,12 @@
           "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Crystal House",
           "sourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-crystal-house",
           "rarity": "Regular",
-          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки.",
+          "photo": "https://toysez.com/cdn/shop/files/1_1_4723da16-a71d-424a-8179-b57b863bd3c1_1200x.jpg?v=1740506823",
+          "photoSourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-crystal-house",
+          "photoCredit": "TOYSEZ — individually named product gallery",
+          "photoStatus": "named-retailer-image-url-not-http-verified",
+          "photoVerificationNote": "Direct image URL extracted from the named retailer product page. Remote response could not be independently verified; monitor for broken links."
         },
         {
           "name": "Pumpkin Ghost",
@@ -3111,7 +3147,12 @@
           "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Scarecrow",
           "sourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-scarecrow-doll",
           "rarity": "Regular",
-          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки.",
+          "photo": "https://toysez.com/cdn/shop/files/6_1_ed91aec7-f95c-449b-8341-c21f2dfe5169_large.jpg?v=1740507045",
+          "photoSourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-scarecrow-doll",
+          "photoCredit": "TOYSEZ — individually named product gallery",
+          "photoStatus": "named-retailer-image-url-not-http-verified",
+          "photoVerificationNote": "Direct image URL extracted from the named retailer product page. Remote response could not be independently verified; monitor for broken links."
         },
         {
           "name": "Tin Man Toy",
@@ -3120,7 +3161,12 @@
           "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Tin Man",
           "sourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-tin-man-toy",
           "rarity": "Regular",
-          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки.",
+          "photo": "https://toysez.com/cdn/shop/files/5_2_3acb8a56-edbb-4dd1-a76f-046c70bc81ec_large.jpg?v=1740507002",
+          "photoSourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-tin-man-toy",
+          "photoCredit": "TOYSEZ — individually named product gallery",
+          "photoStatus": "named-retailer-image-url-not-http-verified",
+          "photoVerificationNote": "Direct image URL extracted from the named retailer product page. Remote response could not be independently verified; monitor for broken links."
         },
         {
           "name": "Dorothy Doll (Secret)",
