@@ -207,6 +207,32 @@ async function fileFromCardPhoto(src){
  if(blob.size>3145728)throw Error('Фото з картки завелике для публікації. Обери інше фото.');
  return new File([blob],'acquisition.'+(blob.type==='image/png'?'png':blob.type==='image/webp'?'webp':'jpg'),{type:blob.type});
 }
+async function prepareAvatar(file){
+ if(!file)return null;
+ const allowed=['image/jpeg','image/png','image/webp'];
+ if(allowed.includes(file.type)&&file.size<=3145728)return file;
+ if(!file.type.startsWith('image/'))throw Error('Аватар має бути зображенням JPG, PNG або WEBP.');
+ const url=URL.createObjectURL(file);
+ try{
+  const img=await new Promise((resolve,reject)=>{
+   const image=new Image();
+   image.onload=()=>resolve(image);
+   image.onerror=()=>reject(Error('Браузер не зміг відкрити фото. Спробуй JPG або PNG.'));
+   image.src=url;
+  });
+  const maxSize=1024,ratio=Math.min(1,maxSize/Math.max(img.naturalWidth,img.naturalHeight));
+  const canvas=document.createElement('canvas');
+  canvas.width=Math.max(1,Math.round(img.naturalWidth*ratio));
+  canvas.height=Math.max(1,Math.round(img.naturalHeight*ratio));
+  const ctx=canvas.getContext('2d');if(!ctx)throw Error('Не вдалося підготувати аватар у цьому браузері.');
+  ctx.drawImage(img,0,0,canvas.width,canvas.height);
+  for(const quality of [.86,.74,.6,.45]){
+   const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/jpeg',quality));
+   if(blob?.size&&blob.size<=3145728)return new File([blob],'avatar.jpg',{type:'image/jpeg'});
+  }
+  throw Error('Фото завелике навіть після стиснення. Спробуй менше зображення.');
+ }finally{URL.revokeObjectURL(url)}
+}
 async function upload(file,type){
  if(!file)return null;
  if(!['image/jpeg','image/png','image/webp'].includes(file.type)||file.size>3145728)throw Error('Фото має бути JPG, PNG або WEBP до 3 МБ.');
@@ -214,7 +240,11 @@ async function upload(file,type){
  const name=state.id+'/'+type+'/'+crypto.randomUUID()+'.'+ext;
  const token=await window.CollectorCommunity.getAccessToken();if(!token)throw Error('Увійди до акаунта повторно.');
  const r=await fetch(BASE+'/storage/v1/object/collector-media/'+name,{method:'POST',headers:{apikey:KEY,Authorization:'Bearer '+token,'Content-Type':file.type},body:file});
- if(!r.ok)throw Error('Не вдалося завантажити зображення');
+ if(!r.ok){
+   const error=await r.json().catch(()=>({}));
+   const detail=error.message||error.error||error.error_description||'Помилка сервера '+r.status;
+   throw Error('Не вдалося завантажити зображення: '+detail);
+  }
  return name;
 }
 async function action(kind,id){
@@ -330,12 +360,17 @@ function attach(session,refresh){
  if(edit)edit.onsubmit=async ev=>{ev.preventDefault();let btn=edit.querySelector('button[type=submit]');btn.disabled=true;try{
   const f=edit.elements,social={};for(let k of ['instagram','tiktok','telegram','youtube','booknet','website']){let v=f[k].value.trim();if(v){if(!link(v))throw Error('Посилання на '+k+' має починатися з https://');social[k]=v}}
   let values={display_name:f.display_name.value.trim(),bio:f.bio.value.trim(),social_links:social,is_discoverable:f.is_discoverable.checked};
-  if(f.avatar.files[0])values.avatar_path=await upload(f.avatar.files[0],'avatars');
+  if(f.avatar.files[0])values.avatar_path=await upload(await prepareAvatar(f.avatar.files[0]),'avatars');
   values.cover_position_x=cropNumber(f.cover_position_x.value);
   values.cover_position_y=cropNumber(f.cover_position_y.value);
   if(f.cover.files[0])values.cover_path=await upload(f.cover.files[0],'covers');
   else if(f.remove_cover.checked)values.cover_path=null;
-  await api('collector_profiles','id=eq.'+state.id,'PATCH',values);state.editing=false;await reload();
+  const saved=await api('collector_profiles','id=eq.'+state.id,'PATCH',values);
+   // A missing profile or failed RLS update must not be mistaken for a successful save.
+   const confirmed=await api('collector_profiles','select=id,avatar_path,cover_path&id=eq.'+state.id);
+   if(!Array.isArray(confirmed)||confirmed.length!==1)throw Error('Профіль не знайдено після збереження. Онови сторінку й увійди повторно.');
+   if(values.avatar_path&&confirmed[0].avatar_path!==values.avatar_path)throw Error('Аватар завантажився, але не зберігся в профілі. Спробуй повторити.');
+   state.editing=false;await reload();
  }catch(err){fail(err)}finally{btn.disabled=false}};
  const post=document.getElementById('scPost');
  if(post){
