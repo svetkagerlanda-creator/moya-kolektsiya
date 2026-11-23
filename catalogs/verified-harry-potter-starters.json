@@ -3886,8 +3886,12 @@
           "manufacturer": "Funko",
           "figureNumber": "58576",
           "sourceUrl": "https://funko.com/pop-holiday-harry-potter---4-pack/58576.html",
-          "photo": "",
-          "description": "Manufacturer-listed collectible set; exact product photo pending verification."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw6f969c3d/images/funko/upload/58576_HP_S13_Holiday_POP_4PK_GLAM.png?sh=800&sw=800",
+          "description": "Manufacturer-listed collectible set; exact product photo pending verification.",
+          "photoSourceUrl": "https://funko.com/pop-holiday-harry-potter---4-pack/58576.html",
+          "photoCredit": "Funko official product image",
+          "photoStatus": "official-image-opened-and-visual-checked",
+          "photoVerificationNote": "Exact original Funko item image opened from linked manufacturer product page."
         }
       ]
     },
@@ -4318,8 +4322,22 @@
       "source": "https://funko.com/harry-potter-globe-mystery-minis/50814.html",
       "verified": true,
       "completeness": "official-full-character-checklist",
-      "count": 10,
+      "count": 11,
       "items": [
+        {
+          "name": "Mystery Mini Globes — sealed random box (50814)",
+          "manufacturer": "Funko",
+          "figureNumber": "50814",
+          "catalogPosition": "SKU-50814",
+          "sourceUrl": "https://funko.com/harry-potter-globe-mystery-minis/50814.html",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw99037cd2/images/funko/50814-1.png?sh=800&sw=800",
+          "photoSourceUrl": "https://funko.com/harry-potter-globe-mystery-minis/50814.html",
+          "photoCredit": "Funko official sealed 50814 mystery assortment gallery",
+          "photoStatus": "official-sealed-assortment-image-opened",
+          "description": "One sealed random Mystery Mini snow globe; the character inside is unknown until opened. Official assortment contains 10 possible characters. This box SKU cannot identify any specific variant.",
+          "packagingType": "sealed-random-single",
+          "packSize": 1
+        },
         {
           "name": "Harry Potter",
           "manufacturer": "Funko",
@@ -4512,8 +4530,12 @@
           "figureNumber": "58135",
           "boxNumber": "140",
           "sourceUrl": "https://funko.com/pop-deluxe-harry-potter-with-eeylops-owl-emporium/58135.html",
-          "photo": "",
-          "description": "Official manufacturer product; exact photo pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw498d496f/images/funko/upload/58135_HarryPotter_OwlEmporiumHarry_POPDeluxe_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Official manufacturer product; exact photo pending.",
+          "photoSourceUrl": "https://funko.com/pop-deluxe-harry-potter-with-eeylops-owl-emporium/58135.html",
+          "photoCredit": "Funko official product image",
+          "photoStatus": "official-image-opened-and-visual-checked",
+          "photoVerificationNote": "Exact original Funko item image opened from linked manufacturer product page."
         },
         {
           "name": "Rubeus Hagrid with the Leaky Cauldron",
@@ -4521,8 +4543,12 @@
           "figureNumber": "58134",
           "boxNumber": "141",
           "sourceUrl": "https://funko.com/pop-deluxe-rubeus-hagrid-with-the-leaky-cauldron/58134.html",
-          "photo": "",
-          "description": "Official manufacturer product; exact photo pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwa56eab2f/images/funko/upload/58134_HP_LeakyCauldron_POP_Deluxe_GLAM-1-WEB.png?sh=800&sw=800",
+          "description": "Official manufacturer product; exact photo pending.",
+          "photoSourceUrl": "https://funko.com/pop-deluxe-rubeus-hagrid-with-the-leaky-cauldron/58134.html",
+          "photoCredit": "Funko official product image",
+          "photoStatus": "official-image-opened-and-visual-checked",
+          "photoVerificationNote": "Exact original Funko item image opened from linked manufacturer product page."
         },
         {
           "name": "Garrick Ollivander with Ollivanders Wand Shop",
@@ -4530,8 +4556,12 @@
           "figureNumber": "65359",
           "boxNumber": "146",
           "sourceUrl": "https://funko.com/pop-deluxe-garrick-ollivander-with-ollivanders-wand-shop/65359.html",
-          "photo": "",
-          "description": "Official manufacturer product; exact photo pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwa03d6611/images/funko/65359-1.png?sh=800&sw=800",
+          "description": "Official manufacturer product; exact photo pending.",
+          "photoSourceUrl": "https://funko.com/ca/pop-deluxe-garrick-ollivander-with-ollivanders-wand-shop/65359.html",
+          "photoCredit": "Funko official product image",
+          "photoStatus": "official-image-opened-and-visual-checked",
+          "photoVerificationNote": "Exact original Funko item image opened from linked manufacturer product page."
         }
       ]
     },
@@ -4560,8 +4590,12 @@
           "figureNumber": "87138",
           "boxNumber": "187",
           "sourceUrl": "https://funko.com/gb/pop-deluxe-albus-dumbledore-with-fawkes/87138.html",
-          "photo": "",
-          "description": "Official manufacturer product; exact photo pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw809224b6/images/funko/upload/1/87138_WB_HP_DUMBLEDOREWITHFAWKES_POP_GLAM_Frontview-WEB.png?sh=800&sw=800",
+          "description": "Official manufacturer product; exact photo pending.",
+          "photoSourceUrl": "https://funko.com/pop-deluxe-albus-dumbledore-with-fawkes/87138.html",
+          "photoCredit": "Funko official product image",
+          "photoStatus": "official-image-opened-and-visual-checked",
+          "photoVerificationNote": "Exact original Funko item image opened from linked manufacturer product page."
         },
         {
           "name": "Harry Potter Pushing Trolley",
