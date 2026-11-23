@@ -21,7 +21,12 @@
           "seriesNumber": "93294",
           "sourceUrl": "https://funko.com/pop-ryuk/93294.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw4f3c6475/images/funko/upload/1/93294_DeathNote_S1_Ryuk_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 93294; box #2382"
+          "description": "Funko item 93294; box #2382",
+          "upc": "889698932943",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-death-note-ryuk-4.6-in-vinyl-figure/437541.html",
+          "barcodeVerification": "Exact Funko retail item number and UPC explicitly identified by seller or catalog; UPC-A checksum validated",
+          "barcodeNote": "Barcode identifies this physical Funko release; not inferred from manufacturer item number."
         },
         {
           "name": "L",
@@ -32,7 +37,12 @@
           "seriesNumber": "93291",
           "sourceUrl": "https://funko.com/pop-l/93291.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw72ebe3cb/images/funko/upload/1/93291_DeathNote_S1_L_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 93291; box #2381"
+          "description": "Funko item 93291; box #2381",
+          "upc": "889698932912",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-premium-death-note-l-4.4-in-vinyl-figure/437529.html",
+          "barcodeVerification": "Exact Funko retail item number and UPC explicitly identified by seller or catalog; UPC-A checksum validated",
+          "barcodeNote": "Barcode identifies this physical Funko release; not inferred from manufacturer item number."
         },
         {
           "name": "Light Yagami",
@@ -43,7 +53,12 @@
           "seriesNumber": "93292",
           "sourceUrl": "https://funko.com/pop-light-yagami/93292.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwe9fe28ea/images/funko/upload/1/93292_DeathNote_S1_Light_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 93292; box #2379"
+          "description": "Funko item 93292; box #2379",
+          "upc": "889698932929",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-death-note-light-yagami-3.9-in-vinyl-figure/437624.html",
+          "barcodeVerification": "Exact Funko retail item number and UPC explicitly identified by seller or catalog; UPC-A checksum validated",
+          "barcodeNote": "Barcode identifies this physical Funko release; not inferred from manufacturer item number."
         },
         {
           "name": "Misa Amane",
@@ -54,7 +69,12 @@
           "seriesNumber": "93293",
           "sourceUrl": "https://funko.com/pop-misa-amane/93293.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwb9507488/images/funko/upload/1/93293_DeathNote_S1_Misa_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 93293; box #2380"
+          "description": "Funko item 93293; box #2380",
+          "upc": "889698932936",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-death-note-misa-amane-3.8-in-vinyl-figure/437675.html",
+          "barcodeVerification": "Exact Funko retail item number and UPC explicitly identified by seller or catalog; UPC-A checksum validated",
+          "barcodeNote": "Barcode identifies this physical Funko release; not inferred from manufacturer item number."
         }
       ]
     },
@@ -78,7 +98,12 @@
           "seriesNumber": "86528",
           "sourceUrl": "https://funko.com/im/pop-anya-forger/86528.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwdc70343b/images/funko/upload/86528_SPYxFAMILY_S1_AnyaForger_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 86528; box #1949"
+          "description": "Funko item 86528; box #1949",
+          "upc": "889698865289",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-spy-x-family-anya-forger-3.9-in-vinyl-figure/417845.html",
+          "barcodeVerification": "Exact Funko retail item number and UPC explicitly identified by seller or catalog; UPC-A checksum validated",
+          "barcodeNote": "Barcode identifies this physical Funko release; not inferred from manufacturer item number."
         },
         {
           "name": "Loid Forger",
@@ -89,7 +114,12 @@
           "seriesNumber": "86529",
           "sourceUrl": "https://funko.com/pop-loid-forger/86529.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw78b7fb7f/images/funko/upload/86529_SPYxFAMILY_S1_LoidForger_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 86529; box #1948"
+          "description": "Funko item 86529; box #1948",
+          "upc": "889698865296",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-spy-x-family-loid-forger-4.3-in-vinyl-figure/417831.html",
+          "barcodeVerification": "Exact Funko retail item number and UPC explicitly identified by seller or catalog; UPC-A checksum validated",
+          "barcodeNote": "Barcode identifies this physical Funko release; not inferred from manufacturer item number."
         },
         {
           "name": "Yor Forger",
@@ -100,7 +130,12 @@
           "seriesNumber": "86530",
           "sourceUrl": "https://funko.com/pop-yor-forger/86530.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwb93139fa/images/funko/upload/86530_SPYxFAMILY_S1_YorForger_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 86530; box #1950"
+          "description": "Funko item 86530; box #1950",
+          "upc": "889698865302",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-spy-x-family-yor-forger-3.9-in-vinyl-figure/417779.html",
+          "barcodeVerification": "Exact Funko retail item number and UPC explicitly identified by seller or catalog; UPC-A checksum validated",
+          "barcodeNote": "Barcode identifies this physical Funko release; not inferred from manufacturer item number."
         },
         {
           "name": "Anya Forger with Penguin",
@@ -111,7 +146,12 @@
           "seriesNumber": "87182",
           "sourceUrl": "https://funko.com/pop-anya-forger-with-penguin/87182.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw9e9d15ee/images/funko/upload/87182_SPYxFAMILY_S1_AnyaForgerPPOutfit_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 87182; box #1951"
+          "description": "Funko item 87182; box #1951",
+          "upc": "889698871822",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://pop-figures.com/figure/1951-spy-x-family-anya-forger-with-penguin-15973",
+          "barcodeVerification": "Exact Funko retail item number and UPC explicitly identified by seller or catalog; UPC-A checksum validated",
+          "barcodeNote": "Barcode identifies this physical Funko release; not inferred from manufacturer item number."
         }
       ]
     },
@@ -135,7 +175,12 @@
           "seriesNumber": "88196",
           "sourceUrl": "https://funko.com/cy/pop-wednesday-addams-fencing/88196.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw12ee0ce9/images/funko/upload/1/88196_Wednesday_Wednesday%28Fencing%29_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 88196; box #1820"
+          "description": "Funko item 88196; box #1820",
+          "upc": "889698881968",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://figurines-pop.com/figurine/pop-vinyl-mercredi-1820-mercredi-addams-escrime-15814",
+          "barcodeVerification": "Exact Funko retail item number and UPC explicitly identified by seller or catalog; UPC-A checksum validated",
+          "barcodeNote": "Barcode identifies this physical Funko release; not inferred from manufacturer item number."
         },
         {
           "name": "Wednesday Addams with Piranhas",
@@ -146,7 +191,12 @@
           "seriesNumber": "88623",
           "sourceUrl": "https://funko.com/pop-wednesday-addams-with-piranhas/88623.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwa14c69a3/images/funko/upload/1/88623_Wednesday_S3_WednesdayWithPiranha_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 88623; box #1814"
+          "description": "Funko item 88623; box #1814",
+          "upc": "889698886239",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/p/8086442391",
+          "barcodeVerification": "Exact Funko retail item number and UPC explicitly identified by seller or catalog; UPC-A checksum validated",
+          "barcodeNote": "Barcode identifies this physical Funko release; not inferred from manufacturer item number."
         },
         {
           "name": "Wednesday Addams (Black Coat)",
