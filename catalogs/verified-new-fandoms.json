@@ -69,7 +69,7 @@
       "manufacturer": "MGA Entertainment",
       "fandomKey": "bratz",
       "group": "💄 Bratz",
-      "count": 3,
+      "count": 6,
       "items": [
         {
           "name": "Bratz Babyz Doll - Jade",
@@ -106,6 +106,36 @@
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.woolworths.com.au/shop/productdetails/1125059791/bratz-big-babyz-cloe-doll",
           "barcodeVerification": "Explicit product UPC and exact release confirmed by retailer/collector listing; GTIN checksum validated"
+        },
+        {
+          "name": "Bratz Babyz Runwayz Doll - Cloe",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-babyz-runwayz-doll-cloe",
+          "photo": "",
+          "description": "Official Bratz Babyz Runwayz Cloe release: blue halter top, pink pleated skirt, fuzzy telephone, bottle-chain necklace. Manufacturer SKU 524052 (not a barcode).",
+          "sku": "524052",
+          "verificationStatus": "manufacturer-product-page-confirmed; exact-photo-and-barcode-pending"
+        },
+        {
+          "name": "Bratz Babyz Runwayz Doll - Yasmin",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-babyz-runwayz-doll-yasmin",
+          "photo": "",
+          "description": "Official Bratz Babyz Runwayz Yasmin release: lavender turtleneck, ruffled shorts, fuzzy telephone, bottle-chain necklace. Manufacturer SKU 524069 (not a barcode).",
+          "sku": "524069",
+          "verificationStatus": "manufacturer-product-page-confirmed; exact-photo-and-barcode-pending"
+        },
+        {
+          "name": "Bratz Big Babyz Doll - Yasmin",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-big-babyz-doll-yasmin",
+          "photo": "",
+          "description": "Official Bratz Big Babyz Yasmin 2025 reissue of 2005 doll, with pink tank top, jean skirt, pet frog Pretty Princess, bottle necklace. Manufacturer SKU 524151 (not a barcode).",
+          "sku": "524151",
+          "verificationStatus": "manufacturer-product-page-confirmed; exact-photo-and-barcode-pending"
         }
       ]
     },
