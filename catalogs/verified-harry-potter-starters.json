@@ -2196,6 +2196,98 @@
           "description": "Confirmed by the official Funko product listing; individual photo pending verification."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Wizarding Vehicles",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-ie/themes/harry-potter",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Enchanted Flying Ford Anglia",
+          "manufacturer": "LEGO",
+          "figureNumber": "76470",
+          "sourceUrl": "https://www.lego.com/en-ie/themes/harry-potter",
+          "photo": "",
+          "description": "Listed in official LEGO Harry Potter catalog. Individual product photo pending verification."
+        },
+        {
+          "name": "Hagrid & Harry's Motorcycle Ride",
+          "manufacturer": "LEGO",
+          "figureNumber": "76443",
+          "sourceUrl": "https://www.lego.com/en-ie/themes/harry-potter",
+          "photo": "",
+          "description": "Listed in official LEGO Harry Potter catalog. Individual product photo pending verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Hogwarts Castle · Additional Locations",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-ie/themes/harry-potter",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "items": [
+        {
+          "name": "Hogwarts Castle: The Main Tower",
+          "manufacturer": "LEGO",
+          "figureNumber": "76454",
+          "sourceUrl": "https://www.lego.com/en-ie/themes/harry-potter",
+          "photo": "",
+          "description": "Listed in official LEGO Harry Potter catalog. Individual product photo pending verification."
+        },
+        {
+          "name": "Hogwarts Castle: Sorting Hat Ceremony",
+          "manufacturer": "LEGO",
+          "figureNumber": "76460",
+          "sourceUrl": "https://www.lego.com/en-be/themes/harry-potter?page=2",
+          "photo": "",
+          "description": "Listed in official LEGO Harry Potter catalog. Individual product photo pending verification."
+        },
+        {
+          "name": "Hogwarts Castle: Flying Lessons",
+          "manufacturer": "LEGO",
+          "figureNumber": "76447",
+          "sourceUrl": "https://www.lego.com/de-lu/themes/harry-potter?page=2",
+          "photo": "",
+          "description": "Listed in official LEGO Harry Potter catalog. Individual product photo pending verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Magical Display Models",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-ie/themes/harry-potter",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "The Goblet of Fire Figures",
+          "manufacturer": "LEGO",
+          "figureNumber": "76446",
+          "sourceUrl": "https://www.lego.com/en-ie/themes/harry-potter",
+          "photo": "",
+          "description": "Listed in official LEGO Harry Potter catalog. Individual product photo pending verification."
+        },
+        {
+          "name": "The Monster Book of Monsters",
+          "manufacturer": "LEGO",
+          "figureNumber": "76449",
+          "sourceUrl": "https://www.lego.com/de-lu/themes/harry-potter?page=2",
+          "photo": "",
+          "description": "Listed in official LEGO Harry Potter catalog. Individual product photo pending verification."
+        }
+      ]
     }
   ]
 }
