@@ -1853,6 +1853,106 @@
           "description": "Official Funko product listing; exact individual photo not yet verified."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Collectors' Editions",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/product/hogwarts-icons-collectors-edition-76391",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 4,
+      "items": [
+        {
+          "name": "Hogwarts Icons — Collectors' Edition (76391)",
+          "manufacturer": "LEGO",
+          "figureNumber": "76391",
+          "sourceUrl": "https://www.lego.com/en-us/product/hogwarts-icons-collectors-edition-76391",
+          "photo": "",
+          "description": "Manufacturer-listed collectible set; exact product photo pending verification."
+        },
+        {
+          "name": "Gringotts Wizarding Bank — Collectors' Edition (76417)",
+          "manufacturer": "LEGO",
+          "figureNumber": "76417",
+          "sourceUrl": "https://www.lego.com/en-us/product/gringotts-wizarding-bank-collectors-edition-76417",
+          "photo": "",
+          "description": "Manufacturer-listed collectible set; exact product photo pending verification."
+        },
+        {
+          "name": "Hogwarts Castle (71043)",
+          "manufacturer": "LEGO",
+          "figureNumber": "71043",
+          "sourceUrl": "https://www.lego.com/en-us/product/hogwarts-castle-71043",
+          "photo": "",
+          "description": "Manufacturer-listed collectible set; exact product photo pending verification."
+        },
+        {
+          "name": "Hogwarts Castle and Grounds (76419)",
+          "manufacturer": "LEGO",
+          "figureNumber": "76419",
+          "sourceUrl": "https://www.lego.com/en-us/product/hogwarts-castle-and-grounds-76419",
+          "photo": "",
+          "description": "Manufacturer-listed collectible set; exact product photo pending verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Advent Calendars",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/service/building-instructions/75964",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "items": [
+        {
+          "name": "Advent Calendar 2019 (75964)",
+          "manufacturer": "LEGO",
+          "figureNumber": "75964",
+          "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/75964",
+          "photo": "",
+          "description": "Manufacturer-listed collectible set; exact product photo pending verification."
+        },
+        {
+          "name": "Advent Calendar 2022 (76404)",
+          "manufacturer": "LEGO",
+          "figureNumber": "76404",
+          "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/76404",
+          "photo": "",
+          "description": "Manufacturer-listed collectible set; exact product photo pending verification."
+        },
+        {
+          "name": "Advent Calendar 2024 (76438)",
+          "manufacturer": "LEGO",
+          "figureNumber": "76438",
+          "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/76438",
+          "photo": "",
+          "description": "Manufacturer-listed collectible set; exact product photo pending verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · POP! Holiday Multipacks",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/pop-holiday-harry-potter---4-pack/58576.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Holiday Harry Potter 4-Pack (58576)",
+          "manufacturer": "Funko",
+          "figureNumber": "58576",
+          "sourceUrl": "https://funko.com/pop-holiday-harry-potter---4-pack/58576.html",
+          "photo": "",
+          "description": "Manufacturer-listed collectible set; exact product photo pending verification."
+        }
+      ]
     }
   ]
 }
