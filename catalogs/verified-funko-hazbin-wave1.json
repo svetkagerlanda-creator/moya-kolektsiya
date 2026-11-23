@@ -62,7 +62,11 @@
           "sourceUrl": "https://funko.com/pop-alastor/90413.html",
           "photo": "https://cdn.awsli.com.br/800x800/84/84034/produto/379653084/asdas-uv085btzgl.png",
           "photoCredit": "Moça do Pop · продуктове фото точного випуску",
-          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2242"
+          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2242",
+          "upc": "889698904131",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/hazbin-hotel-alastor-funko-pop-vinyl-figure-2242/fu90413",
+          "barcodeVerification": "UPC matched to Funko Alastor standard #2242, excludes chase edition"
         },
         {
           "name": "Sir Pentious",
