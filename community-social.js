@@ -369,8 +369,8 @@ function attach(session,refresh){
 }
 function prepareAcquisition(item){
  if(!item||!item.name)return false;
- const personal=window.CollectorPhotos?.cover(item)||window.CollectorPhotos?.pics(item)?.[0]?.src||(/^data:image\\/(?:jpeg|png|webp);base64,/i.test(item.photo||'')?item.photo:null);
- const catalog=/^https:\\/\\//i.test(item.photo||'')?item.photo:null;
+ const personal=window.CollectorPhotos?.cover(item)||window.CollectorPhotos?.pics(item)?.[0]?.src||(/^data:image\/(?:jpeg|png|webp);base64,/i.test(item.photo||'')?item.photo:null);
+ const catalog=/^https:\/\//i.test(item.photo||'')?item.photo:null;
  const choice=catalog?'catalog':personal?'personal':'none';
  state.acquisitionDraft={title:String(item.name).slice(0,160),body:'',catalogPhotoSrc:catalog,personalPhotoSrc:personal,photoChoice:choice};
  state.person=null;state.tab='profile';state.posting=true;state.error='';
