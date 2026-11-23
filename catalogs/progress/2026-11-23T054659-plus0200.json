@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-11-23T05:46:59+02:00",
+  "scope": "historical dolls and pets",
+  "changeType": "importer correctness fix",
+  "commit": "8890d273f8c2c52151c19b3f5e6a83a104e7f19e",
+  "filesChanged": [
+    "scripts/build_historical_dolls_pets.py"
+  ],
+  "newSeries": 0,
+  "newItems": 0,
+  "newPhotos": 0,
+  "baselineFromExistingDiagnostics": {
+    "indexed": 422,
+    "verifiedSeries": 422,
+    "items": 7471,
+    "photos": 7471,
+    "partialSeries": 1
+  },
+  "verification": "GitHub source inspection and committed code change only; importer execution and runtime tests not performed",
+  "fixes": [
+    "Re-evaluate downgrade guard after restoration of prior exact-source photos",
+    "Retain previously verified full series when upstream count decreases; log regression"
+  ],
+  "nextSteps": [
+    "Execute historical importer in repository runtime",
+    "Inspect one partial series and verify photo URLs and physical SKUs",
+    "Expand Bratz, Winx and other priority lines without modifying personal statuses"
+  ]
+}
