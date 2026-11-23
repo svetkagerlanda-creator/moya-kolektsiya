@@ -227,7 +227,7 @@
       "verified": true,
       "completeness": "verified-selected-releases",
       "count": 8,
-      "notes": "Шість поіменних регулярних варіантів і один секретний варіант (офіційну назву ще не перевірено), плюс окремий товар — випадкова запечатана blind box. Не вважати фото повним; особисті статуси колекціонерів не змінювати.",
+      "notes": "6 regular + 1 secret Speeding Bride + separately catalogued sealed blind box. Six regular designs verified from the published product lineup; individual photos added only when matched.",
       "items": [
         {
           "name": "Letsvan Ziyuli · Весілля",
@@ -265,9 +265,11 @@
           "rarity": "Regular",
           "variantKey": "Letsvan|ZIYULI My Own Wedding|Coastal Oath",
           "sourceUrl": "https://www.ebay.com/itm/127614735799",
-          "photo": "",
+          "photo": "https://media.karousell.com/media/photos/products/2026/3/19/ziyuli_my_own_wedding_coastal__1773923820_21cff192_progressive.jpg",
           "description": "Індивідуальна фігурка серії ZIYULI My Own Wedding. Підтверджено назву у списку варіантів продавця; запечатаний blind box має випадковий вміст.",
-          "photoStatus": "missing"
+          "photoStatus": "individual-variant-matched-image",
+          "photoSourceUrl": "https://www.carousell.com.my/p/ziyuli-my-own-wedding-coastal-oath-blind-box-1427413216/",
+          "photoCredit": "Individual figure photograph, identified by seller"
         },
         {
           "name": "Dreamy Encounter",
@@ -287,9 +289,11 @@
           "rarity": "Regular",
           "variantKey": "Letsvan|ZIYULI My Own Wedding|Flower Goddess",
           "sourceUrl": "https://www.ebay.com/itm/127614735799",
-          "photo": "",
+          "photo": "https://i.ebayimg.com/images/g/xGQAAeSwWfppNjh-/s-l1200.jpg",
           "description": "Індивідуальна фігурка серії ZIYULI My Own Wedding. Підтверджено назву у списку варіантів продавця; запечатаний blind box має випадковий вміст.",
-          "photoStatus": "missing"
+          "photoStatus": "individual-variant-matched-image",
+          "photoSourceUrl": "https://www.ebay.com/itm/306647596454",
+          "photoCredit": "Individual figure photograph from seller listing"
         },
         {
           "name": "Night Fairy Tale",
@@ -298,9 +302,11 @@
           "rarity": "Regular",
           "variantKey": "Letsvan|ZIYULI My Own Wedding|Night Fairy Tale",
           "sourceUrl": "https://www.ebay.com/itm/127614735799",
-          "photo": "",
+          "photo": "https://hlonda6.pl/6297497-large_default/letsvan-figurka-z-serii-ziyuli-my-own-wedding-blind-box.jpg",
           "description": "Індивідуальна фігурка серії ZIYULI My Own Wedding. Підтверджено назву у списку варіантів продавця; запечатаний blind box має випадковий вміст.",
-          "photoStatus": "missing"
+          "photoStatus": "individual-variant-matched-image",
+          "photoSourceUrl": "https://hlonda6.pl/figurki/6150889-letsvan-figurka-z-serii-ziyuli-my-own-wedding-blind-box-6974773011638",
+          "photoCredit": "Individually pictured Night Fairy Tale figure, retail product image"
         },
         {
           "name": "Pinky Princess",
@@ -309,19 +315,21 @@
           "rarity": "Regular",
           "variantKey": "Letsvan|ZIYULI My Own Wedding|Pinky Princess",
           "sourceUrl": "https://www.ebay.com/itm/127614735799",
-          "photo": "",
+          "photo": "https://img-va.myshopline.com/image/store/1718257741859/DS220100-5077-00-main-img-2.jpg?h=800&q=80&w=800",
           "description": "Індивідуальна фігурка серії ZIYULI My Own Wedding. Підтверджено назву у списку варіантів продавця; запечатаний blind box має випадковий вміст.",
-          "photoStatus": "missing"
+          "photoStatus": "individual-variant-matched-image",
+          "photoSourceUrl": "https://wholesale.kikagoods.com/products/ziyuli-my-own-wedding-series-blind-box",
+          "photoCredit": "KikaGoods branded individual character promotional photograph"
         },
         {
-          "name": "Secret variant (name unconfirmed)",
+          "name": "Speeding Bride",
           "manufacturer": "Letsvan",
-          "character": "Secret variant (name unconfirmed)",
+          "character": "Speeding Bride",
           "rarity": "Secret",
-          "variantKey": "Letsvan|ZIYULI My Own Wedding|Secret variant (name unconfirmed)",
-          "sourceUrl": "https://www.ebay.com/itm/127614735799",
+          "variantKey": "Letsvan|ZIYULI My Own Wedding|Speeding Bride",
+          "sourceUrl": "https://totland.com.ua/kolektsiina-fihurka-letsvan-serii-ziyuli-vesillia/",
           "photo": "",
-          "description": "Секретний дизайн серії, офіційне ім'я потребує перевірки.",
+          "description": "Секретна фігурка серії ZIYULI My Own Wedding. Назву підтверджено списком виробів продавців.",
           "photoStatus": "missing"
         }
       ],
@@ -3151,9 +3159,12 @@
           "catalogPosition": "01",
           "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|White Cat Knight",
           "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
-          "photo": "",
+          "photo": "https://www.kikagoods.com/cdn/shop/files/DS220100-3787-00-main-img-10.jpg?v=1744188341",
           "rarity": "Regular",
-          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods.",
+          "photoSourceUrl": "https://www.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photoCredit": "KikaGoods branded White Cat Knight promotional image",
+          "photoStatus": "individual-variant-matched-image"
         },
         {
           "name": "Deer Girl",
@@ -3228,9 +3239,12 @@
           "catalogPosition": "08",
           "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|Cute Gardener",
           "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
-          "photo": "",
+          "photo": "https://www.kikagoods.com/cdn/shop/files/DS220100-3787-00-main-img-20.jpg?v=1744188341",
           "rarity": "Regular",
-          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods.",
+          "photoSourceUrl": "https://www.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photoCredit": "KikaGoods branded Cute Gardener promotional image",
+          "photoStatus": "individual-variant-matched-image"
         },
         {
           "name": "Hidden Temple Rose",
