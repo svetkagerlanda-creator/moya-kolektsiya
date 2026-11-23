@@ -1196,7 +1196,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-skulltimate-secrets-catty-noir-doll-jbg82",
           "photo": "https://shop.mattel.com/cdn/shop/files/774dc5d2dea6152762866d1a7372fd3971e10cee.jpg?v=1760626022",
-          "description": "Unlock the secrets behind the gates of Hauntlywood with this Skulltimate Secrets: Hauntlywood Mysteries closet set! It comes with Catty Noir doll as well as glam clothes and accessories."
+          "description": "Unlock the secrets behind the gates of Hauntlywood with this Skulltimate Secrets: Hauntlywood Mysteries closet set! It comes with Catty Noir doll as well as glam clothes and accessories.",
+          "ean": "0194735259854",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://cpadistributor.com/en/toys/93316-monster-high-skulltimate-secrets-catty-noir-jbg82-mattel-0194735259854.html",
+          "barcodeVerification": "Distributor lists exact Mattel JBG82 and EAN-13; check digit verified"
         }
       ]
     },
