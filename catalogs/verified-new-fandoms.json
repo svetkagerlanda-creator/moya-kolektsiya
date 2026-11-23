@@ -1637,13 +1637,16 @@
           "figureNumber": "",
           "manufacturer": "Rainbow",
           "sourceUrl": "https://www.winxclub.com/products/fairy-winx-fashion-doll-giochi-preziosi",
-          "photo": "",
+          "photo": "https://www.winxclub.com/cdn/shop/files/0013_WNX76000_fairy_gruppo.jpg?v=1762852568&width=1500",
           "description": "Experience the magic of the Winx like never before! The Winx Fairy line comes with sparkling wings and a look ready for any challenge.",
           "ean": "8056379198765",
           "barcodeType": "EAN-13",
           "barcodeSourceUrl": "https://www.ludoville.it/products/winx-fairy-assortite-wnx76",
           "barcodeVerification": "Retail product page displays exact Playmates character UPC, or explicit WNX76000 assorted Giochi Preziosi EAN; checksum validated",
-          "barcodeNote": "Mixed Fairy assortment WNX76000; code does not identify individual fairy."
+          "barcodeNote": "Mixed Fairy assortment WNX76000; code does not identify individual fairy.",
+          "photoSourceUrl": "https://www.winxclub.com/products/fairy-winx-fashion-doll-giochi-preziosi",
+          "photoStatus": "official-group-photo-not-individual-variant",
+          "photoNote": "Official Giochi Preziosi WNX76000 group photograph showing six Fairy dolls. This is a GROUP image for the assortment listing, not an individual character photo; do not reuse for individual variants."
         },
         {
           "name": "Winx Fairy - Fashion Doll Giochi Preziosi — Aisha",
