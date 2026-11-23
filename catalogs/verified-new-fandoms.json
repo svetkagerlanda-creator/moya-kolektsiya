@@ -13837,6 +13837,1022 @@
           "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
         }
       ]
+    },
+    {
+      "name": "Winx Club · City Girl / Fashion & Magic · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Лінійка Old Witty. Комплекти Bloom з транспортом враховані окремими коробковими випусками. Жодного непідтвердженого SKU/EAN.",
+      "count": 7,
+      "items": [
+        {
+          "name": "Winx City Girl / Fashion & Magic — Bloom (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:old-witty:city-girl-fashion-magic:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys City Girl / Fashion & Magic: Bloom. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx City Girl / Fashion & Magic — Stella (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:old-witty:city-girl-fashion-magic:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys City Girl / Fashion & Magic: Stella. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx City Girl / Fashion & Magic — Aisha (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:old-witty:city-girl-fashion-magic:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys City Girl / Fashion & Magic: Aisha. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx City Girl / Fashion & Magic — Tecna (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:old-witty:city-girl-fashion-magic:tecna",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys City Girl / Fashion & Magic: Tecna. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx City Girl / Fashion & Magic — Musa (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:old-witty:city-girl-fashion-magic:musa",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys City Girl / Fashion & Magic: Musa. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx City Girl / Fashion & Magic — Flora (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:old-witty:city-girl-fashion-magic:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys City Girl / Fashion & Magic: Flora. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx City Girl / Fashion & Magic — Roxy (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Roxy",
+          "variantKey": "winx:old-witty:city-girl-fashion-magic:roxy",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys City Girl / Fashion & Magic: Roxy. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Love and Pet · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Лінійка Old Witty. Комплекти Bloom з транспортом враховані окремими коробковими випусками. Жодного непідтвердженого SKU/EAN.",
+      "count": 7,
+      "items": [
+        {
+          "name": "Winx Love and Pet — Bloom (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:old-witty:love-and-pet:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Love and Pet: Bloom. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Love and Pet — Aisha (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:old-witty:love-and-pet:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Love and Pet: Aisha. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Love and Pet — Stella (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:old-witty:love-and-pet:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Love and Pet: Stella. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Love and Pet — Flora (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:old-witty:love-and-pet:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Love and Pet: Flora. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Love and Pet — Musa (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:old-witty:love-and-pet:musa",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Love and Pet: Musa. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Love and Pet — Tecna (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:old-witty:love-and-pet:tecna",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Love and Pet: Tecna. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Love and Pet — Bloom with Camper (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom with Camper",
+          "variantKey": "winx:old-witty:love-and-pet:bloom-with-camper",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Love and Pet: Bloom with Camper. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · I Love my Pet · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Лінійка Old Witty. Комплекти Bloom з транспортом враховані окремими коробковими випусками. Жодного непідтвердженого SKU/EAN.",
+      "count": 7,
+      "items": [
+        {
+          "name": "Winx I Love my Pet — Bloom (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:old-witty:i-love-my-pet:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys I Love my Pet: Bloom. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx I Love my Pet — Stella (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:old-witty:i-love-my-pet:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys I Love my Pet: Stella. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx I Love my Pet — Aisha (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:old-witty:i-love-my-pet:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys I Love my Pet: Aisha. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx I Love my Pet — Tecna (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:old-witty:i-love-my-pet:tecna",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys I Love my Pet: Tecna. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx I Love my Pet — Musa (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:old-witty:i-love-my-pet:musa",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys I Love my Pet: Musa. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx I Love my Pet — Flora (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:old-witty:i-love-my-pet:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys I Love my Pet: Flora. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx I Love my Pet — Roxy (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Roxy",
+          "variantKey": "winx:old-witty:i-love-my-pet:roxy",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys I Love my Pet: Roxy. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Magical Summer · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Лінійка Old Witty. Комплекти Bloom з транспортом враховані окремими коробковими випусками. Жодного непідтвердженого SKU/EAN.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Magical Summer — Bloom (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:old-witty:magical-summer:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical Summer: Bloom. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Summer — Stella (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:old-witty:magical-summer:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical Summer: Stella. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Summer — Flora (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:old-witty:magical-summer:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical Summer: Flora. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Summer — Aisha (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:old-witty:magical-summer:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical Summer: Aisha. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Summer — Musa (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:old-witty:magical-summer:musa",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical Summer: Musa. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Summer — Tecna (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:old-witty:magical-summer:tecna",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical Summer: Tecna. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Winx Ocean · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Лінійка Old Witty. Комплекти Bloom з транспортом враховані окремими коробковими випусками. Жодного непідтвердженого SKU/EAN.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Winx Ocean — Bloom (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:old-witty:winx-ocean:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Winx Ocean: Bloom. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Winx Ocean — Stella (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:old-witty:winx-ocean:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Winx Ocean: Stella. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Winx Ocean — Flora (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:old-witty:winx-ocean:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Winx Ocean: Flora. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Winx Ocean — Aisha (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:old-witty:winx-ocean:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Winx Ocean: Aisha. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Winx Ocean — Musa (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:old-witty:winx-ocean:musa",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Winx Ocean: Musa. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Winx Ocean — Tecna (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:old-witty:winx-ocean:tecna",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Winx Ocean: Tecna. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · I Love Dance · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Лінійка Old Witty. Комплекти Bloom з транспортом враховані окремими коробковими випусками. Жодного непідтвердженого SKU/EAN.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx I Love Dance — Bloom (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:old-witty:i-love-dance:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys I Love Dance: Bloom. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx I Love Dance — Stella (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:old-witty:i-love-dance:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys I Love Dance: Stella. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx I Love Dance — Flora (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:old-witty:i-love-dance:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys I Love Dance: Flora. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx I Love Dance — Aisha (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:old-witty:i-love-dance:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys I Love Dance: Aisha. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx I Love Dance — Musa (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:old-witty:i-love-dance:musa",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys I Love Dance: Musa. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx I Love Dance — Roxy (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Roxy",
+          "variantKey": "winx:old-witty:i-love-dance:roxy",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys I Love Dance: Roxy. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Magical West · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Лінійка Old Witty. Комплекти Bloom з транспортом враховані окремими коробковими випусками. Жодного непідтвердженого SKU/EAN.",
+      "count": 4,
+      "items": [
+        {
+          "name": "Winx Magical West — Bloom (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:old-witty:magical-west:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical West: Bloom. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical West — Stella (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:old-witty:magical-west:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical West: Stella. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical West — Flora (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:old-witty:magical-west:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical West: Flora. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical West — Aisha (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:old-witty:magical-west:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical West: Aisha. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Magical Adventure · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Лінійка Old Witty. Комплекти Bloom з транспортом враховані окремими коробковими випусками. Жодного непідтвердженого SKU/EAN.",
+      "count": 7,
+      "items": [
+        {
+          "name": "Winx Magical Adventure — Bloom (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:old-witty:magical-adventure:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical Adventure: Bloom. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Adventure — Stella (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:old-witty:magical-adventure:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical Adventure: Stella. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Adventure — Flora (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:old-witty:magical-adventure:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical Adventure: Flora. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Adventure — Aisha (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:old-witty:magical-adventure:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical Adventure: Aisha. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Adventure — Musa (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:old-witty:magical-adventure:musa",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical Adventure: Musa. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Adventure — Tecna (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:old-witty:magical-adventure:tecna",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical Adventure: Tecna. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Adventure — Bloom and Peg 2-pack (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom and Peg 2-pack",
+          "variantKey": "winx:old-witty:magical-adventure:bloom-and-peg-2-pack",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Magical Adventure: Bloom and Peg 2-pack. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Princesas del Reino Magico · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Лінійка Old Witty. Комплекти Bloom з транспортом враховані окремими коробковими випусками. Жодного непідтвердженого SKU/EAN.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Princesas del Reino Magico — Bloom (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:old-witty:princesas-del-reino-magico:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Princesas del Reino Magico: Bloom. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Princesas del Reino Magico — Stella (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:old-witty:princesas-del-reino-magico:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Princesas del Reino Magico: Stella. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Princesas del Reino Magico — Flora (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:old-witty:princesas-del-reino-magico:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Princesas del Reino Magico: Flora. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Friends Forever · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Лінійка Old Witty. Комплекти Bloom з транспортом враховані окремими коробковими випусками. Жодного непідтвердженого SKU/EAN.",
+      "count": 7,
+      "items": [
+        {
+          "name": "Winx Friends Forever — Bloom (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:old-witty:friends-forever:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Friends Forever: Bloom. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Friends Forever — Stella (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:old-witty:friends-forever:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Friends Forever: Stella. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Friends Forever — Flora (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:old-witty:friends-forever:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Friends Forever: Flora. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Friends Forever — Aisha (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:old-witty:friends-forever:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Friends Forever: Aisha. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Friends Forever — Musa (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:old-witty:friends-forever:musa",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Friends Forever: Musa. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Friends Forever — Tecna (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:old-witty:friends-forever:tecna",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Friends Forever: Tecna. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Friends Forever — Bloom with Vespa (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom with Vespa",
+          "variantKey": "winx:old-witty:friends-forever:bloom-with-vespa",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Friends Forever: Bloom with Vespa. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Harmonix Power · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Лінійка Old Witty. Комплекти Bloom з транспортом враховані окремими коробковими випусками. Жодного непідтвердженого SKU/EAN.",
+      "count": 7,
+      "items": [
+        {
+          "name": "Winx Harmonix Power — Bloom (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:old-witty:harmonix-power:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Harmonix Power: Bloom. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Harmonix Power — Aisha (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:old-witty:harmonix-power:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Harmonix Power: Aisha. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Harmonix Power — Bloom Big Wings (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom Big Wings",
+          "variantKey": "winx:old-witty:harmonix-power:bloom-big-wings",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Harmonix Power: Bloom Big Wings. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Harmonix Power — Stella (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:old-witty:harmonix-power:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Harmonix Power: Stella. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Harmonix Power — Tecna (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:old-witty:harmonix-power:tecna",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Harmonix Power: Tecna. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Harmonix Power — Flora (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:old-witty:harmonix-power:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Harmonix Power: Flora. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Harmonix Power — Musa (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:old-witty:harmonix-power:musa",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Harmonix Power: Musa. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · In Concert / Rock Stars · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Лінійка Old Witty. Комплекти Bloom з транспортом враховані окремими коробковими випусками. Жодного непідтвердженого SKU/EAN.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx In Concert / Rock Stars — Bloom (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:old-witty:in-concert-rock-stars:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys In Concert / Rock Stars: Bloom. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx In Concert / Rock Stars — Stella (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:old-witty:in-concert-rock-stars:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys In Concert / Rock Stars: Stella. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx In Concert / Rock Stars — Flora (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:old-witty:in-concert-rock-stars:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys In Concert / Rock Stars: Flora. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx In Concert / Rock Stars — Aisha (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:old-witty:in-concert-rock-stars:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys In Concert / Rock Stars: Aisha. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx In Concert / Rock Stars — Musa (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:old-witty:in-concert-rock-stars:musa",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys In Concert / Rock Stars: Musa. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx In Concert / Rock Stars — Tecna (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:old-witty:in-concert-rock-stars:tecna",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys In Concert / Rock Stars: Tecna. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Fairy Ice Skating Championship · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Лінійка Old Witty. Комплекти Bloom з транспортом враховані окремими коробковими випусками. Жодного непідтвердженого SKU/EAN.",
+      "count": 4,
+      "items": [
+        {
+          "name": "Winx Fairy Ice Skating Championship — Bloom (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:old-witty:fairy-ice-skating-championship:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Fairy Ice Skating Championship: Bloom. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Fairy Ice Skating Championship — Stella (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:old-witty:fairy-ice-skating-championship:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Fairy Ice Skating Championship: Stella. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Fairy Ice Skating Championship — Flora (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:old-witty:fairy-ice-skating-championship:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Fairy Ice Skating Championship: Flora. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Fairy Ice Skating Championship — Roxy (Old Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Roxy",
+          "variantKey": "winx:old-witty:fairy-ice-skating-championship:roxy",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Підтверджена позиція старої лінійки Witty Toys Fairy Ice Skating Championship: Roxy. Фото конкретного випуску, артикул і штрихкод потребують перевірки.",
+          "sourceVerification": "Explicit product/character roster in Dollect Old Witty/Simba/Smoby historical catalog; exact SKU and GTIN not inferred.",
+          "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
+        }
+      ]
     }
   ]
 }
