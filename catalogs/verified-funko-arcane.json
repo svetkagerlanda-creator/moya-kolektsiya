@@ -58,7 +58,10 @@
           "sourceUrl": "https://funko.com/pop-jinx/75649.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw64a2c850/images/funko/upload/75649_POPTV_Arcane_Jinx_POP_GLAM-WEB.png",
           "photoCredit": "Funko · офіційне фото конкретного випуску",
-          "description": "Funko POP! Arcane: League of Legends · коробка #1602"
+          "description": "Funko POP! Arcane: League of Legends · коробка #1602",
+          "upc": "889698756495",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://popspotme.com/product/funko-pop-arcane-jinx-1602/"
         },
         {
           "name": "Ekko",
