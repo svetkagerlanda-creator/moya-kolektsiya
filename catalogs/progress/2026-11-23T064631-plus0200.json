@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-11-23T06:46:31+02:00",
+  "task": "historical-dolls-pets",
+  "changes": [
+    {
+      "path": "scripts/build_historical_dolls_pets.py",
+      "commit": "a66c7668addecf30781d12407da373383cb531a5",
+      "detail": "Preserve exact-source cards omitted from transient upstream snapshots; retain highest known source-declared count; record recovery diagnostic."
+    }
+  ],
+  "baseline": {
+    "series": 422,
+    "items": 7471,
+    "photos": 7471,
+    "partialSeries": 1,
+    "remainingUnscanned": 0
+  },
+  "addedSeries": 0,
+  "addedItems": 0,
+  "addedPhotos": 0,
+  "validation": "GitHub update confirmed; importer not executed; baseline metrics from previously committed diagnostics.",
+  "next": [
+    "Run historical importer in repository environment",
+    "Inspect remaining partial series and actual source counts",
+    "Check source-specific images and SKU identities",
+    "Extend Bratz and Winx coverage"
+  ],
+  "personalStatusesChanged": false
+}
