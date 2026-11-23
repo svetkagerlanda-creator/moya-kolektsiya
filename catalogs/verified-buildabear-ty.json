@@ -558,14 +558,16 @@
           "figureNumber": "37376",
           "variantKey": "ty:beanie-boos:37376",
           "sourceUrl": "https://www.ty.com/product/finnegan/37376.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
+          "photo": "https://f6009e80444d2e85881f-de3b40d26cd41856b9d4d4f0b1fbe4de.ssl.cf1.rackcdn.com/Boos/boo-Finnegan-37376-W1-a.jpg",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
           "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
           "upc": "008421373765",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/haifisch-finnegan-shark.html",
           "barcodeVerification": "Matching Ty Beanie Boos character and exact Ty model/MPN with published UPC or EAN listing; UPC-A check digit validated.",
-          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions."
+          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions.",
+          "photoSourceUrl": "https://www.ebay.com/itm/297669231971",
+          "photoCredit": "eBay product image for TY Finnegan SKU 37376"
         },
         {
           "name": "Ernie",
@@ -573,14 +575,16 @@
           "figureNumber": "37373",
           "variantKey": "ty:beanie-boos:37373",
           "sourceUrl": "https://www.ty.com/product/ernie/37373.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
+          "photo": "https://childishtendencies.com/cdn/shop/files/Stuffed_Animal_Beanie_Boo_Ernie_Crocodile_6.png?v=1749839261",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
           "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
           "upc": "008421373734",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/alligator-ernie-gruen.html",
           "barcodeVerification": "Matching Ty Beanie Boos character and exact Ty model/MPN with published UPC or EAN listing; UPC-A check digit validated.",
-          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions."
+          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions.",
+          "photoSourceUrl": "https://childishtendencies.com/products/stuffed-animal-beanie-boo-ernie-crocodile-6",
+          "photoCredit": "Retail photo for TY Beanie Boos Ernie 6 inch, SKU 37373"
         },
         {
           "name": "Gnewman",
