@@ -1,12 +1,11 @@
 {
   "sourcePages": 21,
   "queriedProductPages": 199,
-  "verifiedSeries": 19,
-  "verifiedProducts": 221,
-  "photoRecords": 143,
+  "verifiedSeries": 17,
+  "verifiedProducts": 198,
+  "photoRecords": 144,
   "errors": {
     "https://shop.mgae.com/collections/bratz-babyz/products/bratz-big-babyz-doll-yasmin": "404 Client Error: Not Found for url: https://shop.mgae.com/collections/bratz-babyz/products/bratz-big-babyz-doll-yasmin",
-    "https://www.bratz.com/products/bratz-play-sportz-cloe-tennis": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-play-sportz-cloe-tennis",
     "https://www.bratz.com/products/bratz-play-sportz-jade-basketball": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-play-sportz-jade-basketball",
     "https://www.bratz.com/products/bratz-play-sportz-roxxi-soccer": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-play-sportz-roxxi-soccer",
     "https://www.bratz.com/products/bratz-play-sportz-sasha-cheerleading": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-play-sportz-sasha-cheerleading",
@@ -33,11 +32,11 @@
     "https://shop.mattel.com/products/monster-highpoupeedraculaura-hrp64-fr-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-highpoupeedraculaura-hrp64-fr-ca",
     "https://shop.mattel.com/products/monster-highpoupeevenus-mcflytrap-hrp81-fr-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-highpoupeevenus-mcflytrap-hrp81-fr-ca",
     "https://www.winxclub.com/en-us/products/winx-dreamix-figure-collection-6-characters": "404 Client Error: Not Found for url: https://www.winxclub.com/en-us/products/winx-dreamix-figure-collection-6-characters",
+    "https://www.winxclub.com/products/winx-rock-band-limited-edition-comics-vol-1-italian-edition": "429 Client Error: Too Many Requests for url: https://www.winxclub.com/products/winx-rock-band-limited-edition-comics-vol-1-italian-edition",
     "https://www.winxclub.com/products/winx-vs-trix-limited-edition-comics-vol-2-italian-edition": "429 Client Error: Too Many Requests for url: https://www.winxclub.com/products/winx-vs-trix-limited-edition-comics-vol-2-italian-edition",
     "https://www.winxclub.com/products/youre-magical-birthday-card": "429 Client Error: Too Many Requests for url: https://www.winxclub.com/products/youre-magical-birthday-card",
     "https://service.mattel.com/us/productDetail.aspx?prodno=BBD42&siteid=27": "missing trustworthy product title",
     "https://www.sylvanianfamilies.com/en-uk/catalog/item_detail.php?product_id=2627": "403 Client Error: Forbidden for url: https://www.sylvanianfamilies.com/en-uk/catalog/item_detail.php?product_id=2627",
-    "https://www.sylvanianfamilies.com/uk-ua/catalog/item_detail.php?product_id=2356": "403 Client Error: Forbidden for url: https://www.sylvanianfamilies.com/uk-ua/catalog/item_detail.php?product_id=2356",
-    "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi": "429 Client Error: Too Many Requests for url: https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi"
+    "https://www.sylvanianfamilies.com/uk-ua/catalog/item_detail.php?product_id=2356": "403 Client Error: Forbidden for url: https://www.sylvanianfamilies.com/uk-ua/catalog/item_detail.php?product_id=2356"
   }
 }
