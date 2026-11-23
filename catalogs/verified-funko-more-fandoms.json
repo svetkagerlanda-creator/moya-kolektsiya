@@ -306,7 +306,11 @@
           "seriesNumber": "93137",
           "sourceUrl": "https://funko.com/pop-ninth-doctor/93137.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwe35fe546/images/funko/upload/1/93137a_POPTV_DoctorWho_S5_NinthDoctor_Renders-glam-WEB.png?sh=800&sw=800",
-          "description": "Funko item 93137; box 1963"
+          "description": "Funko item 93137; box 1963",
+          "upc": "889698931373",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-tv-doctor-who-ninth-doctor-4.2-in-vinyl-figure/437653.html",
+          "barcodeVerification": "Product-specific retailer/GTIN record matches manufacturer model and description; GTIN check digit validated"
         },
         {
           "name": "Tenth Doctor",
@@ -317,7 +321,11 @@
           "seriesNumber": "93134",
           "sourceUrl": "https://funko.com/pop-tenth-doctor/93134.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw9086e9d7/images/funko/upload/1/93134a_POPTV_DoctorWho_S5_TenthDoctor_Renders-glam-WEB.png?sh=800&sw=800",
-          "description": "Funko item 93134; box 1965"
+          "description": "Funko item 93134; box 1965",
+          "upc": "889698931342",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-tv-doctor-who-tenth-doctor-4.5-in-vinyl-figure/437573.html",
+          "barcodeVerification": "Product-specific retailer/GTIN record matches manufacturer model and description; GTIN check digit validated"
         },
         {
           "name": "Eleventh Doctor",
@@ -343,7 +351,11 @@
           "seriesNumber": "93136",
           "sourceUrl": "https://funko.com/pop-fifteenth-doctor/93136.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw79e9ccbb/images/funko/upload/1/93136a_POPTV_DoctorWho_S5_FifteenthDoctor_Renders_Rev2-glam-WEB.png?sh=800&sw=800",
-          "description": "Funko item 93136; box 1967"
+          "description": "Funko item 93136; box 1967",
+          "upc": "889698931366",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-tv-doctor-who-fifteenth-doctor-4.1-in-vinyl-figure/437601.html",
+          "barcodeVerification": "Product-specific retailer/GTIN record matches manufacturer model and description; GTIN check digit validated"
         },
         {
           "name": "Reconnaissance Dalek",
@@ -354,7 +366,11 @@
           "seriesNumber": "43350",
           "sourceUrl": "https://funko.com/pop-tv-doctor-who---reconnaissance-dalek/43350.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw6705354f/images/funko/43350-1_C.png?sh=800&sw=800",
-          "description": "Funko item 43350; box 901"
+          "description": "Funko item 43350; box 901",
+          "upc": "889698433501",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/doctor-who-funko-pop-tv-reconnaissance-dalek-vinyl-figure/",
+          "barcodeVerification": "Product-specific retailer/GTIN record matches manufacturer model and description; GTIN check digit validated"
         }
       ]
     },
