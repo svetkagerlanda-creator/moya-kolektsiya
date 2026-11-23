@@ -63,14 +63,14 @@ def discover(root,category,index):
             title=unquote(slug).replace("-"," ").title()
         title=re.sub(r"\s+"," ",title).strip()
         if len(title)>100: title=title[:100].strip()
-        title=re.sub(r"\s*\([\d,]+\s+(?:releases|figures|ponies|dolls|items|toys)\)\s*$","",title,flags=re.I).strip()
+        title=re.sub(r"\s*\([\d,]+\s+(?:releases?|figures?|ponies|pony|dolls?|items?|toys?)\)\s*$","",title,flags=re.I).strip()
         name=f"Hasbro · {index} · {title}"
         expected=None
         # Some source indexes display the count on a series tile rather than
         # its detail page. Accept it only when clearly tied to this link.
         for node in (a, a.parent, a.parent.parent if a.parent else None):
             if node is None: continue
-            count_match=re.search(r"\(([\d,]+)\s+(?:releases|figures|ponies|dolls|items|toys)\)",node.get_text(" ",strip=True),re.I)
+            count_match=re.search(r"\(([\d,]+)\s+(?:releases?|figures?|ponies|pony|dolls?|items?|toys?)\)",node.get_text(" ",strip=True),re.I)
             if count_match:
                 expected=int(count_match.group(1).replace(",",""))
                 break
@@ -82,9 +82,9 @@ def discover(root,category,index):
 def source_count(soup):
     text=soup.get_text(" ",strip=True)
     expressions=[
-        r"(?:with\s+)?a\s+total\s+of\s+([\d,]+)\s+(?:releases|figures|ponies|dolls|items|toys)",
-        r"([\d,]+)\s+(?:total\s+)?(?:releases|figures|ponies|dolls|items|toys)\s+(?:in this|for this)",
-        r"([\d,]+)\s+(?:releases|figures|ponies|dolls|items|toys)\s+found",
+        r"(?:with\s+)?a\s+total\s+of\s+([\d,]+)\s+(?:releases?|figures?|ponies|pony|dolls?|items?|toys?)",
+        r"([\d,]+)\s+(?:total\s+)?(?:releases?|figures?|ponies|pony|dolls?|items?|toys?)\s+(?:in this|for this)",
+        r"([\d,]+)\s+(?:releases?|figures?|ponies|pony|dolls?|items?|toys?)\s+found",
     ]
     for expr in expressions:
         m=re.search(expr,text,re.I)
