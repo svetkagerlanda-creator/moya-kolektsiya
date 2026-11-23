@@ -6760,6 +6760,923 @@
           "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
         }
       ]
+    },
+    {
+      "name": "Winx Club · Trendy (2004) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Персонажі, рік і виробник підтверджені. Не вважати серію повністю оформленою до підтвердження фото і артикулів; перевидання різних років окремі.",
+      "count": 5,
+      "items": [
+        {
+          "name": "Winx Trendy 2004 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:trendy:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Trendy (2004), Bloom. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Trendy 2004 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:trendy:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Trendy (2004), Stella. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Trendy 2004 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:trendy:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Trendy (2004), Flora. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Trendy 2004 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:trendy:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Trendy (2004), Musa. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Trendy 2004 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:trendy:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Trendy (2004), Tecna. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Trendy Winter (2004) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Персонажі, рік і виробник підтверджені. Не вважати серію повністю оформленою до підтвердження фото і артикулів; перевидання різних років окремі.",
+      "count": 5,
+      "items": [
+        {
+          "name": "Winx Trendy Winter 2004 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:trendy-winter:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Trendy Winter (2004), Bloom. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Trendy Winter 2004 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:trendy-winter:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Trendy Winter (2004), Stella. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Trendy Winter 2004 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:trendy-winter:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Trendy Winter (2004), Flora. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Trendy Winter 2004 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:trendy-winter:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Trendy Winter (2004), Musa. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Trendy Winter 2004 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:trendy-winter:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Trendy Winter (2004), Tecna. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Doppio Abito (2004) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Персонажі, рік і виробник підтверджені. Не вважати серію повністю оформленою до підтвердження фото і артикулів; перевидання різних років окремі.",
+      "count": 5,
+      "items": [
+        {
+          "name": "Winx Doppio Abito 2004 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:doppio-abito:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Doppio Abito (2004), Bloom. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Doppio Abito 2004 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:doppio-abito:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Doppio Abito (2004), Stella. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Doppio Abito 2004 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:doppio-abito:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Doppio Abito (2004), Flora. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Doppio Abito 2004 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:doppio-abito:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Doppio Abito (2004), Musa. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Doppio Abito 2004 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2004,
+          "variantKey": "winx:giochi-preziosi:2004:doppio-abito:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Doppio Abito (2004), Tecna. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Fata (Season 2 reissue) (2005) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Персонажі, рік і виробник підтверджені. Не вважати серію повністю оформленою до підтвердження фото і артикулів; перевидання різних років окремі.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Fata (Season 2 reissue) 2005 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fata-season-2-reissue-:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fata (Season 2 reissue) (2005), Bloom. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fata (Season 2 reissue) 2005 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fata-season-2-reissue-:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fata (Season 2 reissue) (2005), Stella. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fata (Season 2 reissue) 2005 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fata-season-2-reissue-:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fata (Season 2 reissue) (2005), Flora. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fata (Season 2 reissue) 2005 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fata-season-2-reissue-:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fata (Season 2 reissue) (2005), Musa. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fata (Season 2 reissue) 2005 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fata-season-2-reissue-:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fata (Season 2 reissue) (2005), Tecna. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fata (Season 2 reissue) 2005 — Aisha",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Aisha",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fata-season-2-reissue-:aisha",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fata (Season 2 reissue) (2005), Aisha. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Fate Parlanti (2005) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Персонажі, рік і виробник підтверджені. Не вважати серію повністю оформленою до підтвердження фото і артикулів; перевидання різних років окремі.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Fate Parlanti 2005 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fate-parlanti:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Parlanti (2005), Bloom. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Parlanti 2005 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fate-parlanti:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Parlanti (2005), Stella. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Parlanti 2005 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fate-parlanti:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Parlanti (2005), Flora. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Parlanti 2005 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fate-parlanti:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Parlanti (2005), Musa. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Parlanti 2005 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fate-parlanti:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Parlanti (2005), Tecna. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Parlanti 2005 — Aisha",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Aisha",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fate-parlanti:aisha",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Parlanti (2005), Aisha. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Fate Parlanti Doppio Abito (2005) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Персонажі, рік і виробник підтверджені. Не вважати серію повністю оформленою до підтвердження фото і артикулів; перевидання різних років окремі.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Fate Parlanti Doppio Abito 2005 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fate-parlanti-doppio-abito:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Parlanti Doppio Abito (2005), Bloom. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Parlanti Doppio Abito 2005 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fate-parlanti-doppio-abito:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Parlanti Doppio Abito (2005), Stella. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Parlanti Doppio Abito 2005 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fate-parlanti-doppio-abito:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Parlanti Doppio Abito (2005), Flora. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Parlanti Doppio Abito 2005 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fate-parlanti-doppio-abito:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Parlanti Doppio Abito (2005), Musa. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Parlanti Doppio Abito 2005 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fate-parlanti-doppio-abito:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Parlanti Doppio Abito (2005), Tecna. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Parlanti Doppio Abito 2005 — Aisha",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Aisha",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fate-parlanti-doppio-abito:aisha",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Parlanti Doppio Abito (2005), Aisha. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Fata Profumate (2005) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Персонажі, рік і виробник підтверджені. Не вважати серію повністю оформленою до підтвердження фото і артикулів; перевидання різних років окремі.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Fata Profumate 2005 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fata-profumate:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fata Profumate (2005), Bloom. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fata Profumate 2005 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fata-profumate:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fata Profumate (2005), Stella. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fata Profumate 2005 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fata-profumate:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fata Profumate (2005), Flora. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fata Profumate 2005 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fata-profumate:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fata Profumate (2005), Musa. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fata Profumate 2005 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fata-profumate:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fata Profumate (2005), Tecna. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fata Profumate 2005 — Aisha",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Aisha",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:fata-profumate:aisha",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fata Profumate (2005), Aisha. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Estate (2005) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Персонажі, рік і виробник підтверджені. Не вважати серію повністю оформленою до підтвердження фото і артикулів; перевидання різних років окремі.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Estate 2005 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:estate:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Estate (2005), Bloom. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Estate 2005 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:estate:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Estate (2005), Stella. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Estate 2005 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:estate:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Estate (2005), Flora. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Estate 2005 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:estate:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Estate (2005), Musa. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Estate 2005 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:estate:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Estate (2005), Tecna. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Estate 2005 — Aisha",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Aisha",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:estate:aisha",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Estate (2005), Aisha. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Grande Amica 1m (2005) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Персонажі, рік і виробник підтверджені. Не вважати серію повністю оформленою до підтвердження фото і артикулів; перевидання різних років окремі.",
+      "count": 4,
+      "items": [
+        {
+          "name": "Winx Grande Amica 1m 2005 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:grande-amica-1m:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Grande Amica 1m (2005), Bloom. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Grande Amica 1m 2005 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:grande-amica-1m:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Grande Amica 1m (2005), Stella. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Grande Amica 1m 2005 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:grande-amica-1m:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Grande Amica 1m (2005), Flora. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Grande Amica 1m 2005 — Aisha",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Aisha",
+          "year": 2005,
+          "variantKey": "winx:giochi-preziosi:2005:grande-amica-1m:aisha",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Grande Amica 1m (2005), Aisha. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Fate Charmix (2006) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Персонажі, рік і виробник підтверджені. Не вважати серію повністю оформленою до підтвердження фото і артикулів; перевидання різних років окремі.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Fate Charmix 2006 — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:fate-charmix:bloom",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Charmix (2006), Bloom. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Charmix 2006 — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:fate-charmix:stella",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Charmix (2006), Stella. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Charmix 2006 — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:fate-charmix:flora",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Charmix (2006), Flora. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Charmix 2006 — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:fate-charmix:musa",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Charmix (2006), Musa. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Charmix 2006 — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:fate-charmix:tecna",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Charmix (2006), Tecna. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Fate Charmix 2006 — Aisha",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Aisha",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:fate-charmix:aisha",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Fate Charmix (2006), Aisha. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Magica Sirena (2006) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Персонажі, рік і виробник підтверджені. Не вважати серію повністю оформленою до підтвердження фото і артикулів; перевидання різних років окремі.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Magica Sirena 2006 — Kalia",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Kalia",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magica-sirena:kalia",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Magica Sirena (2006), Kalia. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Magica Sirena 2006 — Nesia",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Nesia",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magica-sirena:nesia",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Magica Sirena (2006), Nesia. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Magica Sirena 2006 — Tala",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tala",
+          "year": 2006,
+          "variantKey": "winx:giochi-preziosi:2006:magica-sirena:tala",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Magica Sirena (2006), Tala. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Magica Sirena (2007) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/giochi-preziosi-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Персонажі, рік і виробник підтверджені. Не вважати серію повністю оформленою до підтвердження фото і артикулів; перевидання різних років окремі.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Magica Sirena 2007 — Coralia",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Coralia",
+          "year": 2007,
+          "variantKey": "winx:giochi-preziosi:2007:magica-sirena:coralia",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Magica Sirena (2007), Coralia. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Magica Sirena 2007 — Talassia",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Talassia",
+          "year": 2007,
+          "variantKey": "winx:giochi-preziosi:2007:magica-sirena:talassia",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Magica Sirena (2007), Talassia. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx Magica Sirena 2007 — Amarea",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Amarea",
+          "year": 2007,
+          "variantKey": "winx:giochi-preziosi:2007:magica-sirena:amarea",
+          "sourceUrl": "https://dollect.net/database/giochi-preziosi-winx-club/",
+          "photo": "",
+          "description": "Giochi Preziosi Winx Club Magica Sirena (2007), Amarea. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · First Edition Season 1 (2004) · Mattel",
+      "manufacturer": "Mattel",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/mattel-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Персонажі, рік і виробник підтверджені. Не вважати серію повністю оформленою до підтвердження фото і артикулів; перевидання різних років окремі.",
+      "count": 7,
+      "items": [
+        {
+          "name": "Winx First Edition Season 1 2004 — Bloom",
+          "manufacturer": "Mattel",
+          "character": "Bloom",
+          "year": 2004,
+          "variantKey": "winx:mattel:2004:first-edition-season-1:bloom",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Winx Club First Edition Season 1 (2004), Bloom. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx First Edition Season 1 2004 — Stella",
+          "manufacturer": "Mattel",
+          "character": "Stella",
+          "year": 2004,
+          "variantKey": "winx:mattel:2004:first-edition-season-1:stella",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Winx Club First Edition Season 1 (2004), Stella. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx First Edition Season 1 2004 — Flora",
+          "manufacturer": "Mattel",
+          "character": "Flora",
+          "year": 2004,
+          "variantKey": "winx:mattel:2004:first-edition-season-1:flora",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Winx Club First Edition Season 1 (2004), Flora. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx First Edition Season 1 2004 — Tecna",
+          "manufacturer": "Mattel",
+          "character": "Tecna",
+          "year": 2004,
+          "variantKey": "winx:mattel:2004:first-edition-season-1:tecna",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Winx Club First Edition Season 1 (2004), Tecna. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx First Edition Season 1 2004 — Musa",
+          "manufacturer": "Mattel",
+          "character": "Musa",
+          "year": 2004,
+          "variantKey": "winx:mattel:2004:first-edition-season-1:musa",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Winx Club First Edition Season 1 (2004), Musa. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx First Edition Season 1 2004 — Prince Sky",
+          "manufacturer": "Mattel",
+          "character": "Prince Sky",
+          "year": 2004,
+          "variantKey": "winx:mattel:2004:first-edition-season-1:prince-sky",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Winx Club First Edition Season 1 (2004), Prince Sky. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        },
+        {
+          "name": "Winx First Edition Season 1 2004 — Icy",
+          "manufacturer": "Mattel",
+          "character": "Icy",
+          "year": 2004,
+          "variantKey": "winx:mattel:2004:first-edition-season-1:icy",
+          "sourceUrl": "https://dollect.net/database/mattel-winx-club/",
+          "photo": "",
+          "description": "Mattel Winx Club First Edition Season 1 (2004), Icy. Історичний випуск; зображення конкретної коробки, артикул та EAN/UPC очікують окремої перевірки.",
+          "sourceVerification": "The doll and character are explicitly listed under the named year/line in the Dollect collector database. No barcode or image inferred."
+        }
+      ]
     }
   ]
 }
