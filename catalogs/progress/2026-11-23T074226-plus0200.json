@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-11-23T07:42:26+02:00",
+  "task": "historical-catalog-gap-diagnostics",
+  "repository": "svetkagerlanda-creator/moya-kolektsiya",
+  "changes": [
+    {
+      "path": "scripts/build_historical_dolls_pets.py",
+      "commit": "a6d317006bec05b3081a3d13a48b0b71731b9a6d",
+      "description": "Per-fandom indexed/saved series, item counts, unscanned source URLs and partial-series URLs in diagnostics"
+    }
+  ],
+  "baseline": {
+    "indexedSeries": 422,
+    "savedSeries": 422,
+    "items": 7471,
+    "photoRecords": 7471,
+    "partialSeries": 1,
+    "source": "existing catalogs/historical-dolls-pets-errors.json; not independently revalidated"
+  },
+  "newSeries": 0,
+  "newItems": 0,
+  "newPhotos": 0,
+  "importerExecuted": false,
+  "photoUrlsValidated": false,
+  "personalStatusesModified": false,
+  "limitations": [
+    "GitHub connector supports source editing but no direct remote script execution in this run",
+    "No verified new product pages imported"
+  ],
+  "next": [
+    "Run historical importer in repository environment",
+    "Review byFandom.partialSeries and unscannedSeries",
+    "Add verified Bratz and Winx releases with individual photos"
+  ]
+}
