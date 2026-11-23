@@ -566,7 +566,7 @@
       "manufacturer": "Mattel",
       "fandomKey": "everafterhigh",
       "group": "📖 Ever After High",
-      "count": 31,
+      "count": 30,
       "items": [
         {
           "name": "Ever After High First Chapter Wave 1 2-pack Holly O'Hair | EAH Merch",
@@ -596,11 +596,17 @@
         },
         {
           "name": "Ever After High First Chapter Wave 1 Apple White | EAH Merch",
-          "figureNumber": "",
+          "figureNumber": "BBD52",
           "manufacturer": "Mattel",
           "sourceUrl": "https://eahmerch.com/dolls/details/eahfc1aw/",
           "photo": "https://4.bp.blogspot.com/-MlDn6Ho5KRQ/Vw0V3lPAXoI/AAAAAAAAjsI/FLns7rYezMI1NYxI2TFVatYwo0Bt0TN0ACLcB/s800/Apple-White-Core-Royals-Rebels-1.jpg",
-          "description": "Ever After High First Chapter Wave 1 Apple White details page."
+          "description": "Ever After High First Chapter Wave 1 Apple White details page.",
+          "upc": "746775266592",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://wertoys.com/ever-after-high-first-chapter-apple-white-doll-mattel-2013-bbd52-new/",
+          "barcodeVerification": "Retailer explicitly identifies First Chapter 2013 character and Mattel model BBD52 alongside UPC-A; checksum valid",
+          "barcodeNote": "Wave 1 character-specific retail UPC; packaging revisions may vary",
+          "variantKey": "eah:first-chapter:wave1:BBD52"
         },
         {
           "name": "Ever After High First Chapter Wave 1 Ashlynn Ella | EAH Merch",
@@ -620,11 +626,17 @@
         },
         {
           "name": "Ever After High First Chapter Wave 1 Briar Beauty | EAH Merch",
-          "figureNumber": "",
+          "figureNumber": "BBD53",
           "manufacturer": "Mattel",
           "sourceUrl": "https://eahmerch.com/dolls/details/eahfc1bb/",
           "photo": "https://2.bp.blogspot.com/-AO241eA8Zwg/Vw0V5SS9hMI/AAAAAAAAjss/rrMkJywMpPgh4shfNN_3bV21bCtoPgWrwCLcB/s800/Briar-Beauty-Core-Royals-Rebels-1.jpg",
-          "description": "Ever After High First Chapter Wave 1 Briar Beauty details page."
+          "description": "Ever After High First Chapter Wave 1 Briar Beauty details page.",
+          "upc": "746775266608",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://wertoys.com/ever-after-high-first-chapter-briar-beauty-doll-2013-mattel-bbd53/",
+          "barcodeVerification": "Retailer explicitly identifies First Chapter 2013 character and Mattel model BBD53 alongside UPC-A; checksum valid",
+          "barcodeNote": "Wave 1 character-specific retail UPC; packaging revisions may vary",
+          "variantKey": "eah:first-chapter:wave1:BBD53"
         },
         {
           "name": "Ever After High First Chapter Wave 1 C. A. Cupid | EAH Merch",
@@ -644,11 +656,17 @@
         },
         {
           "name": "Ever After High First Chapter Wave 1 Cerise Hood | EAH Merch",
-          "figureNumber": "",
+          "figureNumber": "BBD44",
           "manufacturer": "Mattel",
           "sourceUrl": "https://eahmerch.com/dolls/details/eahfc1ch/",
           "photo": "https://1.bp.blogspot.com/--bPq82Y-z_c/Vw0V7FaG9VI/AAAAAAAAjtM/X5jOjjjgosUJt2S5Gn2zn0Op86_rhbj0gCLcB/s800/Cerise-Hood-Core-Royals-Rebels-1.jpg",
-          "description": "Ever After High First Chapter Wave 1 Cerise Hood details page."
+          "description": "Ever After High First Chapter Wave 1 Cerise Hood details page.",
+          "upc": "746775266516",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://wertoys.com/ever-after-high-cerise-hood-doll-first-chapter-2013-mattel-bbd44/",
+          "barcodeVerification": "Retailer explicitly identifies First Chapter 2013 character and Mattel model BBD44 alongside UPC-A; checksum valid",
+          "barcodeNote": "Wave 1 character-specific retail UPC; packaging revisions may vary",
+          "variantKey": "eah:first-chapter:wave1:BBD44"
         },
         {
           "name": "Ever After High First Chapter Wave 1 Dexter Charming | EAH Merch",
@@ -668,19 +686,31 @@
         },
         {
           "name": "Ever After High First Chapter Wave 1 Madeline Hatter | EAH Merch",
-          "figureNumber": "",
+          "figureNumber": "BBD43",
           "manufacturer": "Mattel",
           "sourceUrl": "https://eahmerch.com/dolls/details/eahfc1mh/",
           "photo": "https://4.bp.blogspot.com/-Lw0HXIFXmmU/Vw0WAiiOU-I/AAAAAAAAjuo/Z78CWAWvl3csyeME6g3b2KdfZUybWbtPgCLcB/s800/Madeline-Core-Royals-Rebels-1.jpg",
-          "description": "Ever After High First Chapter Wave 1 Madeline Hatter details page."
+          "description": "Ever After High First Chapter Wave 1 Madeline Hatter details page.",
+          "upc": "746775266509",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://wertoys.com/ever-after-high-first-chapter-madeline-hatter-fashion-doll-2013-mattel-bbd43/",
+          "barcodeVerification": "Retailer explicitly identifies First Chapter 2013 character and Mattel model BBD43 alongside UPC-A; checksum valid",
+          "barcodeNote": "Wave 1 character-specific retail UPC; packaging revisions may vary",
+          "variantKey": "eah:first-chapter:wave1:BBD43"
         },
         {
           "name": "Ever After High First Chapter Wave 1 Raven Queen | EAH Merch",
-          "figureNumber": "",
+          "figureNumber": "BBD42",
           "manufacturer": "Mattel",
           "sourceUrl": "https://eahmerch.com/dolls/details/eahfc1rq/",
           "photo": "https://4.bp.blogspot.com/-QWyVrDczZmw/Vw0WBUpJrBI/AAAAAAAAju8/3PXlnYxy5aE96jTP4N5mjxkdup1vJW5UQCLcB/s800/Raven-Queen-Core-Royals-Rebels-1.jpg",
-          "description": "Ever After High First Chapter Wave 1 Raven Queen details page."
+          "description": "Ever After High First Chapter Wave 1 Raven Queen details page.",
+          "upc": "746775266493",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://wertoys.com/ever-after-high-first-chapter-raven-queen-doll-2013-mattel-bbd42/",
+          "barcodeVerification": "Retailer explicitly identifies First Chapter 2013 character and Mattel model BBD42 alongside UPC-A; checksum valid",
+          "barcodeNote": "Wave 1 character-specific retail UPC; packaging revisions may vary",
+          "variantKey": "eah:first-chapter:wave1:BBD42"
         },
         {
           "name": "Ever After High First Chapter Wave 2 Apple White | EAH Merch",
@@ -817,20 +847,6 @@
           "sourceUrl": "https://eahmerch.com/dolls/details/eahfc3hmrq/",
           "photo": "https://1.bp.blogspot.com/-YAClcGyP7_0/WBjtCnUI-lI/AAAAAAAAqnk/ZrXwIpgo-AcsWgvXwf3PeTkNDF1tJUkiQCLcB/s800/Raven-Queen-First-Chapter-New-Head-Mold-Doll-1.jpg",
           "description": "Ever After High First Chapter Wave 3 Raven Queen details page."
-        },
-        {
-          "name": "Ever After High Raven Queen Doll (2013)",
-          "manufacturer": "Mattel",
-          "figureNumber": "BBD42",
-          "year": "2013",
-          "sourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD42&siteid=27",
-          "photo": "https://service.mattel.com//us/img/prod/243/bbd42_c_13_003.jpg",
-          "description": "Оригінальна Raven Queen, офіційний архів Mattel.",
-          "upc": "746775266493",
-          "barcodeType": "UPC-A",
-          "barcodeSourceUrl": "https://toywiz.com/ever-after-high-rebel-raven-queen-doll/",
-          "barcodeVerification": "Explicit retail product UPC matched to original Mattel SKU/edition; check digit validated",
-          "barcodeNote": "Original 2013 BBD42; not wave 2/3 re-release"
         }
       ]
     },
@@ -4924,48 +4940,9 @@
       "group": "📖 Ever After High · UPC Identified",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 11,
+      "count": 8,
       "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
       "items": [
-        {
-          "name": "Ever After High Character Dolls — Apple White",
-          "manufacturer": "Mattel",
-          "variantKey": "eah:retail-upc:746775266592",
-          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
-          "photo": "",
-          "upc": "746775266592",
-          "barcodeType": "UPC-A",
-          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
-          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
-          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
-          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
-        },
-        {
-          "name": "Ever After High Character Dolls — Madeline Hatter",
-          "manufacturer": "Mattel",
-          "variantKey": "eah:retail-upc:746775266509",
-          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
-          "photo": "",
-          "upc": "746775266509",
-          "barcodeType": "UPC-A",
-          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
-          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
-          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
-          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
-        },
-        {
-          "name": "Ever After High Character Dolls — Cerise Hood",
-          "manufacturer": "Mattel",
-          "variantKey": "eah:retail-upc:746775266516",
-          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
-          "photo": "",
-          "upc": "746775266516",
-          "barcodeType": "UPC-A",
-          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
-          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
-          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
-          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
-        },
         {
           "name": "Ever After High Character Dolls — Cedar Wood",
           "manufacturer": "Mattel",
