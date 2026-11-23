@@ -3001,16 +3001,24 @@
           "manufacturer": "Funko",
           "figureNumber": "81332",
           "sourceUrl": "https://funko.com/bitty-pop-deluxe-hermione-granger-flourish-blotts/81332.html",
-          "photo": "",
-          "description": "Official Funko Bitty Pop! Deluxe collectible with acrylic display; exact photo pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw8f7b1ba4/images/funko/upload/81332b_Deluxe_Hermione%28F%26B%29_BittyPop_Casing_Glam-WEB.png?sh=800&sw=800",
+          "description": "Official Funko Bitty Pop! Deluxe collectible with acrylic display; exact photo pending.",
+          "photoSourceUrl": "https://funko.com/bitty-pop-deluxe-hermione-granger-flourish-blotts/81332.html",
+          "photoCredit": "Funko official matching product gallery",
+          "photoStatus": "manufacturer-exact-product-visual-checked",
+          "photoVerificationNote": "Official image visually checked; exact named retail product / whole pack, not a substituted single-figure photo."
         },
         {
           "name": "Barn Owl — Eeylops Owl Emporium",
           "manufacturer": "Funko",
           "figureNumber": "81331",
           "sourceUrl": "https://funko.com/bitty-pop-deluxe-barn-owl-owl-emporium/81331.html",
-          "photo": "",
-          "description": "Official Funko Bitty Pop! Deluxe collectible with acrylic display; exact photo pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwe5b24c8f/images/funko/upload/81331b_Deluxe_Hedwig%28OwlEmporium%29_BittyPop_Casing_Glam-WEB.png?sh=800&sw=800",
+          "description": "Official Funko Bitty Pop! Deluxe collectible with acrylic display; exact photo pending.",
+          "photoSourceUrl": "https://funko.com/bitty-pop-deluxe-barn-owl-owl-emporium/81331.html",
+          "photoCredit": "Funko official matching product gallery",
+          "photoStatus": "manufacturer-exact-product-visual-checked",
+          "photoVerificationNote": "Official image visually checked; exact named retail product / whole pack, not a substituted single-figure photo."
         }
       ]
     },
@@ -4268,8 +4276,12 @@
           "manufacturer": "Funko",
           "figureNumber": "88916",
           "sourceUrl": "https://funko.com/bitty-pop-harry-potter-draco-malfoy-2-pack/88916.html",
-          "photo": "",
-          "description": "Official Funko two-pack with Harry Potter and Draco Malfoy. Funko item number is not a barcode. Exact photo and EAN/UPC pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw2f29d261/images/funko/upload/88916_HP2pk_Harry%26Draco_PKG-GLAM-WEB.png?sh=800&sw=800",
+          "description": "Official Funko two-pack with Harry Potter and Draco Malfoy. Funko item number is not a barcode. Exact photo and EAN/UPC pending.",
+          "photoSourceUrl": "https://funko.com/bitty-pop-harry-potter-draco-malfoy-2-pack/88916.html",
+          "photoCredit": "Funko official matching product gallery",
+          "photoStatus": "manufacturer-exact-product-visual-checked",
+          "photoVerificationNote": "Official image visually checked; exact named retail product / whole pack, not a substituted single-figure photo."
         },
         {
           "name": "Hermione Granger & Ron Weasley 2-Pack",
@@ -4284,8 +4296,12 @@
           "manufacturer": "Funko",
           "figureNumber": "88940",
           "sourceUrl": "https://funko.com/bitty-pop-harry-potter-ginny-weasley-2-pack/88940.html",
-          "photo": "",
-          "description": "Official Funko Yule Ball two-pack with Harry Potter and Ginny Weasley. Funko item number is not a barcode. Exact photo and EAN/UPC pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1ff98d6e/images/funko/upload/1/88940_WB_HP_2PK_HARRYANDGINNY_PKG_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Official Funko Yule Ball two-pack with Harry Potter and Ginny Weasley. Funko item number is not a barcode. Exact photo and EAN/UPC pending.",
+          "photoSourceUrl": "https://funko.com/bitty-pop-harry-potter-ginny-weasley-2-pack/88940.html",
+          "photoCredit": "Funko official matching product gallery",
+          "photoStatus": "manufacturer-exact-product-visual-checked",
+          "photoVerificationNote": "Official image visually checked; exact named retail product / whole pack, not a substituted single-figure photo."
         },
         {
           "name": "Hermione Granger & Viktor Krum (Yule Ball) 2-Pack",
@@ -4636,8 +4652,12 @@
           "manufacturer": "Funko",
           "figureNumber": "92219",
           "sourceUrl": "https://funko.com/bitty-pop-collector-pack-harry-potter-12-pack/92219.html",
-          "photo": "",
-          "description": "Official Funko product listing. Item number is a product identifier, not a barcode; exact individual image and EAN/UPC pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw44ed66c6/images/funko/upload/1/92219_Bitty%20Castle%20Box_Glam-1-WEB.png?sh=800&sw=800",
+          "description": "Official Funko product listing. Item number is a product identifier, not a barcode; exact individual image and EAN/UPC pending.",
+          "photoSourceUrl": "https://funko.com/bitty-pop-collector-pack-harry-potter-12-pack/92219.html",
+          "photoCredit": "Funko official matching product gallery",
+          "photoStatus": "manufacturer-exact-product-visual-checked",
+          "photoVerificationNote": "Official image visually checked; exact named retail product / whole pack, not a substituted single-figure photo."
         }
       ]
     },
