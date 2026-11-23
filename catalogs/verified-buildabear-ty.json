@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "notes": "Verified launch batch for newly requested Build-A-Bear Workshop and Ty brands. Sources are official product or official current listing. Blank photos/UPCs are deliberate verification gaps.",
+  "series": [
+    {
+      "name": "Build-A-Bear Workshop · Sanrio · Classic Plush",
+      "manufacturer": "Build-A-Bear Workshop",
+      "fandomKey": "sanrio",
+      "group": "🧸 Build-A-Bear Workshop · Sanrio",
+      "source": "https://www.buildabear.com/stuffed-animals/shop-by-collection/sanrio",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "notes": "Перевірені стандартні плюшеві персонажі; комплекти з одягом не дублювати як нову фізичну іграшку. SKU не є штрихкодом.",
+      "items": [
+        {
+          "name": "Sanrio · Cinnamoroll",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Cinnamoroll",
+          "figureNumber": "031213",
+          "variantKey": "buildabear:sanrio:standard:031213",
+          "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-cinnamoroll-plush/031213.html",
+          "photo": "https://buildabear.co.nz/cdn/shop/files/1080682369.png?v=1747256146",
+          "photoCredit": "Build-A-Bear Workshop New Zealand",
+          "description": "Стандартна плюшева іграшка Build-A-Bear Sanrio без одягу; комплектація аксесуарами ведеться окремо. SKU виробника, не UPC."
+        },
+        {
+          "name": "Sanrio · Kuromi",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Kuromi",
+          "figureNumber": "031637",
+          "variantKey": "buildabear:sanrio:standard:031637",
+          "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-kuromi-plush/031637.html",
+          "photo": "https://www.buildabear.com/on/demandware.static/-/Sites-buildabear-master/default/dwe20df3fa/34231221231637x20039011.jpg",
+          "photoCredit": "Build-A-Bear official",
+          "description": "Стандартна плюшева іграшка Build-A-Bear Sanrio без одягу; комплектація аксесуарами ведеться окремо. SKU виробника, не UPC."
+        },
+        {
+          "name": "Sanrio · My Melody",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "My Melody",
+          "figureNumber": "032138",
+          "variantKey": "buildabear:sanrio:standard:032138",
+          "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-my-melody-plush/032138.html",
+          "photo": "https://www.buildabear.com/on/demandware.static/-/Sites-buildabear-master/default/dw7dce3495/63230701732138x20023067.jpg",
+          "photoCredit": "Build-A-Bear official",
+          "description": "Стандартна плюшева іграшка Build-A-Bear Sanrio без одягу; комплектація аксесуарами ведеться окремо. SKU виробника, не UPC."
+        },
+        {
+          "name": "Sanrio · Pompompurin",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Pompompurin",
+          "figureNumber": "032144",
+          "variantKey": "buildabear:sanrio:standard:032144",
+          "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-pompompurin-plush/032144.html",
+          "photo": "https://www.buildabear.com/on/demandware.static/-/Sites-buildabear-master/default/dw76c19f1f/14230702332144Alt1x20026063.jpg",
+          "photoCredit": "Build-A-Bear official",
+          "description": "Стандартна плюшева іграшка Build-A-Bear Sanrio без одягу; комплектація аксесуарами ведеться окремо. SKU виробника, не UPC."
+        },
+        {
+          "name": "Sanrio · Pochacco",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Pochacco",
+          "figureNumber": "032223",
+          "variantKey": "buildabear:sanrio:standard:032223",
+          "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-pochacco-plush/032223.html",
+          "photo": "https://www.buildabear.com/on/demandware.static/-/Sites-buildabear-master/default/dw918ae7b9/88230701132223Alt1~x20008086.jpg",
+          "photoCredit": "Build-A-Bear official",
+          "description": "Стандартна плюшева іграшка Build-A-Bear Sanrio без одягу; комплектація аксесуарами ведеться окремо. SKU виробника, не UPC."
+        }
+      ],
+      "count": 5
+    },
+    {
+      "name": "Build-A-Bear Workshop · Sanrio · Mini Beans",
+      "manufacturer": "Build-A-Bear Workshop",
+      "fandomKey": "sanrio",
+      "group": "🧸 Build-A-Bear Workshop · Sanrio Mini Beans",
+      "source": "https://www.buildabear.com/stuffed-animals/shop-by-collection/sanrio",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "notes": "Окремий розмір Mini Beans, не плутати з класичними плюшевими іграшками. Фото лишається порожнім до перевірки індивідуального зображення.",
+      "items": [
+        {
+          "name": "Mini Beans · Cinnamoroll",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Cinnamoroll",
+          "figureNumber": "033949",
+          "variantKey": "buildabear:sanrio:mini-beans:033949",
+          "sourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-cinnamoroll-plush/033949.html",
+          "photo": "",
+          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод."
+        },
+        {
+          "name": "Mini Beans · Kuromi",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Kuromi",
+          "figureNumber": "034050",
+          "variantKey": "buildabear:sanrio:mini-beans:034050",
+          "sourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-kuromi-plush/034050.html",
+          "photo": "",
+          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод."
+        },
+        {
+          "name": "Mini Beans · My Melody",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "My Melody",
+          "figureNumber": "033950",
+          "variantKey": "buildabear:sanrio:mini-beans:033950",
+          "sourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-my-melody-plush/033950.html",
+          "photo": "",
+          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод."
+        },
+        {
+          "name": "Mini Beans · Pompompurin",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Pompompurin",
+          "figureNumber": "033951",
+          "variantKey": "buildabear:sanrio:mini-beans:033951",
+          "sourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-pompompurin-plush/033951.html",
+          "photo": "",
+          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод."
+        },
+        {
+          "name": "Mini Beans · Pochacco",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Pochacco",
+          "figureNumber": "034174",
+          "variantKey": "buildabear:sanrio:mini-beans:034174",
+          "sourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-pochacco-plush/034174.html",
+          "photo": "",
+          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод."
+        }
+      ],
+      "count": 5
+    },
+    {
+      "name": "Ty · Beanie Boos · Selected Official Releases",
+      "manufacturer": "Ty",
+      "fandomKey": "ty",
+      "group": "🧸 Ty · Beanie Boos",
+      "source": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "notes": "Ty має різні розміри/перевидання, не зводити все за назвою персонажа. Flora — саме пудель 37389, не історичний скунс з таким самим ім’ям. UPC лише перевірені, Ty SKU окремо.",
+      "items": [
+        {
+          "name": "Flora",
+          "manufacturer": "Ty",
+          "figureNumber": "37389",
+          "variantKey": "ty:beanie-boos:official-selected:flora-37389",
+          "sourceUrl": "https://www.ty.com/product/flora/37389.html",
+          "photo": "",
+          "photoCredit": "",
+          "description": "Beanie Boos multicolor poodle, 6-inch retail plush",
+          "upc": "008421373895",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.maziply.com/products/ty-beanie-babies-flora-multicolor-poodle-plush",
+          "barcodeVerification": "Retailer explicitly identifies Ty named product and manufacturer model along with UPC-A, checksum validated."
+        },
+        {
+          "name": "Snaps",
+          "manufacturer": "Ty",
+          "figureNumber": "",
+          "variantKey": "ty:beanie-boos:official-selected:snaps",
+          "sourceUrl": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
+          "photo": "",
+          "photoCredit": "",
+          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження."
+        },
+        {
+          "name": "Twitches",
+          "manufacturer": "Ty",
+          "figureNumber": "",
+          "variantKey": "ty:beanie-boos:official-selected:twitches",
+          "sourceUrl": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
+          "photo": "",
+          "photoCredit": "",
+          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження."
+        },
+        {
+          "name": "Chessie",
+          "manufacturer": "Ty",
+          "figureNumber": "",
+          "variantKey": "ty:beanie-boos:official-selected:chessie",
+          "sourceUrl": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
+          "photo": "",
+          "photoCredit": "",
+          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження."
+        },
+        {
+          "name": "Vixen",
+          "manufacturer": "Ty",
+          "figureNumber": "",
+          "variantKey": "ty:beanie-boos:official-selected:vixen",
+          "sourceUrl": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
+          "photo": "",
+          "photoCredit": "",
+          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження."
+        },
+        {
+          "name": "Crawley",
+          "manufacturer": "Ty",
+          "figureNumber": "",
+          "variantKey": "ty:beanie-boos:official-selected:crawley",
+          "sourceUrl": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
+          "photo": "",
+          "photoCredit": "",
+          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження."
+        },
+        {
+          "name": "Giselle",
+          "manufacturer": "Ty",
+          "figureNumber": "",
+          "variantKey": "ty:beanie-boos:official-selected:giselle",
+          "sourceUrl": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
+          "photo": "",
+          "photoCredit": "",
+          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження."
+        },
+        {
+          "name": "Muddles",
+          "manufacturer": "Ty",
+          "figureNumber": "",
+          "variantKey": "ty:beanie-boos:official-selected:muddles",
+          "sourceUrl": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
+          "photo": "",
+          "photoCredit": "",
+          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження."
+        },
+        {
+          "name": "Alfie",
+          "manufacturer": "Ty",
+          "figureNumber": "",
+          "variantKey": "ty:beanie-boos:official-selected:alfie",
+          "sourceUrl": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
+          "photo": "",
+          "photoCredit": "",
+          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження."
+        },
+        {
+          "name": "Parfait",
+          "manufacturer": "Ty",
+          "figureNumber": "",
+          "variantKey": "ty:beanie-boos:official-selected:parfait",
+          "sourceUrl": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
+          "photo": "",
+          "photoCredit": "",
+          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження."
+        },
+        {
+          "name": "Noodles",
+          "manufacturer": "Ty",
+          "figureNumber": "",
+          "variantKey": "ty:beanie-boos:official-selected:noodles",
+          "sourceUrl": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
+          "photo": "",
+          "photoCredit": "",
+          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження."
+        },
+        {
+          "name": "Helena",
+          "manufacturer": "Ty",
+          "figureNumber": "",
+          "variantKey": "ty:beanie-boos:official-selected:helena",
+          "sourceUrl": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
+          "photo": "",
+          "photoCredit": "",
+          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження."
+        },
+        {
+          "name": "Tricky",
+          "manufacturer": "Ty",
+          "figureNumber": "",
+          "variantKey": "ty:beanie-boos:official-selected:tricky",
+          "sourceUrl": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
+          "photo": "",
+          "photoCredit": "",
+          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження."
+        },
+        {
+          "name": "Marigold",
+          "manufacturer": "Ty",
+          "figureNumber": "",
+          "variantKey": "ty:beanie-boos:official-selected:marigold",
+          "sourceUrl": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
+          "photo": "",
+          "photoCredit": "",
+          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження."
+        },
+        {
+          "name": "Batrick",
+          "manufacturer": "Ty",
+          "figureNumber": "37349",
+          "variantKey": "ty:beanie-boos:official-selected:batrick-37349",
+          "sourceUrl": "https://www.ty.com/product/batrick/37349.html",
+          "photo": "https://cdn.ty.com/static/images/8e7c4dd64479d5ca217383bf6b996ec4_lg.png",
+          "photoCredit": "Ty official product photography",
+          "description": "Beanie Boos black bat; 6-inch retail plush",
+          "upc": "008421373499",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.toys-shop.gr/en/p/toys/plush/plush-classic/1053981-ty-beanie-boos-batrick-fluffy-bat-black-15cm-1607-37349.html",
+          "barcodeVerification": "Retailer explicitly identifies Ty named product and manufacturer model along with UPC-A, checksum validated."
+        }
+      ],
+      "count": 15
+    }
+  ]
+}
