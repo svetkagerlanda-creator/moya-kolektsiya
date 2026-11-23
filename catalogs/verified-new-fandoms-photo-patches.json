@@ -240,6 +240,46 @@
       "photoCredit": "Photograph from specific doll's matched Mattel SKU merchant/collector gallery",
       "photoStatus": "exact-sku-gallery-image-url-unchecked-http",
       "photoVerificationNote": "Image URL extracted by opening a named image link from the exact SKU product page. Exact image HTTP status and deployed PWA rendering still untested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Monster Mysteries",
+      "name": "Skulltimate Secrets Monster Mysteries Draculaura",
+      "figureNumber": "HXH84",
+      "photo": "https://mhcollector.com/wp-content/uploads/2024/07/Skulltimate-Secrets-Draculaura-8.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-monster-mysteries-draculaura-2024/",
+      "photoCredit": "Collector or retailer gallery linked to Mattel SKU HXH84",
+      "photoStatus": "exact-sku-gallery-image-url-unchecked-http",
+      "photoVerificationNote": "Clicked directly from SKU-matched page, but image server response and PWA rendering are not independently validated."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Neon Frights",
+      "name": "Skulltimate Secrets Neon Frights Twyla",
+      "figureNumber": "HNF82",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/10/Skulltimate-Secrets-Neon-Frights-Twyla-1.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-neon-frights-twyla/",
+      "photoCredit": "Collector or retailer gallery linked to Mattel SKU HNF82",
+      "photoStatus": "exact-sku-gallery-image-url-unchecked-http",
+      "photoVerificationNote": "Clicked directly from SKU-matched page, but image server response and PWA rendering are not independently validated."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Neon Frights",
+      "name": "Skulltimate Secrets Neon Frights Toralei",
+      "figureNumber": "HNF80",
+      "photo": "https://images.prom.ua/5140497779_monstr-haj-toralej.jpg",
+      "sourceUrl": "https://kidmir.com.ua/ua/p2025660068-monstr-haj-toralej.html",
+      "photoCredit": "Collector or retailer gallery linked to Mattel SKU HNF80",
+      "photoStatus": "exact-sku-gallery-image-url-unchecked-http",
+      "photoVerificationNote": "Clicked directly from SKU-matched page, but image server response and PWA rendering are not independently validated."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Series 1",
+      "name": "Skulltimate Secrets Series 1 Cleo de Nile",
+      "figureNumber": "HKY63",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/03/Skulltimate-Secrets-Cleo-De-Nile-1.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-cleo-de-nile/",
+      "photoCredit": "Collector or retailer gallery linked to Mattel SKU HKY63",
+      "photoStatus": "exact-sku-gallery-image-url-unchecked-http",
+      "photoVerificationNote": "Clicked directly from SKU-matched page, but image server response and PWA rendering are not independently validated."
     }
   ]
 }
