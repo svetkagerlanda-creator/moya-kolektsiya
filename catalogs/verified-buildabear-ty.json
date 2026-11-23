@@ -841,14 +841,18 @@
           "figureNumber": "43202",
           "variantKey": "ty:beanie-bellies:43202",
           "sourceUrl": "https://www.ty.com/product/penelope/43202.html",
-          "photo": "",
+          "photo": "https://bi.ua/uploaded-images/products/589136_1.jpg",
           "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
           "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN.",
           "upc": "008421432028",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://cdon.fi/tuote/ty-inc-maskotka-ty-beanie-bellies-penelope-swinka-24cm-43202-26a4e78c67da5a3e/",
           "barcodeVerification": "Product page associates Ty character, precise manufacturer SKU and EAN-13 with leading zero / equivalent UPC-A; checksum valid.",
-          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions."
+          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions.",
+          "photoSourceUrl": "https://bi.ua/ukr/product/myagkaya-igrushka-ty-beanie-bellies-svinka-penelope-25-sm-43202.html",
+          "photoCredit": "Named product image, exact Ty SKU 43202",
+          "photoStatus": "source-matched-image",
+          "photoVerificationNote": "Product image returned for matching Ty edition; source page identifies SKU, direct URL availability in deployed PWA not tested."
         },
         {
           "name": "Heartly",
@@ -888,14 +892,18 @@
           "figureNumber": "41290",
           "variantKey": "ty:beanie-bellies:41290",
           "sourceUrl": "https://www.ty.com/product/randi/41290.html",
-          "photo": "",
+          "photo": "https://simplywonderfultoys.ca/cdn/shop/files/BB_randi-41290.jpg?v=1699293405",
           "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
           "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN.",
           "upc": "008421412907",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.rofu.de/ty-beanie-bellies-rottweiler-randi-ca-17-cm.html",
           "barcodeVerification": "Retailer product listing explicitly matches Ty Beanie Bellies (or legacy Beanie Babies line), manufacturer SKU and barcode; UPC-A check digit verified.",
-          "barcodeNote": "Individual Ty item; original retailer may show the same GTIN as EAN-13 with one leading zero. Not interchangeable with other SKU variants."
+          "barcodeNote": "Individual Ty item; original retailer may show the same GTIN as EAN-13 with one leading zero. Not interchangeable with other SKU variants.",
+          "photoSourceUrl": "https://simplywonderfultoys.ca/products/ty-beanie-bellies-randi",
+          "photoCredit": "Named product image, exact Ty SKU 41290",
+          "photoStatus": "source-matched-image",
+          "photoVerificationNote": "Product image returned for matching Ty edition; source page identifies SKU, direct URL availability in deployed PWA not tested."
         },
         {
           "name": "Wilfred",
@@ -903,14 +911,18 @@
           "figureNumber": "40596",
           "variantKey": "ty:beanie-bellies:40596",
           "sourceUrl": "https://www.ty.com/product/wilfred/40596.html",
-          "photo": "",
+          "photo": "https://www.toysrus.ca/dw/image/v2/BDFX_PRD/on/demandware.static/-/Sites-toys-master-catalog/default/dwf093b810/images/A4F8F833_1.jpg?sh=767&sm=fit&sw=767",
           "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
           "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN.",
           "upc": "008421405961",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.todicom.shop/TY-Beanie-Babies-Wilfred-Hund-ca.-15-cm./032950",
           "barcodeVerification": "Retailer product listing explicitly matches Ty Beanie Bellies (or legacy Beanie Babies line), manufacturer SKU and barcode; UPC-A check digit verified.",
-          "barcodeNote": "Individual Ty item; original retailer may show the same GTIN as EAN-13 with one leading zero. Not interchangeable with other SKU variants."
+          "barcodeNote": "Individual Ty item; original retailer may show the same GTIN as EAN-13 with one leading zero. Not interchangeable with other SKU variants.",
+          "photoSourceUrl": "https://www.toysrus.ca/en/Ty-Beanie-Bellies---WILFRED---Dog-gray-belly-reg/A4F8F833.html",
+          "photoCredit": "Named product image, exact Ty SKU 40596",
+          "photoStatus": "source-matched-image",
+          "photoVerificationNote": "Product image returned for matching Ty edition; source page identifies SKU, direct URL availability in deployed PWA not tested."
         },
         {
           "name": "Emery",
@@ -918,14 +930,18 @@
           "figureNumber": "41042",
           "variantKey": "ty:beanie-bellies:41042",
           "sourceUrl": "https://www.ty.com/product/emery/41042.html",
-          "photo": "",
+          "photo": "https://treasurekeeper.com/cdn/shop/files/bellies-Emery-41042-W1-a.jpg?v=1763148696",
           "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
           "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN.",
           "upc": "008421410422",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://buy-it.pl/product/maskotka-ty-niedzwiedz-polarny-emery-15-cm-123592/",
           "barcodeVerification": "Product page associates Ty character, precise manufacturer SKU and EAN-13 with leading zero / equivalent UPC-A; checksum valid.",
-          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions."
+          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions.",
+          "photoSourceUrl": "https://treasurekeeper.com/products/ty-bellies-emery-41042",
+          "photoCredit": "Named product image, exact Ty SKU 41042",
+          "photoStatus": "source-matched-image",
+          "photoVerificationNote": "Product image returned for matching Ty edition; source page identifies SKU, direct URL availability in deployed PWA not tested."
         },
         {
           "name": "Skylar",
@@ -933,14 +949,18 @@
           "figureNumber": "43210",
           "variantKey": "ty:beanie-bellies:43210",
           "sourceUrl": "https://www.ty.com/product/skylar/43210.html",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/8e4880e617cf98cb885a4bb3d1f34395_lg.png",
           "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
           "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN.",
           "upc": "008421432103",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.csmegastore.dk/i/21204181/beanie-bellies-skylar-pink-enhj%C3%B8rning-24-cm",
           "barcodeVerification": "Product page associates Ty character, precise manufacturer SKU and EAN-13 with leading zero / equivalent UPC-A; checksum valid.",
-          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions."
+          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions.",
+          "photoSourceUrl": "https://www.ty.com/product/skylar/43210.html?lang=en",
+          "photoCredit": "Named product image, exact Ty SKU 43210",
+          "photoStatus": "source-matched-image",
+          "photoVerificationNote": "Product image returned for matching Ty edition; source page identifies SKU, direct URL availability in deployed PWA not tested."
         },
         {
           "name": "Witt",
@@ -948,14 +968,18 @@
           "figureNumber": "43214",
           "variantKey": "ty:beanie-bellies:43214",
           "sourceUrl": "https://www.ty.com/product/witt/43214.html",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/2d1ce5fab6f165f131e9bbabdd298251_lg.png",
           "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
           "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN.",
           "upc": "008421432141",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.vedes.com/p/ty-witt-fox-medium-43214-59155130",
           "barcodeVerification": "Product page associates Ty character, precise manufacturer SKU and EAN-13 with leading zero / equivalent UPC-A; checksum valid.",
-          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions."
+          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions.",
+          "photoSourceUrl": "https://www.ty.com/product/witt/43214.html?lang=en",
+          "photoCredit": "Named product image, exact Ty SKU 43214",
+          "photoStatus": "source-matched-image",
+          "photoVerificationNote": "Product image returned for matching Ty edition; source page identifies SKU, direct URL availability in deployed PWA not tested."
         }
       ],
       "count": 18
