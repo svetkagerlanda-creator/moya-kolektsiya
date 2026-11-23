@@ -74,8 +74,9 @@
           "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2242",
           "upc": "889698904131",
           "barcodeType": "UPC-A",
-          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/hazbin-hotel-alastor-funko-pop-vinyl-figure-2242/fu90413",
-          "barcodeVerification": "UPC matched to Funko Alastor standard #2242, excludes chase edition"
+          "barcodeSourceUrl": "https://www.nda-toys.com/product/27055/funko-pop-animation-hh-alastor-w-chase-wholesale",
+          "barcodeVerification": "Official Funko distributor shows product code 90413 and UPC 889698904131; standard/Chase shipped at random",
+          "barcodeNote": "Manufacturer product 90413 is a randomized standard-or-Chase offer: UPC 889698904131 cannot independently tell ordinary Alastor from Demon Form Chase."
         },
         {
           "name": "Sir Pentious",
