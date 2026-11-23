@@ -109,7 +109,11 @@
           "seriesNumber": "26387",
           "sourceUrl": "https://funko.com/pop-creeper/26387.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw416cf3c7/images/funko/26387-1.png?sh=800&sw=800",
-          "description": "Funko POP! item 26387; box #320"
+          "description": "Funko POP! item 26387; box #320",
+          "upc": "889698263870",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.shopforgeek.com/en/MINECRAFT-POP-N-320-CREEPER-164262.html",
+          "barcodeVerification": "Source explicitly matches Funko POP figure and 12-digit UPC; GTIN check digit validated"
         },
         {
           "name": "Charged Creeper",
@@ -120,7 +124,11 @@
           "seriesNumber": "26417",
           "sourceUrl": "https://funko.com/minecraft---charged-creeper/26417.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw72f82bed/images/funko/26417-1_C.png?sh=800&sw=800",
-          "description": "Funko POP! item 26417; box #327"
+          "description": "Funko POP! item 26417; box #327",
+          "upc": "889698264174",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.pricecharting.com/game/funko-pop-games/charged-creeper-327",
+          "barcodeVerification": "Source explicitly matches Funko POP figure and 12-digit UPC; GTIN check digit validated"
         }
       ]
     },
@@ -155,7 +163,11 @@
           "seriesNumber": "86369",
           "sourceUrl": "https://funko.com/be/pop-batman-dc-new-classics/86369.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw637be860/images/funko/upload/1/86369_DC_S1_Batman_POP_EDIT_T7_GLAM_Frontview-WEB.png",
-          "description": "Funko POP! item 86369; box #598"
+          "description": "Funko POP! item 86369; box #598",
+          "upc": "889698863698",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.midtowncomics.com/product/2516832",
+          "barcodeVerification": "Source explicitly matches Funko POP figure and 12-digit UPC; GTIN check digit validated"
         }
       ]
     },
@@ -179,7 +191,11 @@
           "seriesNumber": "71739",
           "sourceUrl": "https://funko.com/pop-frodo-with-the-ring/71739.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw92bd8e43/images/funko/upload/71739_POP_Movies_LOTR-Frodo_w_Ring_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko POP! item 71739; box #1389"
+          "description": "Funko POP! item 71739; box #1389",
+          "upc": "889698717397",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.figurerealm.com/actionfigure?action=actionfigure&figure=frodowiththering1389&id=152653",
+          "barcodeVerification": "Source explicitly matches Funko POP figure and 12-digit UPC; GTIN check digit validated"
         },
         {
           "name": "Frodo with Orc Helmet",
