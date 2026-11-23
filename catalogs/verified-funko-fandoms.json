@@ -241,13 +241,23 @@
           "manufacturer": "Funko",
           "seriesNumber": "",
           "sourceUrl": "https://www.funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
-          "photo": "",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf0a79269/images/funko/upload/1/86584_MM_HP_12pc_Renders_Glam-WEB.png?cx=0&cy=0&cw=200&ch=266&sw=400&sh=400",
           "description": "Mystery Minis; manufacturer odds 1/6",
           "assortmentUpc": "889698865845",
           "assortmentBarcodeType": "UPC-A",
           "assortmentBarcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/harry-potter-funko-mystery-mini-series-2",
           "assortmentBarcodeVerification": "Retailer explicitly lists barcode for sealed random mystery package; UPC-A checksum valid.",
-          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Harry Potter variant; no individual UPC verified."
+          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Harry Potter variant; no individual UPC verified.",
+          "photoSourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photoCredit": "Funko official 86584 character lineup, separately cropped by Salesforce Dynamic Imaging",
+          "photoStatus": "official-manufacturer-crop-pending-http-check",
+          "photoVerificationNote": "Official artwork shows distinct 4-column by 3-row character render positions. Image crop uses Salesforce Dynamic Imaging crop parameters and assumes 800x800 source pixel coordinates; output must be visually verified in the deployed PWA. Do not conflate this 2026 product with earlier Harry Potter Mystery Minis releases.",
+          "photoCropGrid": {
+            "columns": 4,
+            "rows": 3,
+            "col": 0,
+            "row": 0
+          }
         },
         {
           "name": "Hermione Granger",
@@ -257,13 +267,23 @@
           "manufacturer": "Funko",
           "seriesNumber": "",
           "sourceUrl": "https://www.funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
-          "photo": "",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf0a79269/images/funko/upload/1/86584_MM_HP_12pc_Renders_Glam-WEB.png?cx=400&cy=0&cw=200&ch=266&sw=400&sh=400",
           "description": "Mystery Minis; manufacturer odds 1/6",
           "assortmentUpc": "889698865845",
           "assortmentBarcodeType": "UPC-A",
           "assortmentBarcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/harry-potter-funko-mystery-mini-series-2",
           "assortmentBarcodeVerification": "Retailer explicitly lists barcode for sealed random mystery package; UPC-A checksum valid.",
-          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Hermione Granger variant; no individual UPC verified."
+          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Hermione Granger variant; no individual UPC verified.",
+          "photoSourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photoCredit": "Funko official 86584 character lineup, separately cropped by Salesforce Dynamic Imaging",
+          "photoStatus": "official-manufacturer-crop-pending-http-check",
+          "photoVerificationNote": "Official artwork shows distinct 4-column by 3-row character render positions. Image crop uses Salesforce Dynamic Imaging crop parameters and assumes 800x800 source pixel coordinates; output must be visually verified in the deployed PWA. Do not conflate this 2026 product with earlier Harry Potter Mystery Minis releases.",
+          "photoCropGrid": {
+            "columns": 4,
+            "rows": 3,
+            "col": 2,
+            "row": 0
+          }
         },
         {
           "name": "Ron Weasley",
@@ -273,13 +293,23 @@
           "manufacturer": "Funko",
           "seriesNumber": "",
           "sourceUrl": "https://www.funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
-          "photo": "",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf0a79269/images/funko/upload/1/86584_MM_HP_12pc_Renders_Glam-WEB.png?cx=600&cy=0&cw=200&ch=266&sw=400&sh=400",
           "description": "Mystery Minis; manufacturer odds 1/6",
           "assortmentUpc": "889698865845",
           "assortmentBarcodeType": "UPC-A",
           "assortmentBarcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/harry-potter-funko-mystery-mini-series-2",
           "assortmentBarcodeVerification": "Retailer explicitly lists barcode for sealed random mystery package; UPC-A checksum valid.",
-          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Ron Weasley variant; no individual UPC verified."
+          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Ron Weasley variant; no individual UPC verified.",
+          "photoSourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photoCredit": "Funko official 86584 character lineup, separately cropped by Salesforce Dynamic Imaging",
+          "photoStatus": "official-manufacturer-crop-pending-http-check",
+          "photoVerificationNote": "Official artwork shows distinct 4-column by 3-row character render positions. Image crop uses Salesforce Dynamic Imaging crop parameters and assumes 800x800 source pixel coordinates; output must be visually verified in the deployed PWA. Do not conflate this 2026 product with earlier Harry Potter Mystery Minis releases.",
+          "photoCropGrid": {
+            "columns": 4,
+            "rows": 3,
+            "col": 3,
+            "row": 0
+          }
         },
         {
           "name": "Albus Dumbledore",
@@ -289,13 +319,23 @@
           "manufacturer": "Funko",
           "seriesNumber": "",
           "sourceUrl": "https://www.funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
-          "photo": "",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf0a79269/images/funko/upload/1/86584_MM_HP_12pc_Renders_Glam-WEB.png?cx=0&cy=267&cw=200&ch=266&sw=400&sh=400",
           "description": "Mystery Minis; manufacturer odds 1/6",
           "assortmentUpc": "889698865845",
           "assortmentBarcodeType": "UPC-A",
           "assortmentBarcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/harry-potter-funko-mystery-mini-series-2",
           "assortmentBarcodeVerification": "Retailer explicitly lists barcode for sealed random mystery package; UPC-A checksum valid.",
-          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Albus Dumbledore variant; no individual UPC verified."
+          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Albus Dumbledore variant; no individual UPC verified.",
+          "photoSourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photoCredit": "Funko official 86584 character lineup, separately cropped by Salesforce Dynamic Imaging",
+          "photoStatus": "official-manufacturer-crop-pending-http-check",
+          "photoVerificationNote": "Official artwork shows distinct 4-column by 3-row character render positions. Image crop uses Salesforce Dynamic Imaging crop parameters and assumes 800x800 source pixel coordinates; output must be visually verified in the deployed PWA. Do not conflate this 2026 product with earlier Harry Potter Mystery Minis releases.",
+          "photoCropGrid": {
+            "columns": 4,
+            "rows": 3,
+            "col": 0,
+            "row": 1
+          }
         },
         {
           "name": "Rubeus Hagrid",
@@ -305,13 +345,23 @@
           "manufacturer": "Funko",
           "seriesNumber": "",
           "sourceUrl": "https://www.funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
-          "photo": "",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf0a79269/images/funko/upload/1/86584_MM_HP_12pc_Renders_Glam-WEB.png?cx=0&cy=534&cw=200&ch=266&sw=400&sh=400",
           "description": "Mystery Minis; manufacturer odds 1/12",
           "assortmentUpc": "889698865845",
           "assortmentBarcodeType": "UPC-A",
           "assortmentBarcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/harry-potter-funko-mystery-mini-series-2",
           "assortmentBarcodeVerification": "Retailer explicitly lists barcode for sealed random mystery package; UPC-A checksum valid.",
-          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Rubeus Hagrid variant; no individual UPC verified."
+          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Rubeus Hagrid variant; no individual UPC verified.",
+          "photoSourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photoCredit": "Funko official 86584 character lineup, separately cropped by Salesforce Dynamic Imaging",
+          "photoStatus": "official-manufacturer-crop-pending-http-check",
+          "photoVerificationNote": "Official artwork shows distinct 4-column by 3-row character render positions. Image crop uses Salesforce Dynamic Imaging crop parameters and assumes 800x800 source pixel coordinates; output must be visually verified in the deployed PWA. Do not conflate this 2026 product with earlier Harry Potter Mystery Minis releases.",
+          "photoCropGrid": {
+            "columns": 4,
+            "rows": 3,
+            "col": 0,
+            "row": 2
+          }
         },
         {
           "name": "Voldemort",
@@ -321,13 +371,23 @@
           "manufacturer": "Funko",
           "seriesNumber": "",
           "sourceUrl": "https://www.funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
-          "photo": "",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf0a79269/images/funko/upload/1/86584_MM_HP_12pc_Renders_Glam-WEB.png?cx=200&cy=267&cw=200&ch=266&sw=400&sh=400",
           "description": "Mystery Minis; manufacturer odds 1/12",
           "assortmentUpc": "889698865845",
           "assortmentBarcodeType": "UPC-A",
           "assortmentBarcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/harry-potter-funko-mystery-mini-series-2",
           "assortmentBarcodeVerification": "Retailer explicitly lists barcode for sealed random mystery package; UPC-A checksum valid.",
-          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Voldemort variant; no individual UPC verified."
+          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Voldemort variant; no individual UPC verified.",
+          "photoSourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photoCredit": "Funko official 86584 character lineup, separately cropped by Salesforce Dynamic Imaging",
+          "photoStatus": "official-manufacturer-crop-pending-http-check",
+          "photoVerificationNote": "Official artwork shows distinct 4-column by 3-row character render positions. Image crop uses Salesforce Dynamic Imaging crop parameters and assumes 800x800 source pixel coordinates; output must be visually verified in the deployed PWA. Do not conflate this 2026 product with earlier Harry Potter Mystery Minis releases.",
+          "photoCropGrid": {
+            "columns": 4,
+            "rows": 3,
+            "col": 1,
+            "row": 1
+          }
         },
         {
           "name": "Severus Snape",
@@ -337,13 +397,23 @@
           "manufacturer": "Funko",
           "seriesNumber": "",
           "sourceUrl": "https://www.funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
-          "photo": "",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf0a79269/images/funko/upload/1/86584_MM_HP_12pc_Renders_Glam-WEB.png?cx=400&cy=267&cw=200&ch=266&sw=400&sh=400",
           "description": "Mystery Minis; manufacturer odds 1/24",
           "assortmentUpc": "889698865845",
           "assortmentBarcodeType": "UPC-A",
           "assortmentBarcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/harry-potter-funko-mystery-mini-series-2",
           "assortmentBarcodeVerification": "Retailer explicitly lists barcode for sealed random mystery package; UPC-A checksum valid.",
-          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Severus Snape variant; no individual UPC verified."
+          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Severus Snape variant; no individual UPC verified.",
+          "photoSourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photoCredit": "Funko official 86584 character lineup, separately cropped by Salesforce Dynamic Imaging",
+          "photoStatus": "official-manufacturer-crop-pending-http-check",
+          "photoVerificationNote": "Official artwork shows distinct 4-column by 3-row character render positions. Image crop uses Salesforce Dynamic Imaging crop parameters and assumes 800x800 source pixel coordinates; output must be visually verified in the deployed PWA. Do not conflate this 2026 product with earlier Harry Potter Mystery Minis releases.",
+          "photoCropGrid": {
+            "columns": 4,
+            "rows": 3,
+            "col": 2,
+            "row": 1
+          }
         },
         {
           "name": "Harry Potter — Quidditch",
@@ -353,13 +423,23 @@
           "manufacturer": "Funko",
           "seriesNumber": "",
           "sourceUrl": "https://www.funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
-          "photo": "",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf0a79269/images/funko/upload/1/86584_MM_HP_12pc_Renders_Glam-WEB.png?cx=200&cy=0&cw=200&ch=266&sw=400&sh=400",
           "description": "Mystery Minis; manufacturer odds 1/24",
           "assortmentUpc": "889698865845",
           "assortmentBarcodeType": "UPC-A",
           "assortmentBarcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/harry-potter-funko-mystery-mini-series-2",
           "assortmentBarcodeVerification": "Retailer explicitly lists barcode for sealed random mystery package; UPC-A checksum valid.",
-          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Harry Potter — Quidditch variant; no individual UPC verified."
+          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Harry Potter — Quidditch variant; no individual UPC verified.",
+          "photoSourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photoCredit": "Funko official 86584 character lineup, separately cropped by Salesforce Dynamic Imaging",
+          "photoStatus": "official-manufacturer-crop-pending-http-check",
+          "photoVerificationNote": "Official artwork shows distinct 4-column by 3-row character render positions. Image crop uses Salesforce Dynamic Imaging crop parameters and assumes 800x800 source pixel coordinates; output must be visually verified in the deployed PWA. Do not conflate this 2026 product with earlier Harry Potter Mystery Minis releases.",
+          "photoCropGrid": {
+            "columns": 4,
+            "rows": 3,
+            "col": 1,
+            "row": 0
+          }
         },
         {
           "name": "Draco Malfoy — Quidditch",
@@ -369,13 +449,23 @@
           "manufacturer": "Funko",
           "seriesNumber": "",
           "sourceUrl": "https://www.funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
-          "photo": "",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf0a79269/images/funko/upload/1/86584_MM_HP_12pc_Renders_Glam-WEB.png?cx=200&cy=534&cw=200&ch=266&sw=400&sh=400",
           "description": "Mystery Minis; manufacturer odds 1/36",
           "assortmentUpc": "889698865845",
           "assortmentBarcodeType": "UPC-A",
           "assortmentBarcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/harry-potter-funko-mystery-mini-series-2",
           "assortmentBarcodeVerification": "Retailer explicitly lists barcode for sealed random mystery package; UPC-A checksum valid.",
-          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Draco Malfoy — Quidditch variant; no individual UPC verified."
+          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Draco Malfoy — Quidditch variant; no individual UPC verified.",
+          "photoSourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photoCredit": "Funko official 86584 character lineup, separately cropped by Salesforce Dynamic Imaging",
+          "photoStatus": "official-manufacturer-crop-pending-http-check",
+          "photoVerificationNote": "Official artwork shows distinct 4-column by 3-row character render positions. Image crop uses Salesforce Dynamic Imaging crop parameters and assumes 800x800 source pixel coordinates; output must be visually verified in the deployed PWA. Do not conflate this 2026 product with earlier Harry Potter Mystery Minis releases.",
+          "photoCropGrid": {
+            "columns": 4,
+            "rows": 3,
+            "col": 1,
+            "row": 2
+          }
         },
         {
           "name": "Dobby",
@@ -385,13 +475,23 @@
           "manufacturer": "Funko",
           "seriesNumber": "",
           "sourceUrl": "https://www.funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
-          "photo": "",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf0a79269/images/funko/upload/1/86584_MM_HP_12pc_Renders_Glam-WEB.png?cx=600&cy=267&cw=200&ch=266&sw=400&sh=400",
           "description": "Mystery Minis; manufacturer odds 1/36",
           "assortmentUpc": "889698865845",
           "assortmentBarcodeType": "UPC-A",
           "assortmentBarcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/harry-potter-funko-mystery-mini-series-2",
           "assortmentBarcodeVerification": "Retailer explicitly lists barcode for sealed random mystery package; UPC-A checksum valid.",
-          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Dobby variant; no individual UPC verified."
+          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Dobby variant; no individual UPC verified.",
+          "photoSourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photoCredit": "Funko official 86584 character lineup, separately cropped by Salesforce Dynamic Imaging",
+          "photoStatus": "official-manufacturer-crop-pending-http-check",
+          "photoVerificationNote": "Official artwork shows distinct 4-column by 3-row character render positions. Image crop uses Salesforce Dynamic Imaging crop parameters and assumes 800x800 source pixel coordinates; output must be visually verified in the deployed PWA. Do not conflate this 2026 product with earlier Harry Potter Mystery Minis releases.",
+          "photoCropGrid": {
+            "columns": 4,
+            "rows": 3,
+            "col": 3,
+            "row": 1
+          }
         },
         {
           "name": "Luna Lovegood",
@@ -401,13 +501,23 @@
           "manufacturer": "Funko",
           "seriesNumber": "",
           "sourceUrl": "https://www.funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
-          "photo": "",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf0a79269/images/funko/upload/1/86584_MM_HP_12pc_Renders_Glam-WEB.png?cx=400&cy=534&cw=200&ch=266&sw=400&sh=400",
           "description": "Mystery Minis; manufacturer odds 1/72",
           "assortmentUpc": "889698865845",
           "assortmentBarcodeType": "UPC-A",
           "assortmentBarcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/harry-potter-funko-mystery-mini-series-2",
           "assortmentBarcodeVerification": "Retailer explicitly lists barcode for sealed random mystery package; UPC-A checksum valid.",
-          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Luna Lovegood variant; no individual UPC verified."
+          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Luna Lovegood variant; no individual UPC verified.",
+          "photoSourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photoCredit": "Funko official 86584 character lineup, separately cropped by Salesforce Dynamic Imaging",
+          "photoStatus": "official-manufacturer-crop-pending-http-check",
+          "photoVerificationNote": "Official artwork shows distinct 4-column by 3-row character render positions. Image crop uses Salesforce Dynamic Imaging crop parameters and assumes 800x800 source pixel coordinates; output must be visually verified in the deployed PWA. Do not conflate this 2026 product with earlier Harry Potter Mystery Minis releases.",
+          "photoCropGrid": {
+            "columns": 4,
+            "rows": 3,
+            "col": 2,
+            "row": 2
+          }
         },
         {
           "name": "Neville Longbottom",
@@ -417,21 +527,32 @@
           "manufacturer": "Funko",
           "seriesNumber": "",
           "sourceUrl": "https://www.funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
-          "photo": "",
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf0a79269/images/funko/upload/1/86584_MM_HP_12pc_Renders_Glam-WEB.png?cx=600&cy=534&cw=200&ch=266&sw=400&sh=400",
           "description": "Mystery Minis; manufacturer odds 1/72",
           "assortmentUpc": "889698865845",
           "assortmentBarcodeType": "UPC-A",
           "assortmentBarcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/harry-potter-funko-mystery-mini-series-2",
           "assortmentBarcodeVerification": "Retailer explicitly lists barcode for sealed random mystery package; UPC-A checksum valid.",
-          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Neville Longbottom variant; no individual UPC verified."
+          "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Neville Longbottom variant; no individual UPC verified.",
+          "photoSourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photoCredit": "Funko official 86584 character lineup, separately cropped by Salesforce Dynamic Imaging",
+          "photoStatus": "official-manufacturer-crop-pending-http-check",
+          "photoVerificationNote": "Official artwork shows distinct 4-column by 3-row character render positions. Image crop uses Salesforce Dynamic Imaging crop parameters and assumes 800x800 source pixel coordinates; output must be visually verified in the deployed PWA. Do not conflate this 2026 product with earlier Harry Potter Mystery Minis releases.",
+          "photoCropGrid": {
+            "columns": 4,
+            "rows": 3,
+            "col": 3,
+            "row": 2
+          }
         }
       ],
-      "coverPhoto": "https://www.funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1f3239ce/images/funko/upload/1/86584_WB_HP_HARRYPOTTER_MYSTERYMINI_12PCPDQ_Glam-1-WEB.png?sh=800&sw=800",
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf0a79269/images/funko/upload/1/86584_MM_HP_12pc_Renders_Glam-WEB.png?sw=800&sh=800",
       "assortmentUpc": "889698865845",
       "assortmentBarcodeType": "UPC-A",
       "assortmentBarcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/harry-potter-funko-mystery-mini-series-2",
       "assortmentBarcodeVerification": "Shared single random sealed box UPC across all catalog variants, confirmed by published retailer barcode and GS1 checksum",
-      "assortmentBarcodeNote": "Scan opens whole series and cannot identify the unrevealed figure; display or case UPC may differ."
+      "assortmentBarcodeNote": "Scan opens whole series and cannot identify the unrevealed figure; display or case UPC may differ.",
+      "coverPhotoSourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html"
     },
     {
       "name": "Funko · Harry Potter · Plush Keychain Mystery Minis",
