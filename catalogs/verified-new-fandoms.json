@@ -5506,6 +5506,454 @@
           "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
         }
       ]
+    },
+    {
+      "name": "Winx Club · Season 1 Dolls (2004) · Giochi Preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://winx.fandom.com/wiki/Season_1_Dolls_(Giochi_Preziosi)",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Підтверджений перелік персонажів лінійки. Фото, GTIN та індивідуальні артикули залишено порожніми до перевірки.",
+      "count": 10,
+      "items": [
+        {
+          "name": "Winx Season 1 Dolls (2004) — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Bloom",
+          "variantKey": "winx:giochi-preziosi:season-1-dolls-2004-:bloom",
+          "sourceUrl": "https://winx.fandom.com/wiki/Season_1_Dolls_(Giochi_Preziosi)",
+          "photo": "",
+          "description": "Лялька Bloom з лінійки Winx Club Season 1 Dolls (2004). Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Season 1 Dolls (2004) — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stella",
+          "variantKey": "winx:giochi-preziosi:season-1-dolls-2004-:stella",
+          "sourceUrl": "https://winx.fandom.com/wiki/Season_1_Dolls_(Giochi_Preziosi)",
+          "photo": "",
+          "description": "Лялька Stella з лінійки Winx Club Season 1 Dolls (2004). Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Season 1 Dolls (2004) — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Flora",
+          "variantKey": "winx:giochi-preziosi:season-1-dolls-2004-:flora",
+          "sourceUrl": "https://winx.fandom.com/wiki/Season_1_Dolls_(Giochi_Preziosi)",
+          "photo": "",
+          "description": "Лялька Flora з лінійки Winx Club Season 1 Dolls (2004). Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Season 1 Dolls (2004) — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Tecna",
+          "variantKey": "winx:giochi-preziosi:season-1-dolls-2004-:tecna",
+          "sourceUrl": "https://winx.fandom.com/wiki/Season_1_Dolls_(Giochi_Preziosi)",
+          "photo": "",
+          "description": "Лялька Tecna з лінійки Winx Club Season 1 Dolls (2004). Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Season 1 Dolls (2004) — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Musa",
+          "variantKey": "winx:giochi-preziosi:season-1-dolls-2004-:musa",
+          "sourceUrl": "https://winx.fandom.com/wiki/Season_1_Dolls_(Giochi_Preziosi)",
+          "photo": "",
+          "description": "Лялька Musa з лінійки Winx Club Season 1 Dolls (2004). Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Season 1 Dolls (2004) — Sky",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Sky",
+          "variantKey": "winx:giochi-preziosi:season-1-dolls-2004-:sky",
+          "sourceUrl": "https://winx.fandom.com/wiki/Season_1_Dolls_(Giochi_Preziosi)",
+          "photo": "",
+          "description": "Лялька Sky з лінійки Winx Club Season 1 Dolls (2004). Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Season 1 Dolls (2004) — Brandon",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Brandon",
+          "variantKey": "winx:giochi-preziosi:season-1-dolls-2004-:brandon",
+          "sourceUrl": "https://winx.fandom.com/wiki/Season_1_Dolls_(Giochi_Preziosi)",
+          "photo": "",
+          "description": "Лялька Brandon з лінійки Winx Club Season 1 Dolls (2004). Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Season 1 Dolls (2004) — Icy",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Icy",
+          "variantKey": "winx:giochi-preziosi:season-1-dolls-2004-:icy",
+          "sourceUrl": "https://winx.fandom.com/wiki/Season_1_Dolls_(Giochi_Preziosi)",
+          "photo": "",
+          "description": "Лялька Icy з лінійки Winx Club Season 1 Dolls (2004). Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Season 1 Dolls (2004) — Darcy",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Darcy",
+          "variantKey": "winx:giochi-preziosi:season-1-dolls-2004-:darcy",
+          "sourceUrl": "https://winx.fandom.com/wiki/Season_1_Dolls_(Giochi_Preziosi)",
+          "photo": "",
+          "description": "Лялька Darcy з лінійки Winx Club Season 1 Dolls (2004). Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Season 1 Dolls (2004) — Stormy",
+          "manufacturer": "Giochi Preziosi",
+          "character": "Stormy",
+          "variantKey": "winx:giochi-preziosi:season-1-dolls-2004-:stormy",
+          "sourceUrl": "https://winx.fandom.com/wiki/Season_1_Dolls_(Giochi_Preziosi)",
+          "photo": "",
+          "description": "Лялька Stormy з лінійки Winx Club Season 1 Dolls (2004). Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Fairy School · Witty Toys",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://winx.fandom.com/wiki/Fairy_School",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Підтверджений перелік персонажів лінійки. Фото, GTIN та індивідуальні артикули залишено порожніми до перевірки.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Fairy School — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:fairy-school:bloom",
+          "sourceUrl": "https://winx.fandom.com/wiki/Fairy_School",
+          "photo": "",
+          "description": "Лялька Bloom з лінійки Winx Club Fairy School. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Fairy School — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:fairy-school:stella",
+          "sourceUrl": "https://winx.fandom.com/wiki/Fairy_School",
+          "photo": "",
+          "description": "Лялька Stella з лінійки Winx Club Fairy School. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Fairy School — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:fairy-school:flora",
+          "sourceUrl": "https://winx.fandom.com/wiki/Fairy_School",
+          "photo": "",
+          "description": "Лялька Flora з лінійки Winx Club Fairy School. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Fairy School — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:fairy-school:aisha",
+          "sourceUrl": "https://winx.fandom.com/wiki/Fairy_School",
+          "photo": "",
+          "description": "Лялька Aisha з лінійки Winx Club Fairy School. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Fairy School — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:fairy-school:musa",
+          "sourceUrl": "https://winx.fandom.com/wiki/Fairy_School",
+          "photo": "",
+          "description": "Лялька Musa з лінійки Winx Club Fairy School. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Fairy School — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:fairy-school:tecna",
+          "sourceUrl": "https://winx.fandom.com/wiki/Fairy_School",
+          "photo": "",
+          "description": "Лялька Tecna з лінійки Winx Club Fairy School. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Cosmix Fairy · Witty Toys",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://winx.fandom.com/wiki/Cosmix_Fairy",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Підтверджений перелік персонажів лінійки. Фото, GTIN та індивідуальні артикули залишено порожніми до перевірки.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Cosmix Fairy — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:cosmix-fairy:bloom",
+          "sourceUrl": "https://winx.fandom.com/wiki/Cosmix_Fairy",
+          "photo": "",
+          "description": "Лялька Bloom з лінійки Winx Club Cosmix Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Cosmix Fairy — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:cosmix-fairy:flora",
+          "sourceUrl": "https://winx.fandom.com/wiki/Cosmix_Fairy",
+          "photo": "",
+          "description": "Лялька Flora з лінійки Winx Club Cosmix Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Cosmix Fairy — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:cosmix-fairy:stella",
+          "sourceUrl": "https://winx.fandom.com/wiki/Cosmix_Fairy",
+          "photo": "",
+          "description": "Лялька Stella з лінійки Winx Club Cosmix Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Cosmix Fairy — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:cosmix-fairy:aisha",
+          "sourceUrl": "https://winx.fandom.com/wiki/Cosmix_Fairy",
+          "photo": "",
+          "description": "Лялька Aisha з лінійки Winx Club Cosmix Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Cosmix Fairy — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:cosmix-fairy:musa",
+          "sourceUrl": "https://winx.fandom.com/wiki/Cosmix_Fairy",
+          "photo": "",
+          "description": "Лялька Musa з лінійки Winx Club Cosmix Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Cosmix Fairy — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:cosmix-fairy:tecna",
+          "sourceUrl": "https://winx.fandom.com/wiki/Cosmix_Fairy",
+          "photo": "",
+          "description": "Лялька Tecna з лінійки Winx Club Cosmix Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Onyrix Fairy · Witty Toys",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://winx.fandom.com/wiki/Onyrix_Fairy",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Підтверджений перелік персонажів лінійки. Фото, GTIN та індивідуальні артикули залишено порожніми до перевірки.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Onyrix Fairy — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:onyrix-fairy:bloom",
+          "sourceUrl": "https://winx.fandom.com/wiki/Onyrix_Fairy",
+          "photo": "",
+          "description": "Лялька Bloom з лінійки Winx Club Onyrix Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Onyrix Fairy — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:onyrix-fairy:stella",
+          "sourceUrl": "https://winx.fandom.com/wiki/Onyrix_Fairy",
+          "photo": "",
+          "description": "Лялька Stella з лінійки Winx Club Onyrix Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Onyrix Fairy — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:onyrix-fairy:musa",
+          "sourceUrl": "https://winx.fandom.com/wiki/Onyrix_Fairy",
+          "photo": "",
+          "description": "Лялька Musa з лінійки Winx Club Onyrix Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Onyrix Fairy — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:onyrix-fairy:flora",
+          "sourceUrl": "https://winx.fandom.com/wiki/Onyrix_Fairy",
+          "photo": "",
+          "description": "Лялька Flora з лінійки Winx Club Onyrix Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Onyrix Fairy — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:onyrix-fairy:tecna",
+          "sourceUrl": "https://winx.fandom.com/wiki/Onyrix_Fairy",
+          "photo": "",
+          "description": "Лялька Tecna з лінійки Winx Club Onyrix Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Onyrix Fairy — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:onyrix-fairy:aisha",
+          "sourceUrl": "https://winx.fandom.com/wiki/Onyrix_Fairy",
+          "photo": "",
+          "description": "Лялька Aisha з лінійки Winx Club Onyrix Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Sweetly Fairy · Witty Toys",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://winx.fandom.com/wiki/Sweetly_Fairy",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Підтверджений перелік персонажів лінійки. Фото, GTIN та індивідуальні артикули залишено порожніми до перевірки.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Sweetly Fairy — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:sweetly-fairy:bloom",
+          "sourceUrl": "https://winx.fandom.com/wiki/Sweetly_Fairy",
+          "photo": "",
+          "description": "Лялька Bloom з лінійки Winx Club Sweetly Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Sweetly Fairy — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:sweetly-fairy:flora",
+          "sourceUrl": "https://winx.fandom.com/wiki/Sweetly_Fairy",
+          "photo": "",
+          "description": "Лялька Flora з лінійки Winx Club Sweetly Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Sweetly Fairy — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:sweetly-fairy:stella",
+          "sourceUrl": "https://winx.fandom.com/wiki/Sweetly_Fairy",
+          "photo": "",
+          "description": "Лялька Stella з лінійки Winx Club Sweetly Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Sweetly Fairy — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:sweetly-fairy:musa",
+          "sourceUrl": "https://winx.fandom.com/wiki/Sweetly_Fairy",
+          "photo": "",
+          "description": "Лялька Musa з лінійки Winx Club Sweetly Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Sweetly Fairy — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:sweetly-fairy:aisha",
+          "sourceUrl": "https://winx.fandom.com/wiki/Sweetly_Fairy",
+          "photo": "",
+          "description": "Лялька Aisha з лінійки Winx Club Sweetly Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Sweetly Fairy — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:sweetly-fairy:tecna",
+          "sourceUrl": "https://winx.fandom.com/wiki/Sweetly_Fairy",
+          "photo": "",
+          "description": "Лялька Tecna з лінійки Winx Club Sweetly Fairy. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Magic Flowers · Witty Toys",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://winx.fandom.com/wiki/Magic_Flowers",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "Підтверджений перелік персонажів лінійки. Фото, GTIN та індивідуальні артикули залишено порожніми до перевірки.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Magic Flowers — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:magic-flowers:bloom",
+          "sourceUrl": "https://winx.fandom.com/wiki/Magic_Flowers",
+          "photo": "",
+          "description": "Лялька Bloom з лінійки Winx Club Magic Flowers. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Magic Flowers — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:magic-flowers:stella",
+          "sourceUrl": "https://winx.fandom.com/wiki/Magic_Flowers",
+          "photo": "",
+          "description": "Лялька Stella з лінійки Winx Club Magic Flowers. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        },
+        {
+          "name": "Winx Magic Flowers — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:magic-flowers:flora",
+          "sourceUrl": "https://winx.fandom.com/wiki/Magic_Flowers",
+          "photo": "",
+          "description": "Лялька Flora з лінійки Winx Club Magic Flowers. Персонажа підтверджено в огляді лінійки; фото конкретної версії, артикул і EAN ще потребують незалежної перевірки.",
+          "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
+        }
+      ]
     }
   ]
 }
