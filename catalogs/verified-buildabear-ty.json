@@ -203,10 +203,15 @@
           "figureNumber": "37380",
           "variantKey": "ty:beanie-boos:37380",
           "sourceUrl": "https://www.ty.com/product/snaps/37380.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
-          "photoCredit": "",
+          "photo": "https://static.fnac-static.com/multimedia/Images/FR/MDM/a6/7f/b1/28409766/3756-1/tsp20251119195028/Peluche-Ty-Beanie-Boo-s-Small-Snaps.jpg",
+          "photoCredit": "FNAC Suisse exact Snaps Beanie Boos Small",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
-          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU."
+          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
+          "photoSourceUrl": "https://www.fr.fnac.ch/BEANIE-BOOS-SMALL-SNAPS/a21965003",
+          "upc": "008421373802",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://wagners24.de/neue-artikel/ty-snaps-gingerbread-regular-0008421373802-111406.html",
+          "barcodeVerification": "Retailer publishes matching Ty Snaps Gingerbread regular SKU 37380 and EAN-13 0008421373802 (UPC-A 008421373802); checksum verified."
         },
         {
           "name": "Twitches",
@@ -269,10 +274,11 @@
           "figureNumber": "36284",
           "variantKey": "ty:beanie-boos:36284",
           "sourceUrl": "https://www.ty.com/product/giselle/36284.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
-          "photoCredit": "",
+          "photo": "https://media-www.canadiantire.ca/product/seasonal-gardening/toys/preschool-toys-activities/0506497/ty-reg-plush-cat-a94ea2c1-80d9-41f4-8030-cfb0d77f2010.png",
+          "photoCredit": "Canadian Tire Giselle Leopardcorn regular plush",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
-          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU."
+          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
+          "photoSourceUrl": "https://www.canadiantire.ca/en/pdp/ty-beanie-boos-regular-recognizable-character-plush-animal-stuffed-toy-giselle-the-camouflage-leopard-with-horn-0506497p.html"
         },
         {
           "name": "Muddles",
@@ -297,10 +303,11 @@
           "figureNumber": "37372",
           "variantKey": "ty:beanie-boos:37372",
           "sourceUrl": "https://www.ty.com/product/alfie/37372.html?cgid=beanie-boos&lang=en",
-          "photo": "",
-          "photoCredit": "",
+          "photo": "https://www.maziply.com/cdn/shop/files/ty-beanie-boos-alfie-the-highland-cow-plush.jpg?v=1744655986",
+          "photoCredit": "Maziply Toys exact character edition",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
-          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU."
+          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
+          "photoSourceUrl": "https://www.maziply.com/products/ty-beanie-boos-alfie-the-highland-cow-plush"
         },
         {
           "name": "Parfait",
