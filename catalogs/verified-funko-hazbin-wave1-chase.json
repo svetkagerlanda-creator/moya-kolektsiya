@@ -23,7 +23,12 @@
           "rarity": "Chase",
           "manufacturer": "Funko",
           "seriesNumber": "90415b",
-          "description": "Hazbin Hotel POP! Animation — Chase, окремий варіант; збережено оригінальний номер коробки #2239"
+          "description": "Hazbin Hotel POP! Animation — Chase, окремий варіант; збережено оригінальний номер коробки #2239",
+          "upc": "889698904155",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-hazbin-hotel-charlie-demon-form-or-chase-vinyl-figure/428481.html",
+          "barcodeVerification": "Explicit standard-or-Chase shared retail UPC, matching exact Funko SKU family; GS1 check digit valid",
+          "barcodeNote": "Shared retail assortment UPC with standard edition, not Chase-specific. Scanner must show both variants or let user choose; 90415b is distinct Funko variant number, not barcode."
         },
         {
           "name": "Vaggie — Angel Form (Chase)",
@@ -36,7 +41,12 @@
           "rarity": "Chase",
           "manufacturer": "Funko",
           "seriesNumber": "90416b",
-          "description": "Hazbin Hotel POP! Animation — Chase, окремий варіант; збережено оригінальний номер коробки #2240"
+          "description": "Hazbin Hotel POP! Animation — Chase, окремий варіант; збережено оригінальний номер коробки #2240",
+          "upc": "889698904162",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-hazbin-hotel-vaggie-or-chase-4.2-in-vinyl-figure/428469.html",
+          "barcodeVerification": "Explicit standard-or-Chase shared retail UPC, matching exact Funko SKU family; GS1 check digit valid",
+          "barcodeNote": "Shared retail assortment UPC with standard edition, not Chase-specific. Scanner must show both variants or let user choose; 90416b is distinct Funko variant number, not barcode."
         },
         {
           "name": "Alastor — Demon Form (Chase)",
@@ -49,7 +59,12 @@
           "rarity": "Chase",
           "manufacturer": "Funko",
           "seriesNumber": "90413b",
-          "description": "Hazbin Hotel POP! Animation — Chase, окремий варіант; збережено оригінальний номер коробки #2242"
+          "description": "Hazbin Hotel POP! Animation — Chase, окремий варіант; збережено оригінальний номер коробки #2242",
+          "upc": "889698904131",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://funko.com/pop-alastor/90413.html",
+          "barcodeVerification": "Explicit standard-or-Chase shared retail UPC, matching exact Funko SKU family; GS1 check digit valid",
+          "barcodeNote": "Shared retail assortment UPC with standard edition, not Chase-specific. Scanner must show both variants or let user choose; 90413b is distinct Funko variant number, not barcode."
         },
         {
           "name": "Sir Pentious — Angelic Form (Chase)",
@@ -62,7 +77,12 @@
           "rarity": "Chase",
           "manufacturer": "Funko",
           "seriesNumber": "91824b",
-          "description": "Hazbin Hotel POP! Animation — Chase, окремий варіант; збережено оригінальний номер коробки #2243"
+          "description": "Hazbin Hotel POP! Animation — Chase, окремий варіант; збережено оригінальний номер коробки #2243",
+          "upc": "889698918244",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-hazbin-hotel-sir-pentious-in-angelic-form-or-chase-5.1-in-vinyl-figure/433847.html",
+          "barcodeVerification": "Explicit standard-or-Chase shared retail UPC, matching exact Funko SKU family; GS1 check digit valid",
+          "barcodeNote": "Shared retail assortment UPC with standard edition, not Chase-specific. Scanner must show both variants or let user choose; 91824b is distinct Funko variant number, not barcode."
         }
       ]
     }
