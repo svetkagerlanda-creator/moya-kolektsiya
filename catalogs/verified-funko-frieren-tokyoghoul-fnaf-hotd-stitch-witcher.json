@@ -81,7 +81,12 @@
           "seriesNumber": "33968",
           "sourceUrl": "https://funko.com/pop-half-kakuja-kaneki/33968.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw6cc77215/images/funko/upload/33968_TokyoGhoul_KenKanekiKakuja_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 33968; box #465"
+          "description": "Funko item 33968; box #465",
+          "upc": "889698339681",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.shopforgeek.com/en/TOKYO-GHOUL-POP-N-465-HALF-KAKUJA-KANEKI-171017.html",
+          "barcodeVerification": "Exact Funko release and UPC cross-checked against product catalog; UPC-A checksum validated",
+          "barcodeNote": "Specific box #465, Funko item 33968"
         }
       ]
     },
@@ -207,7 +212,12 @@
           "seriesNumber": "4672",
           "sourceUrl": "https://funko.com/pop-lilo/4672.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwd7053f8e/images/funko/4672-1.png?sh=800&sw=800",
-          "description": "Funko item 4672; box #124"
+          "description": "Funko item 4672; box #124",
+          "upc": "849803046729",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/p/10061760292",
+          "barcodeVerification": "Exact Funko release and UPC cross-checked against product catalog; UPC-A checksum validated",
+          "barcodeNote": "Specific box #124, Funko item 4672"
         },
         {
           "name": "Stitch (Hot Topic Exclusive)",
@@ -218,7 +228,12 @@
           "seriesNumber": "61017",
           "sourceUrl": "https://funko.com/at/pop-stitch/61017.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwd119fb36/images/funko/61017-1.png?sh=800&sw=800",
-          "description": "Funko item 61017; box #1182"
+          "description": "Funko item 61017; box #1182",
+          "upc": "889698610179",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.probems.be/en/LILO-STITCH-POP-DISNEY-N-1182-STITCH-WITH-BOBA-227110.html",
+          "barcodeVerification": "Exact Funko release and UPC cross-checked against product catalog; UPC-A checksum validated",
+          "barcodeNote": "Specific box #1182, Funko item 61017"
         },
         {
           "name": "Stitch Unwrapping Gift",
@@ -229,7 +244,12 @@
           "seriesNumber": "82860",
           "sourceUrl": "https://funko.com/pop-stitch-unwrapping-gift/82860.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw92f2235c/images/funko/upload/82860_POPDisney_L%26S-StitchUnwrappingGift_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 82860; box #1522"
+          "description": "Funko item 82860; box #1522",
+          "upc": "889698828604",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://figurines-pop.com/figurine/pop-vinyl-lilo-and-stitch-1522-stitch-deballe-son-cadeau-15325",
+          "barcodeVerification": "Exact Funko release and UPC cross-checked against product catalog; UPC-A checksum validated",
+          "barcodeNote": "Specific box #1522, Funko item 82860"
         }
       ]
     },
