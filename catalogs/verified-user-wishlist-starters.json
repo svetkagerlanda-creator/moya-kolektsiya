@@ -278,9 +278,11 @@
           "rarity": "Regular",
           "variantKey": "Letsvan|ZIYULI My Own Wedding|Dreamy Encounter",
           "sourceUrl": "https://www.ebay.com/itm/127614735799",
-          "photo": "",
+          "photo": "https://ttmartglobal.com/cdn/shop/files/T3_0edafd7b-7b16-4ecf-b200-83f1a743c3ee.jpg?v=1754011975&width=2048",
           "description": "Індивідуальна фігурка серії ZIYULI My Own Wedding. Підтверджено назву у списку варіантів продавця; запечатаний blind box має випадковий вміст.",
-          "photoStatus": "missing"
+          "photoStatus": "individual-variant-matched-image",
+          "photoSourceUrl": "https://ttmartglobal.com/products/ziyuli-my-own-wedding-series-blind-box",
+          "photoCredit": "Retailer individual Dreamy Encounter promotional photo"
         },
         {
           "name": "Flower Goddess",
@@ -3173,9 +3175,12 @@
           "catalogPosition": "02",
           "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|Deer Girl",
           "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
-          "photo": "",
+          "photo": "https://whoopea.com/cdn/shop/files/015c985a80f388a06bfc620e3b47e147.webp?v=1741530975&width=1946",
           "rarity": "Regular",
-          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods.",
+          "photoSourceUrl": "https://whoopea.com/products/kokoya-breeze-and-the-forest-legend-series-figures-blind-box",
+          "photoCredit": "Retailer individual Deer Girl promotional photo",
+          "photoStatus": "individual-variant-matched-image"
         },
         {
           "name": "White Rabbit Magician",
@@ -3228,9 +3233,12 @@
           "catalogPosition": "07",
           "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|Berry Sweetheart Baker",
           "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
-          "photo": "",
+          "photo": "https://ttmartglobal.com/cdn/shop/files/2_7946436d-c9f8-4383-b589-7663c34aced8.jpg?v=1729561378&width=800",
           "rarity": "Regular",
-          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods.",
+          "photoSourceUrl": "https://www.ttmartglobal.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photoCredit": "Retailer individual Berry Sweetheart Baker promotional photo",
+          "photoStatus": "individual-variant-matched-image"
         },
         {
           "name": "Cute Gardener",
