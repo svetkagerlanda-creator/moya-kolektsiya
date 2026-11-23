@@ -280,10 +280,14 @@
           "manufacturer": "Spin Master",
           "figureNumber": "",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1j6tzga/",
-          "photo": "",
+          "photo": "https://i5.walmartimages.com/seo/Harry-Potter-Year-4-Micro-Magical-Moments-Viktor-Krum-Mini-Figure-Shark-No-Packaging_36e0afff-206a-48d7-aa71-347a339eecb6.d89b8a81e75e8fe00996f266d6cd26a9.jpeg",
           "rarity": "Regular / rarity unverified",
           "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches.",
-          "collectorCode": "M10"
+          "collectorCode": "M10",
+          "photoSourceUrl": "https://www.walmart.com/ip/16267017006",
+          "photoCredit": "Walmart product gallery; named Year 4 Shark Viktor Krum figure",
+          "photoStatus": "exact-variant-retailer-product-gallery",
+          "photoVerificationNote": "Retailer listing identifies the pictured individual Year 4 miniature and the accompanying display case; product image URL not independently HTTP-validated."
         },
         {
           "name": "Mystery variant — Madame Maxime — Fur Coat",
@@ -352,11 +356,15 @@
           "name": "Mystery variant — Draco Malfoy",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "photo": "",
+          "photo": "https://i5.walmartimages.com/seo/Harry-Potter-Year-4-Micro-Magical-Moments-Draco-Malfoy-Mini-Figure-No-Packaging_d29f952a-49c8-4141-a3f6-60bdbbc2cc89.0ab5fcd4f7387c0ecb95a1553cfbe7ab.jpeg",
           "collectorCode": "M06",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1j6tzga/",
           "rarity": "Regular / rarity unverified",
-          "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches."
+          "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches.",
+          "photoSourceUrl": "https://www.walmart.com/ip/16266967119",
+          "photoCredit": "Walmart product gallery; named Year 4 Draco Malfoy figure",
+          "photoStatus": "exact-variant-retailer-product-gallery",
+          "photoVerificationNote": "Retailer listing identifies the pictured individual Year 4 miniature and the accompanying display case; product image URL not independently HTTP-validated."
         },
         {
           "name": "Mystery variant — Cedric Diggory — Yule Ball",
@@ -372,21 +380,29 @@
           "name": "Mystery variant — Fleur Delacour — Arrival Outfit",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "photo": "",
+          "photo": "https://i5.walmartimages.com/seo/Harry-Potter-Year-4-Micro-Magical-Moments-Fleur-Delacour-Mini-Figure-No-Packaging_cd79ce43-577f-4036-8444-0bdad71af1a6.266d9d07b68cb18275d766bb79f998e9.jpeg",
           "collectorCode": "M09",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1j6tzga/",
           "rarity": "Regular / rarity unverified",
-          "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches."
+          "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches.",
+          "photoSourceUrl": "https://www.walmart.com/ip/16214716403",
+          "photoCredit": "Walmart product gallery; named Year 4 Fleur Delacour figure in arrival attire",
+          "photoStatus": "exact-variant-retailer-product-gallery",
+          "photoVerificationNote": "Retailer listing identifies the pictured individual Year 4 miniature and the accompanying display case; product image URL not independently HTTP-validated."
         },
         {
           "name": "Mystery variant — Lord Voldemort",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "photo": "",
+          "photo": "https://i5.walmartimages.com/seo/Harry-Potter-Year-4-Micro-Magical-Moments-Lord-Voldemort-Mini-Figure-No-Packaging_e740b9db-45cb-44f5-866f-700ea3c281c9.da876292dc1df51147566b744e12ff99.jpeg",
           "collectorCode": "M11",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1j6tzga/",
           "rarity": "Regular / rarity unverified",
-          "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches."
+          "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches.",
+          "photoSourceUrl": "https://www.walmart.com/ip/16273562071",
+          "photoCredit": "Walmart product gallery; named Year 4 Lord Voldemort figure",
+          "photoStatus": "exact-variant-retailer-product-gallery",
+          "photoVerificationNote": "Retailer listing identifies the pictured individual Year 4 miniature and the accompanying display case; product image URL not independently HTTP-validated."
         }
       ],
       "notes": "All 12 Year 4 mystery outcomes identified by collectors (M01–M12); Spin Master officially confirms twelve designs. Box codes are community observations, may change by production batch. Sealed mystery pack and non-mystery multi-figure sets are separate cards.",
@@ -4524,12 +4540,16 @@
           "name": "Mystery variant — Dobby",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "photo": "",
+          "photo": "https://slimages.macysassets.com/is/image/MCY/products/6/optimized/27100356_fpx.tif?fit=fit%2C1&hei=855&op_sharpen=1&wid=700",
           "collectorCode": "20145004",
           "collectorCodeType": "community-reported-box-code",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
           "rarity": "Not independently established",
-          "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
+          "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified.",
+          "photoSourceUrl": "https://www.macys.com/shop/product/wizarding-world-harry-potter-micro-magical-moments-year-2-surprise-blind-box-figure-display-case-styles-may-vary?ID=17625881",
+          "photoCredit": "Macy's official Year 2 product gallery; Dobby shown with display case",
+          "photoStatus": "exact-variant-retailer-product-gallery",
+          "photoVerificationNote": "Retailer listing identifies the pictured individual Year 2 miniature and the accompanying display case; product image URL not independently HTTP-validated."
         },
         {
           "name": "Mystery variant — Gilderoy Lockhart",
