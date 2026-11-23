@@ -3517,6 +3517,370 @@
           "description": "Confirmed possible blind-pack outcome in official Funko assortment. No per-variant product number, UPC, or image has been verified."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · LEGO · BrickHeadz · 2018 Debut",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "items": [
+        {
+          "name": "Harry Potter & Hedwig",
+          "manufacturer": "LEGO",
+          "figureNumber": "41615",
+          "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        },
+        {
+          "name": "Hermione Granger",
+          "manufacturer": "LEGO",
+          "figureNumber": "41616",
+          "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        },
+        {
+          "name": "Ron Weasley & Albus Dumbledore",
+          "manufacturer": "LEGO",
+          "figureNumber": "41621",
+          "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · BrickHeadz · 2020 Exclusive",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Hagrid & Buckbeak",
+          "manufacturer": "LEGO",
+          "figureNumber": "40412",
+          "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · BrickHeadz · 2021 Gryffindor & Dark Wizards",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Harry, Hermione, Ron & Hagrid",
+          "manufacturer": "LEGO",
+          "figureNumber": "40495",
+          "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        },
+        {
+          "name": "Voldemort, Nagini & Bellatrix",
+          "manufacturer": "LEGO",
+          "figureNumber": "40496",
+          "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · BrickHeadz · 2022 Professors",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Professors of Hogwarts",
+          "manufacturer": "LEGO",
+          "figureNumber": "40560",
+          "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · BrickHeadz · 2023 Quidditch & Order of the Phoenix",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "items": [
+        {
+          "name": "Harry Potter & Cho Chang",
+          "manufacturer": "LEGO",
+          "figureNumber": "40616",
+          "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        },
+        {
+          "name": "Draco Malfoy & Cedric Diggory",
+          "manufacturer": "LEGO",
+          "figureNumber": "40617",
+          "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        },
+        {
+          "name": "Kingsley Shacklebolt & Nymphadora Tonks",
+          "manufacturer": "LEGO",
+          "figureNumber": "40618",
+          "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2019 Hogwarts Castle · Clock Tower",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6282785.pdf",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Hogwarts Clock Tower",
+          "manufacturer": "LEGO",
+          "figureNumber": "75948",
+          "sourceUrl": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6282785.pdf",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2019 Expecto Patronum & Triwizard Challenge",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6282785.pdf",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "items": [
+        {
+          "name": "Expecto Patronum",
+          "manufacturer": "LEGO",
+          "figureNumber": "75945",
+          "sourceUrl": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6282785.pdf",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        },
+        {
+          "name": "Hungarian Horntail Triwizard Challenge",
+          "manufacturer": "LEGO",
+          "figureNumber": "75946",
+          "sourceUrl": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6282785.pdf",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        },
+        {
+          "name": "Hagrid's Hut: Buckbeak's Rescue",
+          "manufacturer": "LEGO",
+          "figureNumber": "75947",
+          "sourceUrl": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6282785.pdf",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2019 Wizarding Transport",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/cdn/cs/set/assets/blt76fdf09812507ef2/2019FallCatalog_US.pdf",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "The Knight Bus",
+          "manufacturer": "LEGO",
+          "figureNumber": "75957",
+          "sourceUrl": "https://www.lego.com/cdn/cs/set/assets/blt76fdf09812507ef2/2019FallCatalog_US.pdf",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        },
+        {
+          "name": "Beauxbatons' Carriage: Arrival at Hogwarts",
+          "manufacturer": "LEGO",
+          "figureNumber": "75958",
+          "sourceUrl": "https://www.lego.com/cdn/cs/set/assets/blt76fdf09812507ef2/2019FallCatalog_US.pdf",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2019 Graveyard Scene",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/cdn/cs/set/assets/blt76fdf09812507ef2/2019FallCatalog_US.pdf",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "The Rise of Voldemort",
+          "manufacturer": "LEGO",
+          "figureNumber": "75965",
+          "sourceUrl": "https://www.lego.com/cdn/cs/set/assets/blt76fdf09812507ef2/2019FallCatalog_US.pdf",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2020 Hogwarts Castle Expansions",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Hogwarts Room of Requirement",
+          "manufacturer": "LEGO",
+          "figureNumber": "75966",
+          "sourceUrl": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        },
+        {
+          "name": "Hogwarts Astronomy Tower",
+          "manufacturer": "LEGO",
+          "figureNumber": "75969",
+          "sourceUrl": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2020 Forbidden Forest & Privet Drive",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Forbidden Forest: Umbridge's Encounter",
+          "manufacturer": "LEGO",
+          "figureNumber": "75967",
+          "sourceUrl": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        },
+        {
+          "name": "4 Privet Drive",
+          "manufacturer": "LEGO",
+          "figureNumber": "75968",
+          "sourceUrl": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2020 Hedwig & The Burrow",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Hedwig",
+          "manufacturer": "LEGO",
+          "figureNumber": "75979",
+          "sourceUrl": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        },
+        {
+          "name": "Attack on The Burrow",
+          "manufacturer": "LEGO",
+          "figureNumber": "75980",
+          "sourceUrl": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Advent Calendars · Historic Releases",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/service/building-instructions/search-results?searchString=Harry+Potter+advent+calendar",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "items": [
+        {
+          "name": "Harry Potter Advent Calendar 2020",
+          "manufacturer": "LEGO",
+          "figureNumber": "75981",
+          "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/search-results?searchString=Harry+Potter+advent+calendar",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        },
+        {
+          "name": "Harry Potter Advent Calendar 2021",
+          "manufacturer": "LEGO",
+          "figureNumber": "76390",
+          "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/search-results?searchString=Harry+Potter+advent+calendar",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        },
+        {
+          "name": "Harry Potter Advent Calendar 2023",
+          "manufacturer": "LEGO",
+          "figureNumber": "76418",
+          "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/search-results?searchString=Harry+Potter+advent+calendar",
+          "photo": "",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        }
+      ]
     }
   ]
 }
