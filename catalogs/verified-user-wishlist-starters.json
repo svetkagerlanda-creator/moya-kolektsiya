@@ -84,9 +84,10 @@
           "catalogPosition": "17ZL-0204",
           "variantKey": "retailer:bi.ua:617383|sku:17ZL-0204",
           "sourceUrl": "https://bi.ua/ukr/product/fgurka-syurpriz-pop-top-letsvan-ziyuli-rozkshn-samocvti-17zl-0204.html",
-          "photo": "",
+          "photo": "https://bi.ua/uploaded-images/products/size_650/617383_1.jpg",
           "retailPriceUAH": 1095,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "photoCredit": "Будинок іграшок — фото конкретної закритої коробки, код 617383"
         }
       ]
     },
@@ -109,9 +110,10 @@
           "catalogPosition": "17ZI-0205",
           "variantKey": "retailer:bi.ua:621267|sku:17ZI-0205",
           "sourceUrl": "",
-          "photo": "",
+          "photo": "https://bi.ua/uploaded-images/products/size_650/621267_1.jpg",
           "retailPriceUAH": 899,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "photoCredit": "Будинок іграшок — фото конкретної закритої коробки, код 621267"
         }
       ]
     },
