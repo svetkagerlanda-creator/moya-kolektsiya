@@ -31,7 +31,11 @@
           "seriesNumber": "80333",
           "sourceUrl": "https://funko.com/pop-nezuko-kamado-demon-form/80333.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwe45d9100/images/funko/upload/80333_DemonSlayer_S6_Nezuko_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 80333; box 1749"
+          "description": "Funko item 80333; box 1749",
+          "upc": "889698803335",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/demon-slayer-nezuko-kamado-demon-form-funko-pop-vinyl-figure-1749/fu80333",
+          "barcodeVerification": "Exact Funko POP figure number and UPC on retailer listing; check digit verified"
         },
         {
           "name": "Gyutaro",
@@ -320,7 +324,11 @@
           "seriesNumber": "93135",
           "sourceUrl": "https://funko.com/pop-eleventh-doctor/93135.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw8b3988b5/images/funko/upload/1/93135a_POPTV_DoctorWho_S5_11thDoctor_Renders-glam-WEB.png?sh=800&sw=800",
-          "description": "Funko item 93135; box 1966"
+          "description": "Funko item 93135; box 1966",
+          "upc": "889698931359",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/doctor-who-eleventh-doctor-funko-pop-vinyl-figure-1966-specialty/fu93135",
+          "barcodeVerification": "Exact Funko POP figure number and UPC on retailer listing; check digit verified"
         },
         {
           "name": "Fifteenth Doctor",
