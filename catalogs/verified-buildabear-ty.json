@@ -211,12 +211,18 @@
         {
           "name": "Twitches",
           "manufacturer": "Ty",
-          "figureNumber": "",
-          "variantKey": "ty:beanie-boos:official-selected:twitches",
-          "sourceUrl": "https://www.ty.com/catalog/beanie-boos-circle/?lang=en",
-          "photo": "",
-          "photoCredit": "",
-          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження."
+          "figureNumber": "37392",
+          "variantKey": "ty:beanie-boos:37392",
+          "sourceUrl": "https://www.ty.com/product/twitches/37392.html",
+          "photo": "https://www.toyworld.com.au/cdn/shop/files/T22-37392_008421373925_TY_20Beanie_20Boos_20Easter_20Rabbit_20Reg_20Twitches_ToyworldAU.jpg?v=1767848431&width=1900",
+          "photoCredit": "Toyworld Australia exact SKU retail photography",
+          "description": "Персонаж підтверджений офіційним каталогом Beanie Boos. Розмір, артикул, фото та UPC потребують окремого підтвердження.",
+          "photoSourceUrl": "https://www.toyworld.com.au/products/ty-beanie-boos-regular-twitches-rainbow-rabbit",
+          "upc": "008421373925",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.hobbyhousetoys.com/product-page/ty-beanie-boos-twitches-plush-upc-008421373925",
+          "barcodeVerification": "Source lists matching character, exact manufacturer SKU and retailer GTIN; UPC-A check digit valid",
+          "barcodeNote": "Regular-size plush only, not keyclip or other variant"
         },
         {
           "name": "Chessie",
@@ -235,10 +241,11 @@
           "figureNumber": "37390",
           "variantKey": "ty:beanie-boos:37390",
           "sourceUrl": "https://www.ty.com/product/vixen/37390.html?cgid=beanie-boos&lang=en",
-          "photo": "",
-          "photoCredit": "",
+          "photo": "https://cdn.ty.com/static/images/9e3caa851516ae4a3b1762838daa4e14_lg.png",
+          "photoCredit": "Ty official product photography",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
-          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU."
+          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
+          "photoSourceUrl": "https://www.ty.com/product/vixen/37390.html?lang=en"
         },
         {
           "name": "Crawley",
@@ -249,7 +256,12 @@
           "photo": "",
           "photoCredit": "",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
-          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU."
+          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
+          "upc": "008421374144",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.dalmasso24.it/catalogo-prodotti/idee-regalo/peluche/beanie-boo-s/peluche-beanie-boos-cm-15-crawley-ty-008421374144-75861.html",
+          "barcodeVerification": "Source lists matching character, exact manufacturer SKU and retailer GTIN; UPC-A check digit valid",
+          "barcodeNote": "Regular-size plush only, not keyclip or other variant"
         },
         {
           "name": "Giselle",
@@ -268,10 +280,16 @@
           "figureNumber": "36249",
           "variantKey": "ty:beanie-boos:36249",
           "sourceUrl": "https://www.ty.com/product/muddles/36249.html?cgid=beanie-boos&lang=en",
-          "photo": "",
-          "photoCredit": "",
+          "photo": "https://cdn.ty.com/static/images/bfaa81b1dfd7262785529a2c760b9dc1_lg.png",
+          "photoCredit": "Ty official product photography",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
-          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU."
+          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
+          "photoSourceUrl": "https://www.ty.com/product/muddles/36249-master.html?cgid=cmbeanies&lang=en",
+          "upc": "008421362493",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/itm/335324481941",
+          "barcodeVerification": "Source lists matching character, exact manufacturer SKU and retailer GTIN; UPC-A check digit valid",
+          "barcodeNote": "Regular-size plush only, not keyclip or other variant"
         },
         {
           "name": "Alfie",
@@ -312,10 +330,16 @@
           "figureNumber": "36322",
           "variantKey": "ty:beanie-boos:36322",
           "sourceUrl": "https://www.ty.com/product/helena/36322.html?cgid=beanie-boos&lang=en",
-          "photo": "",
-          "photoCredit": "",
+          "photo": "https://cdn.ty.com/static/images/0df977b4c2f929989a671e04fa037158_lg.png",
+          "photoCredit": "Ty official product photography",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
-          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU."
+          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
+          "photoSourceUrl": "https://www.ty.com/product/helena/36322.html?lang=en",
+          "upc": "008421363223",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.maziply.com/products/ty-beanie-boos-helena-the-husky-6-plush",
+          "barcodeVerification": "Source lists matching character, exact manufacturer SKU and retailer GTIN; UPC-A check digit valid",
+          "barcodeNote": "Regular-size plush only, not keyclip or other variant"
         },
         {
           "name": "Tricky",
