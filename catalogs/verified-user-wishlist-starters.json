@@ -694,9 +694,19 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 949,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6975472674575",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://rozetka.com.ua/10-10-toys-anm-aexa/p597738763/",
+          "assortmentBarcodeVerification": "EAN explicitly listed for ANM-AEXA sealed random single figurine; checksum validated",
+          "assortmentBarcodeNote": "EAN for assortment, not the revealed Anita character."
         }
-      ]
+      ],
+      "assortmentEan": "6975472674575",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://rozetka.com.ua/10-10-toys-anm-aexa/p597738763/",
+      "assortmentBarcodeVerification": "EAN explicitly listed for ANM-AEXA sealed random single figurine; checksum validated",
+      "assortmentBarcodeNote": "EAN for assortment, not the revealed Anita character."
     },
     {
       "name": "POP MART · SKULLPANDA × My Little Pony",
