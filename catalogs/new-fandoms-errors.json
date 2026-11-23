@@ -1,1 +1,29 @@
-{"sourcePages":0,"queriedProductPages":0,"verifiedSeries":0,"verifiedProducts":0,"photoRecords":0,"errors":{}}
+{
+  "sourcePages": 18,
+  "queriedProductPages": 224,
+  "verifiedSeries": 16,
+  "verifiedProducts": 205,
+  "photoRecords": 105,
+  "errors": {
+    "https://www.sylvanianfamilies.com/en-uk/catalog/categorieslist.php?category_id=1": "403 Client Error: Forbidden for url: https://www.sylvanianfamilies.com/en-uk/catalog/categorieslist.php?category_id=1",
+    "https://www.sylvanianfamilies.com/en-uk/catalog/": "403 Client Error: Forbidden for url: https://www.sylvanianfamilies.com/en-uk/catalog/",
+    "https://shop.mgae.com/collections/bratz-babyz/products/bratz-big-babyz-doll-yasmin": "404 Client Error: Not Found for url: https://shop.mgae.com/collections/bratz-babyz/products/bratz-big-babyz-doll-yasmin",
+    "https://shop.mattel.com/products/monster-high-scare-adise-island-snack-shack-playset-hrp70-en-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-high-scare-adise-island-snack-shack-playset-hrp70-en-ca",
+    "https://shop.mattel.com/products/monster-high-spectra-vondergeist-doll-hxh77": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-high-spectra-vondergeist-doll-hxh77",
+    "https://shop.mattel.com/products/monster-high-spectra-vondergeist-doll-hxh77-en-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-high-spectra-vondergeist-doll-hxh77-en-ca",
+    "https://shop.mattel.com/products/monster-high-stitched-in-style-frankie-stein-collector-doll-hrl66-en-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-high-stitched-in-style-frankie-stein-collector-doll-hrl66-en-ca",
+    "https://shop.mattel.com/products/monster-high-toy-car-ghoul-mobile-hhk63": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-high-toy-car-ghoul-mobile-hhk63",
+    "https://shop.mattel.com/products/monster-high-toy-car-ghoul-mobile-with-pet-and-cooler-accessories-hhk63-en-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-high-toy-car-ghoul-mobile-with-pet-and-cooler-accessories-hhk63-en-ca",
+    "https://shop.mattel.com/products/monster-high-venus-mcflytrap-doll-hrp81": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-high-venus-mcflytrap-doll-hrp81",
+    "https://shop.mattel.com/products/monster-high-venus-mcflytrap-doll-hrp81-en-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-high-venus-mcflytrap-doll-hrp81-en-ca",
+    "https://shop.mattel.com/products/monster-highle-du-paradis-de-la-peurcoffret-de-jeucasse-crote-hrp70-fr-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-highle-du-paradis-de-la-peurcoffret-de-jeucasse-crote-hrp70-fr-ca",
+    "https://shop.mattel.com/products/monster-highle-du-paradis-de-la-peurpoupeefrankie-stein-hrp68-fr-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-highle-du-paradis-de-la-peurpoupeefrankie-stein-hrp68-fr-ca",
+    "https://shop.mattel.com/products/monster-highpoupeeclawdeen-wolf-hrp65-fr-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-highpoupeeclawdeen-wolf-hrp65-fr-ca",
+    "https://shop.mattel.com/products/monster-highpoupeedraculaura-hrp64-fr-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-highpoupeedraculaura-hrp64-fr-ca",
+    "https://shop.mattel.com/products/monster-highpoupeevenus-mcflytrap-hrp81-fr-ca": "429 Client Error: Too Many Requests for url: https://shop.mattel.com/products/monster-highpoupeevenus-mcflytrap-hrp81-fr-ca",
+    "https://www.winxclub.com/en-us/products/winx-dreamix-figure-collection-6-characters": "404 Client Error: Not Found for url: https://www.winxclub.com/en-us/products/winx-dreamix-figure-collection-6-characters",
+    "https://service.mattel.com/us/productDetail.aspx?prodno=BBD42&siteid=27": "missing trustworthy product title",
+    "https://www.sylvanianfamilies.com/en-uk/catalog/item_detail.php?product_id=2627": "403 Client Error: Forbidden for url: https://www.sylvanianfamilies.com/en-uk/catalog/item_detail.php?product_id=2627",
+    "https://www.sylvanianfamilies.com/uk-ua/catalog/item_detail.php?product_id=2356": "403 Client Error: Forbidden for url: https://www.sylvanianfamilies.com/uk-ua/catalog/item_detail.php?product_id=2356"
+  }
+}
