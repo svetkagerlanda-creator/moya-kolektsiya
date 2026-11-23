@@ -307,8 +307,8 @@
       "manufacturer": "Spin Master",
       "source": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-figure-set-with-harry-stag-patronus-dementor-and-display-case-kids-toys-for-ages-6-and-up",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 8,
+      "completeness": "verified-selected-mystery-variants",
+      "count": 12,
       "items": [
         {
           "name": "Harry, Stag Patronus & Dementor — 3-Figure Set",
@@ -379,9 +379,45 @@
           "photo": "",
           "rarity": "Regular",
           "description": "Named possible outcome confirmed by Spin Master's product description of the 12-design mystery assortment. No specific individual photo or barcode verified. Does not identify contents of a sealed pack."
+        },
+        {
+          "name": "Mystery variant — Professor Sybill Trelawney",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.spinmaster.com/en-us/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6/",
+          "photo": "",
+          "description": "Manufacturer product marketing explicitly names Professor Trelawney among possible Year 3 blind-box characters. Individual mystery barcode and exact photograph unverified. Source evidence: manufacturer / collector video.",
+          "rarity": "Undetermined"
+        },
+        {
+          "name": "Mystery variant — Hermione Granger",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.youtube.com/watch?v=Pm3uAwtIKcw",
+          "photo": "",
+          "description": "Collector video names Hermione Granger among Year 3 miniature blind-box collectibles; variant-specific appearance not independently established. Individual mystery barcode and exact photograph unverified. Source evidence: manufacturer / collector video.",
+          "rarity": "Undetermined"
+        },
+        {
+          "name": "Mystery variant — Ron Weasley",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.youtube.com/watch?v=Pm3uAwtIKcw",
+          "photo": "",
+          "description": "Collector video names Ron Weasley among Year 3 miniature blind-box collectibles; variant-specific appearance not independently established. Individual mystery barcode and exact photograph unverified. Source evidence: manufacturer / collector video.",
+          "rarity": "Undetermined"
+        },
+        {
+          "name": "Mystery variant — Hedwig",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.youtube.com/watch?v=Pm3uAwtIKcw",
+          "photo": "",
+          "description": "Collector video names Hedwig among Year 3 miniature blind-box collectibles; variant-specific appearance not independently established. Individual mystery barcode and exact photograph unverified. Source evidence: manufacturer / collector video.",
+          "rarity": "Undetermined"
         }
       ],
-      "notes": "Mystery checklist in progress: manufacturer confirms 12 possible figures; only variants explicitly named by the manufacturer have separate cards."
+      "notes": "Spin Master confirms 12 Year 3 blind-box designs. Named candidates must be distinguished from separate 3-/4-figure multipacks. One reseller's 'complete set' description ambiguously lists 13 names for 12 figures, so not used to declare completeness."
     },
     {
       "name": "Harry Potter · Iron Studios · MiniCo",
