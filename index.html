@@ -537,11 +537,10 @@ const MLP_GENERATION_GROUPS={
  'g5-other-figures':['G5','Other Figures'],'g5-comics':['G5','Comics']
 };
 function mlpMerchRoot(source){
- try{
-  const url=new URL(String(source||''));
-  if(url.hostname!=='data.mlpmerch.com')return '';
-  return url.pathname.split('/').filter(Boolean)[0]||'';
- }catch{return ''}
+ const value=String(source||'').trim();
+ const prefix='https://data.mlpmerch.com/';
+ if(!value.startsWith(prefix))return '';
+ return value.slice(prefix.length).split('/')[0]||'';
 }
 function mlpSourceGeneration(source){return MLP_GENERATION_GROUPS[mlpMerchRoot(source)]?.[0]||''}
 function categorizeGeneratedSeries(series){
