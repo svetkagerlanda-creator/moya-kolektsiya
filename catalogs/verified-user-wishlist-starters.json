@@ -190,8 +190,8 @@
       "source": "https://bi.ua/ukr/product/fgurka-syurpriz-pop-top-letsvan-ziyuli-rozkshn-samocvti-17zl-0204.html",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "count": 2,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок. Secret variant confirmed, other six regular designs still require name verification; rarity Diamond 1/72. The existing sealed-box card remains separate.",
       "items": [
         {
           "name": "Letsvan Ziyuli · Розкішні самоцвіти",
@@ -210,6 +210,15 @@
           "assortmentBarcodeSourceUrl": "https://rozetka.com.ua/ua/pop-top-6974773011294/p541092599/",
           "assortmentBarcodeVerification": "EAN explicitly shown in seller product specifications for exact boxed assortment; check digit validated",
           "assortmentBarcodeNote": "EAN for one sealed random box, not the individual hidden design."
+        },
+        {
+          "name": "Розкішні самоцвіти · Diamond",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://antoshka.ua/uk/kolekcijna-figurka-sjurpriz-pop-top-letsvan-ziyuli-rozkishni-samocviti-17zl-0204.html",
+          "photo": "",
+          "rarity": "Secret · 1/72",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
         }
       ],
       "assortmentEan": "6974773011294",
@@ -949,9 +958,9 @@
       "group": "🎁 Blind Box · 10/10 Toys",
       "source": "",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "completeness": "full-named-variant-checklist-with-sealed-assortment",
+      "count": 10,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок. 8 regular designs and one secret design; rarity Divine Bird 1/144. The existing sealed-box card remains separate.",
       "items": [
         {
           "name": "TNT Anita · Mountains and Seas Have Spirits",
@@ -973,6 +982,87 @@
           "photoCredit": "Будинок іграшок — головне фото товару з відповідним кодом магазину",
           "photoStatus": "retailer-product-image-link-pending-http-check",
           "photoVerificationNote": "Retailer listing confirms SKU and identifies the item; image CDN path follows documented bi.ua product photo pattern. HTTP response could not be validated independently. For random blind box this is assortment/product image, not a confirmed specific variant."
+        },
+        {
+          "name": "Mountains and Seas Have Spirits · Deer God",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://blazingstar.au/products/anita-mountains-and-seas-have-spirits-series",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Mountains and Seas Have Spirits · Seductive Snake",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://blazingstar.au/products/anita-mountains-and-seas-have-spirits-series",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Mountains and Seas Have Spirits · White Crane",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://blazingstar.au/products/anita-mountains-and-seas-have-spirits-series",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Mountains and Seas Have Spirits · Black Cat",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://blazingstar.au/products/anita-mountains-and-seas-have-spirits-series",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Mountains and Seas Have Spirits · Moon Rabbit",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://blazingstar.au/products/anita-mountains-and-seas-have-spirits-series",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Mountains and Seas Have Spirits · Red Fox",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://blazingstar.au/products/anita-mountains-and-seas-have-spirits-series",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Mountains and Seas Have Spirits · Lucky Charm",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://blazingstar.au/products/anita-mountains-and-seas-have-spirits-series",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Mountains and Seas Have Spirits · Dancing Butterfly",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://blazingstar.au/products/anita-mountains-and-seas-have-spirits-series",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Mountains and Seas Have Spirits · Divine Bird",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://blazingstar.au/products/anita-mountains-and-seas-have-spirits-series",
+          "photo": "",
+          "rarity": "Secret · 1/144",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
         }
       ],
       "assortmentEan": "6975472674575",
@@ -1335,9 +1425,9 @@
       "group": "🎁 Blind Box · POP TOP",
       "source": "",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "completeness": "full-named-variant-checklist-with-sealed-assortment",
+      "count": 10,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок. 8 regular designs and one secret design; rarity Time Hourglass 1/72. The existing sealed-box card remains separate.",
       "items": [
         {
           "name": "Jotoys Miana · Замок сновидінь",
@@ -1359,6 +1449,87 @@
           "photoCredit": "Будинок іграшок — головне фото товару з відповідним кодом магазину",
           "photoStatus": "retailer-product-image-link-pending-http-check",
           "photoVerificationNote": "Retailer listing confirms SKU and identifies the item; image CDN path follows documented bi.ua product photo pattern. HTTP response could not be validated independently. For random blind box this is assortment/product image, not a confirmed specific variant."
+        },
+        {
+          "name": "Замок сновидінь · Candle Flicker",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://bi.ua/ukr/product/fgurka-syurpriz-pop-top-jotoys-miana-zamok-snovidn-jo-2025034.html",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Замок сновидінь · Oil Painter",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://bi.ua/ukr/product/fgurka-syurpriz-pop-top-jotoys-miana-zamok-snovidn-jo-2025034.html",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Замок сновидінь · Secret Icon",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://bi.ua/ukr/product/fgurka-syurpriz-pop-top-jotoys-miana-zamok-snovidn-jo-2025034.html",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Замок сновидінь · Noble Count",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://bi.ua/ukr/product/fgurka-syurpriz-pop-top-jotoys-miana-zamok-snovidn-jo-2025034.html",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Замок сновидінь · Magic Crystal",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://bi.ua/ukr/product/fgurka-syurpriz-pop-top-jotoys-miana-zamok-snovidn-jo-2025034.html",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Замок сновидінь · Moonlight Angel",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://bi.ua/ukr/product/fgurka-syurpriz-pop-top-jotoys-miana-zamok-snovidn-jo-2025034.html",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Замок сновидінь · Black Cat Witch",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://bi.ua/ukr/product/fgurka-syurpriz-pop-top-jotoys-miana-zamok-snovidn-jo-2025034.html",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Замок сновидінь · Key Prelude",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://bi.ua/ukr/product/fgurka-syurpriz-pop-top-jotoys-miana-zamok-snovidn-jo-2025034.html",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
+        },
+        {
+          "name": "Замок сновидінь · Time Hourglass",
+          "manufacturer": "POP TOP",
+          "figureNumber": "",
+          "sourceUrl": "https://bi.ua/ukr/product/fgurka-syurpriz-pop-top-jotoys-miana-zamok-snovidn-jo-2025034.html",
+          "photo": "",
+          "rarity": "Secret · 1/72",
+          "description": "Verified named blind-box variant. This card represents one revealed design, not a sealed blind box; the assortment EAN and SKU do not identify this variant. Individual photo and barcode pending verification."
         }
       ],
       "assortmentEan": "6975733532354",
