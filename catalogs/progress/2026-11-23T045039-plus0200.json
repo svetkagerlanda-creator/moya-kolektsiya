@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-11-23T04:50:39+02:00",
+  "task": "historical-dolls-pets completeness correction",
+  "commits": [
+    "9df366eece7ccbb18ad20240c03d567a4bab48b7"
+  ],
+  "filesChanged": [
+    "scripts/build_historical_dolls_pets.py"
+  ],
+  "baseline": {
+    "indexedSeries": 422,
+    "verifiedSeries": 422,
+    "items": 7471,
+    "photoRecords": 7471,
+    "partialSeries": 1,
+    "unscanned": 0
+  },
+  "newSeries": 0,
+  "newItems": 0,
+  "newPhotos": 0,
+  "verifiedLiveImageURLs": 0,
+  "change": "Recompute completeness after restoring previously confirmed exact-source photos. A missing photo on a temporarily degraded source must not incorrectly leave a recovered complete series marked partial.",
+  "limitations": [
+    "Builder not executed in a checked-out repository; output JSON and diagnostic counts unchanged",
+    "Existing photo URLs not individually tested for reachability or SKU match",
+    "Baseline metrics are from committed diagnostics, not a fresh crawl"
+  ],
+  "next": [
+    "Run historical builder and compare output to prior snapshot",
+    "Investigate remaining partial series and verify individual images",
+    "Expand source discovery and importers for Bratz Babyz, Bratziez, Minis, Play Sportz and Winx historical lines",
+    "Respect storefront 429 responses; preserve seed cards and private statuses"
+  ]
+}
