@@ -415,9 +415,16 @@
           "figureNumber": "37405",
           "variantKey": "ty:beanie-boos:37405",
           "sourceUrl": "https://www.ty.com/product/emmie/37405.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/257227897c2caddce45c18494a0f9337_lg.png",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
-          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
+          "upc": "008421374052",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.caseystoys.com.au/products/ty-beanie-boos-regular-plush-emmie-chick-with-hat/84602/1",
+          "barcodeVerification": "Matching Ty Beanie Boos character and exact Ty model/MPN with published UPC or EAN listing; UPC-A check digit validated.",
+          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions.",
+          "photoCredit": "Official Ty product photo, Emmie SKU 37405",
+          "photoSourceUrl": "https://www.ty.com/product/emmie/37405.html?cgid=undefined&lang=de"
         },
         {
           "name": "Chirps",
@@ -427,7 +434,12 @@
           "sourceUrl": "https://www.ty.com/product/chirps/37399.html?cgid=beanie-boos-circle&lang=en",
           "photo": "",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
-          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
+          "upc": "008421373994",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/kueken-chirps-chick-gelb.html",
+          "barcodeVerification": "Matching Ty Beanie Boos character and exact Ty model/MPN with published UPC or EAN listing; UPC-A check digit validated.",
+          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions."
         },
         {
           "name": "Giggles",
@@ -452,7 +464,12 @@
           "sourceUrl": "https://www.ty.com/product/peetie/37343.html?cgid=beanie-boos-circle&lang=en",
           "photo": "",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
-          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
+          "upc": "008421373437",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/kueken-peetie-yellow-chick.html",
+          "barcodeVerification": "Matching Ty Beanie Boos character and exact Ty model/MPN with published UPC or EAN listing; UPC-A check digit validated.",
+          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions."
         },
         {
           "name": "Melanie",
@@ -492,7 +509,12 @@
           "sourceUrl": "https://www.ty.com/product/daphne/37362.html?cgid=beanie-boos-circle&lang=en",
           "photo": "",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
-          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
+          "upc": "008421373628",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/dinosaurier-daphne-violett.html",
+          "barcodeVerification": "Matching Ty Beanie Boos character and exact Ty model/MPN with published UPC or EAN listing; UPC-A check digit validated.",
+          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions."
         },
         {
           "name": "Eva",
@@ -502,7 +524,12 @@
           "sourceUrl": "https://www.ty.com/product/eva/36386.html?cgid=beanie-boos-circle&lang=en",
           "photo": "",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
-          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
+          "upc": "008421363865",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/elefant-eva.html",
+          "barcodeVerification": "Matching Ty Beanie Boos character and exact Ty model/MPN with published UPC or EAN listing; UPC-A check digit validated.",
+          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions."
         },
         {
           "name": "Fergus",
@@ -522,7 +549,12 @@
           "sourceUrl": "https://www.ty.com/product/finnegan/37376.html?cgid=beanie-boos-circle&lang=en",
           "photo": "",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
-          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
+          "upc": "008421373765",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/haifisch-finnegan-shark.html",
+          "barcodeVerification": "Matching Ty Beanie Boos character and exact Ty model/MPN with published UPC or EAN listing; UPC-A check digit validated.",
+          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions."
         },
         {
           "name": "Ernie",
@@ -532,7 +564,12 @@
           "sourceUrl": "https://www.ty.com/product/ernie/37373.html?cgid=beanie-boos-circle&lang=en",
           "photo": "",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
-          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
+          "upc": "008421373734",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/alligator-ernie-gruen.html",
+          "barcodeVerification": "Matching Ty Beanie Boos character and exact Ty model/MPN with published UPC or EAN listing; UPC-A check digit validated.",
+          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions."
         },
         {
           "name": "Gnewman",
