@@ -257,7 +257,11 @@
           "seriesNumber": "83854",
           "sourceUrl": "https://funko.com/pop-dratini/83854.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw6801f0cd/images/funko/upload/83854_Pokemon_Dratini_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 83854; box 1050"
+          "description": "Funko item 83854; box 1050",
+          "upc": "889698838542",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-games-pokemon-dratini-3.5-in-vinyl-figure/414178.html",
+          "barcodeVerification": "GameStop explicitly lists UPC 889698838542 and Funko vendor part 83854 for Dratini #1050"
         },
         {
           "name": "Fuecoco",
