@@ -927,9 +927,9 @@
       "group": "🎁 Blind Box · 52TOYS",
       "source": "https://www.kikagoods.com/collections/sleep-series/products/sleep-the-treasure-gallery-series-blind-box",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 6,
-      "notes": "Додано поіменно підтверджені варіанти; запечатана blind box — окрема позиція. У джерелах зазначено 9 дизайнів; список і фото ще потребують доповнення.",
+      "completeness": "verified-full-series",
+      "count": 9,
+      "notes": "8 звичайних дизайнів і 1 secret Feast of Spring плюс окрема позиція запечатаної випадкової blind box. Перелік персонажів підтверджено; не всі індивідуальні фото додано.",
       "items": [
         {
           "name": "Sleep · Галерея мистецтва",
@@ -1004,6 +1004,45 @@
           "sourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-feast-of-spring",
           "rarity": "Secret",
           "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Feline Blessing",
+          "manufacturer": "52TOYS",
+          "character": "Feline Blessing",
+          "variantKey": "52TOYS|52TOYS · Sleep · Галерея мистецтва|Feline Blessing",
+          "sourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-feline-blessing",
+          "photo": "https://toysez.com/cdn/shop/files/5_1_c49dc56e-b85c-4728-9da7-d37b3d62b8e8_1200x.jpg?v=1740419520",
+          "photoSourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-feline-blessing",
+          "photoStatus": "retailer-branded-product-image",
+          "photoCredit": "TOYSEZ — named 52TOYS variant product gallery",
+          "rarity": "Regular",
+          "description": "Підтверджений окремий дизайн серії; вміст закритого blind box випадковий."
+        },
+        {
+          "name": "Gilded Flame",
+          "manufacturer": "52TOYS",
+          "character": "Gilded Flame",
+          "variantKey": "52TOYS|52TOYS · Sleep · Галерея мистецтва|Gilded Flame",
+          "sourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-gilded-flame",
+          "photo": "https://toysez.com/cdn/shop/files/3_1_f52872e4-703f-4892-a26a-8a92d7c9ba67_1200x.jpg?v=1740419420",
+          "photoSourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-gilded-flame",
+          "photoStatus": "retailer-branded-product-image",
+          "photoCredit": "TOYSEZ — named 52TOYS variant product gallery",
+          "rarity": "Regular",
+          "description": "Підтверджений окремий дизайн серії; вміст закритого blind box випадковий."
+        },
+        {
+          "name": "Elegance",
+          "manufacturer": "52TOYS",
+          "character": "Elegance",
+          "variantKey": "52TOYS|52TOYS · Sleep · Галерея мистецтва|Elegance",
+          "sourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-elegance",
+          "photo": "https://toysez.com/cdn/shop/files/1_1_87beba59-09e0-4abd-8f67-362a5ec3ab6b_1200x.jpg?v=1740419329",
+          "photoSourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-elegance",
+          "photoStatus": "retailer-branded-product-image",
+          "photoCredit": "TOYSEZ — named 52TOYS variant product gallery",
+          "rarity": "Regular",
+          "description": "Підтверджений окремий дизайн серії; вміст закритого blind box випадковий."
         }
       ],
       "assortmentEan": "6958985015806",
