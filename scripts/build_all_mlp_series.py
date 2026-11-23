@@ -71,7 +71,8 @@ def discover(root, label, grouping):
             if result:
                 count=int(result.group(1).replace(",",""))
                 break
-        if count is None or count <= 0:continue
+        # Some MLP Merch indexes omit the count next to an individual link.
+        # Its dedicated page must then declare the authoritative total.
         title=link.get_text(" ",strip=True)
         if not title or COUNT_RE.search(title):
             title=match.group(1).replace("-"," ").title()
@@ -90,8 +91,10 @@ def parse(entry):
     text=soup.get_text(" ",strip=True)
     match=TOTAL_RE.search(text[:1800])
     expected=int(match.group(1).replace(",","")) if match else entry["expected"]
+    if not expected:
+        raise ValueError("neither index nor series page declares an item count")
     # An index could be stale. Do not silently change expected item counts.
-    if expected!=entry["expected"]:
+    if entry["expected"] and expected!=entry["expected"]:
         raise ValueError(f"index says {entry['expected']}, page says {expected}")
     items={}
     root=entry["root"]
