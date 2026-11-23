@@ -908,7 +908,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-highle-du-paradis-de-la-peurpoupeefrankie-stein-hrp68-fr-ca",
           "photo": "https://shop.mattel.com/cdn/shop/products/ue30elwcmq1qcbd1nllp_9ca67058-aa16-49fb-a5ed-3ce90504d600.jpg?v=1705520315",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735183517",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.onbuy.com/gb/p/monster-high-scare-adise-island-frankie-stein-doll-with-swimsuit-coverup-and-beach-accessories-like-hat-volleyball-and-tote~p113840769/",
+          "barcodeVerification": "OnBuy lists HRP68 MPN and EAN; check digit verified"
         },
         {
           "name": "Monster High Boneca Clawdeen Novo Visual",
@@ -984,7 +988,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-cleo-de-nile-boo-jeweled-beauty-case-hnf72-en-ca",
           "photo": "https://shop.mattel.com/cdn/shop/files/deybzhu6grx0p15jx3m5.jpg?v=1714666273",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735139392",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.ebay.com/p/18062901595",
+          "barcodeVerification": "eBay product listing identifies Cleo Boo-Jeweled HNF72 and UPC; check digit verified"
         },
         {
           "name": "Monster High Doll, Abbey Bominable Yeti Fashion Doll With Accessories",
@@ -1004,7 +1012,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-amped-up-frankie-stein-doll-hnf84",
           "photo": "https://shop.mattel.com/cdn/shop/files/qinw7ec9faa36hefdmxz.jpg?v=1778688626",
-          "description": "Frankie Stein doll rocks out on stage with their electrifying outfit and creepy-cool music accessories! Shop more Monster High dolls and gifts at Shop.Mattel.com!"
+          "description": "Frankie Stein doll rocks out on stage with their electrifying outfit and creepy-cool music accessories! Shop more Monster High dolls and gifts at Shop.Mattel.com!",
+          "ean": "0194735139309",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://jordan.desertcart.com/products/556807414-monster-high-doll-amped-up-frankie-stein-rockstar-with-instrument-performance-themed-accessories-like-headphones",
+          "barcodeVerification": "Desertcart item attributes identify HNF84 and UPC; check digit verified"
         },
         {
           "name": "Monster High Draculaura Doll And Fangtastic Rockin’ Food Truck Playset With 13+ Themed Accessoriescessories",
@@ -1044,7 +1056,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-monster-fest-clawdeen-wolf-doll-hxh80-en-ca",
           "photo": "https://shop.mattel.com/cdn/shop/files/bnyd9hfympyulh0nmka4.png?v=1717618865",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735230686",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.ebay.co.uk/p/9068182938",
+          "barcodeVerification": "eBay product record identifies Monster Fest Clawdeen HXH80 and GTIN; check digit verified"
         },
         {
           "name": "Monster High Monster Fest Cleo De Nile Fashion Doll With Festival Outfit, Band Poster And Accessories",
@@ -1052,7 +1068,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-monster-fest-cleo-de-nile-doll-hxh81-en-ca",
           "photo": "https://shop.mattel.com/cdn/shop/files/vw7yhxdlvzbvr79gy1km_f569fd4f-48be-4da4-a743-c1657dfd4140.png?v=1717619533",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735230372",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.rofu.de/p/monster-high-monster-fest-cleo-denile-puppe-hxh81-00261492",
+          "barcodeVerification": "Rofu lists manufacturer HXH81 and EAN; check digit verified"
         },
         {
           "name": "Monster High Monster Fest Frankie Stein Fashion Doll With Festival Outfit, Band Poster And Accessories",
@@ -1060,7 +1080,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-monster-fest-frankie-stein-doll-hxh79-en-ca",
           "photo": "https://shop.mattel.com/cdn/shop/files/yxyprlrmwvawrhyqqgk9_67bb7e0e-f47e-42c9-8b18-68624ee64bca.png?v=1717619529",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735230679",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.rofu.de/p/monster-high-monster-fest-frankie-stein-puppe-hxh79-00261490",
+          "barcodeVerification": "Rofu lists manufacturer HXH79 and EAN; check digit verified"
         },
         {
           "name": "Monster High Muñeca Spectra",
@@ -1068,7 +1092,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-muneca-spectra-hxh77-es-mx",
           "photo": "https://shop.mattel.com/cdn/shop/files/lkqj3eax75936kuvlyni.png?v=1719852018",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735230624",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.rofu.de/p/monster-high-spectra-vondergeist-puppe-hxh77-00261487",
+          "barcodeVerification": "Rofu lists HXH77 and EAN; check digit verified"
         },
         {
           "name": "Monster High Potions Mini Dolls, Surprise Character Figures With Water Reveal (Characters May Vary)",
