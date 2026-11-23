@@ -1,0 +1,658 @@
+{
+  "schemaVersion": 1,
+  "sourceType": "user-provided-retailer-wishlist",
+  "sourceMerchant": "Будинок іграшок",
+  "currency": "UAH",
+  "series": [
+    {
+      "name": "52TOYS · Sleep · Fairyland Elves",
+      "manufacturer": "52TOYS",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · 52TOYS",
+      "source": "https://bi.ua/ukr/product/kollekcionnaya-figurka-syurpriz-52toys-sleep-fairyland-elves-123930.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Sleep · Fairyland Elves",
+          "manufacturer": "52TOYS",
+          "figureNumber": "123930",
+          "retailerSku": "602437",
+          "catalogPosition": "123930",
+          "variantKey": "retailer:bi.ua:602437|sku:123930",
+          "sourceUrl": "https://bi.ua/ukr/product/kollekcionnaya-figurka-syurpriz-52toys-sleep-fairyland-elves-123930.html",
+          "photo": "",
+          "retailPriceUAH": 899,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "POP TOP · Letsvan Ziyuli · Розкішні самоцвіти",
+      "manufacturer": "POP TOP",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · POP TOP",
+      "source": "https://bi.ua/ukr/product/fgurka-syurpriz-pop-top-letsvan-ziyuli-rozkshn-samocvti-17zl-0204.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Letsvan Ziyuli · Розкішні самоцвіти",
+          "manufacturer": "POP TOP",
+          "figureNumber": "17ZL-0204",
+          "retailerSku": "617383",
+          "catalogPosition": "17ZL-0204",
+          "variantKey": "retailer:bi.ua:617383|sku:17ZL-0204",
+          "sourceUrl": "https://bi.ua/ukr/product/fgurka-syurpriz-pop-top-letsvan-ziyuli-rozkshn-samocvti-17zl-0204.html",
+          "photo": "",
+          "retailPriceUAH": 1095,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "POP TOP · Letsvan Ziyuli · Весілля",
+      "manufacturer": "POP TOP",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · POP TOP",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Letsvan Ziyuli · Весілля",
+          "manufacturer": "POP TOP",
+          "figureNumber": "17ZI-0205",
+          "retailerSku": "621267",
+          "catalogPosition": "17ZI-0205",
+          "variantKey": "retailer:bi.ua:621267|sku:17ZI-0205",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 899,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "10/10 Toys · Dodo Nami · Nightmare Core",
+      "manufacturer": "10/10 Toys",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · 10/10 Toys",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Dodo Nami · Nightmare Core",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "DD-PA00068",
+          "retailerSku": "629130",
+          "catalogPosition": "DD-PA00068",
+          "variantKey": "retailer:bi.ua:629130|sku:DD-PA00068",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 1299,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "10/10 Toys · Dodo Nami · Floating Mountain Sea",
+      "manufacturer": "10/10 Toys",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · 10/10 Toys",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Dodo Nami · Floating Mountain Sea",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "DD-PA00038",
+          "retailerSku": "629128",
+          "catalogPosition": "DD-PA00038",
+          "variantKey": "retailer:bi.ua:629128|sku:DD-PA00038",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 1299,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "52TOYS · Lilith · The Century of Mary",
+      "manufacturer": "52TOYS",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · 52TOYS",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Lilith · The Century of Mary",
+          "manufacturer": "52TOYS",
+          "figureNumber": "125449",
+          "retailerSku": "633163",
+          "catalogPosition": "125449",
+          "variantKey": "retailer:bi.ua:633163|sku:125449",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 899,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "POP TOP · Letsvan Ziyuli · Духовна сила",
+      "manufacturer": "POP TOP",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · POP TOP",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Letsvan Ziyuli · Духовна сила",
+          "manufacturer": "POP TOP",
+          "figureNumber": "17ZI-0207",
+          "retailerSku": "636065",
+          "catalogPosition": "17ZI-0207",
+          "variantKey": "retailer:bi.ua:636065|sku:17ZI-0207",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 1295,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "POP MART · Chaka · Luminous Reverie",
+      "manufacturer": "POP MART",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · POP MART",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Chaka · Luminous Reverie",
+          "manufacturer": "POP MART",
+          "figureNumber": "CLR-01",
+          "retailerSku": "633717",
+          "catalogPosition": "CLR-01",
+          "variantKey": "retailer:bi.ua:633717|sku:CLR-01",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 1499,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "10/10 Toys · TNT Anita · Mountains and Seas Have Spirits",
+      "manufacturer": "10/10 Toys",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · 10/10 Toys",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "TNT Anita · Mountains and Seas Have Spirits",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "ANM-AEXA",
+          "retailerSku": "637155",
+          "catalogPosition": "ANM-AEXA",
+          "variantKey": "retailer:bi.ua:637155|sku:ANM-AEXA",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 949,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "POP MART · SKULLPANDA × My Little Pony",
+      "manufacturer": "POP MART",
+      "fandomKey": "mlp",
+      "group": "🦄 My Little Pony · POP MART",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "SKULLPANDA × My Little Pony",
+          "manufacturer": "POP MART",
+          "figureNumber": "SMLP-01",
+          "retailerSku": "642101",
+          "catalogPosition": "SMLP-01",
+          "variantKey": "retailer:bi.ua:642101|sku:SMLP-01",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 2999,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "PMI · Naruto Shippuden",
+      "manufacturer": "PMI",
+      "fandomKey": "naruto",
+      "group": "🍥 Naruto · PMI",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Naruto Shippuden",
+          "manufacturer": "PMI",
+          "figureNumber": "NSH2005",
+          "retailerSku": "621800",
+          "catalogPosition": "NSH2005",
+          "variantKey": "retailer:bi.ua:621800|sku:NSH2005",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 79,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "POP TOP · Jotoys Miana · Замок сновидінь",
+      "manufacturer": "POP TOP",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · POP TOP",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Jotoys Miana · Замок сновидінь",
+          "manufacturer": "POP TOP",
+          "figureNumber": "JO-2025034",
+          "retailerSku": "626882",
+          "catalogPosition": "JO-2025034",
+          "variantKey": "retailer:bi.ua:626882|sku:JO-2025034",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 799,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "52TOYS · Sleep · Галерея мистецтва",
+      "manufacturer": "52TOYS",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · 52TOYS",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Sleep · Галерея мистецтва",
+          "manufacturer": "52TOYS",
+          "figureNumber": "24CB583SL02",
+          "retailerSku": "621258",
+          "catalogPosition": "24CB583SL02",
+          "variantKey": "retailer:bi.ua:621258|sku:24CB583SL02",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 799,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "10/10 Toys · Nono Sova · Nightmare Lullaby",
+      "manufacturer": "10/10 Toys",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · 10/10 Toys",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Nono Sova · Nightmare Lullaby",
+          "manufacturer": "10/10 Toys",
+          "figureNumber": "HWD51701",
+          "retailerSku": "637170",
+          "catalogPosition": "HWD51701",
+          "variantKey": "retailer:bi.ua:637170|sku:HWD51701",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 1699,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "52TOYS · Sleep · Sea Elves",
+      "manufacturer": "52TOYS",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · 52TOYS",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Sleep · Sea Elves",
+          "manufacturer": "52TOYS",
+          "figureNumber": "123929",
+          "retailerSku": "602436",
+          "catalogPosition": "123929",
+          "variantKey": "retailer:bi.ua:602436|sku:123929",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 649,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "52TOYS · LAPLLY · Song of the Tarot",
+      "manufacturer": "52TOYS",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · 52TOYS",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "LAPLLY · Song of the Tarot",
+          "manufacturer": "52TOYS",
+          "figureNumber": "124716",
+          "retailerSku": "618862",
+          "catalogPosition": "124716",
+          "variantKey": "retailer:bi.ua:618862|sku:124716",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 899,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "POP MART · SKULLPANDA · The Paradox",
+      "manufacturer": "POP MART",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · POP MART",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "SKULLPANDA · The Paradox",
+          "manufacturer": "POP MART",
+          "figureNumber": "SPTP-01",
+          "retailerSku": "627674",
+          "catalogPosition": "SPTP-01",
+          "variantKey": "retailer:bi.ua:627674|sku:SPTP-01",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 1199,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "52TOYS · Sleep Dreamland Elves · Life of Fantasies",
+      "manufacturer": "52TOYS",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · 52TOYS",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Sleep Dreamland Elves · Life of Fantasies",
+          "manufacturer": "52TOYS",
+          "figureNumber": "124717",
+          "retailerSku": "618863",
+          "catalogPosition": "124717",
+          "variantKey": "retailer:bi.ua:618863|sku:124717",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 999,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "52TOYS · Sleep · Dreamland Elves",
+      "manufacturer": "52TOYS",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · 52TOYS",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Sleep · Dreamland Elves",
+          "manufacturer": "52TOYS",
+          "figureNumber": "124718",
+          "retailerSku": "618864",
+          "catalogPosition": "124718",
+          "variantKey": "retailer:bi.ua:618864|sku:124718",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 749,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "POP MART · Inosoul · In the Still Room",
+      "manufacturer": "POP MART",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · POP MART",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Inosoul · In the Still Room",
+          "manufacturer": "POP MART",
+          "figureNumber": "ITSR-01",
+          "retailerSku": "627672",
+          "catalogPosition": "ITSR-01",
+          "variantKey": "retailer:bi.ua:627672|sku:ITSR-01",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 1499,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "Kids Team Dolls · Nagi Cub",
+      "manufacturer": "Kids Team Dolls",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · Kids Team Dolls",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Nagi Cub",
+          "manufacturer": "Kids Team Dolls",
+          "figureNumber": "MIR-1000",
+          "retailerSku": "623358",
+          "catalogPosition": "MIR-1000",
+          "variantKey": "retailer:bi.ua:623358|sku:MIR-1000",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 1799,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "POP MART · Azura · Warm Christmas",
+      "manufacturer": "POP MART",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · POP MART",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Azura · Warm Christmas",
+          "manufacturer": "POP MART",
+          "figureNumber": "AWCS-01",
+          "retailerSku": "627680",
+          "catalogPosition": "AWCS-01",
+          "variantKey": "retailer:bi.ua:627680|sku:AWCS-01",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 1199,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "POP MART · SKULLPANDA · Image of Reality",
+      "manufacturer": "POP MART",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · POP MART",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "SKULLPANDA · Image of Reality",
+          "manufacturer": "POP MART",
+          "figureNumber": "SPIR-01",
+          "retailerSku": "610033",
+          "catalogPosition": "SPIR-01",
+          "variantKey": "retailer:bi.ua:610033|sku:SPIR-01",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 1499,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "POP MART · SKULLPANDA · The Sound",
+      "manufacturer": "POP MART",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · POP MART",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "SKULLPANDA · The Sound",
+          "manufacturer": "POP MART",
+          "figureNumber": "SPSS-01",
+          "retailerSku": "599846",
+          "catalogPosition": "SPSS-01",
+          "variantKey": "retailer:bi.ua:599846|sku:SPSS-01",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 1499,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "POP MART · SKULLPANDA · The Ink Plum Blossom",
+      "manufacturer": "POP MART",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · POP MART",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "SKULLPANDA · The Ink Plum Blossom",
+          "manufacturer": "POP MART",
+          "figureNumber": "SPB-01",
+          "retailerSku": "598048",
+          "catalogPosition": "SPB-01",
+          "variantKey": "retailer:bi.ua:598048|sku:SPB-01",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 1499,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    },
+    {
+      "name": "52TOYS · Lilith · Monologue in the Land of OZ",
+      "manufacturer": "52TOYS",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · 52TOYS",
+      "source": "",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "items": [
+        {
+          "name": "Lilith · Monologue in the Land of OZ",
+          "manufacturer": "52TOYS",
+          "figureNumber": "124715",
+          "retailerSku": "618861",
+          "catalogPosition": "124715",
+          "variantKey": "retailer:bi.ua:618861|sku:124715",
+          "sourceUrl": "",
+          "photo": "",
+          "retailPriceUAH": 539,
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        }
+      ]
+    }
+  ]
+}
