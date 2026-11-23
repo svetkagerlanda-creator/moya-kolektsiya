@@ -53,7 +53,9 @@ def main():
     data=json.loads(FILE.read_text(encoding="utf8"))
     records=[]; updated=0
     for series in data.get("series",[]):
-        if series.get("manufacturer") not in {"POP MART","52TOYS"} or not series.get("verifiedFigureCount"):continue
+        # 52TOYS Shopify alt labels may identify a figure while the linked media
+        # depicts a sealed box: do not publish potentially wrong figure images.
+        if series.get("manufacturer")!="POP MART" or not series.get("verifiedFigureCount"):continue
         source=series["source"]; candidates={}
         error=""
         try:candidates=collect(source,series["manufacturer"])
