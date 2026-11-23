@@ -9,6 +9,7 @@ photos:/\b(photo|photos|image|images|thumbnail|thumbnails|picture|pictures|galle
 barcodes:/\b(barcode|barcodes|upc|ean|gtin|sku|scan)\b/i,
 mechanics:/\b(fix|feat|feature|ui:|refactor|profile|avatar|login|logout|auth|account|chats?|messages?|moderation|navigate|navigation|pwa|layout|button|wishlist|sharing|share|search|keyboard|picker|upload|status|sync|cloud|permissions?|privacy|notification|update|improve|page|tabs?|requests?|requests|route|settings)\b/i};
 function category(message){
+ if(featureNotes.some(([pattern])=>pattern.test(message)))return {section:'features',kind:'feature',label:'Функції та виправлення'};
  const m=message.toLowerCase();
  if(/^(chore|release|bump|deploy|build|docs|test)(\b|\()/i.test(m)&&!/\b(add|fill|expand|complete|catalog)\b/i.test(m))return null;
  const explicit=/^(?:catalog:|data:)/i.test(m);
