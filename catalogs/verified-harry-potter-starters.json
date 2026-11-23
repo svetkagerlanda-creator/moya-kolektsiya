@@ -2272,12 +2272,12 @@
       "count": 2,
       "items": [
         {
-          "name": "The Goblet of Fire Figures",
+          "name": "Knight Bus Adventure",
           "manufacturer": "LEGO",
           "figureNumber": "76446",
-          "sourceUrl": "https://www.lego.com/en-ie/themes/harry-potter",
+          "sourceUrl": "https://www.lego.com/en-us/product/knight-bus-adventure-76446",
           "photo": "",
-          "description": "Listed in official LEGO Harry Potter catalog. Individual product photo pending verification."
+          "description": "Verified LEGO Harry Potter Knight Bus Adventure set. Corrected previously mismatched catalog name; exact image and EAN/UPC pending."
         },
         {
           "name": "The Monster Book of Monsters",
@@ -2399,7 +2399,7 @@
       "source": "https://www.lego.com/cdn/cs/set/assets/blt065acb6313d90a13/2HY25_TW.pdf",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 3,
+      "count": 4,
       "items": [
         {
           "name": "Hedwig at 4 Privet Drive",
@@ -2424,6 +2424,14 @@
           "sourceUrl": "https://www.lego.com/cdn/cs/set/assets/blt065acb6313d90a13/2HY25_TW.pdf",
           "photo": "",
           "description": "Product and set number listed in LEGO official catalog; individual image URL not yet verified."
+        },
+        {
+          "name": "Fawkes: Dumbledore's Phoenix",
+          "manufacturer": "LEGO",
+          "figureNumber": "76448",
+          "sourceUrl": "https://www.lego.com/en-us/product/fawkes-dumbledores-phoenix-76448",
+          "photo": "",
+          "description": "Verified official LEGO 2025 product. Exact product image and EAN/UPC pending."
         }
       ]
     },
