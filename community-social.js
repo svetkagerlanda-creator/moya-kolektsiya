@@ -1,6 +1,20 @@
 (()=>{
 const BASE='https://nihheolmwvkgtvtmfzsv.supabase.co',KEY='sb_publishable_M_mIhlp0ZqintLb0ONy8BQ_SzEBCAT0';
 const state={id:'',profile:null,people:[],posts:[],likes:[],comments:[],follows:[],fandoms:[],fandomFollows:[],collectionSummaries:[],followList:null,returnTo:null,tab:'profile',feedMode:'all',person:null,editing:false,posting:false,editingPostId:null,acquisitionDraft:null,loaded:false,loading:false,error:'',refresh:null};
+const ACCOUNT_TABS=new Set(['profile','feed','people','fandoms','chats']);
+const viewStorageKey=userId=>'collector-account-view-v1:'+userId;
+function restoreAccountView(userId){
+ try{
+  const raw=sessionStorage.getItem(viewStorageKey(userId));
+  if(!raw)return {};
+  const saved=JSON.parse(raw);
+  return {tab:ACCOUNT_TABS.has(saved.tab)?saved.tab:'profile',feedMode:saved.feedMode==='following'?'following':'all',person:typeof saved.person==='string'&&/^[0-9a-f-]{36}$/i.test(saved.person)?saved.person:null,returnTo:saved.returnTo==='chats'?'chats':null};
+ }catch{return {}}
+}
+function rememberAccountView(){
+ if(!state.id)return;
+ try{sessionStorage.setItem(viewStorageKey(state.id),JSON.stringify({tab:state.tab,feedMode:state.feedMode,person:state.person,returnTo:state.returnTo}))}catch{}
+}
 const escape=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const getId=s=>{try{return JSON.parse(atob(s.access_token.split('.')[1].replace(/-/g,'+').replace(/_/g,'/'))).sub}catch{return null}};
 const media=p=>p&&/^[0-9a-f-]{36}\/(?:avatars|posts|covers)\/[A-Za-z0-9._-]+$/.test(p)?BASE+'/storage/v1/object/public/collector-media/'+p:null;
@@ -151,7 +165,9 @@ function feed(){
 }
 function render(session){
  const id=getId(session);if(!id)return '<div class="banner">Сеанс завершився. Увійди повторно.</div>';
- if(state.id!==id)Object.assign(state,{id,profile:null,people:[],posts:[],likes:[],comments:[],follows:[],fandoms:[],fandomFollows:[],collectionSummaries:[],tab:'profile',feedMode:'all',person:null,loaded:false,loading:false,editing:false,editingPostId:null,posting:!!state.acquisitionDraft});
+ if(state.id!==id)Object.assign(state,{id,profile:null,people:[],posts:[],likes:[],comments:[],follows:[],fandoms:[],fandomFollows:[],collectionSummaries:[],tab:'profile',feedMode:'all',person:null,loaded:false,loading:false,editing:false,editingPostId:null,posting:!!state.acquisitionDraft,...restoreAccountView(id)});
+ if(state.person&&state.loaded&&!state.people.some(p=>p.id===state.person))state.person=null;
+ rememberAccountView();
  const p=state.person?person(state.person):state.profile;
  window.CollectorChats?.setup(id,state.people);
  const unreadDm=window.CollectorChats?.unreadCount?.()||0;
