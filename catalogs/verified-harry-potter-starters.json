@@ -4168,8 +4168,12 @@
           "manufacturer": "Funko",
           "figureNumber": "69703",
           "sourceUrl": "https://funko.com/cy/pop-movie-posters-harry-potter-and-the-sorcerers-stone/69703.html",
-          "photo": "",
-          "description": "Official Movie Poster display with attached figures."
+          "photo": "https://wondertoys.nl/37425-thickbox_default/funko-pop-14-harry-potter-and-the-sorcerer-s-stone-movie-poster.jpg",
+          "description": "Official Movie Poster display with attached figures.",
+          "photoSourceUrl": "https://wondertoys.nl/nl/funko/16343-funko-pop-14-harry-potter-and-the-sorcerer-s-stone-movie-poster-889698697033.html",
+          "photoCredit": "Exact product photo from identified retailer/collector listing",
+          "photoStatus": "visually-identified-exact-sku-from-image-search",
+          "photoVerificationNote": "Individual product imagery matches item number, figure variant and visual appearance; external CDN display not individually HTTP-tested."
         }
       ]
     },
@@ -4189,8 +4193,12 @@
           "figureNumber": "5858",
           "boxNumber": "1",
           "sourceUrl": "https://funko.com/gr/pop-harry-potter/5858.html",
-          "photo": "",
-          "description": "Confirmed by the official Funko product listing; individual photo pending verification."
+          "photo": "https://deepsanddeeps.com/media/catalog/product/cache/3/image/750x750/9df78eab33525d08d6e5fb8d27136e95/d/e/deeps-and-deeps-funko-pop-movies-harry-potter-figura-harry-potter-foto-completa-5858.jpg",
+          "description": "Confirmed by the official Funko product listing; individual photo pending verification.",
+          "photoSourceUrl": "https://deepsanddeeps.com/es/funko-pop-5858-movies-harry-potter-harry-potter/",
+          "photoCredit": "Exact product photo from identified retailer/collector listing",
+          "photoStatus": "visually-identified-exact-sku-from-image-search",
+          "photoVerificationNote": "Individual product imagery matches item number, figure variant and visual appearance; external CDN display not individually HTTP-tested."
         }
       ]
     },
@@ -5152,27 +5160,39 @@
           "manufacturer": "Funko",
           "figureNumber": "95209",
           "sourceUrl": "https://funko.com/pop-harry-potter-with-patronus/95209.html",
-          "photo": "",
+          "photo": "https://pops.today/images/POP_HARRY_POTTER/Harry%2BPotter%2B205%2B1_500x500.webp",
           "description": "25th Anniversary retailer-exclusive POP! Harry Potter with stag Patronus. Box #205. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending.",
-          "boxNumber": "205"
+          "boxNumber": "205",
+          "photoSourceUrl": "https://pops.today/harry-potter/205-harry-potter-with-patronus",
+          "photoCredit": "Exact product photo from identified retailer/collector listing",
+          "photoStatus": "visually-identified-exact-sku-from-image-search",
+          "photoVerificationNote": "Individual product imagery matches item number, figure variant and visual appearance; external CDN display not individually HTTP-tested."
         },
         {
           "name": "Albus Dumbledore with Patronus (Phoenix)",
           "manufacturer": "Funko",
           "figureNumber": "95210",
           "sourceUrl": "https://www.funko.com/im/pop-albus-dumbledore-with-patronus/95210.html",
-          "photo": "",
+          "photo": "https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/ca8a2e15ced6481b94d0e20d8e3bc47a_Original.jpg",
           "description": "25th Anniversary retailer-exclusive POP! Albus Dumbledore with phoenix Patronus. Box #206. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending.",
-          "boxNumber": "206"
+          "boxNumber": "206",
+          "photoSourceUrl": "https://www.ebgames.com.au/product/toys-and-collectibles/338725-harry-potter-dumbledore-with-patronus-pop-vinyl-figure",
+          "photoCredit": "Exact product photo from identified retailer/collector listing",
+          "photoStatus": "visually-identified-exact-sku-from-image-search",
+          "photoVerificationNote": "Individual product imagery matches item number, figure variant and visual appearance; external CDN display not individually HTTP-tested."
         },
         {
           "name": "Severus Snape with Patronus (Doe)",
           "manufacturer": "Funko",
           "figureNumber": "95211",
           "sourceUrl": "https://funko.com/pop-severus-snape-with-patronus-doe/95211.html",
-          "photo": "",
+          "photo": "https://pops.today/images/POP_HARRY_POTTER/Harry%2BPotter%2B206_500x500.webp",
           "description": "25th Anniversary retailer-exclusive POP! Severus Snape with doe Patronus. Box #207. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending.",
-          "boxNumber": "207"
+          "boxNumber": "207",
+          "photoSourceUrl": "https://pops.today/harry-potter/206-severus-snape-with-patronus-doe",
+          "photoCredit": "Exact product photo from identified retailer/collector listing",
+          "photoStatus": "visually-identified-exact-sku-from-image-search",
+          "photoVerificationNote": "Individual product imagery matches item number, figure variant and visual appearance; external CDN display not individually HTTP-tested."
         }
       ]
     },
@@ -5191,8 +5211,12 @@
           "manufacturer": "Funko",
           "figureNumber": "46994",
           "sourceUrl": "https://funko.com/pop-patronus-harry-potter/46994.html",
-          "photo": "",
-          "description": "Standalone POP! stag Patronus figure; distinct from Harry Potter casting Patronus. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending."
+          "photo": "https://geekplus.com.br/cdn/shop/files/funko-pop-patronus-104-patrono-harry-harry-potter-235022.jpg?v=1749916375",
+          "description": "Standalone POP! stag Patronus figure; distinct from Harry Potter casting Patronus. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending.",
+          "photoSourceUrl": "https://geekplus.com.br/products/funko-pop-patronus-104-patrono-harry-harry-potter",
+          "photoCredit": "Exact product photo from identified retailer/collector listing",
+          "photoStatus": "visually-identified-exact-sku-from-image-search",
+          "photoVerificationNote": "Individual product imagery matches item number, figure variant and visual appearance; external CDN display not individually HTTP-tested."
         },
         {
           "name": "Patronus Albus Dumbledore (Phoenix)",
