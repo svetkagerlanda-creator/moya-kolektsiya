@@ -23,7 +23,11 @@
           "sourceUrl": "https://funko.com/pop-amity-blight/83741.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwe127f9a5/images/funko/upload/83741_TheOwlHouse_Amity_POPDisney_GLAM-WEB.png",
           "photoCredit": "Funko · офіційне фото конкретного варіанта",
-          "description": "Funko POP! Disney · The Owl House; номер коробки 1549"
+          "description": "Funko POP! Disney · The Owl House; номер коробки 1549",
+          "upc": "889698837415",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.efantasy.gr/en/products/funko-pop/328424-figure-funko-pop-disney-the-owl-house-amity-1549",
+          "barcodeVerification": "Retailer product listing UPC for exact standard edition"
         },
         {
           "name": "Eda the Owl Lady",
@@ -36,7 +40,11 @@
           "sourceUrl": "https://funko.com/pop-eda-the-owl-lady/83742.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw757393a7/images/funko/upload/83742_TheOwlHouse_Eda_POPDisney_GLAM-WEB.png",
           "photoCredit": "Funko · офіційне фото конкретного варіанта",
-          "description": "Funko POP! Disney · The Owl House; номер коробки 1550"
+          "description": "Funko POP! Disney · The Owl House; номер коробки 1550",
+          "upc": "889698837422",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-disney-the-owl-house-eda-4.15-in-vinyl-figure/409972.html",
+          "barcodeVerification": "Retailer product listing UPC for exact standard edition"
         },
         {
           "name": "King Clawthorne",
@@ -49,7 +57,11 @@
           "sourceUrl": "https://funko.com/pop-king-clawthorne/83743.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw25996f92/images/funko/upload/83743a_TheOwlHouse_King_POPDisney_GLAM-WEB.png",
           "photoCredit": "Funko · офіційне фото конкретного варіанта",
-          "description": "Funko POP! Disney · The Owl House; номер коробки 1551"
+          "description": "Funko POP! Disney · The Owl House; номер коробки 1551",
+          "upc": "889698837439",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/disneys-the-owl-house-king-funko-pop-vinyl-figure-1551/fu83743",
+          "barcodeVerification": "Retailer product listing UPC for exact standard edition"
         },
         {
           "name": "King Clawthorne — Crown (Chase)",
@@ -75,7 +87,11 @@
           "sourceUrl": "https://funko.com/pop-luz-noceda/83744.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw985a3f36/images/funko/upload/83744_TheOwlHouse_Luz_POPDisney_GLAM-WEB.png",
           "photoCredit": "Funko · офіційне фото конкретного варіанта",
-          "description": "Funko POP! Disney · The Owl House; номер коробки 1552"
+          "description": "Funko POP! Disney · The Owl House; номер коробки 1552",
+          "upc": "889698837446",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.efantasy.gr/el/%CF%80%CF%81%CE%BF%CF%8A%CF%8C%CE%BD%CF%84%CE%B1/funko-pop/328428-%CF%86%CE%B9%CE%B3%CE%BF%CF%8D%CF%81%CE%B1-funko-pop-disney-the-owl-house-luz-1552",
+          "barcodeVerification": "Retailer product listing UPC for exact standard edition"
         }
       ]
     }
