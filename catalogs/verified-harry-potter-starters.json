@@ -2877,6 +2877,121 @@
           "description": "Official LEGO product page verified. Exact product photo and EAN/UPC not yet confirmed."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! 2-Packs",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://www.funko.com/gg/bitty-pop-rubeus-hagrid-dobby-2-pack/94782.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Rubeus Hagrid & Dobby 2-Pack",
+          "manufacturer": "Funko",
+          "figureNumber": "94782",
+          "sourceUrl": "https://www.funko.com/gg/bitty-pop-rubeus-hagrid-dobby-2-pack/94782.html",
+          "photo": "",
+          "description": "Bitty POP! 2-Pack with Rubeus Hagrid and Dobby. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending."
+        },
+        {
+          "name": "Albus Dumbledore & Lord Voldemort 2-Pack",
+          "manufacturer": "Funko",
+          "figureNumber": "94783",
+          "sourceUrl": "https://www.funko.com/gg/bitty-pop-albus-dumbledore-lord-voldemort-2-pack/94783.html",
+          "photo": "",
+          "description": "Bitty POP! 2-Pack with Albus Dumbledore and Lord Voldemort. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · POP! 25th Anniversary Patronus Figures",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/pop-harry-potter-with-patronus/95209.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "items": [
+        {
+          "name": "Harry Potter with Patronus (Stag)",
+          "manufacturer": "Funko",
+          "figureNumber": "95209",
+          "sourceUrl": "https://funko.com/pop-harry-potter-with-patronus/95209.html",
+          "photo": "",
+          "description": "25th Anniversary retailer-exclusive POP! Harry Potter with stag Patronus. Box #205. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending.",
+          "boxNumber": "205"
+        },
+        {
+          "name": "Albus Dumbledore with Patronus (Phoenix)",
+          "manufacturer": "Funko",
+          "figureNumber": "95210",
+          "sourceUrl": "https://www.funko.com/im/pop-albus-dumbledore-with-patronus/95210.html",
+          "photo": "",
+          "description": "25th Anniversary retailer-exclusive POP! Albus Dumbledore with phoenix Patronus. Box #206. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending.",
+          "boxNumber": "206"
+        },
+        {
+          "name": "Severus Snape with Patronus (Doe)",
+          "manufacturer": "Funko",
+          "figureNumber": "95211",
+          "sourceUrl": "https://funko.com/pop-severus-snape-with-patronus-doe/95211.html",
+          "photo": "",
+          "description": "25th Anniversary retailer-exclusive POP! Severus Snape with doe Patronus. Box #207. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending.",
+          "boxNumber": "207"
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · POP! Patronus Creatures",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/pop-patronus-harry-potter/46994.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Patronus Harry Potter (Stag)",
+          "manufacturer": "Funko",
+          "figureNumber": "46994",
+          "sourceUrl": "https://funko.com/pop-patronus-harry-potter/46994.html",
+          "photo": "",
+          "description": "Standalone POP! stag Patronus figure; distinct from Harry Potter casting Patronus. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending."
+        },
+        {
+          "name": "Patronus Albus Dumbledore (Phoenix)",
+          "manufacturer": "Funko",
+          "figureNumber": "53847",
+          "sourceUrl": "https://funko.com/pop-patronus-albus-dumbledore/53847.html",
+          "photo": "",
+          "description": "Standalone POP! phoenix Patronus figure; distinct from the 25th Anniversary character figure. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · 25th Anniversary Mystery Keychains",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://www.funko.com/gb/mystery-pop-keychain-harry-potter-25th-anniversary/93269.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Mystery POP! Keychain Harry Potter (25th Anniversary) — Sealed Pack",
+          "manufacturer": "Funko",
+          "figureNumber": "93269",
+          "sourceUrl": "https://www.funko.com/gb/mystery-pop-keychain-harry-potter-25th-anniversary/93269.html",
+          "photo": "",
+          "description": "Sealed blind-pack collectible; no unverified per-character variants have been added. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending."
+        }
+      ]
     }
   ]
 }
