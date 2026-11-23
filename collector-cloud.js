@@ -88,9 +88,11 @@ async function reconcileDevices(){
   // Before touching local data, create a recoverable backup in this account.
   const local=window.CollectorLocal.read();
   let ids=new Set(local.items.map(x=>String(x.id))),folders=new Set(local.folders.map(x=>String(x.id)));
+   const tombstonedFolders=new Set(Object.keys(local.deletedFolders||{}));
+   const tombstonedItems=new Set(Object.keys(local.deletedItems||{}));
   let dates=new Map(local.items.map(x=>[String(x.id),Date.parse(x.updated||'')||0]));
   for(const {snapshot} of remote){
-   for(const f of snapshot.data.folders)if(!folders.has(String(f.id))){needsBackup=true;folders.add(String(f.id))}
+   for(const f of snapshot.data.folders)if(!folders.has(String(f.id))&&!tombstonedFolders.has(String(f.id))){needsBackup=true;folders.add(String(f.id))}
    for(const item of snapshot.data.items){
     const key=String(item.id),stamp=Date.parse(item.updated||'')||0;
     if(!ids.has(key)){needsBackup=true;ids.add(key);dates.set(key,stamp)}
@@ -171,7 +173,7 @@ function render(){
  return '<section class="card collector-cloud"><h2>☁️ Моя хмара</h2>'
  +'<p class="muted">Приватні резервні копії для кожного пристрою. Вони містять папки, предмети та особисті фото, але ніколи не публікуються у стрічці.</p>'
  +'<label class="cloud-switch"><input type="checkbox" id="cloudAuto" '+(state.auto?'checked':'')+'> Автоматично об’єднувати дані з інших пристроїв і зберігати в хмарі</label>'
- +'<p class="muted">Увійди в один акаунт на телефоні та комп’ютері. Натисни «Синхронізувати зараз» на кожному пристрої. Для автоматичного обміну увімкни перемикач на обох. Перед об’єднанням створюється страховочна копія, а картки з новішими датами оновлення мають пріоритет. Видалення на одному пристрої автоматично не видаляє записи на іншому.</p>'
+ +'<p class="muted">Увійди в один акаунт на телефоні та комп’ютері. Натисни «Синхронізувати зараз» на кожному пристрої. Для автоматичного обміну увімкни перемикач на обох. Перед об’єднанням створюється страховочна копія, а картки з новішими датами оновлення мають пріоритет. Видалені папки та їхні предмети більше не відновлюються зі старих хмарних копій. Видалення пошириться на інші пристрої під час наступної синхронізації.</p>'
  +'<div class="row"><button class="btn" id="cloudSync" type="button" '+(state.busy?'disabled':'')+'>↻ Синхронізувати зараз</button><button class="alt" id="cloudUpload" type="button" '+(state.busy?'disabled':'')+'>↑ Зберегти в хмарі</button><button class="alt" id="cloudList" type="button" '+(state.busy?'disabled':'')+'>↓ Мої хмарні копії</button></div>'
  +(state.lastUpload?'<p class="muted">Остання копія цього пристрою: '+esc(new Date(state.lastUpload).toLocaleString('uk-UA'))+'</p>':'')
  +(state.notice?'<div class="banner">'+esc(state.notice)+'</div>':'')
