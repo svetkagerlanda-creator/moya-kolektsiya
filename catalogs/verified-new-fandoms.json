@@ -3626,6 +3626,847 @@
           "description": "Фізичний мерч Winx із підтвердженим EAN. Два варіанти оформлення, код асортименту."
         }
       ]
+    },
+    {
+      "name": "Monster High · Core Dolls 2026",
+      "source": "https://www.entertainmentearth.com/product/monster-high-skelita-calaveras-2026-doll/mtjhk34",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 4,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Skelita Calaveras 2026",
+          "manufacturer": "Mattel",
+          "figureNumber": "JHK34",
+          "variantKey": "monsterhigh:JHK34:194735333561",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-skelita-calaveras-2026-doll/mtjhk34",
+          "photo": "",
+          "upc": "194735333561",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-skelita-calaveras-2026-doll/mtjhk34",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        },
+        {
+          "name": "Clawdeen Wolf 2026",
+          "manufacturer": "Mattel",
+          "figureNumber": "JHK30",
+          "variantKey": "monsterhigh:JHK30:194735333592",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-clawdeen-wolf-2026-doll/mtjhk30",
+          "photo": "",
+          "upc": "194735333592",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-clawdeen-wolf-2026-doll/mtjhk30",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        },
+        {
+          "name": "Draculaura 2026",
+          "manufacturer": "Mattel",
+          "figureNumber": "JHK29",
+          "variantKey": "monsterhigh:JHK29:194735333721",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-draculaura-2026-doll/mtjhk29",
+          "photo": "",
+          "upc": "194735333721",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-draculaura-2026-doll/mtjhk29",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        },
+        {
+          "name": "Jinafire Long 2026",
+          "manufacturer": "Mattel",
+          "figureNumber": "HYV58",
+          "variantKey": "monsterhigh:HYV58:194735256310",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-jinafire-long-2026-doll/mthyv58",
+          "photo": "",
+          "upc": "194735256310",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-jinafire-long-2026-doll/mthyv58",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Upcoming Releases",
+      "source": "https://www.entertainmentearth.com/product/monster-high-twyla-2027-doll/mtjmb82",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Twyla 2027 (pre-release listing)",
+          "manufacturer": "Mattel",
+          "figureNumber": "JMB82",
+          "variantKey": "monsterhigh:JMB82:194735373017",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-twyla-2027-doll/mtjmb82",
+          "photo": "",
+          "upc": "194735373017",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-twyla-2027-doll/mtjmb82",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Carnival Frights",
+      "source": "https://www.entertainmentearth.com/product/monster-high-carnival-frights-draculaura-doll/mtjpd80",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Carnival Frights Draculaura",
+          "manufacturer": "Mattel",
+          "figureNumber": "JPD80",
+          "variantKey": "monsterhigh:JPD80:194735406203",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-carnival-frights-draculaura-doll/mtjpd80",
+          "photo": "",
+          "upc": "194735406203",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-carnival-frights-draculaura-doll/mtjpd80",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        },
+        {
+          "name": "Carnival Frights Elissabat",
+          "manufacturer": "Mattel",
+          "figureNumber": "JPD82",
+          "variantKey": "monsterhigh:JPD82:194735406166",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-carnival-frights-elissabat-doll/mtjpd82",
+          "photo": "",
+          "upc": "194735406166",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-carnival-frights-elissabat-doll/mtjpd82",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Self-Care Secrets",
+      "source": "https://www.entertainmentearth.com/product/monster-high-selfcare-secrets-wave-3-lagoona-blue-doll/mtjpd89",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Self-Care Secrets Wave 3 Lagoona Blue",
+          "manufacturer": "Mattel",
+          "figureNumber": "JPD89",
+          "variantKey": "monsterhigh:JPD89:194735406135",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-selfcare-secrets-wave-3-lagoona-blue-doll/mtjpd89",
+          "photo": "",
+          "upc": "194735406135",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-selfcare-secrets-wave-3-lagoona-blue-doll/mtjpd89",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        },
+        {
+          "name": "Self-Care Secrets Wave 2 Spectra Vondergeist",
+          "manufacturer": "Mattel",
+          "figureNumber": "JHK46",
+          "variantKey": "monsterhigh:JHK46:194735333769",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-selfcare-secrets-wave-2-spectra-vondergeist-doll/mtjhk46",
+          "photo": "",
+          "upc": "194735333769",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-selfcare-secrets-wave-2-spectra-vondergeist-doll/mtjhk46",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Wednesday",
+      "source": "https://www.entertainmentearth.com/product/monster-high-wednesday-series-wednesday-addams-doll/mtjnj91",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Wednesday Addams (Wednesday Series)",
+          "manufacturer": "Mattel",
+          "figureNumber": "JNJ91",
+          "variantKey": "monsterhigh:JNJ91:194735396924",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-wednesday-series-wednesday-addams-doll/mtjnj91",
+          "photo": "",
+          "upc": "194735396924",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-wednesday-series-wednesday-addams-doll/mtjnj91",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Skulltimate Secrets · Hauntlywood",
+      "source": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-hauntlywood-mysteries-clawdeen-doll/mtjbg80",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Skulltimate Secrets Hauntlywood Clawdeen",
+          "manufacturer": "Mattel",
+          "figureNumber": "JBG80",
+          "variantKey": "monsterhigh:JBG80:194735259847",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-hauntlywood-mysteries-clawdeen-doll/mtjbg80",
+          "photo": "",
+          "upc": "194735259847",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-hauntlywood-mysteries-clawdeen-doll/mtjbg80",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        },
+        {
+          "name": "Skulltimate Secrets Hauntlywood Frankie Stein",
+          "manufacturer": "Mattel",
+          "figureNumber": "JBG81",
+          "variantKey": "monsterhigh:JBG81:194735259953",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-hauntlywood-mysteries-frankie-stein-doll/mtjbg81",
+          "photo": "",
+          "upc": "194735259953",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-hauntlywood-mysteries-frankie-stein-doll/mtjbg81",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Skulltimate Secrets · Garden Mysteries",
+      "source": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-garden-mysteries-venus-mcflytrap/mthyt75",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Skulltimate Secrets Garden Mysteries Venus",
+          "manufacturer": "Mattel",
+          "figureNumber": "HYT75",
+          "variantKey": "monsterhigh:HYT75:194735255405",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-garden-mysteries-venus-mcflytrap/mthyt75",
+          "photo": "",
+          "upc": "194735255405",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-garden-mysteries-venus-mcflytrap/mthyt75",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Skulltimate Secrets · Gore-geous Oasis",
+      "source": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-draculaura-oasis-doll/mtjdr50",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Skulltimate Secrets Gore-geous Oasis Draculaura",
+          "manufacturer": "Mattel",
+          "figureNumber": "JDR50",
+          "variantKey": "monsterhigh:JDR50:194735289042",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-draculaura-oasis-doll/mtjdr50",
+          "photo": "",
+          "upc": "194735289042",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-draculaura-oasis-doll/mtjdr50",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Skulltimate Secrets · Monster Mysteries",
+      "source": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-monster-mysteries-draculaura-doll/mthxh84",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Skulltimate Secrets Monster Mysteries Draculaura",
+          "manufacturer": "Mattel",
+          "figureNumber": "HXH84",
+          "variantKey": "monsterhigh:HXH84:194735230495",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-monster-mysteries-draculaura-doll/mthxh84",
+          "photo": "",
+          "upc": "194735230495",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-monster-mysteries-draculaura-doll/mthxh84",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Skulltimate Secrets · Fearidescent",
+      "source": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-fearidescent-frankie-stein-doll/mthnf75",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Skulltimate Secrets Fearidescent Frankie Stein",
+          "manufacturer": "Mattel",
+          "figureNumber": "HNF75",
+          "variantKey": "monsterhigh:HNF75:194735139224",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-fearidescent-frankie-stein-doll/mthnf75",
+          "photo": "",
+          "upc": "194735139224",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-fearidescent-frankie-stein-doll/mthnf75",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Skulltimate Secrets · Neon Frights",
+      "source": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-neon-frights-twyla-doll/mthnf82",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Skulltimate Secrets Neon Frights Twyla",
+          "manufacturer": "Mattel",
+          "figureNumber": "HNF82",
+          "variantKey": "monsterhigh:HNF82:194735139170",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-neon-frights-twyla-doll/mthnf82",
+          "photo": "",
+          "upc": "194735139170",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-neon-frights-twyla-doll/mthnf82",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        },
+        {
+          "name": "Skulltimate Secrets Neon Frights Toralei",
+          "manufacturer": "Mattel",
+          "figureNumber": "HNF80",
+          "variantKey": "monsterhigh:HNF80:194735139491",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-neon-frights-toralei-doll/mthnf80",
+          "photo": "",
+          "upc": "194735139491",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-neon-frights-toralei-doll/mthnf80",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Skulltimate Secrets · Series 1",
+      "source": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-cleo-doll/mthky63",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Skulltimate Secrets Series 1 Cleo de Nile",
+          "manufacturer": "Mattel",
+          "figureNumber": "HKY63",
+          "variantKey": "monsterhigh:HKY63:194735110711",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-cleo-doll/mthky63",
+          "photo": "",
+          "upc": "194735110711",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-secrets-cleo-doll/mthky63",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Pet Keychains",
+      "source": "https://www.entertainmentearth.com/product/monster-high-pet-key-chain-mix-1-case-of-9/mtjbf19a",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Monster High Pet Keychain Mix 1 — sealed case of 9",
+          "manufacturer": "Mattel",
+          "figureNumber": "JBF19A",
+          "variantKey": "monsterhigh:JBF19A:194735258352",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-pet-key-chain-mix-1-case-of-9/mtjbf19a",
+          "photo": "",
+          "upc": "194735258352",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-pet-key-chain-mix-1-case-of-9/mtjbf19a",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Playsets",
+      "source": "https://www.entertainmentearth.com/product/monster-high-skulltimate-science-class-frankie-stein-doll-and-playset/mtdnx37",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Skulltimate Science Class Frankie Stein Playset",
+          "manufacturer": "Mattel",
+          "figureNumber": "DNX37",
+          "variantKey": "monsterhigh:DNX37:887961310153",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-science-class-frankie-stein-doll-and-playset/mtdnx37",
+          "photo": "",
+          "upc": "887961310153",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-skulltimate-science-class-frankie-stein-doll-and-playset/mtdnx37",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        },
+        {
+          "name": "Die-Ner and Draculaura Playset",
+          "manufacturer": "Mattel",
+          "figureNumber": "Y7719",
+          "variantKey": "monsterhigh:Y7719:746775244088",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-diener-and-draculaura-playset-and-doll/mty7719",
+          "photo": "",
+          "upc": "746775244088",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-diener-and-draculaura-playset-and-doll/mty7719",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Collector",
+      "source": "https://www.entertainmentearth.com/product/MTGNP22",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Pennywise Collector Doll",
+          "manufacturer": "Mattel",
+          "figureNumber": "GNP22",
+          "variantKey": "monsterhigh:GNP22:887961875300",
+          "sourceUrl": "https://www.entertainmentearth.com/product/MTGNP22",
+          "photo": "",
+          "upc": "887961875300",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/MTGNP22",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Creeproductions",
+      "source": "https://www.entertainmentearth.com/product/monster-high-booriginal-creeproduction-operetta-doll-not-mint/nmmthyv90r",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Boo-riginal Creeproduction Operetta",
+          "manufacturer": "Mattel",
+          "figureNumber": "HYV90",
+          "variantKey": "monsterhigh:HYV90:194735256600",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-booriginal-creeproduction-operetta-doll-not-mint/nmmthyv90r",
+          "photo": "",
+          "upc": "194735256600",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-booriginal-creeproduction-operetta-doll-not-mint/nmmthyv90r",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Boo York",
+      "source": "https://www.entertainmentearth.com/product/monster-high-boo-york-nefera-de-nile-doll-not-mint/nmmtcjf11062",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Boo York Nefera de Nile",
+          "manufacturer": "Mattel",
+          "figureNumber": "CJF11",
+          "variantKey": "monsterhigh:CJF11:887961110623",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-boo-york-nefera-de-nile-doll-not-mint/nmmtcjf11062",
+          "photo": "",
+          "upc": "887961110623",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-boo-york-nefera-de-nile-doll-not-mint/nmmtcjf11062",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Welcome to Monster High",
+      "source": "https://www.entertainmentearth.com/product/monster-high-welcome-to-monster-high-singing-popstar-ari-hauntington-doll/mtdnx66",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Welcome to Monster High Ari Hauntington",
+          "manufacturer": "Mattel",
+          "figureNumber": "DNX66",
+          "variantKey": "monsterhigh:DNX66:887961310887",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-welcome-to-monster-high-singing-popstar-ari-hauntington-doll/mtdnx66",
+          "photo": "",
+          "upc": "887961310887",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-welcome-to-monster-high-singing-popstar-ari-hauntington-doll/mtdnx66",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Dot Dead Gorgeous",
+      "source": "https://www.entertainmentearth.com/product/monster-high-dot-operetta-doll-not-mint/nmmtx4529",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "👻 Monster High",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Dot Dead Gorgeous Operetta",
+          "manufacturer": "Mattel",
+          "figureNumber": "X4529",
+          "variantKey": "monsterhigh:X4529:746775135041",
+          "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-dot-operetta-doll-not-mint/nmmtx4529",
+          "photo": "",
+          "upc": "746775135041",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-dot-operetta-doll-not-mint/nmmtx4529",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Littlest Pet Shop · Generation 7 Multi-Packs",
+      "source": "https://www.target.com/p/-/A-89253625",
+      "manufacturer": "Basic Fun!",
+      "fandomKey": "lps",
+      "group": "🐾 Littlest Pet Shop",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Generation 7 Series 1 3-Pack Axolotl Rhino Iguana",
+          "manufacturer": "Basic Fun!",
+          "figureNumber": "LPS-3PACK-1",
+          "variantKey": "lps:LPS-3PACK-1:885561005578",
+          "sourceUrl": "https://www.target.com/p/-/A-89253625",
+          "photo": "",
+          "upc": "885561005578",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-89253625",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Littlest Pet Shop · Series 2 Blind Boxes",
+      "source": "https://www.target.com/p/-/A-90034050",
+      "manufacturer": "Basic Fun!",
+      "fandomKey": "lps",
+      "group": "🐾 Littlest Pet Shop",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Generation 7 Pet Surprise Singles Series 2 (sealed blind box)",
+          "manufacturer": "Basic Fun!",
+          "figureNumber": "LPS-S2-BLIND",
+          "variantKey": "lps:LPS-S2-BLIND:885561005028",
+          "sourceUrl": "https://www.target.com/p/-/A-90034050",
+          "photo": "",
+          "upc": "885561005028",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-90034050",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Sealed blind/assortment UPC; do not assign to mystery outcome; scan must navigate to series",
+          "description": "Підтверджений штрихкод запечатаного асортименту; результат-сюрприз за ним не визначається."
+        }
+      ]
+    },
+    {
+      "name": "Littlest Pet Shop · Surprise Reveal",
+      "source": "https://www.target.com/p/-/A-92593406",
+      "manufacturer": "Basic Fun!",
+      "fandomKey": "lps",
+      "group": "🐾 Littlest Pet Shop",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Surprise Reveal Pet Trios 3-Pack",
+          "manufacturer": "Basic Fun!",
+          "figureNumber": "LPS-SURPRISE-TRIO",
+          "variantKey": "lps:LPS-SURPRISE-TRIO:885561007398",
+          "sourceUrl": "https://www.target.com/p/-/A-92593406",
+          "photo": "",
+          "upc": "885561007398",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-92593406",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Sealed blind/assortment UPC; do not assign to mystery outcome; scan must navigate to series",
+          "description": "Підтверджений штрихкод запечатаного асортименту; результат-сюрприз за ним не визначається."
+        }
+      ]
+    },
+    {
+      "name": "Littlest Pet Shop · Play Packs",
+      "source": "https://www.target.com/p/-/A-93534072",
+      "manufacturer": "Basic Fun!",
+      "fandomKey": "lps",
+      "group": "🐾 Littlest Pet Shop",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Diner Dash Play Pack",
+          "manufacturer": "Basic Fun!",
+          "figureNumber": "LPS-DINER-DASH",
+          "variantKey": "lps:LPS-DINER-DASH:885561006360",
+          "sourceUrl": "https://www.target.com/p/-/A-93534072",
+          "photo": "",
+          "upc": "885561006360",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-93534072",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Littlest Pet Shop · Surprise Plush",
+      "source": "https://www.target.com/p/-/A-93711189",
+      "manufacturer": "Basic Fun!",
+      "fandomKey": "lps",
+      "group": "🐾 Littlest Pet Shop",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Surprise Reveal Mini Plush 4-inch (sealed random)",
+          "manufacturer": "Basic Fun!",
+          "figureNumber": "LPS-PLUSH-BLIND",
+          "variantKey": "lps:LPS-PLUSH-BLIND:885561010558",
+          "sourceUrl": "https://www.target.com/p/-/A-93711189",
+          "photo": "",
+          "upc": "885561010558",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-93711189",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Sealed blind/assortment UPC; do not assign to mystery outcome; scan must navigate to series",
+          "description": "Підтверджений штрихкод запечатаного асортименту; результат-сюрприз за ним не визначається."
+        }
+      ]
+    },
+    {
+      "name": "Littlest Pet Shop · Series 4 Playsets",
+      "source": "https://www.target.com/p/-/A-93711186",
+      "manufacturer": "Basic Fun!",
+      "fandomKey": "lps",
+      "group": "🐾 Littlest Pet Shop",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Pet Boutique Playset Series 4",
+          "manufacturer": "Basic Fun!",
+          "figureNumber": "LPS-PET-BOUTIQUE",
+          "variantKey": "lps:LPS-PET-BOUTIQUE:885561007442",
+          "sourceUrl": "https://www.target.com/p/-/A-93711186",
+          "photo": "",
+          "upc": "885561007442",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-93711186",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+        }
+      ]
+    },
+    {
+      "name": "Littlest Pet Shop · Series 4 Blind Boxes",
+      "source": "https://www.target.com/p/-/A-93711192",
+      "manufacturer": "Basic Fun!",
+      "fandomKey": "lps",
+      "group": "🐾 Littlest Pet Shop",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Series 4 Surprise Singles (sealed blind box)",
+          "manufacturer": "Basic Fun!",
+          "figureNumber": "LPS-S4-BLIND",
+          "variantKey": "lps:LPS-S4-BLIND:885561006995",
+          "sourceUrl": "https://www.target.com/p/-/A-93711192",
+          "photo": "",
+          "upc": "885561006995",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-93711192",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Sealed blind/assortment UPC; do not assign to mystery outcome; scan must navigate to series",
+          "description": "Підтверджений штрихкод запечатаного асортименту; результат-сюрприз за ним не визначається."
+        }
+      ]
+    },
+    {
+      "name": "Littlest Pet Shop · Pet Pairs",
+      "source": "https://www.target.com/p/-/A-93534074",
+      "manufacturer": "Basic Fun!",
+      "fandomKey": "lps",
+      "group": "🐾 Littlest Pet Shop",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Підтверджені фізичні випуски, не повний перелік серії.",
+      "items": [
+        {
+          "name": "Surprise Pet Pairs (assorted packs)",
+          "manufacturer": "Basic Fun!",
+          "figureNumber": "LPS-PAIRS",
+          "variantKey": "lps:LPS-PAIRS:885561012361",
+          "sourceUrl": "https://www.target.com/p/-/A-93534074",
+          "photo": "",
+          "upc": "885561012361",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-93534074",
+          "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
+          "barcodeNote": "Sealed blind/assortment UPC; do not assign to mystery outcome; scan must navigate to series",
+          "description": "Підтверджений штрихкод запечатаного асортименту; результат-сюрприз за ним не визначається."
+        }
+      ]
     }
   ]
 }
