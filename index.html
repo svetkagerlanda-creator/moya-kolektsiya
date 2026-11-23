@@ -81,7 +81,7 @@ body[data-theme="dark"] .item-owned .muted{color:#abd0b3}
 }
 </style></head><body data-theme="purple"><div class="app"><aside class="nav"><div class="logo">💜 Моя колекція</div><div id="side"></div><div class="foot">Версія <b id="sideVersion"></b><br>Особисте локальне сховище</div></aside><main class="main"><header class="head"><div><h1 id="heading">Моя колекція</h1><span class="muted">Твій персональний цифровий музей</span></div><div class="row"><button class="alt" id="donate">💜 Підтримати</button><button class="alt" id="share">↗ Поділитися</button><button class="btn" id="add">+ Додати предмет</button></div></header><div id="content"></div></main></div><nav id="bottom" class="bottom" aria-label="Мобільна навігація"></nav><div id="mobileMoreOverlay" class="mobile-more-overlay" hidden></div><div id="modal" class="hidden"></div><div id="toast" role="status"></div><input type="file" id="backupfile" accept=".json,application/json" hidden>
 <script src="./i18n.js?v=1.0.0-beta.62"></script><script>
-const VERSION='1.0.0-beta.64', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['updates','◷','Оновлення'],['account','♙','Акаунт'],['moderation','🛡','Модерація'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
+const VERSION='1.0.0-beta.65', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['updates','◷','Оновлення'],['account','♙','Акаунт'],['moderation','🛡','Модерація'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
 const $=x=>document.getElementById(x), esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),id=()=>crypto.randomUUID(),now=()=>new Date().toISOString(),fmt=x=>x===''||x==null?'—':Number(x).toLocaleString('uk-UA',{maximumFractionDigits:2})+' '+data.settings.currency;
 let db,data={folders:[],items:[],deletedFolders:{},deletedItems:{},settings:{theme:'purple',currency:'UAH',language:'uk'}},page='home',folder=null,searchTerm='',characterTerm='',view='cards',discoveryMode='character',selectedFandomKey='',collectionRootMode='fandoms';
 let mobileMenuOpen=false,moderationSection='series';
@@ -311,11 +311,16 @@ const FANDOM_CATALOG_GROUPS=[{"label":"🍥 Аніме та манґа","entries
 FANDOM_CATALOG_GROUPS.find(g=>g.label==='🏰 Мультфільми та персонажі')?.entries.push({key:'catalog-5-owl-house',name:'The Owl House',icon:'🦉',group:'🏰 Мультфільми та персонажі',pattern:/the owl house|king clawthorne|luz noceda|amity blight|eda the owl lady/i});
 FANDOM_CATALOG_GROUPS.find(g=>g.label==='🏰 Мультфільми та персонажі')?.entries.push({key:'catalog-5-hazbin',name:'Hazbin Hotel',icon:'🏨',group:'🏰 Мультфільми та персонажі',pattern:/hazbin hotel|charlie morningstar|angel dust|sir pentious|alastor/i});
 for(const group of FANDOM_CATALOG_GROUPS)for(const entry of group.entries)FANDOMS.push(entry);
-function fandomMatch(value){let text=String(value||'').trim();let exact=FANDOMS.find(f=>f.key!=='other'&&f.name.toLocaleLowerCase('uk-UA')===text.toLocaleLowerCase('uk-UA'));if(exact)return exact.key;return FANDOMS.find(f=>f.key!=='other'&&f.key!=='mlp'&&f.pattern?.test(text))?.key||(FANDOMS[0].pattern.test(text)?'mlp':'other')}
-function fandomAncestor(folderId){let seen=new Set;while(folderId&&!seen.has(folderId)){seen.add(folderId);let f=getfolder(folderId);if(!f)break;if(f.kind==='fandom'&&f.fandomKey)return f.fandomKey;folderId=f.parent}return null}
+// Map legacy catalog fandom aliases to the existing Harry Potter folder key.
+function canonicalFandomKey(value){
+ const key=String(value||'').trim().toLocaleLowerCase('uk-UA');
+ return ['harrypotter','harry-potter','harry_potter','catalog-3-01'].includes(key)?'catalog-3-01':key;
+}
+function fandomMatch(value){let text=String(value||'').trim();let exact=FANDOMS.find(f=>f.key!=='other'&&f.name.toLocaleLowerCase('uk-UA')===text.toLocaleLowerCase('uk-UA'));if(exact)return canonicalFandomKey(exact.key);if(/harry\s*potter|wizarding world/i.test(text))return 'catalog-3-01';return canonicalFandomKey(FANDOMS.find(f=>f.key!=='other'&&f.key!=='mlp'&&f.pattern?.test(text))?.key||(FANDOMS[0].pattern.test(text)?'mlp':'other'))}
+function fandomAncestor(folderId){let seen=new Set;while(folderId&&!seen.has(folderId)){seen.add(folderId);let f=getfolder(folderId);if(!f)break;if(f.kind==='fandom'&&f.fandomKey)return canonicalFandomKey(f.fandomKey);folderId=f.parent}return null}
 function fandomOfFolder(f){return fandomAncestor(f?.id)||fandomMatch(f?.name)}
-function fandomOfSeries(s){return s.fandomKey||fandomMatch([s.name,s.group,s.note].join(' '))}
-function fandomRoot(key){return data.folders.find(f=>f.kind==='fandom'&&f.fandomKey===key)||null}
+function fandomOfSeries(s){return canonicalFandomKey(s.fandomKey||fandomMatch([s.name,s.group,s.note].join(' ')))}
+function fandomRoot(key){return data.folders.find(f=>f.kind==='fandom'&&canonicalFandomKey(f.fandomKey)===canonicalFandomKey(key))||null}
 async function ensureFandomFolders(){
  // Preserve every existing folder. New fandom roots are created only on demand.
  // Previously generated fandom folders remain available, even when empty.
