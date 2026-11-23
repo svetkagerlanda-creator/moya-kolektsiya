@@ -254,9 +254,11 @@
           "rarity": "Regular",
           "variantKey": "Letsvan|ZIYULI My Own Wedding|Gossamer Rose",
           "sourceUrl": "https://www.ebay.com/itm/127614735799",
-          "photo": "",
+          "photo": "https://prcdn.freetls.fastly.net/release_image/91783/165/91783-165-5d694b61dd3f5c2cc4d5ab7d3135bdad-1080x1080.jpg",
           "description": "Індивідуальна фігурка серії ZIYULI My Own Wedding. Підтверджено назву у списку варіантів продавця; запечатаний blind box має випадковий вміст.",
-          "photoStatus": "missing"
+          "photoStatus": "official-distributor-named-figure-image",
+          "photoSourceUrl": "https://prtimes.jp/main/html/rd/p/000000165.000091783.html",
+          "photoCredit": "Hashy Topin / Letsvan — named Gossamer Rose promotional image"
         },
         {
           "name": "Coastal Oath",
@@ -1145,9 +1147,12 @@
           "character": "Ancient Melody",
           "variantKey": "52TOYS|52TOYS · Sleep · Галерея мистецтва|Ancient Melody",
           "sourceUrl": "https://myanimeshelf.com/figures/2899941_Sleep_The_Treasure_Gallery_Blind_Box%3A_Ancient_Melody",
-          "photo": "",
+          "photo": "https://toysez.com/cdn/shop/files/4_2_01abfddb-18b5-47cd-b571-eabc9e87b5e6.jpg?v=1740419474",
           "rarity": "Regular",
-          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа."
+          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа.",
+          "photoSourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-aneieng-melody",
+          "photoCredit": "TOYSEZ — individually named Ancient Melody figure image",
+          "photoStatus": "retailer-named-figure-photo"
         }
       ],
       "assortmentEan": "6958985015806",
