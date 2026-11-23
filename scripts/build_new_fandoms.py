@@ -1,0 +1,176 @@
+#!/usr/bin/env python3
+"""Incrementally extend six collectible fandoms from real product pages.
+
+Only real product listings become cards. No guessed figure numbers, characters,
+editions, photos or source URLs. A catalog subset is explicitly marked partial;
+the absence of an exact individual photo is not filled with unrelated imagery.
+"""
+import concurrent.futures
+import json
+import re
+from pathlib import Path
+from urllib.parse import urljoin, urlsplit, urlunsplit, parse_qs
+import requests
+from bs4 import BeautifulSoup
+
+BASE=Path(__file__).resolve().parents[1]
+OUTPUT=BASE/"catalogs/verified-new-fandoms.json"
+ERRORS=BASE/"catalogs/new-fandoms-errors.json"
+HEADERS={"User-Agent":"Mozilla/5.0 (personal noncommercial collectible catalog; contact repository maintainer)"}
+# name, fandom, manufacturer, index; all published manufacturer catalogs.
+SOURCES=[
+ ("Bratz · Official Fashion Dolls","bratz","MGA Entertainment","https://www.bratz.com/collections/bratz-core-collection"),
+ ("Bratz · Babyz","bratz","MGA Entertainment","https://www.bratz.com/collections/bratz-babyz"),
+ ("Bratz · Fashion Pixiez","bratz","MGA Entertainment","https://www.bratz.com/collections/bratz-fashion-pixiez"),
+ ("Bratz · Play Sportz","bratz","MGA Entertainment","https://www.bratz.com/collections/bratz-play-sportz"),
+ ("Bratz · Charmz","bratz","MGA Entertainment","https://www.bratz.com/collections/bratz-charmz"),
+ ("Bratz · Official Collections","bratz","MGA Entertainment","https://www.bratz.com/products"),
+ ("Monster High · Skulltimate Secrets","monsterhigh","Mattel","https://shop.mattel.com/collections/monster-high-skulltimate-secrets"),
+ ("Monster High · Official Mattel","monsterhigh","Mattel","https://shop.mattel.com/collections/monster-high"),
+ ("Sylvanian Families · Families","sylvanian","Epoch","https://www.sylvanianfamilies.com/en-uk/catalog/categorieslist.php?category_id=1"),
+ ("Sylvanian Families · Catalog","sylvanian","Epoch","https://www.sylvanianfamilies.com/en-uk/catalog/"),
+ ("Littlest Pet Shop · Generation 7","lps","Basic Fun","https://www.basicfun.com/brand/littlest-pet-shop/"),
+ ("Littlest Pet Shop · Product Series","lps","Basic Fun","https://www.basicfun.com/LPS/"),
+ ("Winx Club · Figures","winx","Rainbow","https://www.winxclub.com/collections/figures"),
+ ("Winx Club · Fashion Dolls","winx","Rainbow","https://www.winxclub.com/collections/fashion-dolls"),
+ ("Winx Club · Official Products","winx","Rainbow","https://www.winxclub.com/collections/all-products"),
+ ("Ever After High · First Chapter","everafterhigh","Mattel","https://eahmerch.com/dolls/series/first-chapter/"),
+ ("Ever After High · Legacy Day","everafterhigh","Mattel","https://eahmerch.com/dolls/series/legacy-day/"),
+ ("Ever After High · Doll Series","everafterhigh","Mattel","https://eahmerch.com/dolls/series/"),
+]
+# Curated, exact official product pages; provide initial cards even when pages
+# are not linked from a navigation page.
+SEEDS=[
+ ("Bratz · Babyz","bratz","MGA Entertainment","https://shop.mgae.com/collections/bratz-babyz/products/bratz-big-babyz-doll-yasmin"),
+ ("Monster High · Skulltimate Secrets","monsterhigh","Mattel","https://shop.mattel.com/products/monster-high-skulltimate-secrets-clawdeen-wolf-doll-jbg80"),
+ ("Monster High · Skulltimate Secrets","monsterhigh","Mattel","https://shop.mattel.com/products/monster-high-skulltimate-secrets-frankie-stein-doll-jbg81"),
+ ("Sylvanian Families · Chocolate Rabbit Family","sylvanian","Epoch","https://www.sylvanianfamilies.com/uk-ua/catalog/item_detail.php?product_id=2356"),
+ ("Sylvanian Families · Chocolate Rabbit Family","sylvanian","Epoch","https://www.sylvanianfamilies.com/en-uk/catalog/item_detail.php?product_id=2627"),
+ ("Littlest Pet Shop · Series 5","lps","Basic Fun","https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-5/"),
+ ("Littlest Pet Shop · Series 5","lps","Basic Fun","https://www.basicfun.com/product/littlest-pet-shop-opposites-attract-pet-pairs-series-5/"),
+ ("Littlest Pet Shop · Series 6","lps","Basic Fun","https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/"),
+ ("Winx Club · Fashion Dolls","winx","Giochi Preziosi","https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi"),
+ ("Winx Club · Figures","winx","Rainbow","https://www.winxclub.com/en-us/products/winx-dreamix-figure-collection-6-characters"),
+ ("Ever After High · First Chapter","everafterhigh","Mattel","https://service.mattel.com/us/productDetail.aspx?prodno=BBD42&siteid=27"),
+]
+HOSTS={
+ "bratz":{"www.bratz.com","bratz.com","shop.mgae.com"},
+ "monsterhigh":{"shop.mattel.com"},
+ "sylvanian":{"www.sylvanianfamilies.com"},
+ "lps":{"www.basicfun.com"},
+ "winx":{"www.winxclub.com"},
+ "everafterhigh":{"eahmerch.com","www.eahmerch.com","service.mattel.com"},
+}
+MAX_PER_SOURCE=100
+
+def canonical(url):
+    p=urlsplit(url)
+    # Strip transient marketing parameters but preserve product_id and Mattel ID.
+    q=p.query if ("item_detail.php" in p.path or "productDetail.aspx" in p.path) else ""
+    return urlunsplit((p.scheme.lower(),p.netloc.lower(),p.path.rstrip("/")+("/" if p.path.endswith("/") else ""),q,""))
+
+def get(url):
+    r=requests.get(url,headers=HEADERS,timeout=28,allow_redirects=True)
+    r.raise_for_status()
+    return BeautifulSoup(r.text,"html.parser")
+
+def links_from(soup,url,fandom):
+    out=set()
+    for a in soup.select("a[href]"):
+        href=urljoin(url,a["href"])
+        p=urlsplit(href)
+        if p.scheme!="https" or p.hostname not in HOSTS[fandom]:continue
+        path=p.path.lower()
+        valid={
+            "bratz":"/products/" in path and not path.endswith("/products/"),
+            "monsterhigh":"/products/" in path,
+            "sylvanian":"item_detail.php" in path and "product_id=" in p.query,
+            "lps":"/product/" in path and "littlest-pet-shop" in path,
+            "winx":"/products/" in path,
+            "everafterhigh":"/dolls/details/" in path or ("/dolls/" in path and "/details/" in path),
+        }[fandom]
+        if valid:out.add(canonical(href))
+    return sorted(out)[:MAX_PER_SOURCE]
+
+def meta(soup,key):
+    x=soup.find("meta",attrs={"property":key}) or soup.find("meta",attrs={"name":key})
+    return (x.get("content") or "").strip() if x else ""
+
+def parse_product(url,fandom,manufacturer):
+    soup=get(url)
+    node=soup.find("h1")
+    title=meta(soup,"og:title") or (node.get_text(" ",strip=True) if node else "")
+    title=re.sub(r"\s+[|–]\s+(?:Bratz|Mattel|Sylvanian Families|BasicFun!|Winx Club).*$","",title,flags=re.I).strip()
+    if not title or len(title)>170:raise ValueError("missing trustworthy product title")
+    # Avoid marketing, navigation or product-page galleries masquerading as a SKU.
+    photo=meta(soup,"og:image") or meta(soup,"twitter:image")
+    photo=urljoin(url,photo) if photo else ""
+    if photo and (urlsplit(photo).scheme!="https" or not urlsplit(photo).hostname):photo=""
+    description=meta(soup,"og:description")[:350]
+    # Verified page-level product image, not claimed as variant-specific.
+    p=urlsplit(url)
+    number=""
+    if p.hostname=="shop.mattel.com":
+        m=re.search(r"-([a-z]{2,4}\d{2,6})/?$",p.path,re.I)
+        if m:number=m.group(1).upper()
+    elif "product_id=" in p.query:
+        number=parse_qs(p.query).get("product_id",[""])[0]
+    elif "prodno=" in p.query.lower():
+        number=parse_qs(p.query).get("prodno",[""])[0]
+    return {"name":title,"figureNumber":number,"manufacturer":manufacturer,
+            "sourceUrl":canonical(url),"photo":photo,"description":description}
+
+def main():
+    previous={}
+    if OUTPUT.exists():
+        try:
+            previous={s["name"]:s for s in json.loads(OUTPUT.read_text(encoding="utf8")).get("series",[])}
+        except (OSError,ValueError,KeyError):pass
+    errors={}
+    candidates={}
+    for name,fandom,maker,index in SOURCES:
+        try:
+            links=links_from(get(index),index,fandom)
+            for url in links:candidates.setdefault((name,fandom,maker),set()).add(url)
+        except Exception as e:errors[index]=str(e)[:250]
+    for name,fandom,maker,url in SEEDS:
+        candidates.setdefault((name,fandom,maker),set()).add(canonical(url))
+    def task(info):
+        (name,fandom,maker),url=info
+        try:return (name,fandom,maker,url,parse_product(url,fandom,maker),None)
+        except Exception as e:return (name,fandom,maker,url,None,str(e)[:250])
+    jobs=[(key,url) for key,urls in candidates.items() for url in sorted(urls)]
+    results={}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        for name,fandom,maker,url,card,error in pool.map(task,jobs):
+            if error:
+                errors[url]=error
+            elif card:
+                results.setdefault((name,fandom,maker),{})[card["sourceUrl"]]=card
+    for (name,fandom,maker),cards in results.items():
+        old=previous.get(name,{})
+        # Preserve old cards and exact-source photos if a store changes navigation.
+        merged={c["sourceUrl"]:c for c in old.get("items",[]) if c.get("sourceUrl")}
+        for url,card in cards.items():
+            oldcard=merged.get(url,{})
+            if not card["photo"] and oldcard.get("photo"):card["photo"]=oldcard["photo"]
+            merged[url]=card
+        items=sorted(merged.values(),key=lambda c:(c["name"],c["sourceUrl"]))
+        previous[name]={"name":name,"verified":True,"completeness":"verified-selected-releases",
+                        "source":next((src for n,f,m,src in SOURCES if n==name),items[0]["sourceUrl"]),
+                        "manufacturer":maker,"fandomKey":fandom,
+                        "group":{"bratz":"💄 Bratz","monsterhigh":"🦇 Monster High",
+                                 "everafterhigh":"📖 Ever After High","sylvanian":"🐰 Sylvanian Families",
+                                 "lps":"🐾 Littlest Pet Shop","winx":"🧚 Winx Club"}[fandom],
+                        "count":len(items),"items":items}
+    output={"schemaVersion":1,"series":sorted(previous.values(),key=lambda s:s["name"])}
+    OUTPUT.parent.mkdir(parents=True,exist_ok=True)
+    OUTPUT.write_text(json.dumps(output,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf8")
+    ERRORS.write_text(json.dumps({"sourcePages":len(SOURCES),"queriedProductPages":len(jobs),
+       "verifiedSeries":len(output["series"]),"verifiedProducts":sum(s["count"] for s in output["series"]),
+       "photoRecords":sum(sum(bool(c.get("photo")) for c in s["items"]) for s in output["series"]),
+       "errors":errors},ensure_ascii=False,indent=2)+"\n",encoding="utf8")
+    print(f"NEW FANDOMS {len(output['series'])} series, {sum(s['count'] for s in output['series'])} individual products, {len(errors)} retrieval errors")
+
+if __name__=="__main__":
+    main()
