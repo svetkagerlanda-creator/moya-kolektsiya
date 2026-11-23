@@ -4785,6 +4785,734 @@
           "description": "Bratz Sassy Stampede 2026 — підтверджений UPC, фото потребує звірки"
         }
       ]
+    },
+    {
+      "name": "Ever After High · Getting Fairest",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High Getting Fairest — Raven Queen",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775297077",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775297077",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Getting Fairest — Madeline Hatter",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775297084",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775297084",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Getting Fairest — Raven Queen Destiny Vanity",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775297107",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775297107",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · Thronecoming",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High Thronecoming — Raven Queen",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775355937",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775355937",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Thronecoming — C.A. Cupid",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775355944",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775355944",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · Hat-Tastic",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High Hat-Tastic — Madeline Hatter and Party Display",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775355784",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775355784",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Hat-Tastic — Briar Beauty",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775355777",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775355777",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · Character Dolls",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 11,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High Character Dolls — Apple White",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775266592",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775266592",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Character Dolls — Madeline Hatter",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775266509",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775266509",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Character Dolls — Cerise Hood",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775266516",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775266516",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Character Dolls — Cedar Wood",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775297046",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775297046",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Character Dolls — Lizzie Hearts",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775355401",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775355401",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Character Dolls — Dexter Charming",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775355517",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775355517",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Character Dolls — Rosabella Beauty",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961041651",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961041651",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Character Dolls — Darling Charming",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961041668",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961041668",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Character Dolls — Bunny Blanc",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961041729",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961041729",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Character Dolls — Ginger Breadhouse",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961041699",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961041699",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Character Dolls — Ashlynn Ella",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961252989",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961252989",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · Epic Winter",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 6,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High Epic Winter — Blondie Lockes",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961247657",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961247657",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Epic Winter — Crystal Winter",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961247671",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961247671",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Epic Winter — Briar Beauty",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961247688",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961247688",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Epic Winter — Madeline Hatter",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961316797",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961316797",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Epic Winter — 2-Pack",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961253061",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961253061",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Epic Winter — Sparklizer Playset",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961253085",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961253085",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · Dragon Games",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High Dragon Games — Apple Dragonrider",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961244403",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961244403",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Dragon Games — Raven Queen",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961210620",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961210620",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Dragon Games — Holly O'Hair",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961210651",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961210651",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · Way Too Wonderland",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High Way Too Wonderland — Kitty Cheshire",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961095258",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961095258",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Way Too Wonderland — Courtly Jester",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961209815",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961209815",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Way Too Wonderland — Lizzie Hearts",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961095234",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961095234",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · Wonderland",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High Wonderland — Book and Accessory",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961093124",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961093124",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · School Spirit",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High School Spirit — Apple White & Raven Queen 2-Pack",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961095524",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961095524",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · Spring Unsprung",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High Spring Unsprung — Lizzie Hearts Book Playset",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961047066",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961047066",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · Mirror Beach",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High Mirror Beach — Apple White",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961130478",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961130478",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · Hairstyling",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High Hairstyling — Holly O'Hair",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961292367",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961292367",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · Magical Fashion",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High Magical Fashion — Ashlynn Ella 2-in-1",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961292541",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961292541",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · Playsets",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High Playsets — 2-in-1 Castle Playset",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961253054",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961253054",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        },
+        {
+          "name": "Ever After High Playsets — Sugar Coated Kitchen with Ginger Breadhouse",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:887961091045",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "887961091045",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · 2-Pack",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High 2-Pack — Ashlynn Ella and Hunter Huntsman",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775266554",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775266554",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
+    },
+    {
+      "name": "Ever After High · Accessories",
+      "source": "https://www.upcitemdb.com/info-ever-after-high",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High · UPC Identified",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Retail UPC catalogue identified releases; generation/wave not inferred where retailer did not specify. May overlap historical archive; reconcile by physical product rather than title.",
+      "items": [
+        {
+          "name": "Ever After High Accessories — Secret Hearts Password Journal",
+          "manufacturer": "Mattel",
+          "variantKey": "eah:retail-upc:746775282066",
+          "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "photo": "",
+          "upc": "746775282066",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
+          "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
+          "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+        }
+      ]
     }
   ]
 }
