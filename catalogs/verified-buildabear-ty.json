@@ -73,7 +73,7 @@
           "character": "Chococat",
           "figureNumber": "032645",
           "variantKey": "buildabear:sanrio:standard:032645",
-          "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-chococat-plush-with-mini-bean/32645_32646_33948.html",
+          "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-chococat-plush/032645.html",
           "photo": "",
           "description": "Official Build-A-Bear Chococat standard plush, SKU 032645, 15 inches. The advertised bundle also includes a sleeper and Mini Bean; these are not duplicated as separate plush bodies. UPC pending verification."
         }
@@ -802,6 +802,59 @@
         }
       ],
       "count": 3
+    },
+    {
+      "name": "Build-A-Bear Workshop · Sanrio · Giant Plush",
+      "source": "https://www.buildabear.com/stuffed-animals/shop-by-collection/sanrio",
+      "manufacturer": "Build-A-Bear Workshop",
+      "fandomKey": "sanrio",
+      "group": "🧸 Build-A-Bear Workshop · Sanrio Giant Plush",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "notes": "Distinct manufacturer giant plush, no accessories or bundles. Barcode and photos pending edition-specific verification.",
+      "count": 4,
+      "items": [
+        {
+          "name": "Sanrio · Giant Chococat",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Chococat",
+          "figureNumber": "034225",
+          "variantKey": "buildabear:sanrio:giant:034225",
+          "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-giant-chococat-plush/034225.html",
+          "photo": "",
+          "description": "Official standalone giant plush edition, stated height 36 inches. Accessories and gift bundles are excluded. No UPC inferred from SKU."
+        },
+        {
+          "name": "Sanrio · Giant Pompompurin",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Pompompurin",
+          "figureNumber": "033256",
+          "variantKey": "buildabear:sanrio:giant:033256",
+          "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-giant-pompompurin-plush/033256.html",
+          "photo": "",
+          "description": "Official standalone giant plush edition. Accessories and gift bundles are excluded. No UPC inferred from SKU."
+        },
+        {
+          "name": "Sanrio · Giant Cinnamoroll",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Cinnamoroll",
+          "figureNumber": "032060",
+          "variantKey": "buildabear:sanrio:giant:032060",
+          "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-giant-cinnamoroll-stuffed-animal/032060.html",
+          "photo": "",
+          "description": "Official standalone giant plush edition. Accessories and gift bundles are excluded. No UPC inferred from SKU."
+        },
+        {
+          "name": "Sanrio · Giant Mocha",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Mocha",
+          "figureNumber": "034445",
+          "variantKey": "buildabear:sanrio:giant:034445",
+          "sourceUrl": "https://www.buildabear.com/sanrio-hello-kitty-and-friends-giant-mocha-plush/034445.html",
+          "photo": "",
+          "description": "Official standalone giant plush edition. Accessories and gift bundles are excluded. No UPC inferred from SKU."
+        }
+      ]
     }
   ]
 }
