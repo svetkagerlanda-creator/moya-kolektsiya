@@ -1599,12 +1599,7 @@
           "year": "2013",
           "sourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD42&siteid=27",
           "photo": "https://service.mattel.com//us/img/prod/243/bbd42_c_13_003.jpg",
-          "description": "Оригінальна Raven Queen, офіційний архів Mattel.",
-          "upc": "746775266493",
-          "barcodeType": "UPC-A",
-          "barcodeSourceUrl": "https://wertoys.com/ever-after-high-first-chapter-raven-queen-doll-2013-mattel-bbd42/",
-          "barcodeVerification": "Exact physical product matched to explicit UPC on source; GS1 check digit validated 2026-11-23",
-          "barcodeNote": "Retail listing explicitly matches UPC 746775266493 and Mattel BBD42 2013 First Chapter Raven Queen. Do not transfer to other rereleases."
+          "description": "Оригінальна Raven Queen, офіційний архів Mattel."
         }
       ]
     },
