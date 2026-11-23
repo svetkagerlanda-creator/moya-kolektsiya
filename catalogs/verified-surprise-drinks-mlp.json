@@ -126,7 +126,15 @@
           "photo": "",
           "poseReferencePhoto": "https://pinkest.horse/images/g4.0/sd3.jpg",
           "poseReferenceSourceUrl": "https://pinkest.horse/db/4figuresprz.php",
-          "poseReferenceNote": "Shared visual reference for 2016 Surprise Drinks lying release. It is not a verified individual photograph of Pinkie Pie · Лежить. Do NOT populate photo with this reference as a stand-in."
+          "poseReferenceNote": "Shared visual reference for 2016 Surprise Drinks lying release. It is not a verified individual photograph of Pinkie Pie · Лежить. Do NOT populate photo with this reference as a stand-in.",
+          "photoCandidateListings": [
+            {
+              "url": "https://www.ebay.at/itm/177890411857",
+              "matchingConfidence": "high-variant-name-match",
+              "verificationNote": "Seller variation selector lists exact 2016 Pinkie Pie Lying Down (Surprise Drinks); source is a multi-variant listing; exact variation image URL not independently found.",
+              "reviewStatus": "candidate-only-not-catalog-photo"
+            }
+          ]
         },
         {
           "name": "Rainbow Dash · Стоїть",
@@ -191,7 +199,15 @@
           "photo": "",
           "poseReferencePhoto": "https://pinkest.horse/images/g4.0/sd2.jpg",
           "poseReferenceSourceUrl": "https://pinkest.horse/db/4figuresprz.php",
-          "poseReferenceNote": "Shared visual reference for 2016 Surprise Drinks sitting release. It is not a verified individual photograph of Rarity · Сидить. Do NOT populate photo with this reference as a stand-in."
+          "poseReferenceNote": "Shared visual reference for 2016 Surprise Drinks sitting release. It is not a verified individual photograph of Rarity · Сидить. Do NOT populate photo with this reference as a stand-in.",
+          "photoCandidateListings": [
+            {
+              "url": "https://www.ebay.com/itm/285125661889",
+              "matchingConfidence": "high-variant-name-match",
+              "verificationNote": "Seller variant list includes 'Rarity - Surprise Drinks (tiny, sitting pose)'; direct image of chosen variation not extracted.",
+              "reviewStatus": "candidate-only-not-catalog-photo"
+            }
+          ]
         },
         {
           "name": "Rarity · Лежить",
@@ -217,7 +233,15 @@
           "photo": "",
           "poseReferencePhoto": "https://pinkest.horse/images/g4.0/sd1.jpg",
           "poseReferenceSourceUrl": "https://pinkest.horse/db/4figuresprz.php",
-          "poseReferenceNote": "Shared visual reference for 2016 Surprise Drinks standing release. It is not a verified individual photograph of Twilight Sparkle · Стоїть. Do NOT populate photo with this reference as a stand-in."
+          "poseReferenceNote": "Shared visual reference for 2016 Surprise Drinks standing release. It is not a verified individual photograph of Twilight Sparkle · Стоїть. Do NOT populate photo with this reference as a stand-in.",
+          "photoCandidateListings": [
+            {
+              "url": "https://www.ebay.com/itm/315733442276",
+              "matchingConfidence": "high-product-match",
+              "verificationNote": "Exact manufacturer/year/product line named in seller title; standing pose inferred from listing visual text, requires independent photo image URL and visual pose verification.",
+              "reviewStatus": "candidate-only-not-catalog-photo"
+            }
+          ]
         },
         {
           "name": "Twilight Sparkle · Сидить",
@@ -293,7 +317,7 @@
           "sourceLabel": "2016 Surprise Drinks Figure — Laying"
         }
       ],
-      "photoResearchNote": "MLP Merch establishes 20 distinct variants, Pinkest Horse gives 3 pose-specific photos. The three images are shared pose references, not per-character photos; no item photo fields were filled without exact image."
+      "photoResearchNote": "Three pose-reference gallery images plus three name-and-variant-matched resale listings located. Individual image URLs still unavailable/unverified; leave photo fields empty to prevent wrong character or pose pictures."
     }
   ]
 }
