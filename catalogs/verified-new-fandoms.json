@@ -2884,7 +2884,7 @@
       "source": "https://www.mistertoysmegastore.com/fashion-doll-bloom-winx-club",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 3,
+      "count": 4,
       "notes": "Лише звірені випуски; серія не позначена повною, інші персонажі потребують перевірки.",
       "items": [
         {
@@ -2928,6 +2928,20 @@
           "barcodeVerification": "Retailer explicitly links individual Winx character, physical release line and EAN-13; GS1 checksum validated",
           "barcodeNote": "Not the 2025 Giochi Preziosi Magic is Back line and not Playmates dolls; character-specific EAN",
           "description": "Перевірене окреме видання Winx; фото буде додано після звірки з фізичною версією."
+        },
+        {
+          "name": "Winx Fashion Dolls 2022 — Tecna",
+          "manufacturer": "Rocco Giocattoli / Witty Toys",
+          "character": "Tecna",
+          "ean": "8027679072512",
+          "barcodeType": "EAN-13",
+          "sourceUrl": "https://www.chegiochi.it/giocattoli/bambole-peluche/bambole/rocco-giocattoli/8027679072512/winx-fashion-doll-tecna.htm",
+          "photo": "",
+          "barcodeSourceUrl": "https://www.chegiochi.it/giocattoli/bambole-peluche/bambole/rocco-giocattoli/8027679072512/winx-fashion-doll-tecna.htm",
+          "barcodeVerification": "Published retailer exact character/line GTIN and valid GS1 checksum",
+          "barcodeNote": "Individual physical variant; separate from other Winx lines and assortment-only codes",
+          "variantKey": "winx-rocco:8027679072512",
+          "description": "Версія Fashion Doll 2022, підтверджена продавцем за EAN."
         }
       ]
     },
@@ -2998,7 +3012,12 @@
           "barcodeNote": "Not the 2025 Giochi Preziosi Magic is Back line and not Playmates dolls; character-specific EAN",
           "description": "Перевірене окреме видання Winx; фото буде додано після звірки з фізичною версією."
         }
-      ]
+      ],
+      "assortmentEan": "8027679072529",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://www.mazzeogiocattoli.it/bambola-winx-magic-reveal-rocco-giocattoli",
+      "assortmentBarcodeVerification": "Retailer publishes exact multi-character assortment single-doll EAN; GS1 checksum valid",
+      "assortmentBarcodeNote": "Shared mixed retailer assortment code; not character-specific"
     },
     {
       "name": "Winx Club · Bling the Wings · Rocco Giocattoli",
@@ -3121,6 +3140,63 @@
           "barcodeVerification": "Retailer explicitly links individual Winx character, physical release line and EAN-13; GS1 checksum validated",
           "barcodeNote": "Not the 2025 Giochi Preziosi Magic is Back line and not Playmates dolls; character-specific EAN",
           "description": "Перевірене окреме видання Winx; фото буде додано після звірки з фізичною версією."
+        }
+      ],
+      "assortmentEan": "8027679073113",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://www.fratelliazzaro.it/giocattoli/20372-rocco-giocattoli-winx-fashion-doll-bambole-assortite-bambola-da-23-cm-con-nuovi-abiti-il-prezzo-si-riferisce-alla-singola-bambol-8027679073113.html",
+      "assortmentBarcodeVerification": "Retailer publishes exact multi-character assortment single-doll EAN; GS1 checksum valid",
+      "assortmentBarcodeNote": "Shared mixed retailer assortment code; not character-specific"
+    },
+    {
+      "name": "Winx Club · Mix & Make Bloom · Rocco Giocattoli",
+      "manufacturer": "Rocco Giocattoli / Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical Dolls",
+      "source": "https://www.massalistore.it/giocattoli/3551-21291744-winx-mix-amp-make-bloom-8027679073212.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Winx Mix & Make — Bloom",
+          "manufacturer": "Rocco Giocattoli / Witty Toys",
+          "character": "Bloom",
+          "ean": "8027679073212",
+          "barcodeType": "EAN-13",
+          "sourceUrl": "https://www.massalistore.it/giocattoli/3551-21291744-winx-mix-amp-make-bloom-8027679073212.html",
+          "photo": "",
+          "barcodeSourceUrl": "https://www.massalistore.it/giocattoli/3551-21291744-winx-mix-amp-make-bloom-8027679073212.html",
+          "barcodeVerification": "Published retailer exact character/line GTIN and valid GS1 checksum",
+          "barcodeNote": "Individual physical variant; separate from other Winx lines and assortment-only codes",
+          "variantKey": "winx-rocco:8027679073212",
+          "description": "Bloom doll and wing-making craft accessories, manufacturer article 21291744"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Hair Magic · Witty Toys",
+      "manufacturer": "Rocco Giocattoli / Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical Dolls",
+      "source": "https://www.ebay.com/itm/365018451553",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Winx Hair Magic — Stella",
+          "manufacturer": "Rocco Giocattoli / Witty Toys",
+          "character": "Stella",
+          "ean": "8027679074011",
+          "barcodeType": "EAN-13",
+          "sourceUrl": "https://www.ebay.com/itm/365018451553",
+          "photo": "",
+          "barcodeSourceUrl": "https://www.ebay.com/itm/365018451553",
+          "barcodeVerification": "Published retailer exact character/line GTIN and valid GS1 checksum",
+          "barcodeNote": "Individual physical variant; separate from other Winx lines and assortment-only codes",
+          "variantKey": "winx-rocco:8027679074011",
+          "description": "Hair Magic Stella, Witty Toys packaging, distinct release"
         }
       ]
     }
