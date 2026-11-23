@@ -3132,6 +3132,118 @@
       "assortmentBarcodeSourceUrl": "https://www.matchatimegiftshop.com/blind-box-lilith-monologue-in-the-land-of-oz.html",
       "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
       "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
+    },
+    {
+      "name": "ZHIWAN · Kokoya · Breeze and the Forest Legend",
+      "manufacturer": "ZHIWAN",
+      "fandomKey": "blind-box",
+      "group": "🎁 Blind Box · Kokoya",
+      "source": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+      "verified": true,
+      "completeness": "verified-full-series",
+      "count": 9,
+      "notes": "KIKAGoods displays 8 regular named designs and Hidden Temple Rose rare. Photos of each individual figure still to be matched separately; the lineup group photo is not an individual factory image. Some figures match the user's 2026-11-23 uploaded shelf photo, which is retained privately and not used as a catalog photo.",
+      "items": [
+        {
+          "name": "White Cat Knight",
+          "manufacturer": "ZHIWAN",
+          "character": "White Cat Knight",
+          "catalogPosition": "01",
+          "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|White Cat Knight",
+          "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+        },
+        {
+          "name": "Deer Girl",
+          "manufacturer": "ZHIWAN",
+          "character": "Deer Girl",
+          "catalogPosition": "02",
+          "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|Deer Girl",
+          "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+        },
+        {
+          "name": "White Rabbit Magician",
+          "manufacturer": "ZHIWAN",
+          "character": "White Rabbit Magician",
+          "catalogPosition": "03",
+          "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|White Rabbit Magician",
+          "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+        },
+        {
+          "name": "Butterfly Witch",
+          "manufacturer": "ZHIWAN",
+          "character": "Butterfly Witch",
+          "catalogPosition": "04",
+          "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|Butterfly Witch",
+          "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+        },
+        {
+          "name": "Green Jasmine Maid",
+          "manufacturer": "ZHIWAN",
+          "character": "Green Jasmine Maid",
+          "catalogPosition": "05",
+          "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|Green Jasmine Maid",
+          "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+        },
+        {
+          "name": "Detective Girl",
+          "manufacturer": "ZHIWAN",
+          "character": "Detective Girl",
+          "catalogPosition": "06",
+          "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|Detective Girl",
+          "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+        },
+        {
+          "name": "Berry Sweetheart Baker",
+          "manufacturer": "ZHIWAN",
+          "character": "Berry Sweetheart Baker",
+          "catalogPosition": "07",
+          "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|Berry Sweetheart Baker",
+          "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+        },
+        {
+          "name": "Cute Gardener",
+          "manufacturer": "ZHIWAN",
+          "character": "Cute Gardener",
+          "catalogPosition": "08",
+          "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|Cute Gardener",
+          "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+        },
+        {
+          "name": "Hidden Temple Rose",
+          "manufacturer": "ZHIWAN",
+          "character": "Hidden Temple Rose",
+          "catalogPosition": "09",
+          "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|Hidden Temple Rose",
+          "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
+          "photo": "",
+          "rarity": "Secret",
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+        }
+      ]
     }
   ]
 }
