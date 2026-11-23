@@ -119,7 +119,12 @@
           "seriesNumber": "95811",
           "sourceUrl": "https://funko.com/im/pop-mira-huntr%2Fx/95811.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw8f141a08/images/funko/upload/1/95811_KPOPDH_MiraHTRX_POP_render-Glam-WEB.png?sh=800&sw=800",
-          "description": "Funko POP! item 95811; box #2585"
+          "description": "Funko POP! item 95811; box #2585",
+          "upc": "889698968539",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/figures/products/funko-pop-animation-kpop-demon-hunters-mira-4.3-in-vinyl-figure/444864.html",
+          "barcodeVerification": "Exact edition and manufacturer number matched with explicitly published UPC; check digit verified",
+          "barcodeNote": "Funko HUNTR/X Mira item 95811, box 2585. Do not confuse with Mira item 95805, box 2431 (What It Sounds Like)."
         },
         {
           "name": "Rumi (HUNTR/X)",
