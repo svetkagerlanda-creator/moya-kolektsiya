@@ -33,6 +33,7 @@ SOURCES=[
  ("Sylvanian Families · Catalog","sylvanian","Epoch","https://www.sylvanianfamilies.com/en-uk/catalog/"),
  ("Littlest Pet Shop · Generation 7","lps","Basic Fun","https://www.basicfun.com/brand/littlest-pet-shop/"),
  ("Littlest Pet Shop · Product Series","lps","Basic Fun","https://www.basicfun.com/LPS/"),
+ ("Winx Club · Iconic Dolls","winx","Giochi Preziosi","https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi"),
  ("Winx Club · Figures","winx","Rainbow","https://www.winxclub.com/collections/figures"),
  ("Winx Club · Fashion Dolls","winx","Rainbow","https://www.winxclub.com/collections/fashion-dolls"),
  ("Winx Club · Official Products","winx","Rainbow","https://www.winxclub.com/collections/all-products"),
@@ -51,7 +52,7 @@ SEEDS=[
  ("Littlest Pet Shop · Series 5","lps","Basic Fun","https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-5/"),
  ("Littlest Pet Shop · Series 5","lps","Basic Fun","https://www.basicfun.com/product/littlest-pet-shop-opposites-attract-pet-pairs-series-5/"),
  ("Littlest Pet Shop · Series 6","lps","Basic Fun","https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/"),
- ("Winx Club · Fashion Dolls","winx","Giochi Preziosi","https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi"),
+ ("Winx Club · Iconic Dolls","winx","Giochi Preziosi","https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi"),
  ("Winx Club · Figures","winx","Rainbow","https://www.winxclub.com/en-us/products/winx-dreamix-figure-collection-6-characters"),
  ("Ever After High · First Chapter","everafterhigh","Mattel","https://service.mattel.com/us/productDetail.aspx?prodno=BBD42&siteid=27"),
 ]
@@ -183,7 +184,17 @@ def main():
         (name,fandom,maker),url=info
         try:return (name,fandom,maker,url,verified_product_cards(url,fandom,maker),None)
         except Exception as e:return (name,fandom,maker,url,None,str(e)[:250])
-    jobs=[(key,url) for key,urls in candidates.items() for url in sorted(urls)]
+    # A single physical product may appear on many storefront category pages.
+    # Assign each exact product URL to one most specific catalog series.
+    preferred={canonical(url):(name,fandom,maker) for name,fandom,maker,url in SEEDS}
+    jobs=[]
+    seen=set()
+    for key,urls in candidates.items():
+        for url in sorted(urls):
+            if url in seen or (url in preferred and preferred[url]!=key):
+                continue
+            seen.add(url)
+            jobs.append((key,url))
     results={}
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for name,fandom,maker,url,card,error in pool.map(task,jobs):
