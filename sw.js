@@ -1,6 +1,6 @@
 // Network-first for application scripts; cached copies keep the PWA usable offline.
-const CACHE='moya-kolektsiya-v1.0.0-beta.54';
-const CORE=['./','./index.html','./i18n.js?v=1.0.0-beta.54','./catalog-photo-overlay.js?v=1.0.0-beta.54','./catalog-contributions.js?v=1.0.0-beta.54','./catalog-photo-admin.js?v=1.0.0-beta.54','./collector-cloud.js?v=1.0.0-beta.54','./personal-photos.js?v=1.0.0-beta.54','./community-social.js?v=1.0.0-beta.54','./community-chat.js?v=1.0.0-beta.54','./banner-crop.js?v=1.0.0-beta.54','./community-auth.js?v=1.0.0-beta.54','./donation.json','./manifest.webmanifest','./icon.svg'];
+const CACHE='moya-kolektsiya-v1.0.0-beta.55';
+const CORE=['./','./index.html','./i18n.js?v=1.0.0-beta.55','./catalog-photo-overlay.js?v=1.0.0-beta.55','./catalog-contributions.js?v=1.0.0-beta.55','./catalog-photo-admin.js?v=1.0.0-beta.55','./collector-cloud.js?v=1.0.0-beta.55','./personal-photos.js?v=1.0.0-beta.55','./community-social.js?v=1.0.0-beta.55','./community-chat.js?v=1.0.0-beta.55','./banner-crop.js?v=1.0.0-beta.55','./community-auth.js?v=1.0.0-beta.55','./donation.json','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>{
   event.waitUntil(caches.open(CACHE).then(cache=>Promise.allSettled(CORE.map(path=>cache.add(path)))).then(()=>self.skipWaiting()));
 });
