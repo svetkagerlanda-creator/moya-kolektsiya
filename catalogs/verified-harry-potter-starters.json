@@ -4375,11 +4375,19 @@
       "fandomKey": "harrypotter",
       "group": "⚡ Harry Potter · Spin Master",
       "manufacturer": "Spin Master",
-      "source": "https://www.spinmaster.com/en-GB/brands/harrypotter",
+      "source": "https://www.hobbydb.com/marketplaces/hobbydb/subjects/year-2-series",
       "verified": true,
       "completeness": "full-community-checklist",
-      "count": 12,
+      "count": 13,
       "items": [
+        {
+          "name": "Year 2 — Sealed Surprise Blind Box (1 figure)",
+          "manufacturer": "Spin Master",
+          "figureNumber": "6068750",
+          "sourceUrl": "https://www.nerdom.gr/en/en003092-spin-master-harry-potter-micro-magical-moments-mystery-mini-figure-with-case-random-6068750.html",
+          "photo": "",
+          "description": "Single sealed random figure from the 12-design Chamber of Secrets Year 2 assortment. 6068750 is a packaging product number and does not identify the hidden variant; no verified individual UPC/EAN."
+        },
         {
           "name": "Mystery variant — Aragog",
           "manufacturer": "Spin Master",
