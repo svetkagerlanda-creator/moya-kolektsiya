@@ -30,7 +30,7 @@ function inspect(full) {
     if (Number.isInteger(series.count) && series.count !== series.items.length)
       report('error', file, title, 'Declared count ' + series.count + ' != ' + series.items.length);
     const generation = (title + ' ' + (series.group || '')).toLowerCase();
-    if (/g4\\.5|generation 4\\.5/.test(generation) && /(?:^|[^\\d])g4(?:[^\\d.]|$)/.test(generation.replace(/g4\\.5/g, '')))
+    if (/g4\.5|generation 4\.5/.test(generation) && /(?:^|[^\d])g4(?:[^\d.]|$)/.test(generation.replace(/g4\.5/g, '')))
       report('warning', file, title, 'Possible mixed G4 and G4.5 labels; manually review');
     for (const item of series.items) {
       stats.items++;
