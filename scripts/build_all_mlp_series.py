@@ -45,8 +45,8 @@ DATABASES = [
  ("g5-comics","G5 Comics","series"), ("fairy-tails","Fairy Tails","series"),
 ]
 SKIP_SPECIALIZED = {"brushables", "blind-bags"}
-COUNT_RE = re.compile(r"\(([\d,]+)\s+(?:ponies|pony|figures|releases|cards|items|comics|plush|dolls|toys)\)", re.I)
-TOTAL_RE = re.compile(r"(?:a total of|total of)\s+([\d,]+)\s+(?:releases|ponies|pony|figures|cards|items|comics|plush|dolls|toys)", re.I)
+COUNT_RE = re.compile(r"\(([\d,]+)\s+(?:ponies|pony|figures?|releases?|cards?|items?|comics?|plush|dolls?|toys?)\)", re.I)
+TOTAL_RE = re.compile(r"(?:a total of|total of)\s+([\d,]+)\s+(?:releases?|ponies|pony|figures?|cards?|items?|comics?|plush|dolls?|toys?)", re.I)
 
 def soup_at(url):
     response = requests.get(url,headers=HEADERS,timeout=35)
@@ -76,7 +76,7 @@ def discover(root, label, grouping):
         title=link.get_text(" ",strip=True)
         if not title or COUNT_RE.search(title):
             title=match.group(1).replace("-"," ").title()
-        title=re.sub(r"\s*\([\d,]+\s+(?:ponies|pony|figures|releases|cards|items|comics|plush|dolls|toys)\).*","",title,flags=re.I).strip()
+        title=re.sub(r"\s*\([\d,]+\s+(?:ponies|pony|figures?|releases?|cards?|items?|comics?|plush|dolls?|toys?)\).*","",title,flags=re.I).strip()
         if len(title)>90:title=match.group(1).replace("-"," ").title()
         key=f"{root}/{grouping}/{match.group(1)}"
         found[key]={"name":f"MLP Merch · {label} · {title}","source":url,
