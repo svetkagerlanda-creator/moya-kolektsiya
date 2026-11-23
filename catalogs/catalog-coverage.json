@@ -153,9 +153,9 @@
     },
     {
       "file": "verified-historical-dolls-pets.json",
-      "series": 360,
-      "items": 6441,
-      "photos": 6441,
+      "series": 422,
+      "items": 7471,
+      "photos": 7471,
       "missingPhotos": 0,
       "invalidSeries": 0,
       "duplicateUrls": 0,
@@ -244,22 +244,22 @@
     {
       "file": "verified-user-wishlist-starters.json",
       "series": 26,
-      "items": 154,
+      "items": 161,
       "photos": 130,
-      "missingPhotos": 24,
+      "missingPhotos": 31,
       "invalidSeries": 0,
       "duplicateUrls": 0,
-      "partialSeries": 26
+      "partialSeries": 25
     }
   ],
   "totals": {
-    "verifiedSeriesRecords": 1714,
-    "partialSeriesRecords": 99,
-    "releaseRecords": 24798,
-    "photoRecords": 24666,
-    "missingPhotoRecords": 132,
+    "verifiedSeriesRecords": 1776,
+    "partialSeriesRecords": 98,
+    "releaseRecords": 25835,
+    "photoRecords": 25696,
+    "missingPhotoRecords": 139,
     "crossFeedOverlappingSourceUrls": 2924,
-    "distinctSourceUrls": 21563
+    "distinctSourceUrls": 22593
   },
   "sourceRoots": {
     "basic-fun": {
@@ -398,9 +398,9 @@
       "photos": 46
     },
     "other": {
-      "series": 490,
-      "items": 9553,
-      "photos": 9441
+      "series": 552,
+      "items": 10590,
+      "photos": 10471
     },
     "other-figures": {
       "series": 293,
