@@ -300,6 +300,16 @@
       "photoCredit": "MHcollector exact model gallery",
       "photoStatus": "exact-sku-gallery-image-url",
       "photoVerificationNote": "Direct image opened and visually checked against named SKU gallery; deployed PWA rendering not tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Series 1",
+      "name": "Skulltimate Secrets Series 1 Clawdeen Wolf",
+      "figureNumber": "HKY61",
+      "photo": "https://images.mattel.net/image/upload/w_646%2Cf_auto%2Cq_60%2Cdpr_2.0%2Cc_pad/shop-emea-prod/products/qmwgzuwjywaxdwzwoyuo.jpg",
+      "sourceUrl": "https://shopping.mattel.com/en-gb/products/monster-high-skulltimate-secrets-clawdeen-wolf-doll-hky61-en-gb",
+      "photoCredit": "Mattel official product photo",
+      "photoStatus": "official-sku-matched-product-image",
+      "photoVerificationNote": "Official Mattel HKY61 product page and image search match; deployed PWA image rendering not yet checked."
     }
   ]
 }
