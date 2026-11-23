@@ -5223,8 +5223,16 @@
           "manufacturer": "Funko",
           "figureNumber": "53847",
           "sourceUrl": "https://funko.com/pop-patronus-albus-dumbledore/53847.html",
-          "photo": "",
-          "description": "Standalone POP! phoenix Patronus figure; distinct from the 25th Anniversary character figure. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending."
+          "photo": "https://media.entertainmentearth.com/assets/images/bf929b92549e459cb7ebaa9b835cc3abxl.jpg",
+          "description": "Standalone POP! phoenix Patronus figure; distinct from the 25th Anniversary character figure. Official Funko product number is not an EAN/UPC; barcode and exact photo remain pending.",
+          "photoSourceUrl": "https://www.entertainmentearth.com/product/harry-potter-patronus-dumbledore-funko-pop-vinyl-figure-127/fu53847",
+          "photoCredit": "Entertainment Earth exact Funko Patronus Albus Dumbledore #127 figure photo",
+          "photoStatus": "visually-identified-exact-sku-from-image-search",
+          "photoVerificationNote": "This is the blue phoenix Patronus alone, not the 2026 Dumbledore with Patronus #207. Image linked to retailer FU53847; CDN reachability not independently tested.",
+          "upc": "889698538473",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.shopforgeek.com/en/HARRY-POTTER-POP-N-127-PATRONUS-DUMBLEDORE-193022.html",
+          "barcodeVerification": "Retailer lists item 53847 and 889698538473; UPC-A checksum checked."
         }
       ]
     },
