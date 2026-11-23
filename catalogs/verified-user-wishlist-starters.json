@@ -927,9 +927,9 @@
       "group": "🎁 Blind Box · 52TOYS",
       "source": "https://www.kikagoods.com/collections/sleep-series/products/sleep-the-treasure-gallery-series-blind-box",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 9,
-      "notes": "Джерела підтверджують 8 regular + 1 secret. Зараз у каталозі 8 поіменних варіантів + випадкова запечатана коробка; Ancient Melody ще бракує. Фото лише частини варіантів підтверджені індивідуально.",
+      "completeness": "verified-full-series",
+      "count": 10,
+      "notes": "Повні 8 regular + 1 secret Feast of Spring, а також окрема запечатана випадкова коробка; для деяких карток фото ще відсутні.",
       "items": [
         {
           "name": "Sleep · Галерея мистецтва",
@@ -1003,7 +1003,11 @@
           "variantKey": "52TOYS|52TOYS · Sleep · Галерея мистецтва|Feast of Spring",
           "sourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-feast-of-spring",
           "rarity": "Secret",
-          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки.",
+          "photo": "https://toysez.com/cdn/shop/files/9_1_bc7a132f-04b0-48e4-9b7c-76009afd8111.jpg?v=1740419850",
+          "photoSourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-secret-feast-of-spring",
+          "photoCredit": "Retailer — individually identified figure",
+          "photoStatus": "matched-product-photo"
         },
         {
           "name": "Feline Blessing",
@@ -1043,6 +1047,16 @@
           "photoCredit": "TOYSEZ — named 52TOYS variant product gallery",
           "rarity": "Regular",
           "description": "Підтверджений окремий дизайн серії; вміст закритого blind box випадковий."
+        },
+        {
+          "name": "Ancient Melody",
+          "manufacturer": "52TOYS",
+          "character": "Ancient Melody",
+          "variantKey": "52TOYS|52TOYS · Sleep · Галерея мистецтва|Ancient Melody",
+          "sourceUrl": "https://myanimeshelf.com/figures/2899941_Sleep_The_Treasure_Gallery_Blind_Box%3A_Ancient_Melody",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа."
         }
       ],
       "assortmentEan": "6958985015806",
@@ -1093,9 +1107,9 @@
       "group": "🎁 Blind Box · 52TOYS",
       "source": "https://toysez.com/products/sleep-sea-elves-series",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 8,
-      "notes": "Додано поіменно підтверджені варіанти; запечатана blind box — окрема позиція. У джерелах зазначено 10 дизайнів; список і фото ще потребують доповнення.",
+      "completeness": "verified-full-series",
+      "count": 11,
+      "notes": "8 звичайних фігурок (включно з Jellyfish, Sea Anemone, Weedy Seadragon) + Octopus secret + Daughter of The Dragon super secret; запечатана коробка окремо.",
       "items": [
         {
           "name": "Sleep · Sea Elves",
@@ -1173,7 +1187,11 @@
           "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Sea Shell",
           "sourceUrl": "https://toysez.com/products/sleep-sea-elves-series-sea-shell",
           "rarity": "Regular",
-          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки.",
+          "photo": "https://cdn11.bigcommerce.com/s-89ffd/images/stencil/1280x1280/products/178912/779202/52toys-sleep-elves-of-sea-series__49319.1752465867.jpg?c=2%3Fimbypass%3Don",
+          "photoSourceUrl": "https://www.plazajapan.com/2004658862426/",
+          "photoCredit": "Retailer — individually identified figure",
+          "photoStatus": "matched-product-photo"
         },
         {
           "name": "Octopus",
@@ -1182,7 +1200,11 @@
           "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Octopus",
           "sourceUrl": "https://toysez.com/products/sleep-sea-elves-series-octopus",
           "rarity": "Secret",
-          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки.",
+          "photo": "https://toysez.com/cdn/shop/files/10_4_3da6df43-e64e-48f8-aa23-f7a4b87dfc94_large.jpg?v=1736355712",
+          "photoSourceUrl": "https://toysez.com/products/52toys-sleep-sea-elves-series-little-secret-octopus",
+          "photoCredit": "Retailer — individually identified figure",
+          "photoStatus": "matched-product-photo"
         },
         {
           "name": "Daughter of The Dragon",
@@ -1191,7 +1213,41 @@
           "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Daughter of The Dragon",
           "sourceUrl": "https://toysez.com/products/sleep-sea-elves-series-daughter-of-the-dragon",
           "rarity": "Secret",
-          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки.",
+          "photo": "https://toysez.com/cdn/shop/files/9_3_40906f94-22d5-4b2b-9a8a-e4d7972a3bc4.jpg?v=1736355676",
+          "photoSourceUrl": "https://toysez.com/products/sleep-sea-elves-series-super-secret-daughter-of-the-dragon",
+          "photoCredit": "Retailer — individually identified figure",
+          "photoStatus": "matched-product-photo"
+        },
+        {
+          "name": "Jellyfish",
+          "manufacturer": "52TOYS",
+          "character": "Jellyfish",
+          "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Jellyfish",
+          "sourceUrl": "https://toysez.com/products/sleep-sea-elves-series-jellyfish",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа."
+        },
+        {
+          "name": "Sea Anemone",
+          "manufacturer": "52TOYS",
+          "character": "Sea Anemone",
+          "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Sea Anemone",
+          "sourceUrl": "https://worldofcomics.ua/product/figurka-52toys-sleep-sea-elves-art-21289/",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа."
+        },
+        {
+          "name": "Weedy Seadragon",
+          "manufacturer": "52TOYS",
+          "character": "Weedy Seadragon",
+          "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Weedy Seadragon",
+          "sourceUrl": "https://worldofcomics.ua/product/figurka-52toys-sleep-sea-elves-art-21289/",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа."
         }
       ],
       "assortmentEan": "6958985021289",
@@ -1546,9 +1602,9 @@
       "group": "🎁 Blind Box · 52TOYS",
       "source": "https://www.knowheretoys.com/52Toys-Sleep--Dreamland-Elves-Life-Of-Fantasies_p_12300.html",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 8,
-      "notes": "Додано поіменно підтверджені варіанти; запечатана blind box — окрема позиція. список і фото ще потребують доповнення.",
+      "completeness": "verified-full-series",
+      "count": 11,
+      "notes": "8 regular + Snowmelt Season hidden + Aurora Isle super hidden, плюс окрема запечатана коробка. Перелік звірено з повною схемою, фото індивідуально підтверджено лише частково.",
       "items": [
         {
           "name": "Sleep Dreamland Elves · Life of Fantasies",
@@ -1629,6 +1685,42 @@
           "sourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-aurora-lsle",
           "rarity": "Secret",
           "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Hibernation",
+          "manufacturer": "52TOYS",
+          "character": "Hibernation",
+          "variantKey": "52TOYS|52TOYS · Sleep Dreamland Elves · Life of Fantasies|Hibernation",
+          "sourceUrl": "https://wholesale.kikagoods.com/products/sleep-life-of-fantasies-elves-blind-box",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа."
+        },
+        {
+          "name": "Winter Slumber",
+          "manufacturer": "52TOYS",
+          "character": "Winter Slumber",
+          "variantKey": "52TOYS|52TOYS · Sleep Dreamland Elves · Life of Fantasies|Winter Slumber",
+          "sourceUrl": "https://wholesale.kikagoods.com/products/sleep-life-of-fantasies-elves-blind-box",
+          "photo": "https://cdn1.fahasa.com/media/catalog/product/6/9/6958985022682-_9a_.jpg",
+          "rarity": "Regular",
+          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа.",
+          "photoSourceUrl": "https://www.fahasa.com/52toys-6958985022682-mo-hinh-sleep-dreamland-elves-life-of-fantasy-8-hop-thung.html",
+          "photoCredit": "Retailer — individually identified figure",
+          "photoStatus": "matched-product-photo"
+        },
+        {
+          "name": "Whispering Breeze",
+          "manufacturer": "52TOYS",
+          "character": "Whispering Breeze",
+          "variantKey": "52TOYS|52TOYS · Sleep Dreamland Elves · Life of Fantasies|Whispering Breeze",
+          "sourceUrl": "https://wholesale.kikagoods.com/products/sleep-life-of-fantasies-elves-blind-box",
+          "photo": "https://cdn1.fahasa.com/media/catalog/product/6/9/6958985022682-_9d_.jpg",
+          "rarity": "Regular",
+          "description": "Окремий підтверджений дизайн blind box. Запечатана випадкова коробка не визначає конкретного персонажа.",
+          "photoSourceUrl": "https://www.fahasa.com/52toys-6958985022682-mo-hinh-sleep-dreamland-elves-life-of-fantasy-8-hop-thung.html",
+          "photoCredit": "Retailer — individually identified figure",
+          "photoStatus": "matched-product-photo"
         }
       ],
       "assortmentEan": "6958985022682",
