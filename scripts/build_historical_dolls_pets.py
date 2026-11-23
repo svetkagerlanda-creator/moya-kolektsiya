@@ -174,6 +174,22 @@ def main():
             for card in result["items"]:
                 previous=olditems.get(card["sourceUrl"],{})
                 if not card.get("photo") and previous.get("photo"):card["photo"]=previous["photo"]
+            # Keep distinct previously verified releases when an upstream page
+            # temporarily omits cards. Do not silently discard historical data.
+            seen_urls={card["sourceUrl"] for card in result["items"]}
+            recovered=[dict(card) for card in old.get("items",[])
+                       if card.get("sourceUrl") and card["sourceUrl"] not in seen_urls]
+            if recovered:
+                result["items"].extend(recovered)
+                result["count"]=len(result["items"])
+                errors[entry["source"]]="upstream omitted %d prior releases; retained exact-source cards" % len(recovered)
+            # A changed upstream declared count cannot alone prove completeness:
+            # preserve the highest known source-declared total as a lower bound.
+            prior_expected=old.get("sourceDeclaredCount")
+            if isinstance(prior_expected,int) and prior_expected>0:
+                current_expected=result.get("sourceDeclaredCount")
+                if current_expected is None or current_expected<prior_expected:
+                    result["sourceDeclaredCount"]=prior_expected
             # Recompute completeness after restoring verified exact-source photos.
             # Previously this happened inside parse(), before photo recovery,
             # leaving genuinely complete sets incorrectly marked partial.
