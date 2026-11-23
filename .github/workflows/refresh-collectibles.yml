@@ -11,6 +11,7 @@ on:
       - 'scripts/build_more_figures.py'
       - 'scripts/build_all_mlp_series.py'
       - 'scripts/build_new_fandoms.py'
+      - 'scripts/build_historical_dolls_pets.py'
       - 'scripts/test_build_all_mlp_series.py'
       - 'scripts/probe_comic_layout.py'
       - 'scripts/audit_catalog_coverage.py'
@@ -53,6 +54,8 @@ jobs:
         run: python scripts/build_all_mlp_series.py
       - name: Build Bratz Monster High Ever After High Sylvanian LPS Winx verified items
         run: python scripts/build_new_fandoms.py
+      - name: Import historical Monster High EAH and LPS collections
+        run: python scripts/build_historical_dolls_pets.py
       - name: Inspect additional merchandise sources
         run: python scripts/probe_sources.py
       - name: Audit verified series and photo coverage
@@ -61,7 +64,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalogs/verified-new-fandoms.json catalogs/new-fandoms-errors.json catalogs/comic-layout-probe.json catalogs/catalog-coverage.json catalogs/verified-mlp-all-series.json catalogs/mlp-all-series-errors.json catalogs/verified-kayou.json catalogs/verified-mlpmerch.json catalogs/verified-brushables.json catalogs/brushables-errors.json catalogs/verified-blind-bags.json catalogs/blind-bags-errors.json catalogs/verified-mlp-figures.json catalogs/figure-errors.json catalogs/source-probe.json catalogs/merch-errors.json
+          git add catalogs/verified-historical-dolls-pets.json catalogs/historical-dolls-pets-errors.json catalogs/verified-new-fandoms.json catalogs/new-fandoms-errors.json catalogs/comic-layout-probe.json catalogs/catalog-coverage.json catalogs/verified-mlp-all-series.json catalogs/mlp-all-series-errors.json catalogs/verified-kayou.json catalogs/verified-mlpmerch.json catalogs/verified-brushables.json catalogs/brushables-errors.json catalogs/verified-blind-bags.json catalogs/blind-bags-errors.json catalogs/verified-mlp-figures.json catalogs/figure-errors.json catalogs/source-probe.json catalogs/merch-errors.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh verified Kayou catalogs"
             # The repository may receive a newer commit while catalogs are built.
