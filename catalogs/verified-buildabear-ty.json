@@ -189,13 +189,14 @@
           "figureNumber": "37389",
           "variantKey": "ty:beanie-boos:official-selected:flora-37389",
           "sourceUrl": "https://www.ty.com/product/flora/37389.html",
-          "photo": "",
-          "photoCredit": "",
+          "photo": "https://cdn.ty.com/static/images/ac93b58ff4190f576bc126bfb0a5943a_lg.png",
+          "photoCredit": "Official Ty product photograph",
           "description": "Beanie Boos multicolor poodle, 6-inch retail plush",
           "upc": "008421373895",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.maziply.com/products/ty-beanie-babies-flora-multicolor-poodle-plush",
-          "barcodeVerification": "Retailer explicitly identifies Ty named product and manufacturer model along with UPC-A, checksum validated."
+          "barcodeVerification": "Retailer explicitly identifies Ty named product and manufacturer model along with UPC-A, checksum validated.",
+          "photoSourceUrl": "https://www.ty.com/product/flora/37389.html?cgid=beanie-boos-circle&lang=en"
         },
         {
           "name": "Snaps",
@@ -259,15 +260,16 @@
           "figureNumber": "37414",
           "variantKey": "ty:beanie-boos:37414",
           "sourceUrl": "https://www.ty.com/product/crawley/37414.html?lang=en",
-          "photo": "",
-          "photoCredit": "",
+          "photo": "https://cdn.ty.com/static/images/9faca83e6abb2569e5c47076840e200a_lg.png",
+          "photoCredit": "Official Ty product photograph",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
           "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
           "upc": "008421374144",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.dalmasso24.it/catalogo-prodotti/idee-regalo/peluche/beanie-boo-s/peluche-beanie-boos-cm-15-crawley-ty-008421374144-75861.html",
           "barcodeVerification": "Source lists matching character, exact manufacturer SKU and retailer GTIN; UPC-A check digit valid",
-          "barcodeNote": "Regular-size plush only, not keyclip or other variant"
+          "barcodeNote": "Regular-size plush only, not keyclip or other variant",
+          "photoSourceUrl": "https://www.ty.com/product/crawley/37414.html?cgid=beanie-boos-circle&lang=en"
         },
         {
           "name": "Giselle",
@@ -357,14 +359,15 @@
           "figureNumber": "37385",
           "variantKey": "ty:beanie-boos:37385",
           "sourceUrl": "https://www.ty.com/product/tricky/37385.html?cgid=Fall&lang=default",
-          "photo": "",
-          "photoCredit": "",
+          "photo": "https://cdn.ty.com/static/images/5c047af38f6c82a4ab5f8791e276a089_lg.png",
+          "photoCredit": "Official Ty product photograph",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
           "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
           "upc": "008421373857",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.maziply.com/products/ty-beanie-boos-tricky-the-ghost-with-horns-plush",
-          "barcodeVerification": "Retail listing explicitly matches character, Ty manufacturer model and UPC-A; check digit validated."
+          "barcodeVerification": "Retail listing explicitly matches character, Ty manufacturer model and UPC-A; check digit validated.",
+          "photoSourceUrl": "https://www.ty.com/product/tricky/37385.html?cgid=Red&lang=default"
         },
         {
           "name": "Marigold",
@@ -372,14 +375,15 @@
           "figureNumber": "37370",
           "variantKey": "ty:beanie-boos:37370",
           "sourceUrl": "https://www.ty.com/product/marigold/37370.html?lang=en",
-          "photo": "",
-          "photoCredit": "",
+          "photo": "https://cdn.ty.com/static/images/38df2f7b0c9e09f8baf47a143db8105c_lg.png",
+          "photoCredit": "Official Ty product photograph",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
           "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
           "upc": "008421373703",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://maudau.com.ua/product/miaka-ihrashka-ty-beanie-boos-kurcha-marigold-37370-riznokolorovyi-shop-008421373703",
-          "barcodeVerification": "Retail listing explicitly matches character, Ty manufacturer model and UPC-A; check digit validated."
+          "barcodeVerification": "Retail listing explicitly matches character, Ty manufacturer model and UPC-A; check digit validated.",
+          "photoSourceUrl": "https://www.ty.com/product/marigold/37370.html?cgid=beanie-boos-circle&lang=en"
         },
         {
           "name": "Batrick",
@@ -491,14 +495,16 @@
           "figureNumber": "37369",
           "variantKey": "ty:beanie-boos:37369",
           "sourceUrl": "https://www.ty.com/product/giggles/37369.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/42e6509ffd56bc036186df1e8fa4ab42_lg.png",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
           "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
           "upc": "008421373697",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.toys-shop.gr/en/p/toys/plush/plush-classic/1058850-ty-ty-beanie-boos-giggles-fluffy-kitty-on-white-and-pink-15cm-1607-37369.html",
           "barcodeVerification": "Retail listing explicitly associates the 15cm Beanie Boos Giggles with Ty 37369 and GTIN-13 008421373697; 12-digit UPC-A check digit validated.",
-          "barcodeNote": "EAN-13 shown on retailer is identical to 12-digit UPC-A as listed (no leading-zero transformation)."
+          "barcodeNote": "EAN-13 shown on retailer is identical to 12-digit UPC-A as listed (no leading-zero transformation).",
+          "photoCredit": "Official Ty product photograph",
+          "photoSourceUrl": "https://www.ty.com/product/giggles/37369.html?cgid=beanie-boos-circle&lang=default"
         },
         {
           "name": "Peetie",
@@ -523,13 +529,15 @@
           "figureNumber": "37410",
           "variantKey": "ty:beanie-boos:37410",
           "sourceUrl": "https://www.ty.com/product/melanie/37410.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/3e83589b00cf96f07973c4905b02fcdc_lg.png",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
           "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
           "upc": "008421374106",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.maziply.com/products/ty-beanie-babies-melanie-gold-cat-plush",
-          "barcodeVerification": "Retail listing explicitly matches character, Ty manufacturer model and UPC-A; check digit validated."
+          "barcodeVerification": "Retail listing explicitly matches character, Ty manufacturer model and UPC-A; check digit validated.",
+          "photoCredit": "Official Ty product photograph",
+          "photoSourceUrl": "https://www.ty.com/product/melanie/37410.html?cgid=beanie-boos&lang=en"
         },
         {
           "name": "Palmer",
@@ -537,14 +545,16 @@
           "figureNumber": "37407",
           "variantKey": "ty:beanie-boos:37407",
           "sourceUrl": "https://www.ty.com/product/palmer/37407.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/55ceb806c04eb392197b4fd1da0dbcfd_lg.png",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
           "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
           "upc": "008421374076",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.maziply.com/products/ty-beanie-babies-palmer-yellow-pomeranian-plush",
           "barcodeVerification": "Ty plush manufacturer 37407, name Palmer, and UPC explicitly published by retailer; independent second retailer matches; UPC-A checksum valid.",
-          "barcodeNote": "6-inch Palmer Pomeranian, not clip or larger format."
+          "barcodeNote": "6-inch Palmer Pomeranian, not clip or larger format.",
+          "photoCredit": "Official Ty product photograph",
+          "photoSourceUrl": "https://www.ty.com/product/palmer/37407.html?cgid=Animals&lang=default"
         },
         {
           "name": "Cuddles",
@@ -552,13 +562,15 @@
           "figureNumber": "37398",
           "variantKey": "ty:beanie-boos:37398",
           "sourceUrl": "https://www.ty.com/product/cuddles/37398.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/ff8bc04486ed678ff79b6cb204f7774c_lg.png",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
           "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
           "upc": "008421373987",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.just4fun.ca/shop/TY/p/CUDDLES---dog-wheart-reg-x98026155.htm",
-          "barcodeVerification": "Retail listing explicitly matches character, Ty manufacturer model and UPC-A; check digit validated."
+          "barcodeVerification": "Retail listing explicitly matches character, Ty manufacturer model and UPC-A; check digit validated.",
+          "photoCredit": "Official Ty product photograph",
+          "photoSourceUrl": "https://www.ty.com/product/cuddles/37398.html?cgid=Seasons&lang=en"
         },
         {
           "name": "Daphne",
@@ -583,14 +595,16 @@
           "figureNumber": "36386",
           "variantKey": "ty:beanie-boos:36386",
           "sourceUrl": "https://www.ty.com/product/eva/36386.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/008487b7e5b6ec8c2eadae2439e7b5c2_lg.png",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
           "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
           "upc": "008421363865",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/elefant-eva.html",
           "barcodeVerification": "Matching Ty Beanie Boos character and exact Ty model/MPN with published UPC or EAN listing; UPC-A check digit validated.",
-          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions."
+          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions.",
+          "photoCredit": "Official Ty product photograph",
+          "photoSourceUrl": "https://www.ty.com/product/eva/36386.html?cgid=undefined&lang=default"
         },
         {
           "name": "Fergus",
