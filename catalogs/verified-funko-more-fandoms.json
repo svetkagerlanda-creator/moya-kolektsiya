@@ -245,7 +245,11 @@
           "seriesNumber": "31528",
           "sourceUrl": "https://funko.com/pop-pikachu-standing/31528.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw891f30d6/images/funko/upload/1/31528_Pokemon_S1_Pikachu_POP_GLAMm-WEB.png?sh=800&sw=800",
-          "description": "Funko item 31528; box 353"
+          "description": "Funko item 31528; box 353",
+          "upc": "889698315289",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toytooth.com/products/funko-31528-pop-games-pokemon-s1-pikachu",
+          "barcodeVerification": "Exact item number, POP box number and UPC shown in retailer/collector product listing; valid check digit"
         },
         {
           "name": "Mr. Mime",
@@ -534,7 +538,11 @@
           "seriesNumber": "91717",
           "sourceUrl": "https://funko.com/pop-hello-kitty-in-kimono/91717.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwd60a2d62/images/funko/upload/1/91717_HK_Kimono_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 91717; box 135"
+          "description": "Funko item 91717; box 135",
+          "upc": "889698917179",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/p/11087651132",
+          "barcodeVerification": "Exact item number, POP box number and UPC shown in retailer/collector product listing; valid check digit"
         },
         {
           "name": "Hello Kitty with Airplane Balloon",
@@ -545,7 +553,11 @@
           "seriesNumber": "92223",
           "sourceUrl": "https://funko.com/pop-hello-kitty-with-airplane-balloon/92223.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw3103edd9/images/funko/upload/1/92223_HK_HKWithPlane_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 92223; box 144"
+          "description": "Funko item 92223; box 144",
+          "upc": "889698922234",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/p/16087659994",
+          "barcodeVerification": "Exact item number, POP box number and UPC shown in retailer/collector product listing; valid check digit"
         },
         {
           "name": "Cinnamoroll as Penguin",
