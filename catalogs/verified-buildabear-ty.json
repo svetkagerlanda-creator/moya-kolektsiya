@@ -303,6 +303,302 @@
         }
       ],
       "count": 15
+    },
+    {
+      "name": "Ty · Beanie Bellies · 8-inch Selected Releases",
+      "manufacturer": "Ty",
+      "fandomKey": "ty",
+      "group": "🧸 Ty · Beanie Bellies",
+      "source": "https://www.ty.com/catalog/beanie-bellies/?lang=en",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "notes": "Official Ty product pages and product IDs; distinct sizes receive separate records. UPC blank unless verified by retailer.",
+      "items": [
+        {
+          "name": "Loxie",
+          "manufacturer": "Ty",
+          "figureNumber": "41518",
+          "variantKey": "ty:beanie-bellies:41518",
+          "sourceUrl": "https://www.ty.com/product/loxie/41518.html?cgid=beanie-bellies&lang=en",
+          "photo": "",
+          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+        },
+        {
+          "name": "Toffee",
+          "manufacturer": "Ty",
+          "figureNumber": "37393",
+          "variantKey": "ty:beanie-bellies:37393",
+          "sourceUrl": "https://www.ty.com/product/toffee/37393.html?cgid=beanie-bellies&lang=en",
+          "photo": "https://cdn.ty.com/static/images/922d496dfdb683dc6fb70405981abd8e_lg.png",
+          "photoCredit": "Ty official product image linked from exact item page",
+          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+        },
+        {
+          "name": "Henrietta",
+          "manufacturer": "Ty",
+          "figureNumber": "37394",
+          "variantKey": "ty:beanie-bellies:37394",
+          "sourceUrl": "https://www.ty.com/product/henrietta/37394.html?cgid=beanie-bellies&lang=en",
+          "photo": "",
+          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+        },
+        {
+          "name": "Lara",
+          "manufacturer": "Ty",
+          "figureNumber": "37391",
+          "variantKey": "ty:beanie-bellies:37391",
+          "sourceUrl": "https://www.ty.com/product/lara/37391.html?cgid=beanie-bellies&lang=en",
+          "photo": "https://cdn.ty.com/static/images/2bdae8fe5a595c9f8313892c326f0a66_lg.png",
+          "photoCredit": "Ty official product image linked from exact item page",
+          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+        },
+        {
+          "name": "Stella",
+          "manufacturer": "Ty",
+          "figureNumber": "41511",
+          "variantKey": "ty:beanie-bellies:41511",
+          "sourceUrl": "https://www.ty.com/product/stella/41511.html?cgid=beanie-bellies&lang=en",
+          "photo": "",
+          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+        },
+        {
+          "name": "Silas",
+          "manufacturer": "Ty",
+          "figureNumber": "40545",
+          "variantKey": "ty:beanie-bellies:40545",
+          "sourceUrl": "https://www.ty.com/product/silas/40545.html?cgid=beanie-bellies&lang=en",
+          "photo": "",
+          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+        },
+        {
+          "name": "Lillibelle",
+          "manufacturer": "Ty",
+          "figureNumber": "41283",
+          "variantKey": "ty:beanie-bellies:41283",
+          "sourceUrl": "https://www.ty.com/product/lillibelle/41283.html?cgid=beanie-bellies&lang=en",
+          "photo": "",
+          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+        },
+        {
+          "name": "Lloyd",
+          "manufacturer": "Ty",
+          "figureNumber": "41282",
+          "variantKey": "ty:beanie-bellies:41282",
+          "sourceUrl": "https://www.ty.com/product/lloyd/41282.html?cgid=beanie-bellies&lang=en",
+          "photo": "",
+          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+        }
+      ],
+      "count": 8
+    },
+    {
+      "name": "Ty · Squishy Beanies (Squish-a-Boos) · Selected Releases",
+      "manufacturer": "Ty",
+      "fandomKey": "ty",
+      "group": "🧸 Ty · Squishy Beanies",
+      "source": "https://www.ty.com/catalog/sab/?lang=en",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "notes": "Official Ty catalogue identifies line and named SKU; avoid conflating 5, 10 and 14-inch sizes, do not substitute code for UPC.",
+      "items": [
+        {
+          "name": "Nessa",
+          "manufacturer": "Ty",
+          "figureNumber": "39237",
+          "variantKey": "ty:squishy-beanies:39237",
+          "sourceUrl": "https://www.ty.com/product/nessa/39237.html?cgid=sab&lang=en",
+          "photo": "",
+          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag."
+        },
+        {
+          "name": "Charlie",
+          "manufacturer": "Ty",
+          "figureNumber": "39394",
+          "variantKey": "ty:squishy-beanies:39394",
+          "sourceUrl": "https://www.ty.com/product/charlie/39394.html?cgid=sab&lang=en",
+          "photo": "",
+          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag."
+        },
+        {
+          "name": "Finsley",
+          "manufacturer": "Ty",
+          "figureNumber": "39268",
+          "variantKey": "ty:squishy-beanies:39268",
+          "sourceUrl": "https://www.ty.com/product/finsley/39268.html?cgid=sab&lang=en",
+          "photo": "",
+          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag."
+        },
+        {
+          "name": "Lucy",
+          "manufacturer": "Ty",
+          "figureNumber": "39395",
+          "variantKey": "ty:squishy-beanies:39395",
+          "sourceUrl": "https://www.ty.com/product/lucy/39395.html?cgid=sab&lang=en",
+          "photo": "",
+          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag."
+        },
+        {
+          "name": "Sneaky",
+          "manufacturer": "Ty",
+          "figureNumber": "39285",
+          "variantKey": "ty:squishy-beanies:39285",
+          "sourceUrl": "https://www.ty.com/product/sneaky/39285.html?cgid=sab&lang=en",
+          "photo": "https://cdn.ty.com/static/images/22133ea4fd96196a46d34652ef93bbb3_lg.png",
+          "photoCredit": "Ty official product image linked from exact item page",
+          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag."
+        },
+        {
+          "name": "Snapper",
+          "manufacturer": "Ty",
+          "figureNumber": "39276",
+          "variantKey": "ty:squishy-beanies:39276",
+          "sourceUrl": "https://www.ty.com/product/snapper/39276.html?cgid=sab&lang=en",
+          "photo": "",
+          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag."
+        },
+        {
+          "name": "Kiki",
+          "manufacturer": "Ty",
+          "figureNumber": "39290",
+          "variantKey": "ty:squishy-beanies:39290",
+          "sourceUrl": "https://www.ty.com/product/kiki/39290.html?cgid=sab&lang=en",
+          "photo": "",
+          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag."
+        },
+        {
+          "name": "Dotty",
+          "manufacturer": "Ty",
+          "figureNumber": "39286",
+          "variantKey": "ty:squishy-beanies:39286",
+          "sourceUrl": "https://www.ty.com/product/dotty/39286.html?cgid=sab&lang=en",
+          "photo": "",
+          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag."
+        },
+        {
+          "name": "Slush",
+          "manufacturer": "Ty",
+          "figureNumber": "39293",
+          "variantKey": "ty:squishy-beanies:39293",
+          "sourceUrl": "https://www.ty.com/product/slush/39293.html?cgid=sab&lang=en",
+          "photo": "",
+          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag."
+        },
+        {
+          "name": "Pinky",
+          "manufacturer": "Ty",
+          "figureNumber": "39300",
+          "variantKey": "ty:squishy-beanies:39300",
+          "sourceUrl": "https://www.ty.com/product/pinky/39300.html?cgid=sab&lang=en",
+          "photo": "",
+          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag."
+        },
+        {
+          "name": "Fetch",
+          "manufacturer": "Ty",
+          "figureNumber": "39318",
+          "variantKey": "ty:squishy-beanies:39318",
+          "sourceUrl": "https://www.ty.com/product/fetch/39318.html?cgid=sab&lang=en",
+          "photo": "",
+          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag."
+        }
+      ],
+      "count": 11
+    },
+    {
+      "name": "Build-A-Bear Workshop · Disney · Stitch Character Plush",
+      "manufacturer": "Build-A-Bear Workshop",
+      "fandomKey": "disney",
+      "group": "🧸 Build-A-Bear Workshop · Disney",
+      "source": "https://www.buildabear.com/stuffed-animals/shop-by-character/stitch",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "notes": "Only individual plush bodies, not gift bundles. Exact SKU from official item page; accessories are separate inventory.",
+      "items": [
+        {
+          "name": "Disney Stitch Plush",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Stitch",
+          "figureNumber": "028682",
+          "variantKey": "buildabear:disney:stitch:028682",
+          "sourceUrl": "https://www.buildabear.com/disney-stitch-plush/028682.html",
+          "photo": "",
+          "description": "Individual Disney Stitch-universe plush from official Build-A-Bear catalogue. Maker SKU, not UPC; costume and accessories counted separately."
+        },
+        {
+          "name": "Disney Angel Plush",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Angel",
+          "figureNumber": "029058",
+          "variantKey": "buildabear:disney:stitch:029058",
+          "sourceUrl": "https://www.buildabear.com/disney-angel-plush/029058.html",
+          "photo": "",
+          "description": "Individual Disney Stitch-universe plush from official Build-A-Bear catalogue. Maker SKU, not UPC; costume and accessories counted separately."
+        },
+        {
+          "name": "Disney Experiment 626 Stitch Plush",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Experiment 626 Stitch",
+          "figureNumber": "033677",
+          "variantKey": "buildabear:disney:stitch:033677",
+          "sourceUrl": "https://www.buildabear.com/disney-stitch-experiment-626-plush/033677.html",
+          "photo": "",
+          "description": "Individual Disney Stitch-universe plush from official Build-A-Bear catalogue. Maker SKU, not UPC; costume and accessories counted separately."
+        },
+        {
+          "name": "Disney Leroy Plush",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Leroy",
+          "figureNumber": "034339",
+          "variantKey": "buildabear:disney:stitch:034339",
+          "sourceUrl": "https://www.buildabear.com/disney-lilo-and-stitch-leroy-plush/034339.html",
+          "photo": "",
+          "description": "Individual Disney Stitch-universe plush from official Build-A-Bear catalogue. Maker SKU, not UPC; costume and accessories counted separately."
+        }
+      ],
+      "count": 4
+    },
+    {
+      "name": "Build-A-Bear Workshop · Pokémon · Identified Plush Editions",
+      "manufacturer": "Build-A-Bear Workshop",
+      "fandomKey": "pokemon",
+      "group": "🧸 Build-A-Bear Workshop · Pokémon",
+      "source": "https://www.buildabear.com/the-bear-cave/collabs/pokemon",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "notes": "Official product listings. Packaging bundles do not count as multiple plush bodies; 25th Anniversary male/female SKUs are separate identifiable variants.",
+      "items": [
+        {
+          "name": "Pokémon Pikachu with 6-in-1 Sound",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Pikachu",
+          "figureNumber": "329837",
+          "variantKey": "buildabear:pokemon:pikachu:329837",
+          "sourceUrl": "https://www.buildabear.com/pokemon-pikachu-plush-hoodie-bundle/329837_23396_25440.html",
+          "photo": "",
+          "description": "Individual plush body SKU identified in official bundle details; no other bundle parts counted as separate plush. No barcode assigned without direct retail evidence."
+        },
+        {
+          "name": "Pokémon 25th Celebration Pikachu (Female) with Sound",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Pikachu",
+          "figureNumber": "330433",
+          "variantKey": "buildabear:pokemon:pikachu:330433",
+          "sourceUrl": "https://www.buildabear.com/build-a-bear-25th-celebration-pokemon-pikachu-%28female%29-plush-bundle/330433_30309_30307.html",
+          "photo": "",
+          "description": "Individual plush body SKU identified in official bundle details; no other bundle parts counted as separate plush. No barcode assigned without direct retail evidence."
+        },
+        {
+          "name": "Pokémon 25th Celebration Pikachu with Sound",
+          "manufacturer": "Build-A-Bear Workshop",
+          "character": "Pikachu",
+          "figureNumber": "330434",
+          "variantKey": "buildabear:pokemon:pikachu:330434",
+          "sourceUrl": "https://www.buildabear.com/build-a-bear-25th-celebration-pokemon-pikachu-plush-bundle/330434_30310_30311.html",
+          "photo": "",
+          "description": "Individual plush body SKU identified in official bundle details; no other bundle parts counted as separate plush. No barcode assigned without direct retail evidence."
+        }
+      ],
+      "count": 3
     }
   ]
 }
