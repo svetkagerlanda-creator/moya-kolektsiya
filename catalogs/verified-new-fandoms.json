@@ -16231,6 +16231,27 @@
           "photoStatus": "cross-catalog-exact-release-thumbnail; image-content-not-independently-reviewed"
         }
       ]
+    },
+    {
+      "name": "Bratz · Holidayz Frosty Nightz",
+      "verified": true,
+      "completeness": "verified-full-series",
+      "source": "https://www.bratz.com/products/bratz-holidayz-frosty-nightz-collector-doll",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "💄 Bratz",
+      "count": 1,
+      "items": [
+        {
+          "name": "Holidayz Frosty Nightz Collector Doll - Cloe",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-holidayz-frosty-nightz-collector-doll",
+          "photo": "",
+          "sku": "544906",
+          "description": "Official Bratz Holidayz Frosty Nightz collector doll of Cloe; white winter couture gown, faux-fur scarf, white heels and blue rose ice cube purse. SKU 544906 is not a verified UPC/EAN."
+        }
+      ]
     }
   ]
 }
