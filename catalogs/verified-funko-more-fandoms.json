@@ -453,7 +453,11 @@
           "seriesNumber": "62396",
           "sourceUrl": "https://funko.com/pop-will/62396.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw94f81ba9/images/funko/62396-1.png?sh=800&sw=800",
-          "description": "Funko item 62396; box 1242"
+          "description": "Funko item 62396; box 1242",
+          "upc": "889698623964",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/stranger-things-season-4-will-funko-pop-vinyl-figure-1242/fu62396",
+          "barcodeVerification": "Item-specific retail listing explicitly states UPC and matching box number; GTIN check digit verified"
         },
         {
           "name": "Max",
@@ -464,7 +468,11 @@
           "seriesNumber": "62399",
           "sourceUrl": "https://funko.com/pop-max/62399.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw7a6a947c/images/funko/62399-1.png?sh=800&sw=800",
-          "description": "Funko item 62399; box 1243"
+          "description": "Funko item 62399; box 1243",
+          "upc": "889698623995",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/stranger-things-season-4-max-funko-pop-vinyl-figure-1243/fu62399",
+          "barcodeVerification": "Item-specific retail listing explicitly states UPC and matching box number; GTIN check digit verified"
         },
         {
           "name": "Henry (001)",
@@ -475,7 +483,11 @@
           "seriesNumber": "72136",
           "sourceUrl": "https://funko.com/pop-henry-001/72136.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw3957cf1b/images/funko/upload/72136_StrangerThings_Henry001_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 72136; box 1458"
+          "description": "Funko item 72136; box 1458",
+          "upc": "889698721363",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.fantasy-shop.gr/en/pop-henry-001-stranger-things-1458.html",
+          "barcodeVerification": "Item-specific retail listing explicitly states UPC and matching box number; GTIN check digit verified"
         },
         {
           "name": "Vecna",
@@ -486,7 +498,11 @@
           "seriesNumber": "65632",
           "sourceUrl": "https://funko.com/pop-vecna/65632.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwd70ea88a/images/funko/65632-1.png?sh=800&sw=800",
-          "description": "Funko item 65632; box 1312"
+          "description": "Funko item 65632; box 1312",
+          "upc": "889698656320",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.shopforgeek.com/en/STRANGER-THINGS-S4-POP-N-1312-VECNA-POINTANT-208104.html",
+          "barcodeVerification": "Item-specific retail listing explicitly states UPC and matching box number; GTIN check digit verified"
         },
         {
           "name": "Robin Buckley with Flashlight",
@@ -497,7 +513,11 @@
           "seriesNumber": "88521",
           "sourceUrl": "https://funko.com/pop-robin-buckley-with-flashlight/88521.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw637038fd/images/funko/upload/1/88521_POP_ST_S5_POP-16_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 88521; box 1799"
+          "description": "Funko item 88521; box 1799",
+          "upc": "889698885218",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-94854675",
+          "barcodeVerification": "Item-specific retail listing explicitly states UPC and matching box number; GTIN check digit verified"
         },
         {
           "name": "Dustin Henderson with Flashlight",
@@ -508,7 +528,11 @@
           "seriesNumber": "88959",
           "sourceUrl": "https://funko.com/pop-dustin-henderson-with-flashlight/88959.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw030903f8/images/funko/upload/1/88959_POP_ST_S5_POP-12_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 88959; box 1796"
+          "description": "Funko item 88959; box 1796",
+          "upc": "889698889599",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-94854670",
+          "barcodeVerification": "Item-specific retail listing explicitly states UPC and matching box number; GTIN check digit verified"
         }
       ]
     },
