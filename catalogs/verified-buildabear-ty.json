@@ -87,8 +87,10 @@
           "figureNumber": "033949",
           "variantKey": "buildabear:sanrio:mini-beans:033949",
           "sourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-cinnamoroll-plush/033949.html",
-          "photo": "",
-          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод."
+          "photo": "https://www.buildabear.co.uk/on/demandware.static/-/Sites-buildabear-master/default/dwbebdf619/82240812333949~x20001110.jpg",
+          "description": "Окремий випуск Mini Beans: не об’єднувати зі стандартним плюшевим персонажем. SKU виробника, не штрихкод.",
+          "photoCredit": "Build-A-Bear UK exact Mini Beans Cinnamoroll (UK SKU 433949, US SKU 033949)",
+          "photoSourceUrl": "https://www.buildabear.com/build-a-bear-mini-beans-sanrio-hello-kitty-and-friends-cinnamoroll-plush/033949.html"
         },
         {
           "name": "Mini Beans · Kuromi",
@@ -320,8 +322,15 @@
           "figureNumber": "41518",
           "variantKey": "ty:beanie-bellies:41518",
           "sourceUrl": "https://www.ty.com/product/loxie/41518.html?cgid=beanie-bellies&lang=en",
-          "photo": "",
-          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+          "photo": "https://i.pepita.hu/images/product/28039197/ty-beanie-bellies-pluss-figura-loxie-15-cm-axolotl_165649909_500x500.jpg",
+          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging.",
+          "upc": "008421415182",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://ateneum.pl/pozycja.php?id=773406",
+          "barcodeVerification": "Retailer or distributor identifies exactly this Ty character and Ty model with matching EAN-13 or UPC-A; check digit validated.",
+          "barcodeNote": "UPC-A individual sealed retail product, not Ty manufacturer article number.",
+          "photoCredit": "Pepita.hu photo of Loxie Beanie Bellies 15 cm",
+          "photoSourceUrl": "https://www.ty.com/product/loxie/41518.html?cgid=beanie-bellies&lang=en"
         },
         {
           "name": "Toffee",
@@ -331,7 +340,12 @@
           "sourceUrl": "https://www.ty.com/product/toffee/37393.html?cgid=beanie-bellies&lang=en",
           "photo": "https://cdn.ty.com/static/images/922d496dfdb683dc6fb70405981abd8e_lg.png",
           "photoCredit": "Ty official product image linked from exact item page",
-          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging.",
+          "upc": "008421373932",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-bellies/hund-toffee-braun.html",
+          "barcodeVerification": "Retailer or distributor identifies exactly this Ty character and Ty model with matching EAN-13 or UPC-A; check digit validated.",
+          "barcodeNote": "UPC-A individual sealed retail product, not Ty manufacturer article number."
         },
         {
           "name": "Henrietta",
@@ -339,8 +353,15 @@
           "figureNumber": "37394",
           "variantKey": "ty:beanie-bellies:37394",
           "sourceUrl": "https://www.ty.com/product/henrietta/37394.html?cgid=beanie-bellies&lang=en",
-          "photo": "",
-          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+          "photo": "https://www.toyworld.com.au/cdn/shop/files/T14-37394.jpg?v=1767848427",
+          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging.",
+          "upc": "008421373949",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://makimo.de/products/ty-beanie-bellies-henrietta-nilpferd-kuscheltier",
+          "barcodeVerification": "Retailer or distributor identifies exactly this Ty character and Ty model with matching EAN-13 or UPC-A; check digit validated.",
+          "barcodeNote": "UPC-A individual sealed retail product, not Ty manufacturer article number.",
+          "photoCredit": "Toyworld Australia exact SKU 37394",
+          "photoSourceUrl": "https://www.ty.com/product/henrietta/37394.html?cgid=beanie-bellies&lang=en"
         },
         {
           "name": "Lara",
@@ -350,7 +371,12 @@
           "sourceUrl": "https://www.ty.com/product/lara/37391.html?cgid=beanie-bellies&lang=en",
           "photo": "https://cdn.ty.com/static/images/2bdae8fe5a595c9f8313892c326f0a66_lg.png",
           "photoCredit": "Ty official product image linked from exact item page",
-          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging.",
+          "upc": "008421373918",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://akvarel.com/catalog/product/552729",
+          "barcodeVerification": "Retailer or distributor identifies exactly this Ty character and Ty model with matching EAN-13 or UPC-A; check digit validated.",
+          "barcodeNote": "UPC-A individual sealed retail product, not Ty manufacturer article number."
         },
         {
           "name": "Stella",
@@ -368,7 +394,12 @@
           "variantKey": "ty:beanie-bellies:40545",
           "sourceUrl": "https://www.ty.com/product/silas/40545.html?cgid=beanie-bellies&lang=en",
           "photo": "",
-          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+          "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging.",
+          "upc": "008421405459",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-bellies/faultier-silas-hellgrau.html",
+          "barcodeVerification": "Retailer or distributor identifies exactly this Ty character and Ty model with matching EAN-13 or UPC-A; check digit validated.",
+          "barcodeNote": "UPC-A individual sealed retail product, not Ty manufacturer article number."
         },
         {
           "name": "Lillibelle",
@@ -521,8 +552,10 @@
           "figureNumber": "028682",
           "variantKey": "buildabear:disney:stitch:028682",
           "sourceUrl": "https://www.buildabear.com/disney-stitch-plush/028682.html",
-          "photo": "",
-          "description": "Individual Disney Stitch-universe plush from official Build-A-Bear catalogue. Maker SKU, not UPC; costume and accessories counted separately."
+          "photo": "https://www.buildabear.com/on/demandware.static/-/Sites-buildabear-master/default/dw13a57bed/97231211228682x20919010.jpg",
+          "description": "Individual Disney Stitch-universe plush from official Build-A-Bear catalogue. Maker SKU, not UPC; costume and accessories counted separately.",
+          "photoCredit": "Official Build-A-Bear 028682 image",
+          "photoSourceUrl": "https://www.buildabear.com/disney-stitch-plush/028682.html"
         },
         {
           "name": "Disney Angel Plush",
