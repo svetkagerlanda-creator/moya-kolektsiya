@@ -20,7 +20,12 @@
           "seriesNumber": "49010",
           "sourceUrl": "https://funko.com/pop-tanjiro-kamado/49010.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw65414352/images/funko/49010-1.png?sh=800&sw=800",
-          "description": "Funko item 49010; box number not checked"
+          "description": "Funko item 49010; box number not checked",
+          "upc": "889698490108",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-demon-slayer-kimetsu-no-yaiba-tanjiro-kamado-4.25-in-vinyl-figure/211883.html",
+          "barcodeVerification": "Specific physical Funko release and published retail UPC paired in source; check digit verified",
+          "barcodeNote": "Funko 49010 / box 867"
         },
         {
           "name": "Nezuko Kamado (Demon Form)",
@@ -46,7 +51,12 @@
           "seriesNumber": "80332",
           "sourceUrl": "https://funko.com/pop-gyutaro/80332.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwefbdde61/images/funko/upload/80332_DemonSlayer_S6_Gyutaro_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 80332"
+          "description": "Funko item 80332",
+          "upc": "889698803328",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/demon-slayer-gyutaro-with-blood-sickles-funko-pop-vinyl-figure-1751/fu80332",
+          "barcodeVerification": "Specific physical Funko release and published retail UPC paired in source; check digit verified",
+          "barcodeNote": "Gyutaro with Blood Sickles / Funko 80332 / box 1751"
         },
         {
           "name": "Kaigaku",
@@ -94,7 +104,12 @@
           "seriesNumber": "92021",
           "sourceUrl": "https://funko.com/pop-muzan-kibutsuji-bloody/92021.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw4e25a42b/images/funko/upload/1/92021_DS_MuzanBDBW_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 92021"
+          "description": "Funko item 92021",
+          "upc": "889698920216",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.shopforgeek.com/en/DEMON-SLAYER-POP-ANIMATION-N-2212-MUZAN-KIBUTSUJI-BLOODY-246668.html",
+          "barcodeVerification": "Specific physical Funko release and published retail UPC paired in source; check digit verified",
+          "barcodeNote": "Bloody #2212 / Funko 92021; do not mistake for standard Muzan"
         }
       ]
     },
@@ -741,7 +756,12 @@
           "seriesNumber": "54463",
           "sourceUrl": "https://funko.com/pop-bonekichi/54463.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw51a56603/images/funko/54463-1.png?sh=800&sw=800",
-          "description": "Funko item 54463"
+          "description": "Funko item 54463",
+          "upc": "889698544634",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/itm/126497316939",
+          "barcodeVerification": "Specific physical Funko release and published retail UPC paired in source; check digit verified",
+          "barcodeNote": "Bonekichi #924, Funko 54463"
         },
         {
           "name": "Monkey D. Luffy (Whole Cake Arc)",
