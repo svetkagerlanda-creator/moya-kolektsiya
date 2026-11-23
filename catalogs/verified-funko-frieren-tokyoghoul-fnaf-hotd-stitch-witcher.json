@@ -65,7 +65,12 @@
           "seriesNumber": "75520",
           "sourceUrl": "https://funko.com/pop-ken-kaneki-final-battle/75520.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwe84b3e9c/images/funko/upload/75520_TokyoGhoulRE_KenKanekiFinalBattle_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 75520; box #1542"
+          "description": "Funko item 75520; box #1542",
+          "upc": "889698755207",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/tokyo-ghoulre-ken-kaneki-final-battle-funko-pop-vinyl-figure-1542/fu75520",
+          "barcodeVerification": "UPC and exact boxed Funko release published together; checksum validated",
+          "barcodeNote": "Final Battle #1542, Funko SKU 75520"
         },
         {
           "name": "Half-Kakuja Kaneki",
@@ -173,7 +178,12 @@
           "seriesNumber": "84436",
           "sourceUrl": "https://funko.com/pop-rides-deluxe-aemond-targaryen-with-vhagar/84436.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwe340b66f/images/funko/upload/84436_HotD_AemondWithVhagar_POP_RIDE_SUPERDELUXE_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 84436; box #136"
+          "description": "Funko item 84436; box #136",
+          "upc": "889698844369",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.figurerealm.com/actionfigure?action=actionfigure&id=137855",
+          "barcodeVerification": "UPC and exact boxed Funko release published together; checksum validated",
+          "barcodeNote": "One Rides Deluxe set with dragon, not a single Aemond Pop"
         }
       ]
     },
@@ -254,7 +264,12 @@
           "seriesNumber": "45039",
           "sourceUrl": "https://funko.com/ca/pop-geralt-igni/45039.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwb110bbc7/images/funko/45039-1.png?sh=800&sw=800",
-          "description": "Funko item 45039; box #554"
+          "description": "Funko item 45039; box #554",
+          "upc": "889698450393",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.hobbydb.com/marketplaces/hobbydb/collectibles/63528977",
+          "barcodeVerification": "UPC and exact boxed Funko release published together; checksum validated",
+          "barcodeNote": "Specific Igni / Glow-in-the-Dark #554, Funko 45039"
         }
       ]
     }
