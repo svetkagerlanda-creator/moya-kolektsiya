@@ -1,6 +1,6 @@
 (()=>{
 const BASE='https://nihheolmwvkgtvtmfzsv.supabase.co',KEY='sb_publishable_M_mIhlp0ZqintLb0ONy8BQ_SzEBCAT0';
-const state={id:'',profile:null,people:[],posts:[],likes:[],comments:[],follows:[],fandoms:[],fandomFollows:[],collectionSummaries:[],followList:null,returnTo:null,tab:'profile',feedMode:'all',person:null,editing:false,posting:false,editingPostId:null,acquisitionDraft:null,loaded:false,loading:false,error:'',refresh:null};
+const state={id:'',profile:null,people:[],posts:[],likes:[],comments:[],follows:[],fandoms:[],fandomFollows:[],collectionSummaries:[],followList:null,returnTo:null,tab:'profile',feedMode:'all',person:null,editing:false,avatarDraft:null,posting:false,editingPostId:null,acquisitionDraft:null,loaded:false,loading:false,error:'',refresh:null};
 const ACCOUNT_TABS=new Set(['profile','feed','people','fandoms','chats']);
 const viewStorageKey=userId=>'collector-account-view-v1:'+userId;
 function restoreAccountView(userId){
@@ -117,7 +117,7 @@ function profileCard(p){
 }
 function editForm(p){
  const fields=Object.entries({instagram:'Instagram',tiktok:'TikTok',telegram:'Telegram',youtube:'YouTube',booknet:'Букнет',website:'Сайт'}).map(([k,n])=>'<label>'+n+'<input class="field" type="url" name="'+k+'" placeholder="https://..." value="'+escape(p.social_links?.[k]||'')+'"></label>').join('');
- return '<form class="card form" id="scEdit"><h3>Налаштування профілю</h3><label>Аватар (до 3 МБ)<input class="field" name="avatar" type="file" accept="image/jpeg,image/png,image/webp"></label><label>Обкладинка профілю (до 3 МБ)<input class="field" name="cover" type="file" accept="image/jpeg,image/png,image/webp"></label><button class="btn" id="scOpenBannerEditor" type="button">✎ Редагувати кадр банера</button><div class="sc-cover-editor"><div class="sc-cover-help">Перетягни зображення, щоб вибрати видиму частину банера, або скористайся повзунками.</div><div class="sc-cover-preview" id="scCoverPreview" tabindex="0" role="img" aria-label="Попередній перегляд кадрування обкладинки" style="'+(media(p.cover_path)?'background-image:url(&quot;'+escape(media(p.cover_path))+'&quot;);':'')+cropStyle(p)+'"></div><label>Горизонтально <output id="scCropXLabel">'+cropNumber(p.cover_position_x)+'%</output><input class="field" type="range" name="cover_position_x" min="0" max="100" step="1" value="'+cropNumber(p.cover_position_x)+'"></label><label>Вертикально <output id="scCropYLabel">'+cropNumber(p.cover_position_y)+'%</output><input class="field" type="range" name="cover_position_y" min="0" max="100" step="1" value="'+cropNumber(p.cover_position_y)+'"></label><button class="alt" type="button" id="scCropCenter">Центрувати зображення</button></div><label class="sc-check"><input type="checkbox" name="remove_cover"> Повернути стандартний градієнт</label><label>Ім’я<input class="field" name="display_name" maxlength="80" value="'+escape(p.display_name)+'"></label><label>Про себе<textarea class="field" name="bio" maxlength="1200" rows="4">'+escape(p.bio)+'</textarea></label><div class="sc-fields">'+fields+'</div><label class="sc-check"><input type="checkbox" name="is_discoverable" '+(p.is_discoverable?'checked':'')+'> Мій профіль публічний</label><div class="muted">Відкритий профіль дозволяє підписуватися на тебе і бачити добровільно опубліковані придбання.</div><div class="sc-actions"><button class="btn" type="submit">Зберегти</button><button class="alt" data-sc="cancel-edit" type="button">Скасувати</button></div></form>';
+ return '<form class="card form" id="scEdit"><h3>Налаштування профілю</h3><label>Аватар (автоматичне стиснення до 3 МБ)<input class="field" name="avatar" type="file" accept="image/*"></label><p class="muted" id="scAvatarSelection" role="status">'+(state.avatarDraft?'✓ Вибрано: '+escape(state.avatarDraft.name):'Оберіть фото з галереї або файлів')+'</p><label>Обкладинка профілю (до 3 МБ)<input class="field" name="cover" type="file" accept="image/jpeg,image/png,image/webp"></label><button class="btn" id="scOpenBannerEditor" type="button">✎ Редагувати кадр банера</button><div class="sc-cover-editor"><div class="sc-cover-help">Перетягни зображення, щоб вибрати видиму частину банера, або скористайся повзунками.</div><div class="sc-cover-preview" id="scCoverPreview" tabindex="0" role="img" aria-label="Попередній перегляд кадрування обкладинки" style="'+(media(p.cover_path)?'background-image:url(&quot;'+escape(media(p.cover_path))+'&quot;);':'')+cropStyle(p)+'"></div><label>Горизонтально <output id="scCropXLabel">'+cropNumber(p.cover_position_x)+'%</output><input class="field" type="range" name="cover_position_x" min="0" max="100" step="1" value="'+cropNumber(p.cover_position_x)+'"></label><label>Вертикально <output id="scCropYLabel">'+cropNumber(p.cover_position_y)+'%</output><input class="field" type="range" name="cover_position_y" min="0" max="100" step="1" value="'+cropNumber(p.cover_position_y)+'"></label><button class="alt" type="button" id="scCropCenter">Центрувати зображення</button></div><label class="sc-check"><input type="checkbox" name="remove_cover"> Повернути стандартний градієнт</label><label>Ім’я<input class="field" name="display_name" maxlength="80" value="'+escape(p.display_name)+'"></label><label>Про себе<textarea class="field" name="bio" maxlength="1200" rows="4">'+escape(p.bio)+'</textarea></label><div class="sc-fields">'+fields+'</div><label class="sc-check"><input type="checkbox" name="is_discoverable" '+(p.is_discoverable?'checked':'')+'> Мій профіль публічний</label><div class="muted">Відкритий профіль дозволяє підписуватися на тебе і бачити добровільно опубліковані придбання.</div><div class="sc-actions"><button class="btn" type="submit">Зберегти</button><button class="alt" data-sc="cancel-edit" type="button">Скасувати</button></div></form>';
 }
 function createForm(){
  const draft=state.acquisitionDraft;
@@ -165,7 +165,7 @@ function feed(){
 }
 function render(session){
  const id=getId(session);if(!id)return '<div class="banner">Сеанс завершився. Увійди повторно.</div>';
- if(state.id!==id)Object.assign(state,{id,profile:null,people:[],posts:[],likes:[],comments:[],follows:[],fandoms:[],fandomFollows:[],collectionSummaries:[],tab:'profile',feedMode:'all',person:null,loaded:false,loading:false,editing:false,editingPostId:null,posting:!!state.acquisitionDraft,...restoreAccountView(id)});
+ if(state.id!==id)Object.assign(state,{id,profile:null,people:[],posts:[],likes:[],comments:[],follows:[],fandoms:[],fandomFollows:[],collectionSummaries:[],tab:'profile',feedMode:'all',person:null,loaded:false,loading:false,editing:false,avatarDraft:null,editingPostId:null,posting:!!state.acquisitionDraft,...restoreAccountView(id)});
  if(state.person&&state.loaded&&!state.people.some(p=>p.id===state.person))state.person=null;
  rememberAccountView();
  const p=state.person?person(state.person):state.profile;
@@ -302,6 +302,12 @@ function attach(session,refresh){
  if(edit){
   document.getElementById('scOpenBannerEditor')?.addEventListener('click',()=>{if(window.CollectorBannerCrop?.open)window.CollectorBannerCrop.open(edit.elements.cover.files?.[0]||null);else alert('Редактор ще не завантажився. Онови сторінку.')});
   const f=edit.elements,preview=document.getElementById('scCoverPreview');
+   const avatarNotice=document.getElementById('scAvatarSelection');
+   f.avatar.addEventListener('change',()=>{
+    const selected=f.avatar.files?.[0]||null;
+    state.avatarDraft=selected;
+    if(avatarNotice)avatarNotice.textContent=selected?'✓ Вибрано: '+selected.name:'Фото не вибрано';
+   });
   let objectUrl=null;
   const updateCrop=()=>{
    const x=cropNumber(f.cover_position_x.value),y=cropNumber(f.cover_position_y.value);
@@ -360,7 +366,8 @@ function attach(session,refresh){
  if(edit)edit.onsubmit=async ev=>{ev.preventDefault();let btn=edit.querySelector('button[type=submit]');btn.disabled=true;try{
   const f=edit.elements,social={};for(let k of ['instagram','tiktok','telegram','youtube','booknet','website']){let v=f[k].value.trim();if(v){if(!link(v))throw Error('Посилання на '+k+' має починатися з https://');social[k]=v}}
   let values={display_name:f.display_name.value.trim(),bio:f.bio.value.trim(),social_links:social,is_discoverable:f.is_discoverable.checked};
-  if(f.avatar.files[0])values.avatar_path=await upload(await prepareAvatar(f.avatar.files[0]),'avatars');
+  const avatarFile=f.avatar.files?.[0]||state.avatarDraft;
+   if(avatarFile)values.avatar_path=await upload(await prepareAvatar(avatarFile),'avatars');
   values.cover_position_x=cropNumber(f.cover_position_x.value);
   values.cover_position_y=cropNumber(f.cover_position_y.value);
   if(f.cover.files[0])values.cover_path=await upload(f.cover.files[0],'covers');
@@ -370,7 +377,7 @@ function attach(session,refresh){
    const confirmed=await api('collector_profiles','select=id,avatar_path,cover_path&id=eq.'+state.id);
    if(!Array.isArray(confirmed)||confirmed.length!==1)throw Error('Профіль не знайдено після збереження. Онови сторінку й увійди повторно.');
    if(values.avatar_path&&confirmed[0].avatar_path!==values.avatar_path)throw Error('Аватар завантажився, але не зберігся в профілі. Спробуй повторити.');
-   state.editing=false;await reload();
+   state.editing=false;state.avatarDraft=null;await reload();
  }catch(err){fail(err)}finally{btn.disabled=false}};
  const post=document.getElementById('scPost');
  if(post){
