@@ -32,18 +32,20 @@
           "figureNumber": "505211",
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-alwayz-yasmin-fashion-doll-with-10-accessories",
-          "photo": "",
+          "photo": "https://www.bratz.com/cdn/shop/files/505211-Bratz-Alwayz-Yasmin-Fashion-Doll2.jpg?v=1724760986&width=990",
           "description": "Original Alwayz Bratz fashion doll, Yasmin. SKU 505211 confirmed by official Bratz product listing; exact individual image still requires verification.",
-          "photoStatus": "needs-exact-release-photo"
+          "photoStatus": "exact-product-image-found",
+          "photoCredit": "Official Bratz product gallery — exact SKU 505211"
         },
         {
           "name": "Alwayz Bratz Fashion Doll - Sasha",
           "figureNumber": "505235",
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-alwayz-sasha-fashion-doll-with-10-accessories",
-          "photo": "",
+          "photo": "https://www.bratz.com/cdn/shop/files/505235-Bratz-Alwayz-Sasha-Fashion-Doll.jpg?v=1739483308&width=1946",
           "description": "Original Alwayz Bratz fashion doll, Sasha. SKU 505235 confirmed by official Bratz product listing; exact individual image still requires verification.",
-          "photoStatus": "needs-exact-release-photo"
+          "photoStatus": "exact-product-image-found",
+          "photoCredit": "Official Bratz product gallery — exact SKU 505235"
         }
       ],
       "sourceDeclaredCount": 4,
