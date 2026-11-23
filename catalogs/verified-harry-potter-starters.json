@@ -42,24 +42,31 @@
           "manufacturer": "Spin Master",
           "figureNumber": "",
           "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6-and-up",
-          "photo": "",
+          "photo": "https://www.dumyah.com/image/cache/data/2023/12/17035749341616117795-1200x1200.webp",
           "description": "Official sealed mystery 1-pack; Spin Master confirms 15 Year 1 variants, contents unknown until opened. Per-figure EAN and exact image not verified.",
           "upc": "778988404683",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://toywiz.com/harry-potter-wizarding-world-year-1-micro-magical-moments-mystery-pack/",
           "barcodeVerification": "Exact Year 1 sealed random 1-pack identified in retailer catalog; UPC-A checksum verified. Not applicable to individual revealed mystery characters.",
-          "barcodeNote": "Single sealed random mystery pack ONLY; no figure-specific UPC."
+          "barcodeNote": "Single sealed random mystery pack ONLY; no figure-specific UPC.",
+          "photoSourceUrl": "https://www.dumyah.com/en/toy-store-list/pretend-play/play-sets/spin-master-wizarding-world-harry-potter-micro-magical-moments-blind-box",
+          "photoCredit": "Retailer exact Year 1 sealed mystery package",
+          "photoStatus": "exact-sealed-pack"
         },
         {
           "name": "Mystery variant — Harry Potter — First Quidditch Match",
           "manufacturer": "Spin Master",
           "figureNumber": "",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
-          "photo": "",
+          "photo": "https://checkpointjo.net/cdn/shop/files/WWmicromagicalmoments2.jpg?v=1757593300&width=1445",
           "rarity": "Not independently established",
           "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified.",
           "collectorCode": "20142908",
-          "collectorCodeType": "community-reported-box-code"
+          "collectorCodeType": "community-reported-box-code",
+          "photoSourceUrl": "https://checkpointjo.net/products/spin-master-harry-potter-wizarding-world-micro-magical-moments-surprise-figure",
+          "photoCredit": "Retailer Year 1 exact figure shown beside mystery pack",
+          "photoStatus": "variant-shown-with-sealed-pack",
+          "photoVerificationNote": "Photo includes the exact Year 1 Harry Potter on broom/Quidditch figure alongside packaging and display components; not a clean solo crop."
         },
         {
           "name": "Mystery variant — Rubeus Hagrid — Birthday Cake",
@@ -247,13 +254,16 @@
           "manufacturer": "Spin Master",
           "figureNumber": "",
           "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-4-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6",
-          "photo": "",
+          "photo": "https://www.toys-shop.gr/310680-thickbox_default/wizarding-6071939-harry-potter-micro-magical-moments-clear.jpg",
           "description": "Sealed surprise box: one unknown Year 4 figure; 12 collectible designs confirmed by Spin Master. Not an identified character or an individual variant. No individual photo or EAN/UPC verified.",
           "upc": "681147049680",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://toywiz.com/harry-potter-wizarding-world-year-4-micro-magical-moments-mystery-pack-1-random-figure/",
           "barcodeVerification": "Exact Year 4 sealed random 1-pack identified in retailer catalog; UPC-A checksum verified. Not applicable to individual revealed mystery characters.",
-          "barcodeNote": "Single sealed random mystery pack ONLY; no figure-specific UPC."
+          "barcodeNote": "Single sealed random mystery pack ONLY; no figure-specific UPC.",
+          "photoSourceUrl": "https://www.toys-shop.gr/en/p/toys/figures/action-figures/1060616-spin-master-harry-potter-wizarding-6071939-harry-potter-micro-magical-moments-clear-105935.html",
+          "photoCredit": "Retailer exact Year 4 sealed mystery package",
+          "photoStatus": "exact-sealed-pack"
         },
         {
           "name": "Mystery variant — Harry Potter — Triwizard Tournament Outfit",
@@ -497,13 +507,16 @@
           "manufacturer": "Spin Master",
           "figureNumber": "",
           "sourceUrl": "https://www.spinmaster.com/en-us/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6/",
-          "photo": "",
+          "photo": "https://resources.sears.com.mx/medios-plazavip/fotos/productos_sears1/original/4488400.jpg",
           "description": "Sealed surprise box: one unknown Year 3 figure; Spin Master states 12 collectible designs, including Harry with Marauder's Map, Dementor, Crookshanks and Scabbers. Not an identified variant. No individual photo or EAN/UPC verified.",
           "upc": "778988455074",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://toywiz.com/harry-potter-wizarding-world-year-3-micro-magical-moments-mystery-pack-1-random-figure/",
           "barcodeVerification": "Exact Year 3 sealed random 1-pack identified in retailer catalog; UPC-A checksum verified. Not applicable to individual revealed mystery characters.",
-          "barcodeNote": "Single sealed random mystery pack ONLY; no figure-specific UPC."
+          "barcodeNote": "Single sealed random mystery pack ONLY; no figure-specific UPC.",
+          "photoSourceUrl": "https://www.sears.com.mx/producto/3337956/figura-sorpresa-coleccionable-s3-wizarding-world-harry-potter",
+          "photoCredit": "Retailer exact Year 3 sealed mystery package",
+          "photoStatus": "exact-sealed-pack"
         },
         {
           "name": "Mystery variant — Harry Potter — Marauder's Map",
