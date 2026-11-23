@@ -65,6 +65,33 @@
       "photoCredit": "MGA/Bratz product gallery or named retailer product photograph",
       "photoStatus": "matched-variant-photo-indexed",
       "photoVerificationNote": "Picture and variant matched by named product image result; actual image HTTP status on deployed PWA still requires checking."
+    },
+    {
+      "series": "Bratz · Babyz",
+      "name": "Bratz Babyz Runwayz Doll - Dana",
+      "photo": "https://www.bratz.com/cdn/shop/files/527589-Bratz-Babyz-Runwayz-Dana2.jpg?v=1734124295&width=960",
+      "sourceUrl": "https://www.bratz.com/products/bratz-babyz-runwayz-doll-dana",
+      "photoCredit": "Named MGA/Bratz product gallery image",
+      "photoStatus": "matched-variant-photo-indexed",
+      "photoVerificationNote": "Verified visually against matching name/model on listing, direct image network response in deployed PWA untested."
+    },
+    {
+      "series": "Bratz · Babyz",
+      "name": "Bratz Babyz Runwayz Doll - Sasha",
+      "photo": "https://cdn.shopify.com/s/files/1/0272/0202/7618/files/524083-Bratz-Babyz-Runwayz-Sasha2.jpg?v=1733408211",
+      "sourceUrl": "https://shop.mgae.com/products/bratz-babyz-runwayz-doll-sasha",
+      "photoCredit": "Named MGA/Bratz product gallery image",
+      "photoStatus": "matched-variant-photo-indexed",
+      "photoVerificationNote": "Verified visually against matching name/model on listing, direct image network response in deployed PWA untested."
+    },
+    {
+      "series": "Bratz · Babyz",
+      "name": "Bratz Babyz Runwayz Doll - Jade",
+      "photo": "https://cdn.mrtoys.com.au/999840-large_default/bratz-babyz-runwayz-doll-jade.jpg",
+      "sourceUrl": "https://www.mrtoys.com.au/dolls/bratz/bratz-babyz-runwayz-doll-jade-75741.html",
+      "photoCredit": "Named MGA/Bratz product gallery image",
+      "photoStatus": "matched-variant-photo-indexed",
+      "photoVerificationNote": "Verified visually against matching name/model on listing, direct image network response in deployed PWA untested."
     }
   ]
 }
