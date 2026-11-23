@@ -332,9 +332,12 @@
           "rarity": "Secret",
           "variantKey": "Letsvan|ZIYULI My Own Wedding|Speeding Bride",
           "sourceUrl": "https://totland.com.ua/kolektsiina-fihurka-letsvan-serii-ziyuli-vesillia/",
-          "photo": "",
+          "photo": "https://i.ebayimg.com/images/g/K4sAAeSws9FoksIQ/s-l1200.jpg",
           "description": "Секретна фігурка серії ZIYULI My Own Wedding. Назву підтверджено списком виробів продавців.",
-          "photoStatus": "missing"
+          "photoStatus": "marketplace-figure-photo-visual-crossmatched",
+          "photoSourceUrl": "https://www.ebay.com/itm/306566601803",
+          "photoCredit": "Named retailer / collector listing for Speeding Bride",
+          "photoVerificationNote": "Single motorcycle bride figure image. Identity visually consistent with secret Speeding Bride; marketplace page itself does not label the option; separate named collector listing corroborates model identity."
         }
       ],
       "assortmentEan": "6974773011638",
@@ -3366,9 +3369,13 @@
           "catalogPosition": "04",
           "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|Butterfly Witch",
           "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
-          "photo": "",
+          "photo": "https://cdn.suruga-ya.jp/database/pics_light/game/601169850.jpg",
           "rarity": "Regular",
-          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods.",
+          "photoSourceUrl": "https://www.suruga-ya.com/en/product/601169850",
+          "photoStatus": "retailer-catalog-photo-path-unverified",
+          "photoCredit": "Named retailer / collector listing for Butterfly Witch",
+          "photoVerificationNote": "Suruga-ya uniquely identifies item 601169850 as The Witch of the Butterfly, but direct CDN image path inferred from known Suruga-ya convention and not HTTP-verified."
         },
         {
           "name": "Green Jasmine Maid",
@@ -3377,9 +3384,13 @@
           "catalogPosition": "05",
           "variantKey": "ZHIWAN|Kokoya Breeze and the Forest Legend|Green Jasmine Maid",
           "sourceUrl": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box",
-          "photo": "",
+          "photo": "https://i.ebayimg.com/images/g/7ugAAeSwdO5orept/s-l1600.jpg",
           "rarity": "Regular",
-          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods."
+          "description": "Підтверджена модель серії Kokoya Breeze and the Forest Legend; персонажа визначено з офіційно підписаного переліку на сторінці KIKAGoods.",
+          "photoSourceUrl": "https://www.ebay.ca/itm/306468911362",
+          "photoStatus": "retailer-named-variant-photo",
+          "photoCredit": "Named retailer / collector listing for Green Jasmine Maid",
+          "photoVerificationNote": "Marketplace title identifies Jasmine Maid of Kokoya Legend of Wind and Forest; photographed solo."
         },
         {
           "name": "Detective Girl",
