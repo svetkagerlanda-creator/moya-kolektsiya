@@ -169,7 +169,7 @@ function render(session){
  if(state.person&&state.loaded&&!state.people.some(p=>p.id===state.person))state.person=null;
  rememberAccountView();
  window.CollectorPhotoAdmin?.check(id,()=>state.refresh?.());
- if(state.tab==='photos'&&window.CollectorPhotoAdmin?.enabled()!==true)state.tab='profile';
+ if(state.tab==='photos'&&window.CollectorPhotoAdmin?.isChecked()&&window.CollectorPhotoAdmin?.enabled()!==true)state.tab='profile';
  const p=state.person?person(state.person):state.profile;
  window.CollectorChats?.setup(id,state.people);
  const unreadDm=window.CollectorChats?.unreadCount?.()||0;
