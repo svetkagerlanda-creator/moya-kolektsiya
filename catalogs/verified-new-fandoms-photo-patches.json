@@ -310,6 +310,115 @@
       "photoCredit": "Mattel official product photo",
       "photoStatus": "official-sku-matched-product-image",
       "photoVerificationNote": "Official Mattel HKY61 product page and image search match; deployed PWA image rendering not yet checked."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Fearidescent",
+      "name": "Skulltimate Secrets Fearidescent Draculaura",
+      "figureNumber": "HNF73",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/07/Skulltimate-Secrets-Fearidescent-Draculaura-1.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-fearidescent-draculaura/",
+      "photoCredit": "MHcollector character-specific product gallery",
+      "photoStatus": "exact-variant-gallery-image-reviewed",
+      "photoVerificationNote": "Direct image and character-specific gallery reviewed; deployed PWA rendering not independently tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Fearidescent",
+      "name": "Skulltimate Secrets Fearidescent Cleo de Nile",
+      "figureNumber": "HNF76",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/07/Skulltimate-Secrets-Fearidescent-Cleo-De-Nile-1.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-fearidescent-cleo-de-nile/",
+      "photoCredit": "MHcollector character-specific product gallery",
+      "photoStatus": "exact-variant-gallery-image-reviewed",
+      "photoVerificationNote": "Direct image and character-specific gallery reviewed; deployed PWA rendering not independently tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Fearidescent",
+      "name": "Skulltimate Secrets Fearidescent Clawdeen Wolf",
+      "figureNumber": "HNF74",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/07/Skulltimate-Secrets-Fearidescent-Clawdeen-Wolf-1.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-fearidescent-clawdeen-wolf/",
+      "photoCredit": "MHcollector character-specific product gallery",
+      "photoStatus": "exact-variant-gallery-image-reviewed",
+      "photoVerificationNote": "Direct image and character-specific gallery reviewed; deployed PWA rendering not independently tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Series 1",
+      "name": "Skulltimate Secrets Series 1 Draculaura",
+      "figureNumber": "HKY60",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/03/Skulltimate-Secrets-Draculaura-1.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-draculaura/",
+      "photoCredit": "MHcollector character-specific product gallery",
+      "photoStatus": "exact-variant-gallery-image-reviewed",
+      "photoVerificationNote": "Direct image and character-specific gallery reviewed; deployed PWA rendering not independently tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Series 1",
+      "name": "Skulltimate Secrets Series 1 Frankie Stein",
+      "figureNumber": "HKY62",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/03/Skulltimate-Secrets-Frankie-Stein-1.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-frankie-stein/",
+      "photoCredit": "MHcollector character-specific product gallery",
+      "photoStatus": "exact-variant-gallery-image-reviewed",
+      "photoVerificationNote": "Direct image and character-specific gallery reviewed; deployed PWA rendering not independently tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Garden Mysteries",
+      "name": "Skulltimate Secrets Garden Mysteries Draculaura",
+      "figureNumber": "HYT72",
+      "photo": "https://mhcollector.com/wp-content/uploads/2024/09/Skulltimate-Secrets-Garden-Mysteries-draculaura-2.webp",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-garden-mysteries-draculaura/",
+      "photoCredit": "MHcollector character-specific product gallery",
+      "photoStatus": "exact-variant-gallery-image-reviewed",
+      "photoVerificationNote": "Direct image and character-specific gallery reviewed; deployed PWA rendering not independently tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Garden Mysteries",
+      "name": "Skulltimate Secrets Garden Mysteries Venus McFlytrap",
+      "figureNumber": "HYT75",
+      "photo": "https://mhcollector.com/wp-content/uploads/2024/09/Skulltimate-Secrets-Garden-Mysteries-Venus-McFlytrap-9.webp",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-garden-mysteries-venus-mcflytrap/",
+      "photoCredit": "MHcollector character-specific product gallery",
+      "photoStatus": "exact-variant-gallery-image-reviewed",
+      "photoVerificationNote": "Direct image and character-specific gallery reviewed; deployed PWA rendering not independently tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Garden Mysteries",
+      "name": "Skulltimate Secrets Garden Mysteries Twyla",
+      "photo": "https://mhcollector.com/wp-content/uploads/2024/09/Skulltimate-Secrets-Garden-Mysteries-Twyla-Boogeyman-9.webp",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-garden-mysteries-twyla/",
+      "photoCredit": "MHcollector character-specific product gallery",
+      "photoStatus": "exact-variant-gallery-image-reviewed",
+      "photoVerificationNote": "Direct image and character-specific gallery reviewed; deployed PWA rendering not independently tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Monster Mysteries",
+      "name": "Skulltimate Secrets Monster Mysteries Clawdeen Wolf",
+      "figureNumber": "HXH85",
+      "photo": "https://mhcollector.com/wp-content/uploads/2024/07/Skulltimate-Secrets-Clawdeen-5.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-monster-mysteries-clawdeen-wolf/",
+      "photoCredit": "MHcollector character-specific product gallery",
+      "photoStatus": "exact-variant-gallery-image-reviewed",
+      "photoVerificationNote": "Direct image and character-specific gallery reviewed; deployed PWA rendering not independently tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Monster Mysteries",
+      "name": "Skulltimate Secrets Monster Mysteries Abbey Bominable",
+      "figureNumber": "HXH87",
+      "photo": "https://mhcollector.com/wp-content/uploads/2024/07/Skulltimate-Secrets-Abbey-Bominable-4.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-monster-mysteries-abbey-bominable/",
+      "photoCredit": "MHcollector character-specific product gallery",
+      "photoStatus": "exact-variant-gallery-image-reviewed",
+      "photoVerificationNote": "Direct image and character-specific gallery reviewed; deployed PWA rendering not independently tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Monster Mysteries",
+      "name": "Skulltimate Secrets Monster Mysteries Cleo de Nile",
+      "figureNumber": "HXH86",
+      "photo": "https://mhcollector.com/wp-content/uploads/2024/07/Skulltimate-Secrets-Cleo-de-Nile-3.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-monster-mysteries-cleo-de-nile/",
+      "photoCredit": "MHcollector character-specific product gallery",
+      "photoStatus": "exact-variant-gallery-image-reviewed",
+      "photoVerificationNote": "Direct image and character-specific gallery reviewed; deployed PWA rendering not independently tested."
     }
   ]
 }
