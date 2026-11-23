@@ -23,26 +23,26 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (personal noncommercial collection indexin
 # its series and set. Earlier specialized importers cover brushables, blind bags,
 # CMC, and some figures; source URLs identify the same release across files.
 DATABASES = [
- ("g1","G1 Ponies","set"), ("g1-plush","G1 Plush","manufacturer"),
+ ("g1","G1 Ponies","set"), ("g1-plush","G1 Plush","series"),
  ("g1-retro","G1 Retro","set"), ("petite-ponies","Petite Ponies","set"),
  ("dream-beauties","Dream Beauties","set"), ("g2","G2 Ponies","set"),
- ("g3","G3 Ponies","series"), ("g3-plush","G3 Plush","manufacturer"),
+ ("g3","G3 Ponies","series"), ("g3-plush","G3 Plush","series"),
  ("g35","G3.5 Ponies","set"), ("ponyville","Ponyville","year"),
  ("blind-bags","G4 Blind Bags","wave"), ("brushables","G4 Brushables","series"),
  ("equestria-girls","Equestria Girls","series"),
  ("goh","Guardians of Harmony","series"), ("cmc","Cutie Mark Crew","series"),
- ("hasbro-pop","Hasbro POP","set"), ("playskool","Playskool","set"),
+ ("hasbro-pop","Hasbro POP","type"), ("playskool","Playskool","set"),
  ("plush","G4 Plush","manufacturer"), ("other-figures","G4 Other Figures","set"),
- ("kayou-cards","Kayou Cards","subset"), ("basic-fun","Basic Fun","set"),
+ ("kayou-cards","Kayou Cards","subset"), ("basic-fun","Basic Fun","series"),
  ("funko-figures","Funko Figures","series"), ("media","G4 Media","type"),
- ("enterplay","Enterplay","series"), ("comics","G4 Comics","series"),
+ ("ep","Enterplay","type"), ("comics","G4 Comics","series"),
  ("g45-blind-bags","G4.5 Blind Bags","release"),
  ("g45-brushables","G4.5 Brushables","series"),
- ("g5","G5 Main Series","series"), ("g5-blind-bags","G5 Blind Bags","series"),
+ ("g5","G5 Main Series","series"), ("g5-blind-bags","G5 Blind Bags","release"),
  ("mini-world-magic","Mini World Magic","set"),
  ("g5-plush","G5 Plush","manufacturer"),
  ("g5-other-figures","G5 Other Figures","set"),
- ("g5-comics","G5 Comics","series"), ("fairy-tails","Fairy Tails","series"),
+ ("g5-comics","G5 Comics","series"), ("fairy-tails","Fairy Tails","set"),
 ]
 SKIP_SPECIALIZED = {"brushables", "blind-bags"}
 COUNT_RE = re.compile(r"\(([\d,]+)\s+(?:ponies|pony|figures?|releases?|cards?|items?|comics?|plush|dolls?|toys?)\)", re.I)
@@ -82,7 +82,7 @@ def discover(root, label, grouping):
         found[key]={"name":f"MLP Merch · {label} · {title}","source":url,
                     "root":root,"expected":count,"manufacturer":title if grouping=="manufacturer" else ""}
     if not found:
-        raise ValueError("no linked indexed series with item counts")
+        raise ValueError(f"no indexed series links at {index}")
     return list(found.values())
 
 def parse(entry):
