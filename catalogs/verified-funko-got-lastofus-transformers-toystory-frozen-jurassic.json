@@ -172,7 +172,11 @@
           "seriesNumber": "40884",
           "sourceUrl": "https://funko.com/pop-elsa/40884.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw95ff400e/images/funko/40884-1.png?sh=800&sw=800",
-          "description": "Funko POP! item 40884; box #581"
+          "description": "Funko POP! item 40884; box #581",
+          "upc": "889698408844",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/p/12061741134",
+          "barcodeVerification": "Exact edition and manufacturer number matched with explicitly published UPC; check digit verified"
         },
         {
           "name": "Anna",
@@ -183,7 +187,11 @@
           "seriesNumber": "40886",
           "sourceUrl": "https://funko.com/pop-anna/40886.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw15b0fb5d/images/funko/40886-1.png?sh=800&sw=800",
-          "description": "Funko POP! item 40886; box #582"
+          "description": "Funko POP! item 40886; box #582",
+          "upc": "889698408868",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://pop-figures.com/figure/582-frozen-ii-anna-6232",
+          "barcodeVerification": "Exact edition and manufacturer number matched with explicitly published UPC; check digit verified"
         }
       ]
     },
