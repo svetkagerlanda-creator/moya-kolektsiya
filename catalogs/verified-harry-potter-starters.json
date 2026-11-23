@@ -1996,17 +1996,17 @@
       "notes": "Full collector lineup includes 12 regular and 9 retailer-exclusive figures (Barnes & Noble, Hot Topic, Target), total 21; exclusives do not share the standard random box assortment."
     },
     {
-      "name": "Harry Potter · Funko · Mystery Minis · Magical Creatures",
+      "name": "Harry Potter · Funko · Mystery Minis · 2017 Series 2 (14722)",
       "fandomKey": "harrypotter",
       "group": "⚡ Harry Potter · Funko",
       "manufacturer": "Funko",
       "source": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
       "verified": true,
-      "completeness": "official-character-checklist",
-      "count": 14,
+      "completeness": "22-variant-checklist-regular-plus-exclusives",
+      "count": 22,
       "items": [
         {
-          "name": "Harry Potter",
+          "name": "Harry Potter (Sorting Hat)",
           "manufacturer": "Funko",
           "seriesNumber": "14722-MM-196",
           "catalogPosition": "1",
@@ -2015,7 +2015,7 @@
           "description": "Official Funko lineup; individual photo awaiting exact verification."
         },
         {
-          "name": "Dragon",
+          "name": "Hungarian Horntail Dragon",
           "manufacturer": "Funko",
           "seriesNumber": "14722-MM-196",
           "catalogPosition": "2",
@@ -2024,7 +2024,7 @@
           "description": "Official Funko lineup; individual photo awaiting exact verification."
         },
         {
-          "name": "Hermione Granger",
+          "name": "Hermione Granger (Sorting Hat)",
           "manufacturer": "Funko",
           "seriesNumber": "14722-MM-196",
           "catalogPosition": "3",
@@ -2042,7 +2042,7 @@
           "description": "Official Funko lineup; individual photo awaiting exact verification."
         },
         {
-          "name": "Ron Weasley",
+          "name": "Ron Weasley (Sorting Hat)",
           "manufacturer": "Funko",
           "seriesNumber": "14722-MM-196",
           "catalogPosition": "5",
@@ -2051,7 +2051,7 @@
           "description": "Official Funko lineup; individual photo awaiting exact verification."
         },
         {
-          "name": "Pidwigeon",
+          "name": "Pigwidgeon",
           "manufacturer": "Funko",
           "seriesNumber": "14722-MM-196",
           "catalogPosition": "6",
@@ -2069,7 +2069,7 @@
           "description": "Official Funko lineup; individual photo awaiting exact verification."
         },
         {
-          "name": "Thestral Foal",
+          "name": "Thestral",
           "manufacturer": "Funko",
           "seriesNumber": "14722-MM-196",
           "catalogPosition": "8",
@@ -2114,7 +2114,7 @@
           "description": "Official Funko lineup; individual photo awaiting exact verification."
         },
         {
-          "name": "Mermaid",
+          "name": "Merperson",
           "manufacturer": "Funko",
           "seriesNumber": "14722-MM-196",
           "catalogPosition": "13",
@@ -2130,8 +2130,121 @@
           "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
           "photo": "",
           "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Neville Longbottom",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "15",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-2",
+          "photo": "https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1551549160654-IAXW2R4JWGBDC5WJNZ1U/Neville%2BLongbottom.jpg",
+          "photoSourceUrl": "https://www.harrypotterdatabase.com/figures-and-toys/funko-mystery-minis",
+          "photoCredit": "Harry Potter Database, character-specific collector photo",
+          "photoStatus": "individual-variant-matched-source-image",
+          "exclusiveRetailer": "Barnes & Noble",
+          "rarityOdds": "1/24",
+          "description": "2017 Funko Harry Potter Mystery Minis Series 2 retailer exclusive; collector checklist and distinct character photograph. No individual UPC/EAN verified."
+        },
+        {
+          "name": "Trevor",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "16",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-2",
+          "photo": "https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1551549162034-ALP7LJ9N6LGLQEPOJXD4/Trevor.jpg",
+          "photoSourceUrl": "https://www.harrypotterdatabase.com/figures-and-toys/funko-mystery-minis",
+          "photoCredit": "Harry Potter Database, character-specific collector photo",
+          "photoStatus": "individual-variant-matched-source-image",
+          "exclusiveRetailer": "Barnes & Noble",
+          "rarityOdds": "1/72",
+          "description": "2017 Funko Harry Potter Mystery Minis Series 2 retailer exclusive; collector checklist and distinct character photograph. No individual UPC/EAN verified."
+        },
+        {
+          "name": "Ginny Weasley",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "17",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-2",
+          "photo": "https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1551549159934-9HMPOZX2MLJTB6PHD8I5/Ginny%2BWeasley.jpg",
+          "photoSourceUrl": "https://www.harrypotterdatabase.com/figures-and-toys/funko-mystery-minis",
+          "photoCredit": "Harry Potter Database, character-specific collector photo",
+          "photoStatus": "individual-variant-matched-source-image",
+          "exclusiveRetailer": "Barnes & Noble",
+          "rarityOdds": "1/24",
+          "description": "2017 Funko Harry Potter Mystery Minis Series 2 retailer exclusive; collector checklist and distinct character photograph. No individual UPC/EAN verified."
+        },
+        {
+          "name": "Pygmy Puff (Arnold)",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "18",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-2",
+          "photo": "https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1551549161123-I6HUOQT249VZDLWBRTPM/Pygmy%2BPuff.jpg",
+          "photoSourceUrl": "https://www.harrypotterdatabase.com/figures-and-toys/funko-mystery-minis",
+          "photoCredit": "Harry Potter Database, character-specific collector photo",
+          "photoStatus": "individual-variant-matched-source-image",
+          "exclusiveRetailer": "Barnes & Noble",
+          "rarityOdds": "1/36",
+          "description": "2017 Funko Harry Potter Mystery Minis Series 2 retailer exclusive; collector checklist and distinct character photograph. No individual UPC/EAN verified."
+        },
+        {
+          "name": "Sirius Black (Prisoner)",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "19",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-2",
+          "photo": "https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1551549161784-ALRKYAGXFIJOKVM10AX2/Sirius%2BBlack%2B%28Azkaban%29.jpg",
+          "photoSourceUrl": "https://www.harrypotterdatabase.com/figures-and-toys/funko-mystery-minis",
+          "photoCredit": "Harry Potter Database, character-specific collector photo",
+          "photoStatus": "individual-variant-matched-source-image",
+          "exclusiveRetailer": "Hot Topic",
+          "rarityOdds": "1/24",
+          "description": "2017 Funko Harry Potter Mystery Minis Series 2 retailer exclusive; collector checklist and distinct character photograph. No individual UPC/EAN verified."
+        },
+        {
+          "name": "Buckbeak",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "20",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-2",
+          "photo": "https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1551549143421-Y6P7I1JMYQD0ZXHH5PB7/Buckbeak.jpg",
+          "photoSourceUrl": "https://www.harrypotterdatabase.com/figures-and-toys/funko-mystery-minis",
+          "photoCredit": "Harry Potter Database, character-specific collector photo",
+          "photoStatus": "individual-variant-matched-source-image",
+          "exclusiveRetailer": "Hot Topic",
+          "rarityOdds": "1/72",
+          "description": "2017 Funko Harry Potter Mystery Minis Series 2 retailer exclusive; collector checklist and distinct character photograph. No individual UPC/EAN verified."
+        },
+        {
+          "name": "Fred Weasley",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "21",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-2",
+          "photo": "https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1551549143814-J8WY6FND8XUW8EH10TAP/Fred.jpg",
+          "photoSourceUrl": "https://www.harrypotterdatabase.com/figures-and-toys/funko-mystery-minis",
+          "photoCredit": "Harry Potter Database, character-specific collector photo",
+          "photoStatus": "individual-variant-matched-source-image",
+          "exclusiveRetailer": "Hot Topic",
+          "rarityOdds": "1/36",
+          "description": "2017 Funko Harry Potter Mystery Minis Series 2 retailer exclusive; collector checklist and distinct character photograph. No individual UPC/EAN verified."
+        },
+        {
+          "name": "George Weasley",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "22",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-2",
+          "photo": "https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1551549159943-DHL52IV0VCYH88IDRXJY/George.jpg",
+          "photoSourceUrl": "https://www.harrypotterdatabase.com/figures-and-toys/funko-mystery-minis",
+          "photoCredit": "Harry Potter Database, character-specific collector photo",
+          "photoStatus": "individual-variant-matched-source-image",
+          "exclusiveRetailer": "Hot Topic",
+          "rarityOdds": "1/24",
+          "description": "2017 Funko Harry Potter Mystery Minis Series 2 retailer exclusive; collector checklist and distinct character photograph. No individual UPC/EAN verified."
         }
-      ]
+      ],
+      "notes": "2017 wave: 14 standard + 8 retailer exclusives (4 Barnes & Noble, 4 Hot Topic), separate from 2026 item 86584."
     },
     {
       "name": "Harry Potter · Funko · Bitty POP! · 4-Pack Series 1",
