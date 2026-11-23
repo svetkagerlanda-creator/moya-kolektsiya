@@ -134,11 +134,11 @@
       "manufacturer": "52TOYS",
       "fandomKey": "blind-box",
       "group": "🎁 Blind Box · 52TOYS",
-      "source": "",
+      "source": "https://hi52toys.com/products/lilith-the-century-of-mary-i",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "count": 8,
+      "notes": "Перевірені назви окремих фігурок на офіційній сторінці 52TOYS. Перелік не оголошено повним, упаковку blind box залишено окремо.",
       "items": [
         {
           "name": "Lilith · The Century of Mary",
@@ -151,8 +151,87 @@
           "photo": "",
           "retailPriceUAH": 899,
           "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        },
+        {
+          "name": "Ghostly Bouquet",
+          "manufacturer": "52TOYS",
+          "character": "Ghostly Bouquet",
+          "catalogPosition": "01",
+          "variantKey": "52TOYS|52TOYS · Lilith · The Century of Mary|Ghostly Bouquet",
+          "sourceUrl": "https://hi52toys.com/products/lilith-the-century-of-mary-i",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Secret Prayer",
+          "manufacturer": "52TOYS",
+          "character": "Secret Prayer",
+          "catalogPosition": "02",
+          "variantKey": "52TOYS|52TOYS · Lilith · The Century of Mary|Secret Prayer",
+          "sourceUrl": "https://hi52toys.com/products/lilith-the-century-of-mary-i",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Hell's Flower",
+          "manufacturer": "52TOYS",
+          "character": "Hell's Flower",
+          "catalogPosition": "03",
+          "variantKey": "52TOYS|52TOYS · Lilith · The Century of Mary|Hell's Flower",
+          "sourceUrl": "https://hi52toys.com/products/lilith-the-century-of-mary-i",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Black Bride",
+          "manufacturer": "52TOYS",
+          "character": "Black Bride",
+          "catalogPosition": "04",
+          "variantKey": "52TOYS|52TOYS · Lilith · The Century of Mary|Black Bride",
+          "sourceUrl": "https://hi52toys.com/products/lilith-the-century-of-mary-i",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Rose Ritual Bath (Secret)",
+          "manufacturer": "52TOYS",
+          "character": "Rose Ritual Bath",
+          "catalogPosition": "05",
+          "variantKey": "52TOYS|52TOYS · Lilith · The Century of Mary|Rose Ritual Bath (Secret)",
+          "sourceUrl": "https://hi52toys.com/products/lilith-the-century-of-mary-i",
+          "photo": "",
+          "rarity": "Secret",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Mirror of the Apocalypse",
+          "manufacturer": "52TOYS",
+          "character": "Mirror of the Apocalypse",
+          "catalogPosition": "06",
+          "variantKey": "52TOYS|52TOYS · Lilith · The Century of Mary|Mirror of the Apocalypse",
+          "sourceUrl": "https://hi52toys.com/products/lilith-the-century-of-mary-i",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Butterfly Cage",
+          "manufacturer": "52TOYS",
+          "character": "Butterfly Cage",
+          "catalogPosition": "07",
+          "variantKey": "52TOYS|52TOYS · Lilith · The Century of Mary|Butterfly Cage",
+          "sourceUrl": "https://hi52toys.com/products/lilith-the-century-of-mary-i",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
         }
-      ]
+      ],
+      "sourceType": "52TOYS-official-figure-names-and-retailer-packaging",
+      "verifiedFigureCount": 7
     },
     {
       "name": "POP TOP · Letsvan Ziyuli · Духовна сила",
@@ -879,11 +958,11 @@
       "manufacturer": "52TOYS",
       "fandomKey": "blind-box",
       "group": "🎁 Blind Box · 52TOYS",
-      "source": "",
+      "source": "https://hi52toys.com/products/sleep-dreamland-elves",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "count": 11,
+      "notes": "Перевірені назви окремих фігурок на офіційній сторінці 52TOYS. Перелік не оголошено повним, упаковку blind box залишено окремо.",
       "items": [
         {
           "name": "Sleep · Dreamland Elves",
@@ -896,8 +975,120 @@
           "photo": "",
           "retailPriceUAH": 749,
           "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        },
+        {
+          "name": "Remex",
+          "manufacturer": "52TOYS",
+          "character": "Remex",
+          "catalogPosition": "01",
+          "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Remex",
+          "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Galaxy",
+          "manufacturer": "52TOYS",
+          "character": "Galaxy",
+          "catalogPosition": "02",
+          "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Galaxy",
+          "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Spirit",
+          "manufacturer": "52TOYS",
+          "character": "Spirit",
+          "catalogPosition": "03",
+          "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Spirit",
+          "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Sea Girl",
+          "manufacturer": "52TOYS",
+          "character": "Sea Girl",
+          "catalogPosition": "04",
+          "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Sea Girl",
+          "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Polar Night",
+          "manufacturer": "52TOYS",
+          "character": "Polar Night",
+          "catalogPosition": "05",
+          "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Polar Night",
+          "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Sea Waves",
+          "manufacturer": "52TOYS",
+          "character": "Sea Waves",
+          "catalogPosition": "06",
+          "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Sea Waves",
+          "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Mirror Moon (Secret)",
+          "manufacturer": "52TOYS",
+          "character": "Mirror Moon",
+          "catalogPosition": "07",
+          "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Mirror Moon (Secret)",
+          "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
+          "photo": "",
+          "rarity": "Secret",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Polar Day",
+          "manufacturer": "52TOYS",
+          "character": "Polar Day",
+          "catalogPosition": "08",
+          "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Polar Day",
+          "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Dryad",
+          "manufacturer": "52TOYS",
+          "character": "Dryad",
+          "catalogPosition": "09",
+          "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Dryad",
+          "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+        },
+        {
+          "name": "Unicorn",
+          "manufacturer": "52TOYS",
+          "character": "Unicorn",
+          "catalogPosition": "10",
+          "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Unicorn",
+          "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
         }
-      ]
+      ],
+      "sourceType": "52TOYS-official-figure-names-and-retailer-packaging",
+      "verifiedFigureCount": 10
     },
     {
       "name": "POP MART · Inosoul · In the Still Room",
