@@ -231,7 +231,12 @@
           "seriesNumber": "51964",
           "sourceUrl": "https://funko.com/pop-classic-sonic/51964.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwffb8912f/images/funko/51964-1.png?sh=800&sw=800",
-          "description": "Funko item 51964; box #632"
+          "description": "Funko item 51964; box #632",
+          "upc": "889698519649",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/itm/377495916299",
+          "barcodeVerification": "UPC from exact Funko figure retail/collector listing with manufacturer SKU and release match, checksum valid",
+          "barcodeNote": "Individual physical figure barcode, not SKU or box number"
         },
         {
           "name": "Sonic with Caliburn",
@@ -242,7 +247,12 @@
           "seriesNumber": "88130",
           "sourceUrl": "https://funko.com/pop-sonic-with-caliburn/88130.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwcc342aef/images/funko/upload/1/88130_SonicTheHedgehog_Sonic_POP_EDIT_T7_GLAM_Frontview-WEB.png?sh=800&sw=800",
-          "description": "Funko item 88130; box #1106"
+          "description": "Funko item 88130; box #1106",
+          "upc": "889698881302",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://pop-figures.com/figure/1106-sonic-the-hedgehog-sonic-with-caliburn-15921",
+          "barcodeVerification": "UPC from exact Funko figure retail/collector listing with manufacturer SKU and release match, checksum valid",
+          "barcodeNote": "Individual physical figure barcode, not SKU or box number"
         }
       ]
     },
@@ -327,7 +337,12 @@
           "seriesNumber": "7301",
           "sourceUrl": "https://funko.com/sailor-moon---sailor-mercury/7301.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1802f97d/images/funko/7301-1_C.jpeg?sh=800&sw=800",
-          "description": "Funko item 7301; box #91"
+          "description": "Funko item 7301; box #91",
+          "upc": "849803073015",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/p/13061745283",
+          "barcodeVerification": "UPC from exact Funko figure retail/collector listing with manufacturer SKU and release match, checksum valid",
+          "barcodeNote": "Individual physical figure barcode, not SKU or box number"
         },
         {
           "name": "Sailor Mars",
@@ -338,7 +353,12 @@
           "seriesNumber": "7302",
           "sourceUrl": "https://funko.com/sailor-moon---sailor-mars/7302.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwfeb2b8e4/images/funko/7302-1_C.jpeg?sh=800&sw=800",
-          "description": "Funko item 7302; box #92"
+          "description": "Funko item 7302; box #92",
+          "upc": "849803073022",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://pop-figures.com/figure/92-sailor-moon-sailor-mars-7624",
+          "barcodeVerification": "UPC from exact Funko figure retail/collector listing with manufacturer SKU and release match, checksum valid",
+          "barcodeNote": "Individual physical figure barcode, not SKU or box number"
         }
       ]
     }
