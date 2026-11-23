@@ -138,7 +138,12 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-iconz-bestiez-series-blind-box-collectible-plush-keychain",
           "photo": "https://cdn.shopify.com/s/files/1/0461/4452/0344/files/256403_Bratziez_Bestiez_Nevra_Felicia.jpg?v=1786577305",
-          "description": "Bratziez Iconz Bestiez Series Blind Boxes are ready to be unboxed! Shop mystery boxes and plushes at Bratz.com."
+          "description": "Bratziez Iconz Bestiez Series Blind Boxes are ready to be unboxed! Shop mystery boxes and plushes at Bratz.com.",
+          "upc": "035051256403",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamesmen.com.au/bratz-bratziez-iconz-bestiez-series-plush-keychain-blind-box",
+          "barcodeVerification": "Barcode explicitly listed for exact retail assortment and check digit independently validated",
+          "barcodeNote": "North American 256403 sealed assortment; European reference 256410 is different. UPC identifies unopened random blind box."
         },
         {
           "name": "Bratz Bratziez Iconz Seriez Blind Box Collectible Plush Characters Keychains",
@@ -890,7 +895,12 @@
           "manufacturer": "Basic Fun",
           "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-x-like-nastya-diy-besties-bag-charms/",
           "photo": "https://www.basicfun.com/wp-content/uploads/2026/11/01141_LittlestPetShop_Hero_LikeNastyaBesties-1.jpg",
-          "description": ""
+          "description": "",
+          "upc": "885561011715",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/littlest-pet-shop-like-nastya-series-6-diy-bestie-bag-charm-mystery-pack/",
+          "barcodeVerification": "Barcode explicitly listed for exact retail assortment and check digit independently validated",
+          "barcodeNote": "Assortment UPC for one random DIY bag charm set; does not identify particular pet."
         }
       ]
     },
@@ -973,7 +983,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-highle-du-paradis-de-la-peurcoffret-de-jeucasse-crote-hrp70-fr-ca",
           "photo": "https://shop.mattel.com/cdn/shop/files/bxmk8pxn1225kjlqvoec.jpg?v=1712595984",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735183357",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://allegro.sk/produkt/mattel-monster-high-babika-scare-adise-island-snack-shack-lagoona-blue-29-cm-621934d0-dde2-4310-bdcb-2a3d2257c257?offerId=17395139297",
+          "barcodeVerification": "Barcode explicitly listed for exact retail assortment and check digit independently validated",
+          "barcodeNote": "Mattel HRP70 Lagoona Blue Scare-adise Island Snack Shack; source's 12-digit UPC 194735183357 is represented as EAN-13 with leading zero."
         },
         {
           "name": "Monster High  Poupée Mode  Draculaura Avec Comte Fabuleux, Access.",
