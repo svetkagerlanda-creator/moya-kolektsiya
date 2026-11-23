@@ -449,6 +449,36 @@
       "photoCredit": "MHcollector named doll gallery",
       "photoStatus": "direct-image-opened-verified",
       "photoVerificationNote": "Direct image opened and visually confirmed against named model and model number on MHcollector; PWA rendering untested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Hauntlywood",
+      "name": "Skulltimate Secrets Hauntlywood Frankie Stein",
+      "figureNumber": "JBG81",
+      "photo": "https://mhcollector.com/wp-content/uploads/2025/02/Skulltimate-Secrets-Hauntlywood-Mysteries-Frankie-tein-3.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-hauntlywood-frankie-stein/",
+      "photoCredit": "MHcollector model-specific gallery",
+      "photoStatus": "verified-direct-image",
+      "photoVerificationNote": "Exact doll model number checked on MHcollector; image opened and visually inspected."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Hauntlywood",
+      "name": "Skulltimate Secrets Hauntlywood Catty Noir",
+      "figureNumber": "JBG82",
+      "photo": "https://mhcollector.com/wp-content/uploads/2025/02/Skulltimate-Secrets-Hauntlywood-Mysteries-Catty-Noir-2.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-hauntlywood-catty-noir/",
+      "photoCredit": "MHcollector model-specific gallery",
+      "photoStatus": "verified-direct-image",
+      "photoVerificationNote": "Exact doll model number checked on MHcollector; image opened and visually inspected."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Hauntlywood",
+      "name": "Skulltimate Secrets Hauntlywood Clawdeen Wolf",
+      "figureNumber": "JBG80",
+      "photo": "https://mhcollector.com/wp-content/uploads/2025/02/Skulltimate-Secrets-Hauntlywood-Mysteries-Clawdeen-Wolf-3.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-hauntlywood-clawdeen-wolf/",
+      "photoCredit": "MHcollector model-specific gallery",
+      "photoStatus": "verified-direct-image",
+      "photoVerificationNote": "Exact doll model number checked on MHcollector; image opened and visually inspected."
     }
   ]
 }
