@@ -628,6 +628,771 @@
           "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · Funko · Mystery Minis · Series 2",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+      "verified": true,
+      "completeness": "official-character-checklist",
+      "count": 12,
+      "items": [
+        {
+          "name": "Harry Potter",
+          "manufacturer": "Funko",
+          "seriesNumber": "86584",
+          "catalogPosition": "1",
+          "sourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photo": "",
+          "rarityOdds": "1/6",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Hermione Granger",
+          "manufacturer": "Funko",
+          "seriesNumber": "86584",
+          "catalogPosition": "2",
+          "sourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photo": "",
+          "rarityOdds": "1/6",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Ron Weasley",
+          "manufacturer": "Funko",
+          "seriesNumber": "86584",
+          "catalogPosition": "3",
+          "sourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photo": "",
+          "rarityOdds": "1/6",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Albus Dumbledore",
+          "manufacturer": "Funko",
+          "seriesNumber": "86584",
+          "catalogPosition": "4",
+          "sourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photo": "",
+          "rarityOdds": "1/6",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Rubeus Hagrid",
+          "manufacturer": "Funko",
+          "seriesNumber": "86584",
+          "catalogPosition": "5",
+          "sourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photo": "",
+          "rarityOdds": "1/12",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Voldemort",
+          "manufacturer": "Funko",
+          "seriesNumber": "86584",
+          "catalogPosition": "6",
+          "sourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photo": "",
+          "rarityOdds": "1/12",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Severus Snape",
+          "manufacturer": "Funko",
+          "seriesNumber": "86584",
+          "catalogPosition": "7",
+          "sourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photo": "",
+          "rarityOdds": "1/24",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Harry Potter (Quidditch)",
+          "manufacturer": "Funko",
+          "seriesNumber": "86584",
+          "catalogPosition": "8",
+          "sourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photo": "",
+          "rarityOdds": "1/24",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Draco Malfoy (Quidditch)",
+          "manufacturer": "Funko",
+          "seriesNumber": "86584",
+          "catalogPosition": "9",
+          "sourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photo": "",
+          "rarityOdds": "1/36",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Dobby",
+          "manufacturer": "Funko",
+          "seriesNumber": "86584",
+          "catalogPosition": "10",
+          "sourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photo": "",
+          "rarityOdds": "1/36",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Luna Lovegood",
+          "manufacturer": "Funko",
+          "seriesNumber": "86584",
+          "catalogPosition": "11",
+          "sourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photo": "",
+          "rarityOdds": "1/72",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Neville Longbottom",
+          "manufacturer": "Funko",
+          "seriesNumber": "86584",
+          "catalogPosition": "12",
+          "sourceUrl": "https://funko.com/im/harry-potter-mystery-minis-series-2/86584.html",
+          "photo": "",
+          "rarityOdds": "1/72",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · Mystery Minis · Tournament",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
+      "verified": true,
+      "completeness": "official-character-checklist",
+      "count": 12,
+      "items": [
+        {
+          "name": "Harry Potter",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "1",
+          "sourceUrl": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Mad-Eye Moody",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "2",
+          "sourceUrl": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Rita Skeeter",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "3",
+          "sourceUrl": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Mrs. Norris",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "4",
+          "sourceUrl": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Argus Filch",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "5",
+          "sourceUrl": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Cedric Diggory",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "6",
+          "sourceUrl": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Draco Malfoy",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "7",
+          "sourceUrl": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Vincent Crabbe",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "8",
+          "sourceUrl": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Gregory Goyle",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "9",
+          "sourceUrl": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Fleur Delacour",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "10",
+          "sourceUrl": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Viktor Krum",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "11",
+          "sourceUrl": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Dolores Umbridge",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "12",
+          "sourceUrl": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · Mystery Minis · Magical Creatures",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+      "verified": true,
+      "completeness": "official-character-checklist",
+      "count": 14,
+      "items": [
+        {
+          "name": "Harry Potter",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "1",
+          "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Dragon",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "2",
+          "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Hermione Granger",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "3",
+          "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Cornish Pixie",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "4",
+          "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Ron Weasley",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "5",
+          "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Pidwigeon",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "6",
+          "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Luna Lovegood",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "7",
+          "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Thestral Foal",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "8",
+          "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Severus Snape",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "9",
+          "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Remus Lupin",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "10",
+          "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Bellatrix Lestrange",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "11",
+          "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Dementor",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "12",
+          "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Mermaid",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "13",
+          "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Grindylow",
+          "manufacturer": "Funko",
+          "seriesNumber": "14722-MM-196",
+          "catalogPosition": "14",
+          "sourceUrl": "https://funko.com/im/harry-potter-and-the-philosophers-stone-mystery-minis/14722-MM-196.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! · 4-Pack Series 1",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/bitty-pop-harry-potter-4-pack-series-1/71315.html",
+      "verified": true,
+      "completeness": "official-character-checklist",
+      "count": 7,
+      "items": [
+        {
+          "name": "Harry Potter",
+          "manufacturer": "Funko",
+          "seriesNumber": "71315",
+          "catalogPosition": "1",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-1/71315.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Draco Malfoy",
+          "manufacturer": "Funko",
+          "seriesNumber": "71315",
+          "catalogPosition": "2",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-1/71315.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Dobby",
+          "manufacturer": "Funko",
+          "seriesNumber": "71315",
+          "catalogPosition": "3",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-1/71315.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Harry Potter (Quidditch) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71315",
+          "catalogPosition": "4",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-1/71315.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Hedwig [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71315",
+          "catalogPosition": "5",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-1/71315.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Fawkes [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71315",
+          "catalogPosition": "6",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-1/71315.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Severus Snape [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71315",
+          "catalogPosition": "7",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-1/71315.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! · 4-Pack Series 2",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/gb/bitty-pop-harry-potter-4-pack-series-2/71316.html",
+      "verified": true,
+      "completeness": "official-character-checklist",
+      "count": 7,
+      "items": [
+        {
+          "name": "Hermione Granger",
+          "manufacturer": "Funko",
+          "seriesNumber": "71316",
+          "catalogPosition": "1",
+          "sourceUrl": "https://funko.com/gb/bitty-pop-harry-potter-4-pack-series-2/71316.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Rubeus Hagrid",
+          "manufacturer": "Funko",
+          "seriesNumber": "71316",
+          "catalogPosition": "2",
+          "sourceUrl": "https://funko.com/gb/bitty-pop-harry-potter-4-pack-series-2/71316.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Ron Weasley",
+          "manufacturer": "Funko",
+          "seriesNumber": "71316",
+          "catalogPosition": "3",
+          "sourceUrl": "https://funko.com/gb/bitty-pop-harry-potter-4-pack-series-2/71316.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Harry Potter (Quidditch) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71316",
+          "catalogPosition": "4",
+          "sourceUrl": "https://funko.com/gb/bitty-pop-harry-potter-4-pack-series-2/71316.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Hedwig [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71316",
+          "catalogPosition": "5",
+          "sourceUrl": "https://funko.com/gb/bitty-pop-harry-potter-4-pack-series-2/71316.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Fawkes [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71316",
+          "catalogPosition": "6",
+          "sourceUrl": "https://funko.com/gb/bitty-pop-harry-potter-4-pack-series-2/71316.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Severus Snape [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71316",
+          "catalogPosition": "7",
+          "sourceUrl": "https://funko.com/gb/bitty-pop-harry-potter-4-pack-series-2/71316.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! · 4-Pack Series 4",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/bitty-pop-harry-potter-4-pack-series-4/71318.html",
+      "verified": true,
+      "completeness": "official-character-checklist",
+      "count": 7,
+      "items": [
+        {
+          "name": "Lord Voldemort",
+          "manufacturer": "Funko",
+          "seriesNumber": "71318",
+          "catalogPosition": "1",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-4/71318.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Draco Malfoy (Quidditch)",
+          "manufacturer": "Funko",
+          "seriesNumber": "71318",
+          "catalogPosition": "2",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-4/71318.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Bellatrix Lestrange",
+          "manufacturer": "Funko",
+          "seriesNumber": "71318",
+          "catalogPosition": "3",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-4/71318.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Harry Potter (Quidditch) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71318",
+          "catalogPosition": "4",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-4/71318.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Hedwig [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71318",
+          "catalogPosition": "5",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-4/71318.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Fawkes [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71318",
+          "catalogPosition": "6",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-4/71318.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Severus Snape [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71318",
+          "catalogPosition": "7",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-4/71318.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! · Goblet of Fire Series 2",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-2/83655.html",
+      "verified": true,
+      "completeness": "official-character-checklist",
+      "count": 7,
+      "items": [
+        {
+          "name": "Hermione Granger (Yule Ball)",
+          "manufacturer": "Funko",
+          "seriesNumber": "83655",
+          "catalogPosition": "1",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-2/83655.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Viktor Krum (Yule Ball)",
+          "manufacturer": "Funko",
+          "seriesNumber": "83655",
+          "catalogPosition": "2",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-2/83655.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Ginny Weasley (Yule Ball)",
+          "manufacturer": "Funko",
+          "seriesNumber": "83655",
+          "catalogPosition": "3",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-2/83655.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Cedric Diggory (Triwizard Tournament) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83655",
+          "catalogPosition": "4",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-2/83655.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Rita Skeeter [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83655",
+          "catalogPosition": "5",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-2/83655.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Harry Potter (Triwizard Tournament) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83655",
+          "catalogPosition": "6",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-2/83655.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Fleur Delacour (Triwizard Tournament) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83655",
+          "catalogPosition": "7",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-2/83655.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! · Goblet of Fire Series 4",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-4/83657.html",
+      "verified": true,
+      "completeness": "official-character-checklist",
+      "count": 7,
+      "items": [
+        {
+          "name": "Rubeus Hagrid (Yule Ball)",
+          "manufacturer": "Funko",
+          "seriesNumber": "83657",
+          "catalogPosition": "1",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-4/83657.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Fleur Delacour (Yule Ball)",
+          "manufacturer": "Funko",
+          "seriesNumber": "83657",
+          "catalogPosition": "2",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-4/83657.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Cedric Diggory (Yule Ball)",
+          "manufacturer": "Funko",
+          "seriesNumber": "83657",
+          "catalogPosition": "3",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-4/83657.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Cedric Diggory (Triwizard Tournament) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83657",
+          "catalogPosition": "4",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-4/83657.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Rita Skeeter [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83657",
+          "catalogPosition": "5",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-4/83657.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Harry Potter (Triwizard Tournament) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83657",
+          "catalogPosition": "6",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-4/83657.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Fleur Delacour (Triwizard Tournament) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83657",
+          "catalogPosition": "7",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-4/83657.html",
+          "photo": "",
+          "description": "Official Funko lineup; individual photo awaiting exact verification."
+        }
+      ]
     }
   ]
 }
