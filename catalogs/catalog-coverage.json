@@ -156,9 +156,9 @@
     },
     {
       "file": "verified-mlp-figures.json",
-      "series": 232,
-      "items": 2400,
-      "photos": 2400,
+      "series": 266,
+      "items": 2434,
+      "photos": 2434,
       "missingPhotos": 0,
       "invalidSeries": 0,
       "duplicateUrls": 0
@@ -192,12 +192,12 @@
     }
   ],
   "totals": {
-    "verifiedSeriesRecords": 1159,
-    "releaseRecords": 17180,
-    "photoRecords": 17148,
+    "verifiedSeriesRecords": 1193,
+    "releaseRecords": 17214,
+    "photoRecords": 17182,
     "missingPhotoRecords": 32,
-    "crossFeedOverlappingSourceUrls": 2849,
-    "distinctSourceUrls": 14262
+    "crossFeedOverlappingSourceUrls": 2857,
+    "distinctSourceUrls": 14288
   },
   "sourceRoots": {
     "blind-bags": {
@@ -221,14 +221,14 @@
       "photos": 18
     },
     "equestria-girls": {
-      "series": 20,
-      "items": 304,
-      "photos": 304
+      "series": 21,
+      "items": 305,
+      "photos": 305
     },
     "funko-figures": {
-      "series": 61,
-      "items": 579,
-      "photos": 579
+      "series": 62,
+      "items": 580,
+      "photos": 580
     },
     "g1": {
       "series": 194,
@@ -236,9 +236,9 @@
       "photos": 1290
     },
     "g1-retro": {
-      "series": 75,
-      "items": 483,
-      "photos": 483
+      "series": 78,
+      "items": 486,
+      "photos": 486
     },
     "g2": {
       "series": 67,
@@ -306,9 +306,9 @@
       "photos": 2689
     },
     "other-figures": {
-      "series": 243,
-      "items": 2102,
-      "photos": 2082
+      "series": 268,
+      "items": 2127,
+      "photos": 2107
     },
     "petite-ponies": {
       "series": 10,
@@ -316,9 +316,9 @@
       "photos": 90
     },
     "playskool": {
-      "series": 38,
-      "items": 124,
-      "photos": 124
+      "series": 42,
+      "items": 128,
+      "photos": 128
     },
     "plush": {
       "series": 48,
