@@ -125,8 +125,9 @@ def parse(entry):
                     and "/v/pixel.gif" not in candidate.lower()
                     and urlsplit(candidate).hostname!="mlpmerch.mlpmerch.com"):
                 image=candidate;break
-        if not image:
-            continue
+        # Keep source-verified releases even when the matching photo is missing.
+        # Otherwise a legitimate set is incorrectly rejected as incomplete.
+        # Never substitute a photo from a different release.
         # Metadata kept separately; source IDs distinguish repeated names.
         year=""
         notes=[]
@@ -152,7 +153,7 @@ def parse(entry):
             "sourceUrl":href,"photo":image
         }
     if len(items)!=expected:
-        raise ValueError(f"Source declares {expected} releases; found {len(items)} unique photographed details")
+        raise ValueError(f"Source declares {expected} releases; found {len(items)} unique details")
     return {"name":name,"count":len(items),"source":url,"verified":True,
             "manufacturer":items[next(iter(items))]["manufacturer"],"items":list(items.values())}
 
@@ -177,8 +178,13 @@ def main():
             entry=jobs[future]
             try:
                 result=future.result()
+                old_photos={card.get('sourceUrl'):card.get('photo') for card in previous.get(result['name'],{}).get('items',[]) if card.get('photo')}
+                for card in result['items']:
+                    if not card.get('photo'):
+                        card['photo']=old_photos.get(card['sourceUrl'],'')
                 previous[result["name"]]=result
-                print(f"OK {result['name']}: {result['count']} photographed releases",flush=True)
+                photographed=sum(bool(card.get('photo')) for card in result['items'])
+                print(f"OK {result['name']}: {result['count']} verified releases, {photographed} photographed",flush=True)
             except Exception as exc:
                 errors[entry["name"]]=str(exc)
                 print(f"SKIP {entry['name']}: {exc}",flush=True)
@@ -191,7 +197,8 @@ def main():
     ERRORS.write_text(json.dumps({"indexed":len(all_pages),"verified":len(existing),"skipped":errors},
         ensure_ascii=False,indent=2)+"\n",encoding="utf8")
     print(f"PUBLISHED {len(existing)} verified figure series / {len(all_pages)} scanned, "
-          f"{sum(s['count'] for s in existing)} photographed releases",flush=True)
+          f"{sum(s['count'] for s in existing)} releases; "
+          f"{sum(sum(bool(x.get('photo')) for x in s['items']) for s in existing)} photos",flush=True)
 
 if __name__=="__main__":
     main()
