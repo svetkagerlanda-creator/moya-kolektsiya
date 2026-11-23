@@ -14853,6 +14853,833 @@
           "verificationStatus": "collector-listed-release; exact-photo-sku-barcode-pending"
         }
       ]
+    },
+    {
+      "name": "Winx Club · Charmix Fairy · Witty Toys New Witty",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys New Witty",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "collector-listed-photo-and-barcode-pending",
+      "notes": "Перелік за Dollect (сторінка WIP); перевірити конкретні випуски та фото. Різні стилі й ексклюзивні китайські версії не змішувати.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Charmix Fairy — Bloom (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:new-witty:charmix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Charmix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Charmix Fairy — Stella (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:new-witty:charmix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Charmix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Charmix Fairy — Flora (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:new-witty:charmix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Charmix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · My Butterflix Magic · Witty Toys New Witty",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys New Witty",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "collector-listed-photo-and-barcode-pending",
+      "notes": "Перелік за Dollect (сторінка WIP); перевірити конкретні випуски та фото. Різні стилі й ексклюзивні китайські версії не змішувати.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx My Butterflix Magic — Bloom (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:new-witty:my-butterflix-magic:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія My Butterflix Magic, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx My Butterflix Magic — Stella (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:new-witty:my-butterflix-magic:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія My Butterflix Magic, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx My Butterflix Magic — Flora (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:new-witty:my-butterflix-magic:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія My Butterflix Magic, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Tynix Fairy · Witty Toys New Witty",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys New Witty",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "collector-listed-photo-and-barcode-pending",
+      "notes": "Перелік за Dollect (сторінка WIP); перевірити конкретні випуски та фото. Різні стилі й ексклюзивні китайські версії не змішувати.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Tynix Fairy — Bloom (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:new-witty:tynix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Tynix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Tynix Fairy — Stella (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:new-witty:tynix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Tynix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Tynix Fairy — Aisha (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty:new-witty:tynix-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Tynix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Tynix Fairy — Tecna (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty:new-witty:tynix-fairy:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Tynix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Tynix Fairy — Musa (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty:new-witty:tynix-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Tynix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Tynix Fairy — Flora (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:new-witty:tynix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Tynix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Dreamix Fairy · Witty Toys New Witty",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys New Witty",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "collector-listed-photo-and-barcode-pending",
+      "notes": "Перелік за Dollect (сторінка WIP); перевірити конкретні випуски та фото. Різні стилі й ексклюзивні китайські версії не змішувати.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Dreamix Fairy — Bloom (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:new-witty:dreamix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Dreamix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Dreamix Fairy — Stella (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:new-witty:dreamix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Dreamix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Dreamix Fairy — Aisha (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty:new-witty:dreamix-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Dreamix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Dreamix Fairy — Tecna (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty:new-witty:dreamix-fairy:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Dreamix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Dreamix Fairy — Musa (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty:new-witty:dreamix-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Dreamix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Dreamix Fairy — Flora (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:new-witty:dreamix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Dreamix Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Lovely Fairy · Witty Toys New Witty",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys New Witty",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "collector-listed-photo-and-barcode-pending",
+      "notes": "Перелік за Dollect (сторінка WIP); перевірити конкретні випуски та фото. Різні стилі й ексклюзивні китайські версії не змішувати.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Lovely Fairy — Bloom (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "year": 2014,
+          "variantKey": "winx:witty:new-witty:lovely-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Lovely Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Lovely Fairy — Stella (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "year": 2014,
+          "variantKey": "winx:witty:new-witty:lovely-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Lovely Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Lovely Fairy — Aisha (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "year": 2014,
+          "variantKey": "winx:witty:new-witty:lovely-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Lovely Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Lovely Fairy — Tecna (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "year": 2014,
+          "variantKey": "winx:witty:new-witty:lovely-fairy:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Lovely Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Lovely Fairy — Musa (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "year": 2014,
+          "variantKey": "winx:witty:new-witty:lovely-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Lovely Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Lovely Fairy — Flora (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "year": 2014,
+          "variantKey": "winx:witty:new-witty:lovely-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Lovely Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · My Fairy · Witty Toys New Witty",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys New Witty",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "collector-listed-photo-and-barcode-pending",
+      "notes": "Перелік за Dollect (сторінка WIP); перевірити конкретні випуски та фото. Різні стилі й ексклюзивні китайські версії не змішувати.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx My Fairy — Bloom (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "year": 2017,
+          "variantKey": "winx:witty:new-witty:my-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія My Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx My Fairy — Stella (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "year": 2017,
+          "variantKey": "winx:witty:new-witty:my-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія My Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx My Fairy — Flora (New Witty)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "year": 2017,
+          "variantKey": "winx:witty:new-witty:my-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія My Fairy, Witty Toys New Witty. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Charmix Fairy · Witty Toys China Exclusive",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys China Exclusive",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "collector-listed-photo-and-barcode-pending",
+      "notes": "Перелік за Dollect (сторінка WIP); перевірити конкретні випуски та фото. Різні стилі й ексклюзивні китайські версії не змішувати.",
+      "count": 5,
+      "items": [
+        {
+          "name": "Winx Charmix Fairy — Bloom (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:china-exclusive:charmix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Charmix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Charmix Fairy — Stella (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:china-exclusive:charmix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Charmix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Charmix Fairy — Flora (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:china-exclusive:charmix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Charmix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Charmix Fairy — Tecna (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty:china-exclusive:charmix-fairy:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Charmix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Charmix Fairy — Musa (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty:china-exclusive:charmix-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Charmix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Magical Glamour · Witty Toys China Exclusive",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys China Exclusive",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "collector-listed-photo-and-barcode-pending",
+      "notes": "Перелік за Dollect (сторінка WIP); перевірити конкретні випуски та фото. Різні стилі й ексклюзивні китайські версії не змішувати.",
+      "count": 5,
+      "items": [
+        {
+          "name": "Winx Magical Glamour — Bloom (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:china-exclusive:magical-glamour:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Magical Glamour, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Glamour — Stella (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:china-exclusive:magical-glamour:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Magical Glamour, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Glamour — Flora (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:china-exclusive:magical-glamour:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Magical Glamour, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Glamour — Tecna (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty:china-exclusive:magical-glamour:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Magical Glamour, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Glamour — Musa (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty:china-exclusive:magical-glamour:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Magical Glamour, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Enchantix Fairy · Witty Toys China Exclusive",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys China Exclusive",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "collector-listed-photo-and-barcode-pending",
+      "notes": "Перелік за Dollect (сторінка WIP); перевірити конкретні випуски та фото. Різні стилі й ексклюзивні китайські версії не змішувати.",
+      "count": 5,
+      "items": [
+        {
+          "name": "Winx Enchantix Fairy — Bloom (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:china-exclusive:enchantix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Enchantix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Enchantix Fairy — Stella (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:china-exclusive:enchantix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Enchantix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Enchantix Fairy — Flora (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:china-exclusive:enchantix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Enchantix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Enchantix Fairy — Tecna (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty:china-exclusive:enchantix-fairy:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Enchantix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Enchantix Fairy — Musa (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty:china-exclusive:enchantix-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Enchantix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Believix Fairy · Witty Toys China Exclusive",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys China Exclusive",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "collector-listed-photo-and-barcode-pending",
+      "notes": "Перелік за Dollect (сторінка WIP); перевірити конкретні випуски та фото. Різні стилі й ексклюзивні китайські версії не змішувати.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Believix Fairy — Bloom (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:china-exclusive:believix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Believix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Believix Fairy — Stella (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:china-exclusive:believix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Believix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Believix Fairy — Aisha (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty:china-exclusive:believix-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Believix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Believix Fairy — Tecna (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty:china-exclusive:believix-fairy:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Believix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Believix Fairy — Musa (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty:china-exclusive:believix-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Believix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Believix Fairy — Flora (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:china-exclusive:believix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Believix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Lovix Fairy · Witty Toys China Exclusive",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys China Exclusive",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "collector-listed-photo-and-barcode-pending",
+      "notes": "Перелік за Dollect (сторінка WIP); перевірити конкретні випуски та фото. Різні стилі й ексклюзивні китайські версії не змішувати.",
+      "count": 4,
+      "items": [
+        {
+          "name": "Winx Lovix Fairy — Bloom (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:china-exclusive:lovix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Lovix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Lovix Fairy — Stella (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:china-exclusive:lovix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Lovix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Lovix Fairy — Flora (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:china-exclusive:lovix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Lovix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Lovix Fairy — Musa (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty:china-exclusive:lovix-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Lovix Fairy, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Love and Pet · Witty Toys China Exclusive",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys China Exclusive",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "collector-listed-photo-and-barcode-pending",
+      "notes": "Перелік за Dollect (сторінка WIP); перевірити конкретні випуски та фото. Різні стилі й ексклюзивні китайські версії не змішувати.",
+      "count": 4,
+      "items": [
+        {
+          "name": "Winx Love and Pet — Bloom (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:china-exclusive:love-and-pet:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Love and Pet, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Love and Pet — Stella (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:china-exclusive:love-and-pet:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Love and Pet, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Love and Pet — Flora (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:china-exclusive:love-and-pet:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Love and Pet, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Love and Pet — Musa (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty:china-exclusive:love-and-pet:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія Love and Pet, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · City Girl · Witty Toys China Exclusive",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Witty Toys China Exclusive",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "collector-listed-photo-and-barcode-pending",
+      "notes": "Перелік за Dollect (сторінка WIP); перевірити конкретні випуски та фото. Різні стилі й ексклюзивні китайські версії не змішувати.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx City Girl — Bloom (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:china-exclusive:city-girl:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія City Girl, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx City Girl — Stella (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:china-exclusive:city-girl:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія City Girl, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx City Girl — Flora (China Exclusive)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:china-exclusive:city-girl:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Окрема версія City Girl, Witty Toys China Exclusive. Фото окремого SKU та EAN/UPC не підтверджені.",
+          "sourceVerification": "Explicit named character listed under series in Dollect New Witty collector checklist; note source is a work in progress.",
+          "verificationStatus": "collector-checklist-listed; individual-photo-sku-barcode-pending"
+        }
+      ]
     }
   ]
 }
