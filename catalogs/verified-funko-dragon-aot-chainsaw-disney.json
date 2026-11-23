@@ -21,7 +21,11 @@
           "seriesNumber": "39702",
           "sourceUrl": "https://funko.com/pop-frieza/39702.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dweba4f0b8/images/funko/39702-1.png",
-          "description": "Funko POP! item 39702; box #619"
+          "description": "Funko POP! item 39702; box #619",
+          "upc": "889698397025",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/dragon-ball-z-frieza-funko-pop-vinyl-figure-619/fu39702",
+          "barcodeVerification": "Product and POP box number explicitly paired with UPC in cited catalog; checksum verified"
         },
         {
           "name": "Goku",
@@ -32,7 +36,11 @@
           "seriesNumber": "39698",
           "sourceUrl": "https://funko.com/cy/pop-goku/39698.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwe91c7d6d/images/funko/39698-1.png",
-          "description": "Funko POP! item 39698; box #615"
+          "description": "Funko POP! item 39698; box #615",
+          "upc": "889698396981",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/dragon-ball-z-goku-funko-pop-vinyl-figure-615/fu39698",
+          "barcodeVerification": "Product and POP box number explicitly paired with UPC in cited catalog; checksum verified"
         }
       ]
     },
@@ -146,7 +154,11 @@
           "seriesNumber": "86071",
           "sourceUrl": "https://funko.com/pop-rapunzel-winter-outfit/86071.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw59f50a85/images/funko/upload/1/86071_DisneyPrincessHoliday_Rapunzel_POP_GLAM-WEB.png",
-          "description": "Funko POP! item 86071; box #1613"
+          "description": "Funko POP! item 86071; box #1613",
+          "upc": "889698860710",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-disney-princess-rapunzel-4-in-vinyl-figures/423359.html",
+          "barcodeVerification": "Product and POP box number explicitly paired with UPC in cited catalog; checksum verified"
         }
       ]
     }
