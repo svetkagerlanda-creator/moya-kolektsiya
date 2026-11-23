@@ -229,6 +229,24 @@ def main():
             "savedItems":sum(len(s.get("items",[])) for s in known),
             "unscannedSeries":missing,"partialSeries":partial
         }
+    # Detect conflicting physical releases without deleting or merging historical cards.
+    # A source detail page is the strongest identity available for these archives;
+    # catalogPosition is not assumed to be a manufacturer's SKU.
+    duplicate_sources={}
+    missing_photos=[]
+    invalid_photos=[]
+    for release in series:
+        for card in release.get("items",[]):
+            source=card.get("sourceUrl","")
+            if source:
+                duplicate_sources.setdefault(source,[]).append(release["source"])
+            photo=card.get("photo","")
+            if not photo:
+                missing_photos.append({"series":release["source"],"sourceUrl":source})
+            elif urlsplit(photo).scheme!="https" or not urlsplit(photo).hostname:
+                invalid_photos.append({"series":release["source"],"sourceUrl":source,"photo":photo})
+    duplicate_sources={url:sorted(set(owners)) for url,owners in duplicate_sources.items()
+                       if len(set(owners))>1}
     DEST.write_text(json.dumps({"schemaVersion":1,"series":series},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf8")
     DIAGNOSTICS.write_text(json.dumps({"indexed":len(unique),"selected":len(selected),"verified":len(series),
         "items":sum(x["count"] for x in series),
@@ -237,6 +255,10 @@ def main():
         "partialSeries":sum(x.get("completeness")!="verified-full-series" for x in series),
         "remainingUnscanned":len([e for e in unique if e["source"] not in past]),
         "byFandom":by_fandom_summary,
+        "duplicateDetailPagesAcrossSeries":duplicate_sources,
+        "missingPhotoCards":missing_photos,
+        "invalidPhotoUrls":invalid_photos,
+        "photoValidationScope":"URL syntax and card association only; remote image accessibility and physical SKU matching not verified",
         "errors":errors},ensure_ascii=False,indent=2)+"\n",encoding="utf8")
     print("HISTORICAL",len(series),"series",sum(x["count"] for x in series),"items",
           "unscanned",len([e for e in unique if e["source"] not in past]),flush=True)
