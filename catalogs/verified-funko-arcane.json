@@ -22,7 +22,11 @@
           "sourceUrl": "https://funko.com/pop-champion-viktor/83700.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw566581df/images/funko/upload/83700_ArcaneLOL_S2_ChampionViktor_POP_GLAM-WEB.png",
           "photoCredit": "Funko · офіційне фото конкретного випуску",
-          "description": "Funko POP! Arcane: League of Legends · коробка #1487"
+          "description": "Funko POP! Arcane: League of Legends · коробка #1487",
+          "upc": "889698837002",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/arcane-league-of-legends-champion-viktor-funko-pop-vinyl-figure-1487/fu83700",
+          "barcodeVerification": "Exact Funko POP product retailer UPC, GTIN check digit verified"
         },
         {
           "name": "Caitlyn Kiramman",
@@ -34,7 +38,11 @@
           "sourceUrl": "https://funko.com/pop-caitlyn-kiramman/83698.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwdec953c0/images/funko/upload/83698_ArcaneLOL_S2_Caitlyn_POP_GLAM-WEB.png",
           "photoCredit": "Funko · офіційне фото конкретного випуску",
-          "description": "Funko POP! Arcane: League of Legends · коробка #1488"
+          "description": "Funko POP! Arcane: League of Legends · коробка #1488",
+          "upc": "889698836982",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/caitlyn-%28tbc%29-arcane-league-of-legends-pop-vinyl",
+          "barcodeVerification": "Exact Funko POP product retailer UPC, GTIN check digit verified"
         },
         {
           "name": "Vi",
