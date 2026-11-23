@@ -64,7 +64,12 @@
           "seriesNumber": "68655",
           "sourceUrl": "https://funko.com/pop-eren-jaeger/68655.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwc210b202/images/funko/upload/68655_AOT_S5_ErenJaegerMT_POP_GLAM-WEB.png",
-          "description": "Funko POP! item 68655; box #1321"
+          "description": "Funko POP! item 68655; box #1321",
+          "upc": "889698686556",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.pricecharting.com/game/funko-pop-animation/eren-jaeger-amazon-1321",
+          "barcodeVerification": "Exact Funko figure number and physical release matched to published UPC; UPC-A check digit verified",
+          "barcodeNote": "Amazon-exclusive metallic #1321; do not equate this code with non-metallic versions"
         },
         {
           "name": "Mikasa Ackermann with Thunder Spears",
@@ -75,7 +80,11 @@
           "seriesNumber": "67929",
           "sourceUrl": "https://funko.com/pop-mikasa-ackermann-with-thunder-spears/67929.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwe4afd55e/images/funko/upload/67929_AOT_S5_MikasaAckermann_POP_GLAM-WEB.png",
-          "description": "Funko POP! item 67929; box #1446"
+          "description": "Funko POP! item 67929; box #1446",
+          "upc": "889698679299",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/attack-on-titan-mikasa-ackerman-funko-pop-vinyl-figure-1446/fu67929",
+          "barcodeVerification": "Exact Funko figure number and physical release matched to published UPC; UPC-A check digit verified"
         }
       ]
     },
@@ -143,7 +152,11 @@
           "seriesNumber": "55972",
           "sourceUrl": "https://funko.com/pop-rapunzel/55972.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwe9d4198d/images/funko/55972-1.png",
-          "description": "Funko POP! item 55972; box #1018"
+          "description": "Funko POP! item 55972; box #1018",
+          "upc": "889698559720",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.synchro-diffusion.com/media/akeneo_connector/asset_files/9/3/932538_FP_fr_FR_4a48.pdf",
+          "barcodeVerification": "Exact Funko figure number and physical release matched to published UPC; UPC-A check digit verified"
         },
         {
           "name": "Rapunzel (Winter Outfit)",
