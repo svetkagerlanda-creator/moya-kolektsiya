@@ -46,7 +46,11 @@
           "sourceUrl": "https://funko.com/pop-vi/75652.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw73fb66e4/images/funko/upload/75652_ArcaneLOL_Vi_POP_GLAM-WEB.png",
           "photoCredit": "Funko · офіційне фото конкретного випуску",
-          "description": "Funko POP! Arcane: League of Legends · коробка #1601"
+          "description": "Funko POP! Arcane: League of Legends · коробка #1601",
+          "upc": "889698756525",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.shopforgeek.com/en/ARCANE-POP-TV-N-1601-VI-229217.html",
+          "barcodeVerification": "Retailer confirms exact Funko Pop release, UPC and box number"
         },
         {
           "name": "Jinx",
@@ -73,7 +77,11 @@
           "sourceUrl": "https://funko.com/pop-ekko/75648.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw84d00afc/images/funko/upload/75648_ArcaneLOL_Ekko_POP_GLAM-WEB.png",
           "photoCredit": "Funko · офіційне фото конкретного випуску",
-          "description": "Funko POP! Arcane: League of Legends · коробка #1603"
+          "description": "Funko POP! Arcane: League of Legends · коробка #1603",
+          "upc": "889698756488",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/arcane-league-of-legends-ekko-funko-pop-vinyl-figure-1603/fu75648",
+          "barcodeVerification": "Retailer confirms exact Funko Pop release, UPC and box number"
         },
         {
           "name": "Silco",
@@ -85,7 +93,11 @@
           "sourceUrl": "https://funko.com/pop-silco/75650.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwdd171b45/images/funko/upload/75650_ArcaneLOL_Silco_POP_GLAM-WEB.png",
           "photoCredit": "Funko · офіційне фото конкретного випуску",
-          "description": "Funko POP! Arcane: League of Legends · коробка #1604"
+          "description": "Funko POP! Arcane: League of Legends · коробка #1604",
+          "upc": "889698756501",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/funko-arcane-league-of-legends-pop-television-silco-vinyl-figure-1604/",
+          "barcodeVerification": "Retailer confirms exact Funko Pop release, UPC and box number"
         },
         {
           "name": "Heimerdinger with Poro",
@@ -97,7 +109,11 @@
           "sourceUrl": "https://funko.com/pop-heimerdinger-with-poro/80193.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw4aaad8f9/images/funko/upload/80193_ArcaneLOL_HeimerdingerWithPoro_POP_GLAM-WEB.png",
           "photoCredit": "Funko · офіційне фото конкретного випуску",
-          "description": "Funko POP! Arcane: League of Legends · коробка #1605"
+          "description": "Funko POP! Arcane: League of Legends · коробка #1605",
+          "upc": "889698801935",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://popspotme.com/product/funko-pop-arcane-heimerdinger-poro-1605/",
+          "barcodeVerification": "Retailer confirms exact Funko Pop release, UPC and box number"
         }
       ]
     }
