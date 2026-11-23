@@ -76,7 +76,7 @@
      item.personalPhotos=[...old,...batch];
      const makeMain=confirm('Зробити нове фото основним у картці предмета?');
      if(makeMain){item.personalCoverId=batch[0].id;item.preferredPhotoSource='personal'}
-     await ctx.save();ctx.render();gallery(item,ctx);
+     await ctx.save();ctx.render();const proposed=window.CollectorCatalogContributions?.offer(item,batch[0].src,{modal:ctx.modal,close:ctx.close,toast:ctx.toast,seriesName:ctx.seriesName||'',reference:item.sourceUrl||item.barcode||''});if(!proposed)gallery(item,ctx);
      if(files.length>limit)ctx.toast('Збережено '+limit+' фото — максимум 10');
     }catch(err){
      item.personalPhotos=old;item.personalCoverId=oldCover;item.preferredPhotoSource=oldSource;
