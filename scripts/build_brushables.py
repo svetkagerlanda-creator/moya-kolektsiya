@@ -98,6 +98,18 @@ def main():
         name="Hasbro · G4 Brushables · "+title
         try:
             found=extract(title,slug,count)
+            # Keep a previously verified image for the same exact release when
+            # the source temporarily omits an image during a subsequent scrape.
+            # Never borrow a photo from another variant or matching pony name.
+            previous_by_url = {
+                item.get("sourceUrl"): item
+                for item in old.get(name, {}).get("items", [])
+                if item.get("sourceUrl")
+            }
+            for item in found["items"]:
+                previous = previous_by_url.get(item["sourceUrl"])
+                if not item["photo"] and previous and previous.get("photo"):
+                    item["photo"] = previous["photo"]
             old[name]=found
             print(f"OK {name}: {count} releases; images={sum(bool(x['photo']) for x in found['items'])}")
         except Exception as error:
