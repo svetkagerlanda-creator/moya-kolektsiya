@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-11-23T11:44:02+02:00",
+  "task": "historical catalogs photos and barcodes",
+  "commits": [
+    "b456abb82e4b978d8de36138d2076bce6266c404"
+  ],
+  "changedFiles": [
+    "scripts/build_historical_dolls_pets.py"
+  ],
+  "newSeries": 0,
+  "newItems": 0,
+  "newIndividualPhotosVerified": 0,
+  "newUniqueBarcodes": 0,
+  "barcodeCardsUpdated": 0,
+  "scope": [
+    "Bratz",
+    "Monster High",
+    "Ever After High",
+    "Littlest Pet Shop G1-G6"
+  ],
+  "changes": [
+    "Preserve existing barcode metadata on refreshed source cards only when previous verification exists and SKU and variant are not conflicting"
+  ],
+  "limitations": [
+    "No importer execution in GitHub runtime",
+    "No new barcodes externally verified",
+    "No regression tests executed",
+    "SourceUrl matching alone cannot prove physical SKU when missing"
+  ],
+  "next": [
+    "Run importer and barcode preservation regression tests",
+    "Add checksum and source-evidence validation",
+    "Research and bulk import UPC/EAN with physical release matching",
+    "Expand Winx and Bratz historical lines"
+  ]
+}
