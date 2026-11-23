@@ -43,7 +43,12 @@
           "figureNumber": "",
           "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6-and-up",
           "photo": "",
-          "description": "Official sealed mystery 1-pack; Spin Master confirms 15 Year 1 variants, contents unknown until opened. Per-figure EAN and exact image not verified."
+          "description": "Official sealed mystery 1-pack; Spin Master confirms 15 Year 1 variants, contents unknown until opened. Per-figure EAN and exact image not verified.",
+          "upc": "778988404683",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/harry-potter-wizarding-world-year-1-micro-magical-moments-mystery-pack/",
+          "barcodeVerification": "Exact Year 1 sealed random 1-pack identified in retailer catalog; UPC-A checksum verified. Not applicable to individual revealed mystery characters.",
+          "barcodeNote": "Single sealed random mystery pack ONLY; no figure-specific UPC."
         },
         {
           "name": "Mystery variant — Harry Potter — First Quidditch Match",
@@ -211,7 +216,11 @@
           "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
         }
       ],
-      "notes": "All 15 mystery figures mapped to distinct collector-reported box codes. Source is community-collected unboxing data, not official individual product identifiers. Separate sealed mystery package and character scene multipacks are not included in the figure count."
+      "notes": "All 15 mystery figures mapped to distinct collector-reported box codes. Source is community-collected unboxing data, not official individual product identifiers. Separate sealed mystery package and character scene multipacks are not included in the figure count.",
+      "coverPhoto": "https://tools.toywiz.com/_images/_webp/_products/lg/778988404683-inset3.webp",
+      "coverPhotoSourceUrl": "https://toywiz.com/harry-potter-wizarding-world-year-1-micro-magical-moments-mystery-pack/",
+      "coverPhotoCredit": "Retailer product gallery, exact Year 1 assortment",
+      "coverPhotoStatus": "exact-year-assortment-group-image"
     },
     {
       "name": "Harry Potter · Spin Master · Micro Magical Moments · Year 4",
@@ -239,7 +248,12 @@
           "figureNumber": "",
           "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-4-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6",
           "photo": "",
-          "description": "Sealed surprise box: one unknown Year 4 figure; 12 collectible designs confirmed by Spin Master. Not an identified character or an individual variant. No individual photo or EAN/UPC verified."
+          "description": "Sealed surprise box: one unknown Year 4 figure; 12 collectible designs confirmed by Spin Master. Not an identified character or an individual variant. No individual photo or EAN/UPC verified.",
+          "upc": "681147049680",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/harry-potter-wizarding-world-year-4-micro-magical-moments-mystery-pack-1-random-figure/",
+          "barcodeVerification": "Exact Year 4 sealed random 1-pack identified in retailer catalog; UPC-A checksum verified. Not applicable to individual revealed mystery characters.",
+          "barcodeNote": "Single sealed random mystery pack ONLY; no figure-specific UPC."
         },
         {
           "name": "Mystery variant — Harry Potter — Triwizard Tournament Outfit",
@@ -362,7 +376,11 @@
           "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches."
         }
       ],
-      "notes": "All 12 Year 4 mystery outcomes identified by collectors (M01–M12); Spin Master officially confirms twelve designs. Box codes are community observations, may change by production batch. Sealed mystery pack and non-mystery multi-figure sets are separate cards."
+      "notes": "All 12 Year 4 mystery outcomes identified by collectors (M01–M12); Spin Master officially confirms twelve designs. Box codes are community observations, may change by production batch. Sealed mystery pack and non-mystery multi-figure sets are separate cards.",
+      "coverPhoto": "https://tools.toywiz.com/_images/_webp/_products/lg/harryyear4pack-inset3.webp",
+      "coverPhotoSourceUrl": "https://toywiz.com/harry-potter-wizarding-world-year-4-micro-magical-moments-mystery-pack-1-random-figure/",
+      "coverPhotoCredit": "Retailer product gallery, exact Year 4 assortment",
+      "coverPhotoStatus": "exact-year-assortment-group-image"
     },
     {
       "name": "Harry Potter · Spin Master · Micro Magical Moments · Quidditch Series 2",
@@ -480,7 +498,12 @@
           "figureNumber": "",
           "sourceUrl": "https://www.spinmaster.com/en-us/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6/",
           "photo": "",
-          "description": "Sealed surprise box: one unknown Year 3 figure; Spin Master states 12 collectible designs, including Harry with Marauder's Map, Dementor, Crookshanks and Scabbers. Not an identified variant. No individual photo or EAN/UPC verified."
+          "description": "Sealed surprise box: one unknown Year 3 figure; Spin Master states 12 collectible designs, including Harry with Marauder's Map, Dementor, Crookshanks and Scabbers. Not an identified variant. No individual photo or EAN/UPC verified.",
+          "upc": "778988455074",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/harry-potter-wizarding-world-year-3-micro-magical-moments-mystery-pack-1-random-figure/",
+          "barcodeVerification": "Exact Year 3 sealed random 1-pack identified in retailer catalog; UPC-A checksum verified. Not applicable to individual revealed mystery characters.",
+          "barcodeNote": "Single sealed random mystery pack ONLY; no figure-specific UPC."
         },
         {
           "name": "Mystery variant — Harry Potter — Marauder's Map",
@@ -615,7 +638,11 @@
           "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified."
         }
       ],
-      "notes": "All 12 mystery figures mapped to distinct collector-reported box codes. Source is community-collected unboxing data, not official individual product identifiers. Separate sealed mystery package and character scene multipacks are not included in the figure count."
+      "notes": "All 12 mystery figures mapped to distinct collector-reported box codes. Source is community-collected unboxing data, not official individual product identifiers. Separate sealed mystery package and character scene multipacks are not included in the figure count.",
+      "coverPhoto": "https://www.jadlamracingmodels.com/cdn/shop/files/6069405_1_ed0d99eb-e0bb-4d72-90e3-3e6a61a625f0.jpg?v=1740258774&width=1000",
+      "coverPhotoSourceUrl": "https://www.jadlamracingmodels.com/collections/toy-figures/products/wizarding-world-harry-potter-micro-magical-moment-figures-blind-box-1",
+      "coverPhotoCredit": "Retailer product gallery, exact Year 3 assortment",
+      "coverPhotoStatus": "exact-year-assortment-group-image"
     },
     {
       "name": "Harry Potter · Iron Studios · MiniCo",
@@ -4385,8 +4412,16 @@
           "manufacturer": "Spin Master",
           "figureNumber": "6068750",
           "sourceUrl": "https://www.nerdom.gr/en/en003092-spin-master-harry-potter-micro-magical-moments-mystery-mini-figure-with-case-random-6068750.html",
-          "photo": "",
-          "description": "Single sealed random figure from the 12-design Chamber of Secrets Year 2 assortment. 6068750 is a packaging product number and does not identify the hidden variant; no verified individual UPC/EAN."
+          "photo": "https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202402/21/00197631111057____1__1200x1200.jpg",
+          "description": "Single sealed random figure from the 12-design Chamber of Secrets Year 2 assortment. 6068750 is a packaging product number and does not identify the hidden variant; no verified individual UPC/EAN.",
+          "upc": "778988505458",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/harry-potter-year-2-micro-magical-moments-mystery-pack/",
+          "barcodeVerification": "Exact Year 2 sealed random 1-pack identified in retailer catalog; UPC-A checksum verified. Not applicable to individual revealed mystery characters.",
+          "barcodeNote": "Single sealed random mystery pack ONLY; no figure-specific UPC.",
+          "photoSourceUrl": "https://www.elcorteingles.es/juguetes/A50898771-figura-sorpresa-harry-potter-wizarding-world/",
+          "photoCredit": "El Corte Inglés exact Year 2 sealed box photo",
+          "photoStatus": "exact-sealed-pack"
         },
         {
           "name": "Mystery variant — Aragog",
@@ -4521,7 +4556,11 @@
           "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
         }
       ],
-      "notes": "Year 2 The Chamber of Secrets blind-box assortment. Community-confirmed twelve figures; box codes are not barcodes or guaranteed across batches."
+      "notes": "Year 2 The Chamber of Secrets blind-box assortment. Community-confirmed twelve figures; box codes are not barcodes or guaranteed across batches.",
+      "coverPhoto": "https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202402/21/00197631111057____1__1200x1200.jpg",
+      "coverPhotoSourceUrl": "https://www.elcorteingles.es/juguetes/A50898771-figura-sorpresa-harry-potter-wizarding-world/",
+      "coverPhotoCredit": "Retailer product gallery, exact Year 2 assortment",
+      "coverPhotoStatus": "exact-sealed-product"
     }
   ]
 }
