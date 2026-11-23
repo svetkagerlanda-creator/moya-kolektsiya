@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-11-23T09:41:14+02:00",
+  "task": "historical-dolls-pets",
+  "commit": "34da8736c9860bfc3dc2fd91cd2da6a88f8b2baa",
+  "changes": [
+    "Added bounded retries and Retry-After handling for transient HTTP 429/5xx and network failures in historical catalog source fetching"
+  ],
+  "newSeries": 0,
+  "newItems": 0,
+  "newPhotos": 0,
+  "verifiedIndividualPhotos": 0,
+  "baselineFromExistingDiagnostics": {
+    "series": 422,
+    "items": 7471,
+    "photosWithUrls": 7471,
+    "partialSeries": 1
+  },
+  "fandoms": [
+    "Bratz",
+    "Monster High",
+    "Ever After High",
+    "Littlest Pet Shop G1-G6"
+  ],
+  "limitations": [
+    "Importer not executed in repository runtime during this run",
+    "Remote image availability and SKU matching not checked",
+    "Existing baseline is not a fresh scan"
+  ],
+  "next": [
+    "Run scripts/build_historical_dolls_pets.py in repository runtime",
+    "Inspect LPS G3 Teensies partial series",
+    "Expand Winx and Bratz sub-lines from verified sources"
+  ],
+  "personalStatusesChanged": false
+}
