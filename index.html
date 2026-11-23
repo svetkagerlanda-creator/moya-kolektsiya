@@ -407,12 +407,17 @@ function wishes(){const legacy=legacyCatalogWishes();return '<h2>Хочу при
 // Recognize imported series anywhere in the user's folder tree, even after
 // moving them under a custom group or manufacturer. The source URL survives
 // renames; the canonical name supports older manually imported collections.
+function canonicalSeriesSource(value){
+ let source=String(value||'').trim();
+ while(source.endsWith('/'))source=source.slice(0,-1);
+ return source;
+}
 function importedSeriesFolder(seriesOrName){
  const name=typeof seriesOrName==='string'?seriesOrName:seriesOrName?.name||'';
- const source=typeof seriesOrName==='object'?String(seriesOrName?.source||'').replace(new RegExp('/+:'';
+ const source=typeof seriesOrName==='object'?canonicalSeriesSource(seriesOrName?.source):'';
  const normal=normalizeCatalogName(name);
  const candidates=data.folders.filter(f=>f&&f.kind!=='fandom'&&f.kind!=='manufacturer'&&f.kind!=='category');
- return (source&&candidates.find(f=>f.source&&String(f.source).replace(/\\/+$/,'')===source))
+ return (source&&candidates.find(f=>f.source&&canonicalSeriesSource(f.source)===source))
    ||(normal&&candidates.find(f=>normalizeCatalogName(f.name)===normal))||null;
 }
 function seriesAlreadyInMyCollections(name){
