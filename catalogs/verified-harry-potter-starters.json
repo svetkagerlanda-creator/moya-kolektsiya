@@ -779,47 +779,66 @@
           "figureNumber": "MF0001",
           "sourceUrl": "https://staging.ironstudios.com/product/harry-potter-mini-co/",
           "photo": "",
-          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification.",
+          "ean": "606529806606",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.originalky.cz/iron-studios-figurka-mini-co-harry-potter-p329200/",
+          "barcodeNote": "EAN explicitly listed alongside MF0001 product reference"
         },
         {
           "name": "Hermione Granger",
           "manufacturer": "Iron Studios",
           "figureNumber": "MF0003",
           "sourceUrl": "https://staging.ironstudios.com/product/hermione-harry-potter-mini-co/",
-          "photo": "",
-          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+          "photo": "https://www.figurine-collector.fr/40963-thickbox_default/iron-studios-harry-potter-mini-co-pvc-hermione.jpg",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification.",
+          "photoSourceUrl": "https://www.figurine-collector.fr/",
+          "photoStatus": "matched-individual-figure",
+          "photoCredit": "Iron Studios MiniCo — matched individual product"
         },
         {
           "name": "Ron Weasley",
           "manufacturer": "Iron Studios",
           "figureNumber": "010040",
           "sourceUrl": "https://ironstudios.com/products/statue-ron-weasley-harry-potter-minico-iron-studios",
-          "photo": "",
-          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+          "photo": "https://tanagra.fr/12190-thickbox/harry-potter-figurine-ron-weasley-minico-sur-socle-iron-studios.jpg",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification.",
+          "photoSourceUrl": "https://tanagra.fr/fr/figurines/1689-harry-potter-figurine-ron-weasley-minico-sur-socle-iron-studios-0606529806620",
+          "photoStatus": "matched-individual-figure",
+          "photoCredit": "Iron Studios MiniCo — matched individual product"
         },
         {
           "name": "Harry Potter with Sword of Gryffindor",
           "manufacturer": "Iron Studios",
           "figureNumber": "",
           "sourceUrl": "https://ironstudios.eu/products/harry-potter-the-chamber-of-secrets-harry-potter-minico-618231950812",
-          "photo": "",
-          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+          "photo": "https://fragstore.com/images/detailed/180/0_2694_ca78477fd6b5cf8c49c6fc7bce052565.jpeg",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification.",
+          "photoSourceUrl": "https://fragstore.com/iron-studios-and-minico-harry-potter-harry-potter-with-sword-of-gryffindor-figure/",
+          "photoStatus": "matched-individual-figure",
+          "photoCredit": "Iron Studios MiniCo — matched individual product"
         },
         {
           "name": "Ron Weasley — Broken Wand",
           "manufacturer": "Iron Studios",
           "figureNumber": "90506",
           "sourceUrl": "https://ironstudios.com/products/statue-ron-weasley-broken-wand-harry-potter-minico-iron-studios",
-          "photo": "",
-          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+          "photo": "https://ironstudios.com/cdn/shop/files/090506_1_1024x1024.jpg?v=1752766101",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification.",
+          "photoSourceUrl": "https://ironstudios.com/products/statue-ron-weasley-broken-wand-harry-potter-minico-iron-studios",
+          "photoStatus": "manufacturer-product-image",
+          "photoCredit": "Iron Studios MiniCo — matched individual product"
         },
         {
           "name": "Hermione Granger — Polyjuice",
           "manufacturer": "Iron Studios",
           "figureNumber": "090507",
           "sourceUrl": "https://ironstudios.com/products/statue-hermione-granger-polyjuice-harry-potter-minico-iron-studios",
-          "photo": "",
-          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+          "photo": "https://ironstudios.com/cdn/shop/files/090507_1.jpg?v=1757015371",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification.",
+          "photoSourceUrl": "https://ironstudios.com/products/statue-hermione-granger-polyjuice-harry-potter-minico-iron-studios",
+          "photoStatus": "manufacturer-product-image",
+          "photoCredit": "Iron Studios MiniCo — matched individual product"
         },
         {
           "name": "Harry Potter at the Quidditch Match",
