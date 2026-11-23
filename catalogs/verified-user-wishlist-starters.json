@@ -2909,9 +2909,9 @@
       "group": "🎁 Blind Box · 52TOYS",
       "source": "https://nekostop.com/products/52toys-lilith-monologues-in-the-land-of-oz",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 10,
-      "notes": "Додано поіменно підтверджені варіанти; запечатана blind box — окрема позиція. У джерелах зазначено 9 дизайнів; список і фото ще потребують доповнення.",
+      "completeness": "verified-full-series",
+      "count": 11,
+      "notes": "Повна лінійка: 8 regular, Dorothy Cosplay Limited Colour і Dorothy Doll Secret; також окрема позиція запечатаної випадкової коробки. Особисті позначки предметів мають зберігатися за незміненими variantKey.",
       "items": [
         {
           "name": "Lilith · Monologue in the Land of OZ",
@@ -2931,29 +2931,33 @@
           "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
         },
         {
-          "name": "Fairy",
+          "name": "Fairy Cosplay",
           "manufacturer": "52TOYS",
-          "character": "Fairy",
+          "character": "Fairy Cosplay",
           "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Fairy",
-          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "sourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-fairy-cosplay",
           "rarity": "Regular",
           "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
         },
         {
-          "name": "Witch",
+          "name": "Witch Cosplay",
           "manufacturer": "52TOYS",
-          "character": "Witch",
+          "character": "Witch Cosplay",
           "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Witch",
-          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "sourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-witch-cosplay",
           "rarity": "Regular",
-          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки.",
+          "photo": "https://blindboxempire.com/cdn/shop/products/Lilith5_grande.webp?v=1675348074",
+          "photoSourceUrl": "https://blindboxempire.com/products/l-lilith-monologue-in-the-land-of-oz",
+          "photoCredit": "Retailer — named 52TOYS Lilith figure",
+          "photoStatus": "matched-product-photo"
         },
         {
           "name": "Crystal House",
           "manufacturer": "52TOYS",
           "character": "Crystal House",
           "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Crystal House",
-          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "sourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-crystal-house",
           "rarity": "Regular",
           "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
         },
@@ -2962,54 +2966,72 @@
           "manufacturer": "52TOYS",
           "character": "Pumpkin Ghost",
           "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Pumpkin Ghost",
-          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "sourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-pumpkin-ghost",
           "rarity": "Regular",
           "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
         },
         {
-          "name": "Dorothy",
+          "name": "Dorothy Cosplay",
           "manufacturer": "52TOYS",
-          "character": "Dorothy",
+          "character": "Dorothy Cosplay",
           "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Dorothy",
-          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "sourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-dorothy-cosplay",
           "rarity": "Regular",
-          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки.",
+          "photo": "https://toysez.com/cdn/shop/files/8_1_21745d6f-836f-42f0-ae7a-1b2c36215319.jpg?v=1740507123",
+          "photoSourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-dorothy-cosplay",
+          "photoCredit": "Retailer — named 52TOYS Lilith figure",
+          "photoStatus": "matched-product-photo"
         },
         {
-          "name": "Lion",
+          "name": "Cowardly Lion Doll",
           "manufacturer": "52TOYS",
-          "character": "Lion",
+          "character": "Cowardly Lion Doll",
           "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Lion",
-          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "sourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-cowardly-lion-doll",
           "rarity": "Regular",
           "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
         },
         {
-          "name": "Scarecrow",
+          "name": "Scarecrow Doll",
           "manufacturer": "52TOYS",
-          "character": "Scarecrow",
+          "character": "Scarecrow Doll",
           "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Scarecrow",
-          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "sourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-scarecrow-doll",
           "rarity": "Regular",
           "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
         },
         {
-          "name": "Tin Man",
+          "name": "Tin Man Toy",
           "manufacturer": "52TOYS",
-          "character": "Tin Man",
+          "character": "Tin Man Toy",
           "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Tin Man",
-          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "sourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-tin-man-toy",
           "rarity": "Regular",
           "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
         },
         {
-          "name": "Secret Dorothy (Stage Piece)",
+          "name": "Dorothy Doll (Secret)",
           "manufacturer": "52TOYS",
-          "character": "Secret Dorothy (Stage Piece)",
+          "character": "Dorothy Doll (Secret)",
           "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Secret Dorothy (Stage Piece)",
-          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "sourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-secret-dorothy-doll",
           "rarity": "Secret",
-          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки.",
+          "photo": "https://toysez.com/cdn/shop/files/9_3_5d8a4c30-8314-480e-9007-59a7c5e316a8.jpg?v=1740507339",
+          "photoSourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-secret-dorothy-doll",
+          "photoCredit": "Retailer — named 52TOYS Lilith figure",
+          "photoStatus": "matched-product-photo"
+        },
+        {
+          "name": "Dorothy Cosplay (Limited Colour)",
+          "manufacturer": "52TOYS",
+          "character": "Dorothy Cosplay (Limited Colour)",
+          "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Dorothy Cosplay (Limited Colour)",
+          "rarity": "Limited",
+          "sourceUrl": "https://toysez.com/products/lilith-monologue-in-the-land-oz-series-dorothy-cosplay-limited-colour",
+          "photo": "",
+          "description": "Підтверджений окремий лімітований колір Dorothy Cosplay. Не ототожнювати із секретною Dorothy Doll або звичайною Dorothy Cosplay."
         }
       ],
       "assortmentEan": "6958985027403",
