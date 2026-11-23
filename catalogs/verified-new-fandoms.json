@@ -914,7 +914,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-catty-noir-doll-hxh76",
           "photo": "https://shop.mattel.com/cdn/shop/files/hudicedndd3giysoreem_b9168004-0713-4534-a9fe-76a440c9e938.png?v=1778259384",
-          "description": "​Monster High Catty Noir doll looks picture-purrfect in her stage-ready lurk! She comes with lots of themed pieces to encourage creeperific stories and dress-up fun."
+          "description": "​Monster High Catty Noir doll looks picture-purrfect in her stage-ready lurk! She comes with lots of themed pieces to encourage creeperific stories and dress-up fun.",
+          "ean": "0194735230648",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.ebay.com/p/2338699480",
+          "barcodeVerification": "Mattel product HXH76, matching exact EAN-13 in Mattel product document and retailer catalog"
         },
         {
           "name": "Monster High Clawdeen Wolf Fashion Doll in Furry Skirt With Pet Crescent And 7 Accessories",
