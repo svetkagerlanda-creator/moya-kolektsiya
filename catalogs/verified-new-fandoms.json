@@ -916,7 +916,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-boneca-clawdeen-novo-visual-hrp65-pt-br",
           "photo": "https://shop.mattel.com/cdn/shop/files/j9om9cbjrrjjw5z3zwew_a93e2c98-6684-471c-b2a9-092e63708669.png?v=1719857446",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735183579",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.rofu.de/p/monster-high-clawdeen-wolf-puppe-hrp65-00260875",
+          "barcodeVerification": "Exact manufacturer SKU and EAN at Rofu product page, GTIN check digit verified"
         },
         {
           "name": "Monster High Boneca Cleo Novo Visual",
@@ -1140,7 +1144,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-coffret-monstrueux-secrets-abbey-bominable-hxh87-fr-ca",
           "photo": "https://shop.mattel.com/cdn/shop/files/gxitibzyjleawogh1nro_d4d8db6d-9d79-4e7d-a5ff-6118fd60c83a.png?v=1736198495",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735230631",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.rofu.de/p/monster-high-skulltimate-secrets-monster-mysteries-kleiderschrank-set-abbey-bominable-hxh87-00261538",
+          "barcodeVerification": "Exact manufacturer SKU and EAN at Rofu product page, GTIN check digit verified"
         },
         {
           "name": "Monster High Muñeca Skulltimate Secrets Garden Mysteries Sorpresa",
