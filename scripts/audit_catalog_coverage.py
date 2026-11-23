@@ -17,7 +17,7 @@ EXCLUDE={"source-probe.json","photo-probe.json","catalog-coverage.json"}
 def main():
     result={"schemaVersion":1,"feeds":[],"totals":{},"sourceRoots":{},
             "issues":[],"duplicateExamples":[]}
-    total_series=total_items=total_photos=0
+    total_series=total_items=total_photos=total_partial=0
     source_roots=collections.defaultdict(lambda:{"series":0,"items":0,"photos":0})
     known_urls=collections.defaultdict(set)
     for path in sorted(CATALOGS.glob("verified-*.json")):
@@ -33,7 +33,7 @@ def main():
             result["issues"].append({"file":path.name,"problem":"series is not an array"})
             continue
         stats={"file":path.name,"series":0,"items":0,"photos":0,
-               "missingPhotos":0,"invalidSeries":0,"duplicateUrls":0}
+               "missingPhotos":0,"invalidSeries":0,"duplicateUrls":0,"partialSeries":0}
         for series in entries:
             if not isinstance(series,dict) or not isinstance(series.get("items"),list):
                 stats["invalidSeries"]+=1
@@ -46,6 +46,7 @@ def main():
             parsed=urlsplit(source)
             root=parsed.path.strip("/").split("/")[0] if parsed.hostname=="data.mlpmerch.com" else ""
             root=root or "other"
+            if series.get("completeness")=="verified-selected-releases":stats["partialSeries"]+=1
             stats["series"]+=1
             stats["items"]+=len(cards)
             stats["photos"]+=sum(bool(i.get("photo")) for i in cards if isinstance(i,dict))
@@ -61,13 +62,14 @@ def main():
                 seen.add(item_url)
                 known_urls[item_url].add(path.name)
         stats["missingPhotos"]=stats["items"]-stats["photos"]
+        total_partial+=stats["partialSeries"]
         total_series+=stats["series"]
         total_items+=stats["items"]
         total_photos+=stats["photos"]
         result["feeds"].append(stats)
     overlaps=[{"sourceUrl":url,"files":sorted(files)} for url,files in known_urls.items() if len(files)>1]
     result["duplicateExamples"]=overlaps[:15]
-    result["totals"]={"verifiedSeriesRecords":total_series,"releaseRecords":total_items,
+    result["totals"]={"verifiedSeriesRecords":total_series,"partialSeriesRecords":total_partial,"releaseRecords":total_items,
                        "photoRecords":total_photos,"missingPhotoRecords":total_items-total_photos,
                        "crossFeedOverlappingSourceUrls":len(overlaps),
                        "distinctSourceUrls":len(known_urls)}
