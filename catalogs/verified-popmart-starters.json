@@ -455,7 +455,12 @@
           "variantKey": "POP MART|POP MART · HIRONO · Little Mischief|13|Unknown Journey (Secret)"
         }
       ],
-      "identityPolicy": "Series source URL may be shared across variants; identify items by manufacturer + series + catalogPosition + name, not sourceUrl alone."
+      "identityPolicy": "Series source URL may be shared across variants; identify items by manufacturer + series + catalogPosition + name, not sourceUrl alone.",
+      "assortmentEan": "6941448692461",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://www.momie.fr/product/show/6941448692461/pop-mart-hirono-little-mischief-series-blind-box",
+      "assortmentBarcodeVerification": "Retailer explicitly lists EAN-13 for one blind box of the exact named series; check digit validated",
+      "assortmentBarcodeNote": "Sealed mystery box; UPC/EAN does not identify hidden individual. Not a 6-/12-box display."
     },
     {
       "name": "POP MART · CRYBABY · Crying Again",
