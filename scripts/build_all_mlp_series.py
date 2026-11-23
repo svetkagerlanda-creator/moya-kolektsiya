@@ -85,6 +85,50 @@ def discover(root, label, grouping):
         raise ValueError(f"no indexed series links at {index}")
     return list(found.values())
 
+def parse_comic_cards(soup, entry):
+    """Read comic issue cards; comics have no /details/ links.
+
+    Items link to their real series page and have a separate stable variantKey
+    derived from the issue title and its occurrence, not invented detail URLs.
+    The caller still enforces the publisher's release count.
+    """
+    import hashlib
+    url=entry["source"]
+    root=entry["root"]
+    cards={}
+    duplicates={}
+    for bottom in soup.select(".data-bottom"):
+        wrapper=bottom.parent
+        if wrapper is None or not wrapper.select_one(".data-top"):
+            continue
+        text=bottom.get_text(" ",strip=True)
+        name_node=bottom.select_one(".data-name, .data-title, h3, h4")
+        name=(name_node.get_text(" ",strip=True) if name_node else text)
+        name=re.split(r"\\s+(?:W|A):\\s*",name,maxsplit=1,flags=re.I)[0].strip()
+        # Extract only actual issue cards; skip description and navigation tiles.
+        if not name or len(name)>220:
+            continue
+        duplicates[name]=duplicates.get(name,0)+1
+        occurrence=duplicates[name]
+        unique=f"{root}|{url}|{name}|{occurrence}"
+        key=hashlib.sha256(unique.encode("utf-8")).hexdigest()[:20]
+        photo=""
+        for img in wrapper.select(".data-top img"):
+            raw=img.get("data-src") or img.get("src") or ""
+            if "/v/pixel.gif" in raw.lower():
+                raw=(img.parent.get("href") if img.parent else "") or ""
+            candidate=urljoin(url,raw) if raw else ""
+            if (urlsplit(candidate).scheme=="https"
+                    and "/v/pixel.gif" not in candidate.lower()
+                    and urlsplit(candidate).hostname!="mlpmerch.mlpmerch.com"):
+                photo=candidate
+                break
+        cards[key]={"name":name,"catalogPosition":name,
+                    "variantKey":key,"manufacturer":"IDW Publishing",
+                    "sourceUrl":url,"photo":photo,
+                    "description":"MLP Merch: comic issue, verified from series page"}
+    return cards
+
 def parse(entry):
     url=entry["source"]
     soup=soup_at(url)
@@ -122,6 +166,8 @@ def parse(entry):
         notes=[node.get_text(" ",strip=True) for node in bottom.select(".data-smallt")]
         items[code]={"name":name,"catalogPosition":code,"manufacturer":entry["manufacturer"] or "Ліцензіат MLP",
                      "sourceUrl":href,"photo":photo,"description":"; ".join(x for x in notes if x)}
+    if not items and root in {"comics","g5-comics"}:
+        items=parse_comic_cards(soup,entry)
     if not items:
         raise ValueError("no confirmed individual release links")
     if expected and len(items)!=expected:
