@@ -226,6 +226,22 @@ def main():
         try:
             previous={s["name"]:s for s in json.loads(OUTPUT.read_text(encoding="utf8")).get("series",[])}
         except (OSError,ValueError,KeyError):pass
+    # Reapply individually source-verified cards after each refresh. A workflow
+    # may check out an older catalog snapshot; these seeds must never disappear.
+    seeds_path=BASE/"catalogs/verified-new-fandoms-seeds.json"
+    if seeds_path.exists():
+        seeds=json.loads(seeds_path.read_text(encoding="utf8")).get("series",[])
+        for seed in seeds:
+            name=seed["name"]
+            old=previous.get(name,{})
+            original={identity(c):c for c in old.get("items",[]) if c.get("sourceUrl")}
+            for card in seed["items"]:
+                key=identity(card)
+                if key not in original:
+                    original[key]=card
+                elif not original[key].get("photo") and card.get("photo"):
+                    original[key]["photo"]=card["photo"]
+            previous[name]={**seed,**old,"name":name,"items":list(original.values()),"count":len(original)}
     errors={}
     candidates={}
     for name,fandom,maker,index in SOURCES:
