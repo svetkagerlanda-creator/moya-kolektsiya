@@ -322,8 +322,9 @@
           "figureNumber": "",
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-2026-bratzaversary-gaia-collector-doll",
-          "photo": "",
-          "description": "Celebrate the Bratz 25th anniversary with the Bratzaversary Gaia Collection doll shining in a bold, silver look that honors 25 years! Shop limited-edition Bratzaversary Doll on Bratz.com!"
+          "photo": "https://www.bratz.com/cdn/shop/files/Bratz_Bratzaversary_Gaia_Doll_2.jpg?v=1777399397",
+          "description": "Celebrate the Bratz 25th anniversary with the Bratzaversary Gaia Collection doll shining in a bold, silver look that honors 25 years! Shop limited-edition Bratzaversary Doll on Bratz.com!",
+          "photoCredit": "Official Bratz product photography for this exact collector doll"
         },
         {
           "name": "Bratz x Luar Collector Dolls 2-Pack, Yasmin and Carlos, Special Collector Edition with 2 Dolls, 2 Fashion Looks, Accessories, and Premium Packaging",
@@ -338,8 +339,9 @@
           "figureNumber": "",
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-celebrity-artist-tyla-collector-doll",
-          "photo": "",
-          "description": "Tyla and Bratz are making it official! Shop the Tyla Collector Doll and other collabs + collector dolls at Bratz.com."
+          "photo": "https://www.bratz.com/cdn/shop/files/599463_BratzxTyla_DollwTiger.jpg?v=1784223466&width=1646",
+          "description": "Tyla and Bratz are making it official! Shop the Tyla Collector Doll and other collabs + collector dolls at Bratz.com.",
+          "photoCredit": "Official Bratz product photography for this exact collector doll"
         }
       ]
     },
