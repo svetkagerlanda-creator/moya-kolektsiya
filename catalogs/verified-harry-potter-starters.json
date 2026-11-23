@@ -2288,6 +2288,108 @@
           "description": "Listed in official LEGO Harry Potter catalog. Individual product photo pending verification."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · Funko · Mystery Mini Globes (50814)",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/harry-potter-globe-mystery-minis/50814.html",
+      "verified": true,
+      "completeness": "official-full-character-checklist",
+      "count": 10,
+      "items": [
+        {
+          "name": "Harry Potter",
+          "manufacturer": "Funko",
+          "seriesNumber": "50814",
+          "catalogPosition": "1",
+          "sourceUrl": "https://funko.com/harry-potter-globe-mystery-minis/50814.html",
+          "photo": "",
+          "description": "Mystery Mini snow globe with Hogwarts relief base. One random figure per sealed box; individual exact photo pending."
+        },
+        {
+          "name": "Hermione Granger",
+          "manufacturer": "Funko",
+          "seriesNumber": "50814",
+          "catalogPosition": "2",
+          "sourceUrl": "https://funko.com/harry-potter-globe-mystery-minis/50814.html",
+          "photo": "",
+          "description": "Mystery Mini snow globe with Hogwarts relief base. One random figure per sealed box; individual exact photo pending."
+        },
+        {
+          "name": "Ron Weasley",
+          "manufacturer": "Funko",
+          "seriesNumber": "50814",
+          "catalogPosition": "3",
+          "sourceUrl": "https://funko.com/harry-potter-globe-mystery-minis/50814.html",
+          "photo": "",
+          "description": "Mystery Mini snow globe with Hogwarts relief base. One random figure per sealed box; individual exact photo pending."
+        },
+        {
+          "name": "Luna Lovegood",
+          "manufacturer": "Funko",
+          "seriesNumber": "50814",
+          "catalogPosition": "4",
+          "sourceUrl": "https://funko.com/harry-potter-globe-mystery-minis/50814.html",
+          "photo": "",
+          "description": "Mystery Mini snow globe with Hogwarts relief base. One random figure per sealed box; individual exact photo pending."
+        },
+        {
+          "name": "Albus Dumbledore",
+          "manufacturer": "Funko",
+          "seriesNumber": "50814",
+          "catalogPosition": "5",
+          "sourceUrl": "https://funko.com/harry-potter-globe-mystery-minis/50814.html",
+          "photo": "",
+          "description": "Mystery Mini snow globe with Hogwarts relief base. One random figure per sealed box; individual exact photo pending."
+        },
+        {
+          "name": "Rubeus Hagrid",
+          "manufacturer": "Funko",
+          "seriesNumber": "50814",
+          "catalogPosition": "6",
+          "sourceUrl": "https://funko.com/harry-potter-globe-mystery-minis/50814.html",
+          "photo": "",
+          "description": "Mystery Mini snow globe with Hogwarts relief base. One random figure per sealed box; individual exact photo pending."
+        },
+        {
+          "name": "Severus Snape",
+          "manufacturer": "Funko",
+          "seriesNumber": "50814",
+          "catalogPosition": "7",
+          "sourceUrl": "https://funko.com/harry-potter-globe-mystery-minis/50814.html",
+          "photo": "",
+          "description": "Mystery Mini snow globe with Hogwarts relief base. One random figure per sealed box; individual exact photo pending."
+        },
+        {
+          "name": "Dobby",
+          "manufacturer": "Funko",
+          "seriesNumber": "50814",
+          "catalogPosition": "8",
+          "sourceUrl": "https://funko.com/harry-potter-globe-mystery-minis/50814.html",
+          "photo": "",
+          "description": "Mystery Mini snow globe with Hogwarts relief base. One random figure per sealed box; individual exact photo pending."
+        },
+        {
+          "name": "Hedwig",
+          "manufacturer": "Funko",
+          "seriesNumber": "50814",
+          "catalogPosition": "9",
+          "sourceUrl": "https://funko.com/harry-potter-globe-mystery-minis/50814.html",
+          "photo": "",
+          "description": "Mystery Mini snow globe with Hogwarts relief base. One random figure per sealed box; individual exact photo pending."
+        },
+        {
+          "name": "Fawkes",
+          "manufacturer": "Funko",
+          "seriesNumber": "50814",
+          "catalogPosition": "10",
+          "sourceUrl": "https://funko.com/harry-potter-globe-mystery-minis/50814.html",
+          "photo": "",
+          "description": "Mystery Mini snow globe with Hogwarts relief base. One random figure per sealed box; individual exact photo pending."
+        }
+      ]
     }
   ]
 }
