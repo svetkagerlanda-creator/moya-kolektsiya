@@ -643,7 +643,11 @@
           "seriesNumber": "36660",
           "sourceUrl": "https://funko.com/pop-tony-stark/36660.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw8c917403/images/funko/36660-1.png?sh=800&sw=800",
-          "description": "Funko item 36660; box 449"
+          "description": "Funko item 36660; box 449",
+          "upc": "889698366601",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/avengers-endgame-tony-stark-funko-pop-vinyl-figure-449/fu36660",
+          "barcodeVerification": "Exact Funko release, manufacturer item number and UPC independently corroborated; checksum verified"
         },
         {
           "name": "Thanos (Endgame)",
@@ -654,7 +658,11 @@
           "seriesNumber": "36672",
           "sourceUrl": "https://funko.com/pop-thanos/36672.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw572ce958/images/funko/36672-1.png?sh=800&sw=800",
-          "description": "Funko item 36672; box 458"
+          "description": "Funko item 36672; box 458",
+          "upc": "889698366724",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.upcitemdb.com/upc/889698366724",
+          "barcodeVerification": "Exact Funko release, manufacturer item number and UPC independently corroborated; checksum verified"
         },
         {
           "name": "Iron Man (Marvel New Classics)",
@@ -665,7 +673,11 @@
           "seriesNumber": "82499",
           "sourceUrl": "https://funko.com/pop-iron-man-marvel-new-classics/82499.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwd7f497c9/images/funko/upload/82499_Marvel_NC_IronMan_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 82499; box 1421"
+          "description": "Funko item 82499; box 1421",
+          "upc": "889698824996",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.probems.be/en/MARVEL-NEW-CLASSICS-POP-MARVEL-N-1421-IRON-MAN-229175.html",
+          "barcodeVerification": "Exact Funko release, manufacturer item number and UPC independently corroborated; checksum verified"
         },
         {
           "name": "Tony Stark / Iron Man",
@@ -687,7 +699,11 @@
           "seriesNumber": "57926",
           "sourceUrl": "https://funko.com/pop-marvel-blacklight--thanos/57926.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw7f0331fd/images/funko/57926-1.png?sh=800&sw=800",
-          "description": "Funko item 57926; box 909"
+          "description": "Funko item 57926; box 909",
+          "upc": "889698579261",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.hobbydb.com/marketplaces/hobbydb/collectibles/51772702",
+          "barcodeVerification": "Exact Funko release, manufacturer item number and UPC independently corroborated; checksum verified"
         }
       ]
     },
