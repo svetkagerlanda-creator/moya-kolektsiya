@@ -143,8 +143,13 @@ def parse(entry):
         type_node=(bottom.select_one(f'a[href*="/{root}/type/"]')
             or bottom.select_one(f'a[href*="/{root}/body/"]')
             or bottom.select_one(f'a[href*="/{root}/species/"]'))
-        maker={"funko-figures":"Funko","g1-retro":"Hasbro / Basic Fun / Just Play",
-               "other-figures":"Ліцензіат My Little Pony"}.get(root,"Hasbro")
+        # MLP Merch identifies licensees per physical release. Preserve the
+        # real maker instead of incorrectly labelling all G4 figures Hasbro.
+        manufacturer_node=bottom.select_one(f'a[href*="/{root}/manufacturer/"]')
+        maker=(manufacturer_node.get_text(" ",strip=True) if manufacturer_node else "")
+        if not maker:
+            maker={"funko-figures":"Funko","g1-retro":"Hasbro / Basic Fun / Just Play",
+                   "other-figures":"Ліцензіат My Little Pony"}.get(root,"Hasbro")
         items[detail_id]={
             "name":title,"catalogPosition":detail_id,"figureNumber":"",
             "manufacturer":maker,
