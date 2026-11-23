@@ -14,6 +14,7 @@ on:
       - 'scripts/enrich_wishlist_popmart_photos.py'
       - 'scripts/build_historical_dolls_pets.py'
       - 'scripts/test_build_all_mlp_series.py'
+      - 'scripts/test_build_new_fandoms.py'
       - 'scripts/probe_comic_layout.py'
       - 'scripts/audit_catalog_coverage.py'
       - '.github/workflows/refresh-collectibles.yml'
@@ -39,6 +40,8 @@ jobs:
       - run: python -m pip install requests beautifulsoup4
       - name: Check MLP import source paths and comics parser
         run: python -m unittest discover -s scripts -p 'test_build_all_mlp_series.py'
+      - name: Regression-test curated barcode preservation
+        run: python -m unittest discover -s scripts -p 'test_build_new_fandoms.py'
       - name: Fetch and validate every card
         run: python scripts/build_catalogs.py
       - name: Build final two Kayou editions from MLP Merch
