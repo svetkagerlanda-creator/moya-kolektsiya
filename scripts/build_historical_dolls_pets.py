@@ -215,6 +215,20 @@ def main():
                 continue
             past[entry["source"]]=result
     series=sorted(past.values(),key=lambda s:s["name"])
+    # Report actionable gaps by fandom without inventing releases or dropping
+    # previously verified cards when an index is temporarily unavailable.
+    indexed_sources={e["source"] for e in unique}
+    by_fandom_summary={}
+    for fandom in ("bratz","monsterhigh","everafterhigh","lps"):
+        known=[s for s in series if s.get("fandomKey")==fandom]
+        indexed=[e for e in unique if e["fandomKey"]==fandom]
+        missing=[e["source"] for e in indexed if e["source"] not in past]
+        partial=[s["source"] for s in known if s.get("completeness")!="verified-full-series"]
+        by_fandom_summary[fandom]={
+            "indexedSeries":len(indexed),"savedSeries":len(known),
+            "savedItems":sum(len(s.get("items",[])) for s in known),
+            "unscannedSeries":missing,"partialSeries":partial
+        }
     DEST.write_text(json.dumps({"schemaVersion":1,"series":series},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf8")
     DIAGNOSTICS.write_text(json.dumps({"indexed":len(unique),"selected":len(selected),"verified":len(series),
         "items":sum(x["count"] for x in series),
@@ -222,6 +236,7 @@ def main():
         "missingIndividualPhotos":sum(sum(not bool(c.get("photo")) for c in x["items"]) for x in series),
         "partialSeries":sum(x.get("completeness")!="verified-full-series" for x in series),
         "remainingUnscanned":len([e for e in unique if e["source"] not in past]),
+        "byFandom":by_fandom_summary,
         "errors":errors},ensure_ascii=False,indent=2)+"\n",encoding="utf8")
     print("HISTORICAL",len(series),"series",sum(x["count"] for x in series),"items",
           "unscanned",len([e for e in unique if e["source"] not in past]),flush=True)
