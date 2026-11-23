@@ -115,7 +115,11 @@
           "photo": "",
           "description": "Official Bratz Babyz Runwayz Cloe release: blue halter top, pink pleated skirt, fuzzy telephone, bottle-chain necklace. Manufacturer SKU 524052 (not a barcode).",
           "sku": "524052",
-          "verificationStatus": "manufacturer-product-page-confirmed; exact-photo-and-barcode-pending"
+          "verificationStatus": "manufacturer-product-page-confirmed; exact-photo-and-barcode-pending",
+          "upc": "035051524052",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-91987798",
+          "barcodeVerification": "retailer-exact-product-and-valid-check-digit"
         },
         {
           "name": "Bratz Babyz Runwayz Doll - Yasmin",
@@ -125,7 +129,11 @@
           "photo": "",
           "description": "Official Bratz Babyz Runwayz Yasmin release: lavender turtleneck, ruffled shorts, fuzzy telephone, bottle-chain necklace. Manufacturer SKU 524069 (not a barcode).",
           "sku": "524069",
-          "verificationStatus": "manufacturer-product-page-confirmed; exact-photo-and-barcode-pending"
+          "verificationStatus": "manufacturer-product-page-confirmed; exact-photo-and-barcode-pending",
+          "upc": "035051524069",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://aukro.cz/bratz-babyz-runwayz-panenka-yasmin-7117975612",
+          "barcodeVerification": "retailer-exact-product-and-valid-check-digit"
         },
         {
           "name": "Bratz Big Babyz Doll - Yasmin",
@@ -135,7 +143,11 @@
           "photo": "",
           "description": "Official Bratz Big Babyz Yasmin 2025 reissue of 2005 doll, with pink tank top, jean skirt, pet frog Pretty Princess, bottle necklace. Manufacturer SKU 524151 (not a barcode).",
           "sku": "524151",
-          "verificationStatus": "manufacturer-product-page-confirmed; exact-photo-and-barcode-pending"
+          "verificationStatus": "manufacturer-product-page-confirmed; exact-photo-and-barcode-pending",
+          "upc": "035051524151",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.bigw.com.au/product/bratz-big-babyz-yasmin-doll/p/9901252751",
+          "barcodeVerification": "retailer-exact-product-and-valid-check-digit"
         }
       ]
     },
