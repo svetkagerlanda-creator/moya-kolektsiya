@@ -143,7 +143,11 @@
           "seriesNumber": "72046",
           "sourceUrl": "https://funko.com/pop-panda/72046.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw7805cbfe/images/funko/upload/72046%20POP%20Animation%20JJK%20S2-Panda_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 72046"
+          "description": "Funko item 72046",
+          "upc": "889698720465",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/itm/204966441373",
+          "barcodeVerification": "Exact product title and UPC in linked retailer/collectible listing; checksum validated"
         },
         {
           "name": "Jogo",
@@ -154,7 +158,11 @@
           "seriesNumber": "86773",
           "sourceUrl": "https://funko.com/pop-jogo/86773.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw3dba9788/images/funko/upload/1/86773_JJK_Jogo_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 86773"
+          "description": "Funko item 86773",
+          "upc": "889698867733",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-jujutsu-kaisen-jogo-3.8-in-vinyl-figure/423363.html",
+          "barcodeVerification": "Exact product title and UPC in linked retailer/collectible listing; checksum validated"
         },
         {
           "name": "Hanami",
@@ -165,7 +173,11 @@
           "seriesNumber": "73900",
           "sourceUrl": "https://funko.com/pop-hanami/73900.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw7b9e8e09/images/funko/upload/73900_JJK_Hanami_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 73900"
+          "description": "Funko item 73900",
+          "upc": "889698739009",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/figures/products/funko-pop-animation-jujutsu-kaisen-hanami-vinyl-figure/422074.html",
+          "barcodeVerification": "Exact product title and UPC in linked retailer/collectible listing; checksum validated"
         },
         {
           "name": "Yuta Okkotsu with Sword",
@@ -176,7 +188,11 @@
           "seriesNumber": "90635",
           "sourceUrl": "https://funko.com/pop-yuta-okkotsu-with-sword/90635.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwda51dedf/images/funko/upload/1/90635_JJK0_S1_Yuta_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 90635"
+          "description": "Funko item 90635",
+          "upc": "889698906357",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-jujutsu-kaisen-0-yuta-okkotsu-4.4-in-vinyl-figure/430879.html",
+          "barcodeVerification": "Exact product title and UPC in linked retailer/collectible listing; checksum validated"
         },
         {
           "name": "Yuji Itadori with Divergent Fists (Glow)",
@@ -266,7 +282,11 @@
           "seriesNumber": "62270",
           "sourceUrl": "https://funko.com/pop-glaceon/62270.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw348d8e67/images/funko/upload/62270_Pokemon_Glaceon_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 62270; box 921"
+          "description": "Funko item 62270; box 921",
+          "upc": "889698622707",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-games-pokemon-glaceon-4.15-in-vinyl-figure/346434.html",
+          "barcodeVerification": "Exact product title and UPC in linked retailer/collectible listing; checksum validated"
         },
         {
           "name": "Dratini",
@@ -307,7 +327,11 @@
           "seriesNumber": "91665",
           "sourceUrl": "https://funko.com/pop-zoroark/91665.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1ff98e2d/images/funko/upload/1/91665_Pokemon_Zoroark_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 91665; box 1156"
+          "description": "Funko item 91665; box 1156",
+          "upc": "889698916653",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-games-pokemon-zoroark-4.4-in-vinyl-figure/430986.html",
+          "barcodeVerification": "Exact product title and UPC in linked retailer/collectible listing; checksum validated"
         }
       ]
     },
@@ -543,7 +567,12 @@
           "seriesNumber": "92043",
           "sourceUrl": "https://funko.com/pop-cinnamoroll-berry-outfit/92043.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw71fe253f/images/funko/upload/1/92043_Cinnamoroll_CinnamorollWithBerries_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 92043; box 149"
+          "description": "Funko item 92043; box 149",
+          "upc": "889698920438",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-sanrio-hello-kitty-and-friends-cinnamoroll-with-flower-3.4-in-vinyl-figure/433836.html",
+          "barcodeVerification": "Exact product title and UPC in linked retailer/collectible listing; checksum validated",
+          "barcodeNote": "Official Funko product 92043 is marketed as Cinnamoroll with Flower / Berry Outfit; these are names for the same release"
         }
       ]
     },
