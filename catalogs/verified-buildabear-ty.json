@@ -235,10 +235,11 @@
           "figureNumber": "36391",
           "variantKey": "ty:beanie-boos:36391",
           "sourceUrl": "https://www.ty.com/product/chessie/36391.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
-          "photoCredit": "",
+          "photo": "https://cdn.ty.com/static/images/1f3416242d995f340c654f3016faeb28_right45lg.png",
+          "photoCredit": "Official Ty Chessie 36391 image",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
-          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU."
+          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
+          "photoSourceUrl": "https://www.ty.com/product/chessie/36391.html?lang=en"
         },
         {
           "name": "Vixen",
@@ -315,10 +316,11 @@
           "figureNumber": "37365",
           "variantKey": "ty:beanie-boos:37365",
           "sourceUrl": "https://www.ty.com/product/parfait/37365.html?cgid=beanie-boos-circle&lang=default",
-          "photo": "",
-          "photoCredit": "",
+          "photo": "https://i5.walmartimages.com/seo/TY-Beanie-Boos-PARFAIT-the-Valentine-s-Fox-Glitter-Eyes-Regular-Size-6-inch_17d0898b-ce2f-4acb-aede-520bcf2650e6.e527c2044429cbbd2e719344bc747910.jpeg",
+          "photoCredit": "Walmart product photo of Parfait Valentine's Fox",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
-          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU."
+          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
+          "photoSourceUrl": "https://www.walmart.com/ip/15129301424"
         },
         {
           "name": "Noodles",
@@ -326,10 +328,11 @@
           "figureNumber": "36377",
           "variantKey": "ty:beanie-boos:36377",
           "sourceUrl": "https://www.ty.com/product/noodles/36377.html?cgid=beanie-boos&lang=en",
-          "photo": "",
-          "photoCredit": "",
+          "photo": "https://cdn.toyscenter.it/i/o/2022/09/fef65415-hdg_120015601_1.png",
+          "photoCredit": "Toys Center product photo exact Ty 36377",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
-          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU."
+          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
+          "photoSourceUrl": "https://www.toyscenter.it/prodotto/ty-peluche-beanie-boos-cane-noodles-marrone-cagnolino-con-occhioni-glitter-dorati-il-morbido-pupazzo-con-gli-occhi-grandi-scintillanti-15-cm-36377/"
         },
         {
           "name": "Helena",
