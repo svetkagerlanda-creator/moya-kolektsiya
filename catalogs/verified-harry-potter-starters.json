@@ -413,7 +413,8 @@
           "photo": "",
           "description": "Official product listing verified; exact individual photo pending."
         }
-      ]
+      ],
+      "notes": "Series 2 blind pair assortment. Five different pair outcomes are reported by collectors, but full pair names must be matched to an opened-box checklist before creating variant cards. Existing sealed two-pack is not an individual outcome."
     },
     {
       "name": "Harry Potter · Funko · Bitty POP! Boxes",
@@ -4424,7 +4425,7 @@
       "source": "https://www.hobbydb.com/marketplaces/hobbydb/subjects/year-2-series",
       "verified": true,
       "completeness": "full-community-checklist",
-      "count": 13,
+      "count": 15,
       "items": [
         {
           "name": "Year 2 — Sealed Surprise Blind Box (1 figure)",
@@ -4573,6 +4574,28 @@
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
           "rarity": "Not independently established",
           "description": "Year 2 blind-box outcome documented in a community-maintained opening-and-code checklist; individual product barcode and exact photo not verified."
+        },
+        {
+          "name": "Year 2 Flying Car — Harry Potter, Ron Weasley & Hedwig (6068612)",
+          "manufacturer": "Spin Master",
+          "figureNumber": "6068612",
+          "sourceUrl": "https://www.toystolove.net/buy/210000029327/wizarding-world-harry-potter-micro-magical-moments-year-2-flying-car-figure-set",
+          "photo": "https://s3.amazonaws.com/emuncloud-staticassets/productImages/sm075/large/6068612.jpg?=im2024-01-19T04%3A37%3A10.0500000Z&1.0.81.21196-195a2bc34f+spinmaster-b2b-20251029+spinmaster+umbraco+cms+prod=no-cache&m=undefined",
+          "photoSourceUrl": "https://www.spinmasterspecialty.com/spinmastertoys/shopspinmastertoys/6068612?position=-1",
+          "photoCredit": "Exact product gallery of Spin Master Year 2 multipack",
+          "photoStatus": "exact-product-gallery",
+          "description": "Official Spin Master Year 2 three-figure Flying Car scene with Harry, Ron, Hedwig and display case; this is a fixed multipack, not one of twelve random mystery figures."
+        },
+        {
+          "name": "Year 2 Chamber of Secrets — Harry, Tom Riddle, Basilisk, Fawkes & Sorting Hat (6068622)",
+          "manufacturer": "Spin Master",
+          "figureNumber": "6068622",
+          "sourceUrl": "https://www.howleys.co.uk/harry-potter-magical-moments-chamber-secrets/",
+          "photo": "https://cdn11.bigcommerce.com/s-mpz9h6/images/stencil/1280x1280/products/263236/429456/sm6068622_xl__11155.1722368591.jpg?c=2",
+          "photoSourceUrl": "https://www.howleys.co.uk/harry-potter-magical-moments-chamber-secrets/",
+          "photoCredit": "Exact product gallery of Spin Master Year 2 multipack",
+          "photoStatus": "exact-product-gallery",
+          "description": "Confirmed Year 2 five-figure Chamber of Secrets scene with Harry Potter, Tom Riddle, Basilisk, Fawkes and Sorting Hat. Fixed multipack; not mystery blind-box variants."
         }
       ],
       "notes": "Year 2 The Chamber of Secrets blind-box assortment. Community-confirmed twelve figures; box codes are not barcodes or guaranteed across batches.",
