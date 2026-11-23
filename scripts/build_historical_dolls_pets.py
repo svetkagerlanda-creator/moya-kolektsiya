@@ -12,6 +12,8 @@ import re
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -33,8 +35,15 @@ COUNT_RE=re.compile(r"(?:with a total of|total of)\s+([\d,]+)\s+(?:releases?|dol
 INDEX_RE=re.compile(r"\(([\d,]+)\s+(?:releases?|dolls?|pets?|figures?)\)",re.I)
 MAX_NEW_PER_RUN=120
 
+_session=requests.Session()
+_session.headers.update(HEADERS)
+_session.mount("https://",HTTPAdapter(max_retries=Retry(
+    total=3,connect=3,read=2,status=3,backoff_factor=1,
+    status_forcelist=(429,500,502,503,504),
+    respect_retry_after_header=True,
+)))
 def get(url):
-    response=requests.get(url,headers=HEADERS,timeout=30)
+    response=_session.get(url,timeout=30)
     response.raise_for_status()
     return BeautifulSoup(response.text,"html.parser")
 
