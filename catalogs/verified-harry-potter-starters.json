@@ -148,6 +148,82 @@
           "description": "Official Year 3 set with Harry Potter, Stag Patronus and Dementor."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · Iron Studios · MiniCo",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Iron Studios",
+      "manufacturer": "Iron Studios",
+      "source": "https://ironstudios.com/collections/harry-potter-minico",
+      "verified": true,
+      "completeness": "full-manufacturer-checklist-photo-verification-pending",
+      "count": 8,
+      "items": [
+        {
+          "name": "Harry Potter",
+          "manufacturer": "Iron Studios",
+          "figureNumber": "MF0001",
+          "sourceUrl": "https://staging.ironstudios.com/product/harry-potter-mini-co/",
+          "photo": "",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+        },
+        {
+          "name": "Hermione Granger",
+          "manufacturer": "Iron Studios",
+          "figureNumber": "MF0003",
+          "sourceUrl": "https://staging.ironstudios.com/product/hermione-harry-potter-mini-co/",
+          "photo": "",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+        },
+        {
+          "name": "Ron Weasley",
+          "manufacturer": "Iron Studios",
+          "figureNumber": "010040",
+          "sourceUrl": "https://ironstudios.com/products/statue-ron-weasley-harry-potter-minico-iron-studios",
+          "photo": "",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+        },
+        {
+          "name": "Harry Potter with Sword of Gryffindor",
+          "manufacturer": "Iron Studios",
+          "figureNumber": "",
+          "sourceUrl": "https://ironstudios.eu/products/harry-potter-the-chamber-of-secrets-harry-potter-minico-618231950812",
+          "photo": "",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+        },
+        {
+          "name": "Ron Weasley — Broken Wand",
+          "manufacturer": "Iron Studios",
+          "figureNumber": "90506",
+          "sourceUrl": "https://ironstudios.com/products/statue-ron-weasley-broken-wand-harry-potter-minico-iron-studios",
+          "photo": "",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+        },
+        {
+          "name": "Hermione Granger — Polyjuice",
+          "manufacturer": "Iron Studios",
+          "figureNumber": "090507",
+          "sourceUrl": "https://ironstudios.com/products/statue-hermione-granger-polyjuice-harry-potter-minico-iron-studios",
+          "photo": "",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+        },
+        {
+          "name": "Harry Potter at the Quidditch Match",
+          "manufacturer": "Iron Studios",
+          "figureNumber": "90172",
+          "sourceUrl": "https://ironstudios.com/products/statue-harry-potter-at-the-quiddich-match-harry-potter-minico-illusion-iron-studios",
+          "photo": "",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+        },
+        {
+          "name": "Harry Potter and Buckbeak",
+          "manufacturer": "Iron Studios",
+          "figureNumber": "90171",
+          "sourceUrl": "https://ironstudios.com/products/statue-harry-potter-and-buckbeak-harry-potter-minico-illusion-iron-studios",
+          "photo": "",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+        }
+      ]
     }
   ]
 }
