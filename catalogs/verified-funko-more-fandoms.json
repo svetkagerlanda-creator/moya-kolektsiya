@@ -688,7 +688,11 @@
           "seriesNumber": "88520",
           "sourceUrl": "https://funko.com/pop-tony-stark%2Firon-man/88520.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwb1967997/images/funko/upload/1/88520_Marvel_TonyStark-IronMan_POP_EDIT_T7_GLAM_Frontview-WEB.png?sh=800&sw=800",
-          "description": "Funko item 88520; box 1569"
+          "description": "Funko item 88520; box 1569",
+          "upc": "889698885201",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.shopforgeek.com/en/MARVEL-POP-N-1569-Split-IRON-MAN-TONY-STARK-243811.html",
+          "barcodeVerification": "Retailer explicitly pairs Funko item 88520 with UPC 889698885201 for Tony Stark/Iron Man #1569; check digit verified"
         },
         {
           "name": "Blacklight Thanos",
