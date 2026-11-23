@@ -2446,6 +2446,113 @@
           "description": "Product and set number listed in LEGO official catalog; individual image URL not yet verified."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · Funko · POP! Deluxe · Diagon Alley",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/pop-deluxe-harry-potter-with-eeylops-owl-emporium/58135.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "items": [
+        {
+          "name": "Harry Potter with Eeylops Owl Emporium",
+          "manufacturer": "Funko",
+          "figureNumber": "58135",
+          "boxNumber": "140",
+          "sourceUrl": "https://funko.com/pop-deluxe-harry-potter-with-eeylops-owl-emporium/58135.html",
+          "photo": "",
+          "description": "Official manufacturer product; exact photo pending."
+        },
+        {
+          "name": "Rubeus Hagrid with the Leaky Cauldron",
+          "manufacturer": "Funko",
+          "figureNumber": "58134",
+          "boxNumber": "141",
+          "sourceUrl": "https://funko.com/pop-deluxe-rubeus-hagrid-with-the-leaky-cauldron/58134.html",
+          "photo": "",
+          "description": "Official manufacturer product; exact photo pending."
+        },
+        {
+          "name": "Garrick Ollivander with Ollivanders Wand Shop",
+          "manufacturer": "Funko",
+          "figureNumber": "65359",
+          "boxNumber": "146",
+          "sourceUrl": "https://funko.com/pop-deluxe-garrick-ollivander-with-ollivanders-wand-shop/65359.html",
+          "photo": "",
+          "description": "Official manufacturer product; exact photo pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · POP! Deluxe · Hogwarts & Characters",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/pop-deluxe-albus-dumbledore-with-podium/76002.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 4,
+      "items": [
+        {
+          "name": "Albus Dumbledore with Podium",
+          "manufacturer": "Funko",
+          "figureNumber": "76002",
+          "boxNumber": "172",
+          "sourceUrl": "https://funko.com/pop-deluxe-albus-dumbledore-with-podium/76002.html",
+          "photo": "",
+          "description": "Official manufacturer product; exact photo pending."
+        },
+        {
+          "name": "Albus Dumbledore with Fawkes",
+          "manufacturer": "Funko",
+          "figureNumber": "87138",
+          "boxNumber": "187",
+          "sourceUrl": "https://funko.com/gb/pop-deluxe-albus-dumbledore-with-fawkes/87138.html",
+          "photo": "",
+          "description": "Official manufacturer product; exact photo pending."
+        },
+        {
+          "name": "Harry Potter Pushing Trolley",
+          "manufacturer": "Funko",
+          "figureNumber": "57360",
+          "boxNumber": "135",
+          "sourceUrl": "https://funko.com/be/pop-deluxe-harry-potter-pushing-trolley/57360.html",
+          "photo": "",
+          "description": "Official manufacturer product; exact photo pending."
+        },
+        {
+          "name": "Chocolate Frog",
+          "manufacturer": "Funko",
+          "figureNumber": "81012",
+          "boxNumber": "178",
+          "sourceUrl": "https://funko.com/im/pop-deluxe-chocolate-frog/81012.html",
+          "photo": "",
+          "description": "Official manufacturer product; exact photo pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Advent Calendar 2025",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-ie/themes/harry-potter?page=2",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "LEGO Harry Potter Advent Calendar 2025",
+          "manufacturer": "LEGO",
+          "figureNumber": "76456",
+          "sourceUrl": "https://www.lego.com/en-ie/themes/harry-potter?page=2",
+          "photo": "",
+          "description": "Official manufacturer product; exact photo pending."
+        }
+      ]
     }
   ]
 }
