@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-11-23T08:42:26+02:00",
+  "scope": "historical dolls and pets",
+  "commit": "d4c3498cbd21d1c24ec16f52677fd3c6650e63f6",
+  "changes": [
+    "Added duplicate detail page cross-series diagnostics",
+    "Added explicit missing/invalid photo URL card diagnostics",
+    "Documented image validation limitations"
+  ],
+  "previousSnapshot": {
+    "series": 422,
+    "items": 7471,
+    "photoRecords": 7471,
+    "partialSeries": 1,
+    "partialSeriesSource": "https://lpsmerch.com/g3/line/teensies/"
+  },
+  "newSeries": 0,
+  "newItems": 0,
+  "newPhotos": 0,
+  "importerExecuted": false,
+  "validation": "Source file updated via GitHub API; importer not executed; new diagnostics not yet generated",
+  "next": [
+    "Execute scripts/build_historical_dolls_pets.py in repository environment",
+    "Inspect G3 Teensies incomplete series",
+    "Verify exact photos and archive sources",
+    "Expand Winx and Bratz historical sublines"
+  ],
+  "userDataModified": false
+}
