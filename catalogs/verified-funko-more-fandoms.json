@@ -745,7 +745,12 @@
           "seriesNumber": "5305",
           "sourceUrl": "https://funko.com/pop-monkey.-d.-luffy/5305.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwfc5cbcf0/images/funko/5305-1.png?sh=800&sw=800",
-          "description": "Funko item 5305"
+          "description": "Funko item 5305",
+          "upc": "849803053055",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://rogerz.dk/en/collections/new-arrivals/products/funko-pop-one-piece-monkey-d-luffy-98",
+          "barcodeVerification": "Product-specific Funko SKU/edition and UPC cross-checked; valid UPC-A checksum",
+          "barcodeNote": "Funko SKU 5305; verify packaging variant when scanning"
         },
         {
           "name": "Bonekichi",
@@ -772,7 +777,12 @@
           "seriesNumber": "88259",
           "sourceUrl": "https://funko.com/pop-monkey-d.-luffy-whole-cake-arc/88259.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw033245cd/images/funko/upload/1/88259_OP_LuffyWholeCake_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 88259"
+          "description": "Funko item 88259",
+          "upc": "889698882590",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://jayspopsnstuff.com/products/one-piece-monkey-d-luffy-whole-cake-funko-pop-vinyl-figure-2052-entertainment-earth-exclusive",
+          "barcodeVerification": "Product-specific Funko SKU/edition and UPC cross-checked; valid UPC-A checksum",
+          "barcodeNote": "Funko SKU 88259; verify packaging variant when scanning"
         },
         {
           "name": "Usopp (Going Merry)",
@@ -783,7 +793,12 @@
           "seriesNumber": "91689",
           "sourceUrl": "https://funko.com/pop-usopp-going-merry/91689.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw6d4a8c41/images/funko/upload/91689_OP_Usopp_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 91689"
+          "description": "Funko item 91689",
+          "upc": "889698916899",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://jayspopsnstuff.com/collections/shop-funko-anime/products/one-piece-straw-hat-pirates-usopp-funko-pop-vinyl-figure-2333-entertainment-earth-exclusive",
+          "barcodeVerification": "Product-specific Funko SKU/edition and UPC cross-checked; valid UPC-A checksum",
+          "barcodeNote": "Funko SKU 91689; verify packaging variant when scanning"
         }
       ]
     },
@@ -806,7 +821,12 @@
           "seriesNumber": "6356",
           "sourceUrl": "https://funko.com/pop-natsu/6356.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf12993e5/images/funko/6356-1.png?sh=800&sw=800",
-          "description": "Funko item 6356"
+          "description": "Funko item 6356",
+          "upc": "849803063566",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.midtowncomics.com/product/1513246",
+          "barcodeVerification": "Product-specific Funko SKU/edition and UPC cross-checked; valid UPC-A checksum",
+          "barcodeNote": "Funko SKU 6356; verify packaging variant when scanning"
         },
         {
           "name": "Lucy (Vault)",
@@ -817,7 +837,12 @@
           "seriesNumber": "6355",
           "sourceUrl": "https://funko.com/pop-lucy/6355.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwdae3ee23/images/funko/6355-1.png?sh=800&sw=800",
-          "description": "Funko item 6355"
+          "description": "Funko item 6355",
+          "upc": "849803063559",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://figurines-pop.com/figurine/funko-pop-68-fairy-tail-lucy-heartfilia-7129",
+          "barcodeVerification": "Product-specific Funko SKU/edition and UPC cross-checked; valid UPC-A checksum",
+          "barcodeNote": "Funko SKU 6355; verify packaging variant when scanning"
         },
         {
           "name": "Happy (Vault)",
@@ -828,7 +853,12 @@
           "seriesNumber": "6357",
           "sourceUrl": "https://funko.com/pop-happy/6357.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw18d96253/images/funko/6357-1.png?sh=800&sw=800",
-          "description": "Funko item 6357"
+          "description": "Funko item 6357",
+          "upc": "849803063573",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.bullmoose.com/p/22438573/funko-pop-fairy-tail--happy",
+          "barcodeVerification": "Product-specific Funko SKU/edition and UPC cross-checked; valid UPC-A checksum",
+          "barcodeNote": "Funko SKU 6357; verify packaging variant when scanning"
         }
       ]
     }
