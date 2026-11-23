@@ -351,11 +351,11 @@
       "manufacturer": "10/10 Toys",
       "fandomKey": "blind-box",
       "group": "🎁 Blind Box · 10/10 Toys",
-      "source": "",
+      "source": "https://toysez.com/collections/dodo-nami-nightmare-core-series",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "completeness": "full-variant-checklist-with-sealed-assortment",
+      "count": 10,
+      "notes": "8 regular designs and one rare Steal Dream (1/192), plus a separate sealed mystery box card. Per-variant photos and barcodes are not yet verified.",
       "items": [
         {
           "name": "Dodo Nami · Nightmare Core",
@@ -377,6 +377,87 @@
           "photoCredit": "Будинок іграшок — головне фото товару з відповідним кодом магазину",
           "photoStatus": "retailer-product-image-link-pending-http-check",
           "photoVerificationNote": "Retailer listing confirms SKU and identifies the item; image CDN path follows documented bi.ua product photo pattern. HTTP response could not be validated independently. For random blind box this is assortment/product image, not a confirmed specific variant."
+        },
+        {
+          "name": "Dodo Nami · Nightmare Core · Plunder",
+          "manufacturer": "DODO SUGAR / 10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://toysez.com/collections/dodo-nami-nightmare-core-series",
+          "photo": "",
+          "description": "Character confirmed on a specialist retailer's full nine-figure checklist. Separate blind-box figure; the sealed assortment's DD-PA00068 / EAN-13 cannot be assigned to individual variants.",
+          "rarity": "Regular"
+        },
+        {
+          "name": "Dodo Nami · Nightmare Core · Bewitch",
+          "manufacturer": "DODO SUGAR / 10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://toysez.com/collections/dodo-nami-nightmare-core-series",
+          "photo": "",
+          "description": "Character confirmed on a specialist retailer's full nine-figure checklist. Separate blind-box figure; the sealed assortment's DD-PA00068 / EAN-13 cannot be assigned to individual variants.",
+          "rarity": "Regular"
+        },
+        {
+          "name": "Dodo Nami · Nightmare Core · Radiance",
+          "manufacturer": "DODO SUGAR / 10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://toysez.com/collections/dodo-nami-nightmare-core-series",
+          "photo": "",
+          "description": "Character confirmed on a specialist retailer's full nine-figure checklist. Separate blind-box figure; the sealed assortment's DD-PA00068 / EAN-13 cannot be assigned to individual variants.",
+          "rarity": "Regular"
+        },
+        {
+          "name": "Dodo Nami · Nightmare Core · Gorgeous Dream",
+          "manufacturer": "DODO SUGAR / 10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://toysez.com/collections/dodo-nami-nightmare-core-series",
+          "photo": "",
+          "description": "Character confirmed on a specialist retailer's full nine-figure checklist. Separate blind-box figure; the sealed assortment's DD-PA00068 / EAN-13 cannot be assigned to individual variants.",
+          "rarity": "Regular"
+        },
+        {
+          "name": "Dodo Nami · Nightmare Core · Mysterious Trail",
+          "manufacturer": "DODO SUGAR / 10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://toysez.com/collections/dodo-nami-nightmare-core-series",
+          "photo": "",
+          "description": "Character confirmed on a specialist retailer's full nine-figure checklist. Separate blind-box figure; the sealed assortment's DD-PA00068 / EAN-13 cannot be assigned to individual variants.",
+          "rarity": "Regular"
+        },
+        {
+          "name": "Dodo Nami · Nightmare Core · Wings",
+          "manufacturer": "DODO SUGAR / 10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://toysez.com/collections/dodo-nami-nightmare-core-series",
+          "photo": "",
+          "description": "Character confirmed on a specialist retailer's full nine-figure checklist. Separate blind-box figure; the sealed assortment's DD-PA00068 / EAN-13 cannot be assigned to individual variants.",
+          "rarity": "Regular"
+        },
+        {
+          "name": "Dodo Nami · Nightmare Core · Indulge",
+          "manufacturer": "DODO SUGAR / 10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://toysez.com/collections/dodo-nami-nightmare-core-series",
+          "photo": "",
+          "description": "Character confirmed on a specialist retailer's full nine-figure checklist. Separate blind-box figure; the sealed assortment's DD-PA00068 / EAN-13 cannot be assigned to individual variants.",
+          "rarity": "Regular"
+        },
+        {
+          "name": "Dodo Nami · Nightmare Core · Constraint",
+          "manufacturer": "DODO SUGAR / 10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://toysez.com/collections/dodo-nami-nightmare-core-series",
+          "photo": "",
+          "description": "Character confirmed on a specialist retailer's full nine-figure checklist. Separate blind-box figure; the sealed assortment's DD-PA00068 / EAN-13 cannot be assigned to individual variants.",
+          "rarity": "Regular"
+        },
+        {
+          "name": "Dodo Nami · Nightmare Core · Steal Dream",
+          "manufacturer": "DODO SUGAR / 10/10 Toys",
+          "figureNumber": "",
+          "sourceUrl": "https://toysez.com/collections/dodo-nami-nightmare-core-series",
+          "photo": "",
+          "description": "Character confirmed on a specialist retailer's full nine-figure checklist. Separate blind-box figure; the sealed assortment's DD-PA00068 / EAN-13 cannot be assigned to individual variants.",
+          "rarity": "Secret · 1/192"
         }
       ],
       "assortmentEan": "6975170197758",
