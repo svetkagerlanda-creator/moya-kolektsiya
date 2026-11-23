@@ -1463,7 +1463,12 @@
           "figureNumber": "5655",
           "sourceUrl": "https://www.sylvanianfamilies.com/uk-ua/catalog/item_detail.php?product_id=2356",
           "photo": "https://my.sylvanianfamilies.com/cdn/shop/files/b5rl52k1jqcmewjsrhjx.jpg?v=1775454419&width=1800",
-          "description": "Набір із чотирьох фігурок Frasier, Teri, Coco та Freya."
+          "description": "Набір із чотирьох фігурок Frasier, Teri, Coco та Freya.",
+          "ean": "5054131056554",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.gamesmen.com.au/sylvanian-families-chocolate-rabbit-family-5655",
+          "barcodeVerification": "Retailer and collector database explicitly list EAN for EU/UK renewed Chocolate Rabbit Family SKU 5655; EAN-13 checksum valid",
+          "barcodeNote": "European SKU 5655 four-character renewed family; not original edition or US CC2028 UPC."
         }
       ],
       "verified": true,
