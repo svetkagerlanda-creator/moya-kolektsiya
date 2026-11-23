@@ -36,8 +36,8 @@ DATABASES = [
  ("kayou-cards","Kayou Cards","subset"), ("basic-fun","Basic Fun","set"),
  ("funko-figures","Funko Figures","series"), ("media","G4 Media","type"),
  ("enterplay","Enterplay","series"), ("comics","G4 Comics","series"),
- ("g45-blind-bags","G4.5 Blind Bags","series"),
- ("g45-brushables","G4.5 Brushables","set"),
+ ("g45-blind-bags","G4.5 Blind Bags","release"),
+ ("g45-brushables","G4.5 Brushables","series"),
  ("g5","G5 Main Series","series"), ("g5-blind-bags","G5 Blind Bags","series"),
  ("mini-world-magic","Mini World Magic","set"),
  ("g5-plush","G5 Plush","manufacturer"),
@@ -159,6 +159,15 @@ def main():
                 print(f"OK {record['name']}: {record['count']}",flush=True)
             except Exception as exc:
                 errors[entry["source"]]=str(exc)
+    # Old G4.5 sets grouped products differently and caused a confusing
+    # mixture of series. Publish the source's canonical series/release grouping.
+    obsolete_prefixes=(
+        f"{BASE}/g45-brushables/set/",
+        f"{BASE}/g45-blind-bags/series/",
+    )
+    for source in list(previous):
+        if any(source.startswith(prefix) for prefix in obsolete_prefixes):
+            previous.pop(source)
     series=sorted(previous.values(),key=lambda row:row["name"])
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     OUTPUT.write_text(json.dumps({"schemaVersion":1,"series":series},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
