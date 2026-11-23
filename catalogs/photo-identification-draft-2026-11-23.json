@@ -15,7 +15,8 @@
     "Most makers/series/SKUs not readable from one photo; verification pending",
     "Do not mark these as owned in any account without authenticating as that user and explicit action",
     "Some overlapping small miniatures and partially hidden items may not be enumerated",
-    "Middle shelf: five figures visually match official/retailer lineup of Letsvan ZIYULI My Own Wedding; some individual name matches remain provisional."
+    "Middle shelf: five figures visually match official/retailer lineup of Letsvan ZIYULI My Own Wedding; some individual name matches remain provisional.",
+    "Five figurines in middle shelf right side visually matched labelled Kokoya Breeze and the Forest Legend lineup; other nearby figures remain pending."
   ],
   "items": [
     {
@@ -416,9 +417,13 @@
         "x": 815,
         "y": 548
       },
-      "identificationStatus": "needs-series-and-model-verification",
-      "confidence": "visual-only",
-      "catalogImportable": false
+      "identificationStatus": "matched-via-visual-and-lineup",
+      "confidence": "high",
+      "catalogImportable": true,
+      "proposedManufacturer": "ZHIWAN",
+      "proposedSeries": "Kokoya · Breeze and the Forest Legend",
+      "proposedVariant": "White Cat Knight",
+      "matchingSource": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box"
     },
     {
       "draftId": "photo-20261123-030",
@@ -429,9 +434,13 @@
         "x": 922,
         "y": 586
       },
-      "identificationStatus": "needs-series-and-model-verification",
-      "confidence": "visual-only",
-      "catalogImportable": false
+      "identificationStatus": "matched-via-visual-and-lineup",
+      "confidence": "high",
+      "catalogImportable": true,
+      "proposedManufacturer": "ZHIWAN",
+      "proposedSeries": "Kokoya · Breeze and the Forest Legend",
+      "proposedVariant": "Butterfly Witch",
+      "matchingSource": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box"
     },
     {
       "draftId": "photo-20261123-031",
@@ -442,9 +451,13 @@
         "x": 1038,
         "y": 563
       },
-      "identificationStatus": "needs-series-and-model-verification",
-      "confidence": "visual-only",
-      "catalogImportable": false
+      "identificationStatus": "matched-via-visual-and-lineup",
+      "confidence": "high",
+      "catalogImportable": true,
+      "proposedManufacturer": "ZHIWAN",
+      "proposedSeries": "Kokoya · Breeze and the Forest Legend",
+      "proposedVariant": "Cute Gardener",
+      "matchingSource": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box"
     },
     {
       "draftId": "photo-20261123-032",
@@ -455,9 +468,13 @@
         "x": 1137,
         "y": 578
       },
-      "identificationStatus": "needs-series-and-model-verification",
-      "confidence": "visual-only",
-      "catalogImportable": false
+      "identificationStatus": "matched-via-visual-and-lineup",
+      "confidence": "high",
+      "catalogImportable": true,
+      "proposedManufacturer": "ZHIWAN",
+      "proposedSeries": "Kokoya · Breeze and the Forest Legend",
+      "proposedVariant": "Berry Sweetheart Baker",
+      "matchingSource": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box"
     },
     {
       "draftId": "photo-20261123-033",
@@ -468,9 +485,13 @@
         "x": 1235,
         "y": 547
       },
-      "identificationStatus": "needs-series-and-model-verification",
-      "confidence": "visual-only",
-      "catalogImportable": false
+      "identificationStatus": "matched-via-visual-and-lineup",
+      "confidence": "high",
+      "catalogImportable": true,
+      "proposedManufacturer": "ZHIWAN",
+      "proposedSeries": "Kokoya · Breeze and the Forest Legend",
+      "proposedVariant": "Deer Girl",
+      "matchingSource": "https://us.kikagoods.com/products/kokoya-breeze-and-the-forest-legend-series-blind-box"
     },
     {
       "draftId": "photo-20261123-034",
