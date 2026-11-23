@@ -38,7 +38,12 @@
           "sourceUrl": "https://funko.com/pop-vaggie/90416.html",
           "photo": "https://vinylcave.pl/userdata/public/gfx/12248/FIGFUN90416_3.webp",
           "photoCredit": "Vinyl Cave · продуктове фото точного випуску",
-          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2240"
+          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2240",
+          "upc": "889698904162",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-hazbin-hotel-vaggie-or-chase-4.2-in-vinyl-figure/428469.html",
+          "barcodeVerification": "Exact Funko item number and UPC on retailer listing; check digit valid",
+          "barcodeNote": "Retailer offers ordinary or Chase under this shared UPC; barcode alone cannot determine which variant was received"
         },
         {
           "name": "Angel Dust",
@@ -50,7 +55,11 @@
           "sourceUrl": "https://funko.com/pop-angel-dust/90414.html",
           "photo": "https://cdn.awsli.com.br/800x800/84/84034/produto/379652627/d8asdas-dtwixbjviy.png",
           "photoCredit": "Moça do Pop · продуктове фото точного випуску",
-          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2241"
+          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2241",
+          "upc": "889698904148",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-hazbin-hotel-angel-dust-4.5-in-vinyl-figure/428394.html",
+          "barcodeVerification": "Exact Funko item number and UPC on retailer listing; check digit valid"
         },
         {
           "name": "Alastor",
@@ -78,7 +87,12 @@
           "sourceUrl": "https://funko.com/pop-sir-pentious/91824.html",
           "photo": "https://www.popcultcha.com.au/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/f/u/fun91824m.png",
           "photoCredit": "Popcultcha · продуктове фото точного випуску",
-          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2243"
+          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2243",
+          "upc": "889698918244",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-hazbin-hotel-sir-pentious-in-angelic-form-or-chase-5.1-in-vinyl-figure/433847.html",
+          "barcodeVerification": "Exact Funko item number and UPC on retailer listing; check digit valid",
+          "barcodeNote": "Retailer offers ordinary or Chase under this shared UPC; barcode alone cannot determine which variant was received"
         }
       ]
     }
