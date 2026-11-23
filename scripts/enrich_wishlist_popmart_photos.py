@@ -68,7 +68,10 @@ def main():
             matched=[]
             for alt,urls in candidates.items():
                 if series["manufacturer"]=="POP MART":
-                    valid=alt.endswith(wanted)
+                    # Source labels mark secrets in parentheses; never turn
+                    # them into regular figures or miss their model photos.
+                    valid=alt.endswith(wanted) or (
+                        card.get("rarity")=="Secret" and alt.endswith(wanted+"secret"))
                 else:
                     # 52TOYS describes the physical model at the start of alt.
                     valid=alt.startswith(wanted) and len(alt)>len(wanted)+12
