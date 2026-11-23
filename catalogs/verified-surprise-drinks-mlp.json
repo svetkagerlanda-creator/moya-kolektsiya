@@ -279,7 +279,10 @@
           "photo": "",
           "poseReferencePhoto": "https://pinkest.horse/images/g4.0/sd1.jpg",
           "poseReferenceSourceUrl": "https://pinkest.horse/db/4figuresprz.php",
-          "poseReferenceNote": "Shared visual reference for 2016 Surprise Drinks standing release. It is not a verified individual photograph of Princess Celestia. Do NOT populate photo with this reference as a stand-in."
+          "poseReferenceNote": "Shared visual reference for 2016 Surprise Drinks standing release. It is not a verified individual photograph of Princess Celestia. Do NOT populate photo with this reference as a stand-in.",
+          "productGroupReferencePhoto": "https://3.bp.blogspot.com/-iJ_ffjBRxF4/WrKwn5jyKnI/AAAAAAAAaSY/jWS-8NjDGtUA0Zw_inIJDVu6aHXGdqwUACEwYBhgL/s1600/mlp-poland-juice-bottle-figures-5.jpg",
+          "productGroupReferenceSourceUrl": "https://www.mlpmerch.com/2018/03/store-finds-juice-bottle-figures.html",
+          "productGroupReferenceNote": "Real photo of this character among 2016 Surprise Drinks figures. Not used as individual photo field because image contains multiple figures."
         },
         {
           "name": "Spike",
@@ -291,12 +294,15 @@
           "photo": "",
           "poseReferencePhoto": "https://pinkest.horse/images/g4.0/sd1.jpg",
           "poseReferenceSourceUrl": "https://pinkest.horse/db/4figuresprz.php",
-          "poseReferenceNote": "Shared visual reference for 2016 Surprise Drinks standing release. It is not a verified individual photograph of Spike. Do NOT populate photo with this reference as a stand-in."
+          "poseReferenceNote": "Shared visual reference for 2016 Surprise Drinks standing release. It is not a verified individual photograph of Spike. Do NOT populate photo with this reference as a stand-in.",
+          "productGroupReferencePhoto": "https://3.bp.blogspot.com/-iJ_ffjBRxF4/WrKwn5jyKnI/AAAAAAAAaSY/jWS-8NjDGtUA0Zw_inIJDVu6aHXGdqwUACEwYBhgL/s1600/mlp-poland-juice-bottle-figures-5.jpg",
+          "productGroupReferenceSourceUrl": "https://www.mlpmerch.com/2018/03/store-finds-juice-bottle-figures.html",
+          "productGroupReferenceNote": "Real photo of this character among 2016 Surprise Drinks figures. Not used as individual photo field because image contains multiple figures."
         }
       ],
-      "coverPhoto": "https://pinkest.horse/images/g4.0/sd1.jpg",
-      "coverPhotoSourceUrl": "https://pinkest.horse/db/4figuresprz.php",
-      "coverPhotoStatus": "pose-illustration-url-not-individual-variant-photo-pending-http-check",
+      "coverPhoto": "https://3.bp.blogspot.com/-iJ_ffjBRxF4/WrKwn5jyKnI/AAAAAAAAaSY/jWS-8NjDGtUA0Zw_inIJDVu6aHXGdqwUACEwYBhgL/s1600/mlp-poland-juice-bottle-figures-5.jpg",
+      "coverPhotoSourceUrl": "https://www.mlpmerch.com/2018/03/store-finds-juice-bottle-figures.html",
+      "coverPhotoStatus": "genuine-release-group-photo-not-single-variant",
       "referencePhotos": [
         {
           "pose": "standing",
@@ -315,9 +321,16 @@
           "photo": "https://pinkest.horse/images/g4.0/sd3.jpg",
           "sourceUrl": "https://pinkest.horse/db/4figuresprz.php",
           "sourceLabel": "2016 Surprise Drinks Figure — Laying"
+        },
+        {
+          "photo": "https://3.bp.blogspot.com/-iJ_ffjBRxF4/WrKwn5jyKnI/AAAAAAAAaSY/jWS-8NjDGtUA0Zw_inIJDVu6aHXGdqwUACEwYBhgL/s1600/mlp-poland-juice-bottle-figures-5.jpg",
+          "sourceUrl": "https://www.mlpmerch.com/2018/03/store-finds-juice-bottle-figures.html",
+          "sourceLabel": "Actual 2016 Surprise Drinks figures photographed in Poland; multiple figure types shown",
+          "type": "real-product-group-photo",
+          "photoVerificationNote": "Indexed image visually inspected; full runtime HTTP fetch blocked; no individual identification at pose-level from this group."
         }
       ],
-      "photoResearchNote": "Three pose-reference gallery images plus three name-and-variant-matched resale listings located. Individual image URLs still unavailable/unverified; leave photo fields empty to prevent wrong character or pose pictures."
+      "photoResearchNote": "2018 MLP Merch article publishes an actual group shot of Surprise Drinks figures from Poland, added as series cover and source reference. Twenty distinct individual figure photo fields remain unfilled pending exact character and pose images."
     }
   ]
 }
