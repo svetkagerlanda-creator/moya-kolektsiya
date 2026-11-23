@@ -166,14 +166,14 @@ function notifyLocalChange(){
  if(!id||!state.auto||state.reconciling)return;
  if(state.busy){state.uploadPending=true;return}
  if(timer)clearTimeout(timer);
- timer=setTimeout(()=>{timer=null;syncNow().catch(()=>{})},6500);
+ timer=setTimeout(()=>{timer=null;upload().catch(()=>{})},6500);
 }
 function render(){
  if(!syncUser())return '';
  return '<section class="card collector-cloud"><h2>☁️ Моя хмара</h2>'
  +'<p class="muted">Приватні резервні копії для кожного пристрою. Вони містять папки, предмети та особисті фото, але ніколи не публікуються у стрічці.</p>'
- +'<label class="cloud-switch"><input type="checkbox" id="cloudAuto" '+(state.auto?'checked':'')+'> Автоматично об’єднувати дані з інших пристроїв і зберігати в хмарі</label>'
- +'<p class="muted">Увійди в один акаунт на телефоні та комп’ютері. Натисни «Синхронізувати зараз» на кожному пристрої. Для автоматичного обміну увімкни перемикач на обох. Перед об’єднанням створюється страховочна копія, а картки з новішими датами оновлення мають пріоритет. Видалені папки та їхні предмети більше не відновлюються зі старих хмарних копій. Видалення пошириться на інші пристрої під час наступної синхронізації.</p>'
+ +'<label class="cloud-switch"><input type="checkbox" id="cloudAuto" '+(state.auto?'checked':'')+'> Автоматично зберігати зміни в хмарі (без відновлення старих папок)</label>'
+ +'<p class="muted">Автозбереження лише завантажує поточні дані цього пристрою до хмари й не повертає видалені папки. Для отримання змін з іншого пристрою натисни «Синхронізувати зараз»: перед об’єднанням створюється страховочна копія, а видалення враховуються. Не використовуй стару копію для відновлення навмисно видалених серій.</p>'
  +'<div class="row"><button class="btn" id="cloudSync" type="button" '+(state.busy?'disabled':'')+'>↻ Синхронізувати зараз</button><button class="alt" id="cloudUpload" type="button" '+(state.busy?'disabled':'')+'>↑ Зберегти в хмарі</button><button class="alt" id="cloudList" type="button" '+(state.busy?'disabled':'')+'>↓ Мої хмарні копії</button></div>'
  +(state.lastUpload?'<p class="muted">Остання копія цього пристрою: '+esc(new Date(state.lastUpload).toLocaleString('uk-UA'))+'</p>':'')
  +(state.notice?'<div class="banner">'+esc(state.notice)+'</div>':'')
@@ -182,7 +182,7 @@ function render(){
 }
 function attach(refresh){
  state.refresh=refresh;syncUser();
- if(state.auto&&!state.autoStarted){state.autoStarted=true;setTimeout(()=>syncNow().catch(()=>{}),1200)}
+ if(state.auto&&!state.autoStarted){state.autoStarted=true;setTimeout(()=>upload().catch(()=>{}),1200)}
  const toggle=document.getElementById('cloudAuto');
  if(toggle)toggle.onchange=e=>{state.auto=!!e.target.checked;localStorage.setItem(prefKey(state.userId),state.auto?'yes':'no');if(!state.auto&&timer){clearTimeout(timer);timer=null}if(state.auto){state.autoStarted=true;notifyLocalChange()}refresh()};
  const syncButton=document.getElementById('cloudSync');
