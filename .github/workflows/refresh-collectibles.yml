@@ -10,6 +10,7 @@ on:
       - 'scripts/build_blind_bags.py'
       - 'scripts/build_more_figures.py'
       - 'scripts/build_all_mlp_series.py'
+      - 'scripts/test_build_all_mlp_series.py'
       - 'scripts/audit_catalog_coverage.py'
       - '.github/workflows/refresh-collectibles.yml'
   workflow_dispatch:
@@ -32,6 +33,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install requests beautifulsoup4
+      - name: Check MLP import source paths and comics parser
+        run: python -m unittest discover -s scripts -p 'test_build_all_mlp_series.py'
       - name: Fetch and validate every card
         run: python scripts/build_catalogs.py
       - name: Build final two Kayou editions from MLP Merch
