@@ -11,6 +11,7 @@ on:
       - 'scripts/build_more_figures.py'
       - 'scripts/build_all_mlp_series.py'
       - 'scripts/test_build_all_mlp_series.py'
+      - 'scripts/probe_comic_layout.py'
       - 'scripts/audit_catalog_coverage.py'
       - '.github/workflows/refresh-collectibles.yml'
   workflow_dispatch:
@@ -45,6 +46,8 @@ jobs:
         run: python scripts/build_blind_bags.py
       - name: Build verified CMC Ponyville Guardians and other MLP figures
         run: python scripts/build_more_figures.py
+      - name: Record comic page layout to investigate blocked series
+        run: python scripts/probe_comic_layout.py
       - name: Import verified MLP Merch series from all generations
         run: python scripts/build_all_mlp_series.py
       - name: Inspect additional merchandise sources
@@ -55,7 +58,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalogs/catalog-coverage.json catalogs/verified-mlp-all-series.json catalogs/mlp-all-series-errors.json catalogs/verified-kayou.json catalogs/verified-mlpmerch.json catalogs/verified-brushables.json catalogs/brushables-errors.json catalogs/verified-blind-bags.json catalogs/blind-bags-errors.json catalogs/verified-mlp-figures.json catalogs/figure-errors.json catalogs/source-probe.json catalogs/merch-errors.json
+          git add catalogs/comic-layout-probe.json catalogs/catalog-coverage.json catalogs/verified-mlp-all-series.json catalogs/mlp-all-series-errors.json catalogs/verified-kayou.json catalogs/verified-mlpmerch.json catalogs/verified-brushables.json catalogs/brushables-errors.json catalogs/verified-blind-bags.json catalogs/blind-bags-errors.json catalogs/verified-mlp-figures.json catalogs/figure-errors.json catalogs/source-probe.json catalogs/merch-errors.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh verified Kayou catalogs"
             # The repository may receive a newer commit while catalogs are built.
