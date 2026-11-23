@@ -845,8 +845,20 @@ function scan(){
  const stop=()=>{if(timer){clearInterval(timer);timer=null}if(stream){stream.getTracks().forEach(t=>t.stop());stream=null}};
  modal('Сканування штрихкоду','<video id="video" autoplay muted playsinline style="width:100%;max-height:250px;background:#111;border-radius:10px"></video><p class="muted">Камера потребує HTTPS і підтримки BarcodeDetector; можна ввести код вручну.</p>'+inp('code','Штрихкод / номер','')+'<div class="tools"><button class="btn" id="checkcode">Знайти</button><button class="alt" id="startcam">Увімкнути камеру</button><button class="alt" id="stopcam">Зупинити камеру</button></div><div id="scanresults" aria-live="polite"></div>');
  const input=document.querySelector('input[name=code]'),results=$('scanresults');
- const eq=(v,c)=>v!=null&&String(v).trim()===c;
- const matches=(i,c)=>['barcode','ean','upc','gtin','productSku','retailerSku','figureNumber','seriesNumber'].some(k=>eq(i[k],c));
+ // GTIN-8/12/13/14 can be rendered with leading zeroes by different scanners.
+ // Keep product codes separate from SKU / Funko figure number lookup.
+ const isGtin=c=>/^(?:\d{8}|\d{12,14})$/.test(c)&&(()=>{
+  const digits=c.split('').map(Number),sum=digits.slice(0,-1).reverse().reduce((n,d,k)=>n+d*(k%2===0?3:1),0);
+  return (10-sum%10)%10===digits[digits.length-1];
+ })();
+ const equalCode=(a,b)=>a!=null&&String(a).trim()===b;
+ const matches=(item,code)=>{
+  if(isGtin(code))return ['barcode','ean','upc','gtin'].some(k=>{
+   const candidate=String(item[k]||'').trim();
+   return isGtin(candidate)&&candidate.padStart(14,'0')===code.padStart(14,'0');
+  });
+  return ['barcode','ean','upc','gtin','productSku','retailerSku','figureNumber','seriesNumber'].some(k=>equalCode(item[k],code));
+ };
  function search(){
   const code=input.value.trim();if(!code)return showToast('Введи або зіскануй код');stop();
   const mine=data.items.filter(i=>matches(i,code)),catalog=[],seen=new Set();
