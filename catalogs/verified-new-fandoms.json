@@ -3489,6 +3489,115 @@
           "description": "Історична лінійка Glamour Friends. Індивідуальний EAN із картки продавця; фото потребує окремої перевірки."
         }
       ]
+    },
+    {
+      "name": "Winx Club · Tynix Fairy Diary · Giochi Preziosi",
+      "source": "https://www.toys-shop.gr/en/p/toys/dolls/fashion-dolls/1004664-giochi-preziosi-winx-winx-tynix-fairy-diary-wnx48010.html",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical Dolls",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Тільки джерельно підтверджені фізичні випуски. Не вважати повною серією.",
+      "items": [
+        {
+          "name": "Winx Tynix Fairy Diary — doll and diary set",
+          "manufacturer": "Giochi Preziosi",
+          "figureNumber": "WNX48010",
+          "variantKey": "winx:giochi-preziosi:8056379064060",
+          "sourceUrl": "https://www.toys-shop.gr/en/p/toys/dolls/fashion-dolls/1004664-giochi-preziosi-winx-winx-tynix-fairy-diary-wnx48010.html",
+          "photo": "",
+          "ean": "8056379064060",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.toys-shop.gr/en/p/toys/dolls/fashion-dolls/1004664-giochi-preziosi-winx-winx-tynix-fairy-diary-wnx48010.html",
+          "barcodeVerification": "Retailer explicitly publishes EAN13/barcode alongside this physical product and manufacturer; GTIN check digit validated",
+          "barcodeNote": "Підтверджений EAN набору з лялькою та щоденником; не код окремого персонажа.",
+          "description": "Підтверджений EAN набору з лялькою та щоденником; не код окремого персонажа."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · WOW Forever Fashion Dolls · Giochi Preziosi",
+      "source": "https://www.toys-shop.gr/en/p/toys/dolls/fashion-dolls/61112-giochi-preziosi-winx-winx-wow-forever-fashion-dolls-6-designs-wnx31110-wnx31210.html",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical Dolls",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "notes": "Тільки джерельно підтверджені фізичні випуски. Не вважати повною серією.",
+      "items": [
+        {
+          "name": "Winx WOW Forever Fashion Dolls — assorted 6 designs",
+          "manufacturer": "Giochi Preziosi",
+          "figureNumber": "WNX31110 / WNX31210",
+          "variantKey": "winx:giochi-preziosi:8056379039044",
+          "sourceUrl": "https://www.toys-shop.gr/en/p/toys/dolls/fashion-dolls/61112-giochi-preziosi-winx-winx-wow-forever-fashion-dolls-6-designs-wnx31110-wnx31210.html",
+          "photo": "",
+          "ean": "8056379039044",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.toys-shop.gr/en/p/toys/dolls/fashion-dolls/61112-giochi-preziosi-winx-winx-wow-forever-fashion-dolls-6-designs-wnx31110-wnx31210.html",
+          "barcodeVerification": "Retailer explicitly publishes EAN13/barcode alongside this physical product and manufacturer; GTIN check digit validated",
+          "barcodeNote": "EAN асортименту шести дизайнів, а не окремої ляльки; сканування веде до серії.",
+          "description": "EAN асортименту шести дизайнів, а не окремої ляльки; сканування веде до серії."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Diakakis School Merchandise",
+      "source": "https://www.toys-shop.gr/en/p/school/stationery/blocks-and-notepads/drawing-block/1028474-diakakis-imports-winx-background-of-23x33-ep-winx-2-designs-000502244.html",
+      "manufacturer": "Diakakis Imports",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · School Merchandise",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "notes": "Тільки джерельно підтверджені фізичні випуски. Не вважати повною серією.",
+      "items": [
+        {
+          "name": "Winx drawing block 23×33 cm — two designs",
+          "manufacturer": "Diakakis Imports",
+          "figureNumber": "000502244",
+          "variantKey": "winx:diakakis-imports:5205698519321",
+          "sourceUrl": "https://www.toys-shop.gr/en/p/school/stationery/blocks-and-notepads/drawing-block/1028474-diakakis-imports-winx-background-of-23x33-ep-winx-2-designs-000502244.html",
+          "photo": "",
+          "ean": "5205698519321",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.toys-shop.gr/en/p/school/stationery/blocks-and-notepads/drawing-block/1028474-diakakis-imports-winx-background-of-23x33-ep-winx-2-designs-000502244.html",
+          "barcodeVerification": "Retailer explicitly publishes EAN13/barcode alongside this physical product and manufacturer; GTIN check digit validated",
+          "barcodeNote": "EAN товару з двома дизайнами; не визначає конкретний принт.",
+          "description": "EAN товару з двома дизайнами; не визначає конкретний принт."
+        },
+        {
+          "name": "Winx filled double pencil case 15×5×21 cm",
+          "manufacturer": "Diakakis Imports",
+          "figureNumber": "000502269",
+          "variantKey": "winx:diakakis-imports:5205698515118",
+          "sourceUrl": "https://www.toys-shop.gr/el/p/scholika/scholikes-kasetines/1028409-diakakis-imports-winx-kasetina-dipli-gemati-15ch5x21-ek-winx-000502269.html",
+          "photo": "",
+          "ean": "5205698515118",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.toys-shop.gr/el/p/scholika/scholikes-kasetines/1028409-diakakis-imports-winx-kasetina-dipli-gemati-15ch5x21-ek-winx-000502269.html",
+          "barcodeVerification": "Retailer explicitly publishes EAN13/barcode alongside this physical product and manufacturer; GTIN check digit validated",
+          "barcodeNote": "EAN конкретного типу заповненого пенала.",
+          "description": "EAN конкретного типу заповненого пенала."
+        },
+        {
+          "name": "Winx staple notebook 17×25 cm, 40 sheets — two designs",
+          "manufacturer": "Diakakis Imports",
+          "figureNumber": "000502238",
+          "variantKey": "winx:diakakis-imports:5205698527319",
+          "sourceUrl": "https://www.toys-shop.gr/el/p/scholika/scholika-eidi/tetradia-kai-mplok/paidika-tetradia/1028486-diakakis-imports-winx-tetradio-karfitsa-17x25-40-fylla-winx-2-schedia-000502238.html",
+          "photo": "",
+          "ean": "5205698527319",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.toys-shop.gr/el/p/scholika/scholika-eidi/tetradia-kai-mplok/paidika-tetradia/1028486-diakakis-imports-winx-tetradio-karfitsa-17x25-40-fylla-winx-2-schedia-000502238.html",
+          "barcodeVerification": "Retailer explicitly publishes EAN13/barcode alongside this physical product and manufacturer; GTIN check digit validated",
+          "barcodeNote": "EAN асортименту двох дизайнів; сканування веде до серії.",
+          "description": "EAN асортименту двох дизайнів; сканування веде до серії."
+        }
+      ]
     }
   ]
 }
