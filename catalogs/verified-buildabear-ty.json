@@ -1054,13 +1054,17 @@
           "figureNumber": "39394",
           "variantKey": "ty:squishy-beanies:39394",
           "sourceUrl": "https://www.ty.com/product/charlie/39394.html?cgid=sab&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/6b77b66bf03a12d4a83d1221fc0c8907_lg.png",
           "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag.",
           "upc": "008421393947",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-squish-a-boos/axolotl-charlie-kuschelkissen.html",
           "barcodeVerification": "Retail product record explicitly lists this character, collection and matching manufacturer SKU with GTIN/EAN or UPC; UPC-A checksum verified.",
-          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes."
+          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes.",
+          "photoSourceUrl": "https://www.ty.com/product/charlie/39394.html?cgid=sab&lang=fr",
+          "photoCredit": "Official product image for catalogue model SKU 39394",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Image link obtained from manufacturer's model product page; runtime check remains to be completed."
         },
         {
           "name": "Finsley",
@@ -1132,13 +1136,17 @@
           "figureNumber": "39290",
           "variantKey": "ty:squishy-beanies:39290",
           "sourceUrl": "https://www.ty.com/product/kiki/39290.html?cgid=sab&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/3e85d0a8774831554f75d93973175cf3_lg.png",
           "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag.",
           "upc": "008421392902",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.todicom.shop/Ty-Squish-a-Boo-s-Kiki-Katze-ca-20cm-grau-gestreift/031753",
           "barcodeVerification": "Retail product record explicitly lists this character, collection and matching manufacturer SKU with GTIN/EAN or UPC; UPC-A checksum verified.",
-          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes."
+          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes.",
+          "photoSourceUrl": "https://www.ty.com/product/kiki/39290-master.html?lang=en",
+          "photoCredit": "Official product image for catalogue model SKU 39290",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Image link obtained from manufacturer's model product page; runtime check remains to be completed."
         },
         {
           "name": "Dotty",
@@ -1164,13 +1172,17 @@
           "figureNumber": "39293",
           "variantKey": "ty:squishy-beanies:39293",
           "sourceUrl": "https://www.ty.com/product/slush/39293.html?cgid=sab&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/f3fbb366df4814545a9683c00958e051_lg.png",
           "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag.",
           "upc": "008421392933",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-squish-a-boos/husky-slush-kuschelkissen.html",
           "barcodeVerification": "Retailer lists this exact Ty line and manufacturer model beside this GTIN; checksum checked.",
-          "barcodeNote": "Only for model listed, not other plush sizes or keychains."
+          "barcodeNote": "Only for model listed, not other plush sizes or keychains.",
+          "photoSourceUrl": "https://www.ty.com/product/slush/39293.html?cgid=sab&lang=de",
+          "photoCredit": "Official product image for catalogue model SKU 39293",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Image link obtained from manufacturer's model product page; runtime check remains to be completed."
         },
         {
           "name": "Pinky",
@@ -1178,13 +1190,17 @@
           "figureNumber": "39300",
           "variantKey": "ty:squishy-beanies:39300",
           "sourceUrl": "https://www.ty.com/product/pinky/39300.html?cgid=sab&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/cbcadf62291565e5091760d128af86d8_lg.png",
           "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag.",
           "upc": "008421393008",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-squish-a-boos/eule-pinky-kuschelkissen.html",
           "barcodeVerification": "Retailer lists this exact Ty line and manufacturer model beside this GTIN; checksum checked.",
-          "barcodeNote": "Only for model listed, not other plush sizes or keychains."
+          "barcodeNote": "Only for model listed, not other plush sizes or keychains.",
+          "photoSourceUrl": "https://www.ty.com/product/pinky/39300-master.html?cgid=Owls&lang=en",
+          "photoCredit": "Official product image for catalogue model SKU 39300",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Image link obtained from manufacturer's model product page; runtime check remains to be completed."
         },
         {
           "name": "Fetch",
@@ -1301,8 +1317,12 @@
           "figureNumber": "330433",
           "variantKey": "buildabear:pokemon:pikachu:330433",
           "sourceUrl": "https://www.buildabear.com/build-a-bear-25th-celebration-pokemon-pikachu-%28female%29-plush-bundle/330433_30309_30307.html",
-          "photo": "",
-          "description": "Individual plush body SKU identified in official bundle details; no other bundle parts counted as separate plush. No barcode assigned without direct retail evidence."
+          "photo": "https://www.buildabear.com/dw/image/v2/BBNG_PRD/on/demandware.static/-/Sites-buildabear-master/default/dwbb469ab4/17231221230433x20122017.jpg?sh=800&sm=fit&sw=800",
+          "description": "Individual plush body SKU identified in official bundle details; no other bundle parts counted as separate plush. No barcode assigned without direct retail evidence.",
+          "photoSourceUrl": "https://www.buildabear.com/build-a-bear-25th-celebration-pokemon-pikachu-%28female%29-plush-bundle/330433_30309_30307.html",
+          "photoCredit": "Official product image for catalogue model SKU 330433",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Image link obtained from manufacturer's model product page; runtime check remains to be completed."
         },
         {
           "name": "Pokémon 25th Celebration Pikachu with Sound",
@@ -1311,8 +1331,12 @@
           "figureNumber": "330434",
           "variantKey": "buildabear:pokemon:pikachu:330434",
           "sourceUrl": "https://www.buildabear.com/build-a-bear-25th-celebration-pokemon-pikachu-plush-bundle/330434_30310_30311.html",
-          "photo": "",
-          "description": "Individual plush body SKU identified in official bundle details; no other bundle parts counted as separate plush. No barcode assigned without direct retail evidence."
+          "photo": "https://www.buildabear.com/dw/image/v2/BBNG_PRD/on/demandware.static/-/Sites-buildabear-master/default/dw22e519aa/34231221230434x20122019.jpg?sh=800&sm=fit&sw=800",
+          "description": "Individual plush body SKU identified in official bundle details; no other bundle parts counted as separate plush. No barcode assigned without direct retail evidence.",
+          "photoSourceUrl": "https://www.buildabear.com/build-a-bear-25th-celebration-pokemon-pikachu-plush-bundle/330434_30310_30311.html",
+          "photoCredit": "Official product image for catalogue model SKU 330434",
+          "photoStatus": "exact-sku-page-linked-image",
+          "photoVerificationNote": "Image link obtained from manufacturer's model product page; runtime check remains to be completed."
         }
       ],
       "count": 3
