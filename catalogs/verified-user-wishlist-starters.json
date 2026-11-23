@@ -23,9 +23,10 @@
           "catalogPosition": "123930",
           "variantKey": "retailer:bi.ua:602437|sku:123930",
           "sourceUrl": "https://bi.ua/ukr/product/kollekcionnaya-figurka-syurpriz-52toys-sleep-fairyland-elves-123930.html",
-          "photo": "",
+          "photo": "https://bi.ua/uploaded-images/products/size_650/602437_1.jpg",
           "retailPriceUAH": 899,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "photoCredit": "Будинок іграшок — exact product 602437 box image"
         },
         {
           "name": "The High Priestess",
@@ -1118,9 +1119,10 @@
           "catalogPosition": "124718",
           "variantKey": "retailer:bi.ua:618864|sku:124718",
           "sourceUrl": "",
-          "photo": "",
+          "photo": "https://hi52toys.com/cdn/shop/files/sleep-dreamland-elves-15.webp?v=1786119673&width=1200",
           "retailPriceUAH": 749,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "photoCredit": "52TOYS — official Dreamland Elves sealed display packaging"
         },
         {
           "name": "Remex",
@@ -1129,9 +1131,10 @@
           "catalogPosition": "01",
           "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Remex",
           "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
-          "photo": "",
+          "photo": "https://hi52toys.com/cdn/shop/files/sleep-dreamland-elves-5.webp?v=1786117162&width=1200",
           "rarity": "Regular",
-          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий.",
+          "photoCredit": "52TOYS — individual model image from official product gallery"
         },
         {
           "name": "Galaxy",
@@ -1140,9 +1143,10 @@
           "catalogPosition": "02",
           "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Galaxy",
           "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
-          "photo": "",
+          "photo": "https://hi52toys.com/cdn/shop/files/sleep-dreamland-elves-6.webp?v=1786117162&width=1200",
           "rarity": "Regular",
-          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий.",
+          "photoCredit": "52TOYS — individual model image from official product gallery"
         },
         {
           "name": "Spirit",
@@ -1151,9 +1155,10 @@
           "catalogPosition": "03",
           "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Spirit",
           "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
-          "photo": "",
+          "photo": "https://hi52toys.com/cdn/shop/files/sleep-dreamland-elves-7.webp?v=1786117162&width=1200",
           "rarity": "Regular",
-          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий.",
+          "photoCredit": "52TOYS — individual model image from official product gallery"
         },
         {
           "name": "Sea Girl",
@@ -1162,9 +1167,10 @@
           "catalogPosition": "04",
           "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Sea Girl",
           "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
-          "photo": "",
+          "photo": "https://hi52toys.com/cdn/shop/files/sleep-dreamland-elves-8.webp?v=1786117162&width=1200",
           "rarity": "Regular",
-          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий.",
+          "photoCredit": "52TOYS — individual model image from official product gallery"
         },
         {
           "name": "Polar Night",
@@ -1173,9 +1179,10 @@
           "catalogPosition": "05",
           "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Polar Night",
           "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
-          "photo": "",
+          "photo": "https://hi52toys.com/cdn/shop/files/sleep-dreamland-elves-9.webp?v=1786119672&width=1200",
           "rarity": "Regular",
-          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий.",
+          "photoCredit": "52TOYS — individual model image from official product gallery"
         },
         {
           "name": "Sea Waves",
@@ -1184,9 +1191,10 @@
           "catalogPosition": "06",
           "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Sea Waves",
           "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
-          "photo": "",
+          "photo": "https://hi52toys.com/cdn/shop/files/sleep-dreamland-elves-10.webp?v=1786119672&width=1200",
           "rarity": "Regular",
-          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий.",
+          "photoCredit": "52TOYS — individual model image from official product gallery"
         },
         {
           "name": "Mirror Moon (Secret)",
@@ -1195,9 +1203,10 @@
           "catalogPosition": "07",
           "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Mirror Moon (Secret)",
           "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
-          "photo": "",
+          "photo": "https://hi52toys.com/cdn/shop/files/sleep-dreamland-elves-11.webp?v=1786119672&width=1200",
           "rarity": "Secret",
-          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий.",
+          "photoCredit": "52TOYS — individual model image from official product gallery"
         },
         {
           "name": "Polar Day",
@@ -1206,9 +1215,10 @@
           "catalogPosition": "08",
           "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Polar Day",
           "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
-          "photo": "",
+          "photo": "https://hi52toys.com/cdn/shop/files/sleep-dreamland-elves-12.webp?v=1786119672&width=1200",
           "rarity": "Regular",
-          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий.",
+          "photoCredit": "52TOYS — individual model image from official product gallery"
         },
         {
           "name": "Dryad",
@@ -1217,9 +1227,10 @@
           "catalogPosition": "09",
           "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Dryad",
           "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
-          "photo": "",
+          "photo": "https://hi52toys.com/cdn/shop/files/sleep-dreamland-elves-13.webp?v=1786119672&width=1200",
           "rarity": "Regular",
-          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий.",
+          "photoCredit": "52TOYS — individual model image from official product gallery"
         },
         {
           "name": "Unicorn",
@@ -1228,9 +1239,10 @@
           "catalogPosition": "10",
           "variantKey": "52TOYS|52TOYS · Sleep · Dreamland Elves|Unicorn",
           "sourceUrl": "https://hi52toys.com/products/sleep-dreamland-elves",
-          "photo": "",
+          "photo": "https://hi52toys.com/cdn/shop/files/sleep-dreamland-elves-14.webp?v=1786119672&width=1200",
           "rarity": "Regular",
-          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий.",
+          "photoCredit": "52TOYS — individual model image from official product gallery"
         }
       ],
       "sourceType": "52TOYS-official-figure-names-and-retailer-packaging",
