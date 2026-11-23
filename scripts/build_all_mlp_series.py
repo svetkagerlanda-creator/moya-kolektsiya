@@ -45,8 +45,8 @@ DATABASES = [
  ("g5-comics","G5 Comics","series"), ("fairy-tails","Fairy Tails","series"),
 ]
 SKIP_SPECIALIZED = {"brushables", "blind-bags"}
-COUNT_RE = re.compile(r"\\(([\\d,]+)\\s+(?:ponies|pony|figures|releases|cards|items|comics|plush|dolls|toys)\\)", re.I)
-TOTAL_RE = re.compile(r"(?:a total of|total of)\\s+([\\d,]+)\\s+(?:releases|ponies|pony|figures|cards|items|comics|plush|dolls|toys)", re.I)
+COUNT_RE = re.compile(r"\(([\d,]+)\s+(?:ponies|pony|figures|releases|cards|items|comics|plush|dolls|toys)\)", re.I)
+TOTAL_RE = re.compile(r"(?:a total of|total of)\s+([\d,]+)\s+(?:releases|ponies|pony|figures|cards|items|comics|plush|dolls|toys)", re.I)
 
 def soup_at(url):
     response = requests.get(url,headers=HEADERS,timeout=35)
@@ -75,7 +75,7 @@ def discover(root, label, grouping):
         title=link.get_text(" ",strip=True)
         if not title or COUNT_RE.search(title):
             title=match.group(1).replace("-"," ").title()
-        title=re.sub(r"\\s*\\([\\d,]+\\s+(?:ponies|pony|figures|releases|cards|items|comics|plush|dolls|toys)\\).*","",title,flags=re.I).strip()
+        title=re.sub(r"\s*\([\d,]+\s+(?:ponies|pony|figures|releases|cards|items|comics|plush|dolls|toys)\).*","",title,flags=re.I).strip()
         if len(title)>90:title=match.group(1).replace("-"," ").title()
         key=f"{root}/{grouping}/{match.group(1)}"
         found[key]={"name":f"MLP Merch · {label} · {title}","source":url,
@@ -158,8 +158,8 @@ def main():
                 errors[entry["source"]]=str(exc)
     series=sorted(previous.values(),key=lambda row:row["name"])
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
-    OUTPUT.write_text(json.dumps({"schemaVersion":1,"series":series},ensure_ascii=False,separators=(",",":"))+"\\n",encoding="utf-8")
-    ERRORS.write_text(json.dumps({"indexed":len(entries),"verified":len(series),"errors":errors},ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    OUTPUT.write_text(json.dumps({"schemaVersion":1,"series":series},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
+    ERRORS.write_text(json.dumps({"indexed":len(entries),"verified":len(series),"errors":errors},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"PUBLISHED {len(series)} verified series / {len(entries)} indexed; {sum(row['count'] for row in series)} release records")
 
 if __name__=="__main__":
