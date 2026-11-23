@@ -3838,8 +3838,12 @@
           "manufacturer": "LEGO",
           "figureNumber": "75964",
           "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/75964",
-          "photo": "",
-          "description": "Manufacturer-listed collectible set; exact product photo pending verification."
+          "photo": "https://images.brickset.com/sets/images/75964-1.jpg",
+          "description": "Manufacturer-listed collectible set; exact product photo pending verification.",
+          "photoSourceUrl": "https://brickset.com/sets/75964-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         },
         {
           "name": "Advent Calendar 2022 (76404)",
@@ -5865,24 +5869,36 @@
           "manufacturer": "LEGO",
           "figureNumber": "41615",
           "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/41615-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/41615-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         },
         {
           "name": "Hermione Granger",
           "manufacturer": "LEGO",
           "figureNumber": "41616",
           "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/41616-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/41616-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         },
         {
           "name": "Ron Weasley & Albus Dumbledore",
           "manufacturer": "LEGO",
           "figureNumber": "41621",
           "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/41621-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/41621-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         }
       ]
     },
@@ -5901,8 +5917,12 @@
           "manufacturer": "LEGO",
           "figureNumber": "40412",
           "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/40412-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/40412-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         }
       ]
     },
@@ -5921,16 +5941,24 @@
           "manufacturer": "LEGO",
           "figureNumber": "40495",
           "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/40495-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/40495-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         },
         {
           "name": "Voldemort, Nagini & Bellatrix",
           "manufacturer": "LEGO",
           "figureNumber": "40496",
           "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/40496-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/40496-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         }
       ]
     },
@@ -5949,8 +5977,12 @@
           "manufacturer": "LEGO",
           "figureNumber": "40560",
           "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/40560-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/40560-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         }
       ]
     },
@@ -5969,24 +6001,36 @@
           "manufacturer": "LEGO",
           "figureNumber": "40616",
           "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/40616-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/40616-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         },
         {
           "name": "Draco Malfoy & Cedric Diggory",
           "manufacturer": "LEGO",
           "figureNumber": "40617",
           "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/40617-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/40617-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         },
         {
           "name": "Kingsley Shacklebolt & Nymphadora Tonks",
           "manufacturer": "LEGO",
           "figureNumber": "40618",
           "sourceUrl": "https://www.lego.com/uk-ua/categories/adults-welcome/article/harry-potter-brickheadz-list",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/40618-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/40618-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         }
       ]
     },
@@ -6005,8 +6049,12 @@
           "manufacturer": "LEGO",
           "figureNumber": "75948",
           "sourceUrl": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6282785.pdf",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/75948-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/75948-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         }
       ]
     },
@@ -6025,24 +6073,36 @@
           "manufacturer": "LEGO",
           "figureNumber": "75945",
           "sourceUrl": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6282785.pdf",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/75945-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/75945-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         },
         {
           "name": "Hungarian Horntail Triwizard Challenge",
           "manufacturer": "LEGO",
           "figureNumber": "75946",
           "sourceUrl": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6282785.pdf",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/75946-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/75946-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         },
         {
           "name": "Hagrid's Hut: Buckbeak's Rescue",
           "manufacturer": "LEGO",
           "figureNumber": "75947",
           "sourceUrl": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6282785.pdf",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/75947-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/75947-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         }
       ]
     },
@@ -6061,16 +6121,24 @@
           "manufacturer": "LEGO",
           "figureNumber": "75957",
           "sourceUrl": "https://www.lego.com/cdn/cs/set/assets/blt76fdf09812507ef2/2019FallCatalog_US.pdf",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/75957-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/75957-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         },
         {
           "name": "Beauxbatons' Carriage: Arrival at Hogwarts",
           "manufacturer": "LEGO",
           "figureNumber": "75958",
           "sourceUrl": "https://www.lego.com/cdn/cs/set/assets/blt76fdf09812507ef2/2019FallCatalog_US.pdf",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/75958-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/75958-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         }
       ]
     },
@@ -6089,8 +6157,12 @@
           "manufacturer": "LEGO",
           "figureNumber": "75965",
           "sourceUrl": "https://www.lego.com/cdn/cs/set/assets/blt76fdf09812507ef2/2019FallCatalog_US.pdf",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/75965-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/75965-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         }
       ]
     },
@@ -6109,16 +6181,24 @@
           "manufacturer": "LEGO",
           "figureNumber": "75966",
           "sourceUrl": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/75966-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/75966-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         },
         {
           "name": "Hogwarts Astronomy Tower",
           "manufacturer": "LEGO",
           "figureNumber": "75969",
           "sourceUrl": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/75969-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/75969-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         }
       ]
     },
@@ -6137,16 +6217,24 @@
           "manufacturer": "LEGO",
           "figureNumber": "75967",
           "sourceUrl": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/75967-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/75967-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         },
         {
           "name": "4 Privet Drive",
           "manufacturer": "LEGO",
           "figureNumber": "75968",
           "sourceUrl": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/75968-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/75968-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         }
       ]
     },
@@ -6165,16 +6253,24 @@
           "manufacturer": "LEGO",
           "figureNumber": "75979",
           "sourceUrl": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/75979-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/75979-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         },
         {
           "name": "Attack on The Burrow",
           "manufacturer": "LEGO",
           "figureNumber": "75980",
           "sourceUrl": "https://www.lego.com/en-sg/aboutus/news/2020/april/lego-harry-potter-2020",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/75980-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/75980-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         }
       ]
     },
@@ -6193,24 +6289,36 @@
           "manufacturer": "LEGO",
           "figureNumber": "75981",
           "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/search-results?searchString=Harry+Potter+advent+calendar",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/75981-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/75981-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         },
         {
           "name": "Harry Potter Advent Calendar 2021",
           "manufacturer": "LEGO",
           "figureNumber": "76390",
           "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/search-results?searchString=Harry+Potter+advent+calendar",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/76390-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/76390-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         },
         {
           "name": "Harry Potter Advent Calendar 2023",
           "manufacturer": "LEGO",
           "figureNumber": "76418",
           "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/search-results?searchString=Harry+Potter+advent+calendar",
-          "photo": "",
-          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+          "photo": "https://images.brickset.com/sets/images/76418-1.jpg",
+          "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified.",
+          "photoSourceUrl": "https://brickset.com/sets/76418-1",
+          "photoCredit": "Brickset set image, credited to LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "Catalogue set number cross-matched to Brickset LEGO set. Standard Brickset image URL format used; direct HTTP availability for each image not independently confirmed."
         }
       ]
     },
