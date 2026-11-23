@@ -235,7 +235,11 @@
           "seriesNumber": "62267",
           "sourceUrl": "https://funko.com/pop-espeon/62267.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw4640f9aa/images/funko/62267-1.png?sh=800&sw=800",
-          "description": "Funko item 62267; box 884"
+          "description": "Funko item 62267; box 884",
+          "upc": "889698622677",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/pokemon-espeon-funko-pop-vinyl-figure-884/fu62267",
+          "barcodeVerification": "Retailer product data names exact physical release and model code; check digit valid"
         },
         {
           "name": "Glaceon",
@@ -272,7 +276,11 @@
           "seriesNumber": "80310",
           "sourceUrl": "https://funko.com/pop-fuecoco/80310.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf45a0b9b/images/funko/upload/80310_Pokemon_S18_Fuecoco_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 80310; box 1030"
+          "description": "Funko item 80310; box 1030",
+          "upc": "889698803106",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-games-pokemon-fuecoco-3.4-in-vinyl-figure/409973.html",
+          "barcodeVerification": "Retailer product data names exact physical release and model code; check digit valid"
         },
         {
           "name": "Zoroark",
