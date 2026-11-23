@@ -153,9 +153,9 @@
     },
     {
       "file": "verified-historical-dolls-pets.json",
-      "series": 120,
-      "items": 1747,
-      "photos": 1747,
+      "series": 240,
+      "items": 3958,
+      "photos": 3958,
       "missingPhotos": 0,
       "invalidSeries": 0,
       "duplicateUrls": 0,
@@ -215,11 +215,11 @@
       "file": "verified-new-fandoms.json",
       "series": 19,
       "items": 227,
-      "photos": 149,
-      "missingPhotos": 78,
+      "photos": 153,
+      "missingPhotos": 74,
       "invalidSeries": 0,
       "duplicateUrls": 0,
-      "partialSeries": 17
+      "partialSeries": 19
     },
     {
       "file": "verified-popmart-starters.json",
@@ -240,16 +240,26 @@
       "invalidSeries": 0,
       "duplicateUrls": 19,
       "partialSeries": 0
+    },
+    {
+      "file": "verified-user-wishlist-starters.json",
+      "series": 26,
+      "items": 117,
+      "photos": 78,
+      "missingPhotos": 39,
+      "invalidSeries": 0,
+      "duplicateUrls": 0,
+      "partialSeries": 26
     }
   ],
   "totals": {
-    "verifiedSeriesRecords": 1448,
-    "partialSeriesRecords": 72,
-    "releaseRecords": 19932,
-    "photoRecords": 19821,
-    "missingPhotoRecords": 111,
+    "verifiedSeriesRecords": 1594,
+    "partialSeriesRecords": 98,
+    "releaseRecords": 22260,
+    "photoRecords": 22114,
+    "missingPhotoRecords": 146,
     "crossFeedOverlappingSourceUrls": 2924,
-    "distinctSourceUrls": 16851
+    "distinctSourceUrls": 19071
   },
   "sourceRoots": {
     "basic-fun": {
@@ -388,9 +398,9 @@
       "photos": 46
     },
     "other": {
-      "series": 224,
-      "items": 4687,
-      "photos": 4596
+      "series": 370,
+      "items": 7015,
+      "photos": 6889
     },
     "other-figures": {
       "series": 293,
