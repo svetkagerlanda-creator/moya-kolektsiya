@@ -15,11 +15,35 @@
           "photo": "https://www.bratz.com/cdn/shop/files/505204-Bratz-Alwayz-Bratz-Doll-Cloe3.jpg?v=1724759468&width=1946",
           "figureNumber": "",
           "description": "Alwayz Bratz Cloe — офіційна лялька MGA."
+        },
+        {
+          "name": "Alwayz Bratz Fashion Doll - Sasha",
+          "manufacturer": "MGA Entertainment",
+          "figureNumber": "505235",
+          "sourceUrl": "https://www.bratz.com/products/bratz-alwayz-sasha-fashion-doll-with-10-accessories",
+          "photo": "",
+          "description": "Official Alwayz Bratz release confirmed by Bratz manufacturer. Exact individual photo and EAN/UPC pending."
+        },
+        {
+          "name": "Alwayz Bratz Fashion Doll - Yasmin",
+          "manufacturer": "MGA Entertainment",
+          "figureNumber": "",
+          "sourceUrl": "https://www.bratz.com/products/bratz-alwayz-yasmin-fashion-doll-with-10-accessories",
+          "photo": "",
+          "description": "Official Alwayz Bratz release confirmed by Bratz manufacturer. Exact individual photo and EAN/UPC pending."
+        },
+        {
+          "name": "Alwayz Bratz Fashion Doll - Jade",
+          "manufacturer": "MGA Entertainment",
+          "figureNumber": "",
+          "sourceUrl": "https://www.bratz.com/collections/all/products/bratz-alwayz-jade-fashion-doll-with-10-accessories",
+          "photo": "",
+          "description": "Official Alwayz Bratz release confirmed by Bratz manufacturer. Exact individual photo and EAN/UPC pending."
         }
       ],
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 1
+      "completeness": "full-manufacturer-checklist",
+      "count": 4
     },
     {
       "name": "Ever After High · First Chapter",
@@ -45,12 +69,12 @@
     {
       "name": "Littlest Pet Shop · Series 6",
       "verified": true,
-      "completeness": "verified-selected-releases",
+      "completeness": "full-numbered-checklist-with-unidentified-variants",
       "source": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
       "manufacturer": "Basic Fun",
       "fandomKey": "lps",
       "group": "🐾 Littlest Pet Shop",
-      "count": 1,
+      "count": 19,
       "items": [
         {
           "name": "Littlest Pet Shop Pet Surprise Singles — Series 6 (mystery pack)",
@@ -58,6 +82,168 @@
           "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
           "photo": "https://www.basicfun.com/wp-content/uploads/2026/11/01091_LittlestPetShop_Hero_BlindSinglesS6.jpg",
           "description": "Сюрпризний пакет Series 6; виробник заявляє 18 окремих петів G7 №467–484. Це картка закритого набору, не вигаданий конкретний пет."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #467",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "467",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #468",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "468",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #469",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "469",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #470",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "470",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #471",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "471",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #472",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "472",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #473",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "473",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #474",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "474",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #475",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "475",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #476",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "476",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #477",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "477",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #478",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "478",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #479",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "479",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #480",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "480",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #481",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "481",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #482",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "482",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #483",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "483",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
+        },
+        {
+          "name": "Littlest Pet Shop G7 Series 6 — Pet #484",
+          "manufacturer": "Basic Fun",
+          "collectorNumber": "484",
+          "figureNumber": "",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "",
+          "description": "Basic Fun officially confirms that Series 6 comprises 18 numbered pets (#467–#484). Exact animal, variant photo, individual UPC and visual identification for this number not yet verified. Not the sealed random pack."
         }
       ]
     },
