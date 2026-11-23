@@ -612,9 +612,11 @@
           "figureNumber": "36581",
           "variantKey": "ty:beanie-boos:36581",
           "sourceUrl": "https://www.ty.com/product/fergus/36581.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/6af4dd4d5032a968907d87c018e9c0e7_lg.png",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
-          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
+          "photoCredit": "Official Ty product photograph",
+          "photoSourceUrl": "https://www.ty.com/product/fergus/36581.html?cgid=Grey&lang=en"
         },
         {
           "name": "Finnegan",
@@ -656,9 +658,11 @@
           "figureNumber": "37310",
           "variantKey": "ty:beanie-boos:37310",
           "sourceUrl": "https://www.ty.com/product/gnewman/37310.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/0dcff8e4badc7147955bc2bca85840c7_lg.png",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
-          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
+          "photoCredit": "Official Ty product photograph",
+          "photoSourceUrl": "https://www.ty.com/product/gnewman/37310.html?cgid=Seasons&lang=en"
         }
       ],
       "count": 32
@@ -741,13 +745,15 @@
           "figureNumber": "41511",
           "variantKey": "ty:beanie-bellies:41511",
           "sourceUrl": "https://www.ty.com/product/stella/41511.html?cgid=beanie-bellies&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/348bb56990dad9dd2de8a32f6865da35_lg.png",
           "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging.",
           "upc": "008421415113",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-bellies/faultier-stella-sloth-braun.html",
           "barcodeVerification": "Retail product record explicitly lists this character, collection and matching manufacturer SKU with GTIN/EAN or UPC; UPC-A checksum verified.",
-          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes."
+          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes.",
+          "photoCredit": "Official Ty product photograph",
+          "photoSourceUrl": "https://www.ty.com/product/stella/41511.html?cgid=undefined&lang=en"
         },
         {
           "name": "Silas",
@@ -755,13 +761,15 @@
           "figureNumber": "40545",
           "variantKey": "ty:beanie-bellies:40545",
           "sourceUrl": "https://www.ty.com/product/silas/40545.html?cgid=beanie-bellies&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/77487ed05c793e69fa8f1c647960e1cb_lg.png",
           "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging.",
           "upc": "008421405459",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-bellies/faultier-silas-hellgrau.html",
           "barcodeVerification": "Retailer or distributor identifies exactly this Ty character and Ty model with matching EAN-13 or UPC-A; check digit validated.",
-          "barcodeNote": "UPC-A individual sealed retail product, not Ty manufacturer article number."
+          "barcodeNote": "UPC-A individual sealed retail product, not Ty manufacturer article number.",
+          "photoCredit": "Official Ty product photograph",
+          "photoSourceUrl": "https://www.ty.com/product/silas/40545.html?cgid=sloths&lang=en"
         },
         {
           "name": "Lillibelle",
@@ -769,13 +777,15 @@
           "figureNumber": "41283",
           "variantKey": "ty:beanie-bellies:41283",
           "sourceUrl": "https://www.ty.com/product/lillibelle/41283.html?cgid=beanie-bellies&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/ff2ca35b460c4d9b7ba94ecf857b2902_lg.png",
           "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging.",
           "upc": "008421412839",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-bellies/katze-lillibelle-rosa.html",
           "barcodeVerification": "Retail product record explicitly lists this character, collection and matching manufacturer SKU with GTIN/EAN or UPC; UPC-A checksum verified.",
-          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes."
+          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes.",
+          "photoCredit": "Official Ty product photograph",
+          "photoSourceUrl": "https://www.ty.com/product/lillibelle/41283.html?cgid=Animals&lang=default"
         },
         {
           "name": "Lloyd",
@@ -783,13 +793,15 @@
           "figureNumber": "41282",
           "variantKey": "ty:beanie-bellies:41282",
           "sourceUrl": "https://www.ty.com/product/lloyd/41282.html?cgid=beanie-bellies&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/91adcf9576bce3d951a3c8088b808fce_lg.png",
           "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging.",
           "upc": "008421412822",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.rofu.de/ty-beanie-bellies-leopard-lloyd-ca-14-cm.html",
           "barcodeVerification": "Product page associates Ty character, precise manufacturer SKU and EAN-13 with leading zero / equivalent UPC-A; checksum valid.",
-          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions."
+          "barcodeNote": "For the specified Ty model only, not other sizes or similarly named editions.",
+          "photoCredit": "Official Ty product photograph",
+          "photoSourceUrl": "https://www.ty.com/product/lloyd/41282.html?lang=en"
         },
         {
           "name": "Bumper",
