@@ -408,9 +408,139 @@
           "barcodeVerification": "Retailer explicitly gives Beanie Boos name, manufacturer item number and matching UPC/EAN; valid check digit.",
           "barcodeNote": "Distinct Beanie Boos plush, not similarly named Squish-a-Boos or a keyring.",
           "description": "Ty Beanie Boos plush, version identified by manufacturer model. Individual photo still needs exact-source verification."
+        },
+        {
+          "name": "Emmie",
+          "manufacturer": "Ty",
+          "figureNumber": "37405",
+          "variantKey": "ty:beanie-boos:37405",
+          "sourceUrl": "https://www.ty.com/product/emmie/37405.html?cgid=beanie-boos-circle&lang=en",
+          "photo": "",
+          "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+        },
+        {
+          "name": "Chirps",
+          "manufacturer": "Ty",
+          "figureNumber": "37399",
+          "variantKey": "ty:beanie-boos:37399",
+          "sourceUrl": "https://www.ty.com/product/chirps/37399.html?cgid=beanie-boos-circle&lang=en",
+          "photo": "",
+          "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+        },
+        {
+          "name": "Giggles",
+          "manufacturer": "Ty",
+          "figureNumber": "37369",
+          "variantKey": "ty:beanie-boos:37369",
+          "sourceUrl": "https://www.ty.com/product/giggles/37369.html?cgid=beanie-boos-circle&lang=en",
+          "photo": "",
+          "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+        },
+        {
+          "name": "Peetie",
+          "manufacturer": "Ty",
+          "figureNumber": "37343",
+          "variantKey": "ty:beanie-boos:37343",
+          "sourceUrl": "https://www.ty.com/product/peetie/37343.html?cgid=beanie-boos-circle&lang=en",
+          "photo": "",
+          "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+        },
+        {
+          "name": "Melanie",
+          "manufacturer": "Ty",
+          "figureNumber": "37410",
+          "variantKey": "ty:beanie-boos:37410",
+          "sourceUrl": "https://www.ty.com/product/melanie/37410.html?cgid=beanie-boos-circle&lang=en",
+          "photo": "",
+          "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+        },
+        {
+          "name": "Palmer",
+          "manufacturer": "Ty",
+          "figureNumber": "37407",
+          "variantKey": "ty:beanie-boos:37407",
+          "sourceUrl": "https://www.ty.com/product/palmer/37407.html?cgid=beanie-boos-circle&lang=en",
+          "photo": "",
+          "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+        },
+        {
+          "name": "Cuddles",
+          "manufacturer": "Ty",
+          "figureNumber": "37398",
+          "variantKey": "ty:beanie-boos:37398",
+          "sourceUrl": "https://www.ty.com/product/cuddles/37398.html?cgid=beanie-boos-circle&lang=en",
+          "photo": "",
+          "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+        },
+        {
+          "name": "Daphne",
+          "manufacturer": "Ty",
+          "figureNumber": "37362",
+          "variantKey": "ty:beanie-boos:37362",
+          "sourceUrl": "https://www.ty.com/product/daphne/37362.html?cgid=beanie-boos-circle&lang=en",
+          "photo": "",
+          "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+        },
+        {
+          "name": "Eva",
+          "manufacturer": "Ty",
+          "figureNumber": "36386",
+          "variantKey": "ty:beanie-boos:36386",
+          "sourceUrl": "https://www.ty.com/product/eva/36386.html?cgid=beanie-boos-circle&lang=en",
+          "photo": "",
+          "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+        },
+        {
+          "name": "Fergus",
+          "manufacturer": "Ty",
+          "figureNumber": "36581",
+          "variantKey": "ty:beanie-boos:36581",
+          "sourceUrl": "https://www.ty.com/product/fergus/36581.html?cgid=beanie-boos-circle&lang=en",
+          "photo": "",
+          "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+        },
+        {
+          "name": "Finnegan",
+          "manufacturer": "Ty",
+          "figureNumber": "37376",
+          "variantKey": "ty:beanie-boos:37376",
+          "sourceUrl": "https://www.ty.com/product/finnegan/37376.html?cgid=beanie-boos-circle&lang=en",
+          "photo": "",
+          "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+        },
+        {
+          "name": "Ernie",
+          "manufacturer": "Ty",
+          "figureNumber": "37373",
+          "variantKey": "ty:beanie-boos:37373",
+          "sourceUrl": "https://www.ty.com/product/ernie/37373.html?cgid=beanie-boos-circle&lang=en",
+          "photo": "",
+          "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+        },
+        {
+          "name": "Gnewman",
+          "manufacturer": "Ty",
+          "figureNumber": "37310",
+          "variantKey": "ty:beanie-boos:37310",
+          "sourceUrl": "https://www.ty.com/product/gnewman/37310.html?cgid=beanie-boos-circle&lang=en",
+          "photo": "",
+          "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
         }
       ],
-      "count": 19
+      "count": 32
     },
     {
       "name": "Ty · Beanie Bellies · Verified Selected Releases",
