@@ -173,21 +173,29 @@
           "name": "Bratz Babyz Runwayz Doll - Jade",
           "figureNumber": "",
           "manufacturer": "MGA Entertainment",
-          "sourceUrl": "https://www.bratz.com/products/bratz-babyz-runwayz-doll-cloe",
+          "sourceUrl": "https://www.target.com/p/-/A-91987794",
           "description": "Bratz Babyz Runwayz Jade; character confirmed in MGA's official six-doll Runwayz assortment roster. Exact individual product image, SKU and barcode not yet verified.",
           "photoStatus": "cross-catalog-exact-release-thumbnail; image-content-not-independently-reviewed",
           "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4_JysTUFHOoF8HBgCDhBny2X5RCsACQ_IisqKmaEfKXs0A_4mYiifQbnXXiKJm0C8DvW4rMpTYCtyjDw5QGNzxJk_m83qNPub60nuNZQrSuCMcThGCTr9Cui53H6BAIfIDrMRMTP2nq5ueU-qQn6Gpt-7yIPyuNGKH-kPC2JnBpQKmS3j2cNyncCQKRiE/s135/Jade-Runwayz-Bratz-Babyz-Doll-1.jpg",
-          "photoSourceUrl": "https://thetoypool.com/bratz/details/brbbrwj/"
+          "photoSourceUrl": "https://thetoypool.com/bratz/details/brbbrwj/",
+          "upc": "035051524076",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-91987794",
+          "barcodeVerificationStatus": "verified-retailer-product-page-gs1-checksum"
         },
         {
           "name": "Bratz Babyz Runwayz Doll - Sasha",
           "figureNumber": "",
           "manufacturer": "MGA Entertainment",
-          "sourceUrl": "https://www.bratz.com/products/bratz-babyz-runwayz-doll-cloe",
+          "sourceUrl": "https://www.target.com/p/-/A-91987796",
           "description": "Bratz Babyz Runwayz Sasha; character confirmed in MGA's official six-doll Runwayz assortment roster. Exact individual product image, SKU and barcode not yet verified.",
           "photoStatus": "cross-catalog-exact-release-thumbnail; image-content-not-independently-reviewed",
           "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4CUrCTw8JbKE9QyqgSeiIKaeZVe-wD6cCH4EQdqirdvrbdcdV2A57m91lTxAknYlFr1C8GJlOFxu_qQAOQKWrNe3F8jL_4P0d_W4NpS_HPeK8e4Tnc83Uame-k4RUmS21vYJfZeit0ZB7qmA9VbPoJpmawVhMqqrABLwg6X7vJP22uyMd7fYlWiIHiVnT/s135/Sasha-Runwayz-Bratz-Babyz-Doll-1.jpg",
-          "photoSourceUrl": "https://thetoypool.com/bratz/details/brbbrws/"
+          "photoSourceUrl": "https://thetoypool.com/bratz/details/brbbrws/",
+          "upc": "035051524083",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-91987796",
+          "barcodeVerificationStatus": "verified-retailer-product-page-gs1-checksum"
         }
       ]
     },
@@ -16249,7 +16257,11 @@
           "sourceUrl": "https://www.bratz.com/products/bratz-holidayz-frosty-nightz-collector-doll",
           "photo": "",
           "sku": "544906",
-          "description": "Official Bratz Holidayz Frosty Nightz collector doll of Cloe; white winter couture gown, faux-fur scarf, white heels and blue rose ice cube purse. SKU 544906 is not a verified UPC/EAN."
+          "description": "Official Bratz Holidayz Frosty Nightz collector doll of Cloe; white winter couture gown, faux-fur scarf, white heels and blue rose ice cube purse. SKU 544906 is not a verified UPC/EAN.",
+          "upc": "035051544906",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://hiperocio.com/products/bratz-holidayz-frosty-nightz-collector-doll-muneca-de-coleccionista",
+          "barcodeVerificationStatus": "verified-retailer-product-page-gs1-checksum"
         }
       ]
     }
