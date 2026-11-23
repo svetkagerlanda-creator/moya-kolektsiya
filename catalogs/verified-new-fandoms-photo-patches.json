@@ -280,6 +280,26 @@
       "photoCredit": "Collector or retailer gallery linked to Mattel SKU HKY63",
       "photoStatus": "exact-sku-gallery-image-url-unchecked-http",
       "photoVerificationNote": "Clicked directly from SKU-matched page, but image server response and PWA rendering are not independently validated."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Series 1",
+      "name": "Skulltimate Secrets Series 1 Lagoona Blue",
+      "figureNumber": "HKY64",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/03/Skulltimate-Secrets-Lagoona-Blue-1.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-lagoona-blue/",
+      "photoCredit": "MHcollector exact model gallery",
+      "photoStatus": "exact-sku-gallery-image-url",
+      "photoVerificationNote": "Direct image opened and visually checked against named SKU gallery; deployed PWA rendering not tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Fearidescent",
+      "name": "Skulltimate Secrets Fearidescent Lagoona Blue",
+      "figureNumber": "HNF77",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/07/Skulltimate-Secrets-Fearidescent-Lagoona-Blue-1.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-fearidescent-lagoona-blue/",
+      "photoCredit": "MHcollector exact model gallery",
+      "photoStatus": "exact-sku-gallery-image-url",
+      "photoVerificationNote": "Direct image opened and visually checked against named SKU gallery; deployed PWA rendering not tested."
     }
   ]
 }
