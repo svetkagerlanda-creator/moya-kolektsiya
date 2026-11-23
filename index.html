@@ -567,12 +567,13 @@ async function repairMixedMlpGenerationFolders(){
  const isG45Folder=f=>f&&(mlpSourceGeneration(f.source)==='G4.5'||String(f.name||'').toLowerCase().includes('g4.5'));
  const wrongAncestor=current=>{
   const visited=new Set();
+  let outermost=null;
   while(current&&!visited.has(String(current.id))){
    visited.add(String(current.id));
-   if(isG45Folder(current))return current;
+   if(isG45Folder(current))outermost=current;
    current=current.parent?byId.get(String(current.parent)):null;
   }
-  return null;
+  return outermost;
  };
  const moves=[];
  for(const item of oldItems){
