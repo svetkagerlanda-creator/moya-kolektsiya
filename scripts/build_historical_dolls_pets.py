@@ -146,7 +146,14 @@ def main():
         if entry["source"] not in seen:
             seen.add(entry["source"]);unique.append(entry)
     # Interleave MH, EAH, and LPS so a bounded run expands all three fandoms.
-    pending=[e for e in unique if e["source"] not in past or past[e["source"]].get("completeness")!="verified-full-series"]
+    # Recheck incomplete series and complete series with missing exact photos.
+    # New series are processed first to keep expanding catalog coverage.
+    def needs_recheck(entry):
+        old=past.get(entry["source"])
+        return (not old or old.get("completeness")!="verified-full-series"
+                or any(not card.get("photo") for card in old.get("items",[])))
+    pending=[e for e in unique if needs_recheck(e)]
+    pending.sort(key=lambda e: (e["source"] in past, e["name"]))
     by_fandom={}
     for e in pending:by_fandom.setdefault(e["fandomKey"],[]).append(e)
     selected=[]
