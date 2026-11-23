@@ -176,6 +176,15 @@ def main():
             for card in result["items"]:
                 previous=olditems.get(card["sourceUrl"],{})
                 if not card.get("photo") and previous.get("photo"):card["photo"]=previous["photo"]
+            # Recompute completeness after restoring verified exact-source photos.
+            # Previously this happened inside parse(), before photo recovery,
+            # leaving genuinely complete sets incorrectly marked partial.
+            expected=result.get("sourceDeclaredCount")
+            if (expected is not None and result["count"]==expected
+                    and all(c.get("photo") for c in result["items"])):
+                result["completeness"]="verified-full-series"
+            else:
+                result["completeness"]="verified-selected-releases"
             if (old.get("completeness")=="verified-selected-releases"
                     and result["completeness"]=="verified-selected-releases"
                     and len(result["items"])<len(old.get("items",[]))):
