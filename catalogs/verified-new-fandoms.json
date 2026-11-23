@@ -155,7 +155,11 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-babyz-runwayz-doll-dana",
           "photo": "",
-          "description": "Official Bratz Babyz Runwayz Dana release, pink halter top, gold pleated skirt, fuzzy telephone and bottle-chain necklace. SKU 527589; UPC and exact image not yet independently verified."
+          "description": "Official Bratz Babyz Runwayz Dana release, pink halter top, gold pleated skirt, fuzzy telephone and bottle-chain necklace. SKU 527589; UPC and exact image not yet independently verified.",
+          "upc": "035051527589",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-91987808",
+          "barcodeVerificationStatus": "source-confirmed-checksum-valid"
         },
         {
           "name": "Bratz Babyz Runwayz Doll - Jade",
@@ -16140,7 +16144,11 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-pop-starz-doll-cloe",
           "photo": "",
-          "description": "Bratz Pop Starz Cloe fashion doll, 25th anniversary Bratz Angelz music-themed release; includes collectible charm. Exact manufacturer SKU 595960. Individual image and UPC/EAN pending direct verification."
+          "description": "Bratz Pop Starz Cloe fashion doll, 25th anniversary Bratz Angelz music-themed release; includes collectible charm. Exact manufacturer SKU 595960. Individual image and UPC/EAN pending direct verification.",
+          "upc": "035051595960",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/bratz-pop-starz-cloe-doll-not-mint/nmmga595960",
+          "barcodeVerificationStatus": "source-confirmed-checksum-valid"
         },
         {
           "name": "Bratz Pop Starz Doll - Yasmin",
@@ -16148,7 +16156,11 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-pop-starz-doll-yasmin",
           "photo": "",
-          "description": "Bratz Pop Starz Yasmin fashion doll, 25th anniversary Bratz Angelz music-themed release; includes collectible charm. Exact manufacturer SKU 595977. Individual image and UPC/EAN pending direct verification."
+          "description": "Bratz Pop Starz Yasmin fashion doll, 25th anniversary Bratz Angelz music-themed release; includes collectible charm. Exact manufacturer SKU 595977. Individual image and UPC/EAN pending direct verification.",
+          "upc": "035051595977",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-94747245",
+          "barcodeVerificationStatus": "source-confirmed-checksum-valid"
         },
         {
           "name": "Bratz Pop Starz Doll - Jade",
@@ -16156,7 +16168,11 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-pop-starz-doll-jade",
           "photo": "",
-          "description": "Bratz Pop Starz Jade fashion doll, 25th anniversary Bratz Angelz music-themed release; includes collectible charm. Exact manufacturer SKU 595984. Individual image and UPC/EAN pending direct verification."
+          "description": "Bratz Pop Starz Jade fashion doll, 25th anniversary Bratz Angelz music-themed release; includes collectible charm. Exact manufacturer SKU 595984. Individual image and UPC/EAN pending direct verification.",
+          "upc": "035051595984",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-94747244",
+          "barcodeVerificationStatus": "source-confirmed-checksum-valid"
         },
         {
           "name": "Bratz Pop Starz Doll - Sasha",
@@ -16164,7 +16180,11 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-pop-starz-doll-sasha",
           "photo": "",
-          "description": "Bratz Pop Starz Sasha fashion doll, 25th anniversary Bratz Angelz music-themed release; includes collectible charm. Exact manufacturer SKU 595991. Individual image and UPC/EAN pending direct verification."
+          "description": "Bratz Pop Starz Sasha fashion doll, 25th anniversary Bratz Angelz music-themed release; includes collectible charm. Exact manufacturer SKU 595991. Individual image and UPC/EAN pending direct verification.",
+          "upc": "035051595991",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-94747236",
+          "barcodeVerificationStatus": "source-confirmed-checksum-valid"
         }
       ]
     }
