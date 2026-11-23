@@ -1,0 +1,25 @@
+name: Audit actual catalog photo bytes
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/audit_actual_photo_bytes.py'
+      - '.github/workflows/audit-actual-photo-bytes.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install image decoder
+        run: python -m pip install requests pillow
+      - name: Decode every catalog photo, report broken or repeated images
+        env:
+          PYTHONUNBUFFERED: '1'
+        run: python scripts/audit_actual_photo_bytes.py
