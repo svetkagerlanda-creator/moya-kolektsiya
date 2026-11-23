@@ -163,6 +163,11 @@ def main():
                         and record["completeness"]=="verified-selected-releases"):
                     print(f"KEEP COMPLETE {record['name']}",flush=True)
                     continue
+                if (previous_record.get("completeness")=="verified-selected-releases"
+                        and record.get("completeness")=="verified-selected-releases"
+                        and len(record["items"])<len(previous_record.get("items",[]))):
+                    print(f"KEEP BROADER PARTIAL {record['name']}",flush=True)
+                    continue
                 old={x.get("sourceUrl"):x.get("photo") for x in previous_record.get("items",[])}
                 for item in record["items"]:
                     if not item["photo"]:item["photo"]=old.get(item["sourceUrl"]) or ""
