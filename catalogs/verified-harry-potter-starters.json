@@ -778,12 +778,15 @@
           "manufacturer": "Iron Studios",
           "figureNumber": "MF0001",
           "sourceUrl": "https://staging.ironstudios.com/product/harry-potter-mini-co/",
-          "photo": "",
+          "photo": "https://kokochao.com/cdn/shop/files/175002_0_e4c4a2bc-7336-4da7-9e29-0680c49043b1-244986.jpg?v=1782674084&width=1946",
           "description": "Official MiniCo figure. Exact standalone product photo pending verification.",
           "ean": "606529806606",
           "barcodeType": "EAN-13",
           "barcodeSourceUrl": "https://www.originalky.cz/iron-studios-figurka-mini-co-harry-potter-p329200/",
-          "barcodeNote": "EAN explicitly listed alongside MF0001 product reference"
+          "barcodeNote": "EAN explicitly listed alongside MF0001 product reference",
+          "photoSourceUrl": "https://kokochao.com/en/products/harry-potter-the-philosophers-stone-harry-potter-minico-606529806606",
+          "photoCredit": "Kokochao product gallery",
+          "photoStatus": "exact-individual-figure-verified"
         },
         {
           "name": "Hermione Granger",
@@ -845,16 +848,30 @@
           "manufacturer": "Iron Studios",
           "figureNumber": "90172",
           "sourceUrl": "https://ironstudios.com/products/statue-harry-potter-at-the-quiddich-match-harry-potter-minico-illusion-iron-studios",
-          "photo": "",
-          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+          "photo": "https://ironstudios.com/cdn/shop/files/090172_0_1024x1024.jpg?v=1752766402",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification.",
+          "photoSourceUrl": "https://ironstudios.com/products/statue-harry-potter-at-the-quiddich-match-harry-potter-minico-illusion-iron-studios",
+          "photoCredit": "Iron Studios official product gallery",
+          "photoStatus": "exact-individual-figure-verified",
+          "upc": "602883134928",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://ironstudios.eu/products/harry-potter-the-philosophers-stone-harry-potter-minico-602883134928",
+          "barcodeNote": "UPC-A from manufacturer EU product URL; matches named 90172 statue"
         },
         {
           "name": "Harry Potter and Buckbeak",
           "manufacturer": "Iron Studios",
           "figureNumber": "90171",
           "sourceUrl": "https://ironstudios.com/products/statue-harry-potter-and-buckbeak-harry-potter-minico-illusion-iron-studios",
-          "photo": "",
-          "description": "Official MiniCo figure. Exact standalone product photo pending verification."
+          "photo": "https://ironstudios.com/cdn/shop/files/090171_0_1024x1024.jpg?v=1752766405",
+          "description": "Official MiniCo figure. Exact standalone product photo pending verification.",
+          "photoSourceUrl": "https://ironstudios.com/products/statue-harry-potter-and-buckbeak-harry-potter-minico-illusion-iron-studios",
+          "photoCredit": "Iron Studios official product gallery",
+          "photoStatus": "exact-individual-figure-verified",
+          "ean": "0602883134935",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://ironstudios.eu/products/harry-potter-the-prisoner-of-azkaban-harry-potter-and-buckbeak-minico-602883134935",
+          "barcodeNote": "EAN-13 from manufacturer EU product URL; matches named 90171 statue"
         }
       ]
     },
