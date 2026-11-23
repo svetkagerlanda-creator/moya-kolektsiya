@@ -8,7 +8,8 @@
       "photos": 915,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 0
     },
     {
       "file": "verified-brushables.json",
@@ -17,7 +18,8 @@
       "photos": 1029,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 0
     },
     {
       "file": "verified-funko-arcane.json",
@@ -26,7 +28,8 @@
       "photos": 7,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 0
     },
     {
       "file": "verified-funko-bleach-hxh-minecraft-dc-lotr-squid.json",
@@ -35,7 +38,8 @@
       "photos": 12,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 6
     },
     {
       "file": "verified-funko-deathnote-spy-wednesday-sonic-sw-sailor.json",
@@ -44,7 +48,8 @@
       "photos": 18,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 6
     },
     {
       "file": "verified-funko-dragon-aot-chainsaw-disney.json",
@@ -53,7 +58,8 @@
       "photos": 8,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 4
     },
     {
       "file": "verified-funko-fandoms.json",
@@ -62,7 +68,8 @@
       "photos": 30,
       "missingPhotos": 12,
       "invalidSeries": 0,
-      "duplicateUrls": 13
+      "duplicateUrls": 13,
+      "partialSeries": 2
     },
     {
       "file": "verified-funko-frieren-tokyoghoul-fnaf-hotd-stitch-witcher.json",
@@ -71,7 +78,8 @@
       "photos": 14,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 6
     },
     {
       "file": "verified-funko-got-lastofus-transformers-toystory-frozen-jurassic.json",
@@ -80,7 +88,8 @@
       "photos": 13,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 6
     },
     {
       "file": "verified-funko-hazbin-wave1-chase.json",
@@ -89,7 +98,8 @@
       "photos": 4,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 0
     },
     {
       "file": "verified-funko-hazbin-wave1.json",
@@ -98,7 +108,8 @@
       "photos": 5,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 0
     },
     {
       "file": "verified-funko-more-fandoms.json",
@@ -107,7 +118,8 @@
       "photos": 50,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 9
     },
     {
       "file": "verified-funko-next-batch.json",
@@ -116,7 +128,8 @@
       "photos": 7,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 3
     },
     {
       "file": "verified-funko-owl-house.json",
@@ -125,7 +138,8 @@
       "photos": 5,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 0
     },
     {
       "file": "verified-funko-shrek-resident-supernatural-pooh-tmnt.json",
@@ -134,7 +148,8 @@
       "photos": 14,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 5
     },
     {
       "file": "verified-kayou.json",
@@ -143,16 +158,18 @@
       "photos": 2460,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 0
     },
     {
       "file": "verified-mlp-all-series.json",
-      "series": 762,
-      "items": 9666,
-      "photos": 9666,
+      "series": 793,
+      "items": 9697,
+      "photos": 9697,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 31
     },
     {
       "file": "verified-mlp-figures.json",
@@ -161,7 +178,8 @@
       "photos": 2434,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 34
     },
     {
       "file": "verified-mlpmerch.json",
@@ -170,7 +188,8 @@
       "photos": 449,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 0
+      "duplicateUrls": 0,
+      "partialSeries": 0
     },
     {
       "file": "verified-popmart-starters.json",
@@ -179,7 +198,8 @@
       "photos": 42,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 37
+      "duplicateUrls": 37,
+      "partialSeries": 0
     },
     {
       "file": "verified-surprise-drinks-mlp.json",
@@ -188,16 +208,18 @@
       "photos": 0,
       "missingPhotos": 20,
       "invalidSeries": 0,
-      "duplicateUrls": 19
+      "duplicateUrls": 19,
+      "partialSeries": 0
     }
   ],
   "totals": {
-    "verifiedSeriesRecords": 1193,
-    "releaseRecords": 17214,
-    "photoRecords": 17182,
+    "verifiedSeriesRecords": 1224,
+    "partialSeriesRecords": 112,
+    "releaseRecords": 17245,
+    "photoRecords": 17213,
     "missingPhotoRecords": 32,
-    "crossFeedOverlappingSourceUrls": 2857,
-    "distinctSourceUrls": 14288
+    "crossFeedOverlappingSourceUrls": 2883,
+    "distinctSourceUrls": 14293
   },
   "sourceRoots": {
     "blind-bags": {
@@ -221,9 +243,9 @@
       "photos": 18
     },
     "equestria-girls": {
-      "series": 21,
-      "items": 305,
-      "photos": 305
+      "series": 22,
+      "items": 306,
+      "photos": 306
     },
     "funko-figures": {
       "series": 62,
@@ -271,9 +293,9 @@
       "photos": 129
     },
     "g5-other-figures": {
-      "series": 27,
-      "items": 162,
-      "photos": 162
+      "series": 32,
+      "items": 167,
+      "photos": 167
     },
     "g5-plush": {
       "series": 16,
@@ -306,9 +328,9 @@
       "photos": 2689
     },
     "other-figures": {
-      "series": 268,
-      "items": 2127,
-      "photos": 2107
+      "series": 293,
+      "items": 2152,
+      "photos": 2132
     },
     "petite-ponies": {
       "series": 10,
