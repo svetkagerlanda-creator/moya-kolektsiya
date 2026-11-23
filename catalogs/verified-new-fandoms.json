@@ -16267,6 +16267,99 @@
           "photoCredit": "Official Bratz / MGA Entertainment"
         }
       ]
+    },
+    {
+      "name": "Bratz · Mini Bratz Collector's Case",
+      "verified": true,
+      "completeness": "verified-single-current-product-not-exhaustive",
+      "source": "https://www.bratz.com/products/bratz-minis-collectors-case",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "Bratz · Collectible Products and Sets",
+      "count": 1,
+      "items": [
+        {
+          "name": "Mini Bratz Collector’s Case with exclusive Pretty 'N' Punk Sasha",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-minis-collectors-case",
+          "photo": "https://www.bratz.com/cdn/shop/files/594932-Bratz-Minis-Collectors-Case.jpg?v=1696444098&width=1946",
+          "photoSourceUrl": "https://www.bratz.com/products/bratz-minis-collectors-case",
+          "photoVerification": "Official Bratz product-page image opened and visually matched to this exact product / sealed packaging (2026-11-23)",
+          "description": "Retail box contains logo-shaped storage case and exclusive Mini Bratz Pretty 'N' Punk Sasha mini. Sold as one physical set; do not split included figure into a second SKU.",
+          "verificationStatus": "manufacturer-product-verified; photo-visually-checked; barcode-not-verified",
+          "sku": "594932"
+        }
+      ]
+    },
+    {
+      "name": "Bratz · Miniverse Real Music",
+      "verified": true,
+      "completeness": "verified-single-current-product-not-exhaustive",
+      "source": "https://www.bratz.com/products/mgas-miniverse-real-music-bratz-special-edition",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "Bratz · Collectible Products and Sets",
+      "count": 1,
+      "items": [
+        {
+          "name": "MGA's Miniverse Real Music Bratz Special Edition",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/mgas-miniverse-real-music-bratz-special-edition",
+          "photo": "https://www.bratz.com/cdn/shop/files/254225-Real-Music-Special-Edition-Bratz.jpg?v=1787834975&width=1445",
+          "photoSourceUrl": "https://www.bratz.com/products/mgas-miniverse-real-music-bratz-special-edition",
+          "photoVerification": "Official Bratz product-page image opened and visually matched to this exact product / sealed packaging (2026-11-23)",
+          "description": "One sold special-edition collectible set: mini Bratz Angelz record, sleeve keychain, tote bag, shirt and jacket; record player sold separately. Not a mystery-character assortment.",
+          "verificationStatus": "manufacturer-product-verified; photo-visually-checked; barcode-not-verified",
+          "sku": "254225"
+        }
+      ]
+    },
+    {
+      "name": "Bratz · What'z In My Closet",
+      "verified": true,
+      "completeness": "verified-single-current-product-not-exhaustive",
+      "source": "https://www.bratz.com/products/bratz-whatz-in-my-closet-playset-with-doll",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "Bratz · Collectible Products and Sets",
+      "count": 1,
+      "items": [
+        {
+          "name": "Bratz What'z In My Closet Playset with Dana Doll",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-whatz-in-my-closet-playset-with-doll",
+          "photo": "https://www.bratz.com/cdn/shop/files/247241_Bratz_WhatzInMyCloset_Doll_in_Playset.jpg?v=1783027265&width=1946",
+          "photoSourceUrl": "https://www.bratz.com/products/bratz-whatz-in-my-closet-playset-with-doll",
+          "photoVerification": "Official Bratz product-page image opened and visually matched to this exact product / sealed packaging (2026-11-23)",
+          "description": "One physical playset with Dana doll, closet, multiple outfits and accessories. Official listing does not explicitly state SKU; image filename is not proof of SKU or UPC.",
+          "verificationStatus": "manufacturer-product-verified; photo-visually-checked; barcode-not-verified",
+          "sku": ""
+        }
+      ]
+    },
+    {
+      "name": "Bratz · All Dolled Up Fashion & Shoe Pack Blind Box",
+      "verified": true,
+      "completeness": "verified-single-current-product-not-exhaustive",
+      "source": "https://www.bratz.com/products/bratz-all-dolled-up-fashion-shoe-pack-blind-box",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "Bratz · Collectible Products and Sets",
+      "count": 1,
+      "items": [
+        {
+          "name": "Bratz All Dolled Up Sealed Fashion or Shoe Pack Blind Box",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-all-dolled-up-fashion-shoe-pack-blind-box",
+          "photo": "https://www.bratz.com/cdn/shop/files/247265_Fashion_Pack_Front_Packaging.jpg?v=1783379205&width=1946",
+          "photoSourceUrl": "https://www.bratz.com/products/bratz-all-dolled-up-fashion-shoe-pack-blind-box",
+          "photoVerification": "Official Bratz product-page image opened and visually matched to this exact product / sealed packaging (2026-11-23)",
+          "description": "One sealed random fashion-or-shoe pack; official manufacturer lists six outfits and six shoe pairs possible. Contents cannot be chosen, so do not assign a character or individual hidden-variant barcode. Listing does not explicitly state GTIN/SKU.",
+          "verificationStatus": "manufacturer-product-verified; photo-visually-checked; barcode-not-verified",
+          "sku": "",
+          "barcodeNote": "Assortment UPC not verified. The sealed package may contain any of the announced outfits or shoe pairs; scan must route to the series, not a hidden variant."
+        }
+      ]
     }
   ]
 }
