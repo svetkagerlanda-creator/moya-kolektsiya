@@ -14,7 +14,8 @@
     "Coordinates approximate; identify by visible appearance only",
     "Most makers/series/SKUs not readable from one photo; verification pending",
     "Do not mark these as owned in any account without authenticating as that user and explicit action",
-    "Some overlapping small miniatures and partially hidden items may not be enumerated"
+    "Some overlapping small miniatures and partially hidden items may not be enumerated",
+    "Middle shelf: five figures visually match official/retailer lineup of Letsvan ZIYULI My Own Wedding; some individual name matches remain provisional."
   ],
   "items": [
     {
@@ -325,9 +326,14 @@
         "x": 138,
         "y": 577
       },
-      "identificationStatus": "needs-series-and-model-verification",
-      "confidence": "visual-only",
-      "catalogImportable": false
+      "identificationStatus": "matched-via-visual-and-lineup",
+      "confidence": "high",
+      "catalogImportable": true,
+      "proposedManufacturer": "Letsvan",
+      "proposedSeries": "ZIYULI · My Own Wedding",
+      "proposedVariant": "Flower Goddess",
+      "matchingSource": "https://www.moyo.ua/ua/kolektsiyna_figurka-syurpryz_pop_top_letsvan_seriyi_ziyuli_-_vesillya_17zi-0205/691284.html",
+      "variantNamesSource": "https://www.ebay.com/itm/127614735799"
     },
     {
       "draftId": "photo-20261123-025",
@@ -338,9 +344,14 @@
         "x": 274,
         "y": 558
       },
-      "identificationStatus": "needs-series-and-model-verification",
-      "confidence": "visual-only",
-      "catalogImportable": false
+      "identificationStatus": "probable-visual-match",
+      "confidence": "probable",
+      "catalogImportable": false,
+      "proposedManufacturer": "Letsvan",
+      "proposedSeries": "ZIYULI · My Own Wedding",
+      "proposedVariant": "Dreamy Encounter",
+      "matchingSource": "https://www.moyo.ua/ua/kolektsiyna_figurka-syurpryz_pop_top_letsvan_seriyi_ziyuli_-_vesillya_17zi-0205/691284.html",
+      "variantNamesSource": "https://www.ebay.com/itm/127614735799"
     },
     {
       "draftId": "photo-20261123-026",
@@ -351,9 +362,14 @@
         "x": 425,
         "y": 563
       },
-      "identificationStatus": "needs-series-and-model-verification",
-      "confidence": "visual-only",
-      "catalogImportable": false
+      "identificationStatus": "probable-visual-match",
+      "confidence": "probable",
+      "catalogImportable": false,
+      "proposedManufacturer": "Letsvan",
+      "proposedSeries": "ZIYULI · My Own Wedding",
+      "proposedVariant": "Pinky Princess",
+      "matchingSource": "https://www.moyo.ua/ua/kolektsiyna_figurka-syurpryz_pop_top_letsvan_seriyi_ziyuli_-_vesillya_17zi-0205/691284.html",
+      "variantNamesSource": "https://www.ebay.com/itm/127614735799"
     },
     {
       "draftId": "photo-20261123-027",
@@ -364,9 +380,14 @@
         "x": 565,
         "y": 557
       },
-      "identificationStatus": "needs-series-and-model-verification",
-      "confidence": "visual-only",
-      "catalogImportable": false
+      "identificationStatus": "matched-via-visual-and-lineup",
+      "confidence": "high",
+      "catalogImportable": true,
+      "proposedManufacturer": "Letsvan",
+      "proposedSeries": "ZIYULI · My Own Wedding",
+      "proposedVariant": "Night Fairy Tale",
+      "matchingSource": "https://www.moyo.ua/ua/kolektsiyna_figurka-syurpryz_pop_top_letsvan_seriyi_ziyuli_-_vesillya_17zi-0205/691284.html",
+      "variantNamesSource": "https://www.ebay.com/itm/127614735799"
     },
     {
       "draftId": "photo-20261123-028",
@@ -377,9 +398,14 @@
         "x": 696,
         "y": 576
       },
-      "identificationStatus": "needs-series-and-model-verification",
-      "confidence": "visual-only",
-      "catalogImportable": false
+      "identificationStatus": "matched-via-visual-and-lineup",
+      "confidence": "high",
+      "catalogImportable": true,
+      "proposedManufacturer": "Letsvan",
+      "proposedSeries": "ZIYULI · My Own Wedding",
+      "proposedVariant": "Coastal Oath",
+      "matchingSource": "https://www.moyo.ua/ua/kolektsiyna_figurka-syurpryz_pop_top_letsvan_seriyi_ziyuli_-_vesillya_17zi-0205/691284.html",
+      "variantNamesSource": "https://www.ebay.com/itm/127614735799"
     },
     {
       "draftId": "photo-20261123-029",
