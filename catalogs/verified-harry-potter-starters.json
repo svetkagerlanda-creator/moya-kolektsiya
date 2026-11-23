@@ -3757,8 +3757,13 @@
           "seriesNumber": "91760",
           "catalogPosition": "3",
           "sourceUrl": "https://funko.com/bitty-pop-harry-potter-6-pack/91760.html",
-          "photo": "",
-          "description": "Official Funko product listing; exact individual photo not yet verified."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf3a5967b/images/funko/upload/83622_HP_HarryWithHogwartsExpress_BittyRides_PKG_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Official Funko product listing; exact individual photo not yet verified.",
+          "componentFigureNumber": "83622",
+          "photoSourceUrl": "https://funko.com/im/bitty-pop-rides-harry-potter-and-hogwarts-express/83622.html",
+          "photoCredit": "Funko official named Ride/Towns component product photograph",
+          "photoStatus": "official-exact-6pack-component-image-visually-opened",
+          "photoVerificationNote": "Official separate 83622/83627 product gallery depicts the component included in 91760; the component SKU is not an additional UPC or the outer 6-pack barcode."
         },
         {
           "name": "Garrick Ollivander + Ollivanders Wand Shop",
@@ -3766,8 +3771,13 @@
           "seriesNumber": "91760",
           "catalogPosition": "4",
           "sourceUrl": "https://funko.com/bitty-pop-harry-potter-6-pack/91760.html",
-          "photo": "",
-          "description": "Official Funko product listing; exact individual photo not yet verified."
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw8f92facd/images/funko/upload/83627B_HarryPotter_HarryOllivander_BittyPop_BOX_Glam-WEB.png",
+          "description": "Official Funko product listing; exact individual photo not yet verified.",
+          "componentFigureNumber": "83627",
+          "photoSourceUrl": "https://funko.com/bitty-pop-towns-garrick-ollivander-and-ollivander-wand-shop/83627.html",
+          "photoCredit": "Funko official named Ride/Towns component product photograph",
+          "photoStatus": "official-exact-6pack-component-image-visually-opened",
+          "photoVerificationNote": "Official separate 83622/83627 product gallery depicts the component included in 91760; the component SKU is not an additional UPC or the outer 6-pack barcode."
         }
       ]
     },
