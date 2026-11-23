@@ -82,7 +82,12 @@
           "seriesNumber": "94180",
           "sourceUrl": "https://funko.com/pop-shinobu-kocho-bloody/94180.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwe85e85e0/images/funko/upload/1/94180_DemonSlayerMovie_ShinobuKocho_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 94180"
+          "description": "Funko item 94180",
+          "upc": "889698941808",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://fundom.com/en-gb/products/funko-pop-animation-demon-slayer-kimetsu-no-yaiba-shinobu-kocho-bloody-2508-funko-exclusive",
+          "barcodeVerification": "UPC explicitly paired with exact Shinobu Bloody #2508 exclusive; cross-checked with an independently listed sealed figure; checksum validated",
+          "barcodeNote": "Funko 94180 #2508 exclusive. A conflicting retailer listing displays 889698938921 (different Funko item); excluded as mismatched."
         },
         {
           "name": "Doma with War Fans",
