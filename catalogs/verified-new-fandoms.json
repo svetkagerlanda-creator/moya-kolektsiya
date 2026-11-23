@@ -1645,7 +1645,12 @@
           "manufacturer": "Giochi Preziosi",
           "sourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
           "photo": "",
-          "description": "Experience the magic of the Winx like never before! The Winx Fairy line comes with sparkling wings and a look ready for any challenge."
+          "description": "Experience the magic of the Winx like never before! The Winx Fairy line comes with sparkling wings and a look ready for any challenge.",
+          "ean": "8056379198789",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.auchan.pt/pt/brinquedos/bonecas-peluches-e-acessorios/bonecas/iconic-fashion-winx-modelos-sortidos/3934073.html",
+          "barcodeVerification": "Exact character-level WNX77-series retailer EAN, or explicitly designated randomized assortment EAN; check digit validated",
+          "barcodeNote": "Mixed assortment (WNX77000), random selection of six characters; barcode does not identify the chosen character."
         }
       ]
     },
@@ -1820,7 +1825,12 @@
           "sourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
           "photo": "https://cdn.shopify.com/s/files/1/0608/0308/8609/files/0022_WNX77000_iconic_aisha_pack2.jpg?v=1762957274",
           "description": "Experience the magic of the Winx like never before! The Winx Fairy line comes with sparkling wings and a look ready for any challenge.; variant: Aisha",
-          "variantKey": "15453367435589|56239581266245"
+          "variantKey": "15453367435589|56239581266245",
+          "ean": "8056379202233",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.fnac.com/mp53745258/Poupee-Winx-Serie-Iconic-Aisha-26-cm-Des-3-ans-WNX775/w-4",
+          "barcodeVerification": "Exact character-level WNX77-series retailer EAN, or explicitly designated randomized assortment EAN; check digit validated",
+          "barcodeNote": "Individual Aisha Iconic doll, product WNX775. Duplicated catalog entries refer to the same release."
         },
         {
           "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Aisha",
@@ -1829,7 +1839,12 @@
           "photo": "https://www.winxclub.com/cdn/shop/files/0024_WNX77000_iconic_aisha.jpg?v=1762957274&width=1500",
           "figureNumber": "",
           "variantKey": "winx-iconic|aisha",
-          "description": "Офіційний варіант персонажа Aisha колекції Winx Iconic."
+          "description": "Офіційний варіант персонажа Aisha колекції Winx Iconic.",
+          "ean": "8056379202233",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.fnac.com/mp53745258/Poupee-Winx-Serie-Iconic-Aisha-26-cm-Des-3-ans-WNX775/w-4",
+          "barcodeVerification": "Exact character-level WNX77-series retailer EAN, or explicitly designated randomized assortment EAN; check digit validated",
+          "barcodeNote": "Individual Aisha Iconic doll, product WNX775. Duplicated catalog entries refer to the same release."
         },
         {
           "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Bloom",
@@ -1838,7 +1853,12 @@
           "sourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
           "photo": "https://cdn.shopify.com/s/files/1/0608/0308/8609/files/0018_WNX77000_iconic_bloom_pack2_381e47c2-b71a-420b-9d65-f81635b7b0d2.jpg?v=1762957274",
           "description": "Experience the magic of the Winx like never before! The Winx Fairy line comes with sparkling wings and a look ready for any challenge.; variant: Bloom",
-          "variantKey": "15453367435589|56239581102405"
+          "variantKey": "15453367435589|56239581102405",
+          "ean": "8056379202196",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.fnac.com/mp53772900/Poupee-Win-Serie-Iconic-Bloom-26-cm-Des-3-ans-WNX771/w-4",
+          "barcodeVerification": "Exact character-level WNX77-series retailer EAN, or explicitly designated randomized assortment EAN; check digit validated",
+          "barcodeNote": "Individual Bloom Iconic doll, product WNX771. Duplicated catalog entries refer to the same release."
         },
         {
           "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Bloom",
@@ -1847,7 +1867,12 @@
           "photo": "https://www.winxclub.com/cdn/shop/files/0017_WNX77000_iconic_bloom2_fb431fa6-8c83-4774-a3ba-2687fdea5e9f.jpg?v=1762957274&width=1500",
           "figureNumber": "",
           "variantKey": "winx-iconic|bloom",
-          "description": "Офіційний варіант персонажа Bloom колекції Winx Iconic."
+          "description": "Офіційний варіант персонажа Bloom колекції Winx Iconic.",
+          "ean": "8056379202196",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.fnac.com/mp53772900/Poupee-Win-Serie-Iconic-Bloom-26-cm-Des-3-ans-WNX771/w-4",
+          "barcodeVerification": "Exact character-level WNX77-series retailer EAN, or explicitly designated randomized assortment EAN; check digit validated",
+          "barcodeNote": "Individual Bloom Iconic doll, product WNX771. Duplicated catalog entries refer to the same release."
         },
         {
           "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Flora",
@@ -1856,7 +1881,12 @@
           "sourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
           "photo": "https://cdn.shopify.com/s/files/1/0608/0308/8609/files/0014_WNX77000_iconic_flora_pack2_039a2ebb-4ee9-4a31-ae05-e8d0f897dbab.jpg?v=1762957274",
           "description": "Experience the magic of the Winx like never before! The Winx Fairy line comes with sparkling wings and a look ready for any challenge.; variant: Flora",
-          "variantKey": "15453367435589|56239581167941"
+          "variantKey": "15453367435589|56239581167941",
+          "ean": "8056379202202",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://m.joybuy.fr/dp/winx-club-poup%C3%A9e-articul%C3%A9e-winx-26/100887750",
+          "barcodeVerification": "Exact character-level WNX77-series retailer EAN, or explicitly designated randomized assortment EAN; check digit validated",
+          "barcodeNote": "Individual Flora Iconic doll, product WNX772. Duplicated catalog entries refer to the same release."
         },
         {
           "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Flora",
@@ -1865,7 +1895,12 @@
           "photo": "https://www.winxclub.com/cdn/shop/files/0013_WNX77000_iconic_flora2_2269429b-bd81-4bd5-b2b2-10dcb1f0ec7d.jpg?v=1762957274&width=1500",
           "figureNumber": "",
           "variantKey": "winx-iconic|flora",
-          "description": "Офіційний варіант персонажа Flora колекції Winx Iconic."
+          "description": "Офіційний варіант персонажа Flora колекції Winx Iconic.",
+          "ean": "8056379202202",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://m.joybuy.fr/dp/winx-club-poup%C3%A9e-articul%C3%A9e-winx-26/100887750",
+          "barcodeVerification": "Exact character-level WNX77-series retailer EAN, or explicitly designated randomized assortment EAN; check digit validated",
+          "barcodeNote": "Individual Flora Iconic doll, product WNX772. Duplicated catalog entries refer to the same release."
         },
         {
           "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Musa",
@@ -1874,7 +1909,12 @@
           "sourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
           "photo": "https://cdn.shopify.com/s/files/1/0608/0308/8609/files/0009_WNX77000_iconic_musa_pack2.jpg?v=1762957274",
           "description": "Experience the magic of the Winx like never before! The Winx Fairy line comes with sparkling wings and a look ready for any challenge.; variant: Musa",
-          "variantKey": "15453367435589|56239581200709"
+          "variantKey": "15453367435589|56239581200709",
+          "ean": "8056379202219",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.kieskeurig.nl/jurk-en-rok/product/66893731-winx-musa-iconic-pop-27-cm-met-blauw-haar-en-casual-outfit-uit-de-tv-serie-speelgoed-voor-meisjes-en-kinderen-vanaf-4-jaar",
+          "barcodeVerification": "Exact character-level WNX77-series retailer EAN, or explicitly designated randomized assortment EAN; check digit validated",
+          "barcodeNote": "Individual Musa Iconic doll, product WNX773. Duplicated catalog entries refer to the same release."
         },
         {
           "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Musa",
@@ -1883,7 +1923,12 @@
           "photo": "https://www.winxclub.com/cdn/shop/files/0011_WNX77000_iconic_musa.jpg?v=1762957274&width=1500",
           "figureNumber": "",
           "variantKey": "winx-iconic|musa",
-          "description": "Офіційний варіант персонажа Musa колекції Winx Iconic."
+          "description": "Офіційний варіант персонажа Musa колекції Winx Iconic.",
+          "ean": "8056379202219",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.kieskeurig.nl/jurk-en-rok/product/66893731-winx-musa-iconic-pop-27-cm-met-blauw-haar-en-casual-outfit-uit-de-tv-serie-speelgoed-voor-meisjes-en-kinderen-vanaf-4-jaar",
+          "barcodeVerification": "Exact character-level WNX77-series retailer EAN, or explicitly designated randomized assortment EAN; check digit validated",
+          "barcodeNote": "Individual Musa Iconic doll, product WNX773. Duplicated catalog entries refer to the same release."
         },
         {
           "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Stella",
@@ -1892,7 +1937,12 @@
           "sourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
           "photo": "https://cdn.shopify.com/s/files/1/0608/0308/8609/files/0005_WNX77000_iconic_stella_pack2.jpg?v=1762957274",
           "description": "Experience the magic of the Winx like never before! The Winx Fairy line comes with sparkling wings and a look ready for any challenge.; variant: Stella",
-          "variantKey": "15453367435589|56239581135173"
+          "variantKey": "15453367435589|56239581135173",
+          "ean": "8056379202226",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.kieskeurig.be/fr/poupee-et-figurine/produit/68767534-winx-wnx774-pop-met-scharnier-26-cm-iconische-serie-model-stella-pour-enfants-des-3-ans",
+          "barcodeVerification": "Exact character-level WNX77-series retailer EAN, or explicitly designated randomized assortment EAN; check digit validated",
+          "barcodeNote": "Individual Stella Iconic doll, product WNX774. Duplicated catalog entries refer to the same release."
         },
         {
           "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Stella",
@@ -1901,7 +1951,12 @@
           "photo": "https://www.winxclub.com/cdn/shop/files/0007_WNX77000_iconic_stella.jpg?v=1762957274&width=1500",
           "figureNumber": "",
           "variantKey": "winx-iconic|stella",
-          "description": "Офіційний варіант персонажа Stella колекції Winx Iconic."
+          "description": "Офіційний варіант персонажа Stella колекції Winx Iconic.",
+          "ean": "8056379202226",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.kieskeurig.be/fr/poupee-et-figurine/produit/68767534-winx-wnx774-pop-met-scharnier-26-cm-iconische-serie-model-stella-pour-enfants-des-3-ans",
+          "barcodeVerification": "Exact character-level WNX77-series retailer EAN, or explicitly designated randomized assortment EAN; check digit validated",
+          "barcodeNote": "Individual Stella Iconic doll, product WNX774. Duplicated catalog entries refer to the same release."
         },
         {
           "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Tecna",
@@ -1910,7 +1965,12 @@
           "sourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
           "photo": "https://cdn.shopify.com/s/files/1/0608/0308/8609/files/0001_WNX77000_iconic_tecna_pack2.jpg?v=1762957274",
           "description": "Experience the magic of the Winx like never before! The Winx Fairy line comes with sparkling wings and a look ready for any challenge.; variant: Tecna",
-          "variantKey": "15453367435589|56239581233477"
+          "variantKey": "15453367435589|56239581233477",
+          "ean": "8056379202240",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.fnac.com/mp56572538/Poupee-Winx-Iconic-Tecna-26-cm-Des-3-ans/w-4",
+          "barcodeVerification": "Exact character-level WNX77-series retailer EAN, or explicitly designated randomized assortment EAN; check digit validated",
+          "barcodeNote": "Individual Tecna Iconic doll, product WNX776. Duplicated catalog entries refer to the same release."
         },
         {
           "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Tecna",
@@ -1919,7 +1979,12 @@
           "photo": "https://www.winxclub.com/cdn/shop/files/0003_WNX77000_iconic_tecna.jpg?v=1762957274&width=1500",
           "figureNumber": "",
           "variantKey": "winx-iconic|tecna",
-          "description": "Офіційний варіант персонажа Tecna колекції Winx Iconic."
+          "description": "Офіційний варіант персонажа Tecna колекції Winx Iconic.",
+          "ean": "8056379202240",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.fnac.com/mp56572538/Poupee-Winx-Iconic-Tecna-26-cm-Des-3-ans/w-4",
+          "barcodeVerification": "Exact character-level WNX77-series retailer EAN, or explicitly designated randomized assortment EAN; check digit validated",
+          "barcodeNote": "Individual Tecna Iconic doll, product WNX776. Duplicated catalog entries refer to the same release."
         }
       ]
     },
