@@ -238,7 +238,12 @@
           "seriesNumber": "88657",
           "sourceUrl": "https://funko.com/pop-tigger-with-balloon/88657.html",
           "photo": "https://doc.smarty.cz/pic/FVHK000K01-600-600.jpg",
-          "description": "Funko POP! item 88657; box #1644"
+          "description": "Funko POP! item 88657; box #1644",
+          "upc": "889698886574",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/p/10085995291",
+          "barcodeVerification": "Retail / collector listing explicitly matches Funko item number, variant and UPC; check digit validated",
+          "barcodeNote": "Specific physical variant; not a standard-color POP figure."
         }
       ]
     },
@@ -262,7 +267,12 @@
           "seriesNumber": "88648",
           "sourceUrl": "https://funko.com/pop-leonardo-translucent-green/88648.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw04033d80/images/funko/upload/1/88648_POP_TMNT_Leonardo%28GR%29%28TRL%29_GLAM-WEB.png",
-          "description": "Funko POP! item 88648; box #1704"
+          "description": "Funko POP! item 88648; box #1704",
+          "upc": "889698886482",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.hobbydb.com/marketplaces/hobbydb/catalog_items/leonardo-6840dca7-956b-4cbe-adb4-f3bec3450fd6",
+          "barcodeVerification": "Retail / collector listing explicitly matches Funko item number, variant and UPC; check digit validated",
+          "barcodeNote": "Specific physical variant; not a standard-color POP figure."
         },
         {
           "name": "Michelangelo (Translucent Green)",
@@ -273,7 +283,12 @@
           "seriesNumber": "88645",
           "sourceUrl": "https://funko.com/im/pop-michelangelo-translucent-green/88645.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw5f1671f4/images/funko/upload/88645_POP-COMICS_TMNT_Michelangelo-%28GR%29%28TRL%29_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko POP! item 88645; box #1701"
+          "description": "Funko POP! item 88645; box #1701",
+          "upc": "889698886451",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/p/19078358812",
+          "barcodeVerification": "Retail / collector listing explicitly matches Funko item number, variant and UPC; check digit validated",
+          "barcodeNote": "Specific physical variant; not a standard-color POP figure."
         }
       ]
     }
