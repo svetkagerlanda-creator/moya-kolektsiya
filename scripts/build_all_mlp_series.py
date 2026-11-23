@@ -171,7 +171,12 @@ def parse(entry):
                     photo=candidate
                     break
         notes=[node.get_text(" ",strip=True) for node in bottom.select(".data-smallt")]
-        items[code]={"name":name,"catalogPosition":code,"manufacturer":entry["manufacturer"] or "Ліцензіат MLP",
+        manufacturer_node=bottom.select_one(f'a[href*="/{root}/manufacturer/"]')
+        known_manufacturers={"ep":"Enterplay","basic-fun":"Basic Fun",
+                             "hasbro-pop":"Hasbro","g5-blind-bags":"Hasbro",
+                             "fairy-tails":"Hasbro","funko-figures":"Funko"}
+        manufacturer=(manufacturer_node.get_text(" ",strip=True) if manufacturer_node else "") or entry["manufacturer"] or known_manufacturers.get(root,"Ліцензіат MLP")
+        items[code]={"name":name,"catalogPosition":code,"manufacturer":manufacturer,
                      "sourceUrl":href,"photo":photo,"description":"; ".join(x for x in notes if x)}
     if not items and root in {"comics","g5-comics"}:
         items=parse_comic_cards(soup,entry)
