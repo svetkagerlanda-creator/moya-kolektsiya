@@ -30,7 +30,12 @@
           "ean": "6958985027595",
           "barcodeType": "EAN-13",
           "barcodeSourceUrl": "https://oxfordcomicsandgames.com/products/dec228539-52toys-sleep-fairyland-elves-8pc-fig-bmb-ds",
-          "barcodeNote": "Identifies sealed random blind-box product, not individual revealed figures"
+          "barcodeNote": "Identifies sealed random blind-box product, not individual revealed figures",
+          "assortmentEan": "6958985027595",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://oxfordcomicsandgames.com/products/dec228539-52toys-sleep-fairyland-elves-8pc-fig-bmb-ds",
+          "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
+          "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
         },
         {
           "name": "The High Priestess",
@@ -170,7 +175,12 @@
       ],
       "sourceType": "collector-database-verified-figures-and-retailer-packaging",
       "verifiedFigureCount": 10,
-      "sourceDeclaredCount": 10
+      "sourceDeclaredCount": 10,
+      "assortmentEan": "6958985027595",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://oxfordcomicsandgames.com/products/dec228539-52toys-sleep-fairyland-elves-8pc-fig-bmb-ds",
+      "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
+      "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
     },
     {
       "name": "POP TOP · Letsvan Ziyuli · Розкішні самоцвіти",
@@ -901,9 +911,19 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 649,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6958985021289",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://www.matchatimegiftshop.com/blind-box-sleep-sea-elves.html",
+          "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
+          "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
         }
-      ]
+      ],
+      "assortmentEan": "6958985021289",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://www.matchatimegiftshop.com/blind-box-sleep-sea-elves.html",
+      "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
+      "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
     },
     {
       "name": "52TOYS · LAPLLY · Song of the Tarot",
@@ -1265,9 +1285,19 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 999,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6958985022682",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://707street.com/products/sleep-life-of-fantasies-elves-blind-box-series",
+          "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
+          "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
         }
-      ]
+      ],
+      "assortmentEan": "6958985022682",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://707street.com/products/sleep-life-of-fantasies-elves-blind-box-series",
+      "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
+      "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
     },
     {
       "name": "52TOYS · Sleep · Dreamland Elves",
@@ -1296,7 +1326,12 @@
           "barcodeType": "EAN-13",
           "barcodeSourceUrl": "https://www.momie.fr/product/show/6958985023832/sleep-dreamland-elves-series-mystery-blind-box-10cm",
           "barcodeVerification": "Retailer explicitly identifies SLEEP DREAMLAND ELVES mystery blind box and EAN13",
-          "barcodeNote": "Sealed random blind-box retail package; EAN does not reveal contained figure, including Secret variant"
+          "barcodeNote": "Sealed random blind-box retail package; EAN does not reveal contained figure, including Secret variant",
+          "assortmentEan": "6958985023832",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://www.momie.fr/product/show/6958985023832/sleep-dreamland-elves-series-mystery-blind-box-10cm",
+          "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
+          "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
         },
         {
           "name": "Remex",
@@ -1420,7 +1455,12 @@
         }
       ],
       "sourceType": "52TOYS-official-figure-names-and-retailer-packaging",
-      "verifiedFigureCount": 10
+      "verifiedFigureCount": 10,
+      "assortmentEan": "6958985023832",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://www.momie.fr/product/show/6958985023832/sleep-dreamland-elves-series-mystery-blind-box-10cm",
+      "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
+      "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
     },
     {
       "name": "POP MART · Inosoul · In the Still Room",
@@ -1443,7 +1483,12 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 1499,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6931571078140",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://www.toysrus.com.my/pop-mart-inosoul-in-the-still-room-blind-box---assorted-10106722.html",
+          "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
+          "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
         },
         {
           "name": "The Portrait",
@@ -1605,7 +1650,12 @@
       "sourceType": "manufacturer-official-figures-and-retailer-packaging",
       "verifiedFigureCount": 13,
       "regularFigureCount": 12,
-      "secretFigureCount": 1
+      "secretFigureCount": 1,
+      "assortmentEan": "6931571078140",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://www.toysrus.com.my/pop-mart-inosoul-in-the-still-room-blind-box---assorted-10106722.html",
+      "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
+      "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
     },
     {
       "name": "Kids Team Dolls · Nagi Cub",
@@ -2443,9 +2493,19 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 539,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6958985027403",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://www.matchatimegiftshop.com/blind-box-lilith-monologue-in-the-land-of-oz.html",
+          "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
+          "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
         }
-      ]
+      ],
+      "assortmentEan": "6958985027403",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://www.matchatimegiftshop.com/blind-box-lilith-monologue-in-the-land-of-oz.html",
+      "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
+      "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
     }
   ]
 }
