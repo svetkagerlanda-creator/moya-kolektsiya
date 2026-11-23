@@ -153,9 +153,9 @@
     },
     {
       "file": "verified-historical-dolls-pets.json",
-      "series": 96,
-      "items": 1674,
-      "photos": 1674,
+      "series": 120,
+      "items": 1747,
+      "photos": 1747,
       "missingPhotos": 0,
       "invalidSeries": 0,
       "duplicateUrls": 0,
@@ -213,10 +213,10 @@
     },
     {
       "file": "verified-new-fandoms.json",
-      "series": 17,
-      "items": 198,
-      "photos": 144,
-      "missingPhotos": 54,
+      "series": 19,
+      "items": 227,
+      "photos": 149,
+      "missingPhotos": 78,
       "invalidSeries": 0,
       "duplicateUrls": 0,
       "partialSeries": 17
@@ -243,13 +243,13 @@
     }
   ],
   "totals": {
-    "verifiedSeriesRecords": 1422,
-    "partialSeriesRecords": 70,
-    "releaseRecords": 19830,
-    "photoRecords": 19743,
-    "missingPhotoRecords": 87,
+    "verifiedSeriesRecords": 1448,
+    "partialSeriesRecords": 72,
+    "releaseRecords": 19932,
+    "photoRecords": 19821,
+    "missingPhotoRecords": 111,
     "crossFeedOverlappingSourceUrls": 2924,
-    "distinctSourceUrls": 16764
+    "distinctSourceUrls": 16851
   },
   "sourceRoots": {
     "basic-fun": {
@@ -388,9 +388,9 @@
       "photos": 46
     },
     "other": {
-      "series": 198,
-      "items": 4585,
-      "photos": 4518
+      "series": 224,
+      "items": 4687,
+      "photos": 4596
     },
     "other-figures": {
       "series": 293,
