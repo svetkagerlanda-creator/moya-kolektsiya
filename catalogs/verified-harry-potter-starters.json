@@ -324,11 +324,15 @@
           "name": "Mystery variant — Viktor Krum — Arrival Uniform",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "photo": "",
+          "photo": "https://i5.walmartimages.com/seo/Harry-Potter-Year-4-Micro-Magical-Moments-Viktor-Krum-Mini-Figure-No-Packaging_6bedd7ca-69ba-4462-bdf7-073776a54f17.45db7143537c67617ae3d09efe8a0395.jpeg",
           "collectorCode": "M02",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1j6tzga/",
           "rarity": "Regular / rarity unverified",
-          "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches."
+          "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches.",
+          "photoSourceUrl": "https://www.walmart.com/ip/16222722610",
+          "photoCredit": "Walmart exact single-character product image",
+          "photoStatus": "exact-variant-retailer-product-gallery",
+          "photoVerificationNote": "Viktor Krum in fur hat and olive-green arrival uniform, pictured in a Hogwarts frame display. Not the Shark variant."
         },
         {
           "name": "Mystery variant — Cedric Diggory — Triwizard Tournament Outfit",
@@ -386,11 +390,15 @@
           "name": "Mystery variant — Cedric Diggory — Yule Ball",
           "manufacturer": "Spin Master",
           "figureNumber": "",
-          "photo": "",
+          "photo": "https://i5.walmartimages.com/seo/Harry-Potter-Year-4-Micro-Magical-Moments-Cedric-Diggory-Mini-Figure-No-Packaging_1a38568a-1749-47d8-821d-1284920a77cf.616fea01c48f6d81f32121b58abed173.jpeg?odnBg=FFFFFF&odnHeight=640&odnWidth=640",
           "collectorCode": "M07",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1j6tzga/",
           "rarity": "Regular / rarity unverified",
-          "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches."
+          "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches.",
+          "photoSourceUrl": "https://business.walmart.com/ip/Harry-Potter-Year-4-Micro-Magical-Moments-Cedric-Diggory-Mini-Figure-No-Packaging/16232873647",
+          "photoCredit": "Walmart exact single-character product image",
+          "photoStatus": "exact-variant-retailer-product-gallery",
+          "photoVerificationNote": "Cedric wearing dark suit and white bowtie with winter ball decorations, not his Triwizard outfit."
         },
         {
           "name": "Mystery variant — Fleur Delacour — Arrival Outfit",
