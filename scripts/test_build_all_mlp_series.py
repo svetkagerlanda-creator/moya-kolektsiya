@@ -45,7 +45,7 @@ class MlpMerchImporterTests(unittest.TestCase):
             <div class="data-item">
               <div class="data-top"><img class="data-img" src="https://img.example/one.jpg"/></div>
               <div class="data-bottom">
-                <div class="data-name">Friendship is Magic Issue #1</div>
+                <div class="data-name">Friendship is Magic Issue #1 The Return of Queen Chrysalis W: Katie Cook</div>
                 <p>W: Katie Cook</p>
               </div>
             </div>
