@@ -205,8 +205,8 @@
       "file": "verified-new-fandoms-seeds.json",
       "series": 6,
       "items": 12,
-      "photos": 11,
-      "missingPhotos": 1,
+      "photos": 12,
+      "missingPhotos": 0,
       "invalidSeries": 0,
       "duplicateUrls": 1,
       "partialSeries": 6
@@ -214,9 +214,9 @@
     {
       "file": "verified-new-fandoms.json",
       "series": 19,
-      "items": 245,
-      "photos": 170,
-      "missingPhotos": 75,
+      "items": 247,
+      "photos": 175,
+      "missingPhotos": 72,
       "invalidSeries": 0,
       "duplicateUrls": 0,
       "partialSeries": 19
@@ -245,8 +245,8 @@
       "file": "verified-user-wishlist-starters.json",
       "series": 26,
       "items": 161,
-      "photos": 130,
-      "missingPhotos": 31,
+      "photos": 139,
+      "missingPhotos": 22,
       "invalidSeries": 0,
       "duplicateUrls": 0,
       "partialSeries": 25
@@ -255,11 +255,11 @@
   "totals": {
     "verifiedSeriesRecords": 1776,
     "partialSeriesRecords": 98,
-    "releaseRecords": 25835,
-    "photoRecords": 25696,
-    "missingPhotoRecords": 139,
+    "releaseRecords": 25837,
+    "photoRecords": 25711,
+    "missingPhotoRecords": 126,
     "crossFeedOverlappingSourceUrls": 2924,
-    "distinctSourceUrls": 22593
+    "distinctSourceUrls": 22602
   },
   "sourceRoots": {
     "basic-fun": {
@@ -399,8 +399,8 @@
     },
     "other": {
       "series": 552,
-      "items": 10590,
-      "photos": 10471
+      "items": 10592,
+      "photos": 10486
     },
     "other-figures": {
       "series": 293,
