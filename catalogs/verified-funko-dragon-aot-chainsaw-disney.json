@@ -91,7 +91,12 @@
           "seriesNumber": "80324",
           "sourceUrl": "https://funko.com/im/pop-chainsaw-man/80324.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw8cc2f0aa/images/funko/upload/80324_CSM_ChainsawMan_POP_GLAM-WEB.png",
-          "description": "Funko POP! item 80324; box #1677"
+          "description": "Funko POP! item 80324; box #1677",
+          "upc": "889698803243",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-chainsaw-man---chainsaw-man-or-chase-4.5-in-vinyl-figure/403779.html",
+          "barcodeVerification": "Exact Funko POP number, manufacturer product number and listed UPC; check digit verified",
+          "barcodeNote": "Standard or Chase product offer shares UPC; scan cannot distinguish Chase"
         },
         {
           "name": "Aki Hayakawa",
@@ -102,7 +107,11 @@
           "seriesNumber": "80319",
           "sourceUrl": "https://funko.com/pop-aki-hayakawa/80319.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwa8a5dd35/images/funko/upload/80319_CSM_Aki_POP_GLAM-WEB.png",
-          "description": "Funko POP! item 80319; box #1680"
+          "description": "Funko POP! item 80319; box #1680",
+          "upc": "889698803199",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-chainsaw-man-aki-4.65-in-vinyl-figure/403752.html",
+          "barcodeVerification": "Exact Funko POP number, manufacturer product number and listed UPC; check digit verified"
         }
       ]
     },
