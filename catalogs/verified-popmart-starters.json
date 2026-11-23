@@ -95,7 +95,12 @@
           "variantKey": "POP MART|POP MART · THE MONSTERS · Have a Seat|7|Duoduo (Secret)"
         }
       ],
-      "identityPolicy": "Series source URL may be shared across variants; identify items by manufacturer + series + catalogPosition + name, not sourceUrl alone."
+      "identityPolicy": "Series source URL may be shared across variants; identify items by manufacturer + series + catalogPosition + name, not sourceUrl alone.",
+      "assortmentEan": "6941848255204",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://www.blindbox.eu/blindboxes/labubu-the-monsters-have-a-seat-blindbox-en.html",
+      "assortmentBarcodeVerification": "Several sellers explicitly show EAN 6941848255204 for one sealed Have a Seat blind box; EAN-13 checksum valid",
+      "assortmentBarcodeNote": "Single sealed random vinyl plush blind box, not character specific; barcode alone does NOT authenticate product (counterfeits have used the same EAN)."
     },
     {
       "name": "POP MART · DIMOO WORLD × Disney · Phone Charms",
