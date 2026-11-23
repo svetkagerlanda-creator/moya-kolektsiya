@@ -9,7 +9,7 @@
       "source": "https://www.spinmaster.com/en-US/brands/harrypotter",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 2,
+      "count": 3,
       "items": [
         {
           "name": "Harry, Ron & Hedwig — 3-Figure Set",
@@ -28,6 +28,14 @@
           "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-micro-magical-moments-harry-hagrid-and-dudley-figure-set",
           "photo": "",
           "description": "Official product listing verified; exact individual photo pending."
+        },
+        {
+          "name": "Harry, Hermione, Ron & Fluffy — 4-Figure Set",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-micro-magical-moments-harry-hermione-ron-and-fluffy-figure-set",
+          "photo": "",
+          "description": "Official deluxe Year 1 scene with Harry, Hermione, Ron and Fluffy; four figures plus portrait display case. No individual photo or EAN/UPC verified."
         }
       ]
     },
@@ -39,7 +47,7 @@
       "source": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-micro-magical-moments-year-4-collectible-figure-set",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
+      "count": 2,
       "items": [
         {
           "name": "Harry, Hermione & Hungarian Horntail — 3-Figure Set",
@@ -50,6 +58,14 @@
           "description": "Official product listing verified; exact individual photo pending.",
           "photoCredit": "Official manufacturer product gallery",
           "photoStatus": "exact-product-gallery"
+        },
+        {
+          "name": "Year 4 — Sealed Surprise Blind Box (1 figure)",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-4-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6",
+          "photo": "",
+          "description": "Sealed surprise box: one unknown Year 4 figure; 12 collectible designs confirmed by Spin Master. Not an identified character or an individual variant. No individual photo or EAN/UPC verified."
         }
       ]
     },
@@ -135,7 +151,7 @@
       "source": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-figure-set-with-harry-stag-patronus-dementor-and-display-case-kids-toys-for-ages-6-and-up",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
+      "count": 4,
       "items": [
         {
           "name": "Harry, Stag Patronus & Dementor — 3-Figure Set",
@@ -146,6 +162,30 @@
           "photoCredit": "Spin Master official product gallery",
           "photoStatus": "official-gallery-image-url",
           "description": "Official Year 3 set with Harry Potter, Stag Patronus and Dementor."
+        },
+        {
+          "name": "Remus Lupin, Severus Snape & Peter Pettigrew — 3-Figure Set",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-figure-set-with-remus-lupin-severus-snape-peter-pettigrew-and-display-case",
+          "photo": "",
+          "description": "Official Year 3 Shrieking Shack scene; three figures, frame, three stands and collector guide. No individual photo or EAN/UPC verified."
+        },
+        {
+          "name": "Prisoner of Azkaban Rescue — Harry, Hermione, Sirius & Buckbeak 4-Figure Set",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.spinmaster.com/en-US/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-prisoner-of-azkaban-rescue-set-with-4-mini-figures-and-display-case-kids-toys-for-ages-6-and-up",
+          "photo": "",
+          "description": "Official Year 3 rescue scene with Harry, Hermione, Sirius Black and Buckbeak; four-figure deluxe set. No individual photo or EAN/UPC verified."
+        },
+        {
+          "name": "Year 3 — Sealed Surprise Blind Box (1 figure)",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.spinmaster.com/en-us/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6/",
+          "photo": "",
+          "description": "Sealed surprise box: one unknown Year 3 figure; Spin Master states 12 collectible designs, including Harry with Marauder's Map, Dementor, Crookshanks and Scabbers. Not an identified variant. No individual photo or EAN/UPC verified."
         }
       ]
     },
@@ -3879,6 +3919,26 @@
           "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/search-results?searchString=Harry+Potter+advent+calendar",
           "photo": "",
           "description": "Set name and number confirmed in official LEGO catalog/article; exact product image and EAN/UPC not verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Spin Master · Micro Magical Moments · Hogwarts Express Display",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Spin Master",
+      "manufacturer": "Spin Master",
+      "source": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-hogwarts-express-collectibles-display-and-carrying-case-with-3-figures-kids-toys-for-ages-6-and-up",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Hogwarts Express Collector Display & Carrying Case — Harry, Ron & Luna",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-hogwarts-express-collectibles-display-and-carrying-case-with-3-figures-kids-toys-for-ages-6-and-up",
+          "photo": "",
+          "description": "Official Hogwarts Express display/carry case including three exclusive figures (Harry with sweets, Ron with sweets and Luna Lovegood); stores up to 22 figures. No individual photo or EAN/UPC verified."
         }
       ]
     }
