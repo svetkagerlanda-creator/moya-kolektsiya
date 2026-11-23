@@ -79,7 +79,7 @@ def discover(root, label, grouping):
         if len(title)>90:title=match.group(1).replace("-"," ").title()
         key=f"{root}/{grouping}/{match.group(1)}"
         found[key]={"name":f"MLP Merch · {label} · {title}","source":url,
-                    "root":root,"expected":count,"manufacturer":label if grouping=="manufacturer" else ""}
+                    "root":root,"expected":count,"manufacturer":title if grouping=="manufacturer" else ""}
     if not found:
         raise ValueError("no linked indexed series with item counts")
     return list(found.values())
