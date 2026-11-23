@@ -21,7 +21,11 @@
           "seriesNumber": "93319",
           "sourceUrl": "https://funko.com/pop-demi-hollowfied-ichigo/93319.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw825ffb21/images/funko/upload/1/93319_BleachTYBW_IchigoKV_POP_render_v4_glam-WEB.png?sh=800&sw=800",
-          "description": "Funko POP! item 93319; box #2575"
+          "description": "Funko POP! item 93319; box #2575",
+          "upc": "889698933193",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-bleach-thousand-year-blood-war-demi-hollowfied-ichigo-4.6-in-vinyl-figure/441994.html",
+          "barcodeVerification": "Exact Funko POP number, manufacturer product number and listed UPC; check digit verified"
         },
         {
           "name": "Ichigo Kurosaki (Getsuga Tenshō Technique)",
@@ -32,7 +36,12 @@
           "seriesNumber": "84444",
           "sourceUrl": "https://www.funko.com/gr/pop-ichigo-kurosaki-getsuga-tens%C5%8D-technique/84444.html",
           "photo": "https://www.funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwcd4bba3c/images/funko/upload/84444_Bleach_S6_IchigoKurosaki_POP_GLAM-WEB.png",
-          "description": "Funko POP! item 84444; box #1826"
+          "description": "Funko POP! item 84444; box #1826",
+          "upc": "889698844444",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/p/20073211926",
+          "barcodeVerification": "Exact Funko POP number, manufacturer product number and listed UPC; check digit verified",
+          "barcodeNote": "Funko-exclusive specific product"
         }
       ]
     },
@@ -56,7 +65,11 @@
           "seriesNumber": "41062",
           "sourceUrl": "https://funko.com/pop-gon-freecss/41062.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw7b9b355c/images/funko/41062-1.png?sh=800&sw=800",
-          "description": "Funko POP! item 41062; box #651"
+          "description": "Funko POP! item 41062; box #651",
+          "upc": "889698410625",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/p/27061753243",
+          "barcodeVerification": "Exact Funko POP number, manufacturer product number and listed UPC; check digit verified"
         },
         {
           "name": "Super Awaken Gon",
@@ -67,7 +80,12 @@
           "seriesNumber": "71764",
           "sourceUrl": "https://funko.com/pop-super-awaken-gon/71764.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw63c673a3/images/funko/upload/71764_HunterxHunter_GonFreecssAdult_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko POP! item 71764; box #1319"
+          "description": "Funko POP! item 71764; box #1319",
+          "upc": "889698717649",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/p/14061798915",
+          "barcodeVerification": "Exact Funko POP number, manufacturer product number and listed UPC; check digit verified",
+          "barcodeNote": "San Diego Comic Con edition"
         }
       ]
     },
