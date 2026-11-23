@@ -109,12 +109,12 @@ def parse(entry):
                        "description":"; ".join(t for t in notes if t)}
     if not items:
         raise ValueError("no item detail links found inside confirmed release cards")
-    if expected and len(items)!=expected:
-        # Partial data may still be useful: retain only actual individual
-        # releases; do not mislabel as complete when count mismatches.
-        completeness="verified-selected-releases"
-    else:
-        completeness="verified-full-series" if expected else "verified-selected-releases"
+    # A matching item count is insufficient for a photo-complete catalog.
+    # Never label a series full when any individual release lacks its own image.
+    complete_count = expected is not None and len(items) == expected
+    complete_photos = all(card.get("photo") for card in items.values())
+    completeness = ("verified-full-series" if complete_count and complete_photos
+                    else "verified-selected-releases")
     return {"name":entry["name"],"source":url,"fandomKey":entry["fandomKey"],
             "group":{"bratz":"💄 Bratz · Historical Dolls",
                      "monsterhigh":"🦇 Monster High · Historical Dolls",
