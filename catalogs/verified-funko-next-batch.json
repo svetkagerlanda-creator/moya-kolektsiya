@@ -21,7 +21,11 @@
           "seriesNumber": "46626",
           "sourceUrl": "https://funko.com/pop-naruto-uzumaki/46626.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwa78dcd99/images/funko/46626-1.png?sh=800&sw=800",
-          "description": "Funko POP! item 46626; box #727"
+          "description": "Funko POP! item 46626; box #727",
+          "upc": "889698466264",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/naruto-running-funko-pop-vinyl-figure-727/fu46626",
+          "barcodeVerification": "Retailer lists exact Funko item and UPC; checksum verified"
         },
         {
           "name": "Naruto Uzumaki with Kunai & Shuriken",
@@ -32,7 +36,12 @@
           "seriesNumber": "83804",
           "sourceUrl": "https://funko.com/nl/pop-naruto-uzumaki-with-kunai-shuriken/83804.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw736879cd/images/funko/upload/83804a_Naruto_S14_NarutoUzumaki_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko POP! item 83804; box #1843"
+          "description": "Funko POP! item 83804; box #1843",
+          "upc": "889698838047",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/naruto-shippuden-naruto-uzumaki-shuriken-figure-not-mint/nmfu83804",
+          "barcodeVerification": "Retailer lists exact Funko item and UPC; checksum verified",
+          "barcodeNote": "Common retail product code; do not automatically infer standard vs Metallic Chase from barcode alone"
         }
       ]
     },
