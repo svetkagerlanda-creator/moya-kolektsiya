@@ -1990,7 +1990,7 @@
       "source": "https://www.lego.com/en-ie/themes/harry-potter",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 3,
+      "count": 2,
       "items": [
         {
           "name": "Cornish Pixie",
@@ -2005,14 +2005,6 @@
           "manufacturer": "LEGO",
           "figureNumber": "76458",
           "sourceUrl": "https://www.lego.com/en-us/product/thestral-family-76458",
-          "photo": "",
-          "description": "Official LEGO Harry Potter product; exact image pending."
-        },
-        {
-          "name": "Luna Lovegood & Thestral Figures",
-          "manufacturer": "LEGO",
-          "figureNumber": "76443",
-          "sourceUrl": "https://www.lego.com/en-us/product/luna-lovegood-thestral-figures-76443",
           "photo": "",
           "description": "Official LEGO Harry Potter product; exact image pending."
         }
