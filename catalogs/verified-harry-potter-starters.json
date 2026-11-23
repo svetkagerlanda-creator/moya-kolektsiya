@@ -2390,6 +2390,62 @@
           "description": "Mystery Mini snow globe with Hogwarts relief base. One random figure per sealed box; individual exact photo pending."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Magical Creatures & Characters · 2024–2025",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/cdn/cs/set/assets/blt065acb6313d90a13/2HY25_TW.pdf",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "items": [
+        {
+          "name": "Hedwig at 4 Privet Drive",
+          "manufacturer": "LEGO",
+          "figureNumber": "76425",
+          "sourceUrl": "https://www.lego.com/cdn/cs/set/assets/blt065acb6313d90a13/2HY25_TW.pdf",
+          "photo": "",
+          "description": "Product and set number listed in LEGO official catalog; individual image URL not yet verified."
+        },
+        {
+          "name": "Dobby the House-Elf",
+          "manufacturer": "LEGO",
+          "figureNumber": "76421",
+          "sourceUrl": "https://www.lego.com/cdn/cs/set/assets/blt065acb6313d90a13/2HY25_TW.pdf",
+          "photo": "",
+          "description": "Product and set number listed in LEGO official catalog; individual image URL not yet verified."
+        },
+        {
+          "name": "Mandrake",
+          "manufacturer": "LEGO",
+          "figureNumber": "76433",
+          "sourceUrl": "https://www.lego.com/cdn/cs/set/assets/blt065acb6313d90a13/2HY25_TW.pdf",
+          "photo": "",
+          "description": "Product and set number listed in LEGO official catalog; individual image URL not yet verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Flying Ford Anglia · 2024",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/cdn/cs/set/assets/blt065acb6313d90a13/2HY25_TW.pdf",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Flying Ford Anglia",
+          "manufacturer": "LEGO",
+          "figureNumber": "76424",
+          "sourceUrl": "https://www.lego.com/cdn/cs/set/assets/blt065acb6313d90a13/2HY25_TW.pdf",
+          "photo": "",
+          "description": "Product and set number listed in LEGO official catalog; individual image URL not yet verified."
+        }
+      ]
     }
   ]
 }
