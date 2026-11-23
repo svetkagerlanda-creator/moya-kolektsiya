@@ -79,7 +79,11 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-babyz-jade-collectible-fashion-doll",
           "photo": "https://cdn.shopify.com/s/files/1/0461/4452/0344/files/505587-Bratz-Babyz-Jade4.jpg?v=1724763171",
-          "description": "Before they were Bratz, they were Bratz Babyz! Step back in time with the Bratz and see how it all began, as they xpress themselves with baby bratitude style. #tbt the iconic release of Bratz Babyz in 2004! Now 20 years later, you can add this nostalgic Bratz Babyz Jade doll to your collection once again. Jade and all"
+          "description": "Before they were Bratz, they were Bratz Babyz! Step back in time with the Bratz and see how it all began, as they xpress themselves with baby bratitude style. #tbt the iconic release of Bratz Babyz in 2004! Now 20 years later, you can add this nostalgic Bratz Babyz Jade doll to your collection once again. Jade and all",
+          "upc": "035051505587",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://barcodeindex.com/upc/035051505587",
+          "barcodeVerification": "Product-specific retailer/GTIN record matches manufacturer model and description; GTIN check digit validated"
         },
         {
           "name": "Bratz Babyz Runwayz Doll - Felicia",
@@ -980,7 +984,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-clawdeen-wolf-doll-jhk30",
           "photo": "https://shop.mattel.com/cdn/shop/files/f4bb9a1da0b5f19f49dec3a5bd35cc6eb6a10e76.jpg?v=1763654438",
-          "description": "Clawdeen Wolf doll's lurk is fresh and fashion fur-ward to the max! With her pet wolf Crescent and 7 accessories, she's all set for a clawsome day at Monster High."
+          "description": "Clawdeen Wolf doll's lurk is fresh and fashion fur-ward to the max! With her pet wolf Crescent and 7 accessories, she's all set for a clawsome day at Monster High.",
+          "ean": "0194735333592",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.rofu.de/p/monster-high-clawdeen-puppe-jhk30-57244330",
+          "barcodeVerification": "Product-specific retailer/GTIN record matches manufacturer model and description; GTIN check digit validated"
         },
         {
           "name": "Monster High Cleo De Nile Doll And Boo-Jeweled Beauty Case With Accessories",
@@ -1024,7 +1032,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-fangtastic-food-truck-playset-hxh83-en-ca",
           "photo": "https://shop.mattel.com/cdn/shop/files/rclrgn2g9gceqnusw9gj_a3be5d25-5441-4724-b531-d3872c6af1ad.png?v=1721070421",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735230358",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.elcorteingles.es/juguetes/A51811187-muneca-draculaura-con-food-truck-monster-high/",
+          "barcodeVerification": "Product-specific retailer/GTIN record matches manufacturer model and description; GTIN check digit validated"
         },
         {
           "name": "Monster High Fearbook Draculaura Fashion Doll With Jacket, Yearbook, And Movie Club Accessories",
@@ -1045,7 +1057,11 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-frankie-stein-styling-head-playset-hrp71",
           "photo": "https://shop.mattel.com/cdn/shop/files/c7qehl3xjvzpgr42tluh.png?v=1778259376",
-          "description": "​Open the spookiest salon around with the Frankie Stein Styling Head! It comes with 65+ accessories for limitless fun and hours of voltageous nail and hair play."
+          "description": "​Open the spookiest salon around with the Frankie Stein Styling Head! It comes with 65+ accessories for limitless fun and hours of voltageous nail and hair play.",
+          "ean": "0194735183487",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.onbuy.com/gb/p/monster-high-frankie-stein-doll-head-for-hair-styling-with-65-accesso~p113583005/",
+          "barcodeVerification": "Product-specific retailer/GTIN record matches manufacturer model and description; GTIN check digit validated"
         },
         {
           "name": "Monster High Haunted High School Doll House With 35+ Pieces Of Furniture And Accessories",
