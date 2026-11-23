@@ -330,9 +330,65 @@
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.toys-shop.gr/en/p/toys/plush/plush-classic/1053981-ty-beanie-boos-batrick-fluffy-bat-black-15cm-1607-37349.html",
           "barcodeVerification": "Retailer explicitly identifies Ty named product and manufacturer model along with UPC-A, checksum validated."
+        },
+        {
+          "name": "Finsley",
+          "manufacturer": "Ty",
+          "figureNumber": "37412",
+          "variantKey": "ty:beanie-boos:37412",
+          "sourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/hai-fisch-finsley-shark-blau.html",
+          "photo": "",
+          "upc": "008421374120",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/hai-fisch-finsley-shark-blau.html",
+          "barcodeVerification": "Retailer explicitly gives Beanie Boos name, manufacturer item number and matching UPC/EAN; valid check digit.",
+          "barcodeNote": "Distinct Beanie Boos plush, not similarly named Squish-a-Boos or a keyring.",
+          "description": "Ty Beanie Boos plush, version identified by manufacturer model. Individual photo still needs exact-source verification."
+        },
+        {
+          "name": "Kiki",
+          "manufacturer": "Ty",
+          "figureNumber": "37190",
+          "variantKey": "ty:beanie-boos:37190",
+          "sourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/katze-kiki-getigert.html",
+          "photo": "",
+          "upc": "008421371907",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/katze-kiki-getigert.html",
+          "barcodeVerification": "Retailer explicitly gives Beanie Boos name, manufacturer item number and matching UPC/EAN; valid check digit.",
+          "barcodeNote": "Distinct Beanie Boos plush, not similarly named Squish-a-Boos or a keyring.",
+          "description": "Ty Beanie Boos plush, version identified by manufacturer model. Individual photo still needs exact-source verification."
+        },
+        {
+          "name": "Dotty",
+          "manufacturer": "Ty",
+          "figureNumber": "37189",
+          "variantKey": "ty:beanie-boos:37189",
+          "sourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/leopard-dotty.html",
+          "photo": "",
+          "upc": "008421371891",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/leopard-dotty.html",
+          "barcodeVerification": "Retailer explicitly gives Beanie Boos name, manufacturer item number and matching UPC/EAN; valid check digit.",
+          "barcodeNote": "Distinct Beanie Boos plush, not similarly named Squish-a-Boos or a keyring.",
+          "description": "Ty Beanie Boos plush, version identified by manufacturer model. Individual photo still needs exact-source verification."
+        },
+        {
+          "name": "Slush",
+          "manufacturer": "Ty",
+          "figureNumber": "36006",
+          "variantKey": "ty:beanie-boos:36006",
+          "sourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/husky-slush.html",
+          "photo": "",
+          "upc": "008421360062",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/husky-slush.html",
+          "barcodeVerification": "Retailer explicitly gives Beanie Boos name, manufacturer item number and matching UPC/EAN; valid check digit.",
+          "barcodeNote": "Distinct Beanie Boos plush, not similarly named Squish-a-Boos or a keyring.",
+          "description": "Ty Beanie Boos plush, version identified by manufacturer model. Individual photo still needs exact-source verification."
         }
       ],
-      "count": 15
+      "count": 19
     },
     {
       "name": "Ty · Beanie Bellies · 8-inch Selected Releases",
@@ -571,7 +627,12 @@
           "variantKey": "ty:squishy-beanies:39286",
           "sourceUrl": "https://www.ty.com/product/dotty/39286.html?cgid=sab&lang=en",
           "photo": "",
-          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag."
+          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag.",
+          "upc": "008421392865",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://krs.mk/product/ty-squish-a-boos-dotty-22-cm-multicolor-leopard/",
+          "barcodeVerification": "Retailer lists this exact Ty line and manufacturer model beside this GTIN; checksum checked.",
+          "barcodeNote": "Only for model listed, not other plush sizes or keychains."
         },
         {
           "name": "Slush",
@@ -580,7 +641,12 @@
           "variantKey": "ty:squishy-beanies:39293",
           "sourceUrl": "https://www.ty.com/product/slush/39293.html?cgid=sab&lang=en",
           "photo": "",
-          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag."
+          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag.",
+          "upc": "008421392933",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-squish-a-boos/husky-slush-kuschelkissen.html",
+          "barcodeVerification": "Retailer lists this exact Ty line and manufacturer model beside this GTIN; checksum checked.",
+          "barcodeNote": "Only for model listed, not other plush sizes or keychains."
         },
         {
           "name": "Pinky",
@@ -589,7 +655,12 @@
           "variantKey": "ty:squishy-beanies:39300",
           "sourceUrl": "https://www.ty.com/product/pinky/39300.html?cgid=sab&lang=en",
           "photo": "",
-          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag."
+          "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag.",
+          "upc": "008421393008",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-squish-a-boos/eule-pinky-kuschelkissen.html",
+          "barcodeVerification": "Retailer lists this exact Ty line and manufacturer model beside this GTIN; checksum checked.",
+          "barcodeNote": "Only for model listed, not other plush sizes or keychains."
         },
         {
           "name": "Fetch",
