@@ -871,9 +871,19 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 79,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "7290120511576",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://dream-group-toys.com.ua/p-96617-figurka-naruto-v-zakritiy-upakovci-v-asort-18-vidiv",
+          "assortmentBarcodeVerification": "Exact physical package SKU NSH2005 matched to explicitly published EAN-13; checksum validated",
+          "assortmentBarcodeNote": "One sealed random blind package, not the specific hidden figure nor a full case"
         }
-      ]
+      ],
+      "assortmentEan": "7290120511576",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://dream-group-toys.com.ua/p-96617-figurka-naruto-v-zakritiy-upakovci-v-asort-18-vidiv",
+      "assortmentBarcodeVerification": "Exact physical package SKU NSH2005 matched to explicitly published EAN-13; checksum validated",
+      "assortmentBarcodeNote": "One sealed random blind package, not the specific hidden figure nor a full case"
     },
     {
       "name": "POP TOP · Jotoys Miana · Замок сновидінь",
@@ -931,9 +941,19 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 799,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6958985015806",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://www.dbline.it/index.php/en/prodotti/catalogo-online/detail/ARVI0031",
+          "assortmentBarcodeVerification": "Exact physical package SKU 24CB583SL02 matched to explicitly published EAN-13; checksum validated",
+          "assortmentBarcodeNote": "One sealed random blind package, not the specific hidden figure nor a full case"
         }
-      ]
+      ],
+      "assortmentEan": "6958985015806",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://www.dbline.it/index.php/en/prodotti/catalogo-online/detail/ARVI0031",
+      "assortmentBarcodeVerification": "Exact physical package SKU 24CB583SL02 matched to explicitly published EAN-13; checksum validated",
+      "assortmentBarcodeNote": "One sealed random blind package, not the specific hidden figure nor a full case"
     },
     {
       "name": "10/10 Toys · Nono Sova · Nightmare Lullaby",
