@@ -394,11 +394,11 @@
       "manufacturer": "POP MART",
       "fandomKey": "mlp",
       "group": "🦄 My Little Pony · POP MART",
-      "source": "",
+      "source": "https://www.popmart.com/en-US/products/5812",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "count": 9,
+      "notes": "6 звичайних персонажів і 2 секретні офіційно в POP MART; запакований випадковий товар із бажанок — окрема позиція.",
       "items": [
         {
           "name": "SKULLPANDA × My Little Pony",
@@ -411,8 +411,108 @@
           "photo": "",
           "retailPriceUAH": 2999,
           "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        },
+        {
+          "name": "Rainbow Dash",
+          "manufacturer": "POP MART",
+          "character": "Rainbow Dash",
+          "catalogPosition": "01",
+          "figureNumber": "",
+          "variantKey": "POP MART|POP MART · SKULLPANDA × My Little Pony|Rainbow Dash",
+          "sourceUrl": "https://www.popmart.com/en-US/products/5812",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Окремий плюшевий SKULLPANDA × My Little Pony pendant. Коробка не гарантує конкретного персонажа."
+        },
+        {
+          "name": "Pinkie Pie",
+          "manufacturer": "POP MART",
+          "character": "Pinkie Pie",
+          "catalogPosition": "02",
+          "figureNumber": "",
+          "variantKey": "POP MART|POP MART · SKULLPANDA × My Little Pony|Pinkie Pie",
+          "sourceUrl": "https://www.popmart.com/en-US/products/5812",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Окремий плюшевий SKULLPANDA × My Little Pony pendant. Коробка не гарантує конкретного персонажа."
+        },
+        {
+          "name": "Twilight Sparkle",
+          "manufacturer": "POP MART",
+          "character": "Twilight Sparkle",
+          "catalogPosition": "03",
+          "figureNumber": "",
+          "variantKey": "POP MART|POP MART · SKULLPANDA × My Little Pony|Twilight Sparkle",
+          "sourceUrl": "https://www.popmart.com/en-US/products/5812",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Окремий плюшевий SKULLPANDA × My Little Pony pendant. Коробка не гарантує конкретного персонажа."
+        },
+        {
+          "name": "Fluttershy",
+          "manufacturer": "POP MART",
+          "character": "Fluttershy",
+          "catalogPosition": "04",
+          "figureNumber": "",
+          "variantKey": "POP MART|POP MART · SKULLPANDA × My Little Pony|Fluttershy",
+          "sourceUrl": "https://www.popmart.com/en-US/products/5812",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Окремий плюшевий SKULLPANDA × My Little Pony pendant. Коробка не гарантує конкретного персонажа."
+        },
+        {
+          "name": "Applejack",
+          "manufacturer": "POP MART",
+          "character": "Applejack",
+          "catalogPosition": "05",
+          "figureNumber": "",
+          "variantKey": "POP MART|POP MART · SKULLPANDA × My Little Pony|Applejack",
+          "sourceUrl": "https://www.popmart.com/en-US/products/5812",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Окремий плюшевий SKULLPANDA × My Little Pony pendant. Коробка не гарантує конкретного персонажа."
+        },
+        {
+          "name": "Rarity",
+          "manufacturer": "POP MART",
+          "character": "Rarity",
+          "catalogPosition": "06",
+          "figureNumber": "",
+          "variantKey": "POP MART|POP MART · SKULLPANDA × My Little Pony|Rarity",
+          "sourceUrl": "https://www.popmart.com/en-US/products/5812",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Окремий плюшевий SKULLPANDA × My Little Pony pendant. Коробка не гарантує конкретного персонажа."
+        },
+        {
+          "name": "Sunset Shimmer (Secret)",
+          "manufacturer": "POP MART",
+          "character": "Sunset Shimmer",
+          "catalogPosition": "07",
+          "figureNumber": "",
+          "variantKey": "POP MART|POP MART · SKULLPANDA × My Little Pony|Sunset Shimmer (Secret)",
+          "sourceUrl": "https://www.popmart.com/en-US/products/5812",
+          "photo": "",
+          "rarity": "Secret",
+          "description": "Окремий плюшевий SKULLPANDA × My Little Pony pendant. Коробка не гарантує конкретного персонажа."
+        },
+        {
+          "name": "Queen Chrysalis (Secret)",
+          "manufacturer": "POP MART",
+          "character": "Queen Chrysalis",
+          "catalogPosition": "08",
+          "figureNumber": "",
+          "variantKey": "POP MART|POP MART · SKULLPANDA × My Little Pony|Queen Chrysalis (Secret)",
+          "sourceUrl": "https://www.popmart.com/en-US/products/5812",
+          "photo": "",
+          "rarity": "Secret",
+          "description": "Окремий плюшевий SKULLPANDA × My Little Pony pendant. Коробка не гарантує конкретного персонажа."
         }
-      ]
+      ],
+      "verifiedFigureCount": 8,
+      "regularFigureCount": 6,
+      "secretFigureCount": 2,
+      "sourceType": "manufacturer-official-figures-and-retailer-packaging"
     },
     {
       "name": "PMI · Naruto Shippuden",
