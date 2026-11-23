@@ -29,8 +29,8 @@ SOURCES=[
  ("Bratz · Official Collections","bratz","MGA Entertainment","https://www.bratz.com/products"),
  ("Monster High · Skulltimate Secrets","monsterhigh","Mattel","https://shop.mattel.com/collections/monster-high-skulltimate-secrets"),
  ("Monster High · Official Mattel","monsterhigh","Mattel","https://shop.mattel.com/collections/monster-high"),
- ("Sylvanian Families · Families","sylvanian","Epoch","https://www.sylvanianfamilies.com/en-uk/catalog/categorieslist.php?category_id=1"),
- ("Sylvanian Families · Catalog","sylvanian","Epoch","https://www.sylvanianfamilies.com/en-uk/catalog/"),
+ ("Sylvanian Families · Families","sylvanian","Epoch","https://my.sylvanianfamilies.com/collections/figures"),
+ ("Sylvanian Families · Babies","sylvanian","Epoch","https://my.sylvanianfamilies.com/collections/babies"),
  ("Littlest Pet Shop · Generation 7","lps","Basic Fun","https://www.basicfun.com/brand/littlest-pet-shop/"),
  ("Littlest Pet Shop · Product Series","lps","Basic Fun","https://www.basicfun.com/LPS/"),
  ("Winx Club · Iconic Dolls","winx","Giochi Preziosi","https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi"),
@@ -59,7 +59,7 @@ SEEDS=[
 HOSTS={
  "bratz":{"www.bratz.com","bratz.com","shop.mgae.com"},
  "monsterhigh":{"shop.mattel.com"},
- "sylvanian":{"www.sylvanianfamilies.com"},
+ "sylvanian":{"www.sylvanianfamilies.com","my.sylvanianfamilies.com"},
  "lps":{"www.basicfun.com"},
  "winx":{"www.winxclub.com"},
  "everafterhigh":{"eahmerch.com","www.eahmerch.com","service.mattel.com"},
@@ -87,7 +87,7 @@ def links_from(soup,url,fandom):
         valid={
             "bratz":"/products/" in path and not path.endswith("/products/"),
             "monsterhigh":"/products/" in path,
-            "sylvanian":"item_detail.php" in path and "product_id=" in p.query,
+            "sylvanian":("item_detail.php" in path and "product_id=" in p.query) or ("/products/" in path and p.hostname=="my.sylvanianfamilies.com"),
             "lps":"/product/" in path and "littlest-pet-shop" in path,
             "winx":"/products/" in path,
             "everafterhigh":"/dolls/details/" in path or ("/dolls/" in path and "/details/" in path),
@@ -110,6 +110,10 @@ def parse_product(url,fandom,manufacturer):
     photo=urljoin(url,photo) if photo else ""
     if photo and (urlsplit(photo).scheme!="https" or not urlsplit(photo).hostname):photo=""
     description=meta(soup,"og:description")[:350]
+    if fandom=="winx":
+        combined=(title+" "+description).lower()
+        if "giochi preziosi" in combined:manufacturer="Giochi Preziosi"
+        elif "playmates" in combined:manufacturer="Playmates Toys"
     # Verified page-level product image, not claimed as variant-specific.
     p=urlsplit(url)
     number=""
@@ -127,7 +131,7 @@ def verified_product_cards(url,fandom,manufacturer):
     """Read distinct Shopify variants when available, otherwise one real SKU."""
     base=parse_product(url,fandom,manufacturer)
     parsed=urlsplit(url)
-    if (parsed.hostname not in {"www.bratz.com","shop.mgae.com","www.winxclub.com"}
+    if (parsed.hostname not in {"www.bratz.com","shop.mgae.com","www.winxclub.com","my.sylvanianfamilies.com"}
             or "/products/" not in parsed.path):
         return [base]
     endpoint=urlunsplit((parsed.scheme,parsed.netloc,parsed.path.rstrip("/")+".js","",""))
@@ -138,6 +142,15 @@ def verified_product_cards(url,fandom,manufacturer):
     except (ValueError,requests.RequestException):
         return [base]
     variants=product.get("variants",[])
+    image_candidates=[product.get("featured_image"),*(product.get("images") or [])]
+    if not base["photo"]:
+        for raw in image_candidates:
+            image=raw.get("src","") if isinstance(raw,dict) else raw
+            if not image:continue
+            candidate=urljoin(url,image)
+            if urlsplit(candidate).scheme=="https":
+                base["photo"]=candidate
+                break
     if len(variants)<2:
         return [base]
     result=[]
@@ -150,6 +163,16 @@ def verified_product_cards(url,fandom,manufacturer):
         featured=v.get("featured_image")
         if isinstance(featured,dict):photo=featured.get("src") or ""
         elif isinstance(featured,str):photo=featured
+        if not photo:
+            # Select a photo only if its filename explicitly identifies this
+            # character/physical variant (not another doll in a group picture).
+            token=re.sub(r"[^a-z0-9]","",title.lower())
+            for raw in product.get("images",[]):
+                candidate=raw.get("src","") if isinstance(raw,dict) else str(raw)
+                tail=urlsplit(candidate).path.split("/")[-1].lower()
+                if token and token in re.sub(r"[^a-z0-9]","",tail):
+                    photo=candidate
+                    break
         photo=urljoin(url,photo) if photo else ""
         if urlsplit(photo).scheme!="https":photo=""
         # Every variant needs its own verified photo. Never apply the parent
@@ -164,6 +187,38 @@ def verified_product_cards(url,fandom,manufacturer):
 
 def identity(card):
     return (card["sourceUrl"],card.get("variantKey") or "")
+
+def belongs_to_series(name,card):
+    """Exclude unrelated recommendations and apparel from named doll lines."""
+    title=card["name"].lower()
+    slug=urlsplit(card["sourceUrl"]).path.lower()
+    common=title+" "+slug
+    checks={
+      "Bratz · Alwayz Bratz":"alwayz bratz",
+      "Bratz · Babyz":"babyz",
+      "Bratz · Charmz":"charmz",
+      "Bratz · Fashion Pixiez":"fashion pixiez",
+      "Bratz · Play Sportz":"play sportz",
+      "Bratz · Slumber Party":"slumber party",
+      "Bratz · Bratziez Blind Box":"bratziez",
+    }
+    if name in checks:
+        key=checks[name]
+        if key not in common and key.replace(" ","-") not in common:return False
+        # Apparel and unrelated recommended items are not dolls in a doll line.
+        if re.search(r"t-shirt|shirt|hoodie|sweatshirt|adult|tote|legging|pijama|pajama",title):
+            return False
+    if name=="Bratz · Official Collections":
+        if "doll" not in title and "figure" not in title:return False
+    if name=="Winx Club · Fashion Dolls":
+        return "doll" in title
+    if name=="Winx Club · Figures":
+        return "figure" in title
+    if name=="Littlest Pet Shop · Generation 7":
+        if "series 5" in title or "series 6" in title:return False
+    if name=="Monster High · Skulltimate Secrets":
+        return "skulltimate" in common or "monstrueux secrets" in common
+    return True
 
 def main():
     previous={}
@@ -202,7 +257,8 @@ def main():
                 errors[url]=error
             elif card:
                 for item in card:
-                    results.setdefault((name,fandom,maker),{})[identity(item)]=item
+                    if belongs_to_series(name,item):
+                        results.setdefault((name,fandom,maker),{})[identity(item)]=item
     for (name,fandom,maker),cards in results.items():
         old=previous.get(name,{})
         # Preserve old cards and exact-source photos if a store changes navigation.
