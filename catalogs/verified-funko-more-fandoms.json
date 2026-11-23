@@ -207,7 +207,11 @@
           "seriesNumber": "73980",
           "sourceUrl": "https://funko.com/pop-yuji-itadori-with-divergent-fists-glow/73980.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw116722f1/images/funko/upload/73980_JJK_ItadoriDivFistGW_POP_noGW_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 73980"
+          "description": "Funko item 73980",
+          "upc": "889698739801",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/jujutsu-kaisen-yuji-itadori-divergent-fist-glowinthe-dark-funko-pop-vinyl-figure-1376-aaa-anime-exclusive/aa73980w",
+          "barcodeVerification": "Explicit retail product UPC matches exact release; UPC-A check digit verified"
         }
       ]
     },
@@ -527,7 +531,11 @@
           "seriesNumber": "43461",
           "sourceUrl": "https://funko.com/pop-hello-kitty-classic/43461.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw627b5622/images/funko/43461-1.png?sh=800&sw=800",
-          "description": "Funko item 43461; box 28"
+          "description": "Funko item 43461; box 28",
+          "upc": "889698434614",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://barcodeindex.com/upc/889698434614",
+          "barcodeVerification": "Explicit retail product UPC matches exact release; UPC-A check digit verified"
         },
         {
           "name": "Hello Kitty in Kimono",
