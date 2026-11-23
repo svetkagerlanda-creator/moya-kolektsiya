@@ -186,6 +186,8 @@ def main():
     DIAGNOSTICS.write_text(json.dumps({"indexed":len(unique),"selected":len(selected),"verified":len(series),
         "items":sum(x["count"] for x in series),
         "photos":sum(sum(bool(c.get("photo")) for c in x["items"]) for x in series),
+        "missingIndividualPhotos":sum(sum(not bool(c.get("photo")) for c in x["items"]) for x in series),
+        "partialSeries":sum(x.get("completeness")!="verified-full-series" for x in series),
         "remainingUnscanned":len([e for e in unique if e["source"] not in past]),
         "errors":errors},ensure_ascii=False,indent=2)+"\n",encoding="utf8")
     print("HISTORICAL",len(series),"series",sum(x["count"] for x in series),"items",
