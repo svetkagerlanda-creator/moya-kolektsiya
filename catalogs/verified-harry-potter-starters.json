@@ -16,8 +16,10 @@
           "manufacturer": "Spin Master",
           "figureNumber": "",
           "sourceUrl": "https://www.spinmaster.com/en-US/brands/harrypotter/wizarding-world-micro-magical-moments-harry-ron-and-hedwig-figure-set",
-          "photo": "",
-          "description": "Official product listing verified; exact individual photo pending."
+          "photo": "https://images.salsify.com/image/upload/s--hF6XNLOW--/c_limit,w_800,f_auto,q_auto/q54ffdivuygudj3phyot.jpg",
+          "description": "Official product listing verified; exact individual photo pending.",
+          "photoCredit": "Official manufacturer product gallery",
+          "photoStatus": "exact-product-gallery"
         },
         {
           "name": "Harry, Hagrid & Dudley — 3-Figure Set",
@@ -44,8 +46,10 @@
           "manufacturer": "Spin Master",
           "figureNumber": "",
           "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-micro-magical-moments-year-4-collectible-figure-set",
-          "photo": "",
-          "description": "Official product listing verified; exact individual photo pending."
+          "photo": "https://images.salsify.com/image/upload/s--2N5SSx1N--/c_limit,w_800,f_auto,q_auto/sld7qe7xoyfu8n5hxmgf.jpg",
+          "description": "Official product listing verified; exact individual photo pending.",
+          "photoCredit": "Official manufacturer product gallery",
+          "photoStatus": "exact-product-gallery"
         }
       ]
     },
@@ -84,16 +88,20 @@
           "manufacturer": "Funko",
           "figureNumber": "85533",
           "sourceUrl": "https://funko.com/bitty-pop-bitty-box-hogwarts-castle/85533.html",
-          "photo": "",
-          "description": "Official product listing verified; exact individual photo pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw8de231f2/images/funko/upload/85533a_HP_HogwartsCastle_BittyBox_Open_Glam-WEB.png?sh=800&sw=800",
+          "description": "Official product listing verified; exact individual photo pending.",
+          "photoCredit": "Official manufacturer product gallery",
+          "photoStatus": "exact-product-gallery"
         },
         {
           "name": "Bitty POP! Bitty Box — Hogwarts Castle (85533a)",
           "manufacturer": "Funko",
           "figureNumber": "85533a",
           "sourceUrl": "https://funko.com/bitty-pop-bitty-box-hogwarts-castle/85533a.html",
-          "photo": "",
-          "description": "Official product listing verified; exact individual photo pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw8de231f2/images/funko/upload/85533a_HP_HogwartsCastle_BittyBox_Open_Glam-WEB.png?sh=800&sw=800",
+          "description": "Official product listing verified; exact individual photo pending.",
+          "photoCredit": "Official manufacturer product gallery",
+          "photoStatus": "exact-product-gallery"
         }
       ]
     },
@@ -112,8 +120,32 @@
           "manufacturer": "Funko",
           "figureNumber": "81294",
           "sourceUrl": "https://funko.com/bitty-pop-display-hogwarts-castle/81294.html",
-          "photo": "",
-          "description": "Official product listing verified; exact individual photo pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw2c5466f2/images/funko/upload/81294_Bitty_POP_DSPLY_Hogwarts_Castle_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Official product listing verified; exact individual photo pending.",
+          "photoCredit": "Official manufacturer product gallery",
+          "photoStatus": "exact-product-gallery"
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Spin Master · Micro Magical Moments · Year 3",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Spin Master",
+      "manufacturer": "Spin Master",
+      "source": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-figure-set-with-harry-stag-patronus-dementor-and-display-case-kids-toys-for-ages-6-and-up",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Harry, Stag Patronus & Dementor — 3-Figure Set",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-figure-set-with-harry-stag-patronus-dementor-and-display-case-kids-toys-for-ages-6-and-up",
+          "photo": "https://images.salsify.com/image/upload/s--GATUVPsq--/c_limit,w_800,f_auto,q_auto/kavmtlrqgscyadmqt24a.jpg",
+          "photoCredit": "Spin Master official product gallery",
+          "photoStatus": "official-gallery-image-url",
+          "description": "Official Year 3 set with Harry Potter, Stag Patronus and Dementor."
         }
       ]
     }
