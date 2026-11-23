@@ -54,8 +54,38 @@ const properNames=[
  [/\bminico\b/i,'MiniCo'],[/\bbitty pop\b/i,'Bitty POP'],[/\bbuild.a.bear\b/i,'Build-A-Bear'],[/\bmy little pony\b|\bmlp\b/i,'My Little Pony'],
  [/\bdisney\b/i,'Disney'],[/\bty\b/i,'Ty'],[/\bkayou\b/i,'Kayou'],[/\bmonster ball\b/i,'Monster Ball'],[/\bmystery minis\b/i,'Mystery Minis']
 ];
+
+// Public-facing release notes only: every feature entry must have a specific, localized explanation.
+// Maintenance-only commits and unrecognized changes stay out of the feature feed.
+const featureNotes=[
+ [/^Release beta\.62 with mobile menu/i,['Оновлено мобільну навігацію: внизу чотири кнопки — «Головна», «Колекції», «Акаунт» і «Меню».','Updated mobile navigation: Home, Collections, Account and Menu now have four fixed bottom buttons.','Обновлена мобильная навигация: внизу четыре кнопки — «Главная», «Коллекции», «Аккаунт» и «Меню».']],
+ [/^Group photo and series moderation in admin subtabs/i,['У «Модерації» створено окремі перемикачі «Серії» та «Фотографії».','Added separate Series and Photos sections inside admin Moderation.','В «Модерации» добавлены отдельные разделы «Серии» и «Фотографии».']],
+ [/^Move series moderation into admin page/i,['Для телефонів додано висувне меню з бажанками, пошуком, статистикою, оновленнями, налаштуваннями та модерацією для адміністраторів.','Added a mobile menu drawer for Wishlist, Search, Statistics, Updates, Settings and admin-only Moderation.','Добавлено мобильное меню с желаниями, поиском, статистикой, обновлениями, настройками и модерацией для администраторов.']],
+ [/^Provide series request moderation queue in admin section/i,['У розділі «Модерація» додано чергу заявок на відсутні серії: перегляд, фільтри, рішення та коментар модератора.','Added an admin queue for missing-series requests with filters, decisions and moderator comments.','В разделе «Модерация» добавлена очередь заявок на отсутствующие серии с фильтрами, решениями и комментариями.']],
+ [/^Keep series-request chat tab focused on member submissions/i,['У вкладці «Додати серію» залишено форму пропозиції та статуси власних заявок. Кнопки модерації перенесено до адміністратора.','The Add Series tab now shows submission forms and personal request statuses; review controls moved to admin Moderation.','Во вкладке «Добавить серию» оставлены форма и статусы своих заявок; управление перенесено в «Модерацию».']],
+ [/^Localize update feed into UI language/i,['Оновлення відображаються українською, англійською або російською відповідно до мови інтерфейсу; прибрано технічні повідомлення та зовнішні посилання.','Update entries now follow the selected Ukrainian, English or Russian interface language; technical messages and external links are hidden.','Обновления показываются на языке интерфейса: украинском, английском или русском. Технические сообщения и внешние ссылки скрыты.']],
+ [/^Add Updates navigation and dated Features\/Catalog panels/i,['У головному меню з’явився розділ «Оновлення» з окремою історією змін функцій та поповнень каталогу.','Added an Updates page with separate dated feeds for app features and catalog additions.','В главном меню появился раздел «Обновления» с раздельной историей функций и пополнений каталога.']],
+ [/^Add dated public updates feed separated/i,['Для історії оновлень додано пошук, фільтри та перегляд старіших записів за датами.','Added search, category filters and older-entry loading to update history.','Для истории обновлений добавлены поиск, фильтры и просмотр старых записей по датам.']],
+ [/^Add series request tab with moderator review/i,['У чатах додано вкладку «Додати серію»: колекціонери можуть запропонувати відсутню серію й відстежувати її статус кольором.','Added an Add Series chat tab: collectors can suggest missing series and track color-coded request statuses.','В чатах добавлена вкладка «Добавить серию»: коллекционеры могут предлагать серии и отслеживать статусы по цвету.']],
+ [/^Fix request tab stylesheet and restore request view loading/i,['Виправлено оформлення та завантаження списку заявок у вкладці «Додати серію».','Fixed the design and loading of the Add Series request list.','Исправлены оформление и загрузка списка заявок во вкладке «Добавить серию».']],
+ [/^Refresh community chat asset for series request tab/i,['Оновлено завантаження чату, щоб вкладка «Додати серію» відображалася після оновлення застосунку.','Refreshed chat loading so the Add Series tab appears after an app update.','Обновлена загрузка чата, чтобы вкладка «Добавить серию» появлялась после обновления приложения.']],
+ [/^Fix new-user avatar uploads/i,['Виправлено завантаження аватарів нових користувачів: фото зменшується перед збереженням профілю.','Fixed avatar uploads for new accounts by resizing photos before saving profiles.','Исправлена загрузка аватаров новых пользователей: фото уменьшается перед сохранением профиля.']],
+ [/^Preserve selected avatar across account rerenders/i,['Вибраний аватар більше не має зникати під час оновлення форми; додано повідомлення про вибраний файл.','Preserved the chosen avatar while the account view refreshes and added file-selection feedback.','Выбранный аватар сохраняется при обновлении формы; добавлено уведомление о выбранном файле.']],
+ [/^Clear avatar draft on profile edit cancel/i,['Скасування редагування профілю очищає незбережений аватар.','Canceling profile editing now clears an unsaved avatar selection.','Отмена редактирования профиля очищает несохранённый аватар.']],
+ [/^fix: prevent private user profile avatar overlapping back button/i,['Виправлено розташування аватара у приватному профілі: він не перекриває кнопку повернення.','Fixed private-profile layout so the avatar no longer overlaps the Back button.','Исправлено расположение аватара приватного профиля: он больше не перекрывает кнопку «Назад».']],
+ [/^ui: show sign-out only at bottom of own profile/i,['Кнопка «Вийти» тепер розташована лише внизу власного профілю, а не в інших розділах акаунта.','Moved Sign Out to the bottom of your own profile only.','Кнопка «Выйти» теперь находится только внизу собственного профиля.']],
+ [/^feat: add separate admin-only Moderation primary navigation tab/i,['Для адміністраторів додано окрему вкладку «Модерація» в головному меню.','Added an admin-only Moderation item to the main navigation.','Для администраторов добавлена отдельная вкладка «Модерация» в главном меню.']],
+ [/^fix\(android\): read selected item photo immediately/i,['Виправлено вибір фото предмета на Android: вибране зображення зчитується одразу, а повторна спроба не потребує відкриття галереї.','Fixed Android photo selection: selected item images load immediately, with retry support.','Исправлен выбор фото предмета на Android: изображение считывается сразу и поддерживается повторная попытка.']],
+ [/^Apply verified photo supplement when loading large fandom catalog/i,['У великих каталогах фандомів перевірені доповнення фотографій підвантажуються без зміни основного файлу каталогу.','Verified photo supplements can now load into large fandom catalogs without altering the original catalog file.','В больших каталогах фандомов проверенные дополнения фото подгружаются без изменения исходного файла.']]
+];
+function specificFeature(original,language){
+ const rule=featureNotes.find(([re])=>re.test(original));
+ return rule?rule[1][language==='en'?1:language==='ru'?2:0]:null;
+}
+
 function translatedTitle(entry){
  const l=lang();
+ if(entry.section==='features')return specificFeature(entry.original,l);
  const explicit=[
   [/^Add series request tab with moderator review/i,{uk:'Додано вкладку «Додати серію» з модерацією та кольоровими статусами',en:'Added the “Add series” tab with moderation and color-coded statuses',ru:'Добавлена вкладка «Добавить серию» с модерацией и цветными статусами'}],
   [/^Fix request tab stylesheet and restore request view loading/i,{uk:'Виправлено оформлення й завантаження заявок на серії',en:'Fixed series-request styling and loading',ru:'Исправлено оформление и загрузка заявок на серии'}],
@@ -114,7 +144,8 @@ async function load(reset=false){
   const next=data.map(c=>{
    const original=String(c.commit?.message||'').split('\n')[0],classification=category(original),sha=String(c.sha||'');
    if(!classification||!/^[a-f0-9]{40}$/i.test(sha)||!c.commit?.committer?.date&&!c.commit?.author?.date)return null;
-   return {...classification,original,sha,date:c.commit?.committer?.date||c.commit?.author?.date};
+   if(classification.section==='features'&&!specificFeature(original,'uk'))return null;
+  return {...classification,original,sha,date:c.commit?.committer?.date||c.commit?.author?.date};
   }).filter(Boolean);
   const old=new Set(st.rows.map(x=>x.sha));
   st.rows.push(...next.filter(x=>!old.has(x.sha)));
