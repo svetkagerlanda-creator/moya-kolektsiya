@@ -152,7 +152,11 @@
           "seriesNumber": "37248",
           "sourceUrl": "https://funko.com/pop-batman-1989/37248.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw145915df/images/funko/37248-1.png?sh=800&sw=800",
-          "description": "Funko POP! item 37248; box #275"
+          "description": "Funko POP! item 37248; box #275",
+          "upc": "889698372480",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.shopforgeek.com/en/DC-COMICS-POP-N-275-BATMAN-1989-MOVIE-172127.html",
+          "barcodeVerification": "Product and POP box number explicitly paired with UPC in cited catalog; checksum verified"
         },
         {
           "name": "Batman (DC New Classics)",
@@ -206,7 +210,11 @@
           "seriesNumber": "52343",
           "sourceUrl": "https://funko.com/pop-frodo-with-orc-helmet/52343.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1758e312/images/funko/upload/52343_LOTR_FrodoWithOrcHelmet_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko POP! item 52343; box #1565"
+          "description": "Funko POP! item 52343; box #1565",
+          "upc": "889698523431",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.pricecharting.com/game/funko-pop-movies/frodo-with-orc-helmet-1565",
+          "barcodeVerification": "Product and POP box number explicitly paired with UPC in cited catalog; checksum verified"
         }
       ]
     },
@@ -230,7 +238,11 @@
           "seriesNumber": "64795",
           "sourceUrl": "https://funko.com/pop-player-456/64795.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw3dd3b821/images/funko/64795-1.png?sh=800&sw=800",
-          "description": "Funko POP! item 64795; box #1222"
+          "description": "Funko POP! item 64795; box #1222",
+          "upc": "889698647953",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.pricecharting.com/game/funko-pop-television/player-456-seong-gi-hun-1222",
+          "barcodeVerification": "Product and POP box number explicitly paired with UPC in cited catalog; checksum verified"
         },
         {
           "name": "Player 199 (Ali)",
@@ -241,7 +253,11 @@
           "seriesNumber": "64794",
           "sourceUrl": "https://funko.com/pop-player-199/64794.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw7eea694c/images/funko/64794-1.png?sh=800&sw=800",
-          "description": "Funko POP! item 64794; box #1221"
+          "description": "Funko POP! item 64794; box #1221",
+          "upc": "889698647946",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.pricecharting.com/ru/game/funko-pop-television/player-199-ali-1221",
+          "barcodeVerification": "Product and POP box number explicitly paired with UPC in cited catalog; checksum verified"
         }
       ]
     }
