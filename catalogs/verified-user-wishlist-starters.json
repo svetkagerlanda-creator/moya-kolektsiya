@@ -141,10 +141,13 @@
           "character": "The Lovers",
           "catalogPosition": "09",
           "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|The Lovers",
-          "sourceUrl": "https://pokkii.com/products/sleep-fairyland-elves-series-blind-box-figure-52toys",
-          "photo": "",
+          "sourceUrl": "https://myanimeshelf.com/figures/2884900_Sleep_Fairyland_Elves_Blind_Box%3A_The_Lovers",
+          "photo": "https://tokenstoy.com/cdn/shop/products/ScreenShot2023-03-09at12.51.29PM_1800x1800.png?v=1678405043",
           "rarity": "Regular",
-          "description": "Підтверджений варіант у переліку продавця POKKII. Індивідуальне фото не підтверджене; випадкову коробку не прирівнювати до цього персонажа."
+          "description": "Підтверджений варіант у переліку продавця POKKII. Індивідуальне фото не підтверджене; випадкову коробку не прирівнювати до цього персонажа.",
+          "photoCredit": "Tokens Toy 52TOYS Fairyland Elves product gallery — image labeled The Lovers",
+          "photoStatus": "individual-variant-branded-image",
+          "photoSourceUrl": "https://tokenstoy.com/products/52-toys-sleep-fairyland-elves"
         },
         {
           "name": "The Wheel of Fortune",
