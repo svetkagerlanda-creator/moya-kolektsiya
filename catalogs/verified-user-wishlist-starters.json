@@ -1823,7 +1823,12 @@
           "variantKey": "52TOYS|52TOYS · Sleep Dreamland Elves · Life of Fantasies|Aurora Lsle",
           "sourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-aurora-lsle",
           "rarity": "Secret",
-          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки.",
+          "photo": "https://toysez.com/cdn/shop/files/2_591b3283-e437-4d5b-82c4-1b9d106930a3_1200x.jpg?v=1713871143",
+          "photoSourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-super-secret-aurora-lsle",
+          "photoCredit": "TOYSEZ — named super secret Aurora Lsle model photo",
+          "photoStatus": "named-retailer-image-url-not-http-verified",
+          "photoVerificationNote": "Named retailer listing and image link extracted; actual image response not independently verified"
         },
         {
           "name": "Hibernation",
