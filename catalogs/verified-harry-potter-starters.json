@@ -2807,8 +2807,12 @@
           "seriesNumber": "83655",
           "catalogPosition": "1",
           "sourceUrl": "https://funko.com/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-2/83655.html",
-          "photo": "",
-          "description": "Official Funko lineup; individual photo awaiting exact verification."
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw31dbc52a/images/funko/upload/83655a_Hermione-Granger_Casing_Glam-1-WEB.png",
+          "description": "Official Funko lineup; individual photo awaiting exact verification.",
+          "photoSourceUrl": "https://funko.com/nl/bitty-pop-harry-potter-and-the-goblet-of-fire-hermione-granger/83655a.html",
+          "photoCredit": "Funko official individual Hermione Granger 83655a product image",
+          "photoStatus": "official-individual-image-opened",
+          "photoVerificationNote": "Official figure image verified via Funko manufacturer full-size download; figure shown inside its acrylic display/retail casing."
         },
         {
           "name": "Viktor Krum (Yule Ball)",
@@ -5239,45 +5243,70 @@
           "manufacturer": "Funko",
           "figureNumber": "",
           "sourceUrl": "https://funko.com/es/bitty-pop-harry-potter-and-the-goblet-of-fire-12-pack/85699.html",
-          "photo": "",
+          "photo": "https://img.collexstash.com/104b35b5-0fd1-4c4e-acd0-017f24341b87/items/harry-potter-yule-ball.webp?v=1794831610274",
           "description": "Confirmed possible blind-pack outcome in official Funko assortment. No per-variant product number, UPC, or image has been verified.",
-          "rarity": "1/8"
+          "rarity": "1/8",
+          "photoSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-bitty-pop-goblet-of-fire/harry-potter-yule-ball",
+          "photoCredit": "ColleX — individual confirmed Goblet of Fire figure",
+          "photoStatus": "confirmed-same-figure-reused-from-4pack",
+          "photoVerificationNote": "Same Yule Ball figure appears as revealed variant in 85699 mystery single pack; photo illustrates the character, not a specific sealed bag. Viewed actual image from figure-specific ColleX page and matched clothing/character, not a box or group image.",
+          "barcodeNote": "Mystery box/assortment code cannot identify the specific figure in a sealed bag."
         },
         {
           "name": "Mystery variant — Cho Chang (Yule Ball)",
           "manufacturer": "Funko",
           "figureNumber": "",
           "sourceUrl": "https://funko.com/es/bitty-pop-harry-potter-and-the-goblet-of-fire-12-pack/85699.html",
-          "photo": "",
+          "photo": "https://img.collexstash.com/104b35b5-0fd1-4c4e-acd0-017f24341b87/items/cho-chang-yule-ball.webp?v=1794831610274",
           "description": "Confirmed possible blind-pack outcome in official Funko assortment. No per-variant product number, UPC, or image has been verified.",
-          "rarity": "3/32"
+          "rarity": "3/32",
+          "photoSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-bitty-pop-goblet-of-fire/cho-chang-yule-ball",
+          "photoCredit": "ColleX — individual confirmed Goblet of Fire figure",
+          "photoStatus": "confirmed-same-figure-reused-from-4pack",
+          "photoVerificationNote": "Same Yule Ball figure appears as revealed variant in 85699 mystery single pack; photo illustrates the character, not a specific sealed bag. Viewed actual image from figure-specific ColleX page and matched clothing/character, not a box or group image.",
+          "barcodeNote": "Mystery box/assortment code cannot identify the specific figure in a sealed bag."
         },
         {
           "name": "Mystery variant — Parvati Patil (Yule Ball)",
           "manufacturer": "Funko",
           "figureNumber": "",
           "sourceUrl": "https://funko.com/es/bitty-pop-harry-potter-and-the-goblet-of-fire-12-pack/85699.html",
-          "photo": "",
+          "photo": "https://img.collexstash.com/104b35b5-0fd1-4c4e-acd0-017f24341b87/items/parvati-patil-yule-ball.webp?v=1792450091067",
           "description": "Confirmed possible blind-pack outcome in official Funko assortment. No per-variant product number, UPC, or image has been verified.",
-          "rarity": "1/32"
+          "rarity": "1/32",
+          "photoSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-bitty-pop-goblet-of-fire/parvati-patil-yule-ball",
+          "photoCredit": "ColleX — individual confirmed Goblet of Fire figure",
+          "photoStatus": "confirmed-same-figure-reused-from-4pack",
+          "photoVerificationNote": "Same Yule Ball figure appears as revealed variant in 85699 mystery single pack; photo illustrates the character, not a specific sealed bag. Viewed actual image from figure-specific ColleX page and matched clothing/character, not a box or group image.",
+          "barcodeNote": "Mystery box/assortment code cannot identify the specific figure in a sealed bag."
         },
         {
           "name": "Mystery variant — Hermione Granger (Yule Ball)",
           "manufacturer": "Funko",
           "figureNumber": "",
           "sourceUrl": "https://funko.com/es/bitty-pop-harry-potter-and-the-goblet-of-fire-12-pack/85699.html",
-          "photo": "",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw31dbc52a/images/funko/upload/83655a_Hermione-Granger_Casing_Glam-1-WEB.png",
           "description": "Confirmed possible blind-pack outcome in official Funko assortment. No per-variant product number, UPC, or image has been verified.",
-          "rarity": "1/8"
+          "rarity": "1/8",
+          "photoSourceUrl": "https://funko.com/nl/bitty-pop-harry-potter-and-the-goblet-of-fire-hermione-granger/83655a.html",
+          "photoCredit": "Funko official individual Hermione Granger 83655a product image",
+          "photoStatus": "confirmed-same-figure-reused-from-4pack",
+          "photoVerificationNote": "Same Yule Ball figure appears as revealed variant in 85699 mystery single pack; photo illustrates the character, not a specific sealed bag. Official figure image verified via Funko manufacturer full-size download; figure shown inside its acrylic display/retail casing.",
+          "barcodeNote": "Mystery box/assortment code cannot identify the specific figure in a sealed bag."
         },
         {
           "name": "Mystery variant — Viktor Krum (Yule Ball)",
           "manufacturer": "Funko",
           "figureNumber": "",
           "sourceUrl": "https://funko.com/es/bitty-pop-harry-potter-and-the-goblet-of-fire-12-pack/85699.html",
-          "photo": "",
+          "photo": "https://img.collexstash.com/104b35b5-0fd1-4c4e-acd0-017f24341b87/items/viktor-krum-yule-ball.webp?v=1792450091067",
           "description": "Confirmed possible blind-pack outcome in official Funko assortment. No per-variant product number, UPC, or image has been verified.",
-          "rarity": "3/32"
+          "rarity": "3/32",
+          "photoSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-bitty-pop-goblet-of-fire/viktor-krum-yule-ball",
+          "photoCredit": "ColleX — individual confirmed Goblet of Fire figure",
+          "photoStatus": "confirmed-same-figure-reused-from-4pack",
+          "photoVerificationNote": "Same Yule Ball figure appears as revealed variant in 85699 mystery single pack; photo illustrates the character, not a specific sealed bag. Viewed actual image from figure-specific ColleX page and matched clothing/character, not a box or group image.",
+          "barcodeNote": "Mystery box/assortment code cannot identify the specific figure in a sealed bag."
         },
         {
           "name": "Mystery variant — Ginny Weasley Gold (Yule Ball)",
@@ -5293,54 +5322,84 @@
           "manufacturer": "Funko",
           "figureNumber": "",
           "sourceUrl": "https://funko.com/es/bitty-pop-harry-potter-and-the-goblet-of-fire-12-pack/85699.html",
-          "photo": "",
+          "photo": "https://img.collexstash.com/104b35b5-0fd1-4c4e-acd0-017f24341b87/items/ron-weasley-yule-ball.webp?v=1792450091067",
           "description": "Confirmed possible blind-pack outcome in official Funko assortment. No per-variant product number, UPC, or image has been verified.",
-          "rarity": "1/8"
+          "rarity": "1/8",
+          "photoSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-bitty-pop-goblet-of-fire/ron-weasley-yule-ball",
+          "photoCredit": "ColleX — individual confirmed Goblet of Fire figure",
+          "photoStatus": "confirmed-same-figure-reused-from-4pack",
+          "photoVerificationNote": "Same Yule Ball figure appears as revealed variant in 85699 mystery single pack; photo illustrates the character, not a specific sealed bag. Viewed actual image from figure-specific ColleX page and matched clothing/character, not a box or group image.",
+          "barcodeNote": "Mystery box/assortment code cannot identify the specific figure in a sealed bag."
         },
         {
           "name": "Mystery variant — Padma Patil (Yule Ball)",
           "manufacturer": "Funko",
           "figureNumber": "",
           "sourceUrl": "https://funko.com/es/bitty-pop-harry-potter-and-the-goblet-of-fire-12-pack/85699.html",
-          "photo": "",
+          "photo": "https://img.collexstash.com/104b35b5-0fd1-4c4e-acd0-017f24341b87/items/padma-patil-yule-ball.webp?v=1792450091067",
           "description": "Confirmed possible blind-pack outcome in official Funko assortment. No per-variant product number, UPC, or image has been verified.",
-          "rarity": "1/16"
+          "rarity": "1/16",
+          "photoSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-bitty-pop-goblet-of-fire/padma-patil-yule-ball",
+          "photoCredit": "ColleX — individual confirmed Goblet of Fire figure",
+          "photoStatus": "confirmed-same-figure-reused-from-4pack",
+          "photoVerificationNote": "Same Yule Ball figure appears as revealed variant in 85699 mystery single pack; photo illustrates the character, not a specific sealed bag. Viewed actual image from figure-specific ColleX page and matched clothing/character, not a box or group image.",
+          "barcodeNote": "Mystery box/assortment code cannot identify the specific figure in a sealed bag."
         },
         {
           "name": "Mystery variant — Madame Maxime (Yule Ball)",
           "manufacturer": "Funko",
           "figureNumber": "",
           "sourceUrl": "https://funko.com/es/bitty-pop-harry-potter-and-the-goblet-of-fire-12-pack/85699.html",
-          "photo": "",
+          "photo": "https://img.collexstash.com/104b35b5-0fd1-4c4e-acd0-017f24341b87/items/madame-maxime-yule-ball.webp?v=1792450091067",
           "description": "Confirmed possible blind-pack outcome in official Funko assortment. No per-variant product number, UPC, or image has been verified.",
-          "rarity": "1/16"
+          "rarity": "1/16",
+          "photoSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-bitty-pop-goblet-of-fire/madame-maxime-yule-ball",
+          "photoCredit": "ColleX — individual confirmed Goblet of Fire figure",
+          "photoStatus": "confirmed-same-figure-reused-from-4pack",
+          "photoVerificationNote": "Same Yule Ball figure appears as revealed variant in 85699 mystery single pack; photo illustrates the character, not a specific sealed bag. Viewed actual image from figure-specific ColleX page and matched clothing/character, not a box or group image.",
+          "barcodeNote": "Mystery box/assortment code cannot identify the specific figure in a sealed bag."
         },
         {
           "name": "Mystery variant — Rubeus Hagrid (Yule Ball)",
           "manufacturer": "Funko",
           "figureNumber": "",
           "sourceUrl": "https://funko.com/es/bitty-pop-harry-potter-and-the-goblet-of-fire-12-pack/85699.html",
-          "photo": "",
+          "photo": "https://img.collexstash.com/104b35b5-0fd1-4c4e-acd0-017f24341b87/items/rubeus-hagrid-yule-ball.webp?v=1792450091067",
           "description": "Confirmed possible blind-pack outcome in official Funko assortment. No per-variant product number, UPC, or image has been verified.",
-          "rarity": "3/32"
+          "rarity": "3/32",
+          "photoSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-bitty-pop-goblet-of-fire/rubeus-hagrid-yule-ball",
+          "photoCredit": "ColleX individual Goblet of Fire figure gallery",
+          "photoStatus": "confirmed-same-figure-reused-from-4pack",
+          "photoVerificationNote": "Same Yule Ball figure appears as revealed variant in 85699 mystery single pack; photo illustrates the character, not a specific sealed bag. Image was opened and inspected; mystery variants depicted in Funko single figure box rather than bare figurine.",
+          "barcodeNote": "Mystery box/assortment code cannot identify the specific figure in a sealed bag."
         },
         {
           "name": "Mystery variant — Fleur Delacour (Yule Ball)",
           "manufacturer": "Funko",
           "figureNumber": "",
           "sourceUrl": "https://funko.com/es/bitty-pop-harry-potter-and-the-goblet-of-fire-12-pack/85699.html",
-          "photo": "",
+          "photo": "https://img.collexstash.com/104b35b5-0fd1-4c4e-acd0-017f24341b87/items/fleur-delacour-yule-ball.webp?v=1792450091067",
           "description": "Confirmed possible blind-pack outcome in official Funko assortment. No per-variant product number, UPC, or image has been verified.",
-          "rarity": "3/32"
+          "rarity": "3/32",
+          "photoSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-bitty-pop-goblet-of-fire/fleur-delacour-yule-ball",
+          "photoCredit": "ColleX individual Goblet of Fire figure gallery",
+          "photoStatus": "confirmed-same-figure-reused-from-4pack",
+          "photoVerificationNote": "Same Yule Ball figure appears as revealed variant in 85699 mystery single pack; photo illustrates the character, not a specific sealed bag. Image was opened and inspected; mystery variants depicted in Funko single figure box rather than bare figurine.",
+          "barcodeNote": "Mystery box/assortment code cannot identify the specific figure in a sealed bag."
         },
         {
           "name": "Mystery variant — Cedric Diggory (Yule Ball)",
           "manufacturer": "Funko",
           "figureNumber": "",
           "sourceUrl": "https://funko.com/es/bitty-pop-harry-potter-and-the-goblet-of-fire-12-pack/85699.html",
-          "photo": "",
+          "photo": "https://img.collexstash.com/104b35b5-0fd1-4c4e-acd0-017f24341b87/items/cedric-diggory-yule-ball.webp?v=1792450091067",
           "description": "Confirmed possible blind-pack outcome in official Funko assortment. No per-variant product number, UPC, or image has been verified.",
-          "rarity": "1/16"
+          "rarity": "1/16",
+          "photoSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-bitty-pop-goblet-of-fire/cedric-diggory-yule-ball",
+          "photoCredit": "ColleX individual Goblet of Fire figure gallery",
+          "photoStatus": "confirmed-same-figure-reused-from-4pack",
+          "photoVerificationNote": "Same Yule Ball figure appears as revealed variant in 85699 mystery single pack; photo illustrates the character, not a specific sealed bag. Image was opened and inspected; mystery variants depicted in Funko single figure box rather than bare figurine.",
+          "barcodeNote": "Mystery box/assortment code cannot identify the specific figure in a sealed bag."
         }
       ]
     },
