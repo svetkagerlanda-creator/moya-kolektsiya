@@ -413,14 +413,14 @@
       "count": 19
     },
     {
-      "name": "Ty · Beanie Bellies · 8-inch Selected Releases",
+      "name": "Ty · Beanie Bellies · Verified Selected Releases",
       "manufacturer": "Ty",
       "fandomKey": "ty",
       "group": "🧸 Ty · Beanie Bellies",
       "source": "https://www.ty.com/catalog/beanie-bellies/?lang=en",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "notes": "Official Ty product pages and product IDs; distinct sizes receive separate records. UPC blank unless verified by retailer.",
+      "notes": "Official Ty Beanie Bellies product SKUs, including distinct editions for repeated character names. Earlier 8-inch naming is historical; newer added editions may be different sizes and must be checked individually. UPC blank unless retailer confirmed.",
       "items": [
         {
           "name": "Loxie",
@@ -534,9 +534,109 @@
           "sourceUrl": "https://www.ty.com/product/lloyd/41282.html?cgid=beanie-bellies&lang=en",
           "photo": "",
           "description": "Beanie Bellies; distinct official Ty product SKU, not UPC. Verify edition and barcode against packaging."
+        },
+        {
+          "name": "Bumper",
+          "manufacturer": "Ty",
+          "figureNumber": "40595",
+          "variantKey": "ty:beanie-bellies:40595",
+          "sourceUrl": "https://www.ty.com/product/bumper/40595.html?cgid=beanie-bellies&lang=en",
+          "photo": "",
+          "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
+          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN."
+        },
+        {
+          "name": "Bumper",
+          "manufacturer": "Ty",
+          "figureNumber": "43205",
+          "variantKey": "ty:beanie-bellies:43205",
+          "sourceUrl": "https://www.ty.com/product/bumper/43205.html?cgid=beanie-bellies&lang=en",
+          "photo": "",
+          "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
+          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN."
+        },
+        {
+          "name": "Penelope",
+          "manufacturer": "Ty",
+          "figureNumber": "43202",
+          "variantKey": "ty:beanie-bellies:43202",
+          "sourceUrl": "https://www.ty.com/product/penelope/43202.html",
+          "photo": "",
+          "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
+          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN."
+        },
+        {
+          "name": "Heartly",
+          "manufacturer": "Ty",
+          "figureNumber": "41046",
+          "variantKey": "ty:beanie-bellies:41046",
+          "sourceUrl": "https://www.ty.com/product/heartly/41046.html",
+          "photo": "",
+          "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
+          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN."
+        },
+        {
+          "name": "Witt",
+          "manufacturer": "Ty",
+          "figureNumber": "41503",
+          "variantKey": "ty:beanie-bellies:41503",
+          "sourceUrl": "https://www.ty.com/product/witt/41503.html",
+          "photo": "",
+          "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
+          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN."
+        },
+        {
+          "name": "Randi",
+          "manufacturer": "Ty",
+          "figureNumber": "41290",
+          "variantKey": "ty:beanie-bellies:41290",
+          "sourceUrl": "https://www.ty.com/product/randi/41290.html",
+          "photo": "",
+          "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
+          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN."
+        },
+        {
+          "name": "Wilfred",
+          "manufacturer": "Ty",
+          "figureNumber": "40596",
+          "variantKey": "ty:beanie-bellies:40596",
+          "sourceUrl": "https://www.ty.com/product/wilfred/40596.html",
+          "photo": "",
+          "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
+          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN."
+        },
+        {
+          "name": "Emery",
+          "manufacturer": "Ty",
+          "figureNumber": "41042",
+          "variantKey": "ty:beanie-bellies:41042",
+          "sourceUrl": "https://www.ty.com/product/emery/41042.html",
+          "photo": "",
+          "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
+          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN."
+        },
+        {
+          "name": "Skylar",
+          "manufacturer": "Ty",
+          "figureNumber": "43210",
+          "variantKey": "ty:beanie-bellies:43210",
+          "sourceUrl": "https://www.ty.com/product/skylar/43210.html",
+          "photo": "",
+          "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
+          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN."
+        },
+        {
+          "name": "Witt",
+          "manufacturer": "Ty",
+          "figureNumber": "43214",
+          "variantKey": "ty:beanie-bellies:43214",
+          "sourceUrl": "https://www.ty.com/product/witt/43214.html",
+          "photo": "",
+          "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
+          "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN."
         }
       ],
-      "count": 8
+      "count": 18
     },
     {
       "name": "Ty · Squishy Beanies (Squish-a-Boos) · Selected Releases",
