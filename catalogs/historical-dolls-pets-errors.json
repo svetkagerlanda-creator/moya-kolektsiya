@@ -7,5 +7,37 @@
   "missingIndividualPhotos": 0,
   "partialSeries": 1,
   "remainingUnscanned": 0,
+  "byFandom": {
+    "bratz": {
+      "indexedSeries": 70,
+      "savedSeries": 70,
+      "savedItems": 399,
+      "unscannedSeries": [],
+      "partialSeries": []
+    },
+    "monsterhigh": {
+      "indexedSeries": 164,
+      "savedSeries": 164,
+      "savedItems": 1069,
+      "unscannedSeries": [],
+      "partialSeries": []
+    },
+    "everafterhigh": {
+      "indexedSeries": 41,
+      "savedSeries": 41,
+      "savedItems": 217,
+      "unscannedSeries": [],
+      "partialSeries": []
+    },
+    "lps": {
+      "indexedSeries": 147,
+      "savedSeries": 147,
+      "savedItems": 5786,
+      "unscannedSeries": [],
+      "partialSeries": [
+        "https://lpsmerch.com/g3/line/teensies/"
+      ]
+    }
+  },
   "errors": {}
 }
