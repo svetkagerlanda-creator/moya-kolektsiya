@@ -440,14 +440,18 @@
           "catalogPosition": "125449",
           "variantKey": "retailer:bi.ua:633163|sku:125449",
           "sourceUrl": "",
-          "photo": "",
+          "photo": "https://bi.ua/uploaded-images/products/size_650/633163_1.jpg",
           "retailPriceUAH": 899,
           "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
           "assortmentEan": "6958985016001",
           "assortmentBarcodeType": "EAN-13",
           "assortmentBarcodeSourceUrl": "https://ms-b2b-usa.com/products/40085016001",
           "assortmentBarcodeVerification": "Explicit product barcode for sealed single blind box; GS1 check digit verified",
-          "assortmentBarcodeNote": "Scan opens entire series; characters in blind boxes do not have separately verified UPCs."
+          "assortmentBarcodeNote": "Scan opens entire series; characters in blind boxes do not have separately verified UPCs.",
+          "photoSourceUrl": "https://bi.ua/ukr/brands/52toys/",
+          "photoCredit": "Будинок іграшок — головне зображення товару з кодом 633163",
+          "photoStatus": "retailer-sku-image-url-needs-live-validation",
+          "photoVerificationNote": "SKU matches retailer product listing on its brand page; image path follows retailer CDN convention, but HTTP response is not confirmed. Photo is for sealed random product, not individual blind-box figure."
         },
         {
           "name": "Ghostly Bouquet",
@@ -563,14 +567,18 @@
           "catalogPosition": "17ZI-0207",
           "variantKey": "retailer:bi.ua:636065|sku:17ZI-0207",
           "sourceUrl": "",
-          "photo": "",
+          "photo": "https://bi.ua/uploaded-images/products/size_650/636065_1.jpg",
           "retailPriceUAH": 1295,
           "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
           "assortmentEan": "6974773012444",
           "assortmentBarcodeType": "EAN-13",
           "assortmentBarcodeSourceUrl": "https://rozetka.com.ua/ua/pop-top-17zi-0207/p602591659/",
           "assortmentBarcodeVerification": "EAN explicitly shown in seller product specifications for exact boxed assortment; check digit validated",
-          "assortmentBarcodeNote": "EAN for one sealed random box, not the individual hidden design."
+          "assortmentBarcodeNote": "EAN for one sealed random box, not the individual hidden design.",
+          "photoSourceUrl": "https://bi.ua/ukr/brands/pop-top/",
+          "photoCredit": "Будинок іграшок — головне зображення товару з кодом 636065",
+          "photoStatus": "retailer-sku-image-url-needs-live-validation",
+          "photoVerificationNote": "SKU matches retailer product listing on its brand page; image path follows retailer CDN convention, but HTTP response is not confirmed. Photo is for sealed random product, not individual blind-box figure."
         }
       ],
       "assortmentEan": "6974773012444",
@@ -1216,14 +1224,18 @@
           "catalogPosition": "HWD51701",
           "variantKey": "retailer:bi.ua:637170|sku:HWD51701",
           "sourceUrl": "",
-          "photo": "",
+          "photo": "https://bi.ua/uploaded-images/products/size_650/637170_1.jpg",
           "retailPriceUAH": 1699,
           "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
           "assortmentEan": "6978571803426",
           "assortmentBarcodeType": "EAN-13",
           "assortmentBarcodeSourceUrl": "https://rozetka.com.ua/ua/10-10-toys-hwd51701/p597738739/",
           "assortmentBarcodeVerification": "EAN explicitly shown in seller product specifications for exact boxed assortment; check digit validated",
-          "assortmentBarcodeNote": "EAN for one sealed random box, not the individual hidden design."
+          "assortmentBarcodeNote": "EAN for one sealed random box, not the individual hidden design.",
+          "photoSourceUrl": "https://bi.ua/ukr/brands/1010-toys/",
+          "photoCredit": "Будинок іграшок — головне зображення товару з кодом 637170",
+          "photoStatus": "retailer-sku-image-url-needs-live-validation",
+          "photoVerificationNote": "SKU matches retailer product listing on its brand page; image path follows retailer CDN convention, but HTTP response is not confirmed. Photo is for sealed random product, not individual blind-box figure."
         }
       ],
       "assortmentEan": "6978571803426",
@@ -1251,14 +1263,18 @@
           "catalogPosition": "123929",
           "variantKey": "retailer:bi.ua:602436|sku:123929",
           "sourceUrl": "",
-          "photo": "",
+          "photo": "https://bi.ua/uploaded-images/products/size_650/602436_1.jpg",
           "retailPriceUAH": 649,
           "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
           "assortmentEan": "6958985021289",
           "assortmentBarcodeType": "EAN-13",
           "assortmentBarcodeSourceUrl": "https://www.matchatimegiftshop.com/blind-box-sleep-sea-elves.html",
           "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
-          "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
+          "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case.",
+          "photoSourceUrl": "https://bi.ua/ukr/brands/52toys/",
+          "photoCredit": "Будинок іграшок — головне зображення товару з кодом 602436",
+          "photoStatus": "retailer-sku-image-url-needs-live-validation",
+          "photoVerificationNote": "SKU matches retailer product listing on its brand page; image path follows retailer CDN convention, but HTTP response is not confirmed. Photo is for sealed random product, not individual blind-box figure."
         },
         {
           "name": "Seaweed",
@@ -2298,9 +2314,13 @@
           "catalogPosition": "MIR-1000",
           "variantKey": "retailer:bi.ua:623358|sku:MIR-1000",
           "sourceUrl": "",
-          "photo": "",
+          "photo": "https://bi.ua/uploaded-images/products/size_650/623358_1.jpg",
           "retailPriceUAH": 1799,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "photoSourceUrl": "https://bi.ua/ukr/brands/kids-team/",
+          "photoCredit": "Будинок іграшок — головне зображення товару з кодом 623358",
+          "photoStatus": "retailer-sku-image-url-needs-live-validation",
+          "photoVerificationNote": "SKU matches retailer product listing on its brand page; image path follows retailer CDN convention, but HTTP response is not confirmed. Photo is for sealed random product, not individual blind-box figure."
         }
       ]
     },
