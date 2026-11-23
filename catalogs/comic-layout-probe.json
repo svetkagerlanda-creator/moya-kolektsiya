@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "pages": [
+    {
+      "url": "https://data.mlpmerch.com/comics/series/friendship-is-magic/",
+      "counts": {
+        "span.data-smallt": 204,
+        "div.data-medium-xlong": 102,
+        "div.data-top": 102,
+        "div.data-bottom-comp": 102,
+        "span.data-amzn": 102,
+        "img.data-img.lazy": 90,
+        "img.data-img": 12,
+        "div.data-main": 1
+      },
+      "dataBottom": 0,
+      "dataTop": 102,
+      "images": 361,
+      "linksDetails": 0,
+      "samples": [
+        {
+          "tag": "div",
+          "class": "data-top",
+          "text": "",
+          "html": "<div class=\"data-top\"><a href=\"/comic-covers/issue/friendship-is-magic/1/\"><img alt=\"My Little Pony Friendship is Magic #1 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-Mrl0trUskWE/VKkeETDJ7pI/AAAAAAAAM5Q/YlZfkMYjlPA/s135/mlp-comic-1-cover-a.jpg\" title=\"My Little Pony Friendship is Magic #1 Comic\"/></a></div>"
+        },
+        {
+          "tag": "img",
+          "class": "data-img",
+          "text": "",
+          "html": "<img alt=\"My Little Pony Friendship is Magic #1 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-Mrl0trUskWE/VKkeETDJ7pI/AAAAAAAAM5Q/YlZfkMYjlPA/s135/mlp-comic-1-cover-a.jpg\" title=\"My Little Pony Friendship is Magic #1 Comic\"/>"
+        },
+        {
+          "tag": "div",
+          "class": "data-bottom-comp",
+          "text": "Friendship is Magic Issue #1 The Return of Queen Chrysalis W: Katie Cook A: Andy Price",
+          "html": "<div class=\"data-bottom-comp\"><b><a href=\"/comics/series/friendship-is-magic/\">Friendship is Magic</a> <a href=\"/comic-covers/issue/friendship-is-magic/1/\">Issue #1</a></b><br/><a href=\"/comics/story-arc/the-return-of-queen-chrysalis/\">The Return of Queen Chrysalis</a><span class=\"data-smallt\">W: <a href=\"/comics/writer/katie-cook/\">Katie Cook</a></span><span class=\"data-smallt\">A: <a href=\"/comics/artist/andy-price/\">Andy Price</a></span><span class=\"data-amzn\"> <a href=\"https://www.amazon.com/gp/product/B00GG2TNUE/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00GG2TNUE&amp;linkCode=as2&amp;tag=alabmlme-20&amp;linkId=3MWF2LSMJD26N6GV\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony Friendship is Magic #1 Comic on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+friendship+is+magic+1+comic&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4"
+        },
+        {
+          "tag": "div",
+          "class": "data-top",
+          "text": "",
+          "html": "<div class=\"data-top\"><a href=\"/comic-covers/issue/friendship-is-magic/2/\"><img alt=\"My Little Pony Friendship is Magic #2 Comic\" border=\"0\" class=\"data-img\" src=\"https://3.bp.blogspot.com/-BKZI6w_u2xg/VKkfrQpD-XI/AAAAAAAAM90/bG2hZpoMUM8/s135/mlp-comics-2-cover-a.jpg\" title=\"My Little Pony Friendship is Magic #2 Comic\"/></a></div>"
+        },
+        {
+          "tag": "img",
+          "class": "data-img",
+          "text": "",
+          "html": "<img alt=\"My Little Pony Friendship is Magic #2 Comic\" border=\"0\" class=\"data-img\" src=\"https://3.bp.blogspot.com/-BKZI6w_u2xg/VKkfrQpD-XI/AAAAAAAAM90/bG2hZpoMUM8/s135/mlp-comics-2-cover-a.jpg\" title=\"My Little Pony Friendship is Magic #2 Comic\"/>"
+        },
+        {
+          "tag": "div",
+          "class": "data-bottom-comp",
+          "text": "Friendship is Magic Issue #2 The Return of Queen Chrysalis W: Katie Cook A: Andy Price",
+          "html": "<div class=\"data-bottom-comp\"><b><a href=\"/comics/series/friendship-is-magic/\">Friendship is Magic</a> <a href=\"/comic-covers/issue/friendship-is-magic/2/\">Issue #2</a></b><br/><a href=\"/comics/story-arc/the-return-of-queen-chrysalis/\">The Return of Queen Chrysalis</a><span class=\"data-smallt\">W: <a href=\"/comics/writer/katie-cook/\">Katie Cook</a></span><span class=\"data-smallt\">A: <a href=\"/comics/artist/andy-price/\">Andy Price</a></span><span class=\"data-amzn\"> <a href=\"https://www.amazon.com/gp/product/B00GG2TOKI/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00GG2TOKI&amp;linkCode=as2&amp;tag=alabmlme-20&amp;linkId=EIL5TLHKKSM7ZFJN\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony Friendship is Magic #2 Comic on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+friendship+is+magic+2+comic&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4"
+        },
+        {
+          "tag": "div",
+          "class": "data-top",
+          "text": "",
+          "html": "<div class=\"data-top\"><a href=\"/comic-covers/issue/friendship-is-magic/3/\"><img alt=\"My Little Pony Friendship is Magic #3 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-KQcQhvK0HAk/VKkgZic2CaI/AAAAAAAAM_o/WiI2aznR9i4/s135/mlp-comic-3-cover-a.jpg\" title=\"My Little Pony Friendship is Magic #3 Comic\"/></a></div>"
+        },
+        {
+          "tag": "img",
+          "class": "data-img",
+          "text": "",
+          "html": "<img alt=\"My Little Pony Friendship is Magic #3 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-KQcQhvK0HAk/VKkgZic2CaI/AAAAAAAAM_o/WiI2aznR9i4/s135/mlp-comic-3-cover-a.jpg\" title=\"My Little Pony Friendship is Magic #3 Comic\"/>"
+        },
+        {
+          "tag": "div",
+          "class": "data-bottom-comp",
+          "text": "Friendship is Magic Issue #3 The Return of Queen Chrysalis W: Katie Cook A: Andy Price",
+          "html": "<div class=\"data-bottom-comp\"><b><a href=\"/comics/series/friendship-is-magic/\">Friendship is Magic</a> <a href=\"/comic-covers/issue/friendship-is-magic/3/\">Issue #3</a></b><br/><a href=\"/comics/story-arc/the-return-of-queen-chrysalis/\">The Return of Queen Chrysalis</a><span class=\"data-smallt\">W: <a href=\"/comics/writer/katie-cook/\">Katie Cook</a></span><span class=\"data-smallt\">A: <a href=\"/comics/artist/andy-price/\">Andy Price</a></span><span class=\"data-amzn\"> <a href=\"https://www.amazon.com/gp/product/B00GG2TOOE/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00GG2TOOE&amp;linkCode=as2&amp;tag=alabmlme-20&amp;linkId=ZNB64ZSKZG47RN6O\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony Friendship is Magic #3 Comic on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+friendship+is+magic+3+comic&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4"
+        },
+        {
+          "tag": "div",
+          "class": "data-top",
+          "text": "",
+          "html": "<div class=\"data-top\"><a href=\"/comic-covers/issue/friendship-is-magic/4/\"><img alt=\"My Little Pony Friendship is Magic #4 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-ZzxEcDc7ZPc/VKkhi_FHF4I/AAAAAAAANBA/hV_3qppX2bM/s135/mlp-comic-4-cover-a.jpg\" title=\"My Little Pony Friendship is Magic #4 Comic\"/></a></div>"
+        },
+        {
+          "tag": "img",
+          "class": "data-img",
+          "text": "",
+          "html": "<img alt=\"My Little Pony Friendship is Magic #4 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-ZzxEcDc7ZPc/VKkhi_FHF4I/AAAAAAAANBA/hV_3qppX2bM/s135/mlp-comic-4-cover-a.jpg\" title=\"My Little Pony Friendship is Magic #4 Comic\"/>"
+        },
+        {
+          "tag": "div",
+          "class": "data-bottom-comp",
+          "text": "Friendship is Magic Issue #4 The Return of Queen Chrysalis W: Katie Cook A: Andy Price",
+          "html": "<div class=\"data-bottom-comp\"><b><a href=\"/comics/series/friendship-is-magic/\">Friendship is Magic</a> <a href=\"/comic-covers/issue/friendship-is-magic/4/\">Issue #4</a></b><br/><a href=\"/comics/story-arc/the-return-of-queen-chrysalis/\">The Return of Queen Chrysalis</a><span class=\"data-smallt\">W: <a href=\"/comics/writer/katie-cook/\">Katie Cook</a></span><span class=\"data-smallt\">A: <a href=\"/comics/artist/andy-price/\">Andy Price</a></span><span class=\"data-amzn\"> <a href=\"https://www.amazon.com/gp/product/B00GG2TOSA/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00GG2TOSA&amp;linkCode=as2&amp;tag=alabmlme-20&amp;linkId=AGALREZH3QP737AS\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony Friendship is Magic #4 Comic on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+friendship+is+magic+4+comic&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4"
+        }
+      ]
+    },
+    {
+      "url": "https://data.mlpmerch.com/comics/series/micro-series/",
+      "counts": {
+        "span.data-smallt": 20,
+        "div.data-medium-xlong": 10,
+        "div.data-top": 10,
+        "img.data-img": 10,
+        "div.data-bottom-comp": 10,
+        "span.data-amzn": 10,
+        "div.data-main": 1
+      },
+      "dataBottom": 0,
+      "dataTop": 10,
+      "images": 85,
+      "linksDetails": 0,
+      "samples": [
+        {
+          "tag": "div",
+          "class": "data-top",
+          "text": "",
+          "html": "<div class=\"data-top\"><a href=\"/comic-covers/issue/micro-series/1/\"><img alt=\"My Little Pony Micro Series #1 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-PRAPxcayNj4/VKkvsSxRqFI/AAAAAAAANZo/66xlJzsqYn8/s135/mlp-comic-ms1-cover-a.jpg\" title=\"My Little Pony Micro Series #1 Comic\"/></a></div>"
+        },
+        {
+          "tag": "img",
+          "class": "data-img",
+          "text": "",
+          "html": "<img alt=\"My Little Pony Micro Series #1 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-PRAPxcayNj4/VKkvsSxRqFI/AAAAAAAANZo/66xlJzsqYn8/s135/mlp-comic-ms1-cover-a.jpg\" title=\"My Little Pony Micro Series #1 Comic\"/>"
+        },
+        {
+          "tag": "div",
+          "class": "data-bottom-comp",
+          "text": "Micro Series Issue #1 Twilight Sparkle W: Thom Zahler A: Thom Zahler",
+          "html": "<div class=\"data-bottom-comp\"><b><a href=\"/comics/series/micro-series/\">Micro Series</a> <a href=\"/comic-covers/issue/micro-series/1/\">Issue #1</a></b><br/><a href=\"/comics/story-arc/twilight-sparkle/\">Twilight Sparkle</a><span class=\"data-smallt\">W: <a href=\"/comics/writer/thom-zahler/\">Thom Zahler</a></span><span class=\"data-smallt\">A: <a href=\"/comics/artist/thom-zahler/\">Thom Zahler</a></span><span class=\"data-amzn\"> <a href=\"https://www.amazon.com/gp/product/B00GG2TPG6/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00GG2TPG6&amp;linkCode=as2&amp;tag=alabmlme-20&amp;linkId=KUHPUSBJPR4PPLFZ\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony Micro Series #1 Comic on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+micro+series+1+comic&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5GFxjWUd7"
+        },
+        {
+          "tag": "div",
+          "class": "data-top",
+          "text": "",
+          "html": "<div class=\"data-top\"><a href=\"/comic-covers/issue/micro-series/2/\"><img alt=\"My Little Pony Micro Series #2 Comic\" border=\"0\" class=\"data-img\" src=\"https://4.bp.blogspot.com/-xspZ2VZzw1E/VKkwbJN0V9I/AAAAAAAANcI/dLj-NgqHOG4/s135/mlp-comic-ms2-cover-a.jpg\" title=\"My Little Pony Micro Series #2 Comic\"/></a></div>"
+        },
+        {
+          "tag": "img",
+          "class": "data-img",
+          "text": "",
+          "html": "<img alt=\"My Little Pony Micro Series #2 Comic\" border=\"0\" class=\"data-img\" src=\"https://4.bp.blogspot.com/-xspZ2VZzw1E/VKkwbJN0V9I/AAAAAAAANcI/dLj-NgqHOG4/s135/mlp-comic-ms2-cover-a.jpg\" title=\"My Little Pony Micro Series #2 Comic\"/>"
+        },
+        {
+          "tag": "div",
+          "class": "data-bottom-comp",
+          "text": "Micro Series Issue #2 Rainbow Dash W: Ryan K. Lindsay A: Tony Fleecs",
+          "html": "<div class=\"data-bottom-comp\"><b><a href=\"/comics/series/micro-series/\">Micro Series</a> <a href=\"/comic-covers/issue/micro-series/2/\">Issue #2</a></b><br/><a href=\"/comics/story-arc/rainbow-dash/\">Rainbow Dash</a><span class=\"data-smallt\">W: <a href=\"/comics/writer/ryan-k.-lindsay/\">Ryan K. Lindsay</a></span><span class=\"data-smallt\">A: <a href=\"/comics/artist/tony-fleecs/\">Tony Fleecs</a></span><span class=\"data-amzn\"> <a href=\"https://www.amazon.com/gp/product/B00GG2TPSE/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00GG2TPSE&amp;linkCode=as2&amp;tag=alabmlme-20&amp;linkId=XUFNLH7KB3WZQVHG\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony Micro Series #2 Comic on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+micro+series+2+comic&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5GFxjWUd7"
+        },
+        {
+          "tag": "div",
+          "class": "data-top",
+          "text": "",
+          "html": "<div class=\"data-top\"><a href=\"/comic-covers/issue/micro-series/3/\"><img alt=\"My Little Pony Micro Series #3 Comic\" border=\"0\" class=\"data-img\" src=\"https://4.bp.blogspot.com/--FK2HHfJtLY/VKkwoJVtn3I/AAAAAAAANdQ/-qGtSH6GW1M/s135/mlp-comic-ms3-cover-a.jpg\" title=\"My Little Pony Micro Series #3 Comic\"/></a></div>"
+        },
+        {
+          "tag": "img",
+          "class": "data-img",
+          "text": "",
+          "html": "<img alt=\"My Little Pony Micro Series #3 Comic\" border=\"0\" class=\"data-img\" src=\"https://4.bp.blogspot.com/--FK2HHfJtLY/VKkwoJVtn3I/AAAAAAAANdQ/-qGtSH6GW1M/s135/mlp-comic-ms3-cover-a.jpg\" title=\"My Little Pony Micro Series #3 Comic\"/>"
+        },
+        {
+          "tag": "div",
+          "class": "data-bottom-comp",
+          "text": "Micro Series Issue #3 Rarity W: Katie Cook A: Andy Price",
+          "html": "<div class=\"data-bottom-comp\"><b><a href=\"/comics/series/micro-series/\">Micro Series</a> <a href=\"/comic-covers/issue/micro-series/3/\">Issue #3</a></b><br/><a href=\"/comics/story-arc/rarity/\">Rarity</a><span class=\"data-smallt\">W: <a href=\"/comics/writer/katie-cook/\">Katie Cook</a></span><span class=\"data-smallt\">A: <a href=\"/comics/artist/andy-price/\">Andy Price</a></span><span class=\"data-amzn\"> <a href=\"https://www.amazon.com/gp/product/B00GG2TQ3I/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00GG2TQ3I&amp;linkCode=as2&amp;tag=alabmlme-20&amp;linkId=DDOZD6N6FGTRS747\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony Micro Series #3 Comic on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+micro+series+3+comic&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5GFxjWUd7PgCLcB/s1600/ebay-button"
+        },
+        {
+          "tag": "div",
+          "class": "data-top",
+          "text": "",
+          "html": "<div class=\"data-top\"><a href=\"/comic-covers/issue/micro-series/4/\"><img alt=\"My Little Pony Micro Series #4 Comic\" border=\"0\" class=\"data-img\" src=\"https://4.bp.blogspot.com/-AGsRMTXoWDw/VKkwx-P4H5I/AAAAAAAANeQ/Ghju_Ajf064/s135/mlp-comic-ms4-cover-a.jpg\" title=\"My Little Pony Micro Series #4 Comic\"/></a></div>"
+        },
+        {
+          "tag": "img",
+          "class": "data-img",
+          "text": "",
+          "html": "<img alt=\"My Little Pony Micro Series #4 Comic\" border=\"0\" class=\"data-img\" src=\"https://4.bp.blogspot.com/-AGsRMTXoWDw/VKkwx-P4H5I/AAAAAAAANeQ/Ghju_Ajf064/s135/mlp-comic-ms4-cover-a.jpg\" title=\"My Little Pony Micro Series #4 Comic\"/>"
+        },
+        {
+          "tag": "div",
+          "class": "data-bottom-comp",
+          "text": "Micro Series Issue #4 Fluttershy W: Barbara Randall Kesel A: Tony Fleecs",
+          "html": "<div class=\"data-bottom-comp\"><b><a href=\"/comics/series/micro-series/\">Micro Series</a> <a href=\"/comic-covers/issue/micro-series/4/\">Issue #4</a></b><br/><a href=\"/comics/story-arc/fluttershy/\">Fluttershy</a><span class=\"data-smallt\">W: <a href=\"/comics/writer/barbara-randall-kesel/\">Barbara Randall Kesel</a></span><span class=\"data-smallt\">A: <a href=\"/comics/artist/tony-fleecs/\">Tony Fleecs</a></span><span class=\"data-amzn\"> <a href=\"https://www.amazon.com/gp/product/B00GG2TQA6/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00GG2TQA6&amp;linkCode=as2&amp;tag=alabmlme-20&amp;linkId=ARUQF2TWKSWYFGC6\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony Micro Series #4 Comic on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+micro+series+4+comic&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5"
+        }
+      ]
+    },
+    {
+      "url": "https://data.mlpmerch.com/g5-comics/series/my-little-pony/",
+      "counts": {
+        "span.data-smallt": 40,
+        "div.data-medium-xlong": 20,
+        "div.data-top": 20,
+        "div.data-bottom-comp": 20,
+        "span.data-amzn": 20,
+        "img.data-img": 12,
+        "img.data-img.lazy": 8,
+        "div.data-main": 1
+      },
+      "dataBottom": 0,
+      "dataTop": 20,
+      "images": 115,
+      "linksDetails": 0,
+      "samples": [
+        {
+          "tag": "div",
+          "class": "data-top",
+          "text": "",
+          "html": "<div class=\"data-top\"><a href=\"/g5-comic-covers/issue/my-little-pony/1/\"><img alt=\"My Little Pony My Little Pony #1 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-uKn706LoVUg/Yg-3W8yXIkI/AAAAAAABzjU/2jIBQe8pO0Iwu9smSXVC45ccwbYq9GMgACNcBGAsYHQ/s135/1-My-Little-Pony-IDW-Comic-Cover-A.jpg\" title=\"My Little Pony My Little Pony #1 Comic\"/></a></div>"
+        },
+        {
+          "tag": "img",
+          "class": "data-img",
+          "text": "",
+          "html": "<img alt=\"My Little Pony My Little Pony #1 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-uKn706LoVUg/Yg-3W8yXIkI/AAAAAAABzjU/2jIBQe8pO0Iwu9smSXVC45ccwbYq9GMgACNcBGAsYHQ/s135/1-My-Little-Pony-IDW-Comic-Cover-A.jpg\" title=\"My Little Pony My Little Pony #1 Comic\"/>"
+        },
+        {
+          "tag": "div",
+          "class": "data-bottom-comp",
+          "text": "My Little Pony Issue #1 W: Celeste Bronfman A: Amy Mebberson",
+          "html": "<div class=\"data-bottom-comp\"><b><a href=\"/g5-comics/series/my-little-pony/\">My Little Pony</a> <a href=\"/g5-comic-covers/issue/my-little-pony/1/\">Issue #1</a></b><span class=\"data-smallt\">W: <a href=\"/g5-comics/writer/celeste-bronfman/\">Celeste Bronfman</a></span><span class=\"data-smallt\">A: <a href=\"/g5-comics/artist/amy-mebberson/\">Amy Mebberson</a></span><span class=\"data-amzn\"> <a href=\"https://amzn.to/3wFIvdH\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony My Little Pony #1 Comic on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+my+little+pony+1+comic&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5GFxjWUd7PgCLcB/s1600/ebay-button.png\" title=\"Buy on eBay\" width=\"66\"/></a></span></div>"
+        },
+        {
+          "tag": "div",
+          "class": "data-top",
+          "text": "",
+          "html": "<div class=\"data-top\"><a href=\"/g5-comic-covers/issue/my-little-pony/2/\"><img alt=\"My Little Pony My Little Pony #2 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-1y4zd214-yU/Ymozec7NxhI/AAAAAAAB5-w/QoFyWGASo7U6OYy-l2xX4UDq6AaBa15cQCNcBGAsYHQ/s135/2-My-Little-Pony-IDW-Comic-Cover-A.jpg\" title=\"My Little Pony My Little Pony #2 Comic\"/></a></div>"
+        },
+        {
+          "tag": "img",
+          "class": "data-img",
+          "text": "",
+          "html": "<img alt=\"My Little Pony My Little Pony #2 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-1y4zd214-yU/Ymozec7NxhI/AAAAAAAB5-w/QoFyWGASo7U6OYy-l2xX4UDq6AaBa15cQCNcBGAsYHQ/s135/2-My-Little-Pony-IDW-Comic-Cover-A.jpg\" title=\"My Little Pony My Little Pony #2 Comic\"/>"
+        },
+        {
+          "tag": "div",
+          "class": "data-bottom-comp",
+          "text": "My Little Pony Issue #2 W: Celeste Bronfman A: Amy Mebberson",
+          "html": "<div class=\"data-bottom-comp\"><b><a href=\"/g5-comics/series/my-little-pony/\">My Little Pony</a> <a href=\"/g5-comic-covers/issue/my-little-pony/2/\">Issue #2</a></b><span class=\"data-smallt\">W: <a href=\"/g5-comics/writer/celeste-bronfman/\">Celeste Bronfman</a></span><span class=\"data-smallt\">A: <a href=\"/g5-comics/artist/amy-mebberson/\">Amy Mebberson</a></span><span class=\"data-amzn\"> <a href=\"https://amzn.to/3oZGWnu\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony My Little Pony #2 Comic on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+my+little+pony+2+comic&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5GFxjWUd7PgCLcB/s1600/ebay-button.png\" title=\"Buy on eBay\" width=\"66\"/></a></span></div>"
+        },
+        {
+          "tag": "div",
+          "class": "data-top",
+          "text": "",
+          "html": "<div class=\"data-top\"><a href=\"/g5-comic-covers/issue/my-little-pony/3/\"><img alt=\"My Little Pony My Little Pony #3 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-9dHDeCZbnWM/Ymozf75CeHI/AAAAAAAB5-4/m1rqZOX7ka45M8FzWXsqsa3yx2C2BXn1ACNcBGAsYHQ/s135/3-My-Little-Pony-IDW-Comic-Cover-A.jpg\" title=\"My Little Pony My Little Pony #3 Comic\"/></a></div>"
+        },
+        {
+          "tag": "img",
+          "class": "data-img",
+          "text": "",
+          "html": "<img alt=\"My Little Pony My Little Pony #3 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-9dHDeCZbnWM/Ymozf75CeHI/AAAAAAAB5-4/m1rqZOX7ka45M8FzWXsqsa3yx2C2BXn1ACNcBGAsYHQ/s135/3-My-Little-Pony-IDW-Comic-Cover-A.jpg\" title=\"My Little Pony My Little Pony #3 Comic\"/>"
+        },
+        {
+          "tag": "div",
+          "class": "data-bottom-comp",
+          "text": "My Little Pony Issue #3 W: Celeste Bronfman A: Robin Easter",
+          "html": "<div class=\"data-bottom-comp\"><b><a href=\"/g5-comics/series/my-little-pony/\">My Little Pony</a> <a href=\"/g5-comic-covers/issue/my-little-pony/3/\">Issue #3</a></b><span class=\"data-smallt\">W: <a href=\"/g5-comics/writer/celeste-bronfman/\">Celeste Bronfman</a></span><span class=\"data-smallt\">A: <a href=\"/g5-comics/artist/robin-easter/\">Robin Easter</a></span><span class=\"data-amzn\"> <a href=\"https://amzn.to/3defP5j\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony My Little Pony #3 Comic on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+my+little+pony+3+comic&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5GFxjWUd7PgCLcB/s1600/ebay-button.png\" title=\"Buy on eBay\" width=\"66\"/></a></span></div>"
+        },
+        {
+          "tag": "div",
+          "class": "data-top",
+          "text": "",
+          "html": "<div class=\"data-top\"><a href=\"/g5-comic-covers/issue/my-little-pony/4/\"><img alt=\"My Little Pony My Little Pony #4 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-OU2WNvBMCeQ/YofyEzj0P_I/AAAAAAAB6VU/yQZLyn4LQsU9-qJ531AdiWVw90tvORzgQCNcBGAsYHQ/s135/4-My-Little-Pony-IDW-Comic-Cover-A.jpg\" title=\"My Little Pony My Little Pony #4 Comic\"/></a></div>"
+        },
+        {
+          "tag": "img",
+          "class": "data-img",
+          "text": "",
+          "html": "<img alt=\"My Little Pony My Little Pony #4 Comic\" border=\"0\" class=\"data-img\" src=\"https://1.bp.blogspot.com/-OU2WNvBMCeQ/YofyEzj0P_I/AAAAAAAB6VU/yQZLyn4LQsU9-qJ531AdiWVw90tvORzgQCNcBGAsYHQ/s135/4-My-Little-Pony-IDW-Comic-Cover-A.jpg\" title=\"My Little Pony My Little Pony #4 Comic\"/>"
+        },
+        {
+          "tag": "div",
+          "class": "data-bottom-comp",
+          "text": "My Little Pony Issue #4 W: Mary Kenney A: Trish Forstner",
+          "html": "<div class=\"data-bottom-comp\"><b><a href=\"/g5-comics/series/my-little-pony/\">My Little Pony</a> <a href=\"/g5-comic-covers/issue/my-little-pony/4/\">Issue #4</a></b><span class=\"data-smallt\">W: <a href=\"/g5-comics/writer/mary-kenney/\">Mary Kenney</a></span><span class=\"data-smallt\">A: <a href=\"/g5-comics/artist/trish-forstner/\">Trish Forstner</a></span><span class=\"data-amzn\"> <a href=\"https://amzn.to/3JCmTVz\" target=\"_blank\"><img alt=\"Buy on Amazon\" class=\"amznimg\" height=\"18\" src=\"https://4.bp.blogspot.com/-RNG-mdsm44A/VO4kfiSNywI/AAAAAAAAKos/tpFsYkj6ie0/s1600/amazon-button.png\" title=\"Buy My Little Pony My Little Pony #4 Comic on Amazon\" width=\"66\"/></a> <a href=\"//ebay.com/sch/?kw=my+little+pony+my+little+pony+4+comic&amp;mkevt=1&amp;mkcid=1&amp;mkrid=711-53200-19255-0&amp;campid=5337961373&amp;toolid=20008\" target=\"_blank\"><img alt=\"Buy on eBay\" class=\"amznimg\" height=\"18\" src=\"https://1.bp.blogspot.com/-SpA97Sjig4A/V-QaVz1gFYI/AAAAAAAASak/W0vYY811UnEz4AZ_BUvhjD5GFxjWUd7PgCLcB/s1600/ebay-button.png\" title=\"Buy on eBay\" width=\"66\"/></a></span></div>"
+        }
+      ]
+    }
+  ]
+}
