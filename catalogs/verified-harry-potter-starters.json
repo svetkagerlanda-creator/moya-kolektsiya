@@ -1592,8 +1592,8 @@
       "manufacturer": "Funko",
       "source": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
       "verified": true,
-      "completeness": "official-character-checklist",
-      "count": 12,
+      "completeness": "verified-21-variant-collector-checklist",
+      "count": 21,
       "items": [
         {
           "name": "Harry Potter",
@@ -1702,8 +1702,117 @@
           "sourceUrl": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
           "photo": "",
           "description": "Official Funko lineup; individual photo awaiting exact verification."
+        },
+        {
+          "name": "Basilisk",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "13",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3",
+          "photo": "",
+          "exclusiveRetailer": "Barnes & Noble",
+          "rarity": "Retailer exclusive; exact odds unverified",
+          "description": "2018 Funko Mystery Minis Tournament / Series 3 retailer-exclusive variant for Barnes & Noble. Figure-specific photo and product UPC not verified.",
+          "verificationSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3"
+        },
+        {
+          "name": "Moaning Myrtle",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "14",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3",
+          "photo": "",
+          "exclusiveRetailer": "Barnes & Noble",
+          "rarity": "Retailer exclusive; exact odds unverified",
+          "description": "2018 Funko Mystery Minis Tournament / Series 3 retailer-exclusive variant for Barnes & Noble. Figure-specific photo and product UPC not verified.",
+          "verificationSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3"
+        },
+        {
+          "name": "Tom Riddle",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "15",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3",
+          "photo": "",
+          "exclusiveRetailer": "Barnes & Noble",
+          "rarity": "Retailer exclusive; exact odds unverified",
+          "description": "2018 Funko Mystery Minis Tournament / Series 3 retailer-exclusive variant for Barnes & Noble. Figure-specific photo and product UPC not verified.",
+          "verificationSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3"
+        },
+        {
+          "name": "Harry Potter (Dirty)",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "16",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3",
+          "photo": "",
+          "exclusiveRetailer": "Hot Topic",
+          "rarity": "Retailer exclusive; exact odds unverified",
+          "description": "2018 Funko Mystery Minis Tournament / Series 3 retailer-exclusive variant for Hot Topic. Figure-specific photo and product UPC not verified.",
+          "verificationSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3"
+        },
+        {
+          "name": "Lucius Malfoy",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "17",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3",
+          "photo": "",
+          "exclusiveRetailer": "Hot Topic",
+          "rarity": "Retailer exclusive; exact odds unverified",
+          "description": "2018 Funko Mystery Minis Tournament / Series 3 retailer-exclusive variant for Hot Topic. Figure-specific photo and product UPC not verified.",
+          "verificationSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3"
+        },
+        {
+          "name": "Tom Riddle (Sepia)",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "18",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3",
+          "photo": "",
+          "exclusiveRetailer": "Hot Topic",
+          "rarity": "Retailer exclusive; exact odds unverified",
+          "description": "2018 Funko Mystery Minis Tournament / Series 3 retailer-exclusive variant for Hot Topic. Figure-specific photo and product UPC not verified.",
+          "verificationSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3"
+        },
+        {
+          "name": "Harry Potter (Quidditch World Cup)",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "19",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3",
+          "photo": "",
+          "exclusiveRetailer": "Target",
+          "rarity": "Retailer exclusive; exact odds unverified",
+          "description": "2018 Funko Mystery Minis Tournament / Series 3 retailer-exclusive variant for Target. Figure-specific photo and product UPC not verified.",
+          "verificationSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3"
+        },
+        {
+          "name": "Hermione Granger (Quidditch World Cup)",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "20",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3",
+          "photo": "",
+          "exclusiveRetailer": "Target",
+          "rarity": "Retailer exclusive; exact odds unverified",
+          "description": "2018 Funko Mystery Minis Tournament / Series 3 retailer-exclusive variant for Target. Figure-specific photo and product UPC not verified.",
+          "verificationSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3"
+        },
+        {
+          "name": "Ron Weasley (Quidditch World Cup)",
+          "manufacturer": "Funko",
+          "seriesNumber": "31021",
+          "catalogPosition": "21",
+          "sourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3",
+          "photo": "",
+          "exclusiveRetailer": "Target",
+          "rarity": "Retailer exclusive; exact odds unverified",
+          "description": "2018 Funko Mystery Minis Tournament / Series 3 retailer-exclusive variant for Target. Figure-specific photo and product UPC not verified.",
+          "verificationSourceUrl": "https://www.collexstash.com/en/collections/funko/funko-mystery-minis-harry-potter-3"
         }
-      ]
+      ],
+      "notes": "Full collector lineup includes 12 regular and 9 retailer-exclusive figures (Barnes & Noble, Hot Topic, Target), total 21; exclusives do not share the standard random box assortment."
     },
     {
       "name": "Harry Potter · Funko · Mystery Minis · Magical Creatures",
