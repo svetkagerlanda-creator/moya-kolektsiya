@@ -107,11 +107,15 @@ function editForm(p){
 }
 function createForm(){
  const draft=state.acquisitionDraft;
- const src=draft?.photoSrc||null;
- const preview=src
- ?'<div class="sc-acquisition-preview"><img id="scDraftPhotoPreview" src="'+escape(src)+'" alt="Фото предмета для допису"><p id="scDraftPhotoHint">Фото взято з картки предмета. Можеш замінити його перед публікацією.</p></div>'
- :'<div class="sc-acquisition-preview"><img id="scDraftPhotoPreview" hidden alt="Фото для допису"><p id="scDraftPhotoHint">У картці немає фото. Можеш додати його перед публікацією.</p></div>';
- return '<form class="card form" id="scPost"><h3>Нове придбання 📦</h3><p class="muted">Опублікуй лише те, чим хочеш поділитися. Автоматичних дописів немає.</p><label>Назва<input class="field" name="title" minlength="2" maxlength="160" required value="'+escape(draft?.title||'')+'" placeholder="Моя нова фігурка"></label><label>Опис<textarea class="field" name="body" maxlength="2000" rows="3">'+escape(draft?.body||'')+'</textarea></label><label>Фандом<select name="fandom_id" class="field"><option value="">Без фандому</option>'+state.fandoms.map(f=>'<option value="'+f.id+'">'+escape(f.title)+'</option>').join('')+'</select></label><label>Фото<input class="field" name="photo" type="file" accept="image/jpeg,image/png,image/webp"></label>'+preview+'<div class="sc-actions"><button class="btn" type="submit">Опублікувати</button><button class="alt" type="button" data-sc="cancel-post">Скасувати</button></div></form>';
+ const options=[
+  draft?.catalogPhotoSrc?'<option value="catalog">🏭 Заводське фото з каталогу</option>':'',
+  draft?.personalPhotoSrc?'<option value="personal">📷 Моє фото</option>':'',
+  '<option value="none">Без фотографії</option>'
+ ].filter(Boolean).join('');
+ const selected=draft?.photoChoice||'none';
+ const src=selected==='catalog'?draft?.catalogPhotoSrc:selected==='personal'?draft?.personalPhotoSrc:null;
+ const preview='<div class="sc-acquisition-preview"><img id="scDraftPhotoPreview"'+(src?' src="'+escape(src)+'"':' hidden')+' alt="Фото предмета для допису"><p id="scDraftPhotoHint">'+(src?'Буде опубліковано вибране фото.':'Фото не вибране. Можеш додати своє або опублікувати без нього.')+'</p></div>';
+ return '<form class="card form" id="scPost"><h3>Нове придбання 📦</h3><p class="muted">Публікація з’явиться тільки після натискання «Опублікувати». Фото у загальному каталозі не зміниться.</p><label>Назва<input class="field" name="title" minlength="2" maxlength="160" required value="'+escape(draft?.title||'')+'" placeholder="Моя нова фігурка"></label><label>Опис<textarea class="field" name="body" maxlength="2000" rows="3">'+escape(draft?.body||'')+'</textarea></label><label>Фандом<select name="fandom_id" class="field"><option value="">Без фандому</option>'+state.fandoms.map(f=>'<option value="'+f.id+'">'+escape(f.title)+'</option>').join('')+'</select></label><label>Яке фото використати?<select name="photo_source" class="field">'+options+'</select></label><label>Або завантажити нове фото для допису<input class="field" name="photo" type="file" accept="image/jpeg,image/png,image/webp"></label>'+preview+'<div class="sc-actions"><button class="btn" type="submit">Опублікувати</button><button class="alt" type="button" data-sc="cancel-post">Скасувати</button></div></form>';
 }
 function editPostForm(p){
  const f=p.fandom_id||'';
@@ -319,19 +323,26 @@ function attach(session,refresh){
  }catch(err){fail(err)}finally{btn.disabled=false}};
  const post=document.getElementById('scPost');
  if(post){
-  const input=post.elements.photo,preview=post.querySelector('#scDraftPhotoPreview'),hint=post.querySelector('#scDraftPhotoHint');
+  const input=post.elements.photo,selector=post.elements.photo_source,preview=post.querySelector('#scDraftPhotoPreview'),hint=post.querySelector('#scDraftPhotoHint');
+  if(state.acquisitionDraft?.photoChoice)selector.value=state.acquisitionDraft.photoChoice;
   let previewUrl=null;
-  input.onchange=()=>{
+  const refreshPhotoPreview=()=>{
    if(previewUrl){URL.revokeObjectURL(previewUrl);previewUrl=null}
-   const file=input.files[0];
-   if(file){previewUrl=URL.createObjectURL(file);preview.src=previewUrl;preview.hidden=false;hint.textContent='Для допису буде використано нове вибране фото.'}
-   else if(state.acquisitionDraft?.photoSrc){preview.src=state.acquisitionDraft.photoSrc;preview.hidden=false;hint.textContent='Фото взято з картки предмета.'}
-   else{preview.hidden=true;preview.removeAttribute('src');hint.textContent='Фото не вибране.'}
+   const file=input.files?.[0];
+   const draft=state.acquisitionDraft;
+   const src=file?(previewUrl=URL.createObjectURL(file)):(selector.value==='catalog'?draft?.catalogPhotoSrc:selector.value==='personal'?draft?.personalPhotoSrc:null);
+   if(src){preview.src=src;preview.hidden=false;hint.textContent=file?'Для публікації буде використано щойно вибраний файл.':'Для публікації буде використано '+(selector.value==='catalog'?'заводське фото з каталогу.':'власне фото з колекції.')}
+   else{preview.hidden=true;preview.removeAttribute('src');hint.textContent='Допис буде без фотографії.'}
   };
+  input.onchange=refreshPhotoPreview;
+  selector.onchange=()=>{if(state.acquisitionDraft)state.acquisitionDraft.photoChoice=selector.value;refreshPhotoPreview()};
+  refreshPhotoPreview();
  }
  if(post)post.onsubmit=async ev=>{ev.preventDefault();let btn=post.querySelector('button[type=submit]');btn.disabled=true;try{
   const f=post.elements,selected=f.photo.files[0]||null;
-  const fromCard=!selected&&state.acquisitionDraft?.photoSrc?await fileFromCardPhoto(state.acquisitionDraft.photoSrc):null;
+  const choice=f.photo_source.value;
+  const source=choice==='catalog'?state.acquisitionDraft?.catalogPhotoSrc:choice==='personal'?state.acquisitionDraft?.personalPhotoSrc:null;
+  const fromCard=!selected&&source?await fileFromCardPhoto(source):null;
   const photo_path=await upload(selected||fromCard,'posts');
   await api('collector_posts','','POST',{user_id:state.id,title:f.title.value.trim(),body:f.body.value.trim(),fandom_id:f.fandom_id.value||null,photo_path});state.posting=false;state.acquisitionDraft=null;await reload();
  }catch(err){fail(err)}finally{btn.disabled=false}};
@@ -358,9 +369,10 @@ function attach(session,refresh){
 }
 function prepareAcquisition(item){
  if(!item||!item.name)return false;
- const personal=window.CollectorPhotos?.cover(item);
- const photoSrc=personal||(typeof item.photo==='string'&&/^(?:https:\/\/|data:image\/(?:jpeg|png|webp);base64,)/i.test(item.photo)?item.photo:null);
- state.acquisitionDraft={title:String(item.name).slice(0,160),body:'',photoSrc};
+ const personal=window.CollectorPhotos?.cover(item)||window.CollectorPhotos?.pics(item)?.[0]?.src||(/^data:image\\/(?:jpeg|png|webp);base64,/i.test(item.photo||'')?item.photo:null);
+ const catalog=/^https:\\/\\//i.test(item.photo||'')?item.photo:null;
+ const choice=catalog?'catalog':personal?'personal':'none';
+ state.acquisitionDraft={title:String(item.name).slice(0,160),body:'',catalogPhotoSrc:catalog,personalPhotoSrc:personal,photoChoice:choice};
  state.person=null;state.tab='profile';state.posting=true;state.error='';
  if(!window.CollectorCommunity?.getSession?.())return true;
  if(state.profile&&!state.profile.is_discoverable)state.editing=true;
