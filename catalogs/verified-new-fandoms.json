@@ -1032,7 +1032,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-fearbook-draculaura-fashion-doll-with-jacket-yearbook-and-movie-club-accessories-hxw30-en-ca",
           "photo": "https://shop.mattel.com/cdn/shop/files/xg7u8pn252orh0ljl0j6_00969729-f19d-4de5-9634-f9715c68853f.png?v=1721070405",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735239764",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.everybuy.at/shop/p/3072868/",
+          "barcodeVerification": "Specific model and EAN shown by retailer; GTIN check digit verified",
+          "barcodeNote": "Fearbook Draculaura; merchant lists model HXW30 and EAN."
         },
         {
           "name": "Monster High Frankie Stein Styling Head With 65+ Nail, Hair And Face Accessories",
@@ -1104,7 +1109,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-potions-mini-dolls-hyb10",
           "photo": "https://shop.mattel.com/cdn/shop/files/pkdjzuerwajswrtaixq9.jpg?v=1750421725",
-          "description": "Which ghoul will be revealed? Each Monster High Potions bottle conceals a 3-inch mini doll of a boo-loved Monster High character inside!"
+          "description": "Which ghoul will be revealed? Each Monster High Potions bottle conceals a 3-inch mini doll of a boo-loved Monster High character inside!",
+          "ean": "0194735242467",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.ypc.co.uk/product/monster-high-potions-mini-dolls-and-accessories-surprise-3-inch-character-figures-in-display-bottle-with-water-reveal-charms-characters-may-vary-hyb10/",
+          "barcodeVerification": "Specific model and EAN shown by retailer; GTIN check digit verified",
+          "barcodeNote": "Sealed blind-potion retail assortment only: cannot identify the revealed character."
         },
         {
           "name": "Monster High Poupée, Animal et Accessoires Venus Mcflytrap, Chewlian",
@@ -1112,7 +1122,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-highpoupeevenus-mcflytrap-hrp81-fr-ca",
           "photo": "https://shop.mattel.com/cdn/shop/files/uyxb41bsskrx8q0k7cdc.png?v=1712595992",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735183333",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.juguetilandia.com/producto/monster-high-munyeca-venus-mcflytrap-con-chewlian-hrp81-127496.htm",
+          "barcodeVerification": "Specific model and EAN shown by retailer; GTIN check digit verified",
+          "barcodeNote": "Individual Venus McFlytrap doll; retailer shows exact Mattel model HRP81 and EAN."
         },
         {
           "name": "Monster High Stitched in Style Frankie Stein Collector Doll in Deconstructed Gown",
@@ -1120,7 +1135,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://shop.mattel.com/products/monster-high-stitched-in-style-frankie-stein-collector-doll-hrl66-en-ca",
           "photo": "https://shop.mattel.com/cdn/shop/files/zvvri5rddg2oawg0susw.png?v=1760634948",
-          "description": "Mattel Shop"
+          "description": "Mattel Shop",
+          "ean": "0194735179916",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.ebay.com/p/3063457833",
+          "barcodeVerification": "Specific model and EAN shown by retailer; GTIN check digit verified",
+          "barcodeNote": "Stitched in Style Frankie Stein collector doll; exact Mattel HRL66 and product UPC."
         },
         {
           "name": "Monster High Toy Car, Ghoul Mobile With Pet And Cooler Accessories",
