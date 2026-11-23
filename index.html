@@ -864,12 +864,13 @@ function scan(){
   // A sealed mystery assortment identifies its series, never a random character.
   // The same code may appear on every variant as assortmentUpc.
   const mysterySeries=[...generatedSeries,...COMPLETE_SERIES_DATA,...COMPLETE_FIGURE_SERIES]
-   .filter(s=>/mystery|blind[ -]?(?:box|bag)|сюрприз|bratziez/i.test([s.name,s.group].join(' ')))
-   .filter(s=>listCompleteCards(s).some(i=>{
-    const assortment=String(i.assortmentUpc||'').trim();
-    const assortmentMatch=isGtin(code)&&isGtin(assortment)&&assortment.padStart(14,'0')===code.padStart(14,'0');
-    return assortmentMatch||matches(i,code);
-   }));
+   .filter(s=>s.assortmentUpc||s.assortmentEan||/mystery|blind[ -]?(?:box|bag)|сюрприз|bratziez/i.test([s.name,s.group].join(' ')))
+   .filter(s=>{
+    const sameGtins=a=>isGtin(code)&&isGtin(String(a||'').trim())&&String(a).trim().padStart(14,'0')===code.padStart(14,'0');
+    if(['assortmentUpc','assortmentEan'].some(k=>sameGtins(s[k])))return true;
+    return listCompleteCards(s).some(i=>
+     ['assortmentUpc','assortmentEan'].some(k=>sameGtins(i[k]))||matches(i,code));
+   });
   const uniqueMystery=[...new Map(mysterySeries.map(s=>[s.name,s])).values()];
   const openMysterySeries=s=>{
    const existing=importedSeriesFolder(s);
