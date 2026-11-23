@@ -69,7 +69,7 @@
       "manufacturer": "MGA Entertainment",
       "fandomKey": "bratz",
       "group": "💄 Bratz",
-      "count": 7,
+      "count": 9,
       "items": [
         {
           "name": "Bratz Babyz Doll - Jade",
@@ -156,6 +156,22 @@
           "sourceUrl": "https://www.bratz.com/products/bratz-babyz-runwayz-doll-dana",
           "photo": "",
           "description": "Official Bratz Babyz Runwayz Dana release, pink halter top, gold pleated skirt, fuzzy telephone and bottle-chain necklace. SKU 527589; UPC and exact image not yet independently verified."
+        },
+        {
+          "name": "Bratz Babyz Runwayz Doll - Jade",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-babyz-runwayz-doll-cloe",
+          "description": "Bratz Babyz Runwayz Jade; character confirmed in MGA's official six-doll Runwayz assortment roster. Exact individual product image, SKU and barcode not yet verified.",
+          "photoStatus": "missing-exact-individual-image"
+        },
+        {
+          "name": "Bratz Babyz Runwayz Doll - Sasha",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-babyz-runwayz-doll-cloe",
+          "description": "Bratz Babyz Runwayz Sasha; character confirmed in MGA's official six-doll Runwayz assortment roster. Exact individual product image, SKU and barcode not yet verified.",
+          "photoStatus": "missing-exact-individual-image"
         }
       ]
     },
