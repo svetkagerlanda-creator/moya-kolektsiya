@@ -5954,6 +5954,812 @@
           "sourceVerification": "Character and doll line confirmed by documented collector line roster; no unverified UPC or SKU inferred."
         }
       ]
+    },
+    {
+      "name": "Winx Club · Enchantix Fairy · Witty Toys",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "У переліку лише документовані випущені персонажі. Фото, артикули та UPC/EAN потребують окремої звірки. Не підміняти прототипами.",
+      "count": 4,
+      "items": [
+        {
+          "name": "Winx Enchantix Fairy — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:enchantix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Enchantix Fairy doll depicting Bloom; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Enchantix Fairy — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:enchantix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Enchantix Fairy doll depicting Stella; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Enchantix Fairy — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:enchantix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Enchantix Fairy doll depicting Flora; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Enchantix Fairy — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:enchantix-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Enchantix Fairy doll depicting Aisha; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Believix Fairy · Witty Toys",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "У переліку лише документовані випущені персонажі. Фото, артикули та UPC/EAN потребують окремої звірки. Не підміняти прототипами.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Believix Fairy — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:believix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Believix Fairy doll depicting Bloom; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Believix Fairy — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:believix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Believix Fairy doll depicting Stella; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Believix Fairy — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:believix-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Believix Fairy doll depicting Aisha; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Believix Fairy — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:believix-fairy:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Believix Fairy doll depicting Tecna; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Believix Fairy — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:believix-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Believix Fairy doll depicting Musa; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Believix Fairy — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:believix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Believix Fairy doll depicting Flora; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Harmonix Fairy · Witty Toys",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "У переліку лише документовані випущені персонажі. Фото, артикули та UPC/EAN потребують окремої звірки. Не підміняти прототипами.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Harmonix Fairy — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:harmonix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Harmonix Fairy doll depicting Bloom; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Harmonix Fairy — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:harmonix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Harmonix Fairy doll depicting Stella; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Harmonix Fairy — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:harmonix-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Harmonix Fairy doll depicting Aisha; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Harmonix Fairy — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:harmonix-fairy:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Harmonix Fairy doll depicting Tecna; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Harmonix Fairy — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:harmonix-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Harmonix Fairy doll depicting Musa; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Harmonix Fairy — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:harmonix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Harmonix Fairy doll depicting Flora; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Sirenix Fairy · Witty Toys",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "У переліку лише документовані випущені персонажі. Фото, артикули та UPC/EAN потребують окремої звірки. Не підміняти прототипами.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Sirenix Fairy — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:sirenix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Sirenix Fairy doll depicting Bloom; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Sirenix Fairy — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:sirenix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Sirenix Fairy doll depicting Stella; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Sirenix Fairy — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:sirenix-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Sirenix Fairy doll depicting Aisha; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Sirenix Fairy — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:sirenix-fairy:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Sirenix Fairy doll depicting Tecna; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Sirenix Fairy — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:sirenix-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Sirenix Fairy doll depicting Musa; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Sirenix Fairy — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:sirenix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Sirenix Fairy doll depicting Flora; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Fairy College · Witty Toys",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "У переліку лише документовані випущені персонажі. Фото, артикули та UPC/EAN потребують окремої звірки. Не підміняти прототипами.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Fairy College — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:fairy-college:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Fairy College doll depicting Bloom; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Fairy College — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:fairy-college:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Fairy College doll depicting Stella; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Fairy College — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:fairy-college:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Fairy College doll depicting Aisha; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Fairy College — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:fairy-college:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Fairy College doll depicting Tecna; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Fairy College — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:fairy-college:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Fairy College doll depicting Musa; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Fairy College — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:fairy-college:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Fairy College doll depicting Flora; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Bloomix Fairy · Witty Toys",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "У переліку лише документовані випущені персонажі. Фото, артикули та UPC/EAN потребують окремої звірки. Не підміняти прототипами.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Bloomix Fairy — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:bloomix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Bloomix Fairy doll depicting Bloom; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Bloomix Fairy — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:bloomix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Bloomix Fairy doll depicting Stella; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Bloomix Fairy — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:bloomix-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Bloomix Fairy doll depicting Aisha; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Bloomix Fairy — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:bloomix-fairy:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Bloomix Fairy doll depicting Tecna; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Bloomix Fairy — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:bloomix-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Bloomix Fairy doll depicting Musa; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Bloomix Fairy — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:bloomix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Bloomix Fairy doll depicting Flora; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Mythix Fairy · Witty Toys",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "У переліку лише документовані випущені персонажі. Фото, артикули та UPC/EAN потребують окремої звірки. Не підміняти прототипами.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Mythix Fairy — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:mythix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Mythix Fairy doll depicting Bloom; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Mythix Fairy — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:mythix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Mythix Fairy doll depicting Stella; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Mythix Fairy — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:mythix-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Mythix Fairy doll depicting Aisha; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Mythix Fairy — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:mythix-fairy:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Mythix Fairy doll depicting Tecna; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Mythix Fairy — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:mythix-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Mythix Fairy doll depicting Musa; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Mythix Fairy — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:mythix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Mythix Fairy doll depicting Flora; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Butterflix Fairy · Witty Toys",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/winx-club-new-witty-toys/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "У переліку лише документовані випущені персонажі. Фото, артикули та UPC/EAN потребують окремої звірки. Не підміняти прототипами.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Butterflix Fairy — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty-toys:butterflix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Butterflix Fairy doll depicting Bloom; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Butterflix Fairy — Stella",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty-toys:butterflix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Butterflix Fairy doll depicting Stella; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Butterflix Fairy — Aisha",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty-toys:butterflix-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Butterflix Fairy doll depicting Aisha; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Butterflix Fairy — Tecna",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty-toys:butterflix-fairy:tecna",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Butterflix Fairy doll depicting Tecna; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Butterflix Fairy — Musa",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty-toys:butterflix-fairy:musa",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Butterflix Fairy doll depicting Musa; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Butterflix Fairy — Flora",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty-toys:butterflix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/winx-club-new-witty-toys/",
+          "photo": "",
+          "description": "Documented Witty Toys Butterflix Fairy doll depicting Flora; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Sirenix · Jakks Pacific",
+      "manufacturer": "Jakks Pacific",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/jakks-pacific-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "У переліку лише документовані випущені персонажі. Фото, артикули та UPC/EAN потребують окремої звірки. Не підміняти прототипами.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Sirenix — Bloom",
+          "manufacturer": "Jakks Pacific",
+          "character": "Bloom",
+          "variantKey": "winx:jakks-pacific:sirenix:bloom",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Sirenix doll depicting Bloom; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Sirenix — Stella",
+          "manufacturer": "Jakks Pacific",
+          "character": "Stella",
+          "variantKey": "winx:jakks-pacific:sirenix:stella",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Sirenix doll depicting Stella; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Sirenix — Aisha",
+          "manufacturer": "Jakks Pacific",
+          "character": "Aisha",
+          "variantKey": "winx:jakks-pacific:sirenix:aisha",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Sirenix doll depicting Aisha; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Sirenix — Tecna",
+          "manufacturer": "Jakks Pacific",
+          "character": "Tecna",
+          "variantKey": "winx:jakks-pacific:sirenix:tecna",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Sirenix doll depicting Tecna; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Sirenix — Musa",
+          "manufacturer": "Jakks Pacific",
+          "character": "Musa",
+          "variantKey": "winx:jakks-pacific:sirenix:musa",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Sirenix doll depicting Musa; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Sirenix — Flora",
+          "manufacturer": "Jakks Pacific",
+          "character": "Flora",
+          "variantKey": "winx:jakks-pacific:sirenix:flora",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Sirenix doll depicting Flora; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Dark Sirenix · Jakks Pacific",
+      "manufacturer": "Jakks Pacific",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/jakks-pacific-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "У переліку лише документовані випущені персонажі. Фото, артикули та UPC/EAN потребують окремої звірки. Не підміняти прототипами.",
+      "count": 3,
+      "items": [
+        {
+          "name": "Winx Dark Sirenix — Stormy",
+          "manufacturer": "Jakks Pacific",
+          "character": "Stormy",
+          "variantKey": "winx:jakks-pacific:dark-sirenix:stormy",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Dark Sirenix doll depicting Stormy; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Dark Sirenix — Icy",
+          "manufacturer": "Jakks Pacific",
+          "character": "Icy",
+          "variantKey": "winx:jakks-pacific:dark-sirenix:icy",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Dark Sirenix doll depicting Icy; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Dark Sirenix — Darcy",
+          "manufacturer": "Jakks Pacific",
+          "character": "Darcy",
+          "variantKey": "winx:jakks-pacific:dark-sirenix:darcy",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Dark Sirenix doll depicting Darcy; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Harmonix · Jakks Pacific",
+      "manufacturer": "Jakks Pacific",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/jakks-pacific-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "У переліку лише документовані випущені персонажі. Фото, артикули та UPC/EAN потребують окремої звірки. Не підміняти прототипами.",
+      "count": 4,
+      "items": [
+        {
+          "name": "Winx Harmonix — Bloom",
+          "manufacturer": "Jakks Pacific",
+          "character": "Bloom",
+          "variantKey": "winx:jakks-pacific:harmonix:bloom",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Harmonix doll depicting Bloom; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Harmonix — Stella",
+          "manufacturer": "Jakks Pacific",
+          "character": "Stella",
+          "variantKey": "winx:jakks-pacific:harmonix:stella",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Harmonix doll depicting Stella; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Harmonix — Aisha",
+          "manufacturer": "Jakks Pacific",
+          "character": "Aisha",
+          "variantKey": "winx:jakks-pacific:harmonix:aisha",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Harmonix doll depicting Aisha; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Harmonix — Flora",
+          "manufacturer": "Jakks Pacific",
+          "character": "Flora",
+          "variantKey": "winx:jakks-pacific:harmonix:flora",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Harmonix doll depicting Flora; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Believix · Jakks Pacific",
+      "manufacturer": "Jakks Pacific",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Historical doll lines",
+      "source": "https://dollect.net/database/jakks-pacific-winx-club/",
+      "verified": true,
+      "completeness": "verified-character-roster-photo-pending",
+      "notes": "У переліку лише документовані випущені персонажі. Фото, артикули та UPC/EAN потребують окремої звірки. Не підміняти прототипами.",
+      "count": 6,
+      "items": [
+        {
+          "name": "Winx Believix — Bloom",
+          "manufacturer": "Jakks Pacific",
+          "character": "Bloom",
+          "variantKey": "winx:jakks-pacific:believix:bloom",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Believix doll depicting Bloom; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Believix — Stella",
+          "manufacturer": "Jakks Pacific",
+          "character": "Stella",
+          "variantKey": "winx:jakks-pacific:believix:stella",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Believix doll depicting Stella; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Believix — Aisha",
+          "manufacturer": "Jakks Pacific",
+          "character": "Aisha",
+          "variantKey": "winx:jakks-pacific:believix:aisha",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Believix doll depicting Aisha; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Believix — Tecna",
+          "manufacturer": "Jakks Pacific",
+          "character": "Tecna",
+          "variantKey": "winx:jakks-pacific:believix:tecna",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Believix doll depicting Tecna; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Believix — Musa",
+          "manufacturer": "Jakks Pacific",
+          "character": "Musa",
+          "variantKey": "winx:jakks-pacific:believix:musa",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Believix doll depicting Musa; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        },
+        {
+          "name": "Winx Believix — Flora",
+          "manufacturer": "Jakks Pacific",
+          "character": "Flora",
+          "variantKey": "winx:jakks-pacific:believix:flora",
+          "sourceUrl": "https://dollect.net/database/jakks-pacific-winx-club/",
+          "photo": "",
+          "description": "Documented Jakks Pacific Believix doll depicting Flora; individual product photo, SKU and EAN pending exact-edition verification.",
+          "sourceVerification": "Character confirmed in collector database roster; manufacturer and line matched; no barcode inferred."
+        }
+      ]
     }
   ]
 }
