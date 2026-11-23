@@ -3,14 +3,14 @@
 'use strict';
 const URLROOT='https://nihheolmwvkgtvtmfzsv.supabase.co';
 const KEY='sb_publishable_M_mIhlp0ZqintLb0ONy8BQ_SzEBCAT0';
-const st={id:'',people:[],mode:'general',target:'',thread:'',threads:[],general:[],direct:[],blocked:[],inbox:[],readSeen:{},drafts:{},announcement:null,busy:false,loaded:false,error:'',info:'',refresh:null,fetching:false,peekBusy:false,lastPeek:0};
+const st={id:'',people:[],mode:'general',requests:[],requestsLoaded:false,requestsBusy:false,requestsAdmin:false,target:'',thread:'',threads:[],general:[],direct:[],blocked:[],inbox:[],readSeen:{},drafts:{},announcement:null,busy:false,loaded:false,error:'',info:'',refresh:null,fetching:false,peekBusy:false,lastPeek:0};
 const chatViewKey=id=>'collector-chat-view-v1:'+id;
 function loadChatView(id){
  try{
   const stored=JSON.parse(sessionStorage.getItem(chatViewKey(id))||'null');
   if(!stored)return {};
   const target=typeof stored.target==='string'&&/^[0-9a-f-]{36}$/i.test(stored.target)&&stored.target!==id?stored.target:'';
-  return {mode:stored.mode==='direct'?'direct':'general',target};
+  return {mode:['direct','requests'].includes(stored.mode)?stored.mode:'general',target};
  }catch{return {}}
 }
 function rememberChatView(){
@@ -58,10 +58,10 @@ function start(userId){
  if(existing)refreshMessages();
 }
 function setup(id,people){
- if(st.id!==id)Object.assign(st,{id,people:people||[],mode:'general',target:'',thread:'',threads:[],general:[],direct:[],blocked:[],inbox:[],readSeen:{},drafts:{},announcement:null,loaded:false,error:'',info:'',busy:false,fetching:false,peekBusy:false,lastPeek:0,...loadChatView(id)});
+ if(st.id!==id)Object.assign(st,{id,people:people||[],mode:'general',requests:[],requestsLoaded:false,requestsBusy:false,requestsAdmin:false,target:'',thread:'',threads:[],general:[],direct:[],blocked:[],inbox:[],readSeen:{},drafts:{},announcement:null,loaded:false,error:'',info:'',busy:false,fetching:false,peekBusy:false,lastPeek:0,...loadChatView(id)});
  else st.people=people||[];
 }
-function clean(){if(notificationTimer){clearInterval(notificationTimer);notificationTimer=null}st.id='';st.loaded=false;st.threads=[];st.general=[];st.direct=[];st.blocked=[];st.inbox=[];st.readSeen={};st.drafts={};st.announcement=null;st.target='';st.thread='';clearInterval(timer);timer=null}
+function clean(){if(notificationTimer){clearInterval(notificationTimer);notificationTimer=null}st.id='';st.loaded=false;st.requests=[];st.requestsLoaded=false;st.requestsAdmin=false;st.threads=[];st.general=[];st.direct=[];st.blocked=[];st.inbox=[];st.readSeen={};st.drafts={};st.announcement=null;st.target='';st.thread='';clearInterval(timer);timer=null}
 async function refreshAll(){
  if(st.fetching||!st.id)return;
  st.fetching=true;
@@ -163,13 +163,78 @@ function compose(where){
  if(!privateTarget&&!publicOk)return '<p class="muted">'+tr('Щоб писати в загальному чаті, зроби профіль публічним у налаштуваннях.')+'</p>';
  return '<form id="ccSend" class="cc-compose"><textarea name="body" rows="2" maxlength="1200" required class="field" placeholder="'+tr('Твоє повідомлення…')+'">'+esc(st.drafts[draftKey()]||'')+'</textarea><button class="btn" type="submit" '+(st.busy?'disabled':'')+'>'+tr('Надіслати')+'</button></form>';
 }
+
+async function loadRequests(){
+ if(!st.id||st.requestsBusy)return;
+ st.requestsBusy=true;
+ try{
+  const [requests,admins]=await Promise.all([
+   api('collector_series_requests','select=id,user_id,series_name,fandom,manufacturer,details,status,moderator_note,created_at,reviewed_at&order=created_at.desc&limit=250'),
+   api('collector_catalog_admins','select=user_id&user_id=eq.'+eurl(st.id)+'&limit=1')
+  ]);
+  st.requests=requests||[];st.requestsAdmin=!!admins?.length;st.requestsLoaded=true;
+  if(st.mode==='requests')st.error='';
+ }catch(error){st.error=String(error.message||error);st.requestsLoaded=true}
+ finally{st.requestsBusy=false;if(st.mode==='requests')st.refresh?.()}
+}
+const requestStatus={
+ pending:['Очікує розгляду','pending'],accepted:['Прийнято й додано','accepted'],
+ deferred:['Відкладено','rejected'],rejected:['Відмовлено','rejected']
+};
+function requestsView(){
+ const list=st.requests||[];
+ const cards=list.map(x=>{
+  const state=requestStatus[x.status]||requestStatus.pending;
+  return '<article class="cc-request cc-request-'+state[1]+'"><div class="cc-request-top"><b>'+esc(x.series_name)+'</b><span class="cc-request-badge">'+esc(state[0])+'</span></div>'
+   +(st.requestsAdmin?'<small>Від '+esc(pname(x.user_id))+' · </small>':'')+'<small>'+esc(hh(x.created_at))+'</small>'
+   +(x.fandom?'<div><strong>Фандом:</strong> '+esc(x.fandom)+'</div>':'')
+   +(x.manufacturer?'<div><strong>Виробник:</strong> '+esc(x.manufacturer)+'</div>':'')
+   +(x.details?'<p class="cc-request-details">'+esc(x.details)+'</p>':'')
+   +(x.moderator_note?'<div><strong>Коментар модератора:</strong> '+esc(x.moderator_note)+'</div>':'')
+   +(st.requestsAdmin?'<div class="cc-request-actions"><button type="button" class="alt" data-cc-request="accepted" data-id="'+esc(x.id)+'">✅ Прийнято й додано</button><button type="button" class="alt" data-cc-request="pending" data-id="'+esc(x.id)+'">🟡 Очікує</button><button type="button" class="alt" data-cc-request="deferred" data-id="'+esc(x.id)+'">⏸ Відкласти</button><button type="button" class="alt" data-cc-request="rejected" data-id="'+esc(x.id)+'">❌ Відмовити</button></div>':'')
+   +'</article>';
+ }).join('');
+ return '<section class="cc-panel"><div class="cc-title"><h3>➕ Запропонувати серію</h3><span class="muted">Точкове поповнення каталогу</span></div>'
+  +'<p class="muted">Не знайшли серію в каталозі? Надішліть її назву. Заявка потрапить до модератора, а її статус відображатиметься нижче.</p>'
+  +'<form id="ccRequestForm" class="form"><label>Назва серії *<input class="field" name="series_name" minlength="2" maxlength="180" required placeholder="Наприклад, Harry Potter Micro Magic"></label>'
+  +'<div class="pair"><label>Фандом<input class="field" name="fandom" maxlength="120" placeholder="Harry Potter"></label><label>Виробник / бренд<input class="field" name="manufacturer" maxlength="120" placeholder="Moose Toys"></label></div>'
+  +'<label>Деталі, посилання чи список предметів<textarea class="field" name="details" maxlength="1500" rows="3" placeholder="Рік, назва колекції, посилання на офіційний каталог…"></textarea></label>'
+  +'<button class="btn" type="submit">Надіслати на модерацію</button></form>'
+  +'<div class="cc-title"><h3>'+(st.requestsAdmin?'Усі пропозиції · модерація':'Мої пропозиції')+'</h3><span class="muted">'+list.length+' заявок</span></div>'
+  +(!st.requestsLoaded?'<div class="empty">Завантаження пропозицій…</div>':cards||'<div class="empty">Пропозицій ще немає.</div>')+'</section>';
+}
+async function submitRequest(event){
+ event.preventDefault();if(st.requestsBusy)return;
+ const form=event.currentTarget,b=form.querySelector('button[type="submit"]');
+ const series_name=form.elements.series_name.value.trim(),fandom=form.elements.fandom.value.trim(),manufacturer=form.elements.manufacturer.value.trim(),details=form.elements.details.value.trim();
+ if(series_name.length<2)return;
+ b.disabled=true;
+ try{
+  await api('collector_series_requests','','POST',{user_id:st.id,series_name,fandom,manufacturer,details});
+  st.info='Пропозицію надіслано. Вона очікує на модерацію.';form.reset();st.requestsLoaded=false;await loadRequests();
+ }catch(error){st.error=String(error.message||error);st.refresh?.()}finally{if(b.isConnected)b.disabled=false}
+}
+async function moderateRequest(el){
+ if(st.requestsBusy||!st.requestsAdmin)return;
+ const status=el.dataset.ccRequest,id=el.dataset.id;
+ if(!['pending','accepted','deferred','rejected'].includes(status))return;
+ if(status==='accepted'&&!confirm('Підтвердити, що серію вже додано до загального каталогу?'))return;
+ const moderator_note=prompt('Коментар модератора (можна залишити порожнім):',st.requests.find(x=>x.id===id)?.moderator_note||'');
+ if(moderator_note===null)return;
+ st.requestsBusy=true;el.disabled=true;
+ try{
+  await api('collector_series_requests','id=eq.'+eurl(id),'PATCH',{status,moderator_note:moderator_note.slice(0,1000),reviewed_at:new Date().toISOString(),reviewed_by:st.id});
+  st.requestsBusy=false;await loadRequests();
+ }catch(error){st.error=String(error.message||error);st.refresh?.()}finally{st.requestsBusy=false;if(el.isConnected)el.disabled=false}
+}
+
 function render(){
  if(!st.id)return '<div class="empty">'+tr('Увійди в акаунт, щоб користуватися чатом.')+'</div>';
  rememberChatView();
- return '<div class="cc-wrap"><div class="cc-modes" role="group" aria-label="'+tr('Види чатів')+'"><button type="button" data-cc-mode="general" class="'+(st.mode==='general'?'active':'')+'">🌍 '+tr('Загальний чат')+'</button><button type="button" data-cc-mode="direct" class="'+(st.mode==='direct'?'active':'')+'">✉ '+tr('Особисті повідомлення')+unreadBadge(unreadCount())+'</button></div>'
+ return '<div class="cc-wrap"><div class="cc-modes" role="group" aria-label="'+tr('Види чатів')+'"><button type="button" data-cc-mode="general" class="'+(st.mode==='general'?'active':'')+'">🌍 '+tr('Загальний чат')+'</button><button type="button" data-cc-mode="direct" class="'+(st.mode==='direct'?'active':'')+'">✉ '+tr('Особисті повідомлення')+unreadBadge(unreadCount())+'</button><button type="button" data-cc-mode="requests" class="'+(st.mode==='requests'?'active':'')+'">➕ '+tr('Додати серію')+'</button></div>'
  +'<p class="muted">'+tr('У чатах не публікуються твої колекції чи фото без твоєї дії. Не надсилай паролі та резервні коди.')+'</p>'
  +(st.error?'<div class="banner">'+esc(st.error)+'</div>':'')+(st.info?'<div class="banner">'+esc(st.info)+'</div>':'')
- +(!st.loaded?'<div class="empty">'+tr('Завантаження чату…')+'</div>':st.mode==='general'?general():inbox())+'</div>';
+ +(!st.loaded?'<div class="empty">'+tr('Завантаження чату…')+'</div>':st.mode==='general'?general():st.mode==='requests'?requestsView():inbox())+'</div>';
 }
 async function send(event){
  event.preventDefault();
@@ -231,17 +296,19 @@ async function doAction(type,el){
 function attach(refresh){
  st.refresh=refresh;
  if(!st.loaded&&!st.fetching){refreshAll();return}
- document.querySelectorAll('[data-cc-mode]').forEach(b=>b.onclick=()=>{st.mode=b.dataset.ccMode;st.error='';rememberChatView();refresh();if(st.mode==='direct'&&st.thread)refreshMessages()});
+ document.querySelectorAll('[data-cc-mode]').forEach(b=>b.onclick=()=>{st.mode=b.dataset.ccMode;st.error='';rememberChatView();refresh();if(st.mode==='direct'&&st.thread)refreshMessages();if(st.mode==='requests')loadRequests()});
  document.querySelectorAll('[data-cc]').forEach(b=>{
    b.onclick=event=>{if(b.dataset.cc==='person'&&event.target.closest('[data-cc="profile"]'))return;doAction(b.dataset.cc,b)};
    if(b.getAttribute('role')==='button')b.onkeydown=event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();event.stopPropagation();doAction(b.dataset.cc,b)}};
   });
+ document.querySelectorAll('[data-cc-request]').forEach(b=>b.onclick=()=>moderateRequest(b));
+ const requestForm=document.getElementById('ccRequestForm');if(requestForm)requestForm.onsubmit=submitRequest;
  const select=document.getElementById('ccChoosePerson');if(select)select.onchange=e=>{if(e.target.value)start(e.target.value)};
  const form=document.getElementById('ccSend');if(form){form.onsubmit=send;form.elements.body.addEventListener('input',()=>{st.drafts[draftKey()]=form.elements.body.value})}
  const history=document.getElementById('ccHistory');if(history&&!history.dataset.initialScroll){history.scrollTop=history.scrollHeight;history.dataset.initialScroll='yes'}
  activate();
 }
-const css='.cc-unread-badge{display:inline-flex;align-items:center;justify-content:center;min-width:21px;height:21px;padding:0 6px;background:#d92d59;color:#fff;border-radius:999px;font-weight:800;font-size:12px;line-height:1}.cc-peer-head{display:flex;align-items:center;justify-content:space-between;gap:7px}.cc-peer-preview{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:5px;color:var(--sub);font-size:12px}.cc-peer.cc-has-unread{border-color:var(--accent);background:var(--pale)}.cc-pinned{padding:15px 17px;border:1px solid var(--accent);border-radius:16px;background:var(--pale);color:var(--fg);box-shadow:0 2px 10px #0000000b}.cc-pinned-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:7px;color:var(--accent);font-size:13px;font-weight:800}.cc-pinned-heading small{color:var(--sub);font-weight:600}.cc-pinned h3{margin:12px 0 10px;font-size:17px}.cc-pinned-body{white-space:pre-wrap;line-height:1.6;font-size:14px;overflow-wrap:anywhere}.cc-wrap{display:grid;gap:14px}.cc-modes{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:5px;background:var(--panel);border:1px solid var(--edge);border-radius:16px}.cc-modes button{border:0;border-radius:12px;background:transparent;color:var(--fg);padding:13px 7px;cursor:pointer;font-weight:650}.cc-modes button.active{background:var(--pale);color:var(--accent)}.cc-title{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}.cc-title h3{margin:0}.cc-panel{background:var(--panel);border:1px solid var(--edge);border-radius:16px;padding:15px;display:grid;gap:12px;min-width:0}.cc-history{height:360px;overflow-y:auto;display:flex;flex-direction:column;gap:10px;padding:8px;background:var(--bg);border-radius:14px;border:1px solid var(--edge)}.cc-message{max-width:min(85%,610px);padding:10px 13px;background:var(--panel);border-radius:12px;overflow-wrap:anywhere}.cc-message.cc-own{margin-left:auto;background:var(--pale)}.cc-message p{margin:7px 0;white-space:pre-wrap}.cc-message-head{display:flex;gap:10px;align-items:center}.cc-message-head small{color:var(--sub)}.cc-message-tools{display:flex;gap:6px;flex-wrap:wrap}.cc-message-tools button{padding:6px 9px;font-size:11px}.cc-compose{display:flex;gap:9px;align-items:end}.cc-compose textarea{flex:1;min-width:0;resize:vertical}.cc-compose button{align-self:stretch}.cc-layout{display:grid;grid-template-columns:minmax(200px,260px) minmax(0,1fr);gap:12px}.cc-inbox{background:var(--panel);border:1px solid var(--edge);border-radius:16px;padding:12px;min-width:0}.cc-inbox h3{margin:0 0 12px}.cc-inbox label{display:grid;gap:7px}.cc-peer-list{display:grid;gap:6px;margin-top:12px}.cc-peer{border:1px solid var(--edge);padding:11px;border-radius:11px;background:var(--panel);color:var(--fg);text-align:left;cursor:pointer}.cc-peer.active{background:var(--pale);border-color:var(--accent)}.cc-peer small{display:block;color:var(--sub);margin-top:4px}@media(max-width:680px){.cc-layout{grid-template-columns:1fr}.cc-history{height:320px}.cc-compose{flex-direction:column;align-items:stretch}.cc-compose button{align-self:flex-end}}';
+const css='.cc-request{padding:15px;border-radius:14px;border:1px solid var(--edge);display:grid;gap:7px}.cc-request-pending{background:#fff2c7;color:#704d00;border-color:#e5bd4b}.cc-request-accepted{background:#dcf8e4;color:#17562b;border-color:#63bb7e}.cc-request-rejected{background:#ffe0e0;color:#7b2525;border-color:#df7777}.cc-request-top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.cc-request-badge{font-weight:700}.cc-request-details{white-space:pre-wrap;overflow-wrap:anywhere;margin:4px 0}.cc-request-actions{display:flex;flex-wrap:wrap;gap:6px}.cc-request-actions button{font-size:12px;padding:8px}.cc-request-actions .alt{background:#fff;color:#372552}.cc-modes button{min-width:0}@media(max-width:650px){.cc-modes button{font-size:12px;padding:12px 3px}}'+.cc-unread-badge{display:inline-flex;align-items:center;justify-content:center;min-width:21px;height:21px;padding:0 6px;background:#d92d59;color:#fff;border-radius:999px;font-weight:800;font-size:12px;line-height:1}.cc-peer-head{display:flex;align-items:center;justify-content:space-between;gap:7px}.cc-peer-preview{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:5px;color:var(--sub);font-size:12px}.cc-peer.cc-has-unread{border-color:var(--accent);background:var(--pale)}.cc-pinned{padding:15px 17px;border:1px solid var(--accent);border-radius:16px;background:var(--pale);color:var(--fg);box-shadow:0 2px 10px #0000000b}.cc-pinned-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:7px;color:var(--accent);font-size:13px;font-weight:800}.cc-pinned-heading small{color:var(--sub);font-weight:600}.cc-pinned h3{margin:12px 0 10px;font-size:17px}.cc-pinned-body{white-space:pre-wrap;line-height:1.6;font-size:14px;overflow-wrap:anywhere}.cc-wrap{display:grid;gap:14px}.cc-modes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:5px;background:var(--panel);border:1px solid var(--edge);border-radius:16px}.cc-modes button{border:0;border-radius:12px;background:transparent;color:var(--fg);padding:13px 7px;cursor:pointer;font-weight:650}.cc-modes button.active{background:var(--pale);color:var(--accent)}.cc-title{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}.cc-title h3{margin:0}.cc-panel{background:var(--panel);border:1px solid var(--edge);border-radius:16px;padding:15px;display:grid;gap:12px;min-width:0}.cc-history{height:360px;overflow-y:auto;display:flex;flex-direction:column;gap:10px;padding:8px;background:var(--bg);border-radius:14px;border:1px solid var(--edge)}.cc-message{max-width:min(85%,610px);padding:10px 13px;background:var(--panel);border-radius:12px;overflow-wrap:anywhere}.cc-message.cc-own{margin-left:auto;background:var(--pale)}.cc-message p{margin:7px 0;white-space:pre-wrap}.cc-message-head{display:flex;gap:10px;align-items:center}.cc-message-head small{color:var(--sub)}.cc-message-tools{display:flex;gap:6px;flex-wrap:wrap}.cc-message-tools button{padding:6px 9px;font-size:11px}.cc-compose{display:flex;gap:9px;align-items:end}.cc-compose textarea{flex:1;min-width:0;resize:vertical}.cc-compose button{align-self:stretch}.cc-layout{display:grid;grid-template-columns:minmax(200px,260px) minmax(0,1fr);gap:12px}.cc-inbox{background:var(--panel);border:1px solid var(--edge);border-radius:16px;padding:12px;min-width:0}.cc-inbox h3{margin:0 0 12px}.cc-inbox label{display:grid;gap:7px}.cc-peer-list{display:grid;gap:6px;margin-top:12px}.cc-peer{border:1px solid var(--edge);padding:11px;border-radius:11px;background:var(--panel);color:var(--fg);text-align:left;cursor:pointer}.cc-peer.active{background:var(--pale);border-color:var(--accent)}.cc-peer small{display:block;color:var(--sub);margin-top:4px}@media(max-width:680px){.cc-layout{grid-template-columns:1fr}.cc-history{height:320px}.cc-compose{flex-direction:column;align-items:stretch}.cc-compose button{align-self:flex-end}}';
 const style=document.createElement('style');style.textContent='.cc-profile-link{border:0;background:transparent;color:var(--accent);font:inherit;font-weight:750;cursor:pointer;text-align:left;padding:0;text-decoration:underline;text-underline-offset:3px}.cc-profile-link:hover{opacity:.8}.cc-profile-title{font-size:19px}.cc-peer-profile{display:block;margin-top:6px}.cc-peer-profile [role=button]{display:inline-block;padding:3px 0;color:var(--accent);font-size:12px;text-decoration:underline;text-underline-offset:2px;cursor:pointer}.cc-peer-profile [role=button]:focus-visible{outline:2px solid var(--accent)}'+css;document.head.appendChild(style);
 window.CollectorChats={setup,render,attach,start,clean,deactivate,connect,unreadCount};
 })();
