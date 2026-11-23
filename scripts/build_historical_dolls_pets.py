@@ -19,6 +19,7 @@ DEST=ROOT/"catalogs"/"verified-historical-dolls-pets.json"
 DIAGNOSTICS=ROOT/"catalogs"/"historical-dolls-pets-errors.json"
 HEADERS={"User-Agent":"Mozilla/5.0 (personal noncommercial historical toy catalog)"}
 ROOTS=[
+ ("thetoypool.com","bratz","series","bratz","Bratz","MGA Entertainment"),
  ("mh-merch.com","dolls","series","monsterhigh","Monster High","Mattel"),
  ("eahmerch.com","dolls","series","everafterhigh","Ever After High","Mattel"),
  ("lpsmerch.com","g1","line","lps","Littlest Pet Shop G1","Hasbro"),
@@ -30,7 +31,7 @@ ROOTS=[
 ]
 COUNT_RE=re.compile(r"(?:with a total of|total of)\s+([\d,]+)\s+(?:releases?|dolls?|pets?|figures?)",re.I)
 INDEX_RE=re.compile(r"\(([\d,]+)\s+(?:releases?|dolls?|pets?|figures?)\)",re.I)
-MAX_NEW_PER_RUN=96
+MAX_NEW_PER_RUN=120
 
 def get(url):
     response=requests.get(url,headers=HEADERS,timeout=30)
@@ -115,7 +116,8 @@ def parse(entry):
     else:
         completeness="verified-full-series" if expected else "verified-selected-releases"
     return {"name":entry["name"],"source":url,"fandomKey":entry["fandomKey"],
-            "group":{"monsterhigh":"🦇 Monster High · Historical Dolls",
+            "group":{"bratz":"💄 Bratz · Historical Dolls",
+                     "monsterhigh":"🦇 Monster High · Historical Dolls",
                      "everafterhigh":"📖 Ever After High · Historical Dolls",
                      "lps":"🐾 Littlest Pet Shop · "+entry["label"]}[entry["fandomKey"]],
             "manufacturer":entry["manufacturer"],"verified":True,
@@ -149,7 +151,7 @@ def main():
     for e in pending:by_fandom.setdefault(e["fandomKey"],[]).append(e)
     selected=[]
     while len(selected)<MAX_NEW_PER_RUN and any(by_fandom.values()):
-        for fandom in ("monsterhigh","everafterhigh","lps"):
+        for fandom in ("bratz","monsterhigh","everafterhigh","lps"):
             if len(selected)>=MAX_NEW_PER_RUN:break
             if by_fandom.get(fandom):selected.append(by_fandom[fandom].pop(0))
     def safe_parse(entry):
