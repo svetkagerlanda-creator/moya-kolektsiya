@@ -3552,7 +3552,7 @@
       "group": "🧚 Winx Club · School Merchandise",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 3,
+      "count": 5,
       "notes": "Тільки джерельно підтверджені фізичні випуски. Не вважати повною серією.",
       "items": [
         {
@@ -3596,6 +3596,34 @@
           "barcodeVerification": "Retailer explicitly publishes EAN13/barcode alongside this physical product and manufacturer; GTIN check digit validated",
           "barcodeNote": "EAN асортименту двох дизайнів; сканування веде до серії.",
           "description": "EAN асортименту двох дизайнів; сканування веде до серії."
+        },
+        {
+          "name": "Winx aluminum water bottle 500 ml — two designs",
+          "manufacturer": "Diakakis Imports",
+          "figureNumber": "000502265",
+          "variantKey": "winx:diakakis:5205698488870",
+          "sourceUrl": "https://www.toys-shop.gr/el/p/domatio/paidika-skevi/pagouria/1020784-diakakis-imports-winx-winx-pagouri-alouminiou-500-ml-2-schedia-000502265.html",
+          "photo": "",
+          "ean": "5205698488870",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.toys-shop.gr/el/p/domatio/paidika-skevi/pagouria/1020784-diakakis-imports-winx-winx-pagouri-alouminiou-500-ml-2-schedia-000502265.html",
+          "barcodeVerification": "Retailer publishes the manufacturer, model and GTIN-13 on the product page; check digit validated",
+          "barcodeNote": "EAN is for assorted colors/designs; barcode does not determine a specific design; route scan to series",
+          "description": "Фізичний мерч Winx із підтвердженим EAN. Два варіанти оформлення, код асортименту."
+        },
+        {
+          "name": "Winx Club metallic water bottle with cap 500 ml — two colors",
+          "manufacturer": "Diakakis Imports",
+          "figureNumber": "000502247",
+          "variantKey": "winx:diakakis:5205698439889",
+          "sourceUrl": "https://www.toys-shop.gr/en/p/kids-room/mealtime-products/canteen-bottles/1010527-diakakis-imports-winx-club-metallic-water-canteen-with-cap-500-ml-2-colours-000502247.html",
+          "photo": "",
+          "ean": "5205698439889",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.toys-shop.gr/en/p/kids-room/mealtime-products/canteen-bottles/1010527-diakakis-imports-winx-club-metallic-water-canteen-with-cap-500-ml-2-colours-000502247.html",
+          "barcodeVerification": "Retailer publishes the manufacturer, model and GTIN-13 on the product page; check digit validated",
+          "barcodeNote": "EAN is for assorted colors/designs; barcode does not determine a specific design; route scan to series",
+          "description": "Фізичний мерч Winx із підтвердженим EAN. Два варіанти оформлення, код асортименту."
         }
       ]
     }
