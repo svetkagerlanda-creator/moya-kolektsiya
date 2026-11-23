@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "scope": "Hasbro · G4 Brushables · Original Series",
+  "totalItems": 172,
+  "photoPresent": 166,
+  "photoMissing": 6,
+  "verification": "static catalogue inspection; remote image availability not confirmed",
+  "missing": [
+    {
+      "name": "Applejack",
+      "catalogPosition": "osrsajnf",
+      "setName": "Single Wave 1",
+      "description": "Comes with puppy, no forelock",
+      "sourceUrl": "https://data.mlpmerch.com/brushables/details/osrsajnf/",
+      "issue": "missing_photo",
+      "status": "needs_exact_release_photo"
+    },
+    {
+      "name": "Fluttershy",
+      "catalogPosition": "osrsfslp",
+      "setName": "Single Wave 1",
+      "description": "Comes with bunny, light pink hair",
+      "sourceUrl": "https://data.mlpmerch.com/brushables/details/osrsfslp/",
+      "issue": "missing_photo",
+      "status": "needs_exact_release_photo"
+    },
+    {
+      "name": "Rainbow Dash",
+      "catalogPosition": "osrsrdnf",
+      "setName": "Single Wave 1",
+      "description": "Comes with squirrel, no forelock",
+      "sourceUrl": "https://data.mlpmerch.com/brushables/details/osrsrdnf/",
+      "issue": "missing_photo",
+      "status": "needs_exact_release_photo"
+    },
+    {
+      "name": "Twilight Sparkle",
+      "catalogPosition": "osrstsnf",
+      "setName": "Single Wave 1",
+      "description": "Comes with owl, no forelock",
+      "sourceUrl": "https://data.mlpmerch.com/brushables/details/osrstsnf/",
+      "issue": "missing_photo",
+      "status": "needs_exact_release_photo"
+    },
+    {
+      "name": "Cheerilee",
+      "catalogPosition": "osrs2chnf",
+      "setName": "Single Wave 2",
+      "description": "Comes with ladybug, no forelock",
+      "sourceUrl": "https://data.mlpmerch.com/brushables/details/osrs2chnf/",
+      "issue": "missing_photo",
+      "status": "needs_exact_release_photo"
+    },
+    {
+      "name": "Cheerilee",
+      "catalogPosition": "ospshchnf",
+      "setName": "Ponyville Schoolhouse",
+      "description": "No forelock",
+      "sourceUrl": "https://data.mlpmerch.com/brushables/details/ospshchnf/",
+      "issue": "missing_photo",
+      "status": "needs_exact_release_photo"
+    }
+  ]
+}
