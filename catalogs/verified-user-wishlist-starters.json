@@ -295,7 +295,12 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 899,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6958985016001",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://ms-b2b-usa.com/products/40085016001",
+          "assortmentBarcodeVerification": "Explicit product barcode for sealed single blind box; GS1 check digit verified",
+          "assortmentBarcodeNote": "Scan opens entire series; characters in blind boxes do not have separately verified UPCs."
         },
         {
           "name": "Ghostly Bouquet",
@@ -382,7 +387,11 @@
         }
       ],
       "sourceType": "52TOYS-official-figure-names-and-retailer-packaging",
-      "verifiedFigureCount": 7
+      "verifiedFigureCount": 7,
+      "assortmentEan": "6958985016001",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://ms-b2b-usa.com/products/40085016001",
+      "assortmentBarcodeNote": "EAN for one factory-sealed random blind box; not an individual character, secret, display case or full set"
     },
     {
       "name": "POP TOP · Letsvan Ziyuli · Духовна сила",
@@ -900,7 +909,12 @@
           "photo": "https://hi52toys.com/cdn/shop/files/laplly-song-of-the-tarot-1-12.webp?v=1786116825&width=1200",
           "retailPriceUAH": 899,
           "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
-          "photoCredit": "52TOYS — official sealed blind box"
+          "photoCredit": "52TOYS — official sealed blind box",
+          "assortmentEan": "6958985026437",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://rozetka.pl/ua/52toys-6958985026437/p592738414/",
+          "assortmentBarcodeVerification": "Explicit product barcode for sealed single blind box; GS1 check digit verified",
+          "assortmentBarcodeNote": "Scan opens entire series; characters in blind boxes do not have separately verified UPCs."
         },
         {
           "name": "The Fool",
@@ -1012,7 +1026,11 @@
         }
       ],
       "sourceType": "52TOYS-official-figure-names-and-retailer-packaging",
-      "verifiedFigureCount": 9
+      "verifiedFigureCount": 9,
+      "assortmentEan": "6958985026437",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://rozetka.pl/ua/52toys-6958985026437/p592738414/",
+      "assortmentBarcodeNote": "EAN for one factory-sealed random blind box; not an individual character, secret, display case or full set"
     },
     {
       "name": "POP MART · SKULLPANDA · The Paradox",
@@ -1608,7 +1626,12 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 1199,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6931571030353",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://www.momie.fr/product/show/6931571030353/pop-mart-azura-warm-christmas-series-blind-box",
+          "assortmentBarcodeVerification": "Explicit product barcode for sealed single blind box; GS1 check digit verified",
+          "assortmentBarcodeNote": "Scan opens entire series; characters in blind boxes do not have separately verified UPCs."
         },
         {
           "name": "Wishful Candlelight",
@@ -1771,7 +1794,11 @@
       "sourceType": "manufacturer-official-figures-and-retailer-packaging",
       "verifiedFigureCount": 13,
       "regularFigureCount": 12,
-      "secretFigureCount": 1
+      "secretFigureCount": 1,
+      "assortmentEan": "6931571030353",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://www.momie.fr/product/show/6931571030353/pop-mart-azura-warm-christmas-series-blind-box",
+      "assortmentBarcodeNote": "EAN for one factory-sealed random blind box; not an individual character, secret, display case or full set"
     },
     {
       "name": "POP MART · SKULLPANDA · Image of Reality",
@@ -1979,7 +2006,12 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 1499,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6941848290694",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://www.momie.fr/product/show/6941848290694/pop-mart-skullpanda-the-sound-series-figures-blind-box",
+          "assortmentBarcodeVerification": "Explicit product barcode for sealed single blind box; GS1 check digit verified",
+          "assortmentBarcodeNote": "Scan opens entire series; characters in blind boxes do not have separately verified UPCs."
         },
         {
           "name": "The Joy",
@@ -2141,7 +2173,11 @@
       "sourceType": "manufacturer-official-figures-and-retailer-packaging",
       "verifiedFigureCount": 13,
       "regularFigureCount": 12,
-      "secretFigureCount": 1
+      "secretFigureCount": 1,
+      "assortmentEan": "6941848290694",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://www.momie.fr/product/show/6941848290694/pop-mart-skullpanda-the-sound-series-figures-blind-box",
+      "assortmentBarcodeNote": "EAN for one factory-sealed random blind box; not an individual character, secret, display case or full set"
     },
     {
       "name": "POP MART · SKULLPANDA · The Ink Plum Blossom",
