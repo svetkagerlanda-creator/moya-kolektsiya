@@ -4,6 +4,19 @@
 const URLROOT='https://nihheolmwvkgtvtmfzsv.supabase.co';
 const KEY='sb_publishable_M_mIhlp0ZqintLb0ONy8BQ_SzEBCAT0';
 const st={id:'',people:[],mode:'general',target:'',thread:'',threads:[],general:[],direct:[],blocked:[],inbox:[],readSeen:{},drafts:{},announcement:null,busy:false,loaded:false,error:'',info:'',refresh:null,fetching:false,peekBusy:false,lastPeek:0};
+const chatViewKey=id=>'collector-chat-view-v1:'+id;
+function loadChatView(id){
+ try{
+  const stored=JSON.parse(sessionStorage.getItem(chatViewKey(id))||'null');
+  if(!stored)return {};
+  const target=typeof stored.target==='string'&&/^[0-9a-f-]{36}$/i.test(stored.target)&&stored.target!==id?stored.target:'';
+  return {mode:stored.mode==='direct'?'direct':'general',target};
+ }catch{return {}}
+}
+function rememberChatView(){
+ if(!st.id)return;
+ try{sessionStorage.setItem(chatViewKey(st.id),JSON.stringify({mode:st.mode,target:st.target}))}catch{}
+}
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const tr=s=>window.CollectorI18n?.translate(s,document.documentElement.lang||'uk')||s;
 const knownPerson=id=>st.people.find(p=>p.id===id);
@@ -38,14 +51,14 @@ const messageView=(m,where)=>{
 };
 function start(userId){
  if(!st.id||!userId||userId===st.id)return;
- st.mode='direct';st.target=userId;st.thread='';
+ st.mode='direct';st.target=userId;st.thread='';rememberChatView();
  const existing=st.threads.find(t=>[t.user_low,t.user_high].includes(userId));
  if(existing)st.thread=existing.id;
  st.direct=[];st.error='';st.info='';st.refresh?.();
  if(existing)refreshMessages();
 }
 function setup(id,people){
- if(st.id!==id)Object.assign(st,{id,people:people||[],mode:'general',target:'',thread:'',threads:[],general:[],direct:[],blocked:[],inbox:[],readSeen:{},drafts:{},announcement:null,loaded:false,error:'',info:'',busy:false,fetching:false,peekBusy:false,lastPeek:0});
+ if(st.id!==id)Object.assign(st,{id,people:people||[],mode:'general',target:'',thread:'',threads:[],general:[],direct:[],blocked:[],inbox:[],readSeen:{},drafts:{},announcement:null,loaded:false,error:'',info:'',busy:false,fetching:false,peekBusy:false,lastPeek:0,...loadChatView(id)});
  else st.people=people||[];
 }
 function clean(){if(notificationTimer){clearInterval(notificationTimer);notificationTimer=null}st.id='';st.loaded=false;st.threads=[];st.general=[];st.direct=[];st.blocked=[];st.inbox=[];st.readSeen={};st.drafts={};st.announcement=null;st.target='';st.thread='';clearInterval(timer);timer=null}
@@ -152,6 +165,7 @@ function compose(where){
 }
 function render(){
  if(!st.id)return '<div class="empty">'+tr('Увійди в акаунт, щоб користуватися чатом.')+'</div>';
+ rememberChatView();
  return '<div class="cc-wrap"><div class="cc-modes" role="group" aria-label="'+tr('Види чатів')+'"><button type="button" data-cc-mode="general" class="'+(st.mode==='general'?'active':'')+'">🌍 '+tr('Загальний чат')+'</button><button type="button" data-cc-mode="direct" class="'+(st.mode==='direct'?'active':'')+'">✉ '+tr('Особисті повідомлення')+unreadBadge(unreadCount())+'</button></div>'
  +'<p class="muted">'+tr('У чатах не публікуються твої колекції чи фото без твоєї дії. Не надсилай паролі та резервні коди.')+'</p>'
  +(st.error?'<div class="banner">'+esc(st.error)+'</div>':'')+(st.info?'<div class="banner">'+esc(st.info)+'</div>':'')
@@ -217,7 +231,7 @@ async function doAction(type,el){
 function attach(refresh){
  st.refresh=refresh;
  if(!st.loaded&&!st.fetching){refreshAll();return}
- document.querySelectorAll('[data-cc-mode]').forEach(b=>b.onclick=()=>{st.mode=b.dataset.ccMode;st.error='';refresh();if(st.mode==='direct'&&st.thread)refreshMessages()});
+ document.querySelectorAll('[data-cc-mode]').forEach(b=>b.onclick=()=>{st.mode=b.dataset.ccMode;st.error='';rememberChatView();refresh();if(st.mode==='direct'&&st.thread)refreshMessages()});
  document.querySelectorAll('[data-cc]').forEach(b=>{
    b.onclick=event=>{if(b.dataset.cc==='person'&&event.target.closest('[data-cc="profile"]'))return;doAction(b.dataset.cc,b)};
    if(b.getAttribute('role')==='button')b.onkeydown=event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();event.stopPropagation();doAction(b.dataset.cc,b)}};
