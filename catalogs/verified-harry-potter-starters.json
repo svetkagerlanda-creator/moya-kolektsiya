@@ -8,8 +8,8 @@
       "manufacturer": "Spin Master",
       "source": "https://www.spinmaster.com/en-US/brands/harrypotter",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 7,
+      "completeness": "verified-selected-mystery-variants",
+      "count": 8,
       "items": [
         {
           "name": "Harry, Ron & Hedwig — 3-Figure Set",
@@ -71,9 +71,18 @@
           "photo": "",
           "rarity": "Regular",
           "description": "Named possible outcome confirmed by Spin Master's product description of the 15-design mystery assortment. No specific individual photo or barcode verified. Does not identify contents of a sealed pack."
+        },
+        {
+          "name": "Mystery variant — Hermione Granger — Levitation Spell",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.wizardo.cz/sberatelske-figurky/harry-potter-micro-magical-moments/",
+          "photo": "",
+          "rarity": "Undetermined",
+          "description": "Collector retailer identifies Hermione practicing the levitation spell as a Year 1 surprise collectible; separate from Hermione with the Sorting Hat. Exact variant photo and individual barcode not verified."
         }
       ],
-      "notes": "Mystery checklist in progress: manufacturer confirms 15 possible figures; only variants explicitly named by the manufacturer have separate cards."
+      "notes": "Spin Master confirms 15 Year 1 mystery designs; four explicitly identified in current checklist. Do not substitute exclusive multi-pack figurines for a blind-box variant without source confirmation."
     },
     {
       "name": "Harry Potter · Spin Master · Micro Magical Moments · Year 4",
