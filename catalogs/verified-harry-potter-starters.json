@@ -3069,6 +3069,258 @@
           "rarity": "1/12"
         }
       ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2026 Hogwarts Classrooms",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/page/lego-offers-promotions/latest-terms-and-conditions",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Hogwarts Castle: Charms Class",
+          "manufacturer": "LEGO",
+          "figureNumber": "76442",
+          "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/76442",
+          "photo": "",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2026 Hogwarts East Wing",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/page/lego-offers-promotions/latest-terms-and-conditions",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Hogwarts Castle: East Wing",
+          "manufacturer": "LEGO",
+          "figureNumber": "76473",
+          "sourceUrl": "https://www.lego.com/uk-ua/product/hogwarts-castle-east-wing-76473",
+          "photo": "",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2026 Hogwarts Herbology Displays",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/page/lego-offers-promotions/latest-terms-and-conditions",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Hogwarts Herbology Plants",
+          "manufacturer": "LEGO",
+          "figureNumber": "76474",
+          "sourceUrl": "https://www.lego.com/uk-ua/product/hogwarts-herbology-plants-76474",
+          "photo": "",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2026 Magical Creatures & Patronus",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/page/lego-offers-promotions/latest-terms-and-conditions",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "items": [
+        {
+          "name": "Dobby the Free Elf",
+          "manufacturer": "LEGO",
+          "figureNumber": "76469",
+          "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/76469",
+          "photo": "",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+        },
+        {
+          "name": "Norbert: Hagrid's Baby Dragon",
+          "manufacturer": "LEGO",
+          "figureNumber": "76477",
+          "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/76477",
+          "photo": "",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+        },
+        {
+          "name": "Forbidden Forest: Expecto Patronum",
+          "manufacturer": "LEGO",
+          "figureNumber": "76475",
+          "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/76475",
+          "photo": "",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2026 Wizarding House Decorations",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/page/lego-offers-promotions/latest-terms-and-conditions",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Hogwarts House Crest",
+          "manufacturer": "LEGO",
+          "figureNumber": "76462",
+          "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/76462",
+          "photo": "",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+        },
+        {
+          "name": "Book Nook: Dumbledore's Office",
+          "manufacturer": "LEGO",
+          "figureNumber": "76478",
+          "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/76478",
+          "photo": "",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2026 Privet Drive Scenes",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/page/lego-offers-promotions/latest-terms-and-conditions",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Hagrid & Harry's Privet Drive Escape",
+          "manufacturer": "LEGO",
+          "figureNumber": "76459",
+          "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/76459",
+          "photo": "",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+        },
+        {
+          "name": "Privet Drive: Aunt Marge's Visit",
+          "manufacturer": "LEGO",
+          "figureNumber": "76451",
+          "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/76451",
+          "photo": "",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · 2026 Knockturn Alley Shops",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/page/lego-offers-promotions/latest-terms-and-conditions",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Knockturn Alley Wizarding Shops",
+          "manufacturer": "LEGO",
+          "figureNumber": "76471",
+          "sourceUrl": "https://www.lego.com/uk-ua/product/knockturn-alley-wizarding-shops-76471",
+          "photo": "",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · BrickHeadz · The Goblet of Fire Figures",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/page/lego-offers-promotions/latest-terms-and-conditions",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "The Goblet of Fire Figures (five-character set)",
+          "manufacturer": "LEGO",
+          "figureNumber": "40791",
+          "sourceUrl": "https://www.lego.com/en-us/product/the-goblet-of-fire-figures-40791",
+          "photo": "",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! · Hogwarts Collector Pack 12-Pack",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/bitty-pop-collector-pack-harry-potter-12-pack/92219.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Hogwarts Collector Pack — 12 Bitty POP! figures (Hermione, Bellatrix, Draco, Nearly Headless Nick, Dumbledore, Dobby, McGonagall, Ron, Hagrid, Quidditch Draco, Harry, Voldemort)",
+          "manufacturer": "Funko",
+          "figureNumber": "92219",
+          "sourceUrl": "https://funko.com/bitty-pop-collector-pack-harry-potter-12-pack/92219.html",
+          "photo": "",
+          "description": "Official Funko product listing. Item number is a product identifier, not a barcode; exact individual image and EAN/UPC pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! · Goblet of Fire Mystery 12-Pack (85699)",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/es/bitty-pop-harry-potter-and-the-goblet-of-fire-12-pack/85699.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Goblet of Fire Yule Ball Bitty POP! — 12 randomized blind packs",
+          "manufacturer": "Funko",
+          "figureNumber": "85699",
+          "sourceUrl": "https://funko.com/es/bitty-pop-harry-potter-and-the-goblet-of-fire-12-pack/85699.html",
+          "photo": "",
+          "description": "Official Funko product listing. Item number is a product identifier, not a barcode; exact individual image and EAN/UPC pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! · Mystery Singles 12-Pack Polybag (84813)",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/ca/bitty-pop-singles-harry-potter-12-pack-polybag/84813.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Harry Potter Bitty POP! Mystery Singles — 12 randomized blind packs",
+          "manufacturer": "Funko",
+          "figureNumber": "84813",
+          "sourceUrl": "https://funko.com/ca/bitty-pop-singles-harry-potter-12-pack-polybag/84813.html",
+          "photo": "",
+          "description": "Official Funko product listing. Item number is a product identifier, not a barcode; exact individual image and EAN/UPC pending."
+        }
+      ]
     }
   ]
 }
