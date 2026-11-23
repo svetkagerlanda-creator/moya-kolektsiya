@@ -22,10 +22,17 @@ async function api(table,params='',method='GET',body){
  if(!res.ok)throw Error(data?.message||'Помилка сервера: '+res.status);
  return data;
 }
+async function directory(){
+ const token=await window.CollectorCommunity?.getAccessToken?.();if(!token)throw Error('Увійди, щоб переглянути колекціонерів.');
+ const response=await fetch(BASE+'/rest/v1/rpc/collector_directory',{method:'POST',headers:{apikey:KEY,Authorization:'Bearer '+token,'Content-Type':'application/json'},body:'{}',cache:'no-store'});
+ const payload=await response.json().catch(()=>null);
+ if(!response.ok)throw Error(payload?.message||'Не вдалося завантажити список колекціонерів');
+ return Array.isArray(payload)?payload:[];
+}
 async function reload(){
  if(state.loading)return;state.loading=true;
  try{
-  const [people,posts,likes,comments,follows,fandoms,fandomFollows,collectionSummaries]=await Promise.all([
+  const [visiblePeople,posts,likes,comments,follows,fandoms,fandomFollows,collectionSummaries,allPeople]=await Promise.all([
    api('collector_profiles','select=id,handle,display_name,bio,avatar_path,cover_path,cover_position_x,cover_position_y,social_links,is_discoverable&limit=200'),
    api('collector_posts','select=id,user_id,title,body,photo_path,fandom_id,created_at&order=created_at.desc&limit=100'),
    api('collector_post_likes','select=post_id,user_id&limit=2500'),
@@ -33,8 +40,11 @@ async function reload(){
    api('collector_follows','select=follower_id,followed_id&limit=2500'),
    api('collector_fandoms','select=id,title,slug&order=title.asc&limit=100'),
    api('collector_fandom_follows','select=user_id,fandom_id&limit=150'),
-    api('collector_public_collections','select=user_id,folder_id,title,owned_count,total_count&limit=2000')
+    api('collector_public_collections','select=user_id,folder_id,title,owned_count,total_count&limit=2000'),
+   directory()
   ]);
+  const detailById=new Map(visiblePeople.map(p=>[p.id,p]));
+  const people=allPeople.map(p=>({...p,...(detailById.get(p.id)||{})}));
   Object.assign(state,{people,posts,likes,comments,follows,fandoms,fandomFollows,collectionSummaries,profile:people.find(p=>p.id===state.id),loaded:true,error:''});
    syncCollectionSummaries();
  }catch(err){state.error=String(err.message||err)}finally{state.loading=false;state.refresh?.()}
@@ -141,7 +151,7 @@ function render(session){
  const p=state.person?person(state.person):state.profile;
  window.CollectorChats?.setup(id,state.people);
  const unreadDm=window.CollectorChats?.unreadCount?.()||0;
- return '<div class="sc-wrap"><nav class="sc-tabs">'+[['profile','Профіль'],['feed','Стрічка'],['people','Люди'],['fandoms','Фандоми'],['chats','Чати']].map(([id,t])=>'<button class="'+(state.tab===id?'active':'')+'" type="button" data-sc-tab="'+id+'">'+t+(id==='chats'&&unreadDm?'<span class="sc-chat-count" aria-label="Непрочитаних повідомлень: '+unreadDm+'">'+(unreadDm>99?'99+':unreadDm)+'</span>':'')+'</button>').join('')+'</nav>'+(state.error?'<div class="banner">'+escape(state.error)+'</div>':'')+(!state.loaded?'<div class="empty">'+(state.error?'Не вдалося завантажити профіль. Перевір інтернет і повтори спробу. <button class="btn" data-sc="refresh">↻ Повторити</button>':'Завантаження...')+'</div>':state.tab==='profile'?(p?profileCard(p)+(state.editing&&p.id===state.id?editForm(p):'')+(state.followList?followList():collectionPanel(p))+(state.posting&&p.id===state.id?createForm():'')+(p.id===state.id?postToolbar():'')+timeline(state.posts.filter(x=>x.user_id===p.id),p.id===state.id):'<div class="empty">Не вдалося завантажити профіль</div>'):state.tab==='feed'?feed():state.tab==='chats'?(window.CollectorChats?.render()||'<div class="empty">Модуль чатів не завантажився</div>'):state.tab==='people'?'<h2>Колекціонери</h2><p class="muted">Показані ваш акаунт та користувачі, які дозволили знаходити свій профіль. Приватні профілі приховані.</p><input id="scSearch" class="field" placeholder="Знайти нікнейм..."><div class="sc-people">'+state.people.filter(p=>p.id===state.id||p.is_discoverable).sort((a,b)=>(a.id===state.id?-1:b.id===state.id?1:label(a).localeCompare(label(b),'uk'))).map(p=>'<button class="card sc-tile" data-sc="person" data-id="'+p.id+'">'+pic(p)+'<span>'+escape(label(p))+'<small>@'+escape(p.handle)+(p.id===state.id?' · Це ви':'')+'</small></span> ›</button>').join('')+'</div>':'<h2>Підписки на фандоми</h2><div class="sc-fandoms">'+state.fandoms.map(f=>{let on=state.fandomFollows.some(x=>x.user_id===state.id&&x.fandom_id===f.id);return '<div class="card sc-fandom"><span>✨ '+escape(f.title)+'</span><button class="'+(on?'alt':'btn')+'" data-sc="fandom" data-id="'+f.id+'">'+(on?'✓ Стежу':'＋ Стежити')+'</button></div>'}).join('')+'</div>')+'</div>';
+ return '<div class="sc-wrap"><nav class="sc-tabs">'+[['profile','Профіль'],['feed','Стрічка'],['people','Люди'],['fandoms','Фандоми'],['chats','Чати']].map(([id,t])=>'<button class="'+(state.tab===id?'active':'')+'" type="button" data-sc-tab="'+id+'">'+t+(id==='chats'&&unreadDm?'<span class="sc-chat-count" aria-label="Непрочитаних повідомлень: '+unreadDm+'">'+(unreadDm>99?'99+':unreadDm)+'</span>':'')+'</button>').join('')+'</nav>'+(state.error?'<div class="banner">'+escape(state.error)+'</div>':'')+(!state.loaded?'<div class="empty">'+(state.error?'Не вдалося завантажити профіль. Перевір інтернет і повтори спробу. <button class="btn" data-sc="refresh">↻ Повторити</button>':'Завантаження...')+'</div>':state.tab==='profile'?(p?(p.id!==state.id&&!p.is_discoverable?'<div class="card"><button class="alt" data-sc="back-profile">← Назад до мого профілю</button><div class="sc-person">'+pic(p,true)+'<div><h2>'+escape(label(p))+'</h2><span class="muted">@'+escape(p.handle)+'</span></div></div><p class="muted">🔒 Профіль приватний. Публікації та колекції доступні лише для публічних профілів.</p></div>':profileCard(p)+(state.editing&&p.id===state.id?editForm(p):'')+(state.followList?followList():collectionPanel(p))+(state.posting&&p.id===state.id?createForm():'')+(p.id===state.id?postToolbar():'')+timeline(state.posts.filter(x=>x.user_id===p.id),p.id===state.id)):'<div class="empty">Не вдалося завантажити профіль</div>'):state.tab==='feed'?feed():state.tab==='chats'?(window.CollectorChats?.render()||'<div class="empty">Модуль чатів не завантажився</div>'):state.tab==='people'?'<h2>Колекціонери</h2><p class="muted">Показані всі зареєстровані користувачі. Публікації та колекції можна переглядати лише у відкритих профілях.</p><input id="scSearch" class="field" placeholder="Знайти нікнейм..."><div class="sc-people">'+state.people.slice().sort((a,b)=>(a.id===state.id?-1:b.id===state.id?1:label(a).localeCompare(label(b),'uk'))).map(p=>'<button class="card sc-tile" data-sc="person" data-id="'+p.id+'">'+pic(p)+'<span>'+escape(label(p))+'<small>@'+escape(p.handle)+(p.id===state.id?' · Це ви':!p.is_discoverable?' · 🔒 Приватний':'')+'</small></span> ›</button>').join('')+'</div>':'<h2>Підписки на фандоми</h2><div class="sc-fandoms">'+state.fandoms.map(f=>{let on=state.fandomFollows.some(x=>x.user_id===state.id&&x.fandom_id===f.id);return '<div class="card sc-fandom"><span>✨ '+escape(f.title)+'</span><button class="'+(on?'alt':'btn')+'" data-sc="fandom" data-id="'+f.id+'">'+(on?'✓ Стежу':'＋ Стежити')+'</button></div>'}).join('')+'</div>')+'</div>';
 }
 async function fileFromCardPhoto(src){
  if(typeof src!=='string'||!src)return null;
@@ -359,7 +369,7 @@ function prepareAcquisition(item){
 function openProfile(id,source='chats'){
  if(!id||id===state.id){state.person=null;state.tab='profile';state.returnTo=null;state.refresh?.();return}
  const p=person(id);
- if(!p||!p.is_discoverable){state.error='Профіль цього користувача недоступний.';state.refresh?.();return}
+ if(!p){state.error='Профіль цього користувача недоступний.';state.refresh?.();return}
  state.person=id;state.tab='profile';state.followList=null;state.returnTo=source;state.editing=false;state.posting=false;
  window.CollectorChats?.deactivate?.();state.refresh?.();
 }
