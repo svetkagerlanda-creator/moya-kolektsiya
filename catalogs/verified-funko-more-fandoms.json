@@ -57,7 +57,11 @@
           "seriesNumber": "93892",
           "sourceUrl": "https://funko.com/pop-kaigaku/93892.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw257e90fa/images/funko/upload/1/93892_DemonSlayerMovie_Kaigaku_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 93892"
+          "description": "Funko item 93892",
+          "upc": "889698938921",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-demon-slayer-kaigaku-4.1-in-vinyl-figure/437619.html",
+          "barcodeVerification": "GameStop explicitly lists UPC 889698938921 and vendor part number 93892; checksum validated"
         },
         {
           "name": "Shinobu Kocho (Bloody)",
