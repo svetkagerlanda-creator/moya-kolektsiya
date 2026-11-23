@@ -196,7 +196,12 @@
           "variantKey": "POP MART|POP MART · DIMOO WORLD × Disney · Phone Charms|7|Goofy's Prank"
         }
       ],
-      "identityPolicy": "Series source URL may be shared across variants; identify items by manufacturer + series + catalogPosition + name, not sourceUrl alone."
+      "identityPolicy": "Series source URL may be shared across variants; identify items by manufacturer + series + catalogPosition + name, not sourceUrl alone.",
+      "assortmentEan": "6931571052690",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://www.eslite.com/product/10042302032682864506003",
+      "assortmentBarcodeVerification": "Exact DIMOO WORLD x Disney Series Phone Charm Blind Box single-pack EAN confirmed by Eslite and Vietnamese toy seller, plus shipping product descriptions; checksum valid",
+      "assortmentBarcodeNote": "One sealed random phone charm, not a specific character. Do not confuse phone charm with Disney vinyl plush keychain or magnet."
     },
     {
       "name": "POP MART · DIMOO WORLD × Pixar · Card Holders",
