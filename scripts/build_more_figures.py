@@ -98,8 +98,9 @@ def parse(entry):
     if detail_count and index_count and detail_count!=index_count:
         raise ValueError(f"Conflicting source totals: page={detail_count} index={index_count}")
     expected=detail_count or index_count
-    if not expected:
-        raise ValueError("No source-declared total on series page or index; cannot verify completeness")
+    # When the source has no authoritative total, publish *only* the
+    # individually evidenced releases, explicitly flagged as a partial list.
+    # A partial series can be useful to a collector but is never labelled complete.
     items={}
     for a in soup.select(f'a[href*="/{root}/details/"]'):
         bottom=a.find_parent(class_="data-bottom")
@@ -152,9 +153,13 @@ def parse(entry):
             "description":"; ".join(notes),
             "sourceUrl":href,"photo":image
         }
-    if len(items)!=expected:
+    if not items:
+        raise ValueError("No confirmed individual release links")
+    if expected and len(items)!=expected:
         raise ValueError(f"Source declares {expected} releases; found {len(items)} unique details")
     return {"name":name,"count":len(items),"source":url,"verified":True,
+            "completeness":"verified-full-series" if expected else "verified-selected-releases",
+            "sourceDeclaredCount":expected,
             "manufacturer":items[next(iter(items))]["manufacturer"],"items":list(items.values())}
 
 def main():
@@ -178,7 +183,15 @@ def main():
             entry=jobs[future]
             try:
                 result=future.result()
-                old_photos={card.get('sourceUrl'):card.get('photo') for card in previous.get(result['name'],{}).get('items',[]) if card.get('photo')}
+                old_record=previous.get(result['name'],{})
+                # Never demote an already verified complete series to a partial
+                # upstream extract. Existing collector data remains unchanged.
+                if (old_record.get('verified') is True
+                        and old_record.get('completeness')!='verified-selected-releases'
+                        and result.get('completeness')=='verified-selected-releases'):
+                    print(f"KEEP COMPLETE {result['name']}",flush=True)
+                    continue
+                old_photos={card.get('sourceUrl'):card.get('photo') for card in old_record.get('items',[]) if card.get('photo')}
                 for card in result['items']:
                     if not card.get('photo'):
                         card['photo']=old_photos.get(card['sourceUrl'],'')
