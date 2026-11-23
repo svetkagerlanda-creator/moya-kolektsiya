@@ -1795,8 +1795,12 @@
           "seriesNumber": "31021",
           "catalogPosition": "2",
           "sourceUrl": "https://funko.com/ch/harry-potter-mystery-minis/31021.html",
-          "photo": "",
-          "description": "Official Funko lineup; individual photo awaiting exact verification."
+          "photo": "https://i.ebayimg.com/images/g/lqIAAOSw5sRnDEJD/s-l500.jpg",
+          "description": "Official Funko lineup; individual photo awaiting exact verification.",
+          "photoSourceUrl": "https://www.ebay.com/p/25061740947",
+          "photoCredit": "Marketplace listing — actual Funko Mystery Minis Mad-Eye Moody figure",
+          "photoStatus": "individual-figure-marketplace-photo",
+          "photoVerificationNote": "Visual figure match (magical eye, staff, hair and long coat); image includes decorated purple background. Manufacturer gallery photo not available, listing image availability may change."
         },
         {
           "name": "Rita Skeeter",
