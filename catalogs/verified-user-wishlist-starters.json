@@ -439,7 +439,12 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 1499,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6941313038417",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://littlethingsme.com/products/chaka-luminous-reverie-series-figures-by-pop-mart",
+          "assortmentBarcodeVerification": "Retail listing explicitly supplies barcode for named single blind box; GS1 checksum validated",
+          "assortmentBarcodeNote": "Shared sealed assortment barcode; not a unique code for the mystery character."
         },
         {
           "name": "Messenger",
@@ -602,7 +607,11 @@
       "sourceType": "manufacturer-official-figures-and-retailer-packaging",
       "verifiedFigureCount": 13,
       "regularFigureCount": 12,
-      "secretFigureCount": 1
+      "secretFigureCount": 1,
+      "assortmentEan": "6941313038417",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://littlethingsme.com/products/chaka-luminous-reverie-series-figures-by-pop-mart",
+      "assortmentBarcodeNote": "Single random sealed blind box: scan opens collection series, not a particular hidden variant."
     },
     {
       "name": "10/10 Toys · TNT Anita · Mountains and Seas Have Spirits",
@@ -650,7 +659,12 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 2999,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6941313066854",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://artoyz.com/collections/peluches/products/skullpanda-x-my-little-pony-series",
+          "assortmentBarcodeVerification": "Retail listing explicitly supplies barcode for named single blind box; GS1 checksum validated",
+          "assortmentBarcodeNote": "Shared sealed assortment barcode; not a unique code for the mystery character."
         },
         {
           "name": "Rainbow Dash",
@@ -760,7 +774,11 @@
       "verifiedFigureCount": 8,
       "regularFigureCount": 6,
       "secretFigureCount": 2,
-      "sourceType": "manufacturer-official-figures-and-retailer-packaging"
+      "sourceType": "manufacturer-official-figures-and-retailer-packaging",
+      "assortmentEan": "6941313066854",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://artoyz.com/collections/peluches/products/skullpanda-x-my-little-pony-series",
+      "assortmentBarcodeNote": "Single random sealed blind box: scan opens collection series, not a particular hidden variant."
     },
     {
       "name": "PMI · Naruto Shippuden",
@@ -1053,7 +1071,12 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 1199,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6941313011014",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://www.momie.fr/product/show/6941313011014/pop-mart-skullpanda-the-paradox-series-figures-blind-box",
+          "assortmentBarcodeVerification": "Retail listing explicitly supplies barcode for named single blind box; GS1 checksum validated",
+          "assortmentBarcodeNote": "Shared sealed assortment barcode; not a unique code for the mystery character. Alternate seller EAN 6941313010840 is not assigned to this release."
         },
         {
           "name": "Out of the Mud",
@@ -1215,7 +1238,11 @@
       "sourceType": "manufacturer-official-figures-and-retailer-packaging",
       "verifiedFigureCount": 13,
       "regularFigureCount": 12,
-      "secretFigureCount": 1
+      "secretFigureCount": 1,
+      "assortmentEan": "6941313011014",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://www.momie.fr/product/show/6941313011014/pop-mart-skullpanda-the-paradox-series-figures-blind-box",
+      "assortmentBarcodeNote": "Single random sealed blind box: scan opens collection series, not a particular hidden variant. Other seller lists 6941313010840; potential market/pack variant, do not merge without verification."
     },
     {
       "name": "52TOYS · Sleep Dreamland Elves · Life of Fantasies",
@@ -1821,7 +1848,12 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 1499,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6941848264916",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://artoyz.com/en/products/skullpanda-image-of-reality-series",
+          "assortmentBarcodeVerification": "Retail listing explicitly supplies barcode for named single blind box; GS1 checksum validated",
+          "assortmentBarcodeNote": "Shared sealed assortment barcode; not a unique code for the mystery character."
         },
         {
           "name": "The Duality (Black)",
@@ -1983,7 +2015,11 @@
       "sourceType": "manufacturer-official-figures-and-retailer-packaging",
       "verifiedFigureCount": 13,
       "regularFigureCount": 12,
-      "secretFigureCount": 1
+      "secretFigureCount": 1,
+      "assortmentEan": "6941848264916",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://artoyz.com/en/products/skullpanda-image-of-reality-series",
+      "assortmentBarcodeNote": "Single random sealed blind box: scan opens collection series, not a particular hidden variant."
     },
     {
       "name": "POP MART · SKULLPANDA · The Sound",
@@ -2200,7 +2236,12 @@
           "sourceUrl": "",
           "photo": "",
           "retailPriceUAH": 1499,
-          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+          "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
+          "assortmentEan": "6941848238177",
+          "assortmentBarcodeType": "EAN-13",
+          "assortmentBarcodeSourceUrl": "https://artoyz.com/en/products/skullpanda-the-ink-plum-blossom-series-figures",
+          "assortmentBarcodeVerification": "Retail listing explicitly supplies barcode for named single blind box; GS1 checksum validated",
+          "assortmentBarcodeNote": "Shared sealed assortment barcode; not a unique code for the mystery character."
         },
         {
           "name": "The Forest",
@@ -2375,7 +2416,11 @@
       "sourceType": "manufacturer-official-figures-and-retailer-packaging",
       "verifiedFigureCount": 13,
       "regularFigureCount": 12,
-      "secretFigureCount": 1
+      "secretFigureCount": 1,
+      "assortmentEan": "6941848238177",
+      "assortmentBarcodeType": "EAN-13",
+      "assortmentBarcodeSourceUrl": "https://artoyz.com/en/products/skullpanda-the-ink-plum-blossom-series-figures",
+      "assortmentBarcodeNote": "Single random sealed blind box: scan opens collection series, not a particular hidden variant."
     },
     {
       "name": "52TOYS · Lilith · Monologue in the Land of OZ",
