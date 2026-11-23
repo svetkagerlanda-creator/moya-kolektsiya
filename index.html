@@ -636,6 +636,27 @@ function categorizeGeneratedSeries(series){
 }
 let generatedSeries=[],generatedCatalogState='idle';
 async function loadGeneratedCatalog(force=false){if(generatedCatalogState==='ready'&&!force)return;let files=['./catalogs/verified-kayou.json','./catalogs/verified-mlpmerch.json','./catalogs/verified-brushables.json','./catalogs/verified-blind-bags.json','./catalogs/verified-mlp-figures.json','./catalogs/verified-mlp-all-series.json','./catalogs/verified-new-fandoms.json','./catalogs/verified-harry-potter-starters.json','./catalogs/verified-user-wishlist-starters.json','./catalogs/verified-historical-dolls-pets.json','./catalogs/verified-surprise-drinks-mlp.json','./catalogs/verified-popmart-starters.json','./catalogs/verified-buildabear-ty.json','./catalogs/verified-funko-fandoms.json','./catalogs/verified-funko-more-fandoms.json','./catalogs/verified-funko-next-batch.json','./catalogs/verified-funko-dragon-aot-chainsaw-disney.json','./catalogs/verified-funko-deathnote-spy-wednesday-sonic-sw-sailor.json','./catalogs/verified-funko-bleach-hxh-minecraft-dc-lotr-squid.json','./catalogs/verified-funko-frieren-tokyoghoul-fnaf-hotd-stitch-witcher.json','./catalogs/verified-funko-got-lastofus-transformers-toystory-frozen-jurassic.json','./catalogs/verified-funko-shrek-resident-supernatural-pooh-tmnt.json','./catalogs/verified-funko-owl-house.json','./catalogs/verified-funko-arcane.json','./catalogs/verified-funko-hazbin-wave1.json','./catalogs/verified-funko-hazbin-wave1-chase.json'];let responses=await Promise.allSettled(files.map(async path=>{let res=await fetch(path,{cache:'no-cache'});if(!res.ok)throw Error('Не доступний '+path);let json=await res.json();return Array.isArray(json.series)?json.series:[]}));let byName=new Map;for(let res of responses)if(res.status==='fulfilled')for(let item of res.value){if(item.verified===true&&Array.isArray(item.items)&&item.items.length===item.count&&item.items.length>0)byName.set(item.name,categorizeGeneratedSeries(item))}generatedSeries=[...byName.values()];
+ // Merge small verified starter checklists without replacing richer existing catalog series.
+ try{
+  const seedRes=await fetch('./catalogs/verified-new-fandoms-seeds.json',{cache:'no-cache'});
+  if(seedRes.ok){
+   const seedCatalog=await seedRes.json();
+   const seriesMap=new Map(generatedSeries.map(series=>[series.name,series]));
+   for(const seed of seedCatalog.series||[]){
+    if(!seed.verified||!Array.isArray(seed.items)||seed.count!==seed.items.length||!seed.items.length)continue;
+    const mapped=categorizeGeneratedSeries(seed);
+    const existing=seriesMap.get(seed.name);
+    if(!existing){generatedSeries.push(mapped);seriesMap.set(seed.name,mapped);continue}
+    const uniqueItem=item=>!existing.items.some(prior=>
+      (item.figureNumber&&prior.figureNumber&&String(item.figureNumber)===String(prior.figureNumber)&&item.manufacturer===prior.manufacturer)||
+      (item.collectorNumber&&prior.collectorNumber&&String(item.collectorNumber)===String(prior.collectorNumber))||
+      (String(item.name||'').trim().toLowerCase()===String(prior.name||'').trim().toLowerCase())
+    );
+    for(const item of mapped.items)if(uniqueItem(item))existing.items.push(item);
+    existing.count=existing.items.length;
+   }
+  }
+ }catch(error){console.warn('Starter catalog supplements unavailable',error)}
  try{
   const photoRes=await fetch('./catalogs/verified-new-fandoms-photo-patches.json',{cache:'no-cache'});
   if(photoRes.ok){
