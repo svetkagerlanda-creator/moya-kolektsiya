@@ -75,11 +75,12 @@
       "file": "verified-funko-fandoms.json",
       "series": 5,
       "items": 42,
-      "photos": 30,
-      "missingPhotos": 12,
+      "photos": 42,
+      "missingPhotos": 0,
       "invalidSeries": 0,
       "duplicateUrls": 13,
-      "partialSeries": 2
+      "partialSeries": 2,
+      "photoVerification": "12 Mystery Minis individual Funko CDN crop URLs newly inserted; HTTP/render validation pending"
     },
     {
       "file": "verified-funko-frieren-tokyoghoul-fnaf-hotd-stitch-witcher.json",
