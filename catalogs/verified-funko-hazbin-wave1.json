@@ -22,7 +22,11 @@
           "sourceUrl": "https://funko.com/pop-charlie-morningstar/90415.html",
           "photo": "https://cdn.awsli.com.br/800x800/84/84034/produto/379652275/hotel-charlie-morni-x-53mmxyydca.png",
           "photoCredit": "Moça do Pop · продуктове фото точного випуску",
-          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2239"
+          "description": "Funko POP! Animation · Hazbin Hotel · базовий випуск №2239",
+          "upc": "889698904155",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/hazbin-hotel-charlie-morningstar-funko-pop-vinyl-figure/fu90415",
+          "barcodeVerification": "Exact Funko POP figure number and UPC on retailer listing; check digit verified"
         },
         {
           "name": "Vaggie",
