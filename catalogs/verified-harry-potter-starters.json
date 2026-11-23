@@ -3278,7 +3278,7 @@
           "figureNumber": "95112",
           "catalogPosition": "SKU-95112",
           "sourceUrl": "https://funko.com/ca/bitty-pop-towns-harry-potter-3-pack/95112.html",
-          "photo": "",
+          "photo": "https://www.funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw6ed36a1f/images/funko/upload/1/95112_BittyTowns3pk_HP_DiagonAlley_Glam-WEB.png",
           "description": "Retail pack of three Bitty POP! Towns sets; distinct SKU from the three named component scenes.",
           "packagingType": "sealed-3-pack",
           "packSize": 3,
@@ -3286,7 +3286,11 @@
           "barcodeType": "EAN-13",
           "barcodeSourceUrl": "https://rozetka.com.ua/ua/funko-889698951128/p616990334/",
           "barcodeVerification": "Retailer explicitly identifies exact Funko 95112 and barcode 889698951128; normalized as EAN-13.",
-          "barcodeNote": "Identifies the complete 3-Pack, not one of its three individual scenes."
+          "barcodeNote": "Identifies the complete 3-Pack, not one of its three individual scenes.",
+          "photoSourceUrl": "https://www.funko.com/im/bitty-pop-towns-harry-potter-3-pack/95112.html",
+          "photoCredit": "Funko official exact product image",
+          "photoStatus": "manufacturer-verified-exact-product",
+          "photoVerificationNote": "Direct official Funko image inspected and matched to product or named set; external CDN access can change."
         },
         {
           "name": "The Leaky Cauldron + Rubeus Hagrid",
@@ -3294,8 +3298,12 @@
           "seriesNumber": "95112",
           "catalogPosition": "1",
           "sourceUrl": "https://www.funko.com/im/bitty-pop-towns-harry-potter-3-pack/95112.html",
-          "photo": "",
-          "description": "Official Funko product listing; exact individual photo not yet verified."
+          "photo": "https://www.funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw06ec4d37/images/funko/upload/1/95112_BittyPOPTown_HP_TheLeakyCauldron_Glam-WEB.png",
+          "description": "Official Funko product listing; exact individual photo not yet verified.",
+          "photoSourceUrl": "https://www.funko.com/im/bitty-pop-towns-harry-potter-3-pack/95112.html",
+          "photoCredit": "Funko official exact product image",
+          "photoStatus": "manufacturer-verified-exact-product",
+          "photoVerificationNote": "Direct official Funko image inspected and matched to product or named set; external CDN access can change."
         },
         {
           "name": "Gringotts Wizarding Bank + Dragon",
@@ -3303,8 +3311,12 @@
           "seriesNumber": "95112",
           "catalogPosition": "2",
           "sourceUrl": "https://www.funko.com/im/bitty-pop-towns-harry-potter-3-pack/95112.html",
-          "photo": "",
-          "description": "Official Funko product listing; exact individual photo not yet verified."
+          "photo": "https://www.funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw42683eb0/images/funko/upload/1/95112_Bitty_POP_Town_HP_Gringotts_wD_Glam-WEB.png",
+          "description": "Official Funko product listing; exact individual photo not yet verified.",
+          "photoSourceUrl": "https://www.funko.com/im/bitty-pop-towns-harry-potter-3-pack/95112.html",
+          "photoCredit": "Funko official exact product image",
+          "photoStatus": "manufacturer-verified-exact-product",
+          "photoVerificationNote": "Direct official Funko image inspected and matched to product or named set; external CDN access can change."
         },
         {
           "name": "Flourish & Blotts + Ginny Weasley",
@@ -3312,8 +3324,12 @@
           "seriesNumber": "95112",
           "catalogPosition": "3",
           "sourceUrl": "https://www.funko.com/im/bitty-pop-towns-harry-potter-3-pack/95112.html",
-          "photo": "",
-          "description": "Official Funko product listing; exact individual photo not yet verified."
+          "photo": "https://www.funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwa22f8cae/images/funko/upload/1/95112_Bitty_POP_Town_HP-Flourish%26Blotts_wG_Glam-WEB.png",
+          "description": "Official Funko product listing; exact individual photo not yet verified.",
+          "photoSourceUrl": "https://www.funko.com/im/bitty-pop-towns-harry-potter-3-pack/95112.html",
+          "photoCredit": "Funko official exact product image",
+          "photoStatus": "manufacturer-verified-exact-product",
+          "photoVerificationNote": "Direct official Funko image inspected and matched to product or named set; external CDN access can change."
         }
       ]
     },
@@ -3595,8 +3611,27 @@
       "source": "https://funko.com/pop-mystery-harry-potter/96297.html",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 6,
+      "count": 7,
       "items": [
+        {
+          "name": "POP! Mystery Harry Potter — sealed random single box",
+          "manufacturer": "Funko",
+          "figureNumber": "96297",
+          "catalogPosition": "SKU-96297",
+          "sourceUrl": "https://funko.com/pop-mystery-harry-potter/96297.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwf7e8f692/images/funko/upload/1/96297_HP_S1_POP_Mystery_6PC_OUTERBOX_Glam-1-WEB.png",
+          "photoSourceUrl": "https://funko.com/pop-mystery-harry-potter/96297.html",
+          "photoCredit": "Funko official sealed single mystery box",
+          "photoStatus": "manufacturer-verified-exact-sealed-package",
+          "description": "One sealed random POP! Mystery blind box; contains one unknown character. UPC belongs to sealed assortment, not named figure.",
+          "packagingType": "sealed-random-single",
+          "packSize": 1,
+          "upc": "889698962971",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-mystery-harry-potter-4-in-vinyl-figure-styles-may-vary/444899.html",
+          "barcodeVerification": "GameStop identifies vendor 96297 and UPC explicitly; checksum validated.",
+          "barcodeNote": "Not a character-specific UPC; unknown figure until opening."
+        },
         {
           "name": "Harry Potter",
           "manufacturer": "Funko",
@@ -3666,10 +3701,19 @@
         {
           "name": "POP! Mystery Harry Potter — sealed 6-pack",
           "manufacturer": "Funko",
-          "figureNumber": "",
+          "figureNumber": "96296",
           "sourceUrl": "https://funko.com/pop-mystery-harry-potter-6-pack/96296.html",
-          "photo": "",
-          "description": "Assortment of six blind-box figures; character contents are not guaranteed."
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw17c7d815/images/funko/upload/1/96296_HPPOPMYSTERY_SER1_PDQ_Glam-1-WEB.png",
+          "description": "Assortment of six blind-box figures; character contents are not guaranteed.",
+          "photoSourceUrl": "https://funko.com/pop-mystery-harry-potter-6-pack/96296.html",
+          "photoCredit": "Funko official exact product image",
+          "photoStatus": "manufacturer-verified-exact-product",
+          "photoVerificationNote": "Direct official Funko image inspected and matched to product or named set; external CDN access can change.",
+          "ean": "0889698962964",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.placedespop.com/figurines-funko-pop/harry-potter/96296-pop-mystere-pack-6/25802",
+          "barcodeNote": "EAN for 6-pack retail SKU only, not any single blind figure",
+          "barcodeVerification": "Exact 96296 product and EAN published in retailer catalog; checksum validated."
         }
       ]
     },
@@ -4827,7 +4871,12 @@
           "photoSourceUrl": "https://funko.com/bitty-pop-collector-pack-harry-potter-12-pack/92219.html",
           "photoCredit": "Funko official matching product gallery",
           "photoStatus": "manufacturer-exact-product-visual-checked",
-          "photoVerificationNote": "Official image visually checked; exact named retail product / whole pack, not a substituted single-figure photo."
+          "photoVerificationNote": "Official image visually checked; exact named retail product / whole pack, not a substituted single-figure photo.",
+          "upc": "889698922197",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-1014919988",
+          "barcodeVerification": "Target identifies matching 12-Pack and UPC; checksum validated",
+          "barcodeNote": "UPC applies to collector 12-Pack, not individual contents."
         }
       ]
     },
@@ -4974,8 +5023,12 @@
           "manufacturer": "Funko",
           "figureNumber": "84813",
           "sourceUrl": "https://funko.com/ca/bitty-pop-singles-harry-potter-12-pack-polybag/84813.html",
-          "photo": "",
-          "description": "Official Funko product listing. Item number is a product identifier, not a barcode; exact individual image and EAN/UPC pending."
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw4a230741/images/funko/upload/84813_BITTY-SINGLES_HP_FOIL-BAG_GROUP-WEB.png",
+          "description": "Official Funko product listing. Item number is a product identifier, not a barcode; exact individual image and EAN/UPC pending.",
+          "photoSourceUrl": "https://funko.com/ca/bitty-pop-singles-harry-potter-12-pack-polybag/84813.html",
+          "photoCredit": "Funko official exact product image",
+          "photoStatus": "manufacturer-verified-exact-product",
+          "photoVerificationNote": "Direct official Funko image inspected and matched to product or named set; external CDN access can change."
         },
         {
           "name": "Mystery variant — Harry Potter",
