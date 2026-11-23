@@ -1393,6 +1393,231 @@
           "description": "Official Funko lineup; individual photo awaiting exact verification."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! · 4-Pack Series 3",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/bitty-pop-harry-potter-4-pack-series-3/71317.html",
+      "verified": true,
+      "completeness": "official-character-checklist",
+      "count": 7,
+      "items": [
+        {
+          "name": "Albus Dumbledore",
+          "manufacturer": "Funko",
+          "seriesNumber": "71317",
+          "catalogPosition": "1",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-3/71317.html",
+          "photo": "",
+          "description": "Guaranteed character in this 4-pack."
+        },
+        {
+          "name": "Nearly Headless Nick",
+          "manufacturer": "Funko",
+          "seriesNumber": "71317",
+          "catalogPosition": "2",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-3/71317.html",
+          "photo": "",
+          "description": "Guaranteed character in this 4-pack."
+        },
+        {
+          "name": "Minerva McGonagall",
+          "manufacturer": "Funko",
+          "seriesNumber": "71317",
+          "catalogPosition": "3",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-3/71317.html",
+          "photo": "",
+          "description": "Guaranteed character in this 4-pack."
+        },
+        {
+          "name": "Harry Potter (Quidditch) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71317",
+          "catalogPosition": "4",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-3/71317.html",
+          "photo": "",
+          "description": "Possible mystery figure, not guaranteed in every 4-pack."
+        },
+        {
+          "name": "Hedwig [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71317",
+          "catalogPosition": "5",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-3/71317.html",
+          "photo": "",
+          "description": "Possible mystery figure, not guaranteed in every 4-pack."
+        },
+        {
+          "name": "Fawkes [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71317",
+          "catalogPosition": "6",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-3/71317.html",
+          "photo": "",
+          "description": "Possible mystery figure, not guaranteed in every 4-pack."
+        },
+        {
+          "name": "Severus Snape [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "71317",
+          "catalogPosition": "7",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-4-pack-series-3/71317.html",
+          "photo": "",
+          "description": "Possible mystery figure, not guaranteed in every 4-pack."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! · Goblet of Fire Series 1",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-1/83654.html",
+      "verified": true,
+      "completeness": "official-character-checklist",
+      "count": 7,
+      "items": [
+        {
+          "name": "Harry Potter (Yule Ball)",
+          "manufacturer": "Funko",
+          "seriesNumber": "83654",
+          "catalogPosition": "1",
+          "sourceUrl": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-1/83654.html",
+          "photo": "",
+          "description": "Guaranteed character in this 4-pack."
+        },
+        {
+          "name": "Cho Chang (Yule Ball)",
+          "manufacturer": "Funko",
+          "seriesNumber": "83654",
+          "catalogPosition": "2",
+          "sourceUrl": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-1/83654.html",
+          "photo": "",
+          "description": "Guaranteed character in this 4-pack."
+        },
+        {
+          "name": "Parvati Patil (Yule Ball)",
+          "manufacturer": "Funko",
+          "seriesNumber": "83654",
+          "catalogPosition": "3",
+          "sourceUrl": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-1/83654.html",
+          "photo": "",
+          "description": "Guaranteed character in this 4-pack."
+        },
+        {
+          "name": "Cedric Diggory (Triwizard Tournament) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83654",
+          "catalogPosition": "4",
+          "sourceUrl": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-1/83654.html",
+          "photo": "",
+          "description": "Possible mystery figure, not guaranteed in every 4-pack."
+        },
+        {
+          "name": "Rita Skeeter [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83654",
+          "catalogPosition": "5",
+          "sourceUrl": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-1/83654.html",
+          "photo": "",
+          "description": "Possible mystery figure, not guaranteed in every 4-pack."
+        },
+        {
+          "name": "Harry Potter (Triwizard Tournament) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83654",
+          "catalogPosition": "6",
+          "sourceUrl": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-1/83654.html",
+          "photo": "",
+          "description": "Possible mystery figure, not guaranteed in every 4-pack."
+        },
+        {
+          "name": "Fleur Delacour (Triwizard Tournament) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83654",
+          "catalogPosition": "7",
+          "sourceUrl": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-1/83654.html",
+          "photo": "",
+          "description": "Possible mystery figure, not guaranteed in every 4-pack."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! · Goblet of Fire Series 3",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-3/83656.html",
+      "verified": true,
+      "completeness": "official-character-checklist",
+      "count": 7,
+      "items": [
+        {
+          "name": "Ron Weasley (Yule Ball)",
+          "manufacturer": "Funko",
+          "seriesNumber": "83656",
+          "catalogPosition": "1",
+          "sourceUrl": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-3/83656.html",
+          "photo": "",
+          "description": "Guaranteed character in this 4-pack."
+        },
+        {
+          "name": "Padma Patil (Yule Ball)",
+          "manufacturer": "Funko",
+          "seriesNumber": "83656",
+          "catalogPosition": "2",
+          "sourceUrl": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-3/83656.html",
+          "photo": "",
+          "description": "Guaranteed character in this 4-pack."
+        },
+        {
+          "name": "Madame Maxime (Yule Ball)",
+          "manufacturer": "Funko",
+          "seriesNumber": "83656",
+          "catalogPosition": "3",
+          "sourceUrl": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-3/83656.html",
+          "photo": "",
+          "description": "Guaranteed character in this 4-pack."
+        },
+        {
+          "name": "Cedric Diggory (Triwizard Tournament) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83656",
+          "catalogPosition": "4",
+          "sourceUrl": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-3/83656.html",
+          "photo": "",
+          "description": "Possible mystery figure, not guaranteed in every 4-pack."
+        },
+        {
+          "name": "Rita Skeeter [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83656",
+          "catalogPosition": "5",
+          "sourceUrl": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-3/83656.html",
+          "photo": "",
+          "description": "Possible mystery figure, not guaranteed in every 4-pack."
+        },
+        {
+          "name": "Harry Potter (Triwizard Tournament) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83656",
+          "catalogPosition": "6",
+          "sourceUrl": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-3/83656.html",
+          "photo": "",
+          "description": "Possible mystery figure, not guaranteed in every 4-pack."
+        },
+        {
+          "name": "Fleur Delacour (Triwizard Tournament) [mystery]",
+          "manufacturer": "Funko",
+          "seriesNumber": "83656",
+          "catalogPosition": "7",
+          "sourceUrl": "https://funko.com/gg/bitty-pop-harry-potter-and-the-goblet-of-fire-4-pack-series-3/83656.html",
+          "photo": "",
+          "description": "Possible mystery figure, not guaranteed in every 4-pack."
+        }
+      ]
     }
   ]
 }
