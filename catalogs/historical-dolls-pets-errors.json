@@ -4,6 +4,8 @@
   "verified": 422,
   "items": 7471,
   "photos": 7471,
+  "missingIndividualPhotos": 0,
+  "partialSeries": 1,
   "remainingUnscanned": 0,
   "errors": {}
 }
