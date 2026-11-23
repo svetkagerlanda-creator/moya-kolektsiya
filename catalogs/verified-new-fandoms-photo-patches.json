@@ -419,6 +419,36 @@
       "photoCredit": "MHcollector character-specific product gallery",
       "photoStatus": "exact-variant-gallery-image-reviewed",
       "photoVerificationNote": "Direct image and character-specific gallery reviewed; deployed PWA rendering not independently tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Neon Frights",
+      "name": "Skulltimate Secrets Neon Frights Draculaura",
+      "figureNumber": "HNF78",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/10/Skulltimate-Secrets-Neon-Frights-Draculaura-1.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-neon-frights-draculaura/",
+      "photoCredit": "MHcollector named doll gallery",
+      "photoStatus": "direct-image-opened-verified",
+      "photoVerificationNote": "Direct image opened and visually confirmed against named model and model number on MHcollector; PWA rendering untested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Neon Frights",
+      "name": "Skulltimate Secrets Neon Frights Frankie Stein",
+      "figureNumber": "HNF79",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/10/Skulltimate-Secrets-Neon-Frights-Frankie-Stein-1.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-neon-frights-frankie-stein/",
+      "photoCredit": "MHcollector named doll gallery",
+      "photoStatus": "direct-image-opened-verified",
+      "photoVerificationNote": "Direct image opened and visually confirmed against named model and model number on MHcollector; PWA rendering untested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Neon Frights",
+      "name": "Skulltimate Secrets Neon Frights Ghoulia Yelps",
+      "figureNumber": "HNF81",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/10/Skulltimate-Secrets-Neon-Frights-Ghoulia-Yelps-1.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-neon-frights-ghoulia-yelps/",
+      "photoCredit": "MHcollector named doll gallery",
+      "photoStatus": "direct-image-opened-verified",
+      "photoVerificationNote": "Direct image opened and visually confirmed against named model and model number on MHcollector; PWA rendering untested."
     }
   ]
 }
