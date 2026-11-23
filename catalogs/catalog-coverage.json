@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "feeds": [
+    {
+      "file": "verified-blind-bags.json",
+      "series": 51,
+      "items": 915,
+      "photos": 915,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-brushables.json",
+      "series": 32,
+      "items": 1029,
+      "photos": 1029,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-funko-arcane.json",
+      "series": 1,
+      "items": 7,
+      "photos": 7,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-funko-bleach-hxh-minecraft-dc-lotr-squid.json",
+      "series": 6,
+      "items": 12,
+      "photos": 12,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-funko-deathnote-spy-wednesday-sonic-sw-sailor.json",
+      "series": 6,
+      "items": 18,
+      "photos": 18,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-funko-dragon-aot-chainsaw-disney.json",
+      "series": 4,
+      "items": 8,
+      "photos": 8,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-funko-fandoms.json",
+      "series": 5,
+      "items": 42,
+      "photos": 30,
+      "missingPhotos": 12,
+      "invalidSeries": 0,
+      "duplicateUrls": 13
+    },
+    {
+      "file": "verified-funko-frieren-tokyoghoul-fnaf-hotd-stitch-witcher.json",
+      "series": 6,
+      "items": 14,
+      "photos": 14,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-funko-got-lastofus-transformers-toystory-frozen-jurassic.json",
+      "series": 6,
+      "items": 13,
+      "photos": 13,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-funko-hazbin-wave1-chase.json",
+      "series": 1,
+      "items": 4,
+      "photos": 4,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-funko-hazbin-wave1.json",
+      "series": 1,
+      "items": 5,
+      "photos": 5,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-funko-more-fandoms.json",
+      "series": 9,
+      "items": 50,
+      "photos": 50,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-funko-next-batch.json",
+      "series": 3,
+      "items": 7,
+      "photos": 7,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-funko-owl-house.json",
+      "series": 1,
+      "items": 5,
+      "photos": 5,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-funko-shrek-resident-supernatural-pooh-tmnt.json",
+      "series": 5,
+      "items": 14,
+      "photos": 14,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-kayou.json",
+      "series": 20,
+      "items": 2460,
+      "photos": 2460,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-mlp-all-series.json",
+      "series": 762,
+      "items": 9666,
+      "photos": 9666,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-mlp-figures.json",
+      "series": 232,
+      "items": 2400,
+      "photos": 2400,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-mlpmerch.json",
+      "series": 2,
+      "items": 449,
+      "photos": 449,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 0
+    },
+    {
+      "file": "verified-popmart-starters.json",
+      "series": 5,
+      "items": 42,
+      "photos": 42,
+      "missingPhotos": 0,
+      "invalidSeries": 0,
+      "duplicateUrls": 37
+    },
+    {
+      "file": "verified-surprise-drinks-mlp.json",
+      "series": 1,
+      "items": 20,
+      "photos": 0,
+      "missingPhotos": 20,
+      "invalidSeries": 0,
+      "duplicateUrls": 19
+    }
+  ],
+  "totals": {
+    "verifiedSeriesRecords": 1159,
+    "releaseRecords": 17180,
+    "photoRecords": 17148,
+    "missingPhotoRecords": 32,
+    "crossFeedOverlappingSourceUrls": 2849,
+    "distinctSourceUrls": 14262
+  },
+  "sourceRoots": {
+    "blind-bags": {
+      "series": 51,
+      "items": 915,
+      "photos": 915
+    },
+    "brushables": {
+      "series": 32,
+      "items": 1029,
+      "photos": 1029
+    },
+    "cmc": {
+      "series": 16,
+      "items": 578,
+      "photos": 578
+    },
+    "dream-beauties": {
+      "series": 6,
+      "items": 18,
+      "photos": 18
+    },
+    "equestria-girls": {
+      "series": 20,
+      "items": 304,
+      "photos": 304
+    },
+    "funko-figures": {
+      "series": 61,
+      "items": 579,
+      "photos": 579
+    },
+    "g1": {
+      "series": 194,
+      "items": 1290,
+      "photos": 1290
+    },
+    "g1-retro": {
+      "series": 75,
+      "items": 483,
+      "photos": 483
+    },
+    "g2": {
+      "series": 67,
+      "items": 198,
+      "photos": 198
+    },
+    "g3": {
+      "series": 73,
+      "items": 828,
+      "photos": 828
+    },
+    "g35": {
+      "series": 40,
+      "items": 68,
+      "photos": 68
+    },
+    "g45-blind-bags": {
+      "series": 9,
+      "items": 131,
+      "photos": 131
+    },
+    "g45-brushables": {
+      "series": 3,
+      "items": 67,
+      "photos": 67
+    },
+    "g5": {
+      "series": 4,
+      "items": 129,
+      "photos": 129
+    },
+    "g5-other-figures": {
+      "series": 27,
+      "items": 162,
+      "photos": 162
+    },
+    "g5-plush": {
+      "series": 16,
+      "items": 69,
+      "photos": 69
+    },
+    "goh": {
+      "series": 10,
+      "items": 80,
+      "photos": 80
+    },
+    "kayou-cards": {
+      "series": 17,
+      "items": 3358,
+      "photos": 3358
+    },
+    "media": {
+      "series": 4,
+      "items": 349,
+      "photos": 349
+    },
+    "mini-world-magic": {
+      "series": 6,
+      "items": 46,
+      "photos": 46
+    },
+    "other": {
+      "series": 79,
+      "items": 2701,
+      "photos": 2689
+    },
+    "other-figures": {
+      "series": 243,
+      "items": 2102,
+      "photos": 2082
+    },
+    "petite-ponies": {
+      "series": 10,
+      "items": 90,
+      "photos": 90
+    },
+    "playskool": {
+      "series": 38,
+      "items": 124,
+      "photos": 124
+    },
+    "plush": {
+      "series": 48,
+      "items": 904,
+      "photos": 904
+    },
+    "ponyville": {
+      "series": 10,
+      "items": 578,
+      "photos": 578
+    }
+  },
+  "issues": [],
+  "duplicateExamples": [
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcoskpppp/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcoskpppeg/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcoskprdp/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcoskprdeg/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcoskptsp/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcoskptseg/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcbbw1aj/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcbbw1ajsp/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcbbw1ajeg/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcbbw1ch/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcbbw1de/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcbbw1dj/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcbbw1fs/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcbbw1fssp/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://data.mlpmerch.com/cmc/details/cmcbbw1fseg/",
+      "files": [
+        "verified-mlp-all-series.json",
+        "verified-mlp-figures.json"
+      ]
+    }
+  ]
+}
