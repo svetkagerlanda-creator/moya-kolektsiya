@@ -9,11 +9,11 @@
       "manufacturer": "52TOYS",
       "fandomKey": "blind-box",
       "group": "🎁 Blind Box · 52TOYS",
-      "source": "https://bi.ua/ukr/product/kollekcionnaya-figurka-syurpriz-52toys-sleep-fairyland-elves-123930.html",
+      "source": "https://toysez.com/products/sleep-fairyland-elves-series",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "count": 4,
+      "notes": "Перевірені поіменно фігурки; неповний список, без вигаданих персонажів. Запаковану коробку залишено як окремий товар.",
       "items": [
         {
           "name": "Sleep · Fairyland Elves",
@@ -26,8 +26,43 @@
           "photo": "",
           "retailPriceUAH": 899,
           "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        },
+        {
+          "name": "The High Priestess",
+          "manufacturer": "52TOYS",
+          "character": "The High Priestess",
+          "catalogPosition": "01",
+          "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|The High Priestess",
+          "sourceUrl": "https://toysez.com/products/sleep-fairyland-elves-series-the-high-priestess",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
+        },
+        {
+          "name": "The Hermit",
+          "manufacturer": "52TOYS",
+          "character": "The Hermit",
+          "catalogPosition": "02",
+          "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|The Hermit",
+          "sourceUrl": "https://toysez.com/products/sleep-fairyland-elves-series-the-hermit",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
+        },
+        {
+          "name": "The Magician",
+          "manufacturer": "52TOYS",
+          "character": "The Magician",
+          "catalogPosition": "03",
+          "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|The Magician",
+          "sourceUrl": "https://toysez.com/products/sleep-fairyland-elves-series",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
         }
-      ]
+      ],
+      "sourceType": "collector-database-verified-figures-and-retailer-packaging",
+      "verifiedFigureCount": 3
     },
     {
       "name": "POP TOP · Letsvan Ziyuli · Розкішні самоцвіти",
@@ -723,11 +758,11 @@
       "manufacturer": "52TOYS",
       "fandomKey": "blind-box",
       "group": "🎁 Blind Box · 52TOYS",
-      "source": "",
+      "source": "https://hi52toys.com/products/laplly-song-of-the-tarot-1",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "count": 10,
+      "notes": "Перевірені поіменно фігурки; неповний список, без вигаданих персонажів. Запаковану коробку залишено як окремий товар.",
       "items": [
         {
           "name": "LAPLLY · Song of the Tarot",
@@ -740,8 +775,109 @@
           "photo": "",
           "retailPriceUAH": 899,
           "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий."
+        },
+        {
+          "name": "The Fool",
+          "manufacturer": "52TOYS",
+          "character": "The Fool",
+          "catalogPosition": "01",
+          "variantKey": "52TOYS|52TOYS · LAPLLY · Song of the Tarot|The Fool",
+          "sourceUrl": "https://hi52toys.com/products/laplly-song-of-the-tarot-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
+        },
+        {
+          "name": "Astrologer (Secret)",
+          "manufacturer": "52TOYS",
+          "character": "Astrologer",
+          "catalogPosition": "02",
+          "variantKey": "52TOYS|52TOYS · LAPLLY · Song of the Tarot|Astrologer (Secret)",
+          "sourceUrl": "https://hi52toys.com/products/laplly-song-of-the-tarot-1",
+          "photo": "",
+          "rarity": "Secret",
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
+        },
+        {
+          "name": "The Magician",
+          "manufacturer": "52TOYS",
+          "character": "The Magician",
+          "catalogPosition": "03",
+          "variantKey": "52TOYS|52TOYS · LAPLLY · Song of the Tarot|The Magician",
+          "sourceUrl": "https://hi52toys.com/products/laplly-song-of-the-tarot-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
+        },
+        {
+          "name": "The Empress",
+          "manufacturer": "52TOYS",
+          "character": "The Empress",
+          "catalogPosition": "04",
+          "variantKey": "52TOYS|52TOYS · LAPLLY · Song of the Tarot|The Empress",
+          "sourceUrl": "https://hi52toys.com/products/laplly-song-of-the-tarot-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
+        },
+        {
+          "name": "The Hierophant",
+          "manufacturer": "52TOYS",
+          "character": "The Hierophant",
+          "catalogPosition": "05",
+          "variantKey": "52TOYS|52TOYS · LAPLLY · Song of the Tarot|The Hierophant",
+          "sourceUrl": "https://hi52toys.com/products/laplly-song-of-the-tarot-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
+        },
+        {
+          "name": "The High Priestess",
+          "manufacturer": "52TOYS",
+          "character": "The High Priestess",
+          "catalogPosition": "06",
+          "variantKey": "52TOYS|52TOYS · LAPLLY · Song of the Tarot|The High Priestess",
+          "sourceUrl": "https://hi52toys.com/products/laplly-song-of-the-tarot-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
+        },
+        {
+          "name": "The Hermit",
+          "manufacturer": "52TOYS",
+          "character": "The Hermit",
+          "catalogPosition": "07",
+          "variantKey": "52TOYS|52TOYS · LAPLLY · Song of the Tarot|The Hermit",
+          "sourceUrl": "https://hi52toys.com/products/laplly-song-of-the-tarot-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
+        },
+        {
+          "name": "The Devil",
+          "manufacturer": "52TOYS",
+          "character": "The Devil",
+          "catalogPosition": "08",
+          "variantKey": "52TOYS|52TOYS · LAPLLY · Song of the Tarot|The Devil",
+          "sourceUrl": "https://hi52toys.com/products/laplly-song-of-the-tarot-1",
+          "photo": "",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
+        },
+        {
+          "name": "The Hermit Dark (Rare)",
+          "manufacturer": "52TOYS",
+          "character": "The Hermit Dark",
+          "catalogPosition": "09",
+          "variantKey": "52TOYS|52TOYS · LAPLLY · Song of the Tarot|The Hermit Dark (Rare)",
+          "sourceUrl": "https://hi52toys.com/products/laplly-song-of-the-tarot-1",
+          "photo": "",
+          "rarity": "Rare",
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
         }
-      ]
+      ],
+      "sourceType": "52TOYS-official-figure-names-and-retailer-packaging",
+      "verifiedFigureCount": 9
     },
     {
       "name": "POP MART · SKULLPANDA · The Paradox",
