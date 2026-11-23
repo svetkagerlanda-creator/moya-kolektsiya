@@ -6,6 +6,7 @@
   "photoRecords": 175,
   "errors": {
     "https://shop.mgae.com/collections/bratz-babyz/products/bratz-big-babyz-doll-yasmin": "404 Client Error: Not Found for url: https://shop.mgae.com/collections/bratz-babyz/products/bratz-big-babyz-doll-yasmin",
+    "https://www.bratz.com/products/bratz-play-sportz-cloe-tennis": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-play-sportz-cloe-tennis",
     "https://www.bratz.com/products/bratz-play-sportz-jade-basketball": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-play-sportz-jade-basketball",
     "https://www.bratz.com/products/bratz-play-sportz-roxxi-soccer": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-play-sportz-roxxi-soccer",
     "https://www.bratz.com/products/bratz-play-sportz-sasha-cheerleading": "429 Client Error: Too Many Requests for url: https://www.bratz.com/products/bratz-play-sportz-sasha-cheerleading",
