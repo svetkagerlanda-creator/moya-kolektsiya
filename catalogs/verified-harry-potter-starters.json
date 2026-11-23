@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "name": "Harry Potter · Spin Master · Micro Magical Moments · Year 1",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Spin Master",
+      "manufacturer": "Spin Master",
+      "source": "https://www.spinmaster.com/en-US/brands/harrypotter",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Harry, Ron & Hedwig — 3-Figure Set",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.spinmaster.com/en-US/brands/harrypotter/wizarding-world-micro-magical-moments-harry-ron-and-hedwig-figure-set",
+          "photo": "",
+          "description": "Official product listing verified; exact individual photo pending."
+        },
+        {
+          "name": "Harry, Hagrid & Dudley — 3-Figure Set",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-micro-magical-moments-harry-hagrid-and-dudley-figure-set",
+          "photo": "",
+          "description": "Official product listing verified; exact individual photo pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Spin Master · Micro Magical Moments · Year 4",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Spin Master",
+      "manufacturer": "Spin Master",
+      "source": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-micro-magical-moments-year-4-collectible-figure-set",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Harry, Hermione & Hungarian Horntail — 3-Figure Set",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.spinmaster.com/en-GB/brands/harrypotter/wizarding-world-micro-magical-moments-year-4-collectible-figure-set",
+          "photo": "",
+          "description": "Official product listing verified; exact individual photo pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Spin Master · Micro Magical Moments · Quidditch Series 2",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Spin Master",
+      "manufacturer": "Spin Master",
+      "source": "https://www.spinmaster.com/en-US/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-series-2-quidditch-2-pack-surprise-blind-box-figures-styles-may-vary-1-5-inch-kids-toys-for-ages-6-and-up",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Quidditch Series 2 — Sealed Mystery 2-Pack",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "sourceUrl": "https://www.spinmaster.com/en-US/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-series-2-quidditch-2-pack-surprise-blind-box-figures-styles-may-vary-1-5-inch-kids-toys-for-ages-6-and-up",
+          "photo": "",
+          "description": "Official product listing verified; exact individual photo pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! Boxes",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/bitty-pop-bitty-box-hogwarts-castle/85533.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Bitty POP! Bitty Box — Hogwarts Castle (85533)",
+          "manufacturer": "Funko",
+          "figureNumber": "85533",
+          "sourceUrl": "https://funko.com/bitty-pop-bitty-box-hogwarts-castle/85533.html",
+          "photo": "",
+          "description": "Official product listing verified; exact individual photo pending."
+        },
+        {
+          "name": "Bitty POP! Bitty Box — Hogwarts Castle (85533a)",
+          "manufacturer": "Funko",
+          "figureNumber": "85533a",
+          "sourceUrl": "https://funko.com/bitty-pop-bitty-box-hogwarts-castle/85533a.html",
+          "photo": "",
+          "description": "Official product listing verified; exact individual photo pending."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! Displays",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/bitty-pop-display-hogwarts-castle/81294.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Bitty POP! Display — Hogwarts Castle (81294)",
+          "manufacturer": "Funko",
+          "figureNumber": "81294",
+          "sourceUrl": "https://funko.com/bitty-pop-display-hogwarts-castle/81294.html",
+          "photo": "",
+          "description": "Official product listing verified; exact individual photo pending."
+        }
+      ]
+    }
+  ]
+}
