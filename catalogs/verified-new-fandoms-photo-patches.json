@@ -509,6 +509,106 @@
       "photoCredit": "MHcollector character-specific gallery",
       "photoStatus": "direct-image-verified",
       "photoVerificationNote": "Direct linked image opened and visually inspected; SKU verified on character page; PWA rendering not tested."
+    },
+    {
+      "series": "Monster High · Self-Scare Secrets",
+      "name": "Self-Scare Secrets Venus McFlytrap",
+      "figureNumber": "JHK45",
+      "photo": "https://mhcollector.com/wp-content/uploads/2025/10/Self-Scare-Secrets-Venus-Mcflytrap-2.jpg",
+      "sourceUrl": "https://mhcollector.com/self-scare-secrets-venus-mcflytrap/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "verified-direct-photo",
+      "photoVerificationNote": "Exact model number confirmed on individual character page; direct photo opened and visually checked against character and release. PWA rendering not tested."
+    },
+    {
+      "series": "Monster High · Self-Scare Secrets",
+      "name": "Self-Scare Secrets Draculaura",
+      "figureNumber": "JHK43",
+      "photo": "https://mhcollector.com/wp-content/uploads/2025/10/Self-Scare-Secrets-Draculaura-2.jpg",
+      "sourceUrl": "https://mhcollector.com/self-scare-secrets-draculaura/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "verified-direct-photo",
+      "photoVerificationNote": "Exact model number confirmed on individual character page; direct photo opened and visually checked against character and release. PWA rendering not tested."
+    },
+    {
+      "series": "Monster High · Self-Scare Secrets",
+      "name": "Self-Scare Secrets Abbey Bominable",
+      "figureNumber": "JHK44",
+      "photo": "https://mhcollector.com/wp-content/uploads/2025/10/Self-Scare-Secrets-Abbey-Bominable-2.jpg",
+      "sourceUrl": "https://mhcollector.com/self-scare-secrets-abbey-bominable/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "verified-direct-photo",
+      "photoVerificationNote": "Exact model number confirmed on individual character page; direct photo opened and visually checked against character and release. PWA rendering not tested."
+    },
+    {
+      "series": "Monster High · Monster Ball",
+      "name": "Monster Ball Draculaura",
+      "figureNumber": "HNF68",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/07/Monster-Ball-Draculaura-1.jpg",
+      "sourceUrl": "https://mhcollector.com/monster-ball-draculaura/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "verified-direct-photo",
+      "photoVerificationNote": "Exact model number confirmed on individual character page; direct photo opened and visually checked against character and release. PWA rendering not tested."
+    },
+    {
+      "series": "Monster High · Monster Ball",
+      "name": "Monster Ball Clawdeen Wolf",
+      "figureNumber": "HNF69",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/07/Monster-Ball-Clawdeen-Wolf-1.jpg",
+      "sourceUrl": "https://mhcollector.com/monster-ball-clawdeen-wolf/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "verified-direct-photo",
+      "photoVerificationNote": "Exact model number confirmed on individual character page; direct photo opened and visually checked against character and release. PWA rendering not tested."
+    },
+    {
+      "series": "Monster High · Monster Ball",
+      "name": "Monster Ball Cleo de Nile",
+      "figureNumber": "HNF70",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/07/Monster-Ball-Cleo-De-Nile-1.jpg",
+      "sourceUrl": "https://mhcollector.com/monster-ball-cleo-de-nile/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "verified-direct-photo",
+      "photoVerificationNote": "Exact model number confirmed on individual character page; direct photo opened and visually checked against character and release. PWA rendering not tested."
+    },
+    {
+      "series": "Monster High · Monster Ball",
+      "name": "Monster Ball Lagoona Blue",
+      "figureNumber": "HNF71",
+      "photo": "https://mhcollector.com/wp-content/uploads/2023/07/Monster-Ball-Lagoona-Blue-1.jpg",
+      "sourceUrl": "https://mhcollector.com/monster-ball-lagoona-blue/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "verified-direct-photo",
+      "photoVerificationNote": "Exact model number confirmed on individual character page; direct photo opened and visually checked against character and release. PWA rendering not tested."
+    },
+    {
+      "series": "Monster High · Creepover Party",
+      "name": "Creepover Party Draculaura",
+      "figureNumber": "HKY66",
+      "photo": "https://mhcollector.com/wp-content/uploads/2022/10/Creepover-Party-Draculaura-0.jpg",
+      "sourceUrl": "https://mhcollector.com/creepover-party-draculaura/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "verified-direct-photo",
+      "photoVerificationNote": "Exact model number confirmed on individual character page; direct photo opened and visually checked against character and release. PWA rendering not tested."
+    },
+    {
+      "series": "Monster High · Creepover Party",
+      "name": "Creepover Party Clawdeen Wolf",
+      "figureNumber": "HKY67",
+      "photo": "https://mhcollector.com/wp-content/uploads/2022/10/Creepover-Party-Clawdeen-Wolf-0.jpg",
+      "sourceUrl": "https://mhcollector.com/creepover-party-clawdeen-wolf/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "verified-direct-photo",
+      "photoVerificationNote": "Exact model number confirmed on individual character page; direct photo opened and visually checked against character and release. PWA rendering not tested."
+    },
+    {
+      "series": "Monster High · Creepover Party",
+      "name": "Creepover Party Frankie Stein",
+      "figureNumber": "HKY68",
+      "photo": "https://mhcollector.com/wp-content/uploads/2022/10/Creepover-Party-Frankie-Stein-0.jpg",
+      "sourceUrl": "https://mhcollector.com/creepover-party-frankie-stein/",
+      "photoCredit": "MHcollector individual doll gallery",
+      "photoStatus": "verified-direct-photo",
+      "photoVerificationNote": "Exact model number confirmed on individual character page; direct photo opened and visually checked against character and release. PWA rendering not tested."
     }
   ]
 }
