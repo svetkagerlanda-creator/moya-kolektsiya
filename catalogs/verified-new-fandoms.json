@@ -3202,7 +3202,7 @@
       "source": "https://www.ebay.com/itm/365018451553",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
+      "count": 2,
       "items": [
         {
           "name": "Winx Hair Magic — Stella",
@@ -3217,6 +3217,18 @@
           "barcodeNote": "Individual physical variant; separate from other Winx lines and assortment-only codes",
           "variantKey": "winx-rocco:8027679074011",
           "description": "Hair Magic Stella, Witty Toys packaging, distinct release"
+        },
+        {
+          "name": "Winx Hair Magic — Bloom",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "year": 2022,
+          "variantKey": "winx:witty:interim-2022:hair-magic:bloom",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-interim1/",
+          "photo": "",
+          "description": "Interim-Style Hair Magic / Magical Hair Color Bloom (2022); photo, manufacturer SKU and barcode pending.",
+          "sourceVerification": "Dollect Interim-Style Hair Magic section explicitly lists Bloom and Stella; adds missing Bloom to existing line.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
         }
       ]
     },
@@ -13594,6 +13606,235 @@
           "description": "Season 8-style Winx Club Witty Toys 15th Anniversary: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
           "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Charmix Fairy · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Тільки документовані випуски. Не ототожнювати Old Witty, New Witty та Interim. Фото й EAN/UPC не вигадані.",
+      "count": 4,
+      "items": [
+        {
+          "name": "Winx Charmix Fairy — Bloom (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:old-witty-simba-smoby:charmix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Charmix Fairy, випуск Bloom. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Charmix Fairy — Stella (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:old-witty-simba-smoby:charmix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Charmix Fairy, випуск Stella. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Charmix Fairy — Flora (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:old-witty-simba-smoby:charmix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Charmix Fairy, випуск Flora. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Charmix Fairy — Aisha (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty:old-witty-simba-smoby:charmix-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Charmix Fairy, випуск Aisha. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Magical Glamour · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Тільки документовані випуски. Не ототожнювати Old Witty, New Witty та Interim. Фото й EAN/UPC не вигадані.",
+      "count": 7,
+      "items": [
+        {
+          "name": "Winx Magical Glamour — Bloom (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:old-witty-simba-smoby:magical-glamour:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Magical Glamour, випуск Bloom. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Glamour — Aisha (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty:old-witty-simba-smoby:magical-glamour:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Magical Glamour, випуск Aisha. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Glamour — Bloom with scooter (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom with scooter",
+          "variantKey": "winx:witty:old-witty-simba-smoby:magical-glamour:bloom-with-scooter",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Magical Glamour, випуск Bloom with scooter. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Glamour — Stella (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:old-witty-simba-smoby:magical-glamour:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Magical Glamour, випуск Stella. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Glamour — Musa (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Musa",
+          "variantKey": "winx:witty:old-witty-simba-smoby:magical-glamour:musa",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Magical Glamour, випуск Musa. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Glamour — Tecna (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Tecna",
+          "variantKey": "winx:witty:old-witty-simba-smoby:magical-glamour:tecna",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Magical Glamour, випуск Tecna. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Magical Glamour — Flora (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:old-witty-simba-smoby:magical-glamour:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Magical Glamour, випуск Flora. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Enchantix Fairy · Old Witty / Simba / Smoby",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Old Witty / Simba / Smoby",
+      "source": "https://dollect.net/database/witty-toys-winx-club/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Тільки документовані випуски. Не ототожнювати Old Witty, New Witty та Interim. Фото й EAN/UPC не вигадані.",
+      "count": 4,
+      "items": [
+        {
+          "name": "Winx Enchantix Fairy — Bloom (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom",
+          "variantKey": "winx:witty:old-witty-simba-smoby:enchantix-fairy:bloom",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Enchantix Fairy, випуск Bloom. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Enchantix Fairy — Stella (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Stella",
+          "variantKey": "winx:witty:old-witty-simba-smoby:enchantix-fairy:stella",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Enchantix Fairy, випуск Stella. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Enchantix Fairy — Aisha (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Aisha",
+          "variantKey": "winx:witty:old-witty-simba-smoby:enchantix-fairy:aisha",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Enchantix Fairy, випуск Aisha. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        },
+        {
+          "name": "Winx Enchantix Fairy — Flora (Old Witty / Simba / Smoby)",
+          "manufacturer": "Witty Toys",
+          "character": "Flora",
+          "variantKey": "winx:witty:old-witty-simba-smoby:enchantix-fairy:flora",
+          "sourceUrl": "https://dollect.net/database/witty-toys-winx-club/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Old Witty / Simba / Smoby), лінійка Enchantix Fairy, випуск Flora. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
+        }
+      ]
+    },
+    {
+      "name": "Winx Club · Bloom and her Car · Interim 2022",
+      "manufacturer": "Witty Toys",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club · Interim 2022",
+      "source": "https://dollect.net/database/winx-club-witty-toys-interim1/",
+      "verified": true,
+      "completeness": "verified-listed-releases-photo-barcode-pending",
+      "notes": "Тільки документовані випуски. Не ототожнювати Old Witty, New Witty та Interim. Фото й EAN/UPC не вигадані.",
+      "count": 1,
+      "items": [
+        {
+          "name": "Winx Bloom and her Car — Bloom with Car (Interim 2022)",
+          "manufacturer": "Witty Toys",
+          "character": "Bloom with Car",
+          "year": 2022,
+          "variantKey": "winx:witty:interim-2022:bloom-and-her-car:bloom-with-car",
+          "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-interim1/",
+          "photo": "",
+          "description": "Окрема історична версія Witty Toys (Interim 2022), лінійка Bloom and her Car, випуск Bloom with Car. Точний SKU, фото упаковки та UPC/EAN не підтверджено.",
+          "sourceVerification": "Explicit line and edition name in Dollect Witty Toys catalog; separated Old Witty from New Witty and Interim styles.",
+          "verificationStatus": "collector-listed-edition; exact-photo-sku-barcode-pending"
         }
       ]
     }
