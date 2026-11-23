@@ -21,7 +21,11 @@
           "seriesNumber": "86492",
           "sourceUrl": "https://funko.com/pop-frieren/86492.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw489728e3/images/funko/upload/1/86492_Frieren_S1_Frieren_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 86492; box #1986"
+          "description": "Funko item 86492; box #1986",
+          "upc": "889698864923",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-frieren-beyond-journeys-end-3.8-in-vinyl-figure/419821.html",
+          "barcodeVerification": "Exact POP box number and item UPC independently published by retailer/collector guide; UPC-A checksum valid"
         },
         {
           "name": "Frieren in a Mimic",
@@ -32,7 +36,12 @@
           "seriesNumber": "87125",
           "sourceUrl": "https://funko.com/pop-frieren-in-a-mimic/87125.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw408d440a/images/funko/upload/1/87125_Frieren_S1_FrierenInMimic_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 87125; box #1990"
+          "description": "Funko item 87125; box #1990",
+          "upc": "889698871259",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.pricecharting.com/game/funko-pop-animation/frieren-in-a-mimic-1990",
+          "barcodeVerification": "Exact POP box number and item UPC independently published by retailer/collector guide; UPC-A checksum valid",
+          "barcodeNote": "Funko web-exclusive; code identifies this edition, not other Frieren #1986"
         }
       ]
     },
@@ -91,7 +100,11 @@
           "seriesNumber": "90845",
           "sourceUrl": "https://funko.com/pop-costumed-mimic/90845.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw577d5d0e/images/funko/upload/1/90845_FNAF_S10_CostumedMimic_POP_EDIT_T7_GLAM_Frontview-WEB.png?sh=800&sw=800",
-          "description": "Funko item 90845; box #1215"
+          "description": "Funko item 90845; box #1215",
+          "upc": "889698908450",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/five-nights-at-freddys-costumed-mimic-pop-vinyl-figure/fu90845",
+          "barcodeVerification": "Exact POP box number and item UPC independently published by retailer/collector guide; UPC-A checksum valid"
         },
         {
           "name": "Fredbear",
@@ -102,7 +115,11 @@
           "seriesNumber": "91871",
           "sourceUrl": "https://funko.com/pop-fredbear/91871.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw3d2911b9/images/funko/upload/1/91871_POPGames_FNAF_Fredbear_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 91871; box #1150"
+          "description": "Funko item 91871; box #1150",
+          "upc": "889698918718",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.hobbydb.com/marketplaces/hobbydb/collectibles/69642682",
+          "barcodeVerification": "Exact POP box number and item UPC independently published by retailer/collector guide; UPC-A checksum valid"
         },
         {
           "name": "Toy Freddy",
@@ -113,7 +130,11 @@
           "seriesNumber": "93532",
           "sourceUrl": "https://funko.com/im/pop-toy-freddy/93532.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw9249e1b4/images/funko/upload/1/93532_POPGames_FNAF_ToyFreddy_render-glam-WEB.png?sh=800&sw=800",
-          "description": "Funko item 93532; box #1318"
+          "description": "Funko item 93532; box #1318",
+          "upc": "889698935326",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.pricecharting.com/game/funko-pop-games/toy-freddy-1318",
+          "barcodeVerification": "Exact POP box number and item UPC independently published by retailer/collector guide; UPC-A checksum valid"
         }
       ]
     },
@@ -137,7 +158,11 @@
           "seriesNumber": "83465",
           "sourceUrl": "https://funko.com/pop-rhaenyra-targaryen/83465.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwba38281f/images/funko/upload/83465_HotD_RhaenyraTargaryen_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 83465; box #22"
+          "description": "Funko item 83465; box #22",
+          "upc": "889698834650",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/house-of-the-dragon-rhaenyra-targaryen-funko-pop-vinyl-figure-22/fu83465",
+          "barcodeVerification": "Exact POP box number and item UPC independently published by retailer/collector guide; UPC-A checksum valid"
         },
         {
           "name": "Rides Deluxe Aemond Targaryen with Vhagar",
