@@ -479,6 +479,36 @@
       "photoCredit": "MHcollector model-specific gallery",
       "photoStatus": "verified-direct-image",
       "photoVerificationNote": "Exact doll model number checked on MHcollector; image opened and visually inspected."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Destination: Gore-Geous Oasis",
+      "name": "Skulltimate Secrets Destination: Gore-Geous Oasis Draculaura",
+      "figureNumber": "JDR50",
+      "photo": "https://mhcollector.com/wp-content/uploads/2025/10/Skulltimate-Secrets-Destination-Gore-Geous-Oasis-Draculaura-2.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-destination-gore-geous-oasis-draculaura/",
+      "photoCredit": "MHcollector character-specific gallery",
+      "photoStatus": "direct-image-verified",
+      "photoVerificationNote": "Direct linked image opened and visually inspected; SKU verified on character page; PWA rendering not tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Destination: Gore-Geous Oasis",
+      "name": "Skulltimate Secrets Destination: Gore-Geous Oasis Lagoona Blue",
+      "figureNumber": "JDR51",
+      "photo": "https://mhcollector.com/wp-content/uploads/2025/10/Skulltimate-Secrets-Destination-Gore-Geous-Oasis-Lagoona-Blue-2.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-destination-gore-geous-oasis-lagoona-blue/",
+      "photoCredit": "MHcollector character-specific gallery",
+      "photoStatus": "direct-image-verified",
+      "photoVerificationNote": "Direct linked image opened and visually inspected; SKU verified on character page; PWA rendering not tested."
+    },
+    {
+      "series": "Monster High · Skulltimate Secrets · Destination: Gore-Geous Oasis",
+      "name": "Skulltimate Secrets Destination: Gore-Geous Oasis Jinafire Long",
+      "figureNumber": "JDR52",
+      "photo": "https://mhcollector.com/wp-content/uploads/2025/10/Skulltimate-Secrets-Destination-Gore-Geous-Oasis-Jinafire-Long-2.jpg",
+      "sourceUrl": "https://mhcollector.com/skulltimate-secrets-destination-gore-geous-oasis-jinafire-long/",
+      "photoCredit": "MHcollector character-specific gallery",
+      "photoStatus": "direct-image-verified",
+      "photoVerificationNote": "Direct linked image opened and visually inspected; SKU verified on character page; PWA rendering not tested."
     }
   ]
 }
