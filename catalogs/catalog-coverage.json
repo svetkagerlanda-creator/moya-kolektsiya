@@ -193,13 +193,13 @@
     },
     {
       "file": "verified-new-fandoms.json",
-      "series": 16,
-      "items": 205,
-      "photos": 105,
-      "missingPhotos": 100,
+      "series": 14,
+      "items": 235,
+      "photos": 130,
+      "missingPhotos": 105,
       "invalidSeries": 0,
       "duplicateUrls": 0,
-      "partialSeries": 16
+      "partialSeries": 14
     },
     {
       "file": "verified-popmart-starters.json",
@@ -223,13 +223,13 @@
     }
   ],
   "totals": {
-    "verifiedSeriesRecords": 1319,
-    "partialSeriesRecords": 63,
-    "releaseRecords": 18151,
-    "photoRecords": 18019,
-    "missingPhotoRecords": 132,
+    "verifiedSeriesRecords": 1317,
+    "partialSeriesRecords": 61,
+    "releaseRecords": 18181,
+    "photoRecords": 18044,
+    "missingPhotoRecords": 137,
     "crossFeedOverlappingSourceUrls": 2883,
-    "distinctSourceUrls": 15163
+    "distinctSourceUrls": 15147
   },
   "sourceRoots": {
     "basic-fun": {
@@ -368,9 +368,9 @@
       "photos": 46
     },
     "other": {
-      "series": 95,
-      "items": 2906,
-      "photos": 2794
+      "series": 93,
+      "items": 2936,
+      "photos": 2819
     },
     "other-figures": {
       "series": 293,
