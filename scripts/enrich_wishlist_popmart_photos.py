@@ -18,7 +18,8 @@ FILE=ROOT/"catalogs/verified-user-wishlist-starters.json"
 REPORT=ROOT/"catalogs/wishlist-variant-photo-audit.json"
 ALLOWED={"prod-global-biz.popmart.com","global-static.popmart.com",
          "prod-america-res.popmart.com","cdn-global-naus.popmart.com",
-         "prod-eu-res.popmart.com","prod-asia-res.popmart.com"}
+         "prod-eu-res.popmart.com","prod-asia-res.popmart.com",
+         "cdn.shopify.com","hi52toys.com","www.hi52toys.com"}
 
 def normalized(text):
     text=unicodedata.normalize("NFKC",text or "").casefold()
@@ -30,9 +31,10 @@ def photo_url(image,page):
         srcset=image.get("srcset","")
         if srcset:raw=srcset.split(",")[0].strip().split()[0]
     url=urljoin(page,raw)
-    return url if urlsplit(url).scheme=="https" and urlsplit(url).hostname in ALLOWED else ""
+    hostname=urlsplit(url).hostname or ""
+    return url if urlsplit(url).scheme=="https" and (hostname in ALLOWED or hostname.endswith(".shopifycdn.net")) else ""
 
-def collect(page):
+def collect(page,maker):
     response=requests.get(page,timeout=35,headers={"User-Agent":"Mozilla/5.0 (compatible; collectors index; images not downloaded)"})
     response.raise_for_status()
     soup=BeautifulSoup(response.text,"html.parser")
@@ -40,7 +42,7 @@ def collect(page):
     for img in soup.select("img[alt]"):
         alt=img.get("alt","")
         # Only official named character art, never banners, thumbnails, etc.
-        if "POP MART-" not in alt and "popmart-" not in alt.lower():
+        if maker=="POP MART" and "pop mart-" not in alt.lower() and "popmart-" not in alt.lower():
             continue
         url=photo_url(img,page)
         if not url:continue
@@ -51,10 +53,10 @@ def main():
     data=json.loads(FILE.read_text(encoding="utf8"))
     records=[]; updated=0
     for series in data.get("series",[]):
-        if series.get("manufacturer")!="POP MART" or not series.get("verifiedFigureCount"):continue
+        if series.get("manufacturer") not in {"POP MART","52TOYS"} or not series.get("verifiedFigureCount"):continue
         source=series["source"]; candidates={}
         error=""
-        try:candidates=collect(source)
+        try:candidates=collect(source,series["manufacturer"])
         except Exception as exc:error=str(exc)[:250]
         completed=0; unfilled=[]
         for card in series["items"]:
@@ -62,14 +64,20 @@ def main():
             if card.get("photo"):
                 completed+=1
                 continue
-            wanted=normalized(card["name"])
-            matches=[urls for name,urls in candidates.items()
-                     if name.endswith(wanted) and
-                     (len(name)-len(wanted))>3]
-            urls=set().union(*matches) if matches else set()
-            if len(urls)==1:
-                card["photo"]=next(iter(urls));updated+=1;completed+=1
-            else:unfilled.append({"figure":card["name"],"matches":len(urls)})
+            wanted=normalized(card["name"].replace("(Secret)",""))
+            matched=[]
+            for alt,urls in candidates.items():
+                if series["manufacturer"]=="POP MART":
+                    valid=alt.endswith(wanted)
+                else:
+                    # 52TOYS describes the physical model at the start of alt.
+                    valid=alt.startswith(wanted) and len(alt)>len(wanted)+12
+                if valid:matched.extend(sorted(urls))
+            if matched:
+                # Multiple camera angles of the very same model are fine.
+                # Never use series banner art when a model name is absent.
+                card["photo"]=matched[0];updated+=1;completed+=1
+            else:unfilled.append({"figure":card["name"],"matches":0})
         records.append({"series":series["name"],"figures":series["verifiedFigureCount"],
                         "photos":completed,"missing":unfilled,"error":error})
     if updated:
