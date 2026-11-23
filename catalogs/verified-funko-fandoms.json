@@ -605,7 +605,12 @@
           "seriesNumber": "90639",
           "sourceUrl": "https://funko.com/pop-gray/90639.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw6ea5f87f/images/funko/upload/1/90639b_FT100_GrayChase_POP_GLAM-CH-WEB.png?sh=800&sw=800",
-          "description": "Funko item 90639; box 2287 Chase"
+          "description": "Funko item 90639; box 2287 Chase",
+          "upc": "889698906395",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-fairy-tail-100-years-quest-gray-or-chase-4.4-in-vinyl-figure/430939.html",
+          "barcodeVerification": "UPC explicitly published with exact Funko item or shared Chase retail assortment; checksum checked",
+          "barcodeNote": "Shared Gray/Chase assortment SKU 90639 UPC; not a unique Chase barcode."
         },
         {
           "name": "Lucy",
