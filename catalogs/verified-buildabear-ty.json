@@ -405,13 +405,17 @@
           "figureNumber": "37412",
           "variantKey": "ty:beanie-boos:37412",
           "sourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/hai-fisch-finsley-shark-blau.html",
-          "photo": "",
+          "photo": "https://www.argosytoys.co.uk/productimages/bx750x750/ty-beanie-boos---37412-finsley-shark-blue_802803.jpg",
           "upc": "008421374120",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/hai-fisch-finsley-shark-blau.html",
           "barcodeVerification": "Retailer explicitly gives Beanie Boos name, manufacturer item number and matching UPC/EAN; valid check digit.",
           "barcodeNote": "Distinct Beanie Boos plush, not similarly named Squish-a-Boos or a keyring.",
-          "description": "Ty Beanie Boos plush, version identified by manufacturer model. Individual photo still needs exact-source verification."
+          "description": "Ty Beanie Boos plush, version identified by manufacturer model. Individual photo still needs exact-source verification.",
+          "photoSourceUrl": "https://www.argosytoys.co.uk/product/ty-beanie-boos---37412-finsley-shark-blue",
+          "photoCredit": "Ty Beanie Boos product photo, SKU 37412",
+          "photoStatus": "name-and-edition-matched-image",
+          "photoVerificationNote": "Named product and figure style corroborated with Ty line listing; image direct URL not live-tested within app."
         },
         {
           "name": "Kiki",
@@ -419,13 +423,17 @@
           "figureNumber": "37190",
           "variantKey": "ty:beanie-boos:37190",
           "sourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/katze-kiki-getigert.html",
-          "photo": "",
+          "photo": "https://www.toys101.co.nz/cdn/shop/products/TyKikiCat.jpg?v=1653629986",
           "upc": "008421371907",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/katze-kiki-getigert.html",
           "barcodeVerification": "Retailer explicitly gives Beanie Boos name, manufacturer item number and matching UPC/EAN; valid check digit.",
           "barcodeNote": "Distinct Beanie Boos plush, not similarly named Squish-a-Boos or a keyring.",
-          "description": "Ty Beanie Boos plush, version identified by manufacturer model. Individual photo still needs exact-source verification."
+          "description": "Ty Beanie Boos plush, version identified by manufacturer model. Individual photo still needs exact-source verification.",
+          "photoSourceUrl": "https://www.toys101.co.nz/products/ty-beanie-boo-kiki-cat",
+          "photoCredit": "Ty Beanie Boos product photo, SKU 37190",
+          "photoStatus": "name-and-edition-matched-image",
+          "photoVerificationNote": "Named product and figure style corroborated with Ty line listing; image direct URL not live-tested within app."
         },
         {
           "name": "Dotty",
@@ -433,13 +441,17 @@
           "figureNumber": "37189",
           "variantKey": "ty:beanie-boos:37189",
           "sourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/leopard-dotty.html",
-          "photo": "",
+          "photo": "https://i5.walmartimages.com/seo/TY-Beanie-Boo-Plush-Dotty-the-Leopard-15cm_0736738c-a0f3-44ca-8800-96e4f666334a.dd683d90621ccf3de6a637fd83b35dc2.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768",
           "upc": "008421371891",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/leopard-dotty.html",
           "barcodeVerification": "Retailer explicitly gives Beanie Boos name, manufacturer item number and matching UPC/EAN; valid check digit.",
           "barcodeNote": "Distinct Beanie Boos plush, not similarly named Squish-a-Boos or a keyring.",
-          "description": "Ty Beanie Boos plush, version identified by manufacturer model. Individual photo still needs exact-source verification."
+          "description": "Ty Beanie Boos plush, version identified by manufacturer model. Individual photo still needs exact-source verification.",
+          "photoSourceUrl": "https://www.walmart.com/ip/129674015",
+          "photoCredit": "Ty Beanie Boos product photo, SKU 37189",
+          "photoStatus": "name-and-edition-matched-image",
+          "photoVerificationNote": "Named product and figure style corroborated with Ty line listing; image direct URL not live-tested within app."
         },
         {
           "name": "Slush",
@@ -447,13 +459,17 @@
           "figureNumber": "36006",
           "variantKey": "ty:beanie-boos:36006",
           "sourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/husky-slush.html",
-          "photo": "",
+          "photo": "https://i.ebayimg.com/images/g/yvoAAOSwHlhfhxVJ/s-l1200.png",
           "upc": "008421360062",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/husky-slush.html",
           "barcodeVerification": "Retailer explicitly gives Beanie Boos name, manufacturer item number and matching UPC/EAN; valid check digit.",
           "barcodeNote": "Distinct Beanie Boos plush, not similarly named Squish-a-Boos or a keyring.",
-          "description": "Ty Beanie Boos plush, version identified by manufacturer model. Individual photo still needs exact-source verification."
+          "description": "Ty Beanie Boos plush, version identified by manufacturer model. Individual photo still needs exact-source verification.",
+          "photoSourceUrl": "https://www.ebay.com/itm/274533786020",
+          "photoCredit": "Ty Beanie Boos product photo, SKU 36006",
+          "photoStatus": "name-and-edition-matched-image",
+          "photoVerificationNote": "Named product and figure style corroborated with Ty line listing; image direct URL not live-tested within app."
         },
         {
           "name": "Emmie",
