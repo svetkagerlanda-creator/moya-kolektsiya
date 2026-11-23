@@ -106,5 +106,5 @@ function attach(refresh){
  document.querySelectorAll('[data-cpa-decision]').forEach(button=>button.onclick=()=>review(button.dataset.cpaId,button.dataset.cpaDecision));
  for(const row of state.rows.filter(x=>state.filter==='all'||x.status===state.filter))if(!state.previews.has(row.id))preview(row);
 }
-window.CollectorPhotoAdmin={check,enabled,tabButton,render,attach};
+window.CollectorPhotoAdmin={check,enabled,isChecked:()=>state.checked,tabButton,render,attach};
 })();
