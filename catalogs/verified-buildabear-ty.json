@@ -1086,13 +1086,17 @@
           "figureNumber": "39395",
           "variantKey": "ty:squishy-beanies:39395",
           "sourceUrl": "https://www.ty.com/product/lucy/39395.html?cgid=sab&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/b681c078f2f9e88272ac37ed2af70b86_lg.png",
           "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag.",
           "upc": "008421393954",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-squish-a-boos/marienkaefer-lucy-kuschelkissen.html",
           "barcodeVerification": "Retail product record explicitly lists this character, collection and matching manufacturer SKU with GTIN/EAN or UPC; UPC-A checksum verified.",
-          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes."
+          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes.",
+          "photoSourceUrl": "https://www.ty.com/product/lucy/39395.html?lang=en",
+          "photoCredit": "Ty official product gallery image for SKU 39395",
+          "photoStatus": "manufacturer-linked-image",
+          "photoVerificationNote": "Direct image URL linked on manufacturer page for product SKU. Runtime accessibility not guaranteed."
         },
         {
           "name": "Sneaky",
@@ -1110,13 +1114,17 @@
           "figureNumber": "39276",
           "variantKey": "ty:squishy-beanies:39276",
           "sourceUrl": "https://www.ty.com/product/snapper/39276.html?cgid=sab&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/f403835e374c7a40525525771d95b3a9_lg.png",
           "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag.",
           "upc": "008421392766",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-squish-a-boos/frosch-snapper-kuschelkissen.html",
           "barcodeVerification": "Retail product record explicitly lists this character, collection and matching manufacturer SKU with GTIN/EAN or UPC; UPC-A checksum verified.",
-          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes."
+          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes.",
+          "photoSourceUrl": "https://www.ty.com/product/snapper/39276.html?cgid=sab&lang=en",
+          "photoCredit": "Ty official product gallery image for SKU 39276",
+          "photoStatus": "manufacturer-linked-image",
+          "photoVerificationNote": "Direct image URL linked on manufacturer page for product SKU. Runtime accessibility not guaranteed."
         },
         {
           "name": "Kiki",
@@ -1138,13 +1146,17 @@
           "figureNumber": "39286",
           "variantKey": "ty:squishy-beanies:39286",
           "sourceUrl": "https://www.ty.com/product/dotty/39286.html?cgid=sab&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/7a238f15ee068cf42e1c42109a885885_lg.png",
           "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag.",
           "upc": "008421392865",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://krs.mk/product/ty-squish-a-boos-dotty-22-cm-multicolor-leopard/",
           "barcodeVerification": "Retailer lists this exact Ty line and manufacturer model beside this GTIN; checksum checked.",
-          "barcodeNote": "Only for model listed, not other plush sizes or keychains."
+          "barcodeNote": "Only for model listed, not other plush sizes or keychains.",
+          "photoSourceUrl": "https://www.ty.com/product/dotty/39286.html?cgid=Safari&lang=en",
+          "photoCredit": "Ty official product gallery image for SKU 39286",
+          "photoStatus": "manufacturer-linked-image",
+          "photoVerificationNote": "Direct image URL linked on manufacturer page for product SKU. Runtime accessibility not guaranteed."
         },
         {
           "name": "Slush",
@@ -1180,13 +1192,17 @@
           "figureNumber": "39318",
           "variantKey": "ty:squishy-beanies:39318",
           "sourceUrl": "https://www.ty.com/product/fetch/39318.html?cgid=sab&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/ab85a3ca9ca16a459ebbbc5962f97500_lg.png",
           "description": "Squishy Beanies (Squish-a-Boos) listed at Ty official product ID. SKU is not a barcode; size must be checked against product page or original tag.",
           "upc": "008421393183",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://rozetka.com.ua/ua/ty_8421393183/p337935148/",
           "barcodeVerification": "Retail product record explicitly lists this character, collection and matching manufacturer SKU with GTIN/EAN or UPC; UPC-A checksum verified.",
-          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes."
+          "barcodeNote": "Exact plush size/edition only; not for related keychain or larger sizes.",
+          "photoSourceUrl": "https://www.ty.com/product/fetch/39318-master.html?cgid=All+Ty&lang=en",
+          "photoCredit": "Ty official product gallery image for SKU 39318",
+          "photoStatus": "manufacturer-linked-image",
+          "photoVerificationNote": "Direct image URL linked on manufacturer page for product SKU. Runtime accessibility not guaranteed."
         }
       ],
       "count": 11
