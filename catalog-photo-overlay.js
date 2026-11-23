@@ -8,7 +8,7 @@ const normalize=s=>String(s||'').trim().toLocaleLowerCase('uk-UA');
 async function apply(series){
  if(!Array.isArray(series)||!series.length)return 0;
  try{
-  const response=await fetch(BASE+'/rest/v1/collector_catalog_photo_proposals?select=item_name,series_name,published_path&status=eq.approved&published_path=not.is.null&order=reviewed_at.desc&limit=1000',{headers:{apikey:KEY},cache:'no-store'});
+  const response=await fetch(BASE+'/rest/v1/rpc/collector_approved_catalog_photos',{headers:{apikey:KEY},cache:'no-store'});
   if(!response.ok)return 0;
   const proposals=await response.json();
   const exact=new Map,byName=new Map,covers=new Map;
