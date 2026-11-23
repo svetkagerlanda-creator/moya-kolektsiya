@@ -497,7 +497,12 @@
           "seriesNumber": "91930",
           "sourceUrl": "https://funko.com/pop-natsu-fired-up/91930.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwdca2ef43/images/funko/upload/1/91930_FT100_NatsuFiredUp_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 91930; box 2290"
+          "description": "Funko item 91930; box 2290",
+          "upc": "889698919302",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/itm/287306165977",
+          "barcodeVerification": "Exact product identified by retailer listing; UPC-A checksum validated",
+          "barcodeNote": "Funko exclusive, box #2290, item 91930"
         }
       ]
     },
@@ -552,7 +557,12 @@
           "seriesNumber": "96123",
           "sourceUrl": "https://funko.com/de/pop-maomao/96123.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1df6d119/images/funko/upload/1/96123b_Anime_ApothecaryDiaries_MaomaoCatChase_POP_Renders-Glam-WEB.png?sh=800&sw=800",
-          "description": "Funko item 96123; box 2593 Chase"
+          "description": "Funko item 96123; box 2593 Chase",
+          "upc": "889698961233",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-the-apothecary-diaries-maomao-or-chase-4.4-in-vinyl-figure/445827.html",
+          "barcodeVerification": "Exact product identified by retailer listing; UPC-A checksum validated",
+          "barcodeNote": "Shared retail assortment UPC for regular Maomao or random Chase. Not unique to chase variant"
         },
         {
           "name": "Maomao — Dancing",
