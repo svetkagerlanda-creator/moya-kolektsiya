@@ -2553,6 +2553,126 @@
           "description": "Official manufacturer product; exact photo pending."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Hogwarts Castle Modular 2024",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/product/hogwarts-castle-the-great-hall-76435",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 4,
+      "items": [
+        {
+          "name": "Hogwarts Castle: The Great Hall",
+          "manufacturer": "LEGO",
+          "figureNumber": "76435",
+          "sourceUrl": "https://www.lego.com/en-us/product/hogwarts-castle-the-great-hall-76435",
+          "photo": "",
+          "description": "Official LEGO Harry Potter set; product photo pending exact verification."
+        },
+        {
+          "name": "Hogwarts Castle: Boathouse",
+          "manufacturer": "LEGO",
+          "figureNumber": "76426",
+          "sourceUrl": "https://www.lego.com/en-us/product/hogwarts-castle-boathouse-76426",
+          "photo": "",
+          "description": "Official LEGO Harry Potter set; product photo pending exact verification."
+        },
+        {
+          "name": "Hogwarts Castle: Potions Class",
+          "manufacturer": "LEGO",
+          "figureNumber": "76431",
+          "sourceUrl": "https://www.lego.com/en-us/product/hogwarts-castle-potions-class-76431",
+          "photo": "",
+          "description": "Official LEGO Harry Potter set; product photo pending exact verification."
+        },
+        {
+          "name": "Hogwarts Castle: Owlery",
+          "manufacturer": "LEGO",
+          "figureNumber": "76430",
+          "sourceUrl": "https://www.lego.com/en-us/product/hogwarts-castle-owlery-76430",
+          "photo": "",
+          "description": "Official LEGO Harry Potter set; product photo pending exact verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Triwizard Tournament & Forbidden Forest",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/product/triwizard-tournament-the-arrival-76440",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 3,
+      "items": [
+        {
+          "name": "Triwizard Tournament: The Arrival",
+          "manufacturer": "LEGO",
+          "figureNumber": "76440",
+          "sourceUrl": "https://www.lego.com/en-us/product/triwizard-tournament-the-arrival-76440",
+          "photo": "",
+          "description": "Official LEGO Harry Potter set; product photo pending exact verification."
+        },
+        {
+          "name": "Aragog in the Forbidden Forest",
+          "manufacturer": "LEGO",
+          "figureNumber": "76434",
+          "sourceUrl": "https://www.lego.com/en-us/product/aragog-in-the-forbidden-forest-76434",
+          "photo": "",
+          "description": "Official LEGO Harry Potter set; product photo pending exact verification."
+        },
+        {
+          "name": "Hagrid's Hut: An Unexpected Visit",
+          "manufacturer": "LEGO",
+          "figureNumber": "76428",
+          "sourceUrl": "https://www.lego.com/en-us/product/hagrids-hut-an-unexpected-visit-76428",
+          "photo": "",
+          "description": "Official LEGO Harry Potter set; product photo pending exact verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · The Burrow Collectors Edition",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/product/the-burrow-collectors-edition-76437",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "The Burrow — Collectors' Edition",
+          "manufacturer": "LEGO",
+          "figureNumber": "76437",
+          "sourceUrl": "https://www.lego.com/en-us/product/the-burrow-collectors-edition-76437",
+          "photo": "",
+          "description": "Official LEGO Harry Potter set; product photo pending exact verification."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · The Battle of Hogwarts",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/product/the-battle-of-hogwarts-76415",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "The Battle of Hogwarts",
+          "manufacturer": "LEGO",
+          "figureNumber": "76415",
+          "sourceUrl": "https://www.lego.com/en-us/product/the-battle-of-hogwarts-76415",
+          "photo": "",
+          "description": "Official LEGO Harry Potter set; product photo pending exact verification."
+        }
+      ]
     }
   ]
 }
