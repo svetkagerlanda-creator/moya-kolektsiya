@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "series": [
+    {
+      "name": "Bratz · Alwayz Bratz",
+      "source": "https://www.bratz.com/collections/alwayz-bratz",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "💄 Bratz",
+      "items": [
+        {
+          "name": "Alwayz Bratz Fashion Doll - Cloe",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-alwayz-bratz-doll-cloe",
+          "photo": "https://www.bratz.com/cdn/shop/files/505204-Bratz-Alwayz-Bratz-Doll-Cloe3.jpg?v=1724759468&width=1946",
+          "figureNumber": "",
+          "description": "Alwayz Bratz Cloe — офіційна лялька MGA."
+        }
+      ],
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1
+    },
+    {
+      "name": "Ever After High · First Chapter",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "source": "https://eahmerch.com/dolls/series/first-chapter/",
+      "manufacturer": "Mattel",
+      "fandomKey": "everafterhigh",
+      "group": "📖 Ever After High",
+      "count": 1,
+      "items": [
+        {
+          "name": "Ever After High Raven Queen Doll (2013)",
+          "manufacturer": "Mattel",
+          "figureNumber": "BBD42",
+          "year": "2013",
+          "sourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD42&siteid=27",
+          "photo": "https://service.mattel.com//us/img/prod/243/bbd42_c_13_003.jpg",
+          "description": "Оригінальна Raven Queen, офіційний архів Mattel."
+        }
+      ]
+    },
+    {
+      "name": "Littlest Pet Shop · Series 6",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "source": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+      "manufacturer": "Basic Fun",
+      "fandomKey": "lps",
+      "group": "🐾 Littlest Pet Shop",
+      "count": 1,
+      "items": [
+        {
+          "name": "Littlest Pet Shop Pet Surprise Singles — Series 6 (mystery pack)",
+          "manufacturer": "Basic Fun",
+          "sourceUrl": "https://www.basicfun.com/product/littlest-pet-shop-pet-surprise-singles-series-6/",
+          "photo": "https://www.basicfun.com/wp-content/uploads/2026/11/01091_LittlestPetShop_Hero_BlindSinglesS6.jpg",
+          "description": "Сюрпризний пакет Series 6; виробник заявляє 18 окремих петів G7 №467–484. Це картка закритого набору, не вигаданий конкретний пет."
+        }
+      ]
+    },
+    {
+      "name": "Monster High · Skulltimate Secrets",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "source": "https://shop.mattel.com/collections/monster-high-skulltimate-secrets",
+      "manufacturer": "Mattel",
+      "fandomKey": "monsterhigh",
+      "group": "🦇 Monster High",
+      "count": 2,
+      "items": [
+        {
+          "name": "Monster High Skulltimate Secrets Hauntlywood Mysteries Doll, Clawdeen Wolf With 19+ Surprises",
+          "figureNumber": "JBG80",
+          "manufacturer": "Mattel",
+          "sourceUrl": "https://shop.mattel.com/products/monster-high-skulltimate-secrets-clawdeen-wolf-doll-jbg80",
+          "photo": "https://shop.mattel.com/cdn/shop/files/efbaa1c73212ddd46ad868bd71334aed8b88b74f.jpg?v=1760626012",
+          "description": "Unlock the secrets behind the gates of Hauntlywood with this Skulltimate Secrets: Hauntlywood Mysteries closet set! It comes with Clawdeen Wolf doll as well as glam clothes and accessories."
+        },
+        {
+          "name": "Monster High Skulltimate Secrets Hauntlywood Mysteries — Clawdeen Wolf",
+          "manufacturer": "Mattel",
+          "figureNumber": "JBG80",
+          "sourceUrl": "https://shop.mattel.com/products/monster-high-skulltimate-secrets-clawdeen-wolf-doll-jbg80",
+          "photo": "",
+          "description": "Офіційна лялька Mattel Skulltimate Secrets: Hauntlywood Mysteries."
+        }
+      ]
+    },
+    {
+      "name": "Sylvanian Families · Chocolate Rabbit Family",
+      "source": "https://www.sylvanianfamilies.com/uk-ua/catalog/item_detail.php?product_id=2356",
+      "manufacturer": "Epoch",
+      "fandomKey": "sylvanian",
+      "group": "🐰 Sylvanian Families",
+      "items": [
+        {
+          "name": "Chocolate Rabbit Family",
+          "manufacturer": "Epoch",
+          "figureNumber": "5655",
+          "sourceUrl": "https://www.sylvanianfamilies.com/uk-ua/catalog/item_detail.php?product_id=2356",
+          "photo": "https://my.sylvanianfamilies.com/cdn/shop/files/b5rl52k1jqcmewjsrhjx.jpg?v=1775454419&width=1800",
+          "description": "Набір із чотирьох фігурок Frasier, Teri, Coco та Freya."
+        }
+      ],
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1
+    },
+    {
+      "name": "Winx Club · Iconic Dolls",
+      "source": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
+      "manufacturer": "Giochi Preziosi",
+      "fandomKey": "winx",
+      "group": "🧚 Winx Club",
+      "items": [
+        {
+          "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Bloom",
+          "manufacturer": "Giochi Preziosi",
+          "sourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
+          "photo": "https://www.winxclub.com/cdn/shop/files/0017_WNX77000_iconic_bloom2_fb431fa6-8c83-4774-a3ba-2687fdea5e9f.jpg?v=1762957274&width=1500",
+          "figureNumber": "",
+          "variantKey": "winx-iconic|bloom",
+          "description": "Офіційний варіант персонажа Bloom колекції Winx Iconic."
+        },
+        {
+          "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Stella",
+          "manufacturer": "Giochi Preziosi",
+          "sourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
+          "photo": "https://www.winxclub.com/cdn/shop/files/0007_WNX77000_iconic_stella.jpg?v=1762957274&width=1500",
+          "figureNumber": "",
+          "variantKey": "winx-iconic|stella",
+          "description": "Офіційний варіант персонажа Stella колекції Winx Iconic."
+        },
+        {
+          "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Flora",
+          "manufacturer": "Giochi Preziosi",
+          "sourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
+          "photo": "https://www.winxclub.com/cdn/shop/files/0013_WNX77000_iconic_flora2_2269429b-bd81-4bd5-b2b2-10dcb1f0ec7d.jpg?v=1762957274&width=1500",
+          "figureNumber": "",
+          "variantKey": "winx-iconic|flora",
+          "description": "Офіційний варіант персонажа Flora колекції Winx Iconic."
+        },
+        {
+          "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Musa",
+          "manufacturer": "Giochi Preziosi",
+          "sourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
+          "photo": "https://www.winxclub.com/cdn/shop/files/0011_WNX77000_iconic_musa.jpg?v=1762957274&width=1500",
+          "figureNumber": "",
+          "variantKey": "winx-iconic|musa",
+          "description": "Офіційний варіант персонажа Musa колекції Winx Iconic."
+        },
+        {
+          "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Tecna",
+          "manufacturer": "Giochi Preziosi",
+          "sourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
+          "photo": "https://www.winxclub.com/cdn/shop/files/0003_WNX77000_iconic_tecna.jpg?v=1762957274&width=1500",
+          "figureNumber": "",
+          "variantKey": "winx-iconic|tecna",
+          "description": "Офіційний варіант персонажа Tecna колекції Winx Iconic."
+        },
+        {
+          "name": "Winx Iconic - Fashion Doll Giochi Preziosi — Aisha",
+          "manufacturer": "Giochi Preziosi",
+          "sourceUrl": "https://www.winxclub.com/products/winx-iconic-fashion-doll-giochi-preziosi",
+          "photo": "https://www.winxclub.com/cdn/shop/files/0024_WNX77000_iconic_aisha.jpg?v=1762957274&width=1500",
+          "figureNumber": "",
+          "variantKey": "winx-iconic|aisha",
+          "description": "Офіційний варіант персонажа Aisha колекції Winx Iconic."
+        }
+      ],
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 6
+    }
+  ]
+}
