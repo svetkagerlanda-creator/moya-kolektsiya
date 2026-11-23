@@ -1,0 +1,788 @@
+{
+  "schemaVersion": 1,
+  "type": "visual-photo-inventory-draft",
+  "date": "2026-11-23",
+  "origin": "User-supplied photo in conversation; image not copied into public repository",
+  "imageDimensions": {
+    "width": 1536,
+    "height": 1152
+  },
+  "visibility": "review-only",
+  "publishToVerifiedCatalog": false,
+  "publishPersonalImageAsFactoryPhoto": false,
+  "notes": [
+    "Coordinates approximate; identify by visible appearance only",
+    "Most makers/series/SKUs not readable from one photo; verification pending",
+    "Do not mark these as owned in any account without authenticating as that user and explicit action",
+    "Some overlapping small miniatures and partially hidden items may not be enumerated"
+  ],
+  "items": [
+    {
+      "draftId": "photo-20261123-001",
+      "shelf": "top",
+      "description": "Підвіска-лялька, біла сукня, темне волосся",
+      "category": "figure-keychain",
+      "locationPx": {
+        "x": 140,
+        "y": 155
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-002",
+      "shelf": "top",
+      "description": "Підвіска-лялька, жовта сукня, жовта пов'язка",
+      "category": "figure-keychain",
+      "locationPx": {
+        "x": 250,
+        "y": 157
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-003",
+      "shelf": "top",
+      "description": "Підвіска-лялька, червоно-сіра сукня",
+      "category": "figure-keychain",
+      "locationPx": {
+        "x": 380,
+        "y": 155
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-004",
+      "shelf": "top",
+      "description": "Кольорові сумки або чохли за підвісками (група)",
+      "category": "accessory-group",
+      "locationPx": {
+        "x": 205,
+        "y": 62
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-005",
+      "shelf": "top",
+      "description": "Керамічна піала, квітковий декор, верхня",
+      "category": "ceramics",
+      "locationPx": {
+        "x": 514,
+        "y": 141
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-006",
+      "shelf": "top",
+      "description": "Керамічна піала, квітковий декор, середня",
+      "category": "ceramics",
+      "locationPx": {
+        "x": 506,
+        "y": 189
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-007",
+      "shelf": "top",
+      "description": "Керамічна піала, квітковий декор, нижня",
+      "category": "ceramics",
+      "locationPx": {
+        "x": 510,
+        "y": 235
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-008",
+      "shelf": "top",
+      "description": "Жовто-білий плюшевий песик",
+      "category": "plush",
+      "locationPx": {
+        "x": 670,
+        "y": 184
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-009",
+      "shelf": "top",
+      "description": "Квадратна біла піала №1, верхня",
+      "category": "ceramics",
+      "locationPx": {
+        "x": 848,
+        "y": 153
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-010",
+      "shelf": "top",
+      "description": "Квадратна біла піала №2",
+      "category": "ceramics",
+      "locationPx": {
+        "x": 850,
+        "y": 184
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-011",
+      "shelf": "top",
+      "description": "Квадратна біла піала №3",
+      "category": "ceramics",
+      "locationPx": {
+        "x": 852,
+        "y": 214
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-012",
+      "shelf": "top",
+      "description": "Квадратна біла піала №4, нижня",
+      "category": "ceramics",
+      "locationPx": {
+        "x": 850,
+        "y": 244
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-013",
+      "shelf": "top",
+      "description": "Чашка біла з чорною графікою, верхня",
+      "category": "ceramics",
+      "locationPx": {
+        "x": 1150,
+        "y": 119
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-014",
+      "shelf": "top",
+      "description": "Квіткова чашка зелені/жовті акценти, верхня зліва",
+      "category": "ceramics",
+      "locationPx": {
+        "x": 1172,
+        "y": 170
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-015",
+      "shelf": "top",
+      "description": "Квіткова чашка синьо-зелена, середня зліва",
+      "category": "ceramics",
+      "locationPx": {
+        "x": 1168,
+        "y": 214
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-016",
+      "shelf": "top",
+      "description": "Квіткова чашка зелені акценти, нижня зліва",
+      "category": "ceramics",
+      "locationPx": {
+        "x": 1167,
+        "y": 256
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-017",
+      "shelf": "top",
+      "description": "Квіткова чашка сині мотиви, верхня справа",
+      "category": "ceramics",
+      "locationPx": {
+        "x": 1329,
+        "y": 176
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-018",
+      "shelf": "top",
+      "description": "Квіткова чашка коричнево-оранжева, нижня справа",
+      "category": "ceramics",
+      "locationPx": {
+        "x": 1326,
+        "y": 244
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-019",
+      "shelf": "middle",
+      "description": "Декоративна тарілка: рудоволоса аніме-героїня",
+      "category": "illustrated-plate",
+      "locationPx": {
+        "x": 156,
+        "y": 465
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-020",
+      "shelf": "middle",
+      "description": "Декоративна тарілка: рожевоволоса аніме-героїня",
+      "category": "illustrated-plate",
+      "locationPx": {
+        "x": 383,
+        "y": 453
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-021",
+      "shelf": "middle",
+      "description": "Декоративна тарілка: синьоволоса аніме-героїня",
+      "category": "illustrated-plate",
+      "locationPx": {
+        "x": 600,
+        "y": 458
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-022",
+      "shelf": "middle",
+      "description": "Декоративна тарілка: світловолоса аніме-героїня",
+      "category": "illustrated-plate",
+      "locationPx": {
+        "x": 809,
+        "y": 463
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-023",
+      "shelf": "middle",
+      "description": "Декоративна тарілка: дівчина в рожевому капелюсі",
+      "category": "illustrated-plate",
+      "locationPx": {
+        "x": 1038,
+        "y": 466
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-024",
+      "shelf": "middle",
+      "description": "Мініфігурка: руда дівчинка у жовтій сукні",
+      "category": "blind-box-figure",
+      "locationPx": {
+        "x": 138,
+        "y": 577
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-025",
+      "shelf": "middle",
+      "description": "Мініфігурка: фіолетове волосся, лілова сукня",
+      "category": "blind-box-figure",
+      "locationPx": {
+        "x": 274,
+        "y": 558
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-026",
+      "shelf": "middle",
+      "description": "Мініфігурка: червоне волосся, персикова сукня",
+      "category": "blind-box-figure",
+      "locationPx": {
+        "x": 425,
+        "y": 563
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-027",
+      "shelf": "middle",
+      "description": "Мініфігурка: світле волосся, темна сукня",
+      "category": "blind-box-figure",
+      "locationPx": {
+        "x": 565,
+        "y": 557
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-028",
+      "shelf": "middle",
+      "description": "Мініфігурка: руде волосся, синя сукня",
+      "category": "blind-box-figure",
+      "locationPx": {
+        "x": 696,
+        "y": 576
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-029",
+      "shelf": "middle",
+      "description": "Мініфігурка: сіре волосся, біло-сірий костюм",
+      "category": "blind-box-figure",
+      "locationPx": {
+        "x": 815,
+        "y": 548
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-030",
+      "shelf": "middle",
+      "description": "Мініфігурка: сіро-фіолетове волосся, темно-синя сукня",
+      "category": "blind-box-figure",
+      "locationPx": {
+        "x": 922,
+        "y": 586
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-031",
+      "shelf": "middle",
+      "description": "Мініфігурка: яскраво-зелене волосся, світла сукня",
+      "category": "blind-box-figure",
+      "locationPx": {
+        "x": 1038,
+        "y": 563
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-032",
+      "shelf": "middle",
+      "description": "Мініфігурка: рожеве волосся, бузково-рожева сукня",
+      "category": "blind-box-figure",
+      "locationPx": {
+        "x": 1137,
+        "y": 578
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-033",
+      "shelf": "middle",
+      "description": "Мініфігурка: каштанове волосся, кремова сукня",
+      "category": "blind-box-figure",
+      "locationPx": {
+        "x": 1235,
+        "y": 547
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-034",
+      "shelf": "middle",
+      "description": "Мініфігурка: рудувато-рожеве волосся, сидяча поза",
+      "category": "blind-box-figure",
+      "locationPx": {
+        "x": 1360,
+        "y": 600
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-035",
+      "shelf": "lower",
+      "description": "Велика статуетка: сіроволоса героїня у темному вбранні",
+      "category": "anime-figure",
+      "locationPx": {
+        "x": 219,
+        "y": 819
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-036",
+      "shelf": "lower",
+      "description": "Декоративна тарілка: білява героїня зі знаком терезів",
+      "category": "illustrated-plate",
+      "locationPx": {
+        "x": 475,
+        "y": 793
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-037",
+      "shelf": "lower",
+      "description": "Декоративна тарілка: рудоволоса героїня",
+      "category": "illustrated-plate",
+      "locationPx": {
+        "x": 715,
+        "y": 794
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-038",
+      "shelf": "lower",
+      "description": "Висока статуетка: блондинка у темному вбранні",
+      "category": "anime-figure",
+      "locationPx": {
+        "x": 858,
+        "y": 808
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-039",
+      "shelf": "lower",
+      "description": "Мініатюрна рамка з металевим рельєфом",
+      "category": "framed-decor",
+      "locationPx": {
+        "x": 758,
+        "y": 952
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-040",
+      "shelf": "lower",
+      "description": "Дерев'яна рамка-колаж із дрібними ілюстраціями",
+      "category": "framed-miniature-collage",
+      "locationPx": {
+        "x": 1051,
+        "y": 807
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-041",
+      "shelf": "lower",
+      "description": "Декоративна тарілка праворуч: рудоволоса героїня",
+      "category": "illustrated-plate",
+      "locationPx": {
+        "x": 1338,
+        "y": 907
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-042",
+      "shelf": "lower",
+      "description": "Прозора сувенірна куля на підставці",
+      "category": "souvenir",
+      "locationPx": {
+        "x": 148,
+        "y": 1022
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-043",
+      "shelf": "lower",
+      "description": "Мініфігурка: зелено-блакитний персонаж під капелюшком",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 245,
+        "y": 1054
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-044",
+      "shelf": "lower",
+      "description": "Мініфігурка: бежеве кошеня",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 308,
+        "y": 1041
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-045",
+      "shelf": "lower",
+      "description": "Мініфігурка: маленька жовта тваринка",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 349,
+        "y": 1046
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-046",
+      "shelf": "lower",
+      "description": "Мініфігурка: світловолоса дівчинка у квітковому вінку",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 384,
+        "y": 1003
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-047",
+      "shelf": "lower",
+      "description": "Керамічна чашка жовта із зображенням обличчя",
+      "category": "ceramics",
+      "locationPx": {
+        "x": 465,
+        "y": 968
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-048",
+      "shelf": "lower",
+      "description": "Мініфігурка: блондин у золотаво-синьому костюмі",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 466,
+        "y": 1053
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-049",
+      "shelf": "lower",
+      "description": "Мініфігурка: біла маленька тварина біля блондина",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 521,
+        "y": 1088
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-050",
+      "shelf": "lower",
+      "description": "Мініфігурка: темноволосий юнак, біла сорочка",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 596,
+        "y": 1044
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-051",
+      "shelf": "lower",
+      "description": "Мініфігурка: чорноволоса дівчинка, біла сукня",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 679,
+        "y": 1015
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-052",
+      "shelf": "lower",
+      "description": "Мініфігурка: рожевоволоса в білій хутряній накидці",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 756,
+        "y": 1046
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-053",
+      "shelf": "lower",
+      "description": "Мініфігурка: дівчина у фіолетовому вбранні",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 834,
+        "y": 992
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-054",
+      "shelf": "lower",
+      "description": "Мініфігурка: блакитний краплеподібний персонаж",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 891,
+        "y": 969
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-055",
+      "shelf": "lower",
+      "description": "Мініфігурка: золотиста тонка статуетка",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 963,
+        "y": 1029
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-056",
+      "shelf": "lower",
+      "description": "Мініфігурка: світловолоса дівчина в синьому на підставці",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 1126,
+        "y": 1000
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-057",
+      "shelf": "lower",
+      "description": "Мініатюра: рожево-біла тварина, лежача поза",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 998,
+        "y": 1091
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-058",
+      "shelf": "lower",
+      "description": "Мініатюра: рожево-біла тварина, задній ракурс",
+      "category": "mini-figure",
+      "locationPx": {
+        "x": 1061,
+        "y": 1069
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    },
+    {
+      "draftId": "photo-20261123-059",
+      "shelf": "lower",
+      "description": "Мініатюрна чорна конструкція або будиночок",
+      "category": "miniature-decor",
+      "locationPx": {
+        "x": 1081,
+        "y": 1038
+      },
+      "identificationStatus": "needs-series-and-model-verification",
+      "confidence": "visual-only",
+      "catalogImportable": false
+    }
+  ]
+}
