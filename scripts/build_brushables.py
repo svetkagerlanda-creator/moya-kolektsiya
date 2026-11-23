@@ -29,6 +29,53 @@ SERIES=[
  ("Reveal the Magic","reveal-the-magic",7),
 ]
 
+
+def discover_series():
+    """Read EVERY linked series and its published count, including store exclusives.
+
+    The source index, not an outdated manually curated list, is authoritative.
+    """
+    index_url = f"{BASE}/brushables/series/"
+    reply = requests.get(index_url, timeout=50, headers={"User-Agent": "Mozilla/5.0 (noncommercial personal collection index)"})
+    reply.raise_for_status()
+    soup = BeautifulSoup(reply.text, "html.parser")
+    seen = {}
+    for a in soup.select('a[href*="/brushables/series/"]'):
+        url = urljoin(index_url, a.get("href", ""))
+        parsed = urlsplit(url)
+        matched = re.fullmatch(r"/brushables/series/([a-z0-9-]+)/", parsed.path)
+        if parsed.hostname != "data.mlpmerch.com" or not matched:
+            continue
+        slug = matched.group(1)
+        container = a
+        count = None
+        # Counts are adjacent to links in source cards, not always in the anchor.
+        for parent in [a, a.parent, a.parent.parent if a.parent else None]:
+            if parent is None:
+                continue
+            label = parent.get_text(" ", strip=True)
+            match = re.search(r"\\(([0-9,]+)\\s+(?:ponies|pony|figures|releases)\\)", label, re.I)
+            if match:
+                count = int(match.group(1).replace(",", ""))
+                container = parent
+                break
+        if not count:
+            continue
+        title = a.get_text(" ", strip=True)
+        if not title or re.fullmatch(r"[0-9,]+\\s+(?:ponies|pony|figures|releases)", title, re.I):
+            title = slug.replace("-", " ").title()
+        title = re.sub(r"\\s*\\([0-9,]+\\s+(?:ponies|pony|figures|releases)\\).*", "", title, flags=re.I).strip()
+        if len(title) > 80:
+            title = slug.replace("-", " ").title()
+        seen[slug] = (title, slug, count)
+    if not seen:
+        raise ValueError("Source series index returned no recognized series")
+    # Keep canonical names for already published folders.
+    for title, slug, _ in SERIES:
+        if slug in seen:
+            seen[slug] = (title, slug, seen[slug][2])
+    return list(seen.values())
+
 def extract(title,slug,expected):
     url=urljoin(BASE,f"/brushables/series/{slug}/")
     reply=requests.get(url,timeout=50,headers={"User-Agent":"Mozilla/5.0 (noncommercial personal collection index)"})
@@ -94,7 +141,14 @@ def main():
         except (OSError,ValueError):
             pass
     errors={}
-    for title,slug,count in SERIES:
+    try:
+        target_series=discover_series()
+        print(f"SOURCE INDEX: {len(target_series)} G4 Brushables series")
+    except Exception as error:
+        target_series=SERIES
+        errors["SERIES INDEX"]=str(error)
+        print(f"SOURCE INDEX unavailable; retaining original {len(SERIES)} known series: {error}")
+    for title,slug,count in target_series:
         name="Hasbro · G4 Brushables · "+title
         try:
             found=extract(title,slug,count)
@@ -115,11 +169,11 @@ def main():
         except Exception as error:
             errors[name]=str(error)
             print(f"SKIP {name}: {error}")
-    result=[old["Hasbro · G4 Brushables · "+title] for title,_,_ in SERIES if "Hasbro · G4 Brushables · "+title in old]
+    result=sorted(old.values(),key=lambda entry: entry["name"])
     DEST.parent.mkdir(parents=True,exist_ok=True)
     DEST.write_text(json.dumps({"schemaVersion":1,"series":result},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf8")
     (DEST.parent/"brushables-errors.json").write_text(json.dumps(errors,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
-    print(f"Verified {len(result)}/{len(SERIES)} series; {sum(x['count'] for x in result)} items")
+    print(f"Verified {len(result)}/{len(target_series)} indexed series; {sum(x['count'] for x in result)} items")
 
 if __name__=="__main__":
     main()
