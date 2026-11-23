@@ -4581,8 +4581,12 @@
           "figureNumber": "76002",
           "boxNumber": "172",
           "sourceUrl": "https://funko.com/pop-deluxe-albus-dumbledore-with-podium/76002.html",
-          "photo": "",
-          "description": "Official manufacturer product; exact photo pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw3f49161e/images/funko/upload/76002_HP_POA_DumbledoreWithPodium_POP_DELUXE_GLAM-WEB.png?sh=800&sw=800",
+          "description": "Official manufacturer product; exact photo pending.",
+          "photoSourceUrl": "https://funko.com/pop-deluxe-albus-dumbledore-with-podium/76002.html",
+          "photoCredit": "Funko official product gallery",
+          "photoStatus": "official-image-opened-and-visual-checked",
+          "photoVerificationNote": "Exact matching manufacturer image opened and visually checked."
         },
         {
           "name": "Albus Dumbledore with Fawkes",
@@ -4603,8 +4607,12 @@
           "figureNumber": "57360",
           "boxNumber": "135",
           "sourceUrl": "https://funko.com/be/pop-deluxe-harry-potter-pushing-trolley/57360.html",
-          "photo": "",
-          "description": "Official manufacturer product; exact photo pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf7f7cb37/images/funko/57360-1.png?sh=800&sw=800",
+          "description": "Official manufacturer product; exact photo pending.",
+          "photoSourceUrl": "https://funko.com/be/pop-deluxe-harry-potter-pushing-trolley/57360.html",
+          "photoCredit": "Funko official product gallery",
+          "photoStatus": "official-image-opened-and-visual-checked",
+          "photoVerificationNote": "Exact matching manufacturer image opened and visually checked."
         },
         {
           "name": "Chocolate Frog",
@@ -4612,8 +4620,12 @@
           "figureNumber": "81012",
           "boxNumber": "178",
           "sourceUrl": "https://funko.com/im/pop-deluxe-chocolate-frog/81012.html",
-          "photo": "",
-          "description": "Official manufacturer product; exact photo pending."
+          "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwd8ba23ca/images/funko/upload/81012_POPDELUXE_HarryPotter_S16_ChocolateFrog_GLAM_FigureOnly-WEB.png?sh=800&sw=800",
+          "description": "Official manufacturer product; exact photo pending.",
+          "photoSourceUrl": "https://funko.com/im/pop-deluxe-chocolate-frog/81012.html",
+          "photoCredit": "Funko official product gallery",
+          "photoStatus": "official-image-opened-and-visual-checked",
+          "photoVerificationNote": "Exact matching manufacturer image opened and visually checked."
         }
       ]
     },
