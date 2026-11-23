@@ -65,7 +65,11 @@
           "seriesNumber": "84443",
           "sourceUrl": "https://funko.com/pop-izuku-midoriya-hooded/84443.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw61019b2c/images/funko/upload/84443_MHA_S13_DekuHooded_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko POP! item 84443; box #1815"
+          "description": "Funko POP! item 84443; box #1815",
+          "upc": "889698844437",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.pricecharting.com/game/funko-pop-animation/izuku-midoriya-1815",
+          "barcodeVerification": "Source explicitly matches Funko POP figure and 12-digit UPC; GTIN check digit validated"
         },
         {
           "name": "Katsuki Bakugo",
@@ -76,7 +80,11 @@
           "seriesNumber": "77960",
           "sourceUrl": "https://funko.com/pop-katsuki-bakugo/77960.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwa2046a36/images/funko/upload/77960_MHA_BakugoWithCHGW_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko POP! item 77960; box #1528"
+          "description": "Funko POP! item 77960; box #1528",
+          "upc": "889698779609",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://ralphiesfunhouse.com/collections/animation/products/funko-pop-animation-my-hero-academia-katsuki-bakugo-1528",
+          "barcodeVerification": "Source explicitly matches Funko POP figure and 12-digit UPC; GTIN check digit validated"
         }
       ]
     },
