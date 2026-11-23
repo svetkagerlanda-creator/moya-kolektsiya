@@ -216,7 +216,12 @@
           "assortmentBarcodeNote": "Shared Funko 90648 sealed blind-box UPC. It cannot identify the Nami — Metallic Gold variant; no individual UPC verified."
         }
       ],
-      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw069b8e7f/images/funko/upload/1/90648_OP_S14_MysteryMinis_PDQ_GLAM-WEB.png?sh=800&sw=800"
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw069b8e7f/images/funko/upload/1/90648_OP_S14_MysteryMinis_PDQ_GLAM-WEB.png?sh=800&sw=800",
+      "assortmentUpc": "889698906487",
+      "assortmentBarcodeType": "UPC-A",
+      "assortmentBarcodeSourceUrl": "https://www.officeworks.com.au/shop/officeworks/p/funko-mystery-minis-blind-box-one-piece-fun90648",
+      "assortmentBarcodeVerification": "Shared single random sealed box UPC across all catalog variants, confirmed by published retailer barcode and GS1 checksum",
+      "assortmentBarcodeNote": "Scan opens whole series and cannot identify the unrevealed figure; display or case UPC may differ."
     },
     {
       "name": "Funko · Harry Potter · Mystery Minis Series 2",
@@ -421,7 +426,12 @@
           "assortmentBarcodeNote": "Shared Funko 86584 sealed blind-box UPC. It cannot identify the Neville Longbottom variant; no individual UPC verified."
         }
       ],
-      "coverPhoto": "https://www.funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1f3239ce/images/funko/upload/1/86584_WB_HP_HARRYPOTTER_MYSTERYMINI_12PCPDQ_Glam-1-WEB.png?sh=800&sw=800"
+      "coverPhoto": "https://www.funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1f3239ce/images/funko/upload/1/86584_WB_HP_HARRYPOTTER_MYSTERYMINI_12PCPDQ_Glam-1-WEB.png?sh=800&sw=800",
+      "assortmentUpc": "889698865845",
+      "assortmentBarcodeType": "UPC-A",
+      "assortmentBarcodeSourceUrl": "https://hmv.com/store/pop-culture/pop-vinyl/harry-potter-funko-mystery-mini-series-2",
+      "assortmentBarcodeVerification": "Shared single random sealed box UPC across all catalog variants, confirmed by published retailer barcode and GS1 checksum",
+      "assortmentBarcodeNote": "Scan opens whole series and cannot identify the unrevealed figure; display or case UPC may differ."
     },
     {
       "name": "Funko · Harry Potter · Plush Keychain Mystery Minis",
@@ -536,7 +546,12 @@
           "assortmentBarcodeNote": "Shared Funko 86762 sealed blind-box UPC. It cannot identify the Sorting Hat variant; no individual UPC verified."
         }
       ],
-      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwcb19d1b7/images/funko/upload/86762_HP_MysteryMiniPlush_PDQ_GLAM_1-WEB.png?sh=800&sw=800"
+      "coverPhoto": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwcb19d1b7/images/funko/upload/86762_HP_MysteryMiniPlush_PDQ_GLAM_1-WEB.png?sh=800&sw=800",
+      "assortmentUpc": "889698867627",
+      "assortmentBarcodeType": "UPC-A",
+      "assortmentBarcodeSourceUrl": "https://www.target.com/p/-/A-1004686855",
+      "assortmentBarcodeVerification": "Shared single random sealed box UPC across all catalog variants, confirmed by published retailer barcode and GS1 checksum",
+      "assortmentBarcodeNote": "Scan opens whole series and cannot identify the unrevealed figure; display or case UPC may differ."
     },
     {
       "name": "Funko · Fairy Tail: 100 Years Quest · Selected POP! releases",
