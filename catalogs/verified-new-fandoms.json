@@ -1506,8 +1506,10 @@
           "figureNumber": "",
           "manufacturer": "Rainbow",
           "sourceUrl": "https://www.winxclub.com/products/winx-club-alfea-fashion-doll-playmates",
-          "photo": "",
-          "description": "Experience the magic of the Winx like never before! The Winx Fairy line comes with sparkling wings and a look ready for any challenge."
+          "photo": "https://www.winxclub.com/cdn/shop/files/57933-Winx-Club-BFS-Fairy-Doll_Image-1.jpg?v=1791185354&width=2000",
+          "description": "Experience the magic of the Winx like never before! The Winx Fairy line comes with sparkling wings and a look ready for any challenge.",
+          "photoCredit": "Winx Club official product image",
+          "photoSourceUrl": "https://www.winxclub.com/en-us/products/winx-club-alfea-fashion-doll-playmates"
         },
         {
           "name": "Winx Club Alfea - Fashion Doll Playmates — Bloom",
@@ -1541,8 +1543,10 @@
           "figureNumber": "",
           "manufacturer": "Rainbow",
           "sourceUrl": "https://www.winxclub.com/products/winx-fairy-fashion-doll-playmates",
-          "photo": "",
-          "description": "Experience the magic of the Winx like never before! The Winx Fairy line comes with sparkling wings and a look ready for any challenge."
+          "photo": "https://www.winxclub.com/cdn/shop/files/image_b274655c-aa2c-40f1-99a1-8e6321be1b1c.jpg?v=1795020187&width=1200",
+          "description": "Experience the magic of the Winx like never before! The Winx Fairy line comes with sparkling wings and a look ready for any challenge.",
+          "photoCredit": "Winx Club official product image",
+          "photoSourceUrl": "https://www.winxclub.com/en-us/products/winx-fairy-fashion-doll-playmates"
         },
         {
           "name": "Winx Club Fairies - Fashion Doll Playmates — Aisha",
@@ -3234,13 +3238,15 @@
           "figureNumber": "WNX32000",
           "variantKey": "winx-giochi:WNX32000:8056379041931",
           "sourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-bloom-di-giochi-preziosi-wnx32000/",
-          "photo": "",
+          "photo": "https://www.toysgiocattoli.it/wp-content/uploads/2024/04/81dxiw3njtl._sl1500_-300x300.jpg",
           "ean": "8056379041931",
           "barcodeType": "EAN-13",
           "barcodeSourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-bloom-di-giochi-preziosi-wnx32000/",
           "barcodeVerification": "Retail product page directly names the specific doll and lists this 13-digit value in ean_ebay field; EAN-13 check digit validated; not confused with ASIN in Ean field",
           "barcodeNote": "Character-specific retail EAN. Shared product line model WNX does not uniquely identify character.",
-          "description": "Історична лінійка WOW Dreamix. Індивідуальний EAN із картки продавця; фото потребує окремої перевірки."
+          "description": "Історична лінійка WOW Dreamix. Індивідуальний EAN із картки продавця; фото потребує окремої перевірки.",
+          "photoCredit": "Toys Giocattoli retailer product image",
+          "photoSourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-bloom-di-giochi-preziosi-wnx32000/"
         },
         {
           "name": "Winx WOW Dreamix — Flora",
@@ -3249,13 +3255,15 @@
           "figureNumber": "WNX32000",
           "variantKey": "winx-giochi:WNX32000:8056379041948",
           "sourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-flora-di-giochi-preziosi-wnx32000/",
-          "photo": "",
+          "photo": "https://www.toysgiocattoli.it/wp-content/uploads/2024/04/71vgldn8kl._sl1500_-300x300.jpg",
           "ean": "8056379041948",
           "barcodeType": "EAN-13",
           "barcodeSourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-flora-di-giochi-preziosi-wnx32000/",
           "barcodeVerification": "Retail product page directly names the specific doll and lists this 13-digit value in ean_ebay field; EAN-13 check digit validated; not confused with ASIN in Ean field",
           "barcodeNote": "Character-specific retail EAN. Shared product line model WNX does not uniquely identify character.",
-          "description": "Історична лінійка WOW Dreamix. Індивідуальний EAN із картки продавця; фото потребує окремої перевірки."
+          "description": "Історична лінійка WOW Dreamix. Індивідуальний EAN із картки продавця; фото потребує окремої перевірки.",
+          "photoCredit": "Toys Giocattoli retailer product image",
+          "photoSourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-flora-di-giochi-preziosi-wnx32000/"
         },
         {
           "name": "Winx WOW Dreamix — Stella",
@@ -3264,13 +3272,15 @@
           "figureNumber": "WNX32000",
           "variantKey": "winx-giochi:WNX32000:8056379041955",
           "sourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-stella-di-giochi-preziosi-wnx32000/",
-          "photo": "",
+          "photo": "https://www.toysgiocattoli.it/wp-content/uploads/2024/04/71zyswuqyhl._sl1500_-300x300.jpg",
           "ean": "8056379041955",
           "barcodeType": "EAN-13",
           "barcodeSourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-stella-di-giochi-preziosi-wnx32000/",
           "barcodeVerification": "Retail product page directly names the specific doll and lists this 13-digit value in ean_ebay field; EAN-13 check digit validated; not confused with ASIN in Ean field",
           "barcodeNote": "Character-specific retail EAN. Shared product line model WNX does not uniquely identify character.",
-          "description": "Історична лінійка WOW Dreamix. Індивідуальний EAN із картки продавця; фото потребує окремої перевірки."
+          "description": "Історична лінійка WOW Dreamix. Індивідуальний EAN із картки продавця; фото потребує окремої перевірки.",
+          "photoCredit": "Toys Giocattoli retailer product image",
+          "photoSourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-stella-di-giochi-preziosi-wnx32000/"
         },
         {
           "name": "Winx WOW Dreamix — Aisha",
@@ -3279,13 +3289,15 @@
           "figureNumber": "WNX32000",
           "variantKey": "winx-giochi:WNX32000:8056379041962",
           "sourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-aisha-di-giochi-preziosi-wnx32000/",
-          "photo": "",
+          "photo": "https://www.toysgiocattoli.it/wp-content/uploads/2024/04/81a4cqtnbkl._sl1500_-300x300.jpg",
           "ean": "8056379041962",
           "barcodeType": "EAN-13",
           "barcodeSourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-aisha-di-giochi-preziosi-wnx32000/",
           "barcodeVerification": "Retail product page directly names the specific doll and lists this 13-digit value in ean_ebay field; EAN-13 check digit validated; not confused with ASIN in Ean field",
           "barcodeNote": "Character-specific retail EAN. Shared product line model WNX does not uniquely identify character.",
-          "description": "Історична лінійка WOW Dreamix. Індивідуальний EAN із картки продавця; фото потребує окремої перевірки."
+          "description": "Історична лінійка WOW Dreamix. Індивідуальний EAN із картки продавця; фото потребує окремої перевірки.",
+          "photoCredit": "Toys Giocattoli retailer product image",
+          "photoSourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-aisha-di-giochi-preziosi-wnx32000/"
         },
         {
           "name": "Winx WOW Dreamix — Musa",
@@ -3294,13 +3306,15 @@
           "figureNumber": "WNX32000",
           "variantKey": "winx-giochi:WNX32000:8056379041979",
           "sourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-musa-di-giochi-preziosi-wnx32000/",
-          "photo": "",
+          "photo": "https://www.toysgiocattoli.it/wp-content/uploads/2024/04/71hztscupgl._sl1500_-300x300.jpg",
           "ean": "8056379041979",
           "barcodeType": "EAN-13",
           "barcodeSourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-musa-di-giochi-preziosi-wnx32000/",
           "barcodeVerification": "Retail product page directly names the specific doll and lists this 13-digit value in ean_ebay field; EAN-13 check digit validated; not confused with ASIN in Ean field",
           "barcodeNote": "Character-specific retail EAN. Shared product line model WNX does not uniquely identify character.",
-          "description": "Історична лінійка WOW Dreamix. Індивідуальний EAN із картки продавця; фото потребує окремої перевірки."
+          "description": "Історична лінійка WOW Dreamix. Індивідуальний EAN із картки продавця; фото потребує окремої перевірки.",
+          "photoCredit": "Toys Giocattoli retailer product image",
+          "photoSourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-musa-di-giochi-preziosi-wnx32000/"
         },
         {
           "name": "Winx WOW Dreamix — Tecna",
@@ -3309,13 +3323,15 @@
           "figureNumber": "WNX32000",
           "variantKey": "winx-giochi:WNX32000:8056379041986",
           "sourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-tecna-di-giochi-preziosi-wnx32000/",
-          "photo": "",
+          "photo": "https://www.toysgiocattoli.it/wp-content/uploads/2024/04/81qbti2zrvl._sl1500_-300x300.jpg",
           "ean": "8056379041986",
           "barcodeType": "EAN-13",
           "barcodeSourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-tecna-di-giochi-preziosi-wnx32000/",
           "barcodeVerification": "Retail product page directly names the specific doll and lists this 13-digit value in ean_ebay field; EAN-13 check digit validated; not confused with ASIN in Ean field",
           "barcodeNote": "Character-specific retail EAN. Shared product line model WNX does not uniquely identify character.",
-          "description": "Історична лінійка WOW Dreamix. Індивідуальний EAN із картки продавця; фото потребує окремої перевірки."
+          "description": "Історична лінійка WOW Dreamix. Індивідуальний EAN із картки продавця; фото потребує окремої перевірки.",
+          "photoCredit": "Toys Giocattoli retailer product image",
+          "photoSourceUrl": "https://www.toysgiocattoli.it/prodotto/winx-wow-dreamix-con-ali-removibili-bambola-tecna-di-giochi-preziosi-wnx32000/"
         }
       ]
     },
