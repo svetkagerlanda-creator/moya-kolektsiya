@@ -224,6 +224,410 @@
           "description": "Official MiniCo figure. Exact standalone product photo pending verification."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Collectible Minifigures · Series 1 (71022)",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+      "verified": true,
+      "completeness": "full-manufacturer-checklist",
+      "count": 22,
+      "items": [
+        {
+          "name": "Harry Potter (School Robes)",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "1",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Harry Potter (Pajamas)",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "2",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Hermione Granger (School Robes)",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "3",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Ron Weasley (School Robes)",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "4",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Draco Malfoy",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "5",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Luna Lovegood",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "6",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Neville Longbottom",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "7",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Cho Chang",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "8",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Dean Thomas",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "9",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Lord Voldemort",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "10",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Dobby",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "11",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Cedric Diggory",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "12",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Mad-Eye Moody",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "13",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Professor Flitwick",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "14",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Professor Trelawney",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "15",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Albus Dumbledore",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "16",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Newt Scamander",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "17",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Jacob Kowalski",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "18",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Tina Goldstein",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "19",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Queenie Goldstein",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "20",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Credence Barebone",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "21",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Percival Graves",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "22",
+          "seriesNumber": "71022",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-and-fantastic-beasts-71022",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Collectible Minifigures · Series 2 (71028)",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+      "verified": true,
+      "completeness": "full-manufacturer-checklist",
+      "count": 16,
+      "items": [
+        {
+          "name": "Harry Potter",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "1",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Hermione Granger",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "2",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Ron Weasley",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "3",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Ginny Weasley",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "4",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Fred Weasley",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "5",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "George Weasley",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "6",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Luna Lovegood",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "7",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Moaning Myrtle",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "8",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Griphook",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "9",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Albus Dumbledore",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "10",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Professor Sprout",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "11",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Neville Longbottom",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "12",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Kingsley Shacklebolt",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "13",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Bellatrix Lestrange",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "14",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "Lily Potter",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "15",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        },
+        {
+          "name": "James Potter",
+          "manufacturer": "LEGO",
+          "figureNumber": "",
+          "catalogPosition": "16",
+          "seriesNumber": "71028",
+          "sourceUrl": "https://www.lego.com/en-us/product/harry-potter-series-2-71028",
+          "photo": "",
+          "description": "Collectible minifigure in mystery bag; manufacturer confirms character. Individual variant photo not yet verified."
+        }
+      ]
     }
   ]
 }
