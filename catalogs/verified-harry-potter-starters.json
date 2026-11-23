@@ -3270,8 +3270,24 @@
       "source": "https://www.funko.com/im/bitty-pop-towns-harry-potter-3-pack/95112.html",
       "verified": true,
       "completeness": "official-manufacturer-checklist",
-      "count": 3,
+      "count": 4,
       "items": [
+        {
+          "name": "Sealed Diagon Alley Bitty POP! Towns 3-Pack — 95112",
+          "manufacturer": "Funko",
+          "figureNumber": "95112",
+          "catalogPosition": "SKU-95112",
+          "sourceUrl": "https://funko.com/ca/bitty-pop-towns-harry-potter-3-pack/95112.html",
+          "photo": "",
+          "description": "Retail pack of three Bitty POP! Towns sets; distinct SKU from the three named component scenes.",
+          "packagingType": "sealed-3-pack",
+          "packSize": 3,
+          "ean": "0889698951128",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://rozetka.com.ua/ua/funko-889698951128/p616990334/",
+          "barcodeVerification": "Retailer explicitly identifies exact Funko 95112 and barcode 889698951128; normalized as EAN-13.",
+          "barcodeNote": "Identifies the complete 3-Pack, not one of its three individual scenes."
+        },
         {
           "name": "The Leaky Cauldron + Rubeus Hagrid",
           "manufacturer": "Funko",
@@ -3309,8 +3325,22 @@
       "source": "https://funko.com/bitty-pop-harry-potter-6-pack/91760.html",
       "verified": true,
       "completeness": "official-manufacturer-checklist",
-      "count": 4,
+      "count": 5,
       "items": [
+        {
+          "name": "Sealed Harry Potter Bitty POP! 6-Pack — 91760",
+          "manufacturer": "Funko",
+          "figureNumber": "91760",
+          "catalogPosition": "SKU-91760",
+          "sourceUrl": "https://funko.com/bitty-pop-harry-potter-6-pack/91760.html",
+          "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwd907dbdf/images/funko/upload/1/91760_BittyPop_Set_TNBC_Glam-1-WEB.png",
+          "photoSourceUrl": "https://funko.com/bitty-pop-harry-potter-6-pack/91760.html",
+          "photoCredit": "Funko official 91760 retail 6-Pack packaging",
+          "photoStatus": "manufacturer-exact-sealed-pack",
+          "description": "Complete retail 6-Pack includes the Bitty POP! character, Ride, and Town pieces. Separate SKU from individual components; no product GTIN assigned without retailer verification.",
+          "packagingType": "sealed-6-pack",
+          "packSize": 6
+        },
         {
           "name": "Ron Weasley",
           "manufacturer": "Funko",
