@@ -35,9 +35,11 @@
           "catalogPosition": "01",
           "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|The High Priestess",
           "sourceUrl": "https://toysez.com/products/sleep-fairyland-elves-series-the-high-priestess",
-          "photo": "",
+          "photo": "https://toysez.com/cdn/shop/files/8_3_157cf8cf-e66b-43d9-99d8-56fe6f0cae4f.jpg?v=1736351497",
           "rarity": "Regular",
-          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий.",
+          "photoCredit": "TOYSEZ individual variant product photo",
+          "photoStatus": "exact-variant-photo"
         },
         {
           "name": "The Hermit",
@@ -57,10 +59,12 @@
           "character": "The Magician",
           "catalogPosition": "03",
           "variantKey": "52TOYS|52TOYS · Sleep · Fairyland Elves|The Magician",
-          "sourceUrl": "https://pokkii.com/products/sleep-fairyland-elves-series-blind-box-figure-52toys",
-          "photo": "",
+          "sourceUrl": "https://toysez.com/products/sleep-fairyland-elves-series-secret-the-magician",
+          "photo": "https://toysez.com/cdn/shop/files/10_3_72ce8718-2cfd-4aae-b4ee-052a53892829.jpg?v=1736352049",
           "rarity": "Secret",
-          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий."
+          "description": "Поіменно підтверджений колекційний варіант. Вміст конкретної закритої blind box невідомий.",
+          "photoCredit": "TOYSEZ individual variant product photo",
+          "photoStatus": "exact-variant-photo"
         },
         {
           "name": "The Devil",
