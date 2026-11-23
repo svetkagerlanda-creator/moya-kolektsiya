@@ -360,7 +360,11 @@
           "photo": "",
           "photoCredit": "",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
-          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU."
+          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
+          "upc": "008421373857",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.maziply.com/products/ty-beanie-boos-tricky-the-ghost-with-horns-plush",
+          "barcodeVerification": "Retail listing explicitly matches character, Ty manufacturer model and UPC-A; check digit validated."
         },
         {
           "name": "Marigold",
@@ -371,7 +375,11 @@
           "photo": "",
           "photoCredit": "",
           "description": "Ty Beanie Boos plush release identified by its individual Ty manufacturer SKU. Edition/size distinctions follow the official product page; exact UPC and photo are pending independent verification.",
-          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU."
+          "sourceVerification": "Ty official individual product page identifies named Beanie Boo and this manufacturer SKU; no barcode inferred from SKU.",
+          "upc": "008421373703",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://maudau.com.ua/product/miaka-ihrashka-ty-beanie-boos-kurcha-marigold-37370-riznokolorovyi-shop-008421373703",
+          "barcodeVerification": "Retail listing explicitly matches character, Ty manufacturer model and UPC-A; check digit validated."
         },
         {
           "name": "Batrick",
@@ -517,7 +525,11 @@
           "sourceUrl": "https://www.ty.com/product/melanie/37410.html?cgid=beanie-boos-circle&lang=en",
           "photo": "",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
-          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
+          "upc": "008421374106",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.maziply.com/products/ty-beanie-babies-melanie-gold-cat-plush",
+          "barcodeVerification": "Retail listing explicitly matches character, Ty manufacturer model and UPC-A; check digit validated."
         },
         {
           "name": "Palmer",
@@ -542,7 +554,11 @@
           "sourceUrl": "https://www.ty.com/product/cuddles/37398.html?cgid=beanie-boos-circle&lang=en",
           "photo": "",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
-          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
+          "upc": "008421373987",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.just4fun.ca/shop/TY/p/CUDDLES---dog-wheart-reg-x98026155.htm",
+          "barcodeVerification": "Retail listing explicitly matches character, Ty manufacturer model and UPC-A; check digit validated."
         },
         {
           "name": "Daphne",
