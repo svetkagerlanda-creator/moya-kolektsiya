@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "lastRunAt": "2026-11-23T02:42:46+02:00",
+  "scope": "Full manufacturer and fandom catalog coverage",
+  "identityPolicy": "Exact SKU/sourceUrl plus variant; when sourceUrl is shared by whole series, use manufacturer+series+catalogPosition+name; never collapse physical reissues",
+  "reviewed": [
+    {
+      "path": "catalogs/verified-mlpmerch.json",
+      "manufacturer": "Kayou",
+      "fandom": "My Little Pony",
+      "series": 2,
+      "items": 449,
+      "photoLinks": 449
+    },
+    {
+      "path": "catalogs/verified-brushables.json",
+      "manufacturer": "Hasbro",
+      "fandom": "My Little Pony G4",
+      "series": 32,
+      "items": 1029,
+      "photoLinks": 1029
+    },
+    {
+      "path": "catalogs/verified-blind-bags.json",
+      "manufacturer": "Hasbro",
+      "fandom": "My Little Pony G4",
+      "series": 51,
+      "items": 915,
+      "photoLinks": 915
+    },
+    {
+      "path": "catalogs/verified-popmart-starters.json",
+      "manufacturer": "POP MART",
+      "fandom": "Multiple",
+      "series": 5,
+      "items": 42,
+      "photoLinks": 42
+    },
+    {
+      "path": "catalogs/verified-funko-hazbin-wave1.json",
+      "manufacturer": "Funko",
+      "fandom": "Hazbin Hotel",
+      "series": 1,
+      "items": 5,
+      "photoLinks": 5
+    },
+    {
+      "path": "catalogs/verified-funko-hazbin-wave1-chase.json",
+      "manufacturer": "Funko",
+      "fandom": "Hazbin Hotel",
+      "series": 1,
+      "items": 4,
+      "photoLinks": 4
+    }
+  ],
+  "audit": {
+    "series": 92,
+    "items": 2444,
+    "photoLinks": 2444,
+    "sourceUrlFields": 2444,
+    "missingPhotoLinks": 0,
+    "missingSourceUrl": 0,
+    "nonHttpsPhotoLinks": 0,
+    "seriesCountMismatch": 0,
+    "scope": "Six selected catalog JSON files only; checks URL format and field presence, not remote image accessibility or photo accuracy",
+    "caveats": [
+      "POP MART series-level product URL repeats across physical variants; 42 unique variantKey fields now added",
+      "G4 versus G4.5 generation classification not yet independently verified",
+      "Unreviewed catalog files remain and full coverage cannot be claimed"
+    ]
+  },
+  "changes": [
+    {
+      "path": "catalogs/verified-popmart-starters.json",
+      "commit": "64bd5c787267d4a6d83eb01d8210f92e69b6c7d2",
+      "seriesModified": 5,
+      "itemsEnriched": 42,
+      "newSeries": 0,
+      "newItems": 0,
+      "newPhotos": 0
+    }
+  ],
+  "nextSteps": [
+    "Review remaining catalog files in manageable chunks; verify incomplete MLP G4/G4.5 assignments against MLP Merch",
+    "Inspect individual remote image URLs and match physical variants before adding images",
+    "Expand Funko, POP MART, Bandai, Good Smile, LEGO, Mattel, MGA, Penny's Box with verified full series and individual photos",
+    "Ensure import deduplication honors variantKey and does not rely solely on shared sourceUrl"
+  ],
+  "errors": []
+}
