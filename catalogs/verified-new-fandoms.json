@@ -215,7 +215,12 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-x-alysa-liu-blind-box",
           "photo": "https://cdn.shopify.com/s/files/1/0461/4452/0344/files/263029_AlysaLiu_Bratziez_3_Group.jpg?v=1793382782",
-          "description": "The Bratziez are hitting the ice! Alysa Liu is twirling into the world of Bratziez with five sassy-cute blind box plush collectibles inspired by her unforgettable style. From warm-up to winner, each look celebrates the 2025 Figure Skating World Champion and gold medalist with show-stopping style and sweet surprises!"
+          "description": "The Bratziez are hitting the ice! Alysa Liu is twirling into the world of Bratziez with five sassy-cute blind box plush collectibles inspired by her unforgettable style. From warm-up to winner, each look celebrates the 2025 Figure Skating World Champion and gold medalist with show-stopping style and sweet surprises!",
+          "upc": "035051263029",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-1011191431",
+          "barcodeVerification": "Target retail page explicitly lists series, one sealed random blind box and matching UPC; check digit valid",
+          "barcodeNote": "UPC for one sealed random blind box, not a guaranteed individual figure variant"
         },
         {
           "name": "Bratz Bratziez x Hello Kitty® Blind Box",
@@ -223,7 +228,12 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-hello-kitty-blind-box",
           "photo": "https://cdn.shopify.com/s/files/1/0461/4452/0344/files/256618_Bratziez_HelloKitty_Yasmin_Cloe.jpg?v=1791319796",
-          "description": "Hello Kitty® is entering the world of Bratziez! Unbox 'em and all our Bratziez collections at Bratz.com."
+          "description": "Hello Kitty® is entering the world of Bratziez! Unbox 'em and all our Bratziez collections at Bratz.com.",
+          "upc": "035051256618",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-95293059",
+          "barcodeVerification": "Target retail page explicitly lists series, one sealed random blind box and matching UPC; check digit valid",
+          "barcodeNote": "UPC for one sealed random blind box, not a guaranteed individual figure variant"
         },
         {
           "name": "Bratz Bratziez x Lisa Seriez Blind Box",
@@ -231,7 +241,12 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-x-lisa-seriez-blind-box",
           "photo": "https://cdn.shopify.com/s/files/1/0461/4452/0344/files/257141_Bratz_Lisa_Bratziez_2.jpg?v=1794421553",
-          "description": "Lisa is officially in her Bratziez era! Shop all the Bratziez and doll collections at Bratz.com"
+          "description": "Lisa is officially in her Bratziez era! Shop all the Bratziez and doll collections at Bratz.com",
+          "upc": "035051257141",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-1010360537",
+          "barcodeVerification": "Target retail page explicitly lists series, one sealed random blind box and matching UPC; check digit valid",
+          "barcodeNote": "UPC for one sealed random blind box, not a guaranteed individual figure variant"
         }
       ]
     },
