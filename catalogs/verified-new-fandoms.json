@@ -17,7 +17,10 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-alwayz-bratz-doll-cloe",
           "photo": "https://cdn.shopify.com/s/files/1/0461/4452/0344/files/505204-Bratz-Alwayz-Bratz-Doll-Cloe3.jpg?v=1724759468",
-          "description": "The Girls with a Passion for Fashion are expressing themselves through new outfits, hairstyles, and makeup looks! Cloe, Yasmin, Jade, and Sasha continue to explore their personal styles and unique looks in these all-new dolls. Cloe rocks denim head to toe with a denim jacket, two-toned denim skirt, and denim leg warmer"
+          "description": "The Girls with a Passion for Fashion are expressing themselves through new outfits, hairstyles, and makeup looks! Cloe, Yasmin, Jade, and Sasha continue to explore their personal styles and unique looks in these all-new dolls. Cloe rocks denim head to toe with a denim jacket, two-toned denim skirt, and denim leg warmer",
+          "upc": "035051505204",
+          "barcodeSourceUrl": "https://toywiz.com/bratz-animation-cloe-doll/",
+          "barcodeType": "UPC-A"
         },
         {
           "name": "Alwayz Bratz Fashion Doll - Jade",
@@ -25,7 +28,10 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://www.bratz.com/products/bratz-alwayz-jade-fashion-doll-with-10-accessories",
           "photo": "https://cdn.shopify.com/s/files/1/0461/4452/0344/files/505228-Bratz-Alwayz-Jade-Fashion-Doll3.jpg?v=1724760308",
-          "description": "The Girls with a Passion for Fashion are expressing themselves through new outfits, hairstyles, and makeup looks! Cloe, Yasmin, Jade, and Sasha continue to explore their personal styles and unique looks in these all-new dolls. Jade wears a bold plaid jacket over a collared sweater combo, faux leather shorts, tights, an"
+          "description": "The Girls with a Passion for Fashion are expressing themselves through new outfits, hairstyles, and makeup looks! Cloe, Yasmin, Jade, and Sasha continue to explore their personal styles and unique looks in these all-new dolls. Jade wears a bold plaid jacket over a collared sweater combo, faux leather shorts, tights, an",
+          "upc": "035051505228",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-89142090",
+          "barcodeType": "UPC-A"
         },
         {
           "name": "Alwayz Bratz Fashion Doll - Yasmin",
@@ -35,7 +41,10 @@
           "photo": "https://www.bratz.com/cdn/shop/files/505211-Bratz-Alwayz-Yasmin-Fashion-Doll2.jpg?v=1724760986&width=990",
           "description": "Original Alwayz Bratz fashion doll, Yasmin. SKU 505211 confirmed by official Bratz product listing; exact individual image still requires verification.",
           "photoStatus": "exact-product-image-found",
-          "photoCredit": "Official Bratz product gallery — exact SKU 505211"
+          "photoCredit": "Official Bratz product gallery — exact SKU 505211",
+          "upc": "035051505211",
+          "barcodeSourceUrl": "https://www.target.com/p/-/A-89142076",
+          "barcodeType": "UPC-A"
         },
         {
           "name": "Alwayz Bratz Fashion Doll - Sasha",
@@ -45,7 +54,10 @@
           "photo": "https://www.bratz.com/cdn/shop/files/505235-Bratz-Alwayz-Sasha-Fashion-Doll.jpg?v=1739483308&width=1946",
           "description": "Original Alwayz Bratz fashion doll, Sasha. SKU 505235 confirmed by official Bratz product listing; exact individual image still requires verification.",
           "photoStatus": "exact-product-image-found",
-          "photoCredit": "Official Bratz product gallery — exact SKU 505235"
+          "photoCredit": "Official Bratz product gallery — exact SKU 505235",
+          "upc": "035051505235",
+          "barcodeSourceUrl": "https://www.desertcart.in/products/594114323-alwayz-bratz-sasha-fashion-doll-with-10-accessories-and-poster",
+          "barcodeType": "UPC-A"
         }
       ],
       "sourceDeclaredCount": 4,
