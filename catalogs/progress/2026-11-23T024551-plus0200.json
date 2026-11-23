@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "runAt": "2026-11-23T02:45:51+02:00",
+  "scope": "All manufacturer and fandom catalogs; read-only validation tooling",
+  "changes": [
+    {
+      "path": "scripts/audit-catalogs.cjs",
+      "commit": "eb799f6b2699088d8c7406242fdadcbe3588dcbb",
+      "description": "Add recursive JSON catalog audit with count, HTTPS, missing images/sources, duplicate identity, and possible G4/G4.5 conflict checks"
+    }
+  ],
+  "newSeries": 0,
+  "newItems": 0,
+  "newPhotos": 0,
+  "verifiedPhotos": 0,
+  "notes": [
+    "No catalog additions or remote photo checks performed in this run",
+    "Audit script has not been executed in repository CI; no assertion of clean catalogs",
+    "Existing personal collections and UI untouched"
+  ],
+  "nextSteps": [
+    "Run node scripts/audit-catalogs.cjs and triage warnings across all manufacturer/fandom files",
+    "Verify missing or suspect entries against manufacturer and MLP Merch sources",
+    "Add complete sourced series with exact individual photos and variant identities"
+  ],
+  "errors": []
+}
