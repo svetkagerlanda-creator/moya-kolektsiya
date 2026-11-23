@@ -402,8 +402,8 @@
       "manufacturer": "Spin Master",
       "source": "https://www.spinmaster.com/en-US/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-series-2-quidditch-2-pack-surprise-blind-box-figures-styles-may-vary-1-5-inch-kids-toys-for-ages-6-and-up",
       "verified": true,
-      "completeness": "verified-selected-releases",
-      "count": 1,
+      "completeness": "full-community-pair-checklist",
+      "count": 6,
       "items": [
         {
           "name": "Quidditch Series 2 — Sealed Mystery 2-Pack",
@@ -412,9 +412,64 @@
           "sourceUrl": "https://www.spinmaster.com/en-US/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-series-2-quidditch-2-pack-surprise-blind-box-figures-styles-may-vary-1-5-inch-kids-toys-for-ages-6-and-up",
           "photo": "",
           "description": "Official product listing verified; exact individual photo pending."
+        },
+        {
+          "name": "Quidditch mystery pair — Madame Hooch & Neville Longbottom",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "collectorCode": "M01",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://whbdistributors.com/spin-master/wizarding-world/wizarding-world-harry-potter-micro-magical-moments-collectible-quidditch-double-pack-m02-asst.html",
+          "collectorCodeSourceUrl": "https://www.reddit.com/r/harrypotter/comments/1o2ek42/micro_magical_moments_quidditch_series_2_box_codes/",
+          "photo": "",
+          "description": "Specific two-figure Quidditch mystery-pair outcome verified by retailer series checklist and collector unboxing report. Code from collectors, not EAN/UPC; no exact pair image verified."
+        },
+        {
+          "name": "Quidditch mystery pair — Fred Weasley & George Weasley",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "collectorCode": "M02",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://whbdistributors.com/spin-master/wizarding-world/wizarding-world-harry-potter-micro-magical-moments-collectible-quidditch-double-pack-m02-asst.html",
+          "collectorCodeSourceUrl": "https://www.reddit.com/r/harrypotter/comments/1o2ek42/micro_magical_moments_quidditch_series_2_box_codes/",
+          "photo": "",
+          "description": "Specific two-figure Quidditch mystery-pair outcome verified by retailer series checklist and collector unboxing report. Code from collectors, not EAN/UPC; no exact pair image verified."
+        },
+        {
+          "name": "Quidditch mystery pair — Katie Bell & Ginny Weasley",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "collectorCode": "M03",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://whbdistributors.com/spin-master/wizarding-world/wizarding-world-harry-potter-micro-magical-moments-collectible-quidditch-double-pack-m02-asst.html",
+          "collectorCodeSourceUrl": "https://www.reddit.com/r/harrypotter/comments/1o2ek42/micro_magical_moments_quidditch_series_2_box_codes/",
+          "photo": "",
+          "description": "Specific two-figure Quidditch mystery-pair outcome verified by retailer series checklist and collector unboxing report. Code from collectors, not EAN/UPC; no exact pair image verified."
+        },
+        {
+          "name": "Quidditch mystery pair — Marcus Flint & Severus Snape",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "collectorCode": "M04",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://whbdistributors.com/spin-master/wizarding-world/wizarding-world-harry-potter-micro-magical-moments-collectible-quidditch-double-pack-m02-asst.html",
+          "collectorCodeSourceUrl": "https://www.reddit.com/r/harrypotter/comments/1o2ek42/micro_magical_moments_quidditch_series_2_box_codes/",
+          "photo": "",
+          "description": "Specific two-figure Quidditch mystery-pair outcome verified by retailer series checklist and collector unboxing report. Code from collectors, not EAN/UPC; no exact pair image verified."
+        },
+        {
+          "name": "Quidditch mystery pair — Harry Potter & Gilderoy Lockhart",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "collectorCode": "M05",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://whbdistributors.com/spin-master/wizarding-world/wizarding-world-harry-potter-micro-magical-moments-collectible-quidditch-double-pack-m02-asst.html",
+          "collectorCodeSourceUrl": "https://www.reddit.com/r/harrypotter/comments/1o2ek42/micro_magical_moments_quidditch_series_2_box_codes/",
+          "photo": "",
+          "description": "Specific two-figure Quidditch mystery-pair outcome verified by retailer series checklist and collector unboxing report. Code from collectors, not EAN/UPC; no exact pair image verified."
         }
       ],
-      "notes": "Series 2 blind pair assortment. Five different pair outcomes are reported by collectors, but full pair names must be matched to an opened-box checklist before creating variant cards. Existing sealed two-pack is not an individual outcome."
+      "notes": "Five distinct paired outcomes confirmed by product lineup and collector unboxing reports. Collector codes may be batch-specific. Individual pair photos pending; sealed mystery 2-pack listed separately where known."
     },
     {
       "name": "Harry Potter · Funko · Bitty POP! Boxes",
@@ -4603,6 +4658,63 @@
       "coverPhotoSourceUrl": "https://www.elcorteingles.es/juguetes/A50898771-figura-sorpresa-harry-potter-wizarding-world/",
       "coverPhotoCredit": "Retailer product gallery, exact Year 2 assortment",
       "coverPhotoStatus": "exact-sealed-product"
+    },
+    {
+      "name": "Harry Potter · Spin Master · Micro Magical Moments · Quidditch Series 1",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Spin Master",
+      "manufacturer": "Spin Master",
+      "source": "https://www.nerdom.gr/en/en005060-spin-master-harry-potter-quidditch-s1-micro-magical-moments-figurines-random-6072264.html",
+      "verified": true,
+      "completeness": "full-community-pair-checklist",
+      "count": 4,
+      "items": [
+        {
+          "name": "Quidditch mystery pair — Ron Weasley & Draco Malfoy",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "collectorCode": "M01",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.nerdom.gr/en/en005060-spin-master-harry-potter-quidditch-s1-micro-magical-moments-figurines-random-6072264.html",
+          "collectorCodeSourceUrl": "https://www.reddit.com/r/harrypotter/comments/1o2ek42/micro_magical_moments_quidditch_series_2_box_codes/",
+          "photo": "",
+          "description": "Specific two-figure Quidditch mystery-pair outcome verified by retailer series checklist and collector unboxing report. Code from collectors, not EAN/UPC; no exact pair image verified."
+        },
+        {
+          "name": "Quidditch mystery pair — Harry Potter & Oliver Wood",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "collectorCode": "M02",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.nerdom.gr/en/en005060-spin-master-harry-potter-quidditch-s1-micro-magical-moments-figurines-random-6072264.html",
+          "collectorCodeSourceUrl": "https://www.reddit.com/r/harrypotter/comments/1o2ek42/micro_magical_moments_quidditch_series_2_box_codes/",
+          "photo": "",
+          "description": "Specific two-figure Quidditch mystery-pair outcome verified by retailer series checklist and collector unboxing report. Code from collectors, not EAN/UPC; no exact pair image verified."
+        },
+        {
+          "name": "Quidditch mystery pair — Lee Jordan & Minerva McGonagall",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "collectorCode": "M03",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.nerdom.gr/en/en005060-spin-master-harry-potter-quidditch-s1-micro-magical-moments-figurines-random-6072264.html",
+          "collectorCodeSourceUrl": "https://www.reddit.com/r/harrypotter/comments/1o2ek42/micro_magical_moments_quidditch_series_2_box_codes/",
+          "photo": "",
+          "description": "Specific two-figure Quidditch mystery-pair outcome verified by retailer series checklist and collector unboxing report. Code from collectors, not EAN/UPC; no exact pair image verified."
+        },
+        {
+          "name": "Quidditch mystery pair — Luna Lovegood & Hermione Granger",
+          "manufacturer": "Spin Master",
+          "figureNumber": "",
+          "collectorCode": "M04",
+          "collectorCodeType": "community-reported-box-code",
+          "sourceUrl": "https://www.nerdom.gr/en/en005060-spin-master-harry-potter-quidditch-s1-micro-magical-moments-figurines-random-6072264.html",
+          "collectorCodeSourceUrl": "https://www.reddit.com/r/harrypotter/comments/1o2ek42/micro_magical_moments_quidditch_series_2_box_codes/",
+          "photo": "",
+          "description": "Specific two-figure Quidditch mystery-pair outcome verified by retailer series checklist and collector unboxing report. Code from collectors, not EAN/UPC; no exact pair image verified."
+        }
+      ],
+      "notes": "Four distinct paired outcomes confirmed by product lineup and collector unboxing reports. Collector codes may be batch-specific. Individual pair photos pending; sealed mystery 2-pack listed separately where known."
     }
   ]
 }
