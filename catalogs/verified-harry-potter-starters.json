@@ -1618,6 +1618,34 @@
           "description": "Possible mystery figure, not guaranteed in every 4-pack."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · Funko · Bitty POP! Deluxe · Diagon Alley",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · Funko",
+      "manufacturer": "Funko",
+      "source": "https://funko.com/bitty-pop-deluxe-hermione-granger-flourish-blotts/81332.html",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Hermione Granger — Flourish & Blotts",
+          "manufacturer": "Funko",
+          "figureNumber": "81332",
+          "sourceUrl": "https://funko.com/bitty-pop-deluxe-hermione-granger-flourish-blotts/81332.html",
+          "photo": "",
+          "description": "Official Funko Bitty Pop! Deluxe collectible with acrylic display; exact photo pending."
+        },
+        {
+          "name": "Barn Owl — Eeylops Owl Emporium",
+          "manufacturer": "Funko",
+          "figureNumber": "81331",
+          "sourceUrl": "https://funko.com/bitty-pop-deluxe-barn-owl-owl-emporium/81331.html",
+          "photo": "",
+          "description": "Official Funko Bitty Pop! Deluxe collectible with acrylic display; exact photo pending."
+        }
+      ]
     }
   ]
 }
