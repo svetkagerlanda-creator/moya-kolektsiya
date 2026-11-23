@@ -3954,8 +3954,12 @@
           "manufacturer": "LEGO",
           "figureNumber": "76458",
           "sourceUrl": "https://www.lego.com/en-us/product/thestral-family-76458",
-          "photo": "",
-          "description": "Official LEGO Harry Potter product; exact image pending."
+          "photo": "https://images.brickset.com/sets/images/76458-1.jpg",
+          "description": "Official LEGO Harry Potter product; exact image pending.",
+          "photoSourceUrl": "https://brickset.com/sets/76458-1",
+          "photoCredit": "Brickset set image / LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "LEGO set identity and number checked; standard Brickset CDN image URL used. CDN image response was not checked individually."
         }
       ]
     },
@@ -3974,8 +3978,12 @@
           "manufacturer": "LEGO",
           "figureNumber": "76463",
           "sourceUrl": "https://www.lego.com/en-us/product/hogwarts-castle-hospital-wing-76463",
-          "photo": "",
-          "description": "Official LEGO Harry Potter product; exact image pending."
+          "photo": "https://images.brickset.com/sets/images/76463-1.jpg",
+          "description": "Official LEGO Harry Potter product; exact image pending.",
+          "photoSourceUrl": "https://brickset.com/sets/76463-1",
+          "photoCredit": "Brickset set image / LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "LEGO set identity and number checked; standard Brickset CDN image URL used. CDN image response was not checked individually."
         },
         {
           "name": "Hogwarts Castle: Herbology Class",
@@ -4197,16 +4205,24 @@
           "manufacturer": "LEGO",
           "figureNumber": "76470",
           "sourceUrl": "https://www.lego.com/en-ie/themes/harry-potter",
-          "photo": "",
-          "description": "Listed in official LEGO Harry Potter catalog. Individual product photo pending verification."
+          "photo": "https://images.brickset.com/sets/images/76470-1.jpg",
+          "description": "Listed in official LEGO Harry Potter catalog. Individual product photo pending verification.",
+          "photoSourceUrl": "https://brickset.com/sets/76470-1",
+          "photoCredit": "Brickset set image / LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "LEGO set identity and number checked; standard Brickset CDN image URL used. CDN image response was not checked individually."
         },
         {
           "name": "Hagrid & Harry's Motorcycle Ride",
           "manufacturer": "LEGO",
           "figureNumber": "76443",
           "sourceUrl": "https://www.lego.com/en-ie/themes/harry-potter",
-          "photo": "",
-          "description": "Listed in official LEGO Harry Potter catalog. Individual product photo pending verification."
+          "photo": "https://images.brickset.com/sets/images/76443-1.jpg",
+          "description": "Listed in official LEGO Harry Potter catalog. Individual product photo pending verification.",
+          "photoSourceUrl": "https://brickset.com/sets/76443-1",
+          "photoCredit": "Brickset set image / LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "LEGO set identity and number checked; standard Brickset CDN image URL used. CDN image response was not checked individually."
         }
       ]
     },
@@ -4738,8 +4754,12 @@
           "manufacturer": "LEGO",
           "figureNumber": "76415",
           "sourceUrl": "https://www.lego.com/en-us/product/the-battle-of-hogwarts-76415",
-          "photo": "",
-          "description": "Official LEGO Harry Potter set; product photo pending exact verification."
+          "photo": "https://images.brickset.com/sets/images/76415-1.jpg",
+          "description": "Official LEGO Harry Potter set; product photo pending exact verification.",
+          "photoSourceUrl": "https://brickset.com/sets/76415-1",
+          "photoCredit": "Brickset set image / LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "LEGO set identity and number checked; standard Brickset CDN image URL used. CDN image response was not checked individually."
         }
       ]
     },
@@ -4926,8 +4946,12 @@
           "manufacturer": "LEGO",
           "figureNumber": "76444",
           "sourceUrl": "https://www.lego.com/en-us/product/diagon-alley-wizarding-shops-76444",
-          "photo": "",
-          "description": "Official LEGO product page verified. Exact product photo and EAN/UPC not yet confirmed."
+          "photo": "https://images.brickset.com/sets/images/76444-1.jpg",
+          "description": "Official LEGO product page verified. Exact product photo and EAN/UPC not yet confirmed.",
+          "photoSourceUrl": "https://brickset.com/sets/76444-1",
+          "photoCredit": "Brickset set image / LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "LEGO set identity and number checked; standard Brickset CDN image URL used. CDN image response was not checked individually."
         }
       ]
     },
@@ -5214,8 +5238,12 @@
           "manufacturer": "LEGO",
           "figureNumber": "76442",
           "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/76442",
-          "photo": "",
-          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+          "photo": "https://images.brickset.com/sets/images/76442-1.jpg",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed.",
+          "photoSourceUrl": "https://brickset.com/sets/76442-1",
+          "photoCredit": "Brickset set image / LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "LEGO set identity and number checked; standard Brickset CDN image URL used. CDN image response was not checked individually."
         }
       ]
     },
@@ -5366,16 +5394,24 @@
           "manufacturer": "LEGO",
           "figureNumber": "76459",
           "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/76459",
-          "photo": "",
-          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+          "photo": "https://images.brickset.com/sets/images/76459-1.jpg",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed.",
+          "photoSourceUrl": "https://brickset.com/sets/76459-1",
+          "photoCredit": "Brickset set image / LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "LEGO set identity and number checked; standard Brickset CDN image URL used. CDN image response was not checked individually."
         },
         {
           "name": "Privet Drive: Aunt Marge's Visit",
           "manufacturer": "LEGO",
           "figureNumber": "76451",
           "sourceUrl": "https://www.lego.com/en-us/service/building-instructions/76451",
-          "photo": "",
-          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+          "photo": "https://images.brickset.com/sets/images/76451-1.jpg",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed.",
+          "photoSourceUrl": "https://brickset.com/sets/76451-1",
+          "photoCredit": "Brickset set image / LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "LEGO set identity and number checked; standard Brickset CDN image URL used. CDN image response was not checked individually."
         }
       ]
     },
@@ -5394,8 +5430,12 @@
           "manufacturer": "LEGO",
           "figureNumber": "76471",
           "sourceUrl": "https://www.lego.com/uk-ua/product/knockturn-alley-wizarding-shops-76471",
-          "photo": "",
-          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+          "photo": "https://images.brickset.com/sets/images/76471-1.jpg",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed.",
+          "photoSourceUrl": "https://brickset.com/sets/76471-1",
+          "photoCredit": "Brickset set image / LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "LEGO set identity and number checked; standard Brickset CDN image URL used. CDN image response was not checked individually."
         }
       ]
     },
@@ -5414,8 +5454,12 @@
           "manufacturer": "LEGO",
           "figureNumber": "40791",
           "sourceUrl": "https://www.lego.com/en-us/product/the-goblet-of-fire-figures-40791",
-          "photo": "",
-          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed."
+          "photo": "https://images.brickset.com/sets/images/40791-1.jpg",
+          "description": "Official LEGO set and number confirmed; exact photo URL and EAN/UPC not yet confirmed.",
+          "photoSourceUrl": "https://brickset.com/sets/40791-1",
+          "photoCredit": "Brickset set image / LEGO Group",
+          "photoStatus": "exact-set-number-matched-pending-url-validation",
+          "photoVerificationNote": "LEGO set identity and number checked; standard Brickset CDN image URL used. CDN image response was not checked individually."
         }
       ]
     },
