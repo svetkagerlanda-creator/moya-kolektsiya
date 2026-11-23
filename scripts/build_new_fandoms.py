@@ -197,7 +197,19 @@ def main():
         # Preserve old cards and exact-source photos if a store changes navigation.
         merged={identity(c):c for c in old.get("items",[]) if c.get("sourceUrl")}
         for key,card in cards.items():
+            matching_old=[(oldkey,oldcard) for oldkey,oldcard in merged.items()
+                          if oldcard.get("sourceUrl")==card.get("sourceUrl")
+                          and oldcard.get("name","").casefold()==card.get("name","").casefold()]
+            # Some storefronts block public variant feeds intermittently.
+            # Never replace six exact character cards with one generic parent SKU.
+            if not card.get("variantKey") and any(
+                    c.get("variantKey") for c in merged.values()
+                    if c.get("sourceUrl")==card.get("sourceUrl")):
+                continue
             oldcard=merged.get(key,{})
+            if matching_old:
+                oldkey,oldcard=matching_old[0]
+                if oldkey!=key:merged.pop(oldkey,None)
             if not card["photo"] and oldcard.get("photo"):card["photo"]=oldcard["photo"]
             merged[key]=card
         items=sorted(merged.values(),key=lambda c:(c["name"],c["sourceUrl"],c.get("variantKey","")))
