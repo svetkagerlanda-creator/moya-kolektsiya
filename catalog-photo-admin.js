@@ -84,17 +84,22 @@ async function review(id,decision){
  if(!row)return;
  if(!confirm(decision==='approved'?'Схвалити фото та зробити його доступним усім у загальному каталозі?':'Відхилити цю пропозицію?'))return;
  state.busy=id;state.error='';state.refresh?.();
+ let published=null;
+ let uploaded=false;
  try{
-  let published=null;
   if(decision==='approved'){
    const blob=await jpgFromPrivate(row);
    published='approved/'+row.id+'.jpg';
    await request('/storage/v1/object/collector-catalog-media/'+published,{method:'POST',body:blob,contentType:'image/jpeg'});
+   uploaded=true;
   }
   await request('/rest/v1/rpc/collector_review_catalog_photo',{method:'POST',body:JSON.stringify({p_id:row.id,p_decision:decision,p_published_path:published})});
   state.notices=decision==='approved'?'Фото схвалено та опубліковано. Каталог покаже його після оновлення.':'Пропозицію відхилено.';
   await load();
- }catch(error){state.error=error.message}
+ }catch(error){
+  if(uploaded&&published)await request('/storage/v1/object/collector-catalog-media/'+published,{method:'DELETE'}).catch(()=>{});
+  state.error=error.message;
+ }
  finally{state.busy=null;state.refresh?.()}
 }
 function attach(refresh){
