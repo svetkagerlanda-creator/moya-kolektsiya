@@ -223,11 +223,11 @@
       "manufacturer": "POP TOP",
       "fandomKey": "blind-box",
       "group": "🎁 Blind Box · POP TOP",
-      "source": "",
+      "source": "https://www.strangecattoys.com/products/ziyuli-my-own-wedding-series-blind-box",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "count": 8,
+      "notes": "Шість поіменних регулярних варіантів і один секретний варіант (офіційну назву ще не перевірено), плюс окремий товар — випадкова запечатана blind box. Не вважати фото повним; особисті статуси колекціонерів не змінювати.",
       "items": [
         {
           "name": "Letsvan Ziyuli · Весілля",
@@ -246,6 +246,83 @@
           "assortmentBarcodeSourceUrl": "https://rozetka.com.ua/ua/pop-top-17zi-0205/p555908022/",
           "assortmentBarcodeVerification": "EAN explicitly shown in seller product specifications for exact boxed assortment; check digit validated",
           "assortmentBarcodeNote": "EAN for one sealed random box, not the individual hidden design."
+        },
+        {
+          "name": "Gossamer Rose",
+          "manufacturer": "Letsvan",
+          "character": "Gossamer Rose",
+          "rarity": "Regular",
+          "variantKey": "Letsvan|ZIYULI My Own Wedding|Gossamer Rose",
+          "sourceUrl": "https://www.ebay.com/itm/127614735799",
+          "photo": "",
+          "description": "Індивідуальна фігурка серії ZIYULI My Own Wedding. Підтверджено назву у списку варіантів продавця; запечатаний blind box має випадковий вміст.",
+          "photoStatus": "missing"
+        },
+        {
+          "name": "Coastal Oath",
+          "manufacturer": "Letsvan",
+          "character": "Coastal Oath",
+          "rarity": "Regular",
+          "variantKey": "Letsvan|ZIYULI My Own Wedding|Coastal Oath",
+          "sourceUrl": "https://www.ebay.com/itm/127614735799",
+          "photo": "",
+          "description": "Індивідуальна фігурка серії ZIYULI My Own Wedding. Підтверджено назву у списку варіантів продавця; запечатаний blind box має випадковий вміст.",
+          "photoStatus": "missing"
+        },
+        {
+          "name": "Dreamy Encounter",
+          "manufacturer": "Letsvan",
+          "character": "Dreamy Encounter",
+          "rarity": "Regular",
+          "variantKey": "Letsvan|ZIYULI My Own Wedding|Dreamy Encounter",
+          "sourceUrl": "https://www.ebay.com/itm/127614735799",
+          "photo": "",
+          "description": "Індивідуальна фігурка серії ZIYULI My Own Wedding. Підтверджено назву у списку варіантів продавця; запечатаний blind box має випадковий вміст.",
+          "photoStatus": "missing"
+        },
+        {
+          "name": "Flower Goddess",
+          "manufacturer": "Letsvan",
+          "character": "Flower Goddess",
+          "rarity": "Regular",
+          "variantKey": "Letsvan|ZIYULI My Own Wedding|Flower Goddess",
+          "sourceUrl": "https://www.ebay.com/itm/127614735799",
+          "photo": "",
+          "description": "Індивідуальна фігурка серії ZIYULI My Own Wedding. Підтверджено назву у списку варіантів продавця; запечатаний blind box має випадковий вміст.",
+          "photoStatus": "missing"
+        },
+        {
+          "name": "Night Fairy Tale",
+          "manufacturer": "Letsvan",
+          "character": "Night Fairy Tale",
+          "rarity": "Regular",
+          "variantKey": "Letsvan|ZIYULI My Own Wedding|Night Fairy Tale",
+          "sourceUrl": "https://www.ebay.com/itm/127614735799",
+          "photo": "",
+          "description": "Індивідуальна фігурка серії ZIYULI My Own Wedding. Підтверджено назву у списку варіантів продавця; запечатаний blind box має випадковий вміст.",
+          "photoStatus": "missing"
+        },
+        {
+          "name": "Pinky Princess",
+          "manufacturer": "Letsvan",
+          "character": "Pinky Princess",
+          "rarity": "Regular",
+          "variantKey": "Letsvan|ZIYULI My Own Wedding|Pinky Princess",
+          "sourceUrl": "https://www.ebay.com/itm/127614735799",
+          "photo": "",
+          "description": "Індивідуальна фігурка серії ZIYULI My Own Wedding. Підтверджено назву у списку варіантів продавця; запечатаний blind box має випадковий вміст.",
+          "photoStatus": "missing"
+        },
+        {
+          "name": "Secret variant (name unconfirmed)",
+          "manufacturer": "Letsvan",
+          "character": "Secret variant (name unconfirmed)",
+          "rarity": "Secret",
+          "variantKey": "Letsvan|ZIYULI My Own Wedding|Secret variant (name unconfirmed)",
+          "sourceUrl": "https://www.ebay.com/itm/127614735799",
+          "photo": "",
+          "description": "Секретний дизайн серії, офіційне ім'я потребує перевірки.",
+          "photoStatus": "missing"
         }
       ],
       "assortmentEan": "6974773011638",
