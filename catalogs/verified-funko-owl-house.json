@@ -74,7 +74,12 @@
           "sourceUrl": "https://funko.com/pop-king-clawthorne-chase/83743b.html",
           "photo": "https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dw01b5e209/images/funko/upload/83743b_TheOwlHouse_KingwCrown_POPDisney_GLAM-WEB.png",
           "photoCredit": "Funko · офіційне фото конкретного варіанта",
-          "description": "Funko POP! Disney · The Owl House; номер коробки 1551; Chase із короною"
+          "description": "Funko POP! Disney · The Owl House; номер коробки 1551; Chase із короною",
+          "upc": "889698837439",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://pop-figures.com/figure/1551-the-owl-house-king-chase-15441",
+          "barcodeVerification": "Explicit standard-or-Chase shared retail UPC, matching exact Funko SKU family; GS1 check digit valid",
+          "barcodeNote": "Shared retail assortment UPC with standard edition, not Chase-specific. Scanner must show both variants or let user choose; 83743b is distinct Funko variant number, not barcode."
         },
         {
           "name": "Luz Noceda",
