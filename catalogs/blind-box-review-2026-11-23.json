@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "auditDate": "2026-11-23",
+  "scope": "Blind box lineup completeness spot audit across six catalog feeds",
+  "seriesChecked": 83,
+  "confirmedFixes": [
+    {
+      "series": "52TOYS · Sleep · Fairyland Elves",
+      "before": 3,
+      "after": 10,
+      "packagingSkuSeparate": true,
+      "source": "https://pokkii.com/products/sleep-fairyland-elves-series-blind-box-figure-52toys",
+      "commit": "4aca7e4c48176a0381fdff249056aa813f896ddd"
+    }
+  ],
+  "priorityGaps": {
+    "wishlistOneRecordSeries": 13,
+    "wishlistPartialSeries": 24,
+    "wishlistMissingPhotoRecords": 30,
+    "surpriseDrinksMissingPhotos": 20
+  },
+  "notes": [
+    "One-record series are review priorities, not proven incomplete without reference counts.",
+    "No unverified figure images were invented.",
+    "Audit script: scripts/audit-blind-box-lineups.cjs; rerun locally to generate broad cross-feed audit.",
+    "Keep sealed random product separate from named reveal variants."
+  ]
+}
