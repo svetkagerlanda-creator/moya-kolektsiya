@@ -1878,13 +1878,16 @@
           "manufacturer": "Mattel",
           "variantKey": "eah:retail-upc:887961253054",
           "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
-          "photo": "",
+          "photo": "https://2.bp.blogspot.com/-6Z1jLDnEMwo/V1z9bs2bnII/AAAAAAAAl5w/JffKKOVdJSYTEIxuML-9F-p9p1W0rdJigCLcB/s135/2-in-1-Castle-Playset-1.jpg",
           "upc": "887961253054",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
           "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
           "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
-          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням.",
+          "photoSourceUrl": "https://eahmerch.com/dolls/details/eah21cp/",
+          "photoVerification": "Exact release and character matched to EAH Merch database and existing historical catalog; URL and actual image bytes NOT independently checked; historical thumbnail only",
+          "photoLimitations": "135px source thumbnail; image URL availability and visual appearance not verified; do not treat as high-resolution or visually confirmed"
         },
         {
           "name": "Ever After High Playsets — Sugar Coated Kitchen with Ginger Breadhouse",
@@ -2008,13 +2011,16 @@
           "manufacturer": "Mattel",
           "variantKey": "eah:retail-upc:887961209815",
           "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
-          "photo": "",
+          "photo": "https://3.bp.blogspot.com/-4I-cY4qnx5U/Vw0bmvXgP5I/AAAAAAAAj0E/M0kz8CbP5WAHNF4ezL18lyeDpB5-ItyxgCLcB/s135/Courtly-Jester-Way-Too-Wonderland-1.jpg",
           "upc": "887961209815",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
           "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
           "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
-          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням.",
+          "photoSourceUrl": "https://eahmerch.com/dolls/details/eahwtwcj/",
+          "photoVerification": "Exact release and character matched to EAH Merch database and existing historical catalog; URL and actual image bytes NOT independently checked; historical thumbnail only",
+          "photoLimitations": "135px source thumbnail; image URL availability and visual appearance not verified; do not treat as high-resolution or visually confirmed"
         },
         {
           "name": "Ever After High Way Too Wonderland — Kitty Cheshire",
