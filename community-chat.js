@@ -182,16 +182,16 @@ const requestStatus={
  deferred:['Відкладено','rejected'],rejected:['Відмовлено','rejected']
 };
 function requestsView(){
- const list=st.requests||[];
+ const list=(st.requests||[]).filter(x=>x.user_id===st.id);
  const cards=list.map(x=>{
   const state=requestStatus[x.status]||requestStatus.pending;
   return '<article class="cc-request cc-request-'+state[1]+'"><div class="cc-request-top"><b>'+esc(x.series_name)+'</b><span class="cc-request-badge">'+esc(state[0])+'</span></div>'
-   +(st.requestsAdmin?'<small>Від '+esc(pname(x.user_id))+' · </small>':'')+'<small>'+esc(hh(x.created_at))+'</small>'
+   +'<small>'+esc(hh(x.created_at))+'</small>'
    +(x.fandom?'<div><strong>Фандом:</strong> '+esc(x.fandom)+'</div>':'')
    +(x.manufacturer?'<div><strong>Виробник:</strong> '+esc(x.manufacturer)+'</div>':'')
    +(x.details?'<p class="cc-request-details">'+esc(x.details)+'</p>':'')
    +(x.moderator_note?'<div><strong>Коментар модератора:</strong> '+esc(x.moderator_note)+'</div>':'')
-   +(st.requestsAdmin?'<div class="cc-request-actions"><button type="button" class="alt" data-cc-request="accepted" data-id="'+esc(x.id)+'">✅ Прийнято й додано</button><button type="button" class="alt" data-cc-request="pending" data-id="'+esc(x.id)+'">🟡 Очікує</button><button type="button" class="alt" data-cc-request="deferred" data-id="'+esc(x.id)+'">⏸ Відкласти</button><button type="button" class="alt" data-cc-request="rejected" data-id="'+esc(x.id)+'">❌ Відмовити</button></div>':'')
+
    +'</article>';
  }).join('');
  return '<section class="cc-panel"><div class="cc-title"><h3>➕ Запропонувати серію</h3><span class="muted">Точкове поповнення каталогу</span></div>'
@@ -200,7 +200,7 @@ function requestsView(){
   +'<div class="pair"><label>Фандом<input class="field" name="fandom" maxlength="120" placeholder="Harry Potter"></label><label>Виробник / бренд<input class="field" name="manufacturer" maxlength="120" placeholder="Moose Toys"></label></div>'
   +'<label>Деталі, посилання чи список предметів<textarea class="field" name="details" maxlength="1500" rows="3" placeholder="Рік, назва колекції, посилання на офіційний каталог…"></textarea></label>'
   +'<button class="btn" type="submit">Надіслати на модерацію</button></form>'
-  +'<div class="cc-title"><h3>'+(st.requestsAdmin?'Усі пропозиції · модерація':'Мої пропозиції')+'</h3><span class="muted">'+list.length+' заявок</span></div>'
+  +'<div class="cc-title"><h3>'+'Мої пропозиції'+'</h3><span class="muted">'+list.length+' заявок</span></div>'
   +(!st.requestsLoaded?'<div class="empty">Завантаження пропозицій…</div>':cards||'<div class="empty">Пропозицій ще немає.</div>')+'</section>';
 }
 async function submitRequest(event){
@@ -302,7 +302,6 @@ function attach(refresh){
    b.onclick=event=>{if(b.dataset.cc==='person'&&event.target.closest('[data-cc="profile"]'))return;doAction(b.dataset.cc,b)};
    if(b.getAttribute('role')==='button')b.onkeydown=event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();event.stopPropagation();doAction(b.dataset.cc,b)}};
   });
- document.querySelectorAll('[data-cc-request]').forEach(b=>b.onclick=()=>moderateRequest(b));
  const requestForm=document.getElementById('ccRequestForm');if(requestForm)requestForm.onsubmit=submitRequest;
  const select=document.getElementById('ccChoosePerson');if(select)select.onchange=e=>{if(e.target.value)start(e.target.value)};
  const form=document.getElementById('ccSend');if(form){form.onsubmit=send;form.elements.body.addEventListener('input',()=>{st.drafts[draftKey()]=form.elements.body.value})}
