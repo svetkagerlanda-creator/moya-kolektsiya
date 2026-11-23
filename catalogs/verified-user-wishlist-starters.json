@@ -925,11 +925,11 @@
       "manufacturer": "52TOYS",
       "fandomKey": "blind-box",
       "group": "🎁 Blind Box · 52TOYS",
-      "source": "",
+      "source": "https://www.kikagoods.com/collections/sleep-series/products/sleep-the-treasure-gallery-series-blind-box",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "count": 6,
+      "notes": "Додано поіменно підтверджені варіанти; запечатана blind box — окрема позиція. У джерелах зазначено 9 дизайнів; список і фото ще потребують доповнення.",
       "items": [
         {
           "name": "Sleep · Галерея мистецтва",
@@ -947,6 +947,51 @@
           "assortmentBarcodeSourceUrl": "https://www.dbline.it/index.php/en/prodotti/catalogo-online/detail/ARVI0031",
           "assortmentBarcodeVerification": "Exact physical package SKU 24CB583SL02 matched to explicitly published EAN-13; checksum validated",
           "assortmentBarcodeNote": "One sealed random blind package, not the specific hidden figure nor a full case"
+        },
+        {
+          "name": "Blue Lotus",
+          "manufacturer": "52TOYS",
+          "character": "Blue Lotus",
+          "variantKey": "52TOYS|52TOYS · Sleep · Галерея мистецтва|Blue Lotus",
+          "sourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-blue-lotus",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Porcelain Peony",
+          "manufacturer": "52TOYS",
+          "character": "Porcelain Peony",
+          "variantKey": "52TOYS|52TOYS · Sleep · Галерея мистецтва|Porcelain Peony",
+          "sourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-porcelain-peony",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Deer Encounter",
+          "manufacturer": "52TOYS",
+          "character": "Deer Encounter",
+          "variantKey": "52TOYS|52TOYS · Sleep · Галерея мистецтва|Deer Encounter",
+          "sourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-deer-encounter",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Laurel Wreath",
+          "manufacturer": "52TOYS",
+          "character": "Laurel Wreath",
+          "variantKey": "52TOYS|52TOYS · Sleep · Галерея мистецтва|Laurel Wreath",
+          "sourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-laurel-wreath",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Feast of Spring",
+          "manufacturer": "52TOYS",
+          "character": "Feast of Spring",
+          "variantKey": "52TOYS|52TOYS · Sleep · Галерея мистецтва|Feast of Spring",
+          "sourceUrl": "https://toysez.com/products/sleep-the-treasure-gallery-series-feast-of-spring",
+          "rarity": "Secret",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
         }
       ],
       "assortmentEan": "6958985015806",
@@ -995,11 +1040,11 @@
       "manufacturer": "52TOYS",
       "fandomKey": "blind-box",
       "group": "🎁 Blind Box · 52TOYS",
-      "source": "",
+      "source": "https://toysez.com/products/sleep-sea-elves-series",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "count": 8,
+      "notes": "Додано поіменно підтверджені варіанти; запечатана blind box — окрема позиція. У джерелах зазначено 10 дизайнів; список і фото ще потребують доповнення.",
       "items": [
         {
           "name": "Sleep · Sea Elves",
@@ -1017,6 +1062,69 @@
           "assortmentBarcodeSourceUrl": "https://www.matchatimegiftshop.com/blind-box-sleep-sea-elves.html",
           "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
           "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
+        },
+        {
+          "name": "Seaweed",
+          "manufacturer": "52TOYS",
+          "character": "Seaweed",
+          "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Seaweed",
+          "sourceUrl": "https://toysez.com/products/sleep-sea-elves-series-seaweed",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Mermaid",
+          "manufacturer": "52TOYS",
+          "character": "Mermaid",
+          "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Mermaid",
+          "sourceUrl": "https://toysez.com/products/sleep-sea-elves-series-mermaid",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Wave",
+          "manufacturer": "52TOYS",
+          "character": "Wave",
+          "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Wave",
+          "sourceUrl": "https://toysez.com/products/sleep-sea-elves-series-wave",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Sea Butterfly",
+          "manufacturer": "52TOYS",
+          "character": "Sea Butterfly",
+          "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Sea Butterfly",
+          "sourceUrl": "https://toysez.com/products/sleep-sea-elves-series-sea-butterfly",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Sea Shell",
+          "manufacturer": "52TOYS",
+          "character": "Sea Shell",
+          "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Sea Shell",
+          "sourceUrl": "https://toysez.com/products/sleep-sea-elves-series-sea-shell",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Octopus",
+          "manufacturer": "52TOYS",
+          "character": "Octopus",
+          "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Octopus",
+          "sourceUrl": "https://toysez.com/products/sleep-sea-elves-series-octopus",
+          "rarity": "Secret",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Daughter of The Dragon",
+          "manufacturer": "52TOYS",
+          "character": "Daughter of The Dragon",
+          "variantKey": "52TOYS|52TOYS · Sleep · Sea Elves|Daughter of The Dragon",
+          "sourceUrl": "https://toysez.com/products/sleep-sea-elves-series-daughter-of-the-dragon",
+          "rarity": "Secret",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
         }
       ],
       "assortmentEan": "6958985021289",
@@ -1369,11 +1477,11 @@
       "manufacturer": "52TOYS",
       "fandomKey": "blind-box",
       "group": "🎁 Blind Box · 52TOYS",
-      "source": "",
+      "source": "https://www.knowheretoys.com/52Toys-Sleep--Dreamland-Elves-Life-Of-Fantasies_p_12300.html",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "count": 8,
+      "notes": "Додано поіменно підтверджені варіанти; запечатана blind box — окрема позиція. список і фото ще потребують доповнення.",
       "items": [
         {
           "name": "Sleep Dreamland Elves · Life of Fantasies",
@@ -1391,6 +1499,69 @@
           "assortmentBarcodeSourceUrl": "https://707street.com/products/sleep-life-of-fantasies-elves-blind-box-series",
           "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
           "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
+        },
+        {
+          "name": "The Birth of All Things",
+          "manufacturer": "52TOYS",
+          "character": "The Birth of All Things",
+          "variantKey": "52TOYS|52TOYS · Sleep Dreamland Elves · Life of Fantasies|The Birth of All Things",
+          "sourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-the-birth-of-all-things",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Embrace",
+          "manufacturer": "52TOYS",
+          "character": "Embrace",
+          "variantKey": "52TOYS|52TOYS · Sleep Dreamland Elves · Life of Fantasies|Embrace",
+          "sourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-embrace",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Dream Sculptor",
+          "manufacturer": "52TOYS",
+          "character": "Dream Sculptor",
+          "variantKey": "52TOYS|52TOYS · Sleep Dreamland Elves · Life of Fantasies|Dream Sculptor",
+          "sourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-dream-sculptor",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Mild Zephyr",
+          "manufacturer": "52TOYS",
+          "character": "Mild Zephyr",
+          "variantKey": "52TOYS|52TOYS · Sleep Dreamland Elves · Life of Fantasies|Mild Zephyr",
+          "sourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-mild-zephyr",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Time of Return",
+          "manufacturer": "52TOYS",
+          "character": "Time of Return",
+          "variantKey": "52TOYS|52TOYS · Sleep Dreamland Elves · Life of Fantasies|Time of Return",
+          "sourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-time-of-return",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Snowmelt Season",
+          "manufacturer": "52TOYS",
+          "character": "Snowmelt Season",
+          "variantKey": "52TOYS|52TOYS · Sleep Dreamland Elves · Life of Fantasies|Snowmelt Season",
+          "sourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-snowmelt-season",
+          "rarity": "Secret",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Aurora Lsle",
+          "manufacturer": "52TOYS",
+          "character": "Aurora Lsle",
+          "variantKey": "52TOYS|52TOYS · Sleep Dreamland Elves · Life of Fantasies|Aurora Lsle",
+          "sourceUrl": "https://toysez.com/products/sleep-elves-life-of-fantasies-series-aurora-lsle",
+          "rarity": "Secret",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
         }
       ],
       "assortmentEan": "6958985022682",
@@ -2577,11 +2748,11 @@
       "manufacturer": "52TOYS",
       "fandomKey": "blind-box",
       "group": "🎁 Blind Box · 52TOYS",
-      "source": "",
+      "source": "https://nekostop.com/products/52toys-lilith-monologues-in-the-land-of-oz",
       "verified": true,
       "completeness": "verified-selected-releases",
-      "count": 1,
-      "notes": "Зі списку бажань користувачки; це товар/закрита коробка, а не повний перелік випадкових фігурок.",
+      "count": 10,
+      "notes": "Додано поіменно підтверджені варіанти; запечатана blind box — окрема позиція. У джерелах зазначено 9 дизайнів; список і фото ще потребують доповнення.",
       "items": [
         {
           "name": "Lilith · Monologue in the Land of OZ",
@@ -2599,6 +2770,87 @@
           "assortmentBarcodeSourceUrl": "https://www.matchatimegiftshop.com/blind-box-lilith-monologue-in-the-land-of-oz.html",
           "assortmentBarcodeVerification": "Retail barcode explicitly displayed for sealed random single box; EAN-13 check digit validated",
           "assortmentBarcodeNote": "Single blind box assortment only; not a particular figure, secret, or full case."
+        },
+        {
+          "name": "Fairy",
+          "manufacturer": "52TOYS",
+          "character": "Fairy",
+          "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Fairy",
+          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Witch",
+          "manufacturer": "52TOYS",
+          "character": "Witch",
+          "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Witch",
+          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Crystal House",
+          "manufacturer": "52TOYS",
+          "character": "Crystal House",
+          "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Crystal House",
+          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Pumpkin Ghost",
+          "manufacturer": "52TOYS",
+          "character": "Pumpkin Ghost",
+          "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Pumpkin Ghost",
+          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Dorothy",
+          "manufacturer": "52TOYS",
+          "character": "Dorothy",
+          "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Dorothy",
+          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Lion",
+          "manufacturer": "52TOYS",
+          "character": "Lion",
+          "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Lion",
+          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Scarecrow",
+          "manufacturer": "52TOYS",
+          "character": "Scarecrow",
+          "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Scarecrow",
+          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Tin Man",
+          "manufacturer": "52TOYS",
+          "character": "Tin Man",
+          "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Tin Man",
+          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "rarity": "Regular",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
+        },
+        {
+          "name": "Secret Dorothy (Stage Piece)",
+          "manufacturer": "52TOYS",
+          "character": "Secret Dorothy (Stage Piece)",
+          "variantKey": "52TOYS|52TOYS · Lilith · Monologue in the Land of OZ|Secret Dorothy (Stage Piece)",
+          "sourceUrl": "https://www.mercari.com/us/item/m76534928995/",
+          "rarity": "Secret",
+          "description": "Поіменно підтверджений варіант blind box. У запечатаній коробці фігурка випадкова; заводське фото потребує окремої перевірки."
         }
       ],
       "assortmentEan": "6958985027403",
