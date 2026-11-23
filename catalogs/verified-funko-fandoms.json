@@ -482,7 +482,11 @@
           "seriesNumber": "90641",
           "sourceUrl": "https://funko.com/cy/pop-wendy/90641.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwf85b5433/images/funko/upload/1/90641_FT100_Wendy_POP_GLAM-WEB.png?sh=800&sw=800",
-          "description": "Funko item 90641; box 2289"
+          "description": "Funko item 90641; box 2289",
+          "upc": "889698906418",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.gamestop.com/collectibles/funko/pop/products/funko-pop-animation-fairy-tail-100-years-quest-wendy-3.8-in-vinyl-figure/430965.html",
+          "barcodeVerification": "Explicit product UPC and exact release confirmed by retailer/collector listing; GTIN checksum validated"
         },
         {
           "name": "Natsu — Fired-Up",
