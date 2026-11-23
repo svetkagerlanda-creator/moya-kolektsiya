@@ -546,14 +546,16 @@
           "figureNumber": "40595",
           "variantKey": "ty:beanie-bellies:40595",
           "sourceUrl": "https://www.ty.com/product/bumper/40595.html?cgid=beanie-bellies&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/c0a3a8d058d61a01b6fc69bb99ff339b_lg.png",
           "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
           "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN.",
           "upc": "008421405954",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.maziply.com/products/ty-beanie-bellies-bumper-the-hedgehog-8-plush",
           "barcodeVerification": "Retailer product listing explicitly matches Ty Beanie Bellies (or legacy Beanie Babies line), manufacturer SKU and barcode; UPC-A check digit verified.",
-          "barcodeNote": "Individual Ty item; original retailer may show the same GTIN as EAN-13 with one leading zero. Not interchangeable with other SKU variants."
+          "barcodeNote": "Individual Ty item; original retailer may show the same GTIN as EAN-13 with one leading zero. Not interchangeable with other SKU variants.",
+          "photoCredit": "Ty official image of exact product SKU",
+          "photoSourceUrl": "https://www.ty.com/product/bumper/40595.html?cgid=beanie-bellies&lang=en"
         },
         {
           "name": "Bumper",
@@ -591,14 +593,16 @@
           "figureNumber": "41046",
           "variantKey": "ty:beanie-bellies:41046",
           "sourceUrl": "https://www.ty.com/product/heartly/41046.html",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/0e20db31f5faab79d0563bc926ba9298_lg.png",
           "sourceVerification": "Official Ty Beanie Bellies category links to this specific product SKU; name and SKU identified. Photo and retail GTIN require independent verification.",
           "description": "Ty Beanie Bellies edition identified by the manufacturer product identifier. Do not confuse similarly named characters or different-sized editions. Manufacturer SKU is not an UPC/EAN.",
           "upc": "008421410460",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://totoys.sellingo.pl/maskotka-ty-pudel-heartly-15-cm-rozowo-bialy",
           "barcodeVerification": "Retailer product listing explicitly matches Ty Beanie Bellies (or legacy Beanie Babies line), manufacturer SKU and barcode; UPC-A check digit verified.",
-          "barcodeNote": "Individual Ty item; original retailer may show the same GTIN as EAN-13 with one leading zero. Not interchangeable with other SKU variants."
+          "barcodeNote": "Individual Ty item; original retailer may show the same GTIN as EAN-13 with one leading zero. Not interchangeable with other SKU variants.",
+          "photoCredit": "Ty official image of exact product SKU",
+          "photoSourceUrl": "https://www.ty.com/product/heartly/41046.html"
         },
         {
           "name": "Witt",
