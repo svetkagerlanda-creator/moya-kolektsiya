@@ -2781,6 +2781,94 @@
           "description": "Set verified from official LEGO source; exact product image pending."
         }
       ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Hogwarts Express Collector Edition",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/product/hogwarts-express-collectors-edition-76405",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Hogwarts Express – Collectors' Edition",
+          "manufacturer": "LEGO",
+          "figureNumber": "76405",
+          "sourceUrl": "https://www.lego.com/en-us/product/hogwarts-express-collectors-edition-76405",
+          "photo": "",
+          "description": "Official LEGO product page verified. Exact product photo and EAN/UPC not yet confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Buildable Magical Icons",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/product/talking-sorting-hat-76429",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 2,
+      "items": [
+        {
+          "name": "Talking Sorting Hat",
+          "manufacturer": "LEGO",
+          "figureNumber": "76429",
+          "sourceUrl": "https://www.lego.com/en-us/product/talking-sorting-hat-76429",
+          "photo": "",
+          "description": "Official LEGO product page verified. Exact product photo and EAN/UPC not yet confirmed."
+        },
+        {
+          "name": "Diagon Alley Wizarding Shops (Microscale)",
+          "manufacturer": "LEGO",
+          "figureNumber": "76444",
+          "sourceUrl": "https://www.lego.com/en-us/product/diagon-alley-wizarding-shops-76444",
+          "photo": "",
+          "description": "Official LEGO product page verified. Exact product photo and EAN/UPC not yet confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Gringotts Add-On",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/product/gringotts-vault-40598",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Gringotts Vault",
+          "manufacturer": "LEGO",
+          "figureNumber": "40598",
+          "sourceUrl": "https://www.lego.com/en-us/product/gringotts-vault-40598",
+          "photo": "",
+          "description": "Official LEGO product page verified. Exact product photo and EAN/UPC not yet confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter · LEGO · Diagon Alley Shops 2025",
+      "fandomKey": "harrypotter",
+      "group": "⚡ Harry Potter · LEGO",
+      "manufacturer": "LEGO",
+      "source": "https://www.lego.com/en-us/product/quality-quidditch-supplies-ice-cream-parlour-76452",
+      "verified": true,
+      "completeness": "verified-selected-releases",
+      "count": 1,
+      "items": [
+        {
+          "name": "Quality Quidditch Supplies & Ice Cream Parlour",
+          "manufacturer": "LEGO",
+          "figureNumber": "76452",
+          "sourceUrl": "https://www.lego.com/en-us/product/quality-quidditch-supplies-ice-cream-parlour-76452",
+          "photo": "",
+          "description": "Official LEGO product page verified. Exact product photo and EAN/UPC not yet confirmed."
+        }
+      ]
     }
   ]
 }
