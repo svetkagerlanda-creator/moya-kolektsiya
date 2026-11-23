@@ -194,9 +194,10 @@
           "catalogPosition": "01",
           "variantKey": "52TOYS|52TOYS · Lilith · The Century of Mary|Ghostly Bouquet",
           "sourceUrl": "https://hi52toys.com/products/lilith-the-century-of-mary-i",
-          "photo": "",
+          "photo": "https://hi52toys.com/cdn/shop/files/lilith-the-century-of-mary-i.webp?v=1786119600&width=1200",
           "rarity": "Regular",
-          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий.",
+          "photoCredit": "Офіційний виробник — перевірена фотографія конкретної фігурки"
         },
         {
           "name": "Secret Prayer",
@@ -324,9 +325,10 @@
           "figureNumber": "",
           "variantKey": "POP MART|POP MART · Chaka · Luminous Reverie|Messenger",
           "sourceUrl": "https://www.popmart.com/en-US/products/4699/chaka-luminous-reverie-series-figures",
-          "photo": "",
+          "photo": "https://prod-global-biz.popmart.com/globalAdmin/1791774549442_8af33fad1a09f39c2e818bf2403c66d0.jpg?x-oss-process=image%2Fresize%2Cw_160%2Fquality%2Cq_90%2Fformat%2Cwebp",
           "rarity": "Regular",
-          "description": "Окрема фігурка з офіційної серії POP MART. Наявність у випадковій коробці не гарантована."
+          "description": "Окрема фігурка з офіційної серії POP MART. Наявність у випадковій коробці не гарантована.",
+          "photoCredit": "Офіційний виробник — перевірена фотографія конкретної фігурки"
         },
         {
           "name": "Grand Display",
@@ -1467,9 +1469,10 @@
           "figureNumber": "",
           "variantKey": "POP MART|POP MART · Azura · Warm Christmas|Wishful Candlelight",
           "sourceUrl": "https://www.popmart.com/ca/products/1642/AZURA-Warm-Christmas-Series-Figures",
-          "photo": "",
+          "photo": "https://global-static.popmart.com/globalAdmin/1731659856926____wishful-candlelight____.png?x-oss-process=image%2Fresize%2Cw_160%2Fquality%2Cq_90%2Fformat%2Cwebp",
           "rarity": "Regular",
-          "description": "Окрема фігурка з офіційної серії POP MART. Наявність у випадковій коробці не гарантована."
+          "description": "Окрема фігурка з офіційної серії POP MART. Наявність у випадковій коробці не гарантована.",
+          "photoCredit": "Офіційний виробник — перевірена фотографія конкретної фігурки"
         },
         {
           "name": "Glimmering Frost",
