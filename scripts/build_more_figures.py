@@ -191,6 +191,11 @@ def main():
                         and result.get('completeness')=='verified-selected-releases'):
                     print(f"KEEP COMPLETE {result['name']}",flush=True)
                     continue
+                if (old_record.get('completeness')=='verified-selected-releases'
+                        and result.get('completeness')=='verified-selected-releases'
+                        and len(result['items'])<len(old_record.get('items',[]))):
+                    print(f"KEEP BROADER PARTIAL {result['name']}",flush=True)
+                    continue
                 old_photos={card.get('sourceUrl'):card.get('photo') for card in old_record.get('items',[]) if card.get('photo')}
                 for card in result['items']:
                     if not card.get('photo'):
