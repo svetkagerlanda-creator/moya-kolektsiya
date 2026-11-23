@@ -1246,7 +1246,12 @@
           "photo": "https://hi52toys.com/cdn/shop/files/sleep-dreamland-elves-15.webp?v=1786119673&width=1200",
           "retailPriceUAH": 749,
           "description": "Колекційна позиція зі списку бажань магазину «Будинок іграшок». Для blind box вміст невідомий.",
-          "photoCredit": "52TOYS — official Dreamland Elves sealed display packaging"
+          "photoCredit": "52TOYS — official Dreamland Elves sealed display packaging",
+          "ean": "6958985023832",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.momie.fr/product/show/6958985023832/sleep-dreamland-elves-series-mystery-blind-box-10cm",
+          "barcodeVerification": "Retailer explicitly identifies SLEEP DREAMLAND ELVES mystery blind box and EAN13",
+          "barcodeNote": "Sealed random blind-box retail package; EAN does not reveal contained figure, including Secret variant"
         },
         {
           "name": "Remex",
