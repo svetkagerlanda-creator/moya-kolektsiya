@@ -1,14 +1,21 @@
 {
   "schemaVersion": 1,
-  "verifiedSeries": 7,
-  "newExactPhotos": 78,
-  "verifiedFigures": 91,
-  "photoRecords": 78,
+  "verifiedSeries": 8,
+  "newExactPhotos": 86,
+  "verifiedFigures": 99,
+  "photoRecords": 86,
   "series": [
     {
       "series": "POP MART · Chaka · Luminous Reverie",
       "figures": 13,
       "photos": 13,
+      "missing": [],
+      "error": ""
+    },
+    {
+      "series": "POP MART · SKULLPANDA × My Little Pony",
+      "figures": 8,
+      "photos": 8,
       "missing": [],
       "error": ""
     },
