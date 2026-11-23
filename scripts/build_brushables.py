@@ -54,7 +54,7 @@ def discover_series():
             if parent is None:
                 continue
             label = parent.get_text(" ", strip=True)
-            match = re.search(r"\\(([0-9,]+)\\s+(?:ponies|pony|figures|releases)\\)", label, re.I)
+            match = re.search(r"\(([0-9,]+)\s+(?:ponies|pony|figures|releases)\)", label, re.I)
             if match:
                 count = int(match.group(1).replace(",", ""))
                 container = parent
@@ -62,9 +62,9 @@ def discover_series():
         if not count:
             continue
         title = a.get_text(" ", strip=True)
-        if not title or re.fullmatch(r"[0-9,]+\\s+(?:ponies|pony|figures|releases)", title, re.I):
+        if not title or re.fullmatch(r"[0-9,]+\s+(?:ponies|pony|figures|releases)", title, re.I):
             title = slug.replace("-", " ").title()
-        title = re.sub(r"\\s*\\([0-9,]+\\s+(?:ponies|pony|figures|releases)\\).*", "", title, flags=re.I).strip()
+        title = re.sub(r"\s*\([0-9,]+\s+(?:ponies|pony|figures|releases)\).*", "", title, flags=re.I).strip()
         if len(title) > 80:
             title = slug.replace("-", " ").title()
         seen[slug] = (title, slug, count)
