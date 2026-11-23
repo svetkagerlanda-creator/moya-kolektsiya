@@ -273,7 +273,12 @@
           "seriesNumber": "58624",
           "sourceUrl": "https://funko.com/pop-geralt-holding-sword/58624.html",
           "photo": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw4db364f9/images/funko/58624-1.png?sh=800&sw=800",
-          "description": "Funko item 58624; box #1168"
+          "description": "Funko item 58624; box #1168",
+          "upc": "889698586245",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/p/4061749854",
+          "barcodeVerification": "Exact product identified by retailer listing; UPC-A checksum validated",
+          "barcodeNote": "The Witcher Geralt #1168, Amazon/Funko exclusive, item 58624"
         },
         {
           "name": "Geralt (IGNI)",
