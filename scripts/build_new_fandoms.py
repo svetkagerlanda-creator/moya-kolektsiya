@@ -19,7 +19,9 @@ ERRORS=BASE/"catalogs/new-fandoms-errors.json"
 HEADERS={"User-Agent":"Mozilla/5.0 (personal noncommercial collectible catalog; contact repository maintainer)"}
 # name, fandom, manufacturer, index; all published manufacturer catalogs.
 SOURCES=[
- ("Bratz · Official Fashion Dolls","bratz","MGA Entertainment","https://www.bratz.com/collections/bratz-core-collection"),
+ ("Bratz · Alwayz Bratz","bratz","MGA Entertainment","https://www.bratz.com/collections/alwayz-bratz"),
+ ("Bratz · Slumber Party","bratz","MGA Entertainment","https://www.bratz.com/collections/bratz-slumber-party"),
+ ("Bratz · Bratziez Blind Box","bratz","MGA Entertainment","https://www.bratz.com/collections/bratz-bratziez"),
  ("Bratz · Babyz","bratz","MGA Entertainment","https://www.bratz.com/collections/bratz-babyz"),
  ("Bratz · Fashion Pixiez","bratz","MGA Entertainment","https://www.bratz.com/collections/bratz-fashion-pixiez"),
  ("Bratz · Play Sportz","bratz","MGA Entertainment","https://www.bratz.com/collections/bratz-play-sportz"),
