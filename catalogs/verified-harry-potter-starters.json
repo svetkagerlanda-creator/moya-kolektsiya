@@ -300,10 +300,13 @@
           "manufacturer": "Spin Master",
           "figureNumber": "",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1j6tzga/",
-          "photo": "",
+          "photo": "https://shopkawaiigifts.com/cdn/shop/files/spin-master-surprise-wizarding-world-harry-potter-micro-magical-moments-year-4-surprise-blind-box-figure-display-case-1204196280_2048x.jpg?v=1762794212",
           "rarity": "Rare",
           "description": "Blind-box Year 4 figure confirmed by collectors' opened-box code checklist (M01–M12), cross-checked against the manufacturer’s official 12-design assortment. Code is a community-reported box identifier, not a UPC, EAN, or guaranteed code for all production batches.",
-          "collectorCode": "M08"
+          "collectorCode": "M08",
+          "photoSourceUrl": "https://shopkawaiigifts.com/products/wizarding-world-harry-potter-micro-magical-moments-year-4-surprise-blind-box-figure-display-case",
+          "photoCredit": "Specialist retailer photo of exact Mad-Eye Moody Year 4 miniature",
+          "photoStatus": "exact-variant-retailer-photo"
         },
         {
           "name": "Mystery variant — Viktor Krum — Arrival Uniform",
@@ -523,11 +526,14 @@
           "manufacturer": "Spin Master",
           "figureNumber": "",
           "sourceUrl": "https://www.reddit.com/r/harrypotter/comments/1faz4qz",
-          "photo": "",
+          "photo": "https://www.spinmaster.com/static/53bf409517b62865055c71f565b1aabf/o6e8xopthaian6hc3rky.jpg",
           "rarity": "Not independently established",
           "description": "Identified in a community-maintained unboxing checklist; collector code is not a barcode, SKU or guaranteed predictor across production batches. Exact individual figure photo and EAN/UPC have not been verified.",
           "collectorCode": "02",
-          "collectorCodeType": "community-reported-box-code"
+          "collectorCodeType": "community-reported-box-code",
+          "photoSourceUrl": "https://www.spinmaster.com/en-us/brands/harrypotter/wizarding-world-harry-potter-micro-magical-moments-year-3-surprise-blind-box-figure-and-display-case-styles-may-vary-1-5-inch-kids-toys-for-ages-6/",
+          "photoCredit": "Official Spin Master Year 3 photo showing map-holding Harry with box and display",
+          "photoStatus": "exact-variant-in-official-assortment-photo"
         },
         {
           "name": "Mystery variant — Dementor",
