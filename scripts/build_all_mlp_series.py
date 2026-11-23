@@ -104,7 +104,14 @@ def parse_comic_cards(soup, entry):
         text=bottom.get_text(" ",strip=True)
         name_node=bottom.select_one(".data-name, .data-title, h3, h4")
         name=(name_node.get_text(" ",strip=True) if name_node else text)
-        name=re.split(r"\s+(?:W|A):\s*",name,maxsplit=1,flags=re.I)[0].strip()
+        name=re.split(r"\\s*(?:W|A):\\s*",name,maxsplit=1,flags=re.I)[0].strip()
+        # Issue titles have a reliable edition/issue number; trim synopsis and
+        # contributor metadata while preserving each issue's exact identity.
+        match=re.search(r"\\b(?:Issue|Volume)\\s*#?\\d+\\b",name,re.I)
+        if match:
+            name=name[:match.end()].strip()
+        else:
+            name=re.split(r"\\s+Contains\\s+",name,maxsplit=1,flags=re.I)[0].strip()
         # Extract only actual issue cards; skip description and navigation tiles.
         if not name or len(name)>220:
             continue
