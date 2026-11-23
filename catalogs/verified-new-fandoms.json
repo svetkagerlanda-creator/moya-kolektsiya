@@ -574,7 +574,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://eahmerch.com/dolls/details/eahfc1hoh/",
           "photo": "https://3.bp.blogspot.com/-TEveh26vd64/Vw0V-7CEzTI/AAAAAAAAjuA/F2A0Va7EwQI3CPocKvO9-yKuEnwGVmmpwCLcB/s800/Holly-Poppy-Core-Royals-Rebels-2-pack-1-Holly.jpg",
-          "description": "Ever After High First Chapter Wave 1 2-pack Holly O'Hair details page."
+          "description": "Ever After High First Chapter Wave 1 2-pack Holly O'Hair details page.",
+          "upc": "746775355623",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/ever-after-high-holly-o-hair-and-poppy-o-hair-sisters-doll-2pack/mtbjh20",
+          "barcodeVerification": "Verified single shared UPC for sealed Mattel BJH20 two-doll pack (not a character-specific UPC); validated UPC-A check digit",
+          "barcodeNote": "Both Holly and Poppy are components of the same BJH20 2-pack; barcode scans to the set, never to one standalone doll."
         },
         {
           "name": "Ever After High First Chapter Wave 1 2-pack Poppy O'Hair | EAH Merch",
@@ -582,7 +587,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://eahmerch.com/dolls/details/eahfc1poh/",
           "photo": "https://4.bp.blogspot.com/-_i7ZEBdCQgg/Vw0V_aqshBI/AAAAAAAAjuI/oBCBxT6U2Is0kcGhxkooq2kFc3kWPhDUgCLcB/s800/Holly-Poppy-Core-Royals-Rebels-2-pack-1-Poppy.jpg",
-          "description": "Ever After High First Chapter Wave 1 2-pack Poppy O'Hair details page."
+          "description": "Ever After High First Chapter Wave 1 2-pack Poppy O'Hair details page.",
+          "upc": "746775355623",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.entertainmentearth.com/product/ever-after-high-holly-o-hair-and-poppy-o-hair-sisters-doll-2pack/mtbjh20",
+          "barcodeVerification": "Verified single shared UPC for sealed Mattel BJH20 two-doll pack (not a character-specific UPC); validated UPC-A check digit",
+          "barcodeNote": "Both Holly and Poppy are components of the same BJH20 2-pack; barcode scans to the set, never to one standalone doll."
         },
         {
           "name": "Ever After High First Chapter Wave 1 Apple White | EAH Merch",
