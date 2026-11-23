@@ -432,14 +432,16 @@
           "figureNumber": "37399",
           "variantKey": "ty:beanie-boos:37399",
           "sourceUrl": "https://www.ty.com/product/chirps/37399.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
+          "photo": "https://cdn.ty.com/static/images/a268b8c1ded6a6f23df20654e7133395_lg.png",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
           "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
           "upc": "008421373994",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/kueken-chirps-chick-gelb.html",
           "barcodeVerification": "Matching Ty Beanie Boos character and exact Ty model/MPN with published UPC or EAN listing; UPC-A check digit validated.",
-          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions."
+          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions.",
+          "photoCredit": "Official Ty product photo: Chirps SKU 37399",
+          "photoSourceUrl": "https://www.ty.com/product/chirps/37399.html?cgid=undefined&lang=en"
         },
         {
           "name": "Giggles",
@@ -462,14 +464,16 @@
           "figureNumber": "37343",
           "variantKey": "ty:beanie-boos:37343",
           "sourceUrl": "https://www.ty.com/product/peetie/37343.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
+          "photo": "https://cdn.armaganoyuncak.com.tr/media/catalog/product/8/c/8c338ab9d30767292e03a56fca71c16371edbef6a0f5ae51c8121a5f01af5140.jpeg",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
           "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
           "upc": "008421373437",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/kueken-peetie-yellow-chick.html",
           "barcodeVerification": "Matching Ty Beanie Boos character and exact Ty model/MPN with published UPC or EAN listing; UPC-A check digit validated.",
-          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions."
+          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions.",
+          "photoCredit": "Armağan Oyuncak image: Peetie SKU 37343",
+          "photoSourceUrl": "https://www.armaganoyuncak.com.tr/ty-beanie-boos-peetie-paskalya-civciv-15-cm-p-150079ty37343"
         },
         {
           "name": "Melanie",
@@ -489,7 +493,12 @@
           "sourceUrl": "https://www.ty.com/product/palmer/37407.html?cgid=beanie-boos-circle&lang=en",
           "photo": "",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
-          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification."
+          "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
+          "upc": "008421374076",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.maziply.com/products/ty-beanie-babies-palmer-yellow-pomeranian-plush",
+          "barcodeVerification": "Ty plush manufacturer 37407, name Palmer, and UPC explicitly published by retailer; independent second retailer matches; UPC-A checksum valid.",
+          "barcodeNote": "6-inch Palmer Pomeranian, not clip or larger format."
         },
         {
           "name": "Cuddles",
@@ -507,14 +516,16 @@
           "figureNumber": "37362",
           "variantKey": "ty:beanie-boos:37362",
           "sourceUrl": "https://www.ty.com/product/daphne/37362.html?cgid=beanie-boos-circle&lang=en",
-          "photo": "",
+          "photo": "https://static.panduro.com/ArticleImages/1200x1200/806985_01.jpg",
           "sourceVerification": "Individual product name and SKU verified on official Ty product listing; no UPC/photo inferred from SKU.",
           "description": "Ty Beanie Boos plush; verified Ty manufacturer product identifier. Exact image and individual retail barcode await separate verification.",
           "upc": "008421373628",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.kuscheltier.boutique/ty-glubschis/ty-beanie-boos/dinosaurier-daphne-violett.html",
           "barcodeVerification": "Matching Ty Beanie Boos character and exact Ty model/MPN with published UPC or EAN listing; UPC-A check digit validated.",
-          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions."
+          "barcodeNote": "Specific regular plush SKU; does not identify key-clip, other size, or similarly named editions.",
+          "photoCredit": "Panduro listing of Ty Beanie Boos Daphne 15.5cm",
+          "photoSourceUrl": "https://panduro.com/sv-se/produkter/barn-junior/leksaker/gosedjur/ty-beanie-boos-daphne-155-cm-en-glad-drake%21-806985"
         },
         {
           "name": "Eva",
