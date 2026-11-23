@@ -271,7 +271,7 @@ async function action(kind,id){
    await reload();return;
   }
  else if(kind==='edit-cover'){state.editing=true;state.person=null;state.refresh?.();setTimeout(()=>window.CollectorBannerCrop?.open(null),0);return;}
- else if(kind==='cancel-edit')state.editing=false;
+ else if(kind==='cancel-edit'){state.editing=false;state.avatarDraft=null;}
  else if(kind==='newpost'){state.tab='profile';state.person=null;if(!state.profile?.is_discoverable){state.editing=true;throw Error('Для публікації спочатку увімкни публічний профіль і збережи налаштування. Предмети колекції не стануть публічними.')}state.posting=true}
  else if(kind==='cancel-post'){state.posting=false;state.acquisitionDraft=null}
  else if(kind==='edit-post'){const post=state.posts.find(p=>p.id===id&&p.user_id===state.id);if(!post)throw Error('Редагувати можна лише власну публікацію.');state.editingPostId=id}
