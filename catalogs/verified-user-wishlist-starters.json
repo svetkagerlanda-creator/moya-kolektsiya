@@ -496,9 +496,13 @@
           "catalogPosition": "05",
           "variantKey": "52TOYS|52TOYS · Lilith · The Century of Mary|Rose Ritual Bath (Secret)",
           "sourceUrl": "https://hi52toys.com/products/lilith-the-century-of-mary-i",
-          "photo": "",
+          "photo": "https://toysez.com/cdn/shop/files/9_4_2d27d635-4fea-46f8-bf09-c31c5748e6f1.jpg?v=1740505616",
           "rarity": "Secret",
-          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий."
+          "description": "Підтверджений варіант із каталогу виробника; у запакованій коробці склад випадковий.",
+          "photoSourceUrl": "https://toysez.com/products/lilith-the-century-of-mary-i-series-secret-rose-ritual-bath",
+          "photoCredit": "TOYSEZ — product image on individually named Rose Ritual Bath figure listing",
+          "photoStatus": "retailer-linked-image-url-pending-runtime-check",
+          "photoVerificationNote": "Image URL extracted from the retailer page's image link. External image could not be fetched for independent availability verification; verify in deployed catalogue."
         },
         {
           "name": "Mirror of the Apocalypse",
