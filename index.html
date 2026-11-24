@@ -527,23 +527,52 @@ function importedSeriesFolder(seriesOrName){
 function seriesAlreadyInMyCollections(name){
  return !!importedSeriesFolder(completeSeries(name)||name);
 }
+// Fast mobile-safe search: match series metadata before opening any item lists.
+// Limit both scanning and visible output; item-level search is deferred until no
+// sufficient name/brand matches exist. Avoid per-series folder-tree work on every query.
 function searchCatalogSeries(query){
- const tokens=String(query||'').trim().toLocaleLowerCase('uk-UA').split(/\s+/).filter(Boolean);if(!tokens.length)return [];
- const series=[...generatedSeries,...COMPLETE_SERIES_DATA,...COMPLETE_FIGURE_SERIES];
- const index=new Map;for(const entry of series)if(!index.has(entry.name)&&!seriesAlreadyInMyCollections(entry.name))index.set(entry.name,entry);
- return [...index.values()].map(series=>{
-  const cards=listCompleteCards(series);
-  const manufacturer=series.manufacturer||cards[0]?.manufacturer||'';
-  const fandom=fandomOptions().find(f=>f.key===series.fandomKey)?.name||'';
-  const text=[series.name,series.group,manufacturer,fandom].filter(Boolean).join(' ').toLocaleLowerCase('uk-UA');
-  const hits=cards.filter(item=>tokens.every(token=>[item.name,item.figureNumber,item.seriesNumber,item.catalogPosition,item.manufacturer,item.description,item.rarity].filter(Boolean).join(' ').toLocaleLowerCase('uk-UA').includes(token)));
-  return {series,cards,manufacturer,hits,score:tokens.every(t=>text.includes(t))?2:hits.length?1:0}
- }).filter(x=>x.score).sort((a,b)=>b.score-a.score||b.hits.length-a.hits.length||a.series.name.localeCompare(b.series.name,'uk'));
+ const q=String(query||'').trim().toLocaleLowerCase('uk-UA');
+ if(q.length<2)return [];
+ const tokens=q.split(/\s+/).filter(Boolean);
+ const entries=[...generatedSeries,...COMPLETE_SERIES_DATA,...COMPLETE_FIGURE_SERIES];
+ const seen=new Set(),selected=[];
+ const imported=new Set(data.folders.filter(f=>f.kind==='series').map(f=>normalizeCatalogName(f.name)));
+ const metadataMatches=[],others=[];
+ for(const series of entries){
+   const name=String(series.name||'');
+   if(!name||seen.has(name))continue;
+   seen.add(name);
+   if(imported.has(normalizeCatalogName(name)))continue;
+   const manufacturer=series.manufacturer||series.items?.[0]?.manufacturer||'';
+   const text=[name,series.group,manufacturer,series.fandomKey].filter(Boolean).join(' ').toLocaleLowerCase('uk-UA');
+   const record={series,manufacturer};
+   if(tokens.every(token=>text.includes(token)))metadataMatches.push(record);
+   else others.push(record);
+ }
+ const pushResult=(record,matchByMetadata)=>{
+   const cards=listCompleteCards(record.series);
+   let hits=[];
+   if(!matchByMetadata){
+     hits=cards.filter(item=>tokens.every(token=>[item.name,item.figureNumber,item.seriesNumber,item.catalogPosition,item.manufacturer,item.description,item.rarity].filter(Boolean).join(' ').toLocaleLowerCase('uk-UA').includes(token)));
+     if(!hits.length)return;
+   }
+   selected.push({...record,cards,hits,score:matchByMetadata?2:1});
+ };
+ for(const item of metadataMatches.slice(0,60))pushResult(item,true);
+ // Scan item descriptions only when series names yield too few results.
+ // Never do full item-level scanning for a one-character search.
+ if(selected.length<20){
+   for(const item of others){
+     pushResult(item,false);
+     if(selected.length>=60)break;
+   }
+ }
+ return selected;
 }
 function searching(){
  const options=[['character','Персонаж / всесвіт'],['number','Номер фігурки / серії'],['description','Опис предмета'],['manufacturer','Виробник / тип'],['photo','Пошук за фото']];
  const placeholders={character:'Наприклад: Doctor Who, Applejack, Eleventh Doctor',number:'Наприклад: 1966 або 71022',description:'Наприклад: фігурка дракона з крилами',manufacturer:'Наприклад: Funko, Hasbro, POP MART',photo:'Опиши предмет, який видно на фото'};
- const q=searchTerm.trim(),tokens=q.toLocaleLowerCase('uk-UA').split(/\s+/).filter(Boolean);
+ const q=searchTerm.trim(),tokens=q.length>=2?q.toLocaleLowerCase('uk-UA').split(/\s+/).filter(Boolean):[];
  const foundItems=tokens.length?data.items.filter(i=>tokens.every(token=>[i.name,i.figureNumber,i.seriesNumber,i.manufacturer,i.description,getfolder(i.folder)?.name].join(' ').toLocaleLowerCase('uk-UA').includes(token))):[];
  const matchingFolders=tokens.length?data.folders.filter(f=>tokens.every(token=>[f.name,f.manufacturerKey].filter(Boolean).join(' ').toLocaleLowerCase('uk-UA').includes(token))):[];
  const catalog=searchCatalogSeries(q),shown=catalog.slice(0,60);
@@ -557,8 +586,8 @@ function searching(){
  +'<label><span class="fieldlabel">Що шукаємо?</span><input id="globalquery" class="field" placeholder="'+esc(placeholders[discoveryMode])+'" value="'+esc(searchTerm)+'"></label><button type="button" class="btn" data-search-submit="globalquery">🔎 Знайти</button>'
  +(discoveryMode==='photo'?'<div class="banner">📷 Розпізнавання зображення всередині застосунку поки недоступне. Можна ввести опис предмета, або окремо скористатися Google Lens.</div><input id="discoveryPhoto" type="file" accept="image/*" class="field"><div id="discoveryPreview"></div><button class="alt" data-action="lens">Відкрити Google Lens ↗</button>':'')
  +'<div class="tools"><button class="alt" data-action="browse-directory">▣ Весь каталог серій</button><button class="alt" data-action="external">Знайти в Google ↗</button><button class="alt" data-action="search-funko">Funko ↗</button><button class="alt" data-action="search-images">Зображення ↗</button></div>'
- +'<p class="muted">Зовнішній пошук необов’язковий. Локальні результати показуються нижче одразу під час введення.</p></div>'
- +(tokens.length?'<h2>Серії в нашому каталозі ('+catalog.length+')</h2>'+(shown.length?'<div class="form">'+catalogHtml+'</div>':'<p class="muted">У вбудованому каталозі збігів не знайдено.</p>')+(catalog.length>60?'<p class="muted">Показано перші 60 серій. Уточни запит.</p>':'')+'<h2>Мої папки ('+matchingFolders.length+')</h2>'+(matchingFolders.length?'<div class="grid">'+matchingFolders.map(foldercard).join(''):'<p class="muted">Відповідних папок немає.</p>')+'<h2>Мої предмети ('+foundItems.length+')</h2>'+cards(foundItems):'<div class="empty">Введи назву фандому, персонажа, виробника, серії або номер фігурки — результати з’являться тут.</div>')
+ +'<p class="muted">Введи щонайменше 2 символи та натисни «Знайти». Показуємо обмежену кількість результатів, щоб не перевантажувати телефон.</p></div>'
+ +(tokens.length?'<h2>Серії в нашому каталозі ('+catalog.length+')</h2>'+(shown.length?'<div class="form">'+catalogHtml+'</div>':'<p class="muted">У вбудованому каталозі збігів не знайдено.</p>')+(catalog.length>60?'<p class="muted">Показано перші 60 серій. Уточни запит.</p>':'')+'<h2>Мої папки ('+matchingFolders.length+')</h2>'+(matchingFolders.length?'<div class="grid">'+matchingFolders.map(foldercard).join(''):'<p class="muted">Відповідних папок немає.</p>')+'<h2>Мої предмети ('+foundItems.length+')</h2>'+cards(foundItems.slice(0,60))+(foundItems.length>60?'<p class="muted">Показано перші 60 предметів. Уточни запит.</p>':''):'<div class="empty">Введи назву фандому, персонажа, виробника, серії або номер фігурки — результати з’являться тут.</div>')
  +'<h2>Не знаю назви серії</h2><div class="card form"><p class="muted">Предмет можна додати без папки та пізніше перенести до відповідної серії.</p><div class="row"><button class="btn" data-action="unfiled">+ Додати без папки</button><button class="alt" data-action="new-folder">+ Створити серію</button></div></div>';
 }
 
