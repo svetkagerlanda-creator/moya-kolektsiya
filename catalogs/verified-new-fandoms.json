@@ -56,8 +56,11 @@
           "manufacturer": "MGA Entertainment",
           "figureNumber": "",
           "sourceUrl": "https://www.bratz.com/collections/all/products/bratz-alwayz-jade-fashion-doll-with-10-accessories",
-          "photo": "",
-          "description": "Official Alwayz Bratz release confirmed by Bratz manufacturer. Exact individual photo and EAN/UPC pending."
+          "photo": "https://www.bratz.com/cdn/shop/files/505228-Bratz-Alwayz-Jade-Fashion-Doll3.jpg?v=1724760308&width=1946",
+          "description": "Official Alwayz Bratz release confirmed by Bratz manufacturer. Exact individual photo and EAN/UPC pending.",
+          "photoSourceUrl": "https://www.bratz.com/collections/all/products/bratz-alwayz-jade-fashion-doll-with-10-accessories",
+          "photoVerification": "Official manufacturer image opened and visually matched to exact Jade doll SKU 505228 (2026-11-24)",
+          "sku": "505228"
         },
         {
           "name": "Alwayz Bratz Fashion Doll - Jade",
