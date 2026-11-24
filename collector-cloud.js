@@ -95,6 +95,69 @@ function harryPotterDiagnostic(data){
  const hpItems=items.filter(i=>hpIds.has(String(i.folder))||/harry\s*potter|гарр[іи]\s*поттер/i.test([i.fandom,i.fandomKey,i.seriesName].filter(Boolean).join(' ')));
  return {folders:hpFolders.length,items:hpItems.length,owned:hpItems.filter(i=>i.status==='owned'&&Number(i.quantity)>0).length,ordered:hpItems.filter(i=>i.status==='ordered').length,wanted:hpItems.filter(i=>i.status==='wish').length};
 }
+// Show the real folder ancestry for every marked Harry Potter card.
+// The top-line HP diagnostic intentionally counts all branches; this audit makes
+// hidden branches, duplicate roots, and orphaned card references visible.
+function hpFolderAudit(data){
+ const folders=Array.isArray(data?.folders)?data.folders:[];
+ const items=Array.isArray(data?.items)?data.items:[];
+ const byId=new Map(folders.filter(f=>f?.id).map(f=>[String(f.id),f]));
+ const hp=/harry\s*potter|гарр[іи]\s*поттер/i;
+ const pathOf=id=>{
+  const names=[],seen=new Set();let current=byId.get(String(id||''));
+  while(current&&!seen.has(String(current.id))){
+   seen.add(String(current.id));names.unshift(String(current.name||'Без назви'));
+   current=byId.get(String(current.parent||''));
+  }
+  return names.join(' / ');
+ };
+ const groups=new Map();
+ const markedOutside=[];
+ for(const item of items){
+  const path=pathOf(item.folder);
+  const explicit=[item.fandom,item.fandomKey,item.seriesName].filter(Boolean).join(' ');
+  if(!hp.test(path)&&!hp.test(explicit))continue;
+  const fid=String(item.folder||''),f=byId.get(fid);
+  const groupKey=fid||'(без папки)';
+  if(!groups.has(groupKey))groups.set(groupKey,{folderId:fid,path:path||(f?'(без назви)':'⚠ Немає папки'),count:0,owned:0,wish:0,ordered:0,skip:0,names:[]});
+  const g=groups.get(groupKey);g.count++;
+  if(item.status==='owned'&&Number(item.quantity)>0)g.owned++;
+  if(item.status==='wish')g.wish++;
+  if(item.status==='ordered')g.ordered++;
+  if(item.status==='skip')g.skip++;
+  if(['owned','wish','ordered','skip'].includes(item.status)&&g.names.length<12)g.names.push(String(item.name||'Без назви')+' ('+({owned:'Маю',wish:'Хочу',ordered:'Замовлено',skip:'Не хочу'}[item.status])+')');
+  if(!f&&['owned','wish','ordered','skip'].includes(item.status)&&markedOutside.length<15)markedOutside.push(String(item.name||'Без назви'));
+ }
+ const rootBranches=folders.filter(f=>hp.test([f.name,f.fandomKey].join(' '))&&!f.parent).map(f=>({id:String(f.id),name:f.name,children:folders.filter(x=>String(x.parent||'')===String(f.id)).length}));
+ return {groups:[...groups.values()].sort((a,b)=>b.owned-a.owned||b.count-a.count),roots:rootBranches,orphaned:markedOutside};
+}
+async function auditHarryPotterFolders(){
+ if(!available()||!syncUser())throw Error('Увійди до акаунта.');
+ if(state.busy)throw Error('Зачекай завершення синхронізації.');
+ state.busy=true;state.error='';status('Звіряємо всі папки Harry Potter та місця збереження позначок…');
+ try{
+  const local=hpFolderAudit(window.CollectorLocal.read());
+  const files=await fetchDeviceSnapshots();
+  const results=[];
+  for(const entry of files){
+   const res=await request('object/authenticated/'+BUCKET+'/'+objectName(state.userId,entry.name));
+   const raw=await res.text();if(raw.length>65*1024*1024)throw Error('Завелика копія.');
+   const snap=JSON.parse(raw);summary(snap);
+   results.push({label:entry.name===device+'.json'?'Цей пристрій, хмара':'Інший пристрій, хмара',date:entry.updated_at||'',audit:hpFolderAudit(snap.data)});
+  }
+  state.hpFolderAudit={local,results};
+  status('✓ Знайдено шляхи збереження карток Harry Potter. Порівняй папки з позначками нижче.');
+ }catch(err){fail(err)}finally{state.busy=false;state.refresh?.()}
+}
+function renderHpFolderAudit(){
+ const report=state.hpFolderAudit;if(!report)return '';
+ const section=(label,audit)=>
+ '<div class="card"><b>'+esc(label)+'</b><p class="muted">Кореневих папок Harry Potter: '+audit.roots.length+'. '+audit.roots.map(x=>esc(x.name)+' ('+x.children+' дочірніх)').join('; ')+'</p>'+
+ (audit.groups.length?audit.groups.map(g=>'<div class="cloud-folder-report"><b>'+esc(g.path)+'</b><small>Карток: '+g.count+' · Маю: '+g.owned+' · Хочу: '+g.wish+' · Замовлено: '+g.ordered+' · Не хочу: '+g.skip+'</small>'+(g.names.length?'<details><summary>Позначені картки ('+Math.min(g.names.length,12)+' з '+(g.owned+g.wish+g.ordered+g.skip)+')</summary><div class="muted">'+g.names.map(esc).join(' · ')+'</div></details>':'')+'</div>').join(''):'<p class="muted">Карток Harry Potter не знайдено</p>')+
+ (audit.orphaned.length?'<p class="muted">⚠ Позначки без наявної папки: '+audit.orphaned.map(esc).join(' · ')+'</p>':'')+'</div>';
+ return '<section class="card cloud-diagnostic"><h3>🔎 Де насправді збережені мої позначки Harry Potter?</h3><p class="muted">Діагностика нічого не видаляє та не переносить. Показано шлях кожної серії у структурі папок.</p>'+
+ section('Локально на цьому пристрої',report.local)+report.results.map((x,i)=>section(x.label+' '+(i+1)+(x.date?' · '+new Date(x.date).toLocaleString('uk-UA'):''),x.audit)).join('')+'</section>';
+}
 async function diagnoseHarryPotter(){
  if(!available()||!syncUser())throw Error('Увійди до акаунта для діагностики.');
  if(state.busy)throw Error('Дочекайся завершення синхронізації.');
@@ -307,11 +370,12 @@ function render(){
  +'<p class="muted">Приватні резервні копії для кожного пристрою. Вони містять папки, предмети та особисті фото, але ніколи не публікуються у стрічці.</p>'
  +'<label class="cloud-switch"><input type="checkbox" id="cloudAuto" '+(state.auto?'checked':'')+'> Автоматична синхронізація між пристроями</label>'
  +'<p class="muted">Синхронізація автоматично працює на всіх пристроях, де відкрито цей акаунт: зміни папок, статусів «Маю», «Хочу», «Замовлено» та карток надсилаються у приватну хмару після збереження. При відкритті чи оновленні сторінки зміни з інших пристроїв завантажуються автоматично. Потрібне інтернет-з’єднання; великі фото можуть затримувати збереження. За потреби синхронізацію можна вимкнути тут.</p>'
- +'<div class="row"><button class="btn" id="cloudSync" type="button" '+(state.busy?'disabled':'')+'>↻ Синхронізувати зараз</button><button class="alt" id="cloudUpload" type="button" '+(state.busy?'disabled':'')+'>↑ Зберегти в хмарі</button><button class="alt" id="cloudList" type="button" '+(state.busy?'disabled':'')+'>↓ Мої хмарні копії</button><button class="alt" id="cloudHpCheck" type="button" '+(state.busy?'disabled':'')+'>🔎 Перевірити Harry Potter</button><button class="alt" id="cloudHpRestore" type="button" '+(state.busy?'disabled':'')+'>♻ Відновити позначки Harry Potter</button></div>'
+ +'<div class="row"><button class="btn" id="cloudSync" type="button" '+(state.busy?'disabled':'')+'>↻ Синхронізувати зараз</button><button class="alt" id="cloudUpload" type="button" '+(state.busy?'disabled':'')+'>↑ Зберегти в хмарі</button><button class="alt" id="cloudList" type="button" '+(state.busy?'disabled':'')+'>↓ Мої хмарні копії</button><button class="alt" id="cloudHpCheck" type="button" '+(state.busy?'disabled':'')+'>🔎 Перевірити Harry Potter</button><button class="alt" id="cloudHpRestore" type="button" '+(state.busy?'disabled':'')+'>♻ Відновити позначки Harry Potter</button><button class="alt" id="cloudHpFolders" type="button" '+(state.busy?'disabled':'')+'>📁 Де мої позначки?</button></div>'
  +(state.lastUpload?'<p class="muted">Остання копія цього пристрою: '+esc(new Date(state.lastUpload).toLocaleString('uk-UA'))+'</p>':'')
  +(state.notice?'<div class="banner">'+esc(state.notice)+'</div>':'')
  +(state.error?'<div class="banner cloud-error">'+esc(state.error)+'</div>':'')
- +(state.hpDiagnostic?'<div class="card cloud-diagnostic"><h3>🪄 Harry Potter — звірка «Маю»</h3><p class="muted">Порівняння тільки для цього акаунта. Копії не змінювалися.</p><div class="cloud-copy"><div><b>Цей пристрій (локально)</b><small>Серій: '+state.hpDiagnostic.local.folders+' · Карток: '+state.hpDiagnostic.local.items+' · Маю: '+state.hpDiagnostic.local.owned+' · Замовлено: '+state.hpDiagnostic.local.ordered+' · Хочу: '+state.hpDiagnostic.local.wanted+'</small></div></div>'+state.hpDiagnostic.rows.map((x,index)=>'<div class="cloud-copy"><div><b>'+(x.own?'Копія цього пристрою':'Копія іншого пристрою')+' '+(index+1)+'</b><small>'+(x.updated?esc(new Date(x.updated).toLocaleString('uk-UA'))+' · ':'')+'Серій: '+x.folders+' · Карток: '+x.items+' · Маю: '+x.owned+' · Замовлено: '+x.ordered+' · Хочу: '+x.wanted+'</small></div></div>').join('')+'</div>':'')
+ +renderHpFolderAudit()
+  +(state.hpDiagnostic?'<div class="card cloud-diagnostic"><h3>🪄 Harry Potter — звірка «Маю»</h3><p class="muted">Порівняння тільки для цього акаунта. Копії не змінювалися.</p><div class="cloud-copy"><div><b>Цей пристрій (локально)</b><small>Серій: '+state.hpDiagnostic.local.folders+' · Карток: '+state.hpDiagnostic.local.items+' · Маю: '+state.hpDiagnostic.local.owned+' · Замовлено: '+state.hpDiagnostic.local.ordered+' · Хочу: '+state.hpDiagnostic.local.wanted+'</small></div></div>'+state.hpDiagnostic.rows.map((x,index)=>'<div class="cloud-copy"><div><b>'+(x.own?'Копія цього пристрою':'Копія іншого пристрою')+' '+(index+1)+'</b><small>'+(x.updated?esc(new Date(x.updated).toLocaleString('uk-UA'))+' · ':'')+'Серій: '+x.folders+' · Карток: '+x.items+' · Маю: '+x.owned+' · Замовлено: '+x.ordered+' · Хочу: '+x.wanted+'</small></div></div>').join('')+'</div>':'')
  +(state.loaded?'<div class="cloud-copies"><h3>Копії з моїх пристроїв</h3>'+(state.snapshots.length?state.snapshots.map(x=>'<div class="cloud-copy"><div><b>'+(x.name.includes('-before-')?'Страховочна копія':x.name===device+'.json'?'Цей пристрій':'Інший пристрій')+'</b><small>'+esc(x.updated_at?new Date(x.updated_at).toLocaleString('uk-UA'):'Дата невідома')+'</small></div><button class="alt" type="button" data-cloud-merge="'+esc(x.name)+'">Об’єднати</button></div>').join(''):'<p class="muted">Хмарних копій поки немає.</p>')+'</div>':'')+'</section>';
 }
 function attach(refresh){
@@ -325,6 +389,7 @@ function attach(refresh){
  if(uploadButton)uploadButton.onclick=()=>upload().catch(()=>{});
  document.getElementById('cloudHpCheck')?.addEventListener('click',()=>diagnoseHarryPotter().catch(fail));
   document.getElementById('cloudHpRestore')?.addEventListener('click',()=>restoreHarryPotter().catch(fail));
+ document.getElementById('cloudHpFolders')?.addEventListener('click',()=>auditHarryPotterFolders().catch(fail));
  const listButton=document.getElementById('cloudList');
  if(listButton)listButton.onclick=()=>list();
  document.querySelectorAll('[data-cloud-merge]').forEach(el=>el.onclick=()=>mergeFrom(el.dataset.cloudMerge));
@@ -336,5 +401,5 @@ window.addEventListener('focus',()=>{startIfReady();if(state.auto&&state.autoSta
 window.CollectorCloud={render,attach,notifyLocalChange,syncNow,signedOut,start:startIfReady};
 document.addEventListener('DOMContentLoaded',startIfReady);
 window.addEventListener('load',startIfReady);
-const style=document.createElement('style');style.textContent='.collector-cloud{margin-top:20px;display:grid;gap:12px}.collector-cloud h2{margin:0}.cloud-switch{display:flex;align-items:center;gap:12px;font-weight:650}.cloud-switch input{width:20px;height:20px}.cloud-copies{display:grid;gap:10px}.cloud-copies h3{margin:0}.cloud-copy{display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid var(--edge);border-radius:12px;padding:10px}.cloud-copy small{display:block;color:var(--sub);margin-top:5px}.cloud-error{border:1px solid #d88696}';document.head.appendChild(style);
+const style=document.createElement('style');style.textContent='.collector-cloud{margin-top:20px;display:grid;gap:12px}.collector-cloud h2{margin:0}.cloud-switch{display:flex;align-items:center;gap:12px;font-weight:650}.cloud-switch input{width:20px;height:20px}.cloud-copies{display:grid;gap:10px}.cloud-copies h3{margin:0}.cloud-copy{display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid var(--edge);border-radius:12px;padding:10px}.cloud-copy small{display:block;color:var(--sub);margin-top:5px}.cloud-error{border:1px solid #d88696}';document.head.appendChild(style);const auditStyle=document.createElement('style');auditStyle.textContent='.cloud-folder-report{border-top:1px solid var(--edge);padding:9px 0}.cloud-folder-report small{display:block;color:var(--sub);margin-top:4px}.cloud-folder-report details{margin-top:5px}.cloud-diagnostic>.card{margin-top:10px}';document.head.appendChild(auditStyle);
 })();
