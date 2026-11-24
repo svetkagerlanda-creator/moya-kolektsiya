@@ -21,9 +21,14 @@
           "description": "One sealed random fashion-or-shoe pack; official manufacturer lists six outfits and six shoe pairs possible. Contents cannot be chosen, so do not assign a character or individual hidden-variant barcode. Listing does not explicitly state GTIN/SKU.",
           "verificationStatus": "manufacturer-product-verified; photo-visually-checked; barcode-not-verified",
           "sku": "",
-          "barcodeNote": "Assortment UPC not verified. The sealed package may contain any of the announced outfits or shoe pairs; scan must route to the series, not a hidden variant."
+          "barcodeNote": "Verified assortment UPC stored at series level only."
         }
-      ]
+      ],
+      "assortmentUpc": "035051247265",
+      "assortmentBarcodeType": "UPC-A",
+      "assortmentBarcodeSourceUrl": "https://toywiz.com/bratz-all-dolled-up-mystery-pack-shoe-fashion/",
+      "assortmentBarcodeVerification": "Retailer explicitly lists UPC for sealed mystery pack; GS1 checksum valid",
+      "assortmentBarcodeNote": "Shared sealed assortment only; not hidden variants"
     },
     {
       "name": "Bratz · Alwayz Bratz",
@@ -1193,8 +1198,12 @@
           "photoSourceUrl": "https://www.bratz.com/products/bratz-whatz-in-my-closet-playset-with-doll",
           "photoVerification": "Official Bratz product-page image opened and visually matched to this exact product / sealed packaging (2026-11-23)",
           "description": "One physical playset with Dana doll, closet, multiple outfits and accessories. Official listing does not explicitly state SKU; image filename is not proof of SKU or UPC.",
-          "verificationStatus": "manufacturer-product-verified; photo-visually-checked; barcode-not-verified",
-          "sku": ""
+          "verificationStatus": "manufacturer-product-verified; photo-visually-checked; barcode-verified",
+          "sku": "",
+          "ean": "0035051247241",
+          "barcodeType": "EAN-13",
+          "barcodeSourceUrl": "https://www.ateneum.net.pl/pozycja.php?id=800229",
+          "barcodeVerification": "Distributor explicitly lists EAN and supplier code 247241-EUC; GS1 checksum valid"
         }
       ]
     },
