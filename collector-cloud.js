@@ -8,7 +8,7 @@ const DEVICE_KEY='collector-backup-device-v1';
 let device=localStorage.getItem(DEVICE_KEY);
 if(!/^[a-f0-9-]{36}$/.test(device||'')){device=crypto.randomUUID();localStorage.setItem(DEVICE_KEY,device)}
 const enc=new TextEncoder(),esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const state={busy:false,auto:false,snapshots:[],notice:'',lastUpload:null,error:'',userId:'',loaded:false,refresh:null,uploadPending:false,syncPending:false,lastSynced:0,reconciling:false,autoStarted:false};
+const state={busy:false,auto:false,snapshots:[],notice:'',lastUpload:null,error:'',userId:'',loaded:false,refresh:null,uploadPending:false,syncPending:false,lastSynced:0,reconciling:false,autoStarted:false,hpDiagnostic:null};
 let timer=null,uploadChain=Promise.resolve(),syncChain=Promise.resolve();
 const prefKey=id=>'collector-auto-cloud-'+id;
 const lastKey=id=>'collector-last-cloud-'+id;
@@ -19,7 +19,7 @@ function fail(err){state.error=String(err?.message||err);state.notice='';state.r
 function syncUser(){
  const id=userid(window.CollectorCommunity?.getSession?.()?.access_token||'');
  if(id!==state.userId){
-  state.userId=id||'';state.loaded=false;state.snapshots=[];state.error='';state.autoStarted=false;state.lastSynced=0;
+  state.userId=id||'';state.loaded=false;state.snapshots=[];state.hpDiagnostic=null;state.error='';state.autoStarted=false;state.lastSynced=0;
   // Signed-in collectors sync by default; an explicit opt-out remains respected.
   state.auto=!!id&&localStorage.getItem(prefKey(id))!=='no';
   state.lastUpload=id?localStorage.getItem(lastKey(id)):null;
@@ -76,6 +76,44 @@ async function fetchDeviceSnapshots(){
   if(rows.length<100)return files;
  }
  throw Error('У хмарі забагато резервних копій. Синхронізацію зупинено, щоб не пропустити інший пристрій.');
+}
+
+function harryPotterDiagnostic(data){
+ const folders=Array.isArray(data?.folders)?data.folders:[];
+ const items=Array.isArray(data?.items)?data.items:[];
+ const byId=new Map(folders.filter(f=>f?.id).map(f=>[String(f.id),f]));
+ const isHpFolder=folder=>{
+  const visited=new Set();
+  for(let current=folder;current&&!visited.has(String(current.id));current=byId.get(String(current.parent||''))){
+   visited.add(String(current.id));
+   const text=[current.name,current.fandomKey,current.source,current.group].filter(Boolean).join(' ').toLocaleLowerCase('uk-UA');
+   if(/harry\\s*potter|гарр[іи]\\s*поттер/.test(text))return true;
+  }
+  return false;
+ };
+ const hpFolders=folders.filter(isHpFolder),hpIds=new Set(hpFolders.map(x=>String(x.id)));
+ const hpItems=items.filter(i=>hpIds.has(String(i.folder))||/harry\\s*potter|гарр[іи]\\s*поттер/i.test([i.fandom,i.fandomKey,i.seriesName].filter(Boolean).join(' ')));
+ return {folders:hpFolders.length,items:hpItems.length,owned:hpItems.filter(i=>i.status==='owned'&&Number(i.quantity)>0).length,ordered:hpItems.filter(i=>i.status==='ordered').length,wanted:hpItems.filter(i=>i.status==='wish').length};
+}
+async function diagnoseHarryPotter(){
+ if(!available()||!syncUser())throw Error('Увійди до акаунта для діагностики.');
+ if(state.busy)throw Error('Дочекайся завершення синхронізації.');
+ state.busy=true;state.error='';status('Перевіряємо Harry Potter у копіях різних пристроїв…');
+ try{
+  const files=await fetchDeviceSnapshots();
+  const local=harryPotterDiagnostic(window.CollectorLocal.read());
+  const rows=[];
+  for(const entry of files){
+   const res=await request('object/authenticated/'+BUCKET+'/'+objectName(state.userId,entry.name));
+   const snapshot=JSON.parse(await res.text());
+   summary(snapshot);
+   rows.push({name:entry.name,updated:entry.updated_at||entry.created_at||null,own:entry.name===device+'.json',...harryPotterDiagnostic(snapshot.data)});
+  }
+  rows.sort((a,b)=>String(b.updated||'').localeCompare(String(a.updated||'')));
+  state.hpDiagnostic={local,rows,checkedAt:new Date().toISOString()};
+  state.notice='✓ Перевірено копії Harry Potter на сервері; дивись порівняння нижче.';
+ }catch(err){fail(err)}
+ finally{state.busy=false;state.refresh?.()}
 }
 async function reconcileDevices(){
  if(!available()||!syncUser())throw Error('Для синхронізації увійди до акаунта.');
@@ -198,10 +236,11 @@ function render(){
  +'<p class="muted">Приватні резервні копії для кожного пристрою. Вони містять папки, предмети та особисті фото, але ніколи не публікуються у стрічці.</p>'
  +'<label class="cloud-switch"><input type="checkbox" id="cloudAuto" '+(state.auto?'checked':'')+'> Автоматична синхронізація між пристроями</label>'
  +'<p class="muted">Синхронізація автоматично працює на всіх пристроях, де відкрито цей акаунт: зміни папок, статусів «Маю», «Хочу», «Замовлено» та карток надсилаються у приватну хмару після збереження. При відкритті чи оновленні сторінки зміни з інших пристроїв завантажуються автоматично. Потрібне інтернет-з’єднання; великі фото можуть затримувати збереження. За потреби синхронізацію можна вимкнути тут.</p>'
- +'<div class="row"><button class="btn" id="cloudSync" type="button" '+(state.busy?'disabled':'')+'>↻ Синхронізувати зараз</button><button class="alt" id="cloudUpload" type="button" '+(state.busy?'disabled':'')+'>↑ Зберегти в хмарі</button><button class="alt" id="cloudList" type="button" '+(state.busy?'disabled':'')+'>↓ Мої хмарні копії</button></div>'
+ +'<div class="row"><button class="btn" id="cloudSync" type="button" '+(state.busy?'disabled':'')+'>↻ Синхронізувати зараз</button><button class="alt" id="cloudUpload" type="button" '+(state.busy?'disabled':'')+'>↑ Зберегти в хмарі</button><button class="alt" id="cloudList" type="button" '+(state.busy?'disabled':'')+'>↓ Мої хмарні копії</button><button class="alt" id="cloudHpCheck" type="button" '+(state.busy?'disabled':'')+'>🔎 Перевірити Harry Potter</button></div>'
  +(state.lastUpload?'<p class="muted">Остання копія цього пристрою: '+esc(new Date(state.lastUpload).toLocaleString('uk-UA'))+'</p>':'')
  +(state.notice?'<div class="banner">'+esc(state.notice)+'</div>':'')
  +(state.error?'<div class="banner cloud-error">'+esc(state.error)+'</div>':'')
+ +(state.hpDiagnostic?'<div class="card cloud-diagnostic"><h3>🪄 Harry Potter — звірка «Маю»</h3><p class="muted">Порівняння тільки для цього акаунта. Копії не змінювалися.</p><div class="cloud-copy"><div><b>Цей пристрій (локально)</b><small>Серій: '+state.hpDiagnostic.local.folders+' · Карток: '+state.hpDiagnostic.local.items+' · Маю: '+state.hpDiagnostic.local.owned+' · Замовлено: '+state.hpDiagnostic.local.ordered+' · Хочу: '+state.hpDiagnostic.local.wanted+'</small></div></div>'+state.hpDiagnostic.rows.map((x,index)=>'<div class="cloud-copy"><div><b>'+(x.own?'Копія цього пристрою':'Копія іншого пристрою')+' '+(index+1)+'</b><small>'+(x.updated?esc(new Date(x.updated).toLocaleString('uk-UA'))+' · ':'')+'Серій: '+x.folders+' · Карток: '+x.items+' · Маю: '+x.owned+' · Замовлено: '+x.ordered+' · Хочу: '+x.wanted+'</small></div></div>').join('')+'</div>':'')
  +(state.loaded?'<div class="cloud-copies"><h3>Копії з моїх пристроїв</h3>'+(state.snapshots.length?state.snapshots.map(x=>'<div class="cloud-copy"><div><b>'+(x.name.includes('-before-')?'Страховочна копія':x.name===device+'.json'?'Цей пристрій':'Інший пристрій')+'</b><small>'+esc(x.updated_at?new Date(x.updated_at).toLocaleString('uk-UA'):'Дата невідома')+'</small></div><button class="alt" type="button" data-cloud-merge="'+esc(x.name)+'">Об’єднати</button></div>').join(''):'<p class="muted">Хмарних копій поки немає.</p>')+'</div>':'')+'</section>';
 }
 function attach(refresh){
@@ -213,11 +252,12 @@ function attach(refresh){
  if(syncButton)syncButton.onclick=()=>syncNow().catch(()=>{});
  const uploadButton=document.getElementById('cloudUpload');
  if(uploadButton)uploadButton.onclick=()=>upload().catch(()=>{});
+ document.getElementById('cloudHpCheck')?.addEventListener('click',()=>diagnoseHarryPotter().catch(fail));
  const listButton=document.getElementById('cloudList');
  if(listButton)listButton.onclick=()=>list();
  document.querySelectorAll('[data-cloud-merge]').forEach(el=>el.onclick=()=>mergeFrom(el.dataset.cloudMerge));
 }
-function signedOut(){state.userId='';state.loaded=false;state.snapshots=[];state.uploadPending=false;state.syncPending=false;if(timer){clearTimeout(timer);timer=null}}
+function signedOut(){state.userId='';state.loaded=false;state.snapshots=[];state.hpDiagnostic=null;state.uploadPending=false;state.syncPending=false;if(timer){clearTimeout(timer);timer=null}}
 window.addEventListener('online',()=>{startIfReady();if(state.auto&&state.autoStarted)notifyLocalChange()});
 document.addEventListener('visibilitychange',()=>{if(document.hidden)return;startIfReady();if(state.auto&&Date.now()-state.lastSynced>45000)notifyLocalChange()});
 window.addEventListener('focus',()=>{startIfReady();if(state.auto&&state.autoStarted&&Date.now()-state.lastSynced>45000)notifyLocalChange()});
