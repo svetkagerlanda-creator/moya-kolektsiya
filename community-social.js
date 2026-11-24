@@ -207,7 +207,7 @@ function createForm(){
  const selected=draft?.photoChoice||'none';
  const src=selected==='catalog'?draft?.catalogPhotoSrc:selected==='personal'?draft?.personalPhotoSrc:null;
  const preview='<div class="sc-acquisition-preview"><img id="scDraftPhotoPreview"'+(src?' src="'+escape(src)+'"':' hidden')+' alt="Фото предмета для допису"><p id="scDraftPhotoHint">'+(src?'Буде опубліковано вибране фото.':'Фото не вибране. Можеш додати своє або опублікувати без нього.')+'</p></div>';
- return '<form class="card form" id="scPost"><h3>Нове придбання 📦</h3><p class="muted">Публікація з’явиться тільки після натискання «Опублікувати». Фото у загальному каталозі не зміниться.</p><label>Назва<input class="field" name="title" minlength="2" maxlength="160" required value="'+escape(draft?.title||'')+'" placeholder="Моя нова фігурка"></label><label>Опис<textarea class="field" name="body" maxlength="2000" rows="3">'+escape(draft?.body||'')+'</textarea></label><label>Фандом<select name="fandom_id" class="field"><option value="">Без фандому</option>'+state.fandoms.map(f=>'<option value="'+f.id+'">'+escape(f.title)+'</option>').join('')+'</select></label><label>Яке фото використати?<select name="photo_source" class="field">'+options+'</select></label><label>Або завантажити нове фото для допису<input class="field" name="photo" type="file" accept="image/jpeg,image/png,image/webp"></label>'+preview+'<div class="sc-actions"><button class="btn" type="submit">Опублікувати</button><button class="alt" type="button" data-sc="cancel-post">Скасувати</button></div></form>';
+ return '<form class="card form" id="scPost"><h3>Нове придбання 📦</h3><p class="muted">Публікація з’явиться тільки після натискання «Опублікувати». Фото у загальному каталозі не зміниться.</p><label>Назва<input class="field" name="title" minlength="2" maxlength="160" required value="'+escape(draft?.title||'')+'" placeholder="Моя нова фігурка"></label><label>Опис<textarea class="field" name="body" maxlength="2000" rows="3">'+escape(draft?.body||'')+'</textarea></label><label>Фандом<select name="fandom_id" class="field"><option value="">Без фандому</option>'+state.fandoms.map(f=>'<option value="'+f.id+'">'+escape(f.title)+'</option>').join('')+'</select></label><label>Яке фото використати?<select name="photo_source" class="field">'+options+'</select></label><label>Або завантажити нове фото для допису<input class="field" name="photo" type="file" accept="image/jpeg,image/png,image/webp"></label>'+preview+'<div class="sc-actions"><button class="btn" type="submit">Опублікувати</button><button class="alt" type="button" data-sc="cancel-post">Скасувати</button></div><p class="muted" id="scPostStatus" role="status" aria-live="polite" hidden></p></form>';
 }
 function editPostForm(p){
  const f=p.fandom_id||'';
@@ -476,14 +476,40 @@ function attach(session,refresh){
   selector.onchange=()=>{if(state.acquisitionDraft)state.acquisitionDraft.photoChoice=selector.value;refreshPhotoPreview()};
   refreshPhotoPreview();
  }
- if(post)post.onsubmit=async ev=>{ev.preventDefault();let btn=post.querySelector('button[type=submit]');btn.disabled=true;try{
-  const f=post.elements,selected=f.photo.files[0]||null;
-  const choice=f.photo_source.value;
-  const source=choice==='catalog'?state.acquisitionDraft?.catalogPhotoSrc:choice==='personal'?state.acquisitionDraft?.personalPhotoSrc:null;
-  const fromCard=!selected&&source?await fileFromCardPhoto(source):null;
-  const photo_path=await upload(selected||fromCard,'posts');
-  await api('collector_posts','','POST',{user_id:state.id,title:f.title.value.trim(),body:f.body.value.trim(),fandom_id:f.fandom_id.value||null,photo_path});state.posting=false;state.acquisitionDraft=null;await reload();
- }catch(err){fail(err)}finally{btn.disabled=false}};
+ if(post)post.onsubmit=async ev=>{
+  ev.preventDefault();
+  if(post.dataset.submitting==='true')return;
+  const button=post.querySelector('button[type="submit"]');
+  const message=post.querySelector('#scPostStatus');
+  const title=post.querySelector('[name="title"]');
+  const body=post.querySelector('[name="body"]');
+  const photo=post.querySelector('[name="photo"]');
+  const choice=post.querySelector('[name="photo_source"]');
+  const fandom=post.querySelector('[name="fandom_id"]');
+  const show=(text,isError=false)=>{if(!message)return;message.hidden=false;message.textContent=text;message.style.color=isError?'var(--danger, #c43d55)':''};
+  const name=title?.value.trim()||'',description=body?.value.trim()||'';
+  if(name.length<2||name.length>160||description.length>2000){show('Перевір назву й опис допису.',true);return}
+  post.dataset.submitting='true';button.disabled=true;button.textContent='⏳ Публікуємо…';
+  try{
+   const selected=photo?.files?.[0]||null;
+   const selectedChoice=choice?.value||'none';
+   const source=selectedChoice==='catalog'?state.acquisitionDraft?.catalogPhotoSrc:selectedChoice==='personal'?state.acquisitionDraft?.personalPhotoSrc:null;
+   show('Підготовка фотографії та публікації…');
+   const fromCard=!selected&&source?await fileFromCardPhoto(source):null;
+   const photo_path=await upload(selected||fromCard,'posts');
+   show('Зберігаємо допис…');
+   await api('collector_posts','','POST',{user_id:state.id,title:name,body:description,fandom_id:fandom?.value||null,photo_path});
+   state.posting=false;state.acquisitionDraft=null;state.error='';
+   await reload();
+  }catch(err){
+   // Keep the form, typed text and selected image intact so the collector can retry.
+   show('Не вдалося опублікувати: '+String(err?.message||err),true);
+   console.error('Collector post submission failed:',err);
+  }finally{
+   post.dataset.submitting='false';
+   button.disabled=false;button.textContent='Опублікувати';
+  }
+ };
  document.querySelectorAll('.sc-edit-post').forEach(form=>form.onsubmit=async ev=>{
   ev.preventDefault();
   const post=state.posts.find(p=>p.id===form.dataset.editPost&&p.user_id===state.id);
