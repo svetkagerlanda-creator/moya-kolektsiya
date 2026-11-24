@@ -18,6 +18,52 @@ function rememberAccountView(){
 const escape=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const getId=s=>{try{return JSON.parse(atob(s.access_token.split('.')[1].replace(/-/g,'+').replace(/_/g,'/'))).sub}catch{return null}};
 const media=p=>p&&/^[0-9a-f-]{36}\/(?:avatars|posts|covers)\/[A-Za-z0-9._-]+$/.test(p)?BASE+'/storage/v1/object/public/collector-media/'+p:null;
+const privatePostPath=p=>typeof p==='string'&&/^private-post:[0-9a-f-]{36}\/posts\/[A-Za-z0-9._-]+$/.test(p)?p.slice('private-post:'.length):null;
+const photoBlobUrls=new Set();
+async function loadPrivatePostPhotos(posts){
+ const token=await window.CollectorCommunity?.getAccessToken?.();
+ if(!token)return;
+ await Promise.all(posts.filter(p=>privatePostPath(p.photo_path)).map(async p=>{
+  const path=privatePostPath(p.photo_path);
+  try{
+   const response=await fetch(BASE+'/storage/v1/object/authenticated/collector-post-media/'+path,{headers:{apikey:KEY,Authorization:'Bearer '+token},cache:'no-store'});
+   if(!response.ok)throw Error('HTTP '+response.status);
+   const blob=await response.blob();
+   if(!blob.type.startsWith('image/'))throw Error('Unexpected content type');
+   const url=URL.createObjectURL(blob);
+   photoBlobUrls.add(url);p._privatePhoto=url;
+  }catch(err){console.warn('Private post image unavailable:',err)}
+ }));
+}
+async function migrateOwnLegacyPostPhotos(posts){
+ if(state.photoMigrationRunning)return;
+ const candidates=posts.filter(p=>p.user_id===state.id&&typeof p.photo_path==='string'&&/^[0-9a-f-]{36}\/posts\/[A-Za-z0-9._-]+$/.test(p.photo_path));
+ if(!candidates.length)return;
+ state.photoMigrationRunning=true;
+ let changed=0;
+ try{
+  const token=await window.CollectorCommunity?.getAccessToken?.();
+  if(!token)return;
+  for(const p of candidates){
+   const oldPath=p.photo_path,source=media(oldPath);
+   if(!source)continue;
+   try{
+    const response=await fetch(source,{cache:'no-store'});
+    if(!response.ok)throw Error('Original unavailable');
+    const blob=await response.blob();
+    if(!['image/jpeg','image/png','image/webp'].includes(blob.type)||!blob.size||blob.size>3145728)throw Error('Unsupported original');
+    const newPath=await upload(blob,'posts');
+    await api('collector_posts','id=eq.'+encodeURIComponent(p.id)+'&user_id=eq.'+encodeURIComponent(state.id),'PATCH',{photo_path:newPath});
+    changed++;
+    const removed=await fetch(BASE+'/storage/v1/object/collector-media/'+oldPath,{method:'DELETE',headers:{apikey:KEY,Authorization:'Bearer '+token}});
+    if(!removed.ok)console.warn('Old public post image could not be removed:',removed.status);
+   }catch(err){console.warn('Could not migrate post image to private storage:',err)}
+  }
+ }finally{
+  state.photoMigrationRunning=false;
+  if(changed)reload();
+ }
+}
 const link=x=>{try{let u=new URL(x);return u.protocol==='https:'?u.href:null}catch{return null}};
 const person=id=>state.people.find(p=>p.id===id)||null;
 const pic=(p,large=false)=>{let a=media(p?.avatar_path);return '<span class="sc-avatar '+(large?'large':'')+'">'+(a?'<img src="'+escape(a)+'" alt="" loading="lazy">':escape((p?.display_name||p?.handle||'?')[0].toUpperCase()))+'</span>'};
@@ -63,7 +109,11 @@ async function reload(){
   const detailById=new Map(visiblePeople.map(p=>[p.id,p]));
   const people=allPeople.map(p=>({...p,...(detailById.get(p.id)||{})}));
   Object.assign(state,{people,posts,likes,comments,follows,fandoms,fandomFollows,collectionSummaries,profile:people.find(p=>p.id===state.id),loaded:true,error:''});
+   for(const url of photoBlobUrls)URL.revokeObjectURL(url);
+   photoBlobUrls.clear();
+   await loadPrivatePostPhotos(posts);
    syncCollectionSummaries();
+   migrateOwnLegacyPostPhotos(posts);
  }catch(err){state.error=String(err.message||err)}finally{state.loading=false;state.refresh?.()}
 }
 
@@ -171,7 +221,7 @@ function editPostForm(p){
  +'<div class="sc-actions"><button class="btn" type="submit">Зберегти зміни</button><button class="alt" type="button" data-sc="cancel-edit-post">Скасувати</button></div></form>';
 }
 function postCard(p){
- const author=person(p.user_id),liked=state.likes.some(l=>l.user_id===state.id&&l.post_id===p.id),cs=state.comments.filter(c=>c.post_id===p.id),f=state.fandoms.find(f=>f.id===p.fandom_id),photo=media(p.photo_path);
+ const author=person(p.user_id),liked=state.likes.some(l=>l.user_id===state.id&&l.post_id===p.id),cs=state.comments.filter(c=>c.post_id===p.id),f=state.fandoms.find(f=>f.id===p.fandom_id),photo=privatePostPath(p.photo_path)?p._privatePhoto:media(p.photo_path);
  return '<article class="card sc-post"><div class="sc-by"><button type="button" class="sc-post-author" data-sc="person" data-id="'+escape(p.user_id)+'" aria-label="Перейти до профілю '+escape(label(author))+'">'+pic(author)+'<span class="sc-post-author-name"><b>'+escape(label(author))+'</b><small>@'+escape(author?.handle||'')+' · '+new Date(p.created_at).toLocaleDateString('uk-UA')+'</small></span></button>'+(p.user_id===state.id?'<details class="sc-post-menu"><summary title="Дії з публікацією" aria-label="Дії з публікацією">⋯</summary><div class="sc-post-menu-actions"><button type="button" data-sc="edit-post" data-id="'+escape(p.id)+'">✎ Редагувати</button><button type="button" class="sc-post-delete" data-sc="delete-post" data-id="'+escape(p.id)+'">🗑 Видалити</button></div></details>':'')+'</div>'+(state.editingPostId===p.id?editPostForm(p):'')+'<h3>'+escape(p.title)+'</h3>'+(p.body?'<p class="sc-bio">'+escape(p.body)+'</p>':'')+(f?'<span class="tag">'+escape(f.title)+'</span>':'')+(photo?'<img class="sc-photo" src="'+escape(photo)+'" loading="lazy" alt="Фото придбання">':'')+'<div class="sc-reactions"><button class="alt" data-sc="like" data-id="'+p.id+'">'+(liked?'💗':'♡')+' '+state.likes.filter(l=>l.post_id===p.id).length+'</button><span>💬 '+cs.length+'</span></div><div class="sc-comments">'+cs.map(c=>'<div class="sc-comment">'+pic(person(c.user_id))+'<p><b>'+escape(label(person(c.user_id)))+'</b> '+escape(c.body)+'</p>'+(c.user_id===state.id?'<button class="alt" data-sc="delete-comment" data-id="'+c.id+'">✕</button>':'')+'</div>').join('')+'</div><form class="sc-comment-form" data-post="'+p.id+'"><input class="field" name="body" maxlength="600" required placeholder="Коментар..."><button class="btn">➤</button></form></article>';
 }
 const timeline=(items,own=false)=>items.length?'<div class="sc-timeline">'+items.map(postCard).join('')+'</div>'
@@ -267,13 +317,14 @@ async function upload(file,type){
  const ext=file.type==='image/png'?'png':file.type==='image/webp'?'webp':'jpg';
  const name=state.id+'/'+type+'/'+crypto.randomUUID()+'.'+ext;
  const token=await window.CollectorCommunity.getAccessToken();if(!token)throw Error('Увійди до акаунта повторно.');
- const r=await fetch(BASE+'/storage/v1/object/collector-media/'+name,{method:'POST',headers:{apikey:KEY,Authorization:'Bearer '+token,'Content-Type':file.type},body:file});
+ const bucket=type==='posts'?'collector-post-media':'collector-media';
+ const r=await fetch(BASE+'/storage/v1/object/'+bucket+'/'+name,{method:'POST',headers:{apikey:KEY,Authorization:'Bearer '+token,'Content-Type':file.type},body:file});
  if(!r.ok){
    const error=await r.json().catch(()=>({}));
    const detail=error.message||error.error||error.error_description||'Помилка сервера '+r.status;
    throw Error('Не вдалося завантажити зображення: '+detail);
   }
- return name;
+ return type==='posts'?'private-post:'+name:name;
 }
 async function action(kind,id){
  try{
