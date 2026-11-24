@@ -75,11 +75,36 @@ function localCollectionSummaries(){
   return {folder_id:String(f.id),title:String(f.name).slice(0,180),total_count:content.length,owned_count:content.filter(i=>i.status==='owned'&&Number(i.quantity)>0).length};
  });
 }
+// Cross-device local folder IDs can differ for the same imported series.
+// Deduplicate only the PROFILE DISPLAY; never mutate or merge private collection data.
+function collectionDisplayKey(title){
+ return String(title||'').normalize('NFKC').replace(/\s+/g,' ').trim().toLocaleLowerCase('uk');
+}
+function profileCollectionRows(published,local,own){
+ const groups=new Map();
+ for(const c of published){
+  const key=collectionDisplayKey(c.title);
+  if(!groups.has(key))groups.set(key,{...c,isPublished:true,remoteOnly:true});
+ }
+ if(own){
+  for(const c of local){
+   const key=collectionDisplayKey(c.title);
+   const prev=groups.get(key);
+   if(prev?.isPublished){
+    // The server owns visibility. A local folder with another ID is not a separate published series.
+    if(c.folder_id===prev.folder_id)groups.set(key,{...c,isPublished:true,remoteOnly:false});
+   }else if(!prev||Number(c.owned_count)>Number(prev.owned_count)||(Number(c.owned_count)===Number(prev.owned_count)&&Number(c.total_count)>Number(prev.total_count))){
+    groups.set(key,{...c,isPublished:false,remoteOnly:false});
+   }
+  }
+ }
+ return [...groups.values()];
+}
 function collectionPanel(p){
  const own=p.id===state.id;
  const published=state.collectionSummaries.filter(c=>c.user_id===p.id);
  const local=own?localCollectionSummaries():[];
- const rows=own?[...local.map(c=>({...c,isPublished:published.some(x=>x.folder_id===c.folder_id),remoteOnly:false})),...published.filter(c=>!local.some(x=>x.folder_id===c.folder_id)).map(c=>({...c,isPublished:true,remoteOnly:true}))]:published.map(c=>({...c,isPublished:true}));
+ const rows=profileCollectionRows(published,local,own);
  const list=rows.map(c=>{
   const percent=c.total_count?Math.min(100,Math.round(c.owned_count/c.total_count*100)):0;
   return '<div class="card sc-collection"><div class="sc-collection-top"><strong>'+escape(c.title)+'</strong>'+(own?'<button class="'+(c.isPublished?'alt':'btn')+'" data-sc="collection-visibility" data-id="'+escape(c.folder_id)+'" aria-label="'+(c.isPublished?'Приховати':'Показати')+' колекцію '+escape(c.title)+'">'+(c.isPublished?'🔒 Приховати':'🌐 Показати')+'</button>':'')+'</div><div class="sc-collection-progress"><div class="bar" role="progressbar" aria-label="Заповненість '+escape(c.title)+'" aria-valuenow="'+percent+'" aria-valuemin="0" aria-valuemax="100"><div style="width:'+percent+'%"></div></div><b>'+percent+'%</b></div>'+(own?'<small class="muted">'+(c.remoteOnly?'Синхронізовано з іншого пристрою · ':'')+(c.isPublished?'Видно іншим користувачам':'Приховано від інших')+'</small>':'')+'</div>';
