@@ -717,7 +717,11 @@
           "photoVerification": "Official Bratz product-page image opened and visually matched to this exact product / sealed packaging (2026-11-23)",
           "description": "One sold special-edition collectible set: mini Bratz Angelz record, sleeve keychain, tote bag, shirt and jacket; record player sold separately. Not a mystery-character assortment.",
           "verificationStatus": "manufacturer-product-verified; photo-visually-checked; barcode-not-verified",
-          "sku": "254225"
+          "sku": "254225",
+          "upc": "035051254225",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://viminitoys.com/miniverse-real-music-bratz-special-edition/",
+          "barcodeVerification": "Explicit product UPC/GTIN listing; GS1 checksum valid; exact edition matched"
         }
       ]
     },
