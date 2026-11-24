@@ -81,7 +81,7 @@ async function reconcileDevices(){
  if(!available()||!syncUser())throw Error('Для синхронізації увійди до акаунта.');
  if(state.busy){state.syncPending=true;return}
  state.busy=true;state.error='';status('Синхронізація колекцій з іншими пристроями…');
- let totalFolders=0,totalItems=0,totalUpdated=0,needsBackup=false;
+ let totalFolders=0,totalItems=0,totalUpdated=0,totalAlignedFolders=0,totalAlignedItems=0,needsBackup=false;
  try{
   const files=await fetchDeviceSnapshots();
   const remote=[];
@@ -122,6 +122,7 @@ async function reconcileDevices(){
   for(const {snapshot} of remote){
    const outcome=await window.CollectorLocal.merge(snapshot.data,{applyUpdates:true});
    totalFolders+=outcome.addedFolders;totalItems+=outcome.addedItems;totalUpdated+=outcome.updatedItems;
+   totalAlignedFolders+=outcome.alignedFolders||0;totalAlignedItems+=outcome.alignedItems||0;
   }
   // Upload a consolidated copy for this device only. Never overwrite the other device's backup.
   const snapshot={app:'moya-kolektsiya',version:1,device,created:new Date().toISOString(),data:window.CollectorLocal.read()};
@@ -130,7 +131,7 @@ async function reconcileDevices(){
   await request('object/'+BUCKET+'/'+objectName(state.userId,device+'.json'),{method:'POST',body:bytes,upsert:true});
   state.lastUpload=new Date().toISOString();localStorage.setItem(lastKey(state.userId),state.lastUpload);
   state.lastSynced=Date.now();state.loaded=false;
-  status('✓ Синхронізовано. Додано '+totalFolders+' папок, '+totalItems+' предметів; оновлено '+totalUpdated+' карток. Для другого пристрою теж запусти синхронізацію.');
+  status('✓ Синхронізовано. Додано '+totalFolders+' папок, '+totalItems+' предметів; оновлено '+totalUpdated+' карток. Зіставлено '+totalAlignedFolders+' серій і '+totalAlignedItems+' предметів між пристроями.');
  }catch(e){fail(e);throw e}
  finally{
   state.reconciling=false;state.busy=false;state.refresh?.();
