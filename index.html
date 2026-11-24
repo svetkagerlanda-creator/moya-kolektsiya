@@ -248,6 +248,30 @@ window.CollectorLocal={
   }
  }
 };
+// Apply an explicitly previewed recovery of collection marks only. Never replace folders,
+// photos, or cards. A failed save restores the exact previous local state.
+window.CollectorLocal.restoreStatusMarks=async patches=>{
+ if(!Array.isArray(patches)||!patches.length)throw Error('Немає позначок для відновлення.');
+ const allowed=new Set(['owned','wish','ordered','skip']);
+ const byId=new Map(data.items.map(i=>[String(i.id),i]));
+ const originals=[];
+ for(const patch of patches){
+  const item=byId.get(String(patch.id));
+  if(!item||!allowed.has(patch.status)||!patch.id||originals.some(x=>x.item===item))throw Error('Некоректна або повторна картка відновлення.');
+  if(item.status!==patch.expectedStatus||Number(item.quantity||0)!==Number(patch.expectedQuantity||0))throw Error('Позначки змінились після попереднього перегляду. Перевір копію повторно.');
+  if(['owned','wish','ordered','skip'].includes(item.status))throw Error('Відновлення не може перезаписати вже встановлену позначку.');
+  originals.push({item,status:item.status,quantity:item.quantity,updated:item.updated});
+ }
+ const stamp=now();
+ for(let i=0;i<patches.length;i++){
+  const {item}=originals[i],patch=patches[i];
+  item.status=patch.status;
+  item.quantity=patch.status==='owned'?Math.max(1,Number(patch.quantity)||1):Number(patch.quantity)||0;
+  item.updated=stamp;
+ }
+ try{await save();render();return originals.length}
+ catch(err){for(const x of originals){x.item.status=x.status;x.item.quantity=x.quantity;x.item.updated=x.updated}throw err}
+};
 window.CollectorRefreshView=()=>{render()};
 const getfolder=x=>data.folders.find(f=>f.id===x),owned=x=>x.status==='owned'&&Number(x.quantity)>0;
 function tree(x){let a=[x];for(let i=0;i<a.length;i++)a.push(...data.folders.filter(f=>f.parent===a[i]).map(f=>f.id));return a}
@@ -1272,4 +1296,4 @@ function emergencyNav(){for(let x of ['side','bottom'])$(x).innerHTML=menu.map(m
   check();
  }).catch(e=>console.warn('Service worker:',e))
 }}catch(e){showStartupError(e)}})();
-</script><script defer src="./catalog-photo-overlay.js?v=1.0.0-beta.57"></script><script defer src="./catalog-contributions.js?v=1.0.0-beta.73"></script><script defer src="./catalog-photo-admin.js?v=1.0.0-beta.57"></script><script defer src="./collector-cloud.js?v=1.0.0-beta.92"></script><script defer src="./personal-photos.js?v=1.0.0-beta.73"></script><script defer src="./community-social.js?v=1.0.0-beta.87"></script><script defer src="./community-chat.js?v=1.0.0-beta.61"></script><script defer src="./series-moderation.js?v=1.0.0-beta.61"></script><script defer src="./updates-feed.js?v=1.0.0-beta.63"></script><script defer src="./banner-crop.js?v=1.0.0-beta.57"></script><script defer src="./community-auth.js?v=1.0.0-beta.90"></script></body></html>
+</script><script defer src="./catalog-photo-overlay.js?v=1.0.0-beta.57"></script><script defer src="./catalog-contributions.js?v=1.0.0-beta.73"></script><script defer src="./catalog-photo-admin.js?v=1.0.0-beta.57"></script><script defer src="./collector-cloud.js?v=1.0.0-beta.93"></script><script defer src="./personal-photos.js?v=1.0.0-beta.73"></script><script defer src="./community-social.js?v=1.0.0-beta.87"></script><script defer src="./community-chat.js?v=1.0.0-beta.61"></script><script defer src="./series-moderation.js?v=1.0.0-beta.61"></script><script defer src="./updates-feed.js?v=1.0.0-beta.63"></script><script defer src="./banner-crop.js?v=1.0.0-beta.57"></script><script defer src="./community-auth.js?v=1.0.0-beta.90"></script></body></html>
