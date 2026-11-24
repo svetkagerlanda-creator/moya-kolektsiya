@@ -117,10 +117,78 @@ function combineDeletedRecords(local,remote){
  }
  return merged;
 }
+// Map identical catalog entries imported independently on two devices only when
+// there is one unambiguous match. Preserve the local card ID and its visible folder.
+function syncKey(value){return String(value??'').trim().normalize('NFKC').toLocaleLowerCase('uk-UA').replace(/\s+/g,' ')}
+function syncSource(value){const x=syncKey(value);return x.endsWith('/')?x.slice(0,-1):x}
+function alignRemoteCatalogue(snapshot){
+ const remote=structuredClone(snapshot),folders=data.folders,items=data.items;
+ const localFolders=new Map(folders.filter(f=>f?.id).map(f=>[String(f.id),f]));
+ const localItems=new Map(items.filter(i=>i?.id).map(i=>[String(i.id),i]));
+ const folderIds=new Map(),usedFolderTargets=new Set();
+ for(const folder of remote.folders)if(localFolders.has(String(folder.id)))folderIds.set(String(folder.id),String(folder.id));
+ const unresolved=new Set(remote.folders.filter(f=>f?.id&&!folderIds.has(String(f.id))).map(f=>String(f.id)));
+ for(let pass=0;pass<=remote.folders.length&&unresolved.size;pass++){
+  let progressed=false;
+  for(const folder of remote.folders){
+   const key=String(folder.id);if(!unresolved.has(key))continue;
+   const parentKey=folder.parent?String(folder.parent):null;
+   if(parentKey&&!folderIds.has(parentKey)&&!localFolders.has(parentKey)&&remote.folders.some(f=>String(f.id)===parentKey))continue;
+   const parent=parentKey?(folderIds.get(parentKey)||parentKey):null;
+   const source=syncSource(folder.source),name=syncKey(folder.name);
+   if(!name){unresolved.delete(key);continue}
+   const candidates=folders.filter(local=>{
+    if(!local?.id||usedFolderTargets.has(String(local.id))||String(local.parent||'')!==String(parent||''))return false;
+    if(folder.kind&&local.kind&&folder.kind!==local.kind)return false;
+    if(folder.kind==='fandom'&&local.kind==='fandom'&&folder.fandomKey&&local.fandomKey)return syncKey(folder.fandomKey)===syncKey(local.fandomKey);
+    if(folder.kind==='manufacturer'&&local.kind==='manufacturer'&&folder.manufacturerKey&&local.manufacturerKey)return syncKey(folder.manufacturerKey)===syncKey(local.manufacturerKey);
+    const localSource=syncSource(local.source);
+    if(source&&localSource)return source===localSource;
+    return syncKey(local.name)===name;
+   });
+   if(candidates.length===1){folderIds.set(key,String(candidates[0].id));usedFolderTargets.add(String(candidates[0].id))}
+   else folderIds.set(key,key);
+   unresolved.delete(key);progressed=true;
+  }
+  if(!progressed)break;
+ }
+ const alignedFolderIds=new Set();
+ remote.folders=remote.folders.filter(f=>{
+  const oldId=String(f.id),newId=folderIds.get(oldId)||oldId;
+  if(oldId!==newId&&localFolders.has(newId)){alignedFolderIds.add(oldId);return false}
+  if(f.parent)f.parent=folderIds.get(String(f.parent))||f.parent;
+  return true;
+ });
+ const usedItemTargets=new Set(),alignedItemIds=new Set();
+ for(const item of remote.items){
+  if(!item?.id)continue;
+  const oldFolder=String(item.folder||''),mappedFolder=folderIds.get(oldFolder)||oldFolder;
+  item.folder=mappedFolder;
+  if(localItems.has(String(item.id)))continue;
+  if(!localFolders.has(mappedFolder))continue;
+  const name=syncKey(item.name),figure=syncKey(item.figureNumber),position=syncKey(item.catalogPosition),manufacturer=syncKey(item.manufacturer);
+  if(!name)continue;
+  const candidates=items.filter(local=>{
+   if(!local?.id||String(local.folder)!==mappedFolder||usedItemTargets.has(String(local.id)))return false;
+   if(syncKey(local.name)!==name)return false;
+   if(manufacturer&&syncKey(local.manufacturer)&&manufacturer!==syncKey(local.manufacturer))return false;
+   const localFigure=syncKey(local.figureNumber),localPosition=syncKey(local.catalogPosition);
+   if(figure&&localFigure&&figure!==localFigure)return false;
+   if(position&&localPosition&&position!==localPosition)return false;
+   return true;
+  });
+  if(candidates.length===1){
+   const match=candidates[0];item.id=match.id;
+   usedItemTargets.add(String(match.id));alignedItemIds.add(String(match.id));
+  }
+ }
+ return {snapshot:remote,alignedFolders:alignedFolderIds.size,alignedItems:alignedItemIds.size};
+}
 window.CollectorLocal={
  read:()=>structuredClone(data),
  merge:async (snapshot,{applyUpdates=false}={})=>{
   if(!snapshot||!Array.isArray(snapshot.folders)||!Array.isArray(snapshot.items))throw Error('Неправильний формат копії');
+  const aligned=alignRemoteCatalogue(snapshot);snapshot=aligned.snapshot;
   const oldFolders=data.folders,oldItems=data.items;
   const oldDeletedFolders=data.deletedFolders,oldDeletedItems=data.deletedItems;
   const deletedFolders=combineDeletedRecords(data.deletedFolders,snapshot.deletedFolders);
@@ -173,7 +241,7 @@ window.CollectorLocal={
   data.deletedItems=deletedItems;
   try{
    await save();render();
-   return {addedFolders:folders.filter(f=>!oldFolders.some(x=>String(x.id)===String(f.id))).length,updatedFolders,addedItems,updatedItems};
+   return {addedFolders:folders.filter(f=>!oldFolders.some(x=>String(x.id)===String(f.id))).length,updatedFolders,addedItems,updatedItems,alignedFolders:aligned.alignedFolders,alignedItems:aligned.alignedItems};
   }catch(error){
    data.folders=oldFolders;data.items=oldItems;
    data.deletedFolders=oldDeletedFolders;data.deletedItems=oldDeletedItems;throw error;
