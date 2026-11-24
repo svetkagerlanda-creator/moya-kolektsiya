@@ -126,7 +126,7 @@ function alignRemoteCatalogue(snapshot){
  const localFolders=new Map(folders.filter(f=>f?.id).map(f=>[String(f.id),f]));
  const localItems=new Map(items.filter(i=>i?.id).map(i=>[String(i.id),i]));
  const folderIds=new Map(),usedFolderTargets=new Set();
- for(const folder of remote.folders)if(localFolders.has(String(folder.id)))folderIds.set(String(folder.id),String(folder.id));
+ for(const folder of remote.folders)if(localFolders.has(String(folder.id))){folderIds.set(String(folder.id),String(folder.id));usedFolderTargets.add(String(folder.id))}
  const unresolved=new Set(remote.folders.filter(f=>f?.id&&!folderIds.has(String(f.id))).map(f=>String(f.id)));
  for(let pass=0;pass<=remote.folders.length&&unresolved.size;pass++){
   let progressed=false;
