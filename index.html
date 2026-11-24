@@ -81,7 +81,7 @@ body[data-theme="dark"] .item-owned .muted{color:#abd0b3}
 }
 .item-photo-missing{display:flex;align-items:center;justify-content:center;text-align:center;font-size:13px;font-weight:500;line-height:1.4;color:var(--sub);padding:12px;min-height:100px;width:100%;}</style></head><body data-theme="purple"><div class="app"><aside class="nav"><div class="logo">💜 Моя колекція</div><div id="side"></div><div class="foot">Версія <b id="sideVersion"></b><br>Особисте локальне сховище</div></aside><main class="main"><header class="head"><div><h1 id="heading">Моя колекція</h1><span class="muted">Твій персональний цифровий музей</span></div><div class="row"><button class="alt" id="donate">💜 Підтримати</button><button class="alt" id="share">↗ Поділитися</button><button class="btn" id="add">+ Додати предмет</button></div></header><div id="content"></div></main></div><nav id="bottom" class="bottom" aria-label="Мобільна навігація"></nav><div id="mobileMoreOverlay" class="mobile-more-overlay" hidden></div><div id="modal" class="hidden"></div><div id="toast" role="status"></div><input type="file" id="backupfile" accept=".json,application/json" hidden>
 <script src="./i18n.js?v=1.0.0-beta.62"></script><script>
-const VERSION='1.0.0-beta.74', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['updates','◷','Оновлення'],['account','♙','Акаунт'],['moderation','🛡','Модерація'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
+const VERSION='1.0.0-beta.75', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['updates','◷','Оновлення'],['account','♙','Акаунт'],['moderation','🛡','Модерація'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
 const $=x=>document.getElementById(x), esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),id=()=>crypto.randomUUID(),now=()=>new Date().toISOString(),fmt=x=>x===''||x==null?'—':Number(x).toLocaleString('uk-UA',{maximumFractionDigits:2})+' '+data.settings.currency;
 let db,data={folders:[],items:[],deletedFolders:{},deletedItems:{},settings:{theme:'purple',currency:'UAH',language:'uk'}},page='home',folder=null,searchTerm='',characterTerm='',view='cards',discoveryMode='character',selectedFandomKey='',collectionRootMode='fandoms';
 // Barcode scanning stays implemented but is hidden until BOTH item and series verified-GTIN coverage reach 80%.
@@ -319,6 +319,8 @@ const FANDOMS=[
  {key:'doctorwho',name:'Doctor Who',icon:'🔷',pattern:/doctor who|tardis|dalek/i},
  {key:'disney',name:'Disney (усі колекції)',icon:'🏰',pattern:/\bdisney\b|mickey mouse|minnie mouse/i},
  {key:'ty',name:'TY Beanie Babies',icon:'🧸',pattern:/\bty beanie\b|beanie babies|beanie boos/i},
+ {key:'catalog-5-hazbin',name:'Hazbin Hotel',icon:'😈',pattern:/hazbin hotel|charlie morningstar|angel dust|sir pentious|alastor/i},
+ {key:'catalog-5-owl-house',name:'The Owl House',icon:'🦉',pattern:/the owl house|luz noceda|eda clawthorne|king clawthorne/i},
  {key:'other',name:'Інші всесвіти',icon:'🌟',pattern:/$^/}
 ];
 /* Curated choices only: entries are never persisted as folders until confirmed. */
@@ -662,8 +664,11 @@ function mlpMerchRoot(source){
 function mlpSourceGeneration(source){return MLP_GENERATION_GROUPS[mlpMerchRoot(source)]?.[0]||''}
 function categorizeGeneratedSeries(series){
  const classification=MLP_GENERATION_GROUPS[mlpMerchRoot(series.source)];
- if(!classification)return series;
- return {...series,fandomKey:'mlp',group:'🦄 My Little Pony · '+classification[0]+' · '+classification[1]};
+ if(classification)return {...series,fandomKey:'mlp',group:'🦄 My Little Pony · '+classification[0]+' · '+classification[1]};
+ // Older generated MLP and Kayou feeds omitted fandomKey; assign them before filtering.
+ if(!series.fandomKey&&/^(?:MLP Merch ·|Hasbro · (?:G[1-5]|Cutie Mark Crew|Equestria Girls|Funko Figures|Ponyville|Guardians of Harmony|Brushables|Blind Bags)|Kayou(?: TCG)? ·)/i.test(series.name||''))
+  return {...series,fandomKey:'mlp'};
+ return series;
 }
 let generatedSeries=[],generatedCatalogState='idle';
 async function loadGeneratedCatalog(force=false){if(generatedCatalogState==='ready'&&!force)return;let files=['./catalogs/verified-kayou.json','./catalogs/verified-mlpmerch.json','./catalogs/verified-brushables.json','./catalogs/verified-blind-bags.json','./catalogs/verified-mlp-figures.json','./catalogs/verified-mlp-all-series.json','./catalogs/verified-new-fandoms.json','./catalogs/verified-harry-potter-starters.json','./catalogs/verified-user-wishlist-starters.json','./catalogs/verified-historical-dolls-pets.json','./catalogs/verified-surprise-drinks-mlp.json','./catalogs/verified-popmart-starters.json','./catalogs/verified-buildabear-ty.json','./catalogs/verified-funko-fandoms.json','./catalogs/verified-funko-more-fandoms.json','./catalogs/verified-funko-next-batch.json','./catalogs/verified-funko-dragon-aot-chainsaw-disney.json','./catalogs/verified-funko-deathnote-spy-wednesday-sonic-sw-sailor.json','./catalogs/verified-funko-bleach-hxh-minecraft-dc-lotr-squid.json','./catalogs/verified-funko-frieren-tokyoghoul-fnaf-hotd-stitch-witcher.json','./catalogs/verified-funko-got-lastofus-transformers-toystory-frozen-jurassic.json','./catalogs/verified-funko-shrek-resident-supernatural-pooh-tmnt.json','./catalogs/verified-funko-owl-house.json','./catalogs/verified-funko-arcane.json','./catalogs/verified-funko-hazbin-wave1.json','./catalogs/verified-funko-hazbin-wave1-chase.json'];let responses=await Promise.allSettled(files.map(async path=>{let res=await fetch(path,{cache:'no-cache'});if(!res.ok)throw Error('Не доступний '+path);let json=await res.json();return Array.isArray(json.series)?json.series:[]}));let byName=new Map;for(let res of responses)if(res.status==='fulfilled')for(let item of res.value){if(item.verified===true&&Array.isArray(item.items)&&item.items.length===item.count&&item.items.length>0)byName.set(item.name,categorizeGeneratedSeries(item))}generatedSeries=[...byName.values()];
