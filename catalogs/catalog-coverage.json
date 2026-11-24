@@ -79,8 +79,7 @@
       "missingPhotos": 0,
       "invalidSeries": 0,
       "duplicateUrls": 13,
-      "partialSeries": 2,
-      "photoVerification": "12 Mystery Minis individual Funko CDN crop URLs newly inserted; HTTP/render validation pending"
+      "partialSeries": 2
     },
     {
       "file": "verified-funko-frieren-tokyoghoul-fnaf-hotd-stitch-witcher.json",
@@ -163,6 +162,16 @@
       "partialSeries": 5
     },
     {
+      "file": "verified-harry-potter-starters.json",
+      "series": 87,
+      "items": 426,
+      "photos": 366,
+      "missingPhotos": 60,
+      "invalidSeries": 0,
+      "duplicateUrls": 274,
+      "partialSeries": 63
+    },
+    {
       "file": "verified-historical-dolls-pets.json",
       "series": 422,
       "items": 7471,
@@ -213,24 +222,34 @@
       "partialSeries": 0
     },
     {
-      "file": "verified-new-fandoms-seeds.json",
-      "series": 6,
-      "items": 12,
-      "photos": 12,
+      "file": "verified-new-fandoms-photo-patches.json",
+      "series": 0,
+      "items": 0,
+      "photos": 0,
       "missingPhotos": 0,
       "invalidSeries": 0,
-      "duplicateUrls": 1,
-      "partialSeries": 6
+      "duplicateUrls": 0,
+      "partialSeries": 0
+    },
+    {
+      "file": "verified-new-fandoms-seeds.json",
+      "series": 6,
+      "items": 36,
+      "photos": 12,
+      "missingPhotos": 24,
+      "invalidSeries": 0,
+      "duplicateUrls": 19,
+      "partialSeries": 4
     },
     {
       "file": "verified-new-fandoms.json",
-      "series": 238,
-      "items": 1131,
-      "photos": 184,
-      "missingPhotos": 947,
+      "series": 244,
+      "items": 1150,
+      "photos": 217,
+      "missingPhotos": 933,
       "invalidSeries": 0,
       "duplicateUrls": 0,
-      "partialSeries": 80
+      "partialSeries": 81
     },
     {
       "file": "verified-popmart-starters.json",
@@ -254,23 +273,23 @@
     },
     {
       "file": "verified-user-wishlist-starters.json",
-      "series": 26,
-      "items": 161,
-      "photos": 139,
-      "missingPhotos": 22,
+      "series": 27,
+      "items": 289,
+      "photos": 216,
+      "missingPhotos": 73,
       "invalidSeries": 0,
-      "duplicateUrls": 0,
-      "partialSeries": 25
+      "duplicateUrls": 62,
+      "partialSeries": 12
     }
   ],
   "totals": {
-    "verifiedSeriesRecords": 2003,
-    "partialSeriesRecords": 167,
-    "releaseRecords": 26806,
-    "photoRecords": 25772,
-    "missingPhotoRecords": 1034,
-    "crossFeedOverlappingSourceUrls": 2924,
-    "distinctSourceUrls": 22791
+    "verifiedSeriesRecords": 2097,
+    "partialSeriesRecords": 216,
+    "releaseRecords": 27403,
+    "photoRecords": 26293,
+    "missingPhotoRecords": 1110,
+    "crossFeedOverlappingSourceUrls": 2930,
+    "distinctSourceUrls": 22999
   },
   "sourceRoots": {
     "basic-fun": {
@@ -409,9 +428,9 @@
       "photos": 46
     },
     "other": {
-      "series": 779,
-      "items": 11561,
-      "photos": 10547
+      "series": 873,
+      "items": 12158,
+      "photos": 11068
     },
     "other-figures": {
       "series": 293,
