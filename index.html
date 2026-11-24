@@ -298,6 +298,49 @@ window.CollectorLocal.applyDuplicateMarks=async patches=>{
  try{await save();render();return patches.length}
  catch(err){for(const p of previous){for(const field of Object.keys(p.item))delete p.item[field];Object.assign(p.item,p.original)}throw err}
 };
+// Union of two already-present HP branches: add strictly unmatched cards to the
+// other branch and copy only missing status marks. Never delete the source.
+window.CollectorLocal.applyDuplicateUnion=async (patches,copies)=>{
+ if(!Array.isArray(patches)||!Array.isArray(copies)||!patches.length&&!copies.length)throw Error('Немає змін для зведення.');
+ const originals=structuredClone(data.items);
+ const items=new Map(data.items.map(i=>[String(i.id),i]));
+ const folders=new Set(data.folders.map(f=>String(f.id)));
+ const changed=new Set();
+ const normalized=x=>String(x??'').trim().normalize('NFKC').toLocaleLowerCase('uk-UA').replace(/\s+/g,' ');
+ const signature=i=>[normalized(i.name),normalized(i.figureNumber),normalized(i.catalogPosition)].join('|');
+ for(const p of patches){
+  const item=items.get(String(p.id));
+  if(!item||changed.has(String(p.id))||!['unset','',null,undefined].includes(item.status)
+   ||item.status!==p.expectedStatus||Number(item.quantity||0)!==Number(p.expectedQuantity||0)
+   ||!['owned','wish','ordered','skip'].includes(p.status))
+   throw Error('Позначки змінилися після попередньої звірки. Повтори перевірку.');
+  changed.add(String(p.id));
+ }
+ const reserved=new Set();
+ for(const c of copies){
+  const source=items.get(String(c.sourceId));
+  const folder=String(c.targetFolderId);
+  const k=folder+'|'+(source?signature(source):'');
+  if(!source||!folders.has(folder)||!folders.has(String(source.folder))||reserved.has(k)
+   ||signature(source)!==c.expectedSignature
+   ||data.items.some(i=>String(i.folder)===folder&&signature(i)===signature(source)))
+    throw Error('Картка або папка змінилася. Повтори перевірку перед копіюванням.');
+  reserved.add(k);
+ }
+ const stamp=now();
+ for(const p of patches){
+  const item=items.get(String(p.id));item.status=p.status;
+  item.quantity=p.status==='owned'?Math.max(1,Number(p.quantity)||1):0;
+  if(p.status==='wish'||p.status==='ordered')item.wishlistExplicit=true;
+  item.updated=stamp;
+ }
+ for(const c of copies){
+  const source=items.get(String(c.sourceId));
+  data.items.push({...structuredClone(source),id:crypto.randomUUID(),folder:String(c.targetFolderId),updated:stamp});
+ }
+ try{await save();render();return {marks:patches.length,items:copies.length}}
+ catch(err){data.items=originals;render();throw err}
+};
 window.CollectorRefreshView=()=>{render()};
 const getfolder=x=>data.folders.find(f=>f.id===x),owned=x=>x.status==='owned'&&Number(x.quantity)>0;
 function tree(x){let a=[x];for(let i=0;i<a.length;i++)a.push(...data.folders.filter(f=>f.parent===a[i]).map(f=>f.id));return a}
@@ -1322,4 +1365,4 @@ function emergencyNav(){for(let x of ['side','bottom'])$(x).innerHTML=menu.map(m
   check();
  }).catch(e=>console.warn('Service worker:',e))
 }}catch(e){showStartupError(e)}})();
-</script><script defer src="./catalog-photo-overlay.js?v=1.0.0-beta.57"></script><script defer src="./catalog-contributions.js?v=1.0.0-beta.73"></script><script defer src="./catalog-photo-admin.js?v=1.0.0-beta.57"></script><script defer src="./collector-cloud.js?v=1.0.0-beta.95"></script><script defer src="./personal-photos.js?v=1.0.0-beta.73"></script><script defer src="./community-social.js?v=1.0.0-beta.87"></script><script defer src="./community-chat.js?v=1.0.0-beta.61"></script><script defer src="./series-moderation.js?v=1.0.0-beta.61"></script><script defer src="./updates-feed.js?v=1.0.0-beta.63"></script><script defer src="./banner-crop.js?v=1.0.0-beta.57"></script><script defer src="./community-auth.js?v=1.0.0-beta.90"></script></body></html>
+</script><script defer src="./catalog-photo-overlay.js?v=1.0.0-beta.57"></script><script defer src="./catalog-contributions.js?v=1.0.0-beta.73"></script><script defer src="./catalog-photo-admin.js?v=1.0.0-beta.57"></script><script defer src="./collector-cloud.js?v=1.0.0-beta.96"></script><script defer src="./personal-photos.js?v=1.0.0-beta.73"></script><script defer src="./community-social.js?v=1.0.0-beta.87"></script><script defer src="./community-chat.js?v=1.0.0-beta.61"></script><script defer src="./series-moderation.js?v=1.0.0-beta.61"></script><script defer src="./updates-feed.js?v=1.0.0-beta.63"></script><script defer src="./banner-crop.js?v=1.0.0-beta.57"></script><script defer src="./community-auth.js?v=1.0.0-beta.90"></script></body></html>
