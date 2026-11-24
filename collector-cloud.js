@@ -1,6 +1,6 @@
-/* Collector Cloud v0.18: private, opt-in bidirectional device sync and backups.
-   A cloud snapshot NEVER overwrites local records without a deliberate merge.
-   All data stays local unless the user explicitly enables/starts an upload. */
+/* Collector Cloud v0.19: account-scoped automatic two-way sync and private backups.
+   Sync starts after local data and a signed-in account are ready. Guests remain local-only.
+   Users can explicitly turn cloud sync off in their account settings. */
 (()=>{
 'use strict';
 const API='https://nihheolmwvkgtvtmfzsv.supabase.co',KEY='sb_publishable_M_mIhlp0ZqintLb0ONy8BQ_SzEBCAT0',BUCKET='collector-cloud-backups';
@@ -20,7 +20,8 @@ function syncUser(){
  const id=userid(window.CollectorCommunity?.getSession?.()?.access_token||'');
  if(id!==state.userId){
   state.userId=id||'';state.loaded=false;state.snapshots=[];state.error='';state.autoStarted=false;state.lastSynced=0;
-  state.auto=!!id&&localStorage.getItem(prefKey(id))==='yes';
+  // Signed-in collectors sync by default; an explicit opt-out remains respected.
+  state.auto=!!id&&localStorage.getItem(prefKey(id))!=='no';
   state.lastUpload=id?localStorage.getItem(lastKey(id)):null;
  }
  return id;
@@ -64,9 +65,17 @@ async function list(){
 }
 
 async function fetchDeviceSnapshots(){
- const response=await request('object/list/'+BUCKET,{method:'POST',body:JSON.stringify({prefix:state.userId+'/snapshots',limit:100,offset:0,sortBy:{column:'updated_at',order:'desc'}})});
- const list=await response.json();
- return (Array.isArray(list)?list:[]).filter(x=>/^[0-9a-f-]{36}\.json$/.test(x.name));
+ // Safety backups share the same directory. Paging must occur before filtering
+ // or >100 backups can hide an older device's current snapshot.
+ const files=[];
+ for(let offset=0;offset<2000;offset+=100){
+  const response=await request('object/list/'+BUCKET,{method:'POST',body:JSON.stringify({prefix:state.userId+'/snapshots',limit:100,offset,sortBy:{column:'name',order:'asc'}})});
+  const rows=await response.json();
+  if(!Array.isArray(rows))throw Error('Не вдалося отримати список хмарних копій.');
+  files.push(...rows.filter(x=>/^[0-9a-f-]{36}\.json$/.test(x.name)));
+  if(rows.length<100)return files;
+ }
+ throw Error('У хмарі забагато резервних копій. Синхронізацію зупинено, щоб не пропустити інший пристрій.');
 }
 async function reconcileDevices(){
  if(!available()||!syncUser())throw Error('Для синхронізації увійди до акаунта.');
@@ -180,14 +189,14 @@ function notifyLocalChange(){
  if(!id||!state.auto||state.reconciling)return;
  if(state.busy){state.uploadPending=true;return}
  if(timer)clearTimeout(timer);
- timer=setTimeout(()=>{timer=null;syncNow().catch(()=>{})},6500);
+ timer=setTimeout(()=>{timer=null;syncNow().catch(err=>console.warn('Collection sync after change:',err))},1200);
 }
 function render(){
  if(!syncUser())return '';
  return '<section class="card collector-cloud"><h2>☁️ Моя хмара</h2>'
  +'<p class="muted">Приватні резервні копії для кожного пристрою. Вони містять папки, предмети та особисті фото, але ніколи не публікуються у стрічці.</p>'
  +'<label class="cloud-switch"><input type="checkbox" id="cloudAuto" '+(state.auto?'checked':'')+'> Автоматична синхронізація між пристроями</label>'
- +'<p class="muted">Увімкни на телефоні й комп’ютері, щоб зміни папок і статусів «Маю», «Хочу», «Замовлено» передавалися в обидва боки. Перед об’єднанням змінених даних створюється страховочна копія. Видалення враховуються; старі копії не повинні повертати навмисно видалені серії. Для першої синхронізації натисни «Синхронізувати зараз» на обох пристроях.</p>'
+ +'<p class="muted">Синхронізація автоматично працює на всіх пристроях, де відкрито цей акаунт: зміни папок, статусів «Маю», «Хочу», «Замовлено» та карток надсилаються у приватну хмару після збереження. При відкритті чи оновленні сторінки зміни з інших пристроїв завантажуються автоматично. Потрібне інтернет-з’єднання; великі фото можуть затримувати збереження. За потреби синхронізацію можна вимкнути тут.</p>'
  +'<div class="row"><button class="btn" id="cloudSync" type="button" '+(state.busy?'disabled':'')+'>↻ Синхронізувати зараз</button><button class="alt" id="cloudUpload" type="button" '+(state.busy?'disabled':'')+'>↑ Зберегти в хмарі</button><button class="alt" id="cloudList" type="button" '+(state.busy?'disabled':'')+'>↓ Мої хмарні копії</button></div>'
  +(state.lastUpload?'<p class="muted">Остання копія цього пристрою: '+esc(new Date(state.lastUpload).toLocaleString('uk-UA'))+'</p>':'')
  +(state.notice?'<div class="banner">'+esc(state.notice)+'</div>':'')
@@ -198,7 +207,7 @@ function attach(refresh){
  state.refresh=refresh;syncUser();
  startIfReady();
  const toggle=document.getElementById('cloudAuto');
- if(toggle)toggle.onchange=e=>{state.auto=!!e.target.checked;localStorage.setItem(prefKey(state.userId),state.auto?'yes':'no');if(!state.auto&&timer){clearTimeout(timer);timer=null}if(state.auto){state.autoStarted=true;notifyLocalChange()}refresh()};
+ if(toggle)toggle.onchange=e=>{state.auto=!!e.target.checked;localStorage.setItem(prefKey(state.userId),state.auto?'yes':'no');if(!state.auto&&timer){clearTimeout(timer);timer=null}if(state.auto){if(state.autoStarted)notifyLocalChange();else startIfReady()}refresh()};
  const syncButton=document.getElementById('cloudSync');
  if(syncButton)syncButton.onclick=()=>syncNow().catch(()=>{});
  const uploadButton=document.getElementById('cloudUpload');
