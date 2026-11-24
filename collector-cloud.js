@@ -87,12 +87,12 @@ function harryPotterDiagnostic(data){
   for(let current=folder;current&&!visited.has(String(current.id));current=byId.get(String(current.parent||''))){
    visited.add(String(current.id));
    const text=[current.name,current.fandomKey,current.source,current.group].filter(Boolean).join(' ').toLocaleLowerCase('uk-UA');
-   if(/harry\\s*potter|гарр[іи]\\s*поттер/.test(text))return true;
+   if(/harry\s*potter|гарр[іи]\s*поттер/.test(text))return true;
   }
   return false;
  };
  const hpFolders=folders.filter(isHpFolder),hpIds=new Set(hpFolders.map(x=>String(x.id)));
- const hpItems=items.filter(i=>hpIds.has(String(i.folder))||/harry\\s*potter|гарр[іи]\\s*поттер/i.test([i.fandom,i.fandomKey,i.seriesName].filter(Boolean).join(' ')));
+ const hpItems=items.filter(i=>hpIds.has(String(i.folder))||/harry\s*potter|гарр[іи]\s*поттер/i.test([i.fandom,i.fandomKey,i.seriesName].filter(Boolean).join(' ')));
  return {folders:hpFolders.length,items:hpItems.length,owned:hpItems.filter(i=>i.status==='owned'&&Number(i.quantity)>0).length,ordered:hpItems.filter(i=>i.status==='ordered').length,wanted:hpItems.filter(i=>i.status==='wish').length};
 }
 async function diagnoseHarryPotter(){
