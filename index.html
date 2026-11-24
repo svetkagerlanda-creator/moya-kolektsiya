@@ -1,4 +1,4 @@
-<!doctype html><html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f0eafb"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Моя колекція — особистий каталог колекціонера"><link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./icon.svg"><title>Моя колекція</title><style>
+<!doctype html><html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=overlays-content"><meta name="theme-color" content="#f0eafb"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Моя колекція — особистий каталог колекціонера"><link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./icon.svg"><title>Моя колекція</title><style>
 :root{font:15px system-ui,Arial;--bg:#f0eafb;--fg:#372552;--panel:#fff;--accent:#8655c8;--sub:#7f7190;--edge:#d9cce8;--pale:#e8def6}
 body[data-theme="light"]{--bg:#f7f8fa;--fg:#252c38;--panel:white;--accent:#5b6577;--sub:#707b8c;--edge:#e0e5ec;--pale:#eef1f4}
 body[data-theme="dark"]{--bg:#15141b;--fg:#f2edf8;--panel:#262330;--accent:#b49af0;--sub:#b6a9c5;--edge:#423a50;--pale:#373044}
@@ -16,6 +16,12 @@ body[data-theme="blue"]{--bg:#ecf6ff;--fg:#284c70;--panel:white;--accent:#458fc9
 .bottom .tab-icon{font-family:system-ui,"Segoe UI Symbol",sans-serif;font-size:26px;line-height:1;display:block;text-align:center}
 @media(max-width:800px){.bottom{min-height:calc(62px + env(safe-area-inset-bottom));align-items:center}.bottom button{display:flex;align-items:center;justify-content:center;min-height:48px;min-width:44px;padding:9px 3px;font-size:0}.bottom button.active{background:var(--pale);color:var(--accent);border-radius:14px}.main{padding-bottom:110px}}
 .scanflow .scan-input{display:flex;align-items:center;justify-content:center;min-height:52px;text-align:center;cursor:pointer}.scanflow textarea{resize:vertical;min-height:116px}.scanflow .banner{line-height:1.5}.catalog-review{display:flex;gap:12px;align-items:center;background:var(--panel);border:1px solid var(--edge);padding:10px;border-radius:10px}.catalog-review input{width:20px;height:20px}.catalog-review span{min-width:0;overflow-wrap:anywhere}.catalog-review small{display:block;color:var(--sub);font-size:12px;margin-top:3px}
+/* Mobile keyboard must not pull the fixed bottom navigation into the middle of the screen.
+   The viewport meta requests overlay keyboard mode; hide the bar while editing a field
+   so it cannot obstruct input even in browsers that still resize their viewport. */
+@media(max-width:800px){
+  body:has(input:focus,textarea:focus,[contenteditable="true"]:focus) .bottom{display:none!important}
+}
 @media(max-width:800px){.modalback{align-items:start;padding:10px;overflow-y:auto}.modal{width:100%;max-height:calc(100dvh - 30px);margin:auto 0;overscroll-behavior:contain}.modal .row:first-child{position:sticky;top:-22px;z-index:2;background:var(--panel);padding-top:12px;padding-bottom:9px;border-bottom:1px solid var(--edge)}.modal input,.modal textarea{font-family:system-ui,sans-serif;font-size:15px}.modal .btn:disabled{opacity:.45}}
 .item-collectible{transition:background .15s,border-color .15s;display:flex;flex-direction:column}
 .item-owned{background:#e5f6e8;border:2px solid #4ea967;color:#174b2b}
