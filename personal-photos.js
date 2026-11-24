@@ -40,12 +40,21 @@
    const all=pics(item),personal=!!cover(item);
    const photoValid=typeof item.photo==='string'&&item.photo.trim()!=='';
    const images=all.map((p,index)=>'<div class="my-photo-tile"><img src="'+escape(p.src)+'" alt="Особисте фото '+(index+1)+'"><div class="my-photo-actions"><button class="alt" type="button" data-personal-cover="'+escape(p.id)+'" '+(personal&&item.personalCoverId===p.id?'disabled':'')+'>'+(personal&&item.personalCoverId===p.id?'✓ Основне':'Основне')+'</button><button class="alt" type="button" data-personal-delete="'+escape(p.id)+'" aria-label="Видалити фото">✕</button></div></div>').join('');
-   ctx.modal('Мої фотографії: '+item.name,'<div class="form"><p class="muted">Ці фото зберігаються лише на цьому пристрої, включаються в резервну копію JSON та не публікуються автоматично.</p><div class="row"><button type="button" id="myCameraBtn" class="btn">📷 Камера</button><button type="button" id="myGalleryBtn" class="alt">🖼 Галерея</button><input hidden id="myCameraInput" type="file" accept="image/*" capture="environment"><input hidden id="myGalleryInput" type="file" accept="image/*" multiple></div><div class="row"><button type="button" id="myPhotoCatalogCover" class="'+(!personal?'btn':'alt')+'">Фото каталогу'+(!personal?' ✓':'')+'</button>'+(all.length?'<button type="button" class="'+(personal?'btn':'alt')+'" id="myPhotoPersonalCover">Моє фото'+(personal?' ✓':'')+'</button>':'')+'</div><div class="my-photo-grid">'+(all.length?images:'<div class="empty">Власних фотографій ще немає. Можна додати до 10 фото.</div>')+'</div><button type="button" class="btn" id="myPhotosShare">💜 Поділитися придбанням</button><button type="button" class="alt" id="myPhotosDone">Готово</button></div>');
+   ctx.modal('Мої фотографії: '+item.name,'<div class="form"><p class="muted">Ці фото зберігаються лише на цьому пристрої, включаються в резервну копію JSON та не публікуються автоматично.</p><div class="row"><button type="button" id="myCameraBtn" class="btn">📷 Камера</button><button type="button" id="myGalleryBtn" class="alt">🖼 Галерея</button><input hidden id="myCameraInput" type="file" accept="image/*" capture="environment"><input hidden id="myGalleryInput" type="file" accept="image/*" multiple></div><div class="row"><button type="button" id="myPhotoCatalogCover" class="'+(!personal?'btn':'alt')+'">Фото каталогу'+(!personal?' ✓':'')+'</button>'+(all.length?'<button type="button" class="'+(personal?'btn':'alt')+'" id="myPhotoPersonalCover">Моє фото'+(personal?' ✓':'')+'</button>':'')+'</div><div class="my-photo-grid">'+(all.length?images:'<div class="empty">Власних фотографій ще немає. Можна додати до 10 фото.</div>')+'</div>'+(all.length&&ctx.catalogPhotoMissing?'<button type="button" class="alt" id="myPhotosPropose">🖼 Запропонувати фото до загального каталогу</button>':'')+'<button type="button" class="btn" id="myPhotosShare">💜 Поділитися придбанням</button><button type="button" class="alt" id="myPhotosDone">Готово</button></div>');
    const $=id=>document.getElementById(id);
    $('myCameraBtn').onclick=()=>$('myCameraInput').click();
    $('myGalleryBtn').onclick=()=>$('myGalleryInput').click();
    $('myPhotosDone').onclick=()=>{ctx.close();ctx.render()};
    $('myPhotosShare').onclick=()=>ctx.share?.();
+   if($('myPhotosPropose'))$('myPhotosPropose').onclick=()=>{
+    const selected=cover(item)||pics(item)[0]?.src;
+    const success=window.CollectorCatalogContributions?.offer(item,selected,{
+      modal:ctx.modal,close:ctx.close,toast:ctx.toast,
+      seriesName:ctx.seriesName||'',reference:ctx.reference||item.sourceUrl||item.barcode||'',
+      catalogPhotoMissing:ctx.catalogPhotoMissing
+    });
+    if(!success)ctx.toast?.('Не вдалося відкрити пропозицію. Перевір, чи вже завантажена нова версія застосунку.');
+   };
    $('myPhotoCatalogCover').onclick=()=>changeCover('catalog');
    if($('myPhotoPersonalCover'))$('myPhotoPersonalCover').onclick=()=>changeCover('personal');
    async function changeCover(which,id){
