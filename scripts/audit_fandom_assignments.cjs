@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 // Read-only: checks EVERY verified catalog's fandom key against the app's options.
+// Re-run after the automated canonical-key migration to verify persistence.
 const fs=require('node:fs'),path=require('node:path');
 const root=path.resolve(__dirname,'..'),directory=path.join(root,'catalogs');
 const src=fs.readFileSync(path.join(root,'index.html'),'utf8');
