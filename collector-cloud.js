@@ -50,7 +50,7 @@ async function upload(){
   state.lastUpload=new Date().toISOString();localStorage.setItem(lastKey(state.userId),state.lastUpload);
   status('✓ Хмарну копію збережено. Особисті колекції не стали публічними.');
   state.loaded=false;
- }catch(err){fail(err);throw err}finally{state.busy=false;state.refresh?.();if(state.uploadPending){state.uploadPending=false;notifyLocalChange()}}
+ }catch(err){fail(err);throw err}finally{state.busy=false;state.refresh?.();if(state.uploadPending||state.syncPending){state.uploadPending=false;state.syncPending=false;if(state.auto)notifyLocalChange()}}
 }
 async function list(){
  if(!available()||!syncUser())return;
@@ -129,6 +129,12 @@ async function reconcileDevices(){
  }
 }
 function syncNow(){syncChain=syncChain.catch(()=>{}).then(()=>reconcileDevices());return syncChain}
+function startIfReady(){
+ // Never upload the default empty collection before IndexedDB has finished loading.
+ if(!window.CollectorLocalReady||!available()||!syncUser()||!state.auto||state.autoStarted)return;
+ state.autoStarted=true;
+ syncNow().catch(err=>console.warn('Automatic collection sync:',err));
+}
 async function saveSafetyCopy(){
  const backup={app:'moya-kolektsiya',version:1,device,created:new Date().toISOString(),data:window.CollectorLocal.read()};
  const bytes=enc.encode(JSON.stringify(backup));
@@ -190,7 +196,7 @@ function render(){
 }
 function attach(refresh){
  state.refresh=refresh;syncUser();
- if(state.auto&&!state.autoStarted){state.autoStarted=true;setTimeout(()=>syncNow().catch(()=>{}),1200)}
+ startIfReady();
  const toggle=document.getElementById('cloudAuto');
  if(toggle)toggle.onchange=e=>{state.auto=!!e.target.checked;localStorage.setItem(prefKey(state.userId),state.auto?'yes':'no');if(!state.auto&&timer){clearTimeout(timer);timer=null}if(state.auto){state.autoStarted=true;notifyLocalChange()}refresh()};
  const syncButton=document.getElementById('cloudSync');
@@ -202,8 +208,10 @@ function attach(refresh){
  document.querySelectorAll('[data-cloud-merge]').forEach(el=>el.onclick=()=>mergeFrom(el.dataset.cloudMerge));
 }
 function signedOut(){state.userId='';state.loaded=false;state.snapshots=[];state.uploadPending=false;state.syncPending=false;if(timer){clearTimeout(timer);timer=null}}
-window.addEventListener('online',()=>{if(state.auto)notifyLocalChange()});
-document.addEventListener('visibilitychange',()=>{if(!document.hidden&&state.auto&&Date.now()-state.lastSynced>45000)notifyLocalChange()});
-window.CollectorCloud={render,attach,notifyLocalChange,syncNow,signedOut};
+window.addEventListener('online',()=>{startIfReady();if(state.auto&&state.autoStarted)notifyLocalChange()});
+document.addEventListener('visibilitychange',()=>{if(document.hidden)return;startIfReady();if(state.auto&&Date.now()-state.lastSynced>45000)notifyLocalChange()});
+window.CollectorCloud={render,attach,notifyLocalChange,syncNow,signedOut,start:startIfReady};
+document.addEventListener('DOMContentLoaded',startIfReady);
+window.addEventListener('load',startIfReady);
 const style=document.createElement('style');style.textContent='.collector-cloud{margin-top:20px;display:grid;gap:12px}.collector-cloud h2{margin:0}.cloud-switch{display:flex;align-items:center;gap:12px;font-weight:650}.cloud-switch input{width:20px;height:20px}.cloud-copies{display:grid;gap:10px}.cloud-copies h3{margin:0}.cloud-copy{display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid var(--edge);border-radius:12px;padding:10px}.cloud-copy small{display:block;color:var(--sub);margin-top:5px}.cloud-error{border:1px solid #d88696}';document.head.appendChild(style);
 })();
