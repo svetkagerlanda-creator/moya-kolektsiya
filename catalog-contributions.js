@@ -35,7 +35,8 @@ async function sendProposal({itemName,seriesName,reference,src}){
  }
 }
 function offer(item,src,ctx={},isSeries=false){
- if(!src||!sourcePhotoMissing(isSeries?item?.catalogCoverPhoto:item?.photo))return false;
+ const photoMissing=typeof ctx.catalogPhotoMissing==='boolean'&&!isSeries?ctx.catalogPhotoMissing:sourcePhotoMissing(isSeries?item?.catalogCoverPhoto:item?.photo);
+ if(!src||!photoMissing)return false;
  const itemName=String(item?.name||'').trim(),seriesName=isSeries?itemName:String(ctx.seriesName||'').trim();
  if(!itemName)return false;
  const modal=ctx.modal,close=ctx.close,toast=ctx.toast;
