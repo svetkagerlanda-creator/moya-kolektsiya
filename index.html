@@ -81,7 +81,7 @@ body[data-theme="dark"] .item-owned .muted{color:#abd0b3}
 }
 </style></head><body data-theme="purple"><div class="app"><aside class="nav"><div class="logo">💜 Моя колекція</div><div id="side"></div><div class="foot">Версія <b id="sideVersion"></b><br>Особисте локальне сховище</div></aside><main class="main"><header class="head"><div><h1 id="heading">Моя колекція</h1><span class="muted">Твій персональний цифровий музей</span></div><div class="row"><button class="alt" id="donate">💜 Підтримати</button><button class="alt" id="share">↗ Поділитися</button><button class="btn" id="add">+ Додати предмет</button></div></header><div id="content"></div></main></div><nav id="bottom" class="bottom" aria-label="Мобільна навігація"></nav><div id="mobileMoreOverlay" class="mobile-more-overlay" hidden></div><div id="modal" class="hidden"></div><div id="toast" role="status"></div><input type="file" id="backupfile" accept=".json,application/json" hidden>
 <script src="./i18n.js?v=1.0.0-beta.62"></script><script>
-const VERSION='1.0.0-beta.72', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['updates','◷','Оновлення'],['account','♙','Акаунт'],['moderation','🛡','Модерація'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
+const VERSION='1.0.0-beta.73', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['updates','◷','Оновлення'],['account','♙','Акаунт'],['moderation','🛡','Модерація'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
 const $=x=>document.getElementById(x), esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),id=()=>crypto.randomUUID(),now=()=>new Date().toISOString(),fmt=x=>x===''||x==null?'—':Number(x).toLocaleString('uk-UA',{maximumFractionDigits:2})+' '+data.settings.currency;
 let db,data={folders:[],items:[],deletedFolders:{},deletedItems:{},settings:{theme:'purple',currency:'UAH',language:'uk'}},page='home',folder=null,searchTerm='',characterTerm='',view='cards',discoveryMode='character',selectedFandomKey='',collectionRootMode='fandoms';
 // Barcode scanning stays implemented but is hidden until BOTH item and series verified-GTIN coverage reach 80%.
@@ -262,11 +262,11 @@ async function toggleOwnedItem(itemId){
  }
 }
 function imageChoice(item){
- const personal=window.CollectorPhotos?.cover(item);
  const folder=getfolder(item.folder),series=folder&&completeSeries(folder.name);
  const matched=series?.items?.find(card=>catalogVariantMatch(item,card));
- const catalog=(!invalidCatalogPhoto(item.photo)?item.photo:null)||(!invalidCatalogPhoto(matched?.photo)?matched.photo:null);
- // Series cover belongs only on the series page, never on an individual item.
+ const catalog=(!invalidCatalogPhoto(matched?.photo)?matched.photo:null)||(!invalidCatalogPhoto(item.photo)?item.photo:null);
+ // Keep personal-photo selection; if factory photo is absent, never hide a saved personal photo.
+ const personal=window.CollectorPhotos?.cover(item)||(!catalog?window.CollectorPhotos?.pics(item)?.[0]?.src:null);
  return {personal,catalog,primary:personal||catalog,preview:false};
 }
 function enableImageFallbacks(){
@@ -274,7 +274,7 @@ function enableImageFallbacks(){
   const fail=()=>{
    if(!img.isConnected)return;
    const visual=img.closest('.visual');
-   if(visual){img.remove();visual.textContent='📷 Фото предмета відсутнє';return}
+   if(visual){img.remove();visual.textContent='📷 Фото поки немає';return}
    const thumb=img.closest('.item-table-thumbnail');
    if(thumb){img.remove();thumb.innerHTML='<span class="item-table-fallback" aria-hidden="true">📷</span>';return}
    const detail=img.closest('.item-photo-detail');
@@ -296,7 +296,7 @@ function shareOwnedItem(itemId){
 function shareOwnedButton(i){
  return owned(i)?'<button type="button" class="alt item-share-acquisition" data-share-owned="'+esc(i.id)+'" aria-label="Поділитися придбанням: '+esc(i.name)+'">💜 Поділитися</button>':'';
 }
-function itemcard(i){let choice=imageChoice(i),ownPhoto=choice.personal,seriesPreview=choice.preview,shownPhoto=choice.primary;let have=owned(i),state=wishlistStatusForDisplay(i),statusClass=have?'item-owned':state==='wish'?'item-wish':state==='ordered'?'item-ordered':state==='skip'?'item-skip':'';return '<div class="card click item-collectible '+statusClass+'" data-item="'+esc(i.id)+'"><div class="visual">'+(shownPhoto?'<img alt="" loading="lazy" src="'+esc(shownPhoto)+'">' : '📷 Фото предмета відсутнє')+'</div>'+(ownPhoto?'<span class="my-photo-badge">📷 Моє фото</span>':'')+'<h3>'+esc(i.name)+'</h3><div class="muted">'+(i.figureNumber?'№ '+esc(i.figureNumber):i.catalogPosition?'Позиція '+esc(i.catalogPosition):'№ —')+' · '+esc(i.manufacturer||'—')+'</div><div class="item-status-row"><span class="tag">'+({owned:'✓ Маю',wish:'♡ Хочу',ordered:'🚚 Замовлено',skip:'🚫 Не хочу',unset:'Без позначки'}[wishlistStatusForDisplay(i)]||'Немає')+'</span><button type="button" class="owned-toggle '+(have?'is-owned':'')+'" data-toggle-owned="'+esc(i.id)+'" aria-pressed="'+have+'" aria-label="'+(have?'Зняти позначку придбання: ':'Позначити як маю: ')+esc(i.name)+'">'+(have?'✓ Є':'○ Маю')+'</button></div>'+shareOwnedButton(i)+wishlistButtons(i)+'</div>'}
+function itemcard(i){let choice=imageChoice(i),ownPhoto=choice.personal,seriesPreview=choice.preview,shownPhoto=choice.primary;let have=owned(i),state=wishlistStatusForDisplay(i),statusClass=have?'item-owned':state==='wish'?'item-wish':state==='ordered'?'item-ordered':state==='skip'?'item-skip':'';return '<div class="card click item-collectible '+statusClass+'" data-item="'+esc(i.id)+'"><div class="visual">'+(shownPhoto?'<img alt="" loading="lazy" src="'+esc(shownPhoto)+'">' : '<span class="item-photo-missing">📷 Фото поки немає</span>')+'</div>'+(ownPhoto?'<span class="my-photo-badge">📷 Моє фото</span>':'')+'<h3>'+esc(i.name)+'</h3><div class="muted">'+(i.figureNumber?'№ '+esc(i.figureNumber):i.catalogPosition?'Позиція '+esc(i.catalogPosition):'№ —')+' · '+esc(i.manufacturer||'—')+'</div><div class="item-status-row"><span class="tag">'+({owned:'✓ Маю',wish:'♡ Хочу',ordered:'🚚 Замовлено',skip:'🚫 Не хочу',unset:'Без позначки'}[wishlistStatusForDisplay(i)]||'Немає')+'</span><button type="button" class="owned-toggle '+(have?'is-owned':'')+'" data-toggle-owned="'+esc(i.id)+'" aria-pressed="'+have+'" aria-label="'+(have?'Зняти позначку придбання: ':'Позначити як маю: ')+esc(i.name)+'">'+(have?'✓ Є':'○ Маю')+'</button></div>'+shareOwnedButton(i)+wishlistButtons(i)+'</div>'}
 function itemTableIdentity(i){
  const choice=imageChoice(i),photo=choice.primary;
  return '<div class="item-table-identity"><span class="item-table-thumbnail">'+(photo?'<img alt="" loading="lazy" src="'+esc(photo)+'" title="'+(choice.preview?'Фото серії, не предмета':'Фото предмета')+'">':'<button type="button" class="item-table-add-photo" data-table-photo="'+esc(i.id)+'" title="Додати фото предмета" aria-label="Додати фото: '+esc(i.name)+'">📷</button>')+'</span><span class="item-table-name">'+esc(i.name)+'</span></div>';
