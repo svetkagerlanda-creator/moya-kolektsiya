@@ -1,0 +1,20 @@
+name: Verify fandom assignments
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/audit_fandom_assignments.cjs'
+      - '.github/workflows/audit-fandom-assignments.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audit all verified series fandom keys
+        run: node scripts/audit_fandom_assignments.cjs
