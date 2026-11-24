@@ -272,6 +272,32 @@ window.CollectorLocal.restoreStatusMarks=async patches=>{
  try{await save();render();return originals.length}
  catch(err){for(const x of originals){x.item.status=x.status;x.item.quantity=x.quantity;x.item.updated=x.updated}throw err}
 };
+// Safe duplicate status reconciliation: never delete folders or cards.
+// The caller must pass the complete reviewed plan; stale state aborts atomically.
+window.CollectorLocal.applyDuplicateMarks=async patches=>{
+ if(!Array.isArray(patches)||!patches.length)throw Error('Немає змін для зведення.');
+ const byId=new Map(data.items.map(i=>[String(i.id),i])),seen=new Set(),previous=[];
+ const allowed=new Set(['owned','wish','ordered','skip']);
+ for(const patch of patches){
+  const item=byId.get(String(patch.id));
+  if(!item||seen.has(String(patch.id))||!allowed.has(patch.status)||!['unset','',undefined,null].includes(item.status))
+   throw Error('Дані змінилися або картка вже має позначку. Повтори перевірку.');
+  if(item.status!==patch.expectedStatus||Number(item.quantity||0)!==Number(patch.expectedQuantity||0))
+   throw Error('Картку було змінено після перевірки. Повтори звірку.');
+  seen.add(String(patch.id));
+  previous.push({item,original:structuredClone(item)});
+ }
+ const stamp=now();
+ for(let n=0;n<patches.length;n++){
+  const item=previous[n].item,patch=patches[n];
+  item.status=patch.status;
+  item.quantity=patch.status==='owned'?Math.max(1,Number(patch.quantity)||1):0;
+  if(patch.status==='wish'||patch.status==='ordered')item.wishlistExplicit=true;
+  item.updated=stamp;
+ }
+ try{await save();render();return patches.length}
+ catch(err){for(const p of previous){for(const field of Object.keys(p.item))delete p.item[field];Object.assign(p.item,p.original)}throw err}
+};
 window.CollectorRefreshView=()=>{render()};
 const getfolder=x=>data.folders.find(f=>f.id===x),owned=x=>x.status==='owned'&&Number(x.quantity)>0;
 function tree(x){let a=[x];for(let i=0;i<a.length;i++)a.push(...data.folders.filter(f=>f.parent===a[i]).map(f=>f.id));return a}
@@ -1296,4 +1322,4 @@ function emergencyNav(){for(let x of ['side','bottom'])$(x).innerHTML=menu.map(m
   check();
  }).catch(e=>console.warn('Service worker:',e))
 }}catch(e){showStartupError(e)}})();
-</script><script defer src="./catalog-photo-overlay.js?v=1.0.0-beta.57"></script><script defer src="./catalog-contributions.js?v=1.0.0-beta.73"></script><script defer src="./catalog-photo-admin.js?v=1.0.0-beta.57"></script><script defer src="./collector-cloud.js?v=1.0.0-beta.94"></script><script defer src="./personal-photos.js?v=1.0.0-beta.73"></script><script defer src="./community-social.js?v=1.0.0-beta.87"></script><script defer src="./community-chat.js?v=1.0.0-beta.61"></script><script defer src="./series-moderation.js?v=1.0.0-beta.61"></script><script defer src="./updates-feed.js?v=1.0.0-beta.63"></script><script defer src="./banner-crop.js?v=1.0.0-beta.57"></script><script defer src="./community-auth.js?v=1.0.0-beta.90"></script></body></html>
+</script><script defer src="./catalog-photo-overlay.js?v=1.0.0-beta.57"></script><script defer src="./catalog-contributions.js?v=1.0.0-beta.73"></script><script defer src="./catalog-photo-admin.js?v=1.0.0-beta.57"></script><script defer src="./collector-cloud.js?v=1.0.0-beta.95"></script><script defer src="./personal-photos.js?v=1.0.0-beta.73"></script><script defer src="./community-social.js?v=1.0.0-beta.87"></script><script defer src="./community-chat.js?v=1.0.0-beta.61"></script><script defer src="./series-moderation.js?v=1.0.0-beta.61"></script><script defer src="./updates-feed.js?v=1.0.0-beta.63"></script><script defer src="./banner-crop.js?v=1.0.0-beta.57"></script><script defer src="./community-auth.js?v=1.0.0-beta.90"></script></body></html>
