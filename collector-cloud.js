@@ -210,6 +210,7 @@ function attach(refresh){
 function signedOut(){state.userId='';state.loaded=false;state.snapshots=[];state.uploadPending=false;state.syncPending=false;if(timer){clearTimeout(timer);timer=null}}
 window.addEventListener('online',()=>{startIfReady();if(state.auto&&state.autoStarted)notifyLocalChange()});
 document.addEventListener('visibilitychange',()=>{if(document.hidden)return;startIfReady();if(state.auto&&Date.now()-state.lastSynced>45000)notifyLocalChange()});
+window.addEventListener('focus',()=>{startIfReady();if(state.auto&&state.autoStarted&&Date.now()-state.lastSynced>45000)notifyLocalChange()});
 window.CollectorCloud={render,attach,notifyLocalChange,syncNow,signedOut,start:startIfReady};
 document.addEventListener('DOMContentLoaded',startIfReady);
 window.addEventListener('load',startIfReady);
