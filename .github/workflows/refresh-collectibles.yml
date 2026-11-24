@@ -17,6 +17,7 @@ on:
       - 'scripts/test_build_new_fandoms.py'
       - 'scripts/probe_comic_layout.py'
       - 'scripts/audit_catalog_coverage.py'
+      - 'scripts/normalize_fandom_keys.py'
       - '.github/workflows/refresh-collectibles.yml'
   workflow_dispatch:
   schedule:
@@ -64,6 +65,8 @@ jobs:
         run: python scripts/probe_sources.py
       - name: Enrich wishlist series with exact official POP MART figure photos
         run: python scripts/enrich_wishlist_popmart_photos.py
+      - name: Normalize verified MLP and Kayou fandoms
+        run: python scripts/normalize_fandom_keys.py
       - name: Audit verified series and photo coverage
         run: python scripts/audit_catalog_coverage.py
       - name: Commit catalog only when verified data changes
