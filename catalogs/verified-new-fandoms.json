@@ -1163,13 +1163,15 @@
           "manufacturer": "MGA Entertainment",
           "variantKey": "bratz:035051247500",
           "sourceUrl": "https://www.entertainmentearth.com/product/bratz-x-the-craft-nancy-collector-doll/mga247500",
-          "photo": "",
+          "photo": "https://media.entertainmentearth.com/assets/images/43382ac053814773992cc344b30595fclg.jpg",
           "upc": "035051247500",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.entertainmentearth.com/product/bratz-x-the-craft-nancy-collector-doll/mga247500",
           "barcodeVerification": "Retailer explicitly publishes UPC against product title; UPC-A checksum passed",
           "barcodeNote": "Unique retail package UPC.",
-          "description": "Підтверджений UPC окремого фізичного випуску."
+          "description": "Підтверджений UPC окремого фізичного випуску.",
+          "photoSourceUrl": "https://www.entertainmentearth.com/product/bratz-x-the-craft-nancy-collector-doll/mga247500",
+          "photoVerification": "Direct product-page image opened and visually matched to exact edition (2026-11-24)"
         }
       ]
     },
