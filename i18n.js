@@ -83,17 +83,18 @@ function render(root,language){
  document.documentElement.lang=active;
  if(observer)observer.disconnect();
  apply(root||document.body,active);
- if(observer)observer.observe(document.body,{subtree:true,childList:true,characterData:true});
+ if(observer)observer.observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['placeholder','title','aria-label']});
 }
 function watch(language){
  active=['uk','en','ru'].includes(language)?language:'uk';
  observer=new MutationObserver(records=>{
   for(const record of records){
-   if(record.type==='characterData'){const node=record.target;if(node.nodeType===3&&node.nodeValue===originalText.get(node))continue;translatedTextNode(node,active);continue}
+   if(record.type==='characterData'){const node=record.target;if(node.nodeType===3&&node.nodeValue===lastText.get(node))continue;translatedTextNode(node,active);continue}
+   if(record.type==='attributes'){translatedAttributes(record.target,active);continue}
    for(const node of record.addedNodes)if(node.nodeType===1||node.nodeType===3)apply(node,active);
   }
  });
- observer.observe(document.body,{subtree:true,childList:true,characterData:true});
+ observer.observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['placeholder','title','aria-label']});
 }
 window.CollectorI18n={translate,render,watch,apply};
 })();
