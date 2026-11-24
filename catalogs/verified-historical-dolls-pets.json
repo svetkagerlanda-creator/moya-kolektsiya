@@ -5429,7 +5429,12 @@
           "manufacturer": "Mattel",
           "sourceUrl": "https://eahmerch.com/dolls/details/eahgffcps/",
           "photo": "https://1.bp.blogspot.com/-BcYCiBmsYas/Vw0Z5aFNozI/AAAAAAAAjxw/KeOHuiflT0gVJc2R52VLru4oMeo3YbrXACLcB/s135/Apple-White-Fainting-Couch-Playset-1.jpg",
-          "description": ""
+          "description": "",
+          "upc": "746775297114",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://www.ebay.com/p/1823065140",
+          "barcodeVerification": "eBay product identifiers match Mattel BDB18; GS1 check digit validated.",
+          "barcodeNote": "Marketplace product metadata; packaging barcode not independently inspected."
         },
         {
           "name": "Destiny Vanity",
