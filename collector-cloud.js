@@ -118,7 +118,7 @@ async function diagnoseHarryPotter(){
 // Read-only preview by default; only user-confirmed marks from the same private account
 // are copied. Match unique cards within uniquely named HP series; never guess duplicates.
 function hpRecoveryPlan(local,remote){
- const key=x=>String(x??'').trim().normalize('NFKC').toLocaleLowerCase('uk-UA').replace(/\\s+/g,' ');
+ const key=x=>String(x??'').trim().normalize('NFKC').toLocaleLowerCase('uk-UA').replace(/\s+/g,' ');
  const folderPath=(folder,byId)=>{
   const path=[],visited=new Set();
   for(let f=folder;f&&!visited.has(String(f.id));f=byId.get(String(f.parent||''))){
@@ -132,7 +132,7 @@ function hpRecoveryPlan(local,remote){
   for(const item of data.items||[]){
    const f=folders.get(String(item.folder));if(!f)continue;
    const path=folderPath(f,folders);
-   if(!/harry\\s*potter|гарр[іи]\\s*поттер/.test(path))continue;
+   if(!/harry\s*potter|гарр[іи]\s*поттер/.test(path))continue;
    const ident=key(item.figureNumber||item.number||item.sku||'');
    const name=key(item.name);
    if(!name&&!ident)continue;
@@ -166,7 +166,7 @@ async function restoreHarryPotter(){
    const res=await request('object/authenticated/'+BUCKET+'/'+objectName(state.userId,entry.name));
    const raw=await res.text();if(raw.length>65*1024*1024)throw Error('Копія занадто велика.');
    const snapshot=JSON.parse(raw);summary(snapshot);
-   if(snapshot.device!==entry.name.replace(/\\.json$/,''))throw Error('Неправильна прив’язка копії.');
+   if(snapshot.device!==entry.name.replace(/\.json$/,''))throw Error('Неправильна прив’язка копії.');
    const plan=hpRecoveryPlan(local,snapshot.data);
    candidates.push({entry,plan});
   }
