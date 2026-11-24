@@ -260,9 +260,13 @@ function duplicateHpPlan(data){
  const pathsFor=root=>{
   const children=folders.filter(f=>String(f.parent||'')===String(root.id));
   const ids=new Set([String(root.id),...children.map(x=>String(x.id))]);
-  // Only flat roots for now; recursive hierarchy needs separate review.
   if(children.some(ch=>folders.some(x=>String(x.parent||'')===String(ch.id))))return null;
-  const rows=new Map();
+  const rows=new Map(),dest=new Map([['',root.id]]);
+  for(const child of children){
+   const k=key(child.name);
+   if(dest.has(k))return null; // ambiguous target series
+   dest.set(k,child.id);
+  }
   for(const item of data.items||[]){
    if(!ids.has(String(item.folder)))continue;
    const folder=folders.find(f=>String(f.id)===String(item.folder));
@@ -271,24 +275,33 @@ function duplicateHpPlan(data){
    if(!rows.has(signature))rows.set(signature,[]);
    rows.get(signature).push(item);
   }
-  return {rows,children};
+  return {rows,dest};
  };
  for(let i=0;i<roots.length;i++)for(let j=i+1;j<roots.length;j++){
   const left=pathsFor(roots[i]),right=pathsFor(roots[j]);
   if(!left||!right)continue;
-  const patches=[],conflicts=[],missing=[];
+  const patches=[],conflicts=[],missing=[],copies=[];
   const signatures=new Set([...left.rows.keys(),...right.rows.keys()]);
   let matched=0;
   for(const signature of signatures){
    const a=left.rows.get(signature)||[],b=right.rows.get(signature)||[];
+   if(a.length>1||b.length>1){conflicts.push(signature+' (повторні картки)');continue}
    if(a.length!==1||b.length!==1){
-    (a.length&&b.length?conflicts:missing).push(signature);continue;
+    const source=a[0]||b[0],target=a.length?right:left;
+    if(!source)continue;
+    const series=signature.split('|')[0],targetFolderId=target.dest.get(series);
+    if(!targetFolderId){
+     missing.push(signature+' (немає відповідної серії)');continue;
+    }
+    const expectedSignature=[key(source.name),key(source.figureNumber||''),key(source.catalogPosition||'')].join('|');
+    copies.push({sourceId:source.id,targetFolderId,expectedSignature,name:source.name,series});
+    continue;
    }
    matched++;
    const marked=x=>['owned','wish','ordered','skip'].includes(x.status)&&(x.status!=='owned'||Number(x.quantity)>0);
    const am=marked(a[0]),bm=marked(b[0]);
    if(am&&bm){
-    if(a[0].status!==b[0].status||a[0].status==='owned'&&Number(a[0].quantity)!==Number(b[0].quantity))
+    if(a[0].status!==b[0].status||(a[0].status==='owned'&&Number(a[0].quantity)!==Number(b[0].quantity)))
      conflicts.push(signature+' ('+a[0].status+' / '+b[0].status+')');
    }else if(am!==bm){
     const from=am?a[0]:b[0],to=am?b[0]:a[0];
@@ -296,7 +309,7 @@ function duplicateHpPlan(data){
     patches.push({id:to.id,expectedStatus:to.status,expectedQuantity:to.quantity,status:from.status,quantity:from.quantity,name:to.name});
    }
   }
-  pairs.push({a:roots[i],b:roots[j],matched,patches,conflicts,missing,left:left.rows.size,right:right.rows.size});
+  pairs.push({a:roots[i],b:roots[j],matched,patches,copies,conflicts,missing,left:left.rows.size,right:right.rows.size});
  }
  return pairs.sort((a,b)=>b.matched-a.matched);
 }
@@ -307,19 +320,20 @@ async function reconcileDuplicateHp(){
  let applied=false;
  try{
   const plans=duplicateHpPlan(window.CollectorLocal.read());
-  if(!plans.length){status('Не знайдено двох кореневих папок Harry Potter з простою структурою для звірки. Нічого не змінено.');return}
-  const p=plans[0],details='Зіставлено карток: '+p.matched+'. Без пари: '+p.missing.length+'. Конфліктів: '+p.conflicts.length+'. Позначок для копіювання: '+p.patches.length+'.';
+  if(!plans.length){status('Не знайдено двох кореневих папок Harry Potter з однозначною структурою. Нічого не змінено.');return}
+  const p=plans[0],details='Зіставлено карток: '+p.matched+'. Для додавання в іншу папку: '+p.copies.length+'. Без відповідної серії: '+p.missing.length+'. Конфліктів: '+p.conflicts.length+'. Позначок для копіювання: '+p.patches.length+'.';
+  state.duplicateHpReport={details,conflicts:p.conflicts.slice(0,12),missing:p.missing.slice(0,12)};
   if(p.conflicts.length||p.missing.length){
-   state.duplicateHpReport={details,conflicts:p.conflicts.slice(0,12),missing:p.missing.slice(0,12)};
-   status('⚠ Знайдено розбіжності. Автоматичне зведення зупинено; переглянь звіт нижче.');
+   status('⚠ Є неоднозначні картки чи відсутні серії. Автоматичне зведення зупинено; переглянь звіт нижче.');
    return;
   }
-  if(!p.patches.length){status('Обидві папки вже мають однакові позначки для зіставлених карток. Папки не видалялися.');return}
-  if(!confirm('Звести позначки двох папок Harry Potter?\\n\\n'+details+'\\n\\nПозначки скопіюються тільки у порожні картки. Папки, фотографії та дописи залишаться без змін. Буде створено страховочну хмарну копію.'))return;
+  if(!p.patches.length&&!p.copies.length){status('Обидві папки вже мають однаковий склад та позначки. Нічого не змінено.');return}
+  const names=p.copies.map(x=>x.name).join('; ');
+  if(!confirm('Доповнити ОБИДВІ папки Harry Potter?\\n\\n'+details+'\\n\\nДодамо відсутні картки: '+names+'.\\nПозначки перенесемо лише в порожні картки. Нічого не видаляємо. Перед зведенням створимо страховочну хмарну копію.'))return;
   await saveSafetyCopy();
-  const count=await window.CollectorLocal.applyDuplicateMarks(p.patches);
-  applied=true;
-  status('✓ Зведено '+count+' позначок між двома папками. Обидві папки залишено для контрольної перевірки.');
+  const count=await window.CollectorLocal.applyDuplicateUnion(p.patches,p.copies);
+  applied=true;state.duplicateHpReport=null;
+  status('✓ Додано '+count.items+' карток у відповідні папки, скопійовано '+count.marks+' позначок. Обидві папки збережено.');
  }catch(err){fail(err)}
  finally{state.busy=false;state.refresh?.();if(applied)notifyLocalChange()}
 }
