@@ -81,7 +81,7 @@ body[data-theme="dark"] .item-owned .muted{color:#abd0b3}
 }
 .item-photo-missing{display:flex;align-items:center;justify-content:center;text-align:center;font-size:13px;font-weight:500;line-height:1.4;color:var(--sub);padding:12px;min-height:100px;width:100%;}</style></head><body data-theme="purple"><div class="app"><aside class="nav"><div class="logo">💜 Моя колекція</div><div id="side"></div><div class="foot">Версія <b id="sideVersion"></b><br>Особисте локальне сховище</div></aside><main class="main"><header class="head"><div><h1 id="heading">Моя колекція</h1><span class="muted">Твій персональний цифровий музей</span></div><div class="row"><button class="alt" id="donate">💜 Підтримати</button><button class="alt" id="share">↗ Поділитися</button><button class="btn" id="add">+ Додати предмет</button></div></header><div id="content"></div></main></div><nav id="bottom" class="bottom" aria-label="Мобільна навігація"></nav><div id="mobileMoreOverlay" class="mobile-more-overlay" hidden></div><div id="modal" class="hidden"></div><div id="toast" role="status"></div><input type="file" id="backupfile" accept=".json,application/json" hidden>
 <script src="./i18n.js?v=1.0.0-beta.62"></script><script>
-const VERSION='1.0.0-beta.73', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['updates','◷','Оновлення'],['account','♙','Акаунт'],['moderation','🛡','Модерація'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
+const VERSION='1.0.0-beta.74', menu=[['home','⌂','Головна'],['collections','▣','Колекції'],['wishes','♡','Бажанки'],['search','⌕','Пошук'],['stats','▥','Статистика'],['updates','◷','Оновлення'],['account','♙','Акаунт'],['moderation','🛡','Модерація'],['settings','⚙','Налаштування']],themes=[['purple','Фіолетова'],['light','Світла'],['dark','Темна'],['mint',"М’ятна"],['pink','Рожева'],['blue','Блакитна']];
 const $=x=>document.getElementById(x), esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),id=()=>crypto.randomUUID(),now=()=>new Date().toISOString(),fmt=x=>x===''||x==null?'—':Number(x).toLocaleString('uk-UA',{maximumFractionDigits:2})+' '+data.settings.currency;
 let db,data={folders:[],items:[],deletedFolders:{},deletedItems:{},settings:{theme:'purple',currency:'UAH',language:'uk'}},page='home',folder=null,searchTerm='',characterTerm='',view='cards',discoveryMode='character',selectedFandomKey='',collectionRootMode='fandoms';
 // Barcode scanning stays implemented but is hidden until BOTH item and series verified-GTIN coverage reach 80%.
@@ -317,6 +317,8 @@ const FANDOMS=[
  {key:'lps',name:'Littlest Pet Shop',icon:'🐾',pattern:/littlest pet shop|\blps\b/i},
  {key:'winx',name:'Winx Club',icon:'🧚',pattern:/winx club|\bwinx\b/i},
  {key:'doctorwho',name:'Doctor Who',icon:'🔷',pattern:/doctor who|tardis|dalek/i},
+ {key:'disney',name:'Disney (усі колекції)',icon:'🏰',pattern:/\bdisney\b|mickey mouse|minnie mouse/i},
+ {key:'ty',name:'TY Beanie Babies',icon:'🧸',pattern:/\bty beanie\b|beanie babies|beanie boos/i},
  {key:'other',name:'Інші всесвіти',icon:'🌟',pattern:/$^/}
 ];
 /* Curated choices only: entries are never persisted as folders until confirmed. */
@@ -327,7 +329,9 @@ for(const group of FANDOM_CATALOG_GROUPS)for(const entry of group.entries)FANDOM
 // Map legacy catalog fandom aliases to the existing Harry Potter folder key.
 function canonicalFandomKey(value){
  const key=String(value||'').trim().toLocaleLowerCase('uk-UA');
- return ['harrypotter','harry-potter','harry_potter','catalog-3-01'].includes(key)?'catalog-3-01':key;
+ const aliases={'harrypotter':'catalog-3-01','harry-potter':'catalog-3-01','harry_potter':'catalog-3-01',
+  'pokemon':'catalog-1-02','pokémon':'catalog-1-02','sanrio':'catalog-5-04','hello-kitty':'catalog-5-04'};
+ return aliases[key]||key;
 }
 function fandomMatch(value){let text=String(value||'').trim();let exact=FANDOMS.find(f=>f.key!=='other'&&f.name.toLocaleLowerCase('uk-UA')===text.toLocaleLowerCase('uk-UA'));if(exact)return canonicalFandomKey(exact.key);if(/harry\s*potter|wizarding world/i.test(text))return 'catalog-3-01';return canonicalFandomKey(FANDOMS.find(f=>f.key!=='other'&&f.key!=='mlp'&&f.pattern?.test(text))?.key||(FANDOMS[0].pattern.test(text)?'mlp':'other'))}
 function fandomAncestor(folderId){let seen=new Set;while(folderId&&!seen.has(folderId)){seen.add(folderId);let f=getfolder(folderId);if(!f)break;if(f.kind==='fandom'&&f.fandomKey)return canonicalFandomKey(f.fandomKey);folderId=f.parent}return null}
@@ -357,6 +361,15 @@ async function ensureFandomFolders(){
 }
 function fandomOptions(){
  const options=FANDOMS.map(f=>({...f,existing:fandomRoot(f.key)}));
+ // Every catalog fandom must be selectable even if it was introduced by a new feed.
+ const known=new Set(options.map(f=>canonicalFandomKey(f.key)));
+ for(const series of generatedSeries){
+  const key=fandomOfSeries(series);
+  if(!key||key==='other'||known.has(key))continue;
+  const rawName=String(series.group||'').replace(/^[^\p{L}\p{N}]+/u,'').split(' · ')[0].trim();
+  options.push({key,name:rawName&&rawName.length>2?rawName:key,icon:'🌐',existing:fandomRoot(key)});
+  known.add(key);
+ }
  for(const f of data.folders.filter(x=>x.kind==='fandom'&&!FANDOMS.some(p=>p.key===x.fandomKey))){
   options.push({key:f.fandomKey,name:f.name,icon:f.icon||'🌐',existing:f});
  }
