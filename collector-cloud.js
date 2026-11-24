@@ -1,4 +1,4 @@
-/* Collector Cloud v0.17: private, opt-in cross-device merge and backups.
+/* Collector Cloud v0.18: private, opt-in bidirectional device sync and backups.
    A cloud snapshot NEVER overwrites local records without a deliberate merge.
    All data stays local unless the user explicitly enables/starts an upload. */
 (()=>{
@@ -88,15 +88,22 @@ async function reconcileDevices(){
   // Before touching local data, create a recoverable backup in this account.
   const local=window.CollectorLocal.read();
   let ids=new Set(local.items.map(x=>String(x.id))),folders=new Set(local.folders.map(x=>String(x.id)));
-   const tombstonedFolders=new Set(Object.keys(local.deletedFolders||{}));
-   const tombstonedItems=new Set(Object.keys(local.deletedItems||{}));
+  const tombstonedFolders=new Set(Object.keys(local.deletedFolders||{}));
+  const tombstonedItems=new Set(Object.keys(local.deletedItems||{}));
   let dates=new Map(local.items.map(x=>[String(x.id),Date.parse(x.updated||'')||0]));
+  const folderDates=new Map(local.folders.map(x=>[String(x.id),Date.parse(x.updated||'')||0]));
   for(const {snapshot} of remote){
-   for(const f of snapshot.data.folders)if(!folders.has(String(f.id))&&!tombstonedFolders.has(String(f.id))){needsBackup=true;folders.add(String(f.id))}
+   for(const f of snapshot.data.folders){
+    const key=String(f.id),stamp=Date.parse(f.updated||'')||0;
+    if(!folders.has(key)&&!tombstonedFolders.has(key)){needsBackup=true;folders.add(key);folderDates.set(key,stamp)}
+    else if(stamp>(folderDates.get(key)||0)){needsBackup=true;folderDates.set(key,stamp)}
+   }
+   for(const key of Object.keys(snapshot.data.deletedFolders||{}))if(folders.has(key)&&!tombstonedFolders.has(key))needsBackup=true;
+   for(const key of Object.keys(snapshot.data.deletedItems||{}))if(ids.has(key)&&!tombstonedItems.has(key))needsBackup=true;
    for(const item of snapshot.data.items){
     const key=String(item.id),stamp=Date.parse(item.updated||'')||0;
     if(!ids.has(key)){needsBackup=true;ids.add(key);dates.set(key,stamp)}
-    else if(stamp>(dates.get(key)||0)+1000){needsBackup=true;dates.set(key,stamp)}
+    else if(stamp>(dates.get(key)||0)){needsBackup=true;dates.set(key,stamp)}
    }
   }
   if(needsBackup)await saveSafetyCopy();
@@ -151,12 +158,13 @@ async function mergeFrom(name){
   const newer=snapshot.data.items.filter(remote=>{
    const old=localItems.get(String(remote.id));if(!old)return false;
    const theirDate=Date.parse(remote.updated||''),ourDate=Date.parse(old.updated||'');
-   return Number.isFinite(theirDate)&&theirDate>(Number.isFinite(ourDate)?ourDate:0)+1000;
+   return Number.isFinite(theirDate)&&theirDate>(Number.isFinite(ourDate)?ourDate:0);
   });
   if(!confirm('Об’єднати хмарну копію з локальною колекцією?\n\nУ хмарі: '+info.folders+' папок, '+info.items+' предметів, '+info.photos+' фото.\n\nНових папок: '+missingFolders.length+'. Нових предметів: '+missingItems.length+'. Новіших версій наявних предметів: '+newer.length+'.'))return;
   let applyUpdates=false;
   if(newer.length)applyUpdates=confirm('У хмарі є '+newer.length+' новіших змін уже наявних предметів.\n\nОК — застосувати їх після створення окремої страховочної хмарної копії.\nСкасувати — додати лише відсутні предмети, НЕ змінюючи наявні.');
-  if(applyUpdates)await saveSafetyCopy();
+  // Back up local data before any manual merge, including deletion markers.
+  await saveSafetyCopy();
   const outcome=await window.CollectorLocal.merge(snapshot.data,{applyUpdates});merged=true;
   status('✓ Хмару об’єднано: '+outcome.addedFolders+' папок, '+outcome.addedItems+' предметів, '+outcome.updatedItems+' оновлених карток.');state.loaded=false;
  }catch(err){fail(err)}finally{state.busy=false;state.refresh?.();if(merged)notifyLocalChange()}
@@ -166,14 +174,14 @@ function notifyLocalChange(){
  if(!id||!state.auto||state.reconciling)return;
  if(state.busy){state.uploadPending=true;return}
  if(timer)clearTimeout(timer);
- timer=setTimeout(()=>{timer=null;upload().catch(()=>{})},6500);
+ timer=setTimeout(()=>{timer=null;syncNow().catch(()=>{})},6500);
 }
 function render(){
  if(!syncUser())return '';
  return '<section class="card collector-cloud"><h2>☁️ Моя хмара</h2>'
  +'<p class="muted">Приватні резервні копії для кожного пристрою. Вони містять папки, предмети та особисті фото, але ніколи не публікуються у стрічці.</p>'
- +'<label class="cloud-switch"><input type="checkbox" id="cloudAuto" '+(state.auto?'checked':'')+'> Автоматично зберігати зміни в хмарі (без відновлення старих папок)</label>'
- +'<p class="muted">Автозбереження лише завантажує поточні дані цього пристрою до хмари й не повертає видалені папки. Для отримання змін з іншого пристрою натисни «Синхронізувати зараз»: перед об’єднанням створюється страховочна копія, а видалення враховуються. Не використовуй стару копію для відновлення навмисно видалених серій.</p>'
+ +'<label class="cloud-switch"><input type="checkbox" id="cloudAuto" '+(state.auto?'checked':'')+'> Автоматична синхронізація між пристроями</label>'
+ +'<p class="muted">Увімкни на телефоні й комп’ютері, щоб зміни папок і статусів «Маю», «Хочу», «Замовлено» передавалися в обидва боки. Перед об’єднанням змінених даних створюється страховочна копія. Видалення враховуються; старі копії не повинні повертати навмисно видалені серії. Для першої синхронізації натисни «Синхронізувати зараз» на обох пристроях.</p>'
  +'<div class="row"><button class="btn" id="cloudSync" type="button" '+(state.busy?'disabled':'')+'>↻ Синхронізувати зараз</button><button class="alt" id="cloudUpload" type="button" '+(state.busy?'disabled':'')+'>↑ Зберегти в хмарі</button><button class="alt" id="cloudList" type="button" '+(state.busy?'disabled':'')+'>↓ Мої хмарні копії</button></div>'
  +(state.lastUpload?'<p class="muted">Остання копія цього пристрою: '+esc(new Date(state.lastUpload).toLocaleString('uk-UA'))+'</p>':'')
  +(state.notice?'<div class="banner">'+esc(state.notice)+'</div>':'')
@@ -182,7 +190,7 @@ function render(){
 }
 function attach(refresh){
  state.refresh=refresh;syncUser();
- if(state.auto&&!state.autoStarted){state.autoStarted=true;setTimeout(()=>upload().catch(()=>{}),1200)}
+ if(state.auto&&!state.autoStarted){state.autoStarted=true;setTimeout(()=>syncNow().catch(()=>{}),1200)}
  const toggle=document.getElementById('cloudAuto');
  if(toggle)toggle.onchange=e=>{state.auto=!!e.target.checked;localStorage.setItem(prefKey(state.userId),state.auto?'yes':'no');if(!state.auto&&timer){clearTimeout(timer);timer=null}if(state.auto){state.autoStarted=true;notifyLocalChange()}refresh()};
  const syncButton=document.getElementById('cloudSync');
