@@ -79,12 +79,12 @@ function collectionPanel(p){
  const own=p.id===state.id;
  const published=state.collectionSummaries.filter(c=>c.user_id===p.id);
  const local=own?localCollectionSummaries():[];
- const rows=own?local.map(c=>({...c,isPublished:published.some(x=>x.folder_id===c.folder_id)})):published.map(c=>({...c,isPublished:true}));
+ const rows=own?[...local.map(c=>({...c,isPublished:published.some(x=>x.folder_id===c.folder_id),remoteOnly:false})),...published.filter(c=>!local.some(x=>x.folder_id===c.folder_id)).map(c=>({...c,isPublished:true,remoteOnly:true}))]:published.map(c=>({...c,isPublished:true}));
  const list=rows.map(c=>{
   const percent=c.total_count?Math.min(100,Math.round(c.owned_count/c.total_count*100)):0;
-  return '<div class="card sc-collection"><div class="sc-collection-top"><strong>'+escape(c.title)+'</strong>'+(own?'<button class="'+(c.isPublished?'alt':'btn')+'" data-sc="collection-visibility" data-id="'+escape(c.folder_id)+'" aria-label="'+(c.isPublished?'Приховати':'Показати')+' колекцію '+escape(c.title)+'">'+(c.isPublished?'🔒 Приховати':'🌐 Показати')+'</button>':'')+'</div><div class="sc-collection-progress"><div class="bar" role="progressbar" aria-label="Заповненість '+escape(c.title)+'" aria-valuenow="'+percent+'" aria-valuemin="0" aria-valuemax="100"><div style="width:'+percent+'%"></div></div><b>'+percent+'%</b></div>'+(own?'<small class="muted">'+(c.isPublished?'Видно іншим користувачам':'Приховано від інших')+'</small>':'')+'</div>';
+  return '<div class="card sc-collection"><div class="sc-collection-top"><strong>'+escape(c.title)+'</strong>'+(own?'<button class="'+(c.isPublished?'alt':'btn')+'" data-sc="collection-visibility" data-id="'+escape(c.folder_id)+'" aria-label="'+(c.isPublished?'Приховати':'Показати')+' колекцію '+escape(c.title)+'">'+(c.isPublished?'🔒 Приховати':'🌐 Показати')+'</button>':'')+'</div><div class="sc-collection-progress"><div class="bar" role="progressbar" aria-label="Заповненість '+escape(c.title)+'" aria-valuenow="'+percent+'" aria-valuemin="0" aria-valuemax="100"><div style="width:'+percent+'%"></div></div><b>'+percent+'%</b></div>'+(own?'<small class="muted">'+(c.remoteOnly?'Синхронізовано з іншого пристрою · ':'')+(c.isPublished?'Видно іншим користувачам':'Приховано від інших')+'</small>':'')+'</div>';
  }).join('');
- return '<section class="sc-collections-section"><div class="sc-collections-heading"><h3>▣ Колекції <span class="sc-collections-count">'+rows.length+'</span></h3><button type="button" class="alt sc-collections-toggle" data-sc="toggle-collections" aria-expanded="'+!!state.collectionsExpanded+'" aria-controls="scCollectionsContent">'+(state.collectionsExpanded?'▴ Згорнути':'▾ Показати колекції')+'</button></div><div id="scCollectionsContent" class="sc-collections-content"'+(!state.collectionsExpanded?' hidden':'')+'>'+(own?'<p class="muted">Тільки назви та шкали заповненості. Кожна колекція спочатку прихована — натисни «Показати», щоб дозволити іншим її бачити. Конкретні предмети залишаються приватними.</p>':'')+(rows.length?'<div class="sc-collections-grid">'+list+'</div>':'<div class="empty">'+(own?'Ще немає серій для відображення.':'Користувач поки не відкрив жодної колекції.')+'</div>')+'</div></section>';
+ return '<section class="sc-collections-section"><div class="sc-collections-heading"><h3>▣ Колекції <span class="sc-collections-count">'+rows.length+'</span></h3><button type="button" class="alt sc-collections-toggle" data-sc="toggle-collections" aria-expanded="'+!!state.collectionsExpanded+'" aria-controls="scCollectionsContent">'+(state.collectionsExpanded?'▴ Згорнути':'▾ Показати колекції')+'</button></div><div id="scCollectionsContent" class="sc-collections-content"'+(!state.collectionsExpanded?' hidden':'')+'>'+(own?'<p class="muted">Тільки назви та шкали заповненості. Видимість колекцій зберігається в акаунті й однакова на всіх пристроях. Опубліковані колекції з іншого пристрою показуються тут, навіть якщо їх немає в локальному списку. Конкретні предмети залишаються приватними.</p>':'')+(rows.length?'<div class="sc-collections-grid">'+list+'</div>':'<div class="empty">'+(own?'Ще немає серій для відображення.':'Користувач поки не відкрив жодної колекції.')+'</div>')+'</div></section>';
 }
 async function syncCollectionSummaries(){
  if(!state.id||!state.loaded||state.syncing)return;
@@ -94,7 +94,7 @@ async function syncCollectionSummaries(){
  try{
   for(const entry of published){
    const next=local.get(entry.folder_id);
-   if(!next){await api('collector_public_collections','user_id=eq.'+state.id+'&folder_id=eq.'+encodeURIComponent(entry.folder_id),'DELETE');continue}
+   if(!next)continue; // A different device may own this folder; never unpublish it during background refresh.
    if(next.title!==entry.title||next.total_count!==entry.total_count||next.owned_count!==entry.owned_count){
     await api('collector_public_collections','user_id=eq.'+state.id+'&folder_id=eq.'+encodeURIComponent(entry.folder_id),'PATCH',{title:next.title,total_count:next.total_count,owned_count:next.owned_count,updated_at:new Date().toISOString()});
    }
@@ -264,7 +264,7 @@ async function action(kind,id){
  }
   else if(kind==='collection-visibility'){
    if(state.person&&state.person!==state.id)throw Error('Керувати можна лише своїми колекціями.');
-   const entry=localCollectionSummaries().find(c=>c.folder_id===id);
+   const entry=localCollectionSummaries().find(c=>c.folder_id===id)||state.collectionSummaries.find(c=>c.user_id===state.id&&c.folder_id===id);
    if(!entry)throw Error('Колекцію не знайдено.');
    const published=state.collectionSummaries.some(c=>c.user_id===state.id&&c.folder_id===id);
    if(published){await api('collector_public_collections','user_id=eq.'+state.id+'&folder_id=eq.'+encodeURIComponent(id),'DELETE')}
