@@ -77,7 +77,7 @@
     try{
       const saved=JSON.parse(event.newValue||'null');
       if(saved?.refresh_token&&saved.refresh_token!==session?.refresh_token){
-        session=saved;remember=true;schedule();window.CollectorRefreshView?.();
+        session=saved;remember=true;schedule();window.CollectorRefreshView?.();window.CollectorCloud?.start?.();
       }else if(!saved&&remember){
         session=null;if(refreshTimer)clearTimeout(refreshTimer);window.CollectorSocial?.reset();
         window.CollectorCloud?.signedOut();window.CollectorRefreshView?.();
@@ -163,7 +163,7 @@
         if(mode==='recover'){mode='login';refresh();const n=get('authNotice');if(n)n.textContent='Пароль змінено. Тепер увійди.';return;}
         session={handle:result.handle,access_token:result.access_token,refresh_token:result.refresh_token,expires_at:result.expires_at};
         remember=get('authRemember')?.checked!==false;
-        persist();schedule();
+        persist();schedule();window.CollectorCloud?.start?.();
         if(Array.isArray(result.recovery_codes))recoveryCodes=result.recovery_codes;
         refresh();
       }catch(err){notice.textContent=String(err?.message||err);}
@@ -173,5 +173,5 @@
   window.CollectorCommunity={render,settingsSections,attach,getSession:()=>session,getAccessToken,signOut};
   // The main app may render the account route before this deferred module finishes loading.
   // Re-render the current account view immediately when auth is ready, without requiring a second tap.
-  queueMicrotask(()=>window.CollectorRefreshView?.());
+  queueMicrotask(()=>{window.CollectorRefreshView?.();window.CollectorCloud?.start?.()});
 })();
