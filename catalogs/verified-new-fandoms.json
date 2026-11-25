@@ -15285,10 +15285,12 @@
           "character": "Bloom",
           "variantKey": "winx:witty-toys:s8:spinning-enchantix:bloom",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/spinning-enchantix-bloom.jpg?resize=1000%2C1000&ssl=1",
           "description": "Season 8-style Winx Club Witty Toys Spinning Enchantix: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Source image opened and visually matched to exact edition, 2026-11-25"
         },
         {
           "name": "Winx Season 8 Style Spinning Enchantix — Flora",
@@ -15296,10 +15298,12 @@
           "character": "Flora",
           "variantKey": "winx:witty-toys:s8:spinning-enchantix:flora",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/spinning-enchantix-flora.jpg?resize=1000%2C1000&ssl=1",
           "description": "Season 8-style Winx Club Witty Toys Spinning Enchantix: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Source image opened and visually matched to exact edition, 2026-11-25"
         },
         {
           "name": "Winx Season 8 Style Spinning Enchantix — Stella",
@@ -15307,10 +15311,12 @@
           "character": "Stella",
           "variantKey": "winx:witty-toys:s8:spinning-enchantix:stella",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/spinning-enchantix-stella.jpg?resize=1000%2C1000&ssl=1",
           "description": "Season 8-style Winx Club Witty Toys Spinning Enchantix: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Source image opened and visually matched to exact edition, 2026-11-25"
         }
       ]
     },
