@@ -2750,7 +2750,12 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://thetoypool.com/bratz/details/brbbrwf/",
           "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPAuKAcsxNRLxbqq4hL74yfKtlIQGSpxURWfZN48wx7xg7clTRULc1uhbC0pLd3wn1PnhWmrus8tsJbFzJWI_SlMvDBA5uJzi2NDln0e47AMUWxzKP9cj1uhYIyAtm3EG7WClb-4ij0GUGEwGdMjBLU1qPyPyYVHnYKRjzS2Qpki9iCD47aPeW-rcGiuim/s135/Felicia-Runwayz-Bratz-Babyz-Doll-1.jpg",
-          "description": ""
+          "description": "",
+          "upc": "035051527701",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/bratz-babyz-felicia-runwayz-doll/",
+          "barcodeVerification": "Retail UPC corroborated by Media Expert GTIN and official Bratz SKU 527701; GS1 check digit validated.",
+          "barcodeNote": "Retail metadata; packaging barcode not independently inspected."
         },
         {
           "name": "Jade",
