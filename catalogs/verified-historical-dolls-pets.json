@@ -305,7 +305,12 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://thetoypool.com/bratz/details/brbbc/",
           "photo": "https://1.bp.blogspot.com/-IO0bM0zyKCo/ZYa55xvZaJI/AAAAAAACOAw/PsPwAroN-9gUe78-77lGLo5Mpl2kFetZACNcBGAsYHQ/s135/Cloe-Bratz-Babyz-Reproduction-Bratz-1.jpg",
-          "description": "Wave 1"
+          "description": "Wave 1",
+          "upc": "035051505563",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/bratz-babyz-cloe-with-angel-doll-pet/",
+          "barcodeVerification": "Retail listing identifies 2024 reproduction and character; GS1 check digit validated.",
+          "barcodeNote": "Retail metadata; packaging barcode not independently inspected."
         },
         {
           "name": "Jade",
@@ -313,7 +318,12 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://thetoypool.com/bratz/details/brbbj/",
           "photo": "https://1.bp.blogspot.com/-r9oWH4y1Cog/ZYa55ynrysI/AAAAAAACOAs/qsX_u_6b88IY0QWZcD6mN041YRKaWtLRgCNcBGAsYHQ/s135/Jade-Cloe-Bratz-Babyz-Reproduction-Bratz-1.jpg",
-          "description": "Wave 1"
+          "description": "Wave 1",
+          "upc": "035051505587",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/bratz-babyz-jade-with-kool-kat-doll-pet/",
+          "barcodeVerification": "Retail listing identifies 2024 reproduction and character; GS1 check digit validated.",
+          "barcodeNote": "Retail metadata; packaging barcode not independently inspected."
         },
         {
           "name": "Sasha",
@@ -321,7 +331,12 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://thetoypool.com/bratz/details/brbbs/",
           "photo": "https://1.bp.blogspot.com/-9IkKB9KMetU/ZYa56zZPOxI/AAAAAAACOA4/K5qgh2IljYYU4k6yaoLH2JrxN7T6UfczQCNcBGAsYHQ/s135/Sasha-Bratz-Babyz-Reproduction-Bratz-1.jpg",
-          "description": "Wave 1"
+          "description": "Wave 1",
+          "upc": "035051505594",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/bratz-babyz-sasha-10-inch-doll-pet/",
+          "barcodeVerification": "Retail listing identifies 2024 reproduction and character; GS1 check digit validated.",
+          "barcodeNote": "Retail metadata; packaging barcode not independently inspected."
         },
         {
           "name": "Yasmin",
@@ -337,7 +352,12 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://thetoypool.com/bratz/details/brbbf/",
           "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiODR5IHjqSj3PEFS1hk6GJGbT2IP5kNHFo3r2FQKJm6aMbN4z22zHTFeDFUO_4Xxla55UgaR6lMhVIqOgcb8bu-Lz3cKLZVy8ADJJBDXQenyP-3-4qsvZfpPnbE5qK4BIAYjMDp-q-8fl0XIKtdGZ60pmlbOqlmisISRJrsoIpvYrCmwvxE4iz_J-VW7ta/s135/Fianna-Bratz-Babyz-Reproduction-Bratz-1.jpg",
-          "description": "Wave 2"
+          "description": "Wave 2",
+          "upc": "035051511496",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/bratz-babyz-fianna-with-fragrance-the-butterfly-doll-pet/",
+          "barcodeVerification": "Retail listing identifies 2024 reproduction and character; GS1 check digit validated.",
+          "barcodeNote": "Retail metadata; packaging barcode not independently inspected."
         },
         {
           "name": "Meygan",
@@ -345,7 +365,12 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://thetoypool.com/bratz/details/brbbm/",
           "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEij2O3sTxA1wK6vNiAz0PcJChKj5F2picy-2JWeEvj9XWx-AXt8ilh20mA8f3ZI7PkFNgXpRyXM2NrEERdJOoEXfsUwwYZuH79pcvvIQeR5Qq8xJxyyvu3srMgeF_0qlP1rG_0Y6fKLo-Hxkk8RAo0n-FLnRvdCfrb4fxWrjh0FPSXepnF1t1UGPhNO5H4J/s135/Meygan-Bratz-Babyz-Reproduction-Bratz-1.jpg",
-          "description": "Wave 2"
+          "description": "Wave 2",
+          "upc": "035051511489",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/bratz-babyz-meygan-with-funky-fashion-monkey-doll-pet/",
+          "barcodeVerification": "Retail listing identifies 2024 reproduction and character; GS1 check digit validated.",
+          "barcodeNote": "Retail metadata; packaging barcode not independently inspected."
         }
       ]
     },
