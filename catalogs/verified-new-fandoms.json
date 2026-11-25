@@ -16428,6 +16428,402 @@
           "verificationStatus": "collector-list-confirmed; exact-photo-sku-barcode-pending"
         }
       ]
+    },
+    {
+      "name": "Bratz · Bratziez Bling Seriez — Variants",
+      "verified": true,
+      "completeness": "Manufacturer-confirmed variant lineup",
+      "source": "https://www.bratz.com/products/bratz-bratziez-bling-seriez-blind-box",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "💄 Bratz",
+      "count": 6,
+      "items": [
+        {
+          "name": "Angel",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-bling-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Pretty Princess",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-bling-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Bunny Boo",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-bling-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Kool Kat",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-bling-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Sugar",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-bling-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Spice",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-bling-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Bratz · Bratziez Iconz Bestiez — Variants",
+      "verified": true,
+      "completeness": "Manufacturer-confirmed variant lineup",
+      "source": "https://www.bratz.com/products/bratz-bratziez-iconz-bestiez-series-blind-box-collectible-plush-keychain",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "💄 Bratz",
+      "count": 6,
+      "items": [
+        {
+          "name": "Nevra — Queen B",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-iconz-bestiez-series-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Felicia — Glam Gecko",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-iconz-bestiez-series-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Meygan — Funky Fashion Monkey",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-iconz-bestiez-series-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Fianna — Fragrance",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-iconz-bestiez-series-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Dylan — The Fox",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-iconz-bestiez-series-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Dana — Sugar Shoes",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-iconz-bestiez-series-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Bratz · Bratziez Iconz — Variants",
+      "verified": true,
+      "completeness": "Manufacturer-confirmed variant lineup",
+      "source": "https://www.bratz.com/products/bratz-bratziez-iconz-seriez-blind-box-collectible-plush-keychain",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "💄 Bratz",
+      "count": 6,
+      "items": [
+        {
+          "name": "Angel",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-iconz-seriez-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Bunny Boo",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-iconz-seriez-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Kool Kat",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-iconz-seriez-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Pretty Princess",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-iconz-seriez-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Sugar",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-iconz-seriez-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Spice",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-iconz-seriez-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Bratz · Bratziez Sweetheartz — Variants",
+      "verified": true,
+      "completeness": "Manufacturer-confirmed variant lineup",
+      "source": "https://www.bratz.com/products/bratz-bratziez-sweetheartz-blind-box-collectible-plush-keychain",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "💄 Bratz",
+      "count": 4,
+      "items": [
+        {
+          "name": "Angel",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-sweetheartz-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Bunny Boo",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-sweetheartz-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Kool Kat",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-sweetheartz-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Pretty Princess",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-sweetheartz-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Bratz · Bratziez Tokyo a Go-Go — Variants",
+      "verified": true,
+      "completeness": "Manufacturer-confirmed variant lineup",
+      "source": "https://www.bratz.com/products/bratz-bratziez-tokyo-a-go-go-series-blind-box-collectible-plush-keychain",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "💄 Bratz",
+      "count": 6,
+      "items": [
+        {
+          "name": "Jade",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-tokyo-a-go-go-series-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Yasmin",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-tokyo-a-go-go-series-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Sasha",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-tokyo-a-go-go-series-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Fianna",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-tokyo-a-go-go-series-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Cloe",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-tokyo-a-go-go-series-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Eitan",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-tokyo-a-go-go-series-blind-box-collectible-plush-keychain",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Bratz · Bratziez Wintertime Wonderland — Variants",
+      "verified": true,
+      "completeness": "Manufacturer-confirmed variant lineup",
+      "source": "https://www.bratz.com/products/bratz-bratziez-wintertime-wonderland-seriez-blind-box",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "💄 Bratz",
+      "count": 6,
+      "items": [
+        {
+          "name": "Cloe",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-wintertime-wonderland-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Sasha",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-wintertime-wonderland-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Yasmin",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-wintertime-wonderland-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Jade",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-wintertime-wonderland-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Dana",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-wintertime-wonderland-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Dylan",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-wintertime-wonderland-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Bratz · Bratziez x Lisa — Variants",
+      "verified": true,
+      "completeness": "Manufacturer-confirmed variant lineup",
+      "source": "https://www.bratz.com/products/bratz-bratziez-x-lisa-seriez-blind-box",
+      "manufacturer": "MGA Entertainment",
+      "fandomKey": "bratz",
+      "group": "💄 Bratz",
+      "count": 5,
+      "items": [
+        {
+          "name": "Black camo",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-x-lisa-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Blue camo",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-x-lisa-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Sparkling silver",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-x-lisa-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "Black with chrome details",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-x-lisa-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        },
+        {
+          "name": "White fluffy",
+          "figureNumber": "",
+          "manufacturer": "MGA Entertainment",
+          "sourceUrl": "https://www.bratz.com/products/bratz-bratziez-x-lisa-seriez-blind-box",
+          "photo": "",
+          "description": "Individual collectible variant from the named random assortment; no individual barcode confirmed."
+        }
+      ]
     }
   ]
 }
