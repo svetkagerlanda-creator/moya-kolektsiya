@@ -1399,13 +1399,15 @@
           "manufacturer": "Mattel",
           "variantKey": "eah:retail-upc:887961244403",
           "sourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
-          "photo": "",
+          "photo": "https://media.entertainmentearth.com/assets/images/699d5b7521274140a4984c07d36ce8bdlg.jpg",
           "upc": "887961244403",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.upcitemdb.com/info-ever-after-high",
           "barcodeVerification": "UPCitemdb associates this exact product name and UPC-A; UPC-A check digit validated. Historical edition/wave still needs comparison against packaging.",
           "barcodeNote": "Retail product identification; do not infer missing wave, box variant or year from product title.",
-          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням."
+          "description": "EAN/UPC підтверджено в довіднику товарів. Варіант і рік випуску потребують звірки з пакуванням.",
+          "photoSourceUrl": "https://www.entertainmentearth.com/product/ever-after-high-apple-white-dragonrider-set/mtdkm76",
+          "photoVerification": "Exact product-page image opened and visually matched (2026-11-25)"
         },
         {
           "name": "Ever After High Dragon Games — Holly O'Hair",
@@ -1542,8 +1544,10 @@
           "figureNumber": "BBD52",
           "year": "2013",
           "sourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD52&siteid=27",
-          "photo": "",
-          "description": "Original First Chapter signature doll listed in Mattel product archive. Exact image and barcode pending."
+          "photo": "https://service.mattel.com/us/img/prod/110/bbd52_c_13_431.jpg",
+          "description": "Original First Chapter signature doll listed in Mattel product archive. Exact image and barcode pending.",
+          "photoSourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD52&siteid=27",
+          "photoVerification": "Exact product-page image opened and visually matched (2026-11-25)"
         },
         {
           "name": "Ever After High Briar Beauty Doll (2013)",
