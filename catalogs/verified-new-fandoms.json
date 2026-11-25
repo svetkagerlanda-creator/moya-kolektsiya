@@ -6064,7 +6064,7 @@
       "group": "🧚 Winx Club · Witty Toys Season 8 Style",
       "source": "https://dollect.net/database/winx-club-witty-toys-s8/",
       "verified": true,
-      "completeness": "verified-character-roster-photo-pending",
+      "completeness": "verified-character-roster-photo-complete",
       "notes": "Окрема форма обличчя Season 8. Не змішувати зі стилем New Witty. Не додавати невипущені прототипи.",
       "count": 6,
       "items": [
@@ -6074,10 +6074,12 @@
           "character": "Aisha",
           "variantKey": "winx:witty-toys:s8:cosmix-power:aisha",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/aisha-cosmix.jpg?resize=283%2C400&ssl=1",
           "description": "Season 8-style Winx Club Witty Toys Cosmix Power: Aisha. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-visually-checked; sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Source image opened and visually matched to exact edition, 2026-11-25"
         },
         {
           "name": "Winx Season 8 Style Cosmix Power — Bloom",
@@ -6085,10 +6087,12 @@
           "character": "Bloom",
           "variantKey": "winx:witty-toys:s8:cosmix-power:bloom",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/bloom-cosmix.jpg?resize=300%2C400&ssl=1",
           "description": "Season 8-style Winx Club Witty Toys Cosmix Power: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-visually-checked; sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Source image opened and visually matched to exact edition, 2026-11-25"
         },
         {
           "name": "Winx Season 8 Style Cosmix Power — Flora",
@@ -6096,10 +6100,12 @@
           "character": "Flora",
           "variantKey": "winx:witty-toys:s8:cosmix-power:flora",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/Flora-Cosmix.jpg?resize=270%2C400&ssl=1",
           "description": "Season 8-style Winx Club Witty Toys Cosmix Power: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-visually-checked; sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Source image opened and visually matched to exact edition, 2026-11-25"
         },
         {
           "name": "Winx Season 8 Style Cosmix Power — Musa",
@@ -6107,10 +6113,12 @@
           "character": "Musa",
           "variantKey": "winx:witty-toys:s8:cosmix-power:musa",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/musa-cosmix.jpg?resize=284%2C400&ssl=1",
           "description": "Season 8-style Winx Club Witty Toys Cosmix Power: Musa. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-visually-checked; sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Source image opened and visually matched to exact edition, 2026-11-25"
         },
         {
           "name": "Winx Season 8 Style Cosmix Power — Stella",
@@ -6118,10 +6126,12 @@
           "character": "Stella",
           "variantKey": "winx:witty-toys:s8:cosmix-power:stella",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/stella-cosmix.jpg?resize=311%2C400&ssl=1",
           "description": "Season 8-style Winx Club Witty Toys Cosmix Power: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-visually-checked; sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Source image opened and visually matched to exact edition, 2026-11-25"
         },
         {
           "name": "Winx Season 8 Style Cosmix Power — Tecna",
@@ -6129,10 +6139,12 @@
           "character": "Tecna",
           "variantKey": "winx:witty-toys:s8:cosmix-power:tecna",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/tecna-cosmix.jpg?resize=273%2C400&ssl=1",
           "description": "Season 8-style Winx Club Witty Toys Cosmix Power: Tecna. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-visually-checked; sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Source image opened and visually matched to exact edition, 2026-11-25"
         }
       ]
     },
