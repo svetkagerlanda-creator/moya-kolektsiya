@@ -1555,8 +1555,10 @@
           "figureNumber": "BBD53",
           "year": "2013",
           "sourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD53&siteid=27",
-          "photo": "",
-          "description": "Original First Chapter signature doll listed in Mattel product archive. Exact image and barcode pending."
+          "photo": "https://service.mattel.com/us/img/prod/110/bbd53_c_13_040.jpg",
+          "description": "Original First Chapter signature doll listed in Mattel product archive. Exact image and barcode pending.",
+          "photoSourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD53&siteid=27",
+          "photoVerification": "Exact product-page image opened and visually matched to named edition (2026-11-25)"
         },
         {
           "name": "Ever After High First Chapter Wave 1 2-pack Holly O'Hair | EAH Merch",
@@ -1844,8 +1846,10 @@
           "figureNumber": "BBD43",
           "year": "2013",
           "sourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD43&siteid=27",
-          "photo": "",
-          "description": "Original First Chapter signature doll listed in Mattel product archive. Exact image and barcode pending."
+          "photo": "https://service.mattel.com/us/img/prod/110/bbd43_c_13_015.jpg",
+          "description": "Original First Chapter signature doll listed in Mattel product archive. Exact image and barcode pending.",
+          "photoSourceUrl": "https://service.mattel.com/us/productDetail.aspx?prodno=BBD43&siteid=27",
+          "photoVerification": "Exact product-page image opened and visually matched to named edition (2026-11-25)"
         },
         {
           "name": "Ever After High Raven Queen Doll (2013)",
@@ -2679,13 +2683,15 @@
           "figureNumber": "JPD80",
           "variantKey": "monsterhigh:JPD80:194735406203",
           "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-carnival-frights-draculaura-doll/mtjpd80",
-          "photo": "",
+          "photo": "https://media.entertainmentearth.com/assets/images/db5eb0247ad743cfab880780b082fe7dlg.jpg",
           "upc": "194735406203",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-carnival-frights-draculaura-doll/mtjpd80",
           "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
           "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
-          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо.",
+          "photoSourceUrl": "https://www.entertainmentearth.com/product/monster-high-carnival-frights-draculaura-doll/mtjpd80",
+          "photoVerification": "Exact product-page image opened and visually matched to named edition (2026-11-25)"
         },
         {
           "name": "Carnival Frights Elissabat",
@@ -2693,13 +2699,15 @@
           "figureNumber": "JPD82",
           "variantKey": "monsterhigh:JPD82:194735406166",
           "sourceUrl": "https://www.entertainmentearth.com/product/monster-high-carnival-frights-elissabat-doll/mtjpd82",
-          "photo": "",
+          "photo": "https://media.entertainmentearth.com/assets/images/b2ba249286a84a54a729208af2d1b7e6lg.jpg",
           "upc": "194735406166",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.entertainmentearth.com/product/monster-high-carnival-frights-elissabat-doll/mtjpd82",
           "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
           "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
-          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо.",
+          "photoSourceUrl": "https://www.entertainmentearth.com/product/monster-high-carnival-frights-elissabat-doll/mtjpd82",
+          "photoVerification": "Exact product-page image opened and visually matched to named edition (2026-11-25)"
         }
       ]
     },
