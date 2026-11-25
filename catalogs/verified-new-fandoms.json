@@ -6153,10 +6153,12 @@
           "character": "Bloom",
           "variantKey": "winx:witty-toys:s8:crystal-sirenix:bloom",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
-          "description": "Season 8-style Winx Club Witty Toys Crystal Sirenix: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/03/bloomcrystalsirenix.jpg?resize=655%2C979&ssl=1",
+          "description": "Season 8-style Winx Club Witty Toys Crystal Sirenix: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual image visually checked; manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-visually-checked; sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Individual image opened and visually matched to Dollect Season 8 Crystal Sirenix character (2026-11-25)."
         },
         {
           "name": "Winx Season 8 Style Crystal Sirenix — Flora",
@@ -6164,10 +6166,12 @@
           "character": "Flora",
           "variantKey": "winx:witty-toys:s8:crystal-sirenix:flora",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
-          "description": "Season 8-style Winx Club Witty Toys Crystal Sirenix: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/cystal-sirenix-flora.jpg?resize=1000%2C1000&ssl=1",
+          "description": "Season 8-style Winx Club Witty Toys Crystal Sirenix: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual image visually checked; manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-visually-checked; sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Individual image opened and visually matched to Dollect Season 8 Crystal Sirenix character (2026-11-25)."
         },
         {
           "name": "Winx Season 8 Style Crystal Sirenix — Stella",
@@ -6175,10 +6179,12 @@
           "character": "Stella",
           "variantKey": "winx:witty-toys:s8:crystal-sirenix:stella",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
-          "description": "Season 8-style Winx Club Witty Toys Crystal Sirenix: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/crystal-sirenix-stella.jpg?resize=599%2C983&ssl=1",
+          "description": "Season 8-style Winx Club Witty Toys Crystal Sirenix: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual image visually checked; manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-visually-checked; sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Individual image opened and visually matched to Dollect Season 8 Crystal Sirenix character (2026-11-25)."
         }
       ]
     },
