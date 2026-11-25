@@ -2377,13 +2377,15 @@
           "figureNumber": "LPS-3PACK-1",
           "variantKey": "lps:LPS-3PACK-1:885561005578",
           "sourceUrl": "https://www.target.com/p/-/A-89253625",
-          "photo": "",
+          "photo": "https://target.scene7.com/is/image/Target/GUEST_d3ef9998-48e0-4a33-be40-64e3951fbe1c?fmt=pjpeg&hei=300&wid=300",
           "upc": "885561005578",
           "barcodeType": "UPC-A",
           "barcodeSourceUrl": "https://www.target.com/p/-/A-89253625",
           "barcodeVerification": "Product listing explicitly associates this item/assortment with UPC-A; GS1 check digit validated",
           "barcodeNote": "Product-level physical retail UPC, not manufacturer style number",
-          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо."
+          "description": "Штрихкод фізичного випуску. Фото потрібно звірити окремо.",
+          "photoSourceUrl": "https://www.target.com/p/-/A-89253625",
+          "photoVerification": "Source image opened and visually matched to exact edition or retail set, 2026-11-25"
         }
       ]
     },
@@ -3668,10 +3670,12 @@
           "character": "Bloom",
           "variantKey": "winx:witty-toys:s8:15th-anniversary:bloom",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
-          "description": "Season 8-style Winx Club Witty Toys 15th Anniversary: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/15-anniversary-bloom.jpg?resize=919%2C991&ssl=1",
+          "description": "Season 8-style Winx Club Witty Toys 15th Anniversary: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual photo visually checked; manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-visually-checked; sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Source image opened and visually matched to exact edition or retail set, 2026-11-25"
         }
       ]
     },
@@ -3729,10 +3733,12 @@
           "character": "Bloom",
           "variantKey": "winx:witty-toys:s8:autumn-glamour:bloom",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
-          "description": "Season 8-style Winx Club Witty Toys Autumn Glamour: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/autumn-bloom.jpg?resize=166%2C400&ssl=1",
+          "description": "Season 8-style Winx Club Witty Toys Autumn Glamour: Bloom. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual photo visually checked; manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-visually-checked; sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Source image opened and visually matched to exact edition or retail set, 2026-11-25"
         },
         {
           "name": "Winx Season 8 Style Autumn Glamour — Flora",
@@ -3740,10 +3746,12 @@
           "character": "Flora",
           "variantKey": "winx:witty-toys:s8:autumn-glamour:flora",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
-          "description": "Season 8-style Winx Club Witty Toys Autumn Glamour: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/autumn-flora.jpg?resize=138%2C400&ssl=1",
+          "description": "Season 8-style Winx Club Witty Toys Autumn Glamour: Flora. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual photo visually checked; manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-visually-checked; sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Source image opened and visually matched to exact edition or retail set, 2026-11-25"
         },
         {
           "name": "Winx Season 8 Style Autumn Glamour — Stella",
@@ -3751,10 +3759,12 @@
           "character": "Stella",
           "variantKey": "winx:witty-toys:s8:autumn-glamour:stella",
           "sourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
-          "photo": "",
-          "description": "Season 8-style Winx Club Witty Toys Autumn Glamour: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual retail photo, manufacturer SKU and EAN/UPC pending confirmation.",
+          "photo": "https://i0.wp.com/dollect.net/wp-content/uploads/2023/06/autumn-stella.jpg?resize=141%2C400&ssl=1",
+          "description": "Season 8-style Winx Club Witty Toys Autumn Glamour: Stella. Distinct S8 face-mold edition, not interchangeable with New Witty version. Individual photo visually checked; manufacturer SKU and EAN/UPC pending confirmation.",
           "sourceVerification": "Season 8 Style line roster in Dollect collector database; no edition-specific SKU, photo, or barcode inferred.",
-          "verificationStatus": "collector-roster-verified; photo-sku-barcode-pending"
+          "verificationStatus": "collector-roster-verified; photo-visually-checked; sku-barcode-pending",
+          "photoSourceUrl": "https://dollect.net/database/winx-club-witty-toys-s8/",
+          "photoVerification": "Source image opened and visually matched to exact edition or retail set, 2026-11-25"
         }
       ]
     },
