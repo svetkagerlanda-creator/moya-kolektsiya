@@ -344,7 +344,12 @@
           "manufacturer": "MGA Entertainment",
           "sourceUrl": "https://thetoypool.com/bratz/details/brbby/",
           "photo": "https://1.bp.blogspot.com/-GyaZA_Twl5M/ZYa57w1MygI/AAAAAAACOBA/DYS70J749d0NNAwa8ljySObUnbxcQsP0QCNcBGAsYHQ/s135/Yasmin-Bratz-Babyz-Reproduction-Bratz-1.jpg",
-          "description": "Wave 1"
+          "description": "Wave 1",
+          "upc": "035051505570",
+          "barcodeType": "UPC-A",
+          "barcodeSourceUrl": "https://toywiz.com/bratz-babyz-yasmin-with-pretty-princess-doll-pet/",
+          "barcodeVerification": "Retail listing identifies January 2024 reproduction and character; GS1 check digit validated.",
+          "barcodeNote": "Retail metadata; packaging barcode not independently inspected."
         },
         {
           "name": "Fianna",
